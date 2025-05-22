@@ -181,35 +181,7 @@ export default function Prerequisites() {
                         </div>
                       )}
                       
-                      {section.steps && (
-                        <div className="space-y-4">
-                          {section.steps.map((step, stepIndex) => (
-                            <div key={stepIndex}>
-                              <h3 className="font-medium text-white/80">{step.title}</h3>
-                              <ol className="list-decimal pl-5 mt-2 space-y-1">
-                                {step.items.map((item, itemIndex) => (
-                                  <li key={itemIndex} className="text-gray-300">{item}</li>
-                                ))}
-                              </ol>
-                            </div>
-                          ))}
-                        </div>
-                      )}
                       
-                      {section.platforms && (
-                        <div className="space-y-4">
-                          {section.platforms.map((platform, platformIndex) => (
-                            <div key={platformIndex}>
-                              <h3 className="font-medium text-white/80">{platform.name}</h3>
-                              <ol className="list-decimal pl-5 mt-2 space-y-1">
-                                {platform.steps.map((step, stepIndex) => (
-                                  <li key={stepIndex} className="text-gray-300">{step}</li>
-                                ))}
-                              </ol>
-                            </div>
-                          ))}
-                        </div>
-                      )}
                     </div>
                   </div>
                 ))}
