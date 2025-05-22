@@ -41,7 +41,7 @@ export default function VideoBackground() {
         className="absolute w-full h-full object-cover"
       >
         <source 
-          src="/video/timelapse.mp4" 
+          src="/video/thetimelapse.mp4" 
           type="video/mp4"
         />
       </video>
