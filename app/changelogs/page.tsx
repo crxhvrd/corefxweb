@@ -141,21 +141,7 @@ export default function Changelogs() {
               ))}
             </div>
 
-            {/* Social Links */}
-            <div className="mt-6">
-              <h2 className="text-xl font-semibold mb-4">Connect</h2>
-              <div className="flex items-center justify-center gap-4">
-                <a href="https://www.youtube.com/@CRXHVRD" className="bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300">
-                  <FaYoutube className="h-6 w-6" />
-                </a>
-                <a href="https://www.patreon.com/c/crxhvrd" className="bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300">
-                  <FaPatreon className="h-6 w-6" />
-                </a>
-                <a href="https://discord.gg/jK4SRmBqYt" className="bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300">
-                  <FaDiscord className="h-6 w-6" />
-                </a>
-              </div>
-            </div>
+           
 
           </div>
         </ScrollArea>

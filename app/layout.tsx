@@ -6,6 +6,7 @@ import NavBar from '@/components/NavBar';
 import Logo from '@/components/Logo';
 import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
+import SocialSidebar from '@/components/SocialSideBar'; // 👈 New import
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,7 +35,7 @@ export default function RootLayout({
 
         {/* Navigation Bar */}
         <div className="fixed top-0 left-0 w-full z-50">
-          <div className=" mx-auto px-8 py-8 flex justify-between items-center">
+          <div className="mx-auto px-8 py-8 flex justify-between items-center">
             {/* Left Logo - GIF */}
             <Logo
               imageUrl="/images/Beta.png"
@@ -45,13 +46,12 @@ export default function RootLayout({
             />
 
             <Logo
-              imageUrl="https://i.imgur.com/47LeW6H.png"
+              imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
               width={64}
               height={64}
               className="rounded"
             />
-
           </div>
         </div>
 
@@ -59,6 +59,9 @@ export default function RootLayout({
         <div className="fixed bottom-8 right-8 z-50">
           <NavBar />
         </div>
+
+        {/* Floating Social Sidebar Left Center */}
+        <SocialSidebar /> {/* 👈 Add this */}
 
         {/* Page Content */}
         {children}
