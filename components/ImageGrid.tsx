@@ -40,19 +40,21 @@ export default function ImageGrid() {
     const items = gridRef.current?.querySelectorAll('.fade-item');
     if (!items) return;
 
+    const animatedSet = new Set<Element>();
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && !animatedSet.has(entry.target)) {
             entry.target.classList.add('opacity-100', 'translate-y-0');
             entry.target.classList.remove('opacity-0', 'translate-y-10');
-          } else {
-            entry.target.classList.remove('opacity-100', 'translate-y-0');
-            entry.target.classList.add('opacity-0', 'translate-y-10');
+            animatedSet.add(entry.target); 
           }
         });
       },
-      { threshold: 0.1 }
+      {
+        threshold: 0.1,
+      }
     );
 
     items.forEach((item) => observer.observe(item));
