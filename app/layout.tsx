@@ -6,7 +6,7 @@ import NavBar from '@/components/NavBar';
 import Logo from '@/components/Logo';
 import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
-import SocialSidebar from '@/components/SocialSideBar'; // 👈 New import
+import SocialSidebar from '@/components/SocialSideBar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,16 +40,16 @@ export default function RootLayout({
             <Logo
               imageUrl="/images/Beta.png"
               alt="Animated Logo"
-              width={38}
-              height={38}
+              width={48}
+              height={48}
               circle={true}
             />
 
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
-              width={64}
-              height={64}
+              width={84}
+              height={84}
               className="rounded"
             />
           </div>
@@ -61,7 +61,30 @@ export default function RootLayout({
         </div>
 
         {/* Floating Social Sidebar Left Center */}
-        <SocialSidebar /> {/* 👈 Add this */}
+        <SocialSidebar />
+
+        {/* Floating Attribution Section */}
+      
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1">
+          <p>Copyright © Beta 2025. All rights reserved.</p>
+          <p>
+            Made by{' '}
+            <a
+              href="https://hrishiportv2.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative text-white"
+            >
+              <span className="group-hover:invisible transition-opacity duration-300">Hrishikesh</span>
+              <span className="absolute left-0 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
+                CyaINhxLL
+              </span>
+            </a>{' '}
+            with love
+          </p>
+        </div>
+
+
 
         {/* Page Content */}
         {children}

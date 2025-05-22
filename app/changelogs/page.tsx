@@ -52,7 +52,7 @@ export default function Changelogs() {
       <AnimatedBackground />
       <div className="container mx-auto px-8 flex gap-8">
         {/* Main Changelog Section */}
-        <ScrollArea className="flex-1 h-[calc(100vh-8rem)] bg-black/20 backdrop-blur-md rounded-lg p-8 text-white">
+        <ScrollArea className="flex-1 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg p-8 text-white">
           <div className="space-y-6" ref={ref}>
             <h1 className={`text-3xl font-bold transition-all duration-700 ${
               inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'

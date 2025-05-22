@@ -124,7 +124,7 @@ export default function Prerequisites() {
       <div className="container mx-auto px-8 flex gap-8">
         
         {/* Main Area */}
-        <ScrollArea className="flex-1 h-[calc(100vh-8rem)] bg-black/20 backdrop-blur-md rounded-lg">
+        <ScrollArea className="flex-1 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg">
           <div className="p-8">
             {/* Section Toggle */}
             <div className="flex space-x-2 mb-8">
