@@ -10,8 +10,8 @@ import SocialSidebar from '@/components/SocialSideBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'CoreFX - Immersive Experience',
-  description: 'An immersive visual experience with stunning animations',
+  title: 'CoreFX for Grand Theft Auto V',
+  description: 'Visual Overhaul',
   verification: {
     google: 'q1VFd5CuMhlxm-SiA9CXNLjEtkZVHH76FABplREUTY4',
   },
