@@ -64,8 +64,13 @@ export default function RootLayout({
         <SocialSidebar />
 
         {/* Floating Attribution Section */}
-      
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1">
+        <div
+          className="
+            fixed bottom-8 left-1/2 -translate-x-1/2
+            z-50 text-xs text-white text-center
+            space-y-1 opacity-50
+          "
+        >
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
@@ -73,9 +78,11 @@ export default function RootLayout({
               href="https://hrishiportv2.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative text-white"
+              className="group relative text-orange-500"
             >
-              <span className="group-hover:invisible transition-opacity duration-300">Hrishikesh</span>
+              <span className="group-hover:invisible transition-opacity duration-300">
+                Hrishikesh
+              </span>
               <span className="absolute left-0 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
                 CyaINhxLL
               </span>
@@ -83,8 +90,6 @@ export default function RootLayout({
             with love
           </p>
         </div>
-
-
 
         {/* Page Content */}
         {children}
