@@ -22,7 +22,7 @@ export default function ImageItem({ image }: ImageItemProps) {
     threshold: 0.2,
     triggerOnce: false
   });
-  
+
   return (
     <>
       <div 
@@ -45,23 +45,22 @@ export default function ImageItem({ image }: ImageItemProps) {
             height={image.height}
             className="w-full h-auto"
           />
-          
+
           <div className={`
             absolute inset-0 bg-gradient-to-t from-black/80 to-transparent
             flex items-end p-4 transition-all duration-300
             ${isHovered ? 'opacity-100' : 'opacity-0'}
           `}>
-            <p className="text-white font-medium group-hover:translate-y-0 translate-y-2 transition-transform duration-300">{image.alt}</p>
+            <p className="text-white font-medium group-hover:translate-y-0 translate-y-2 transition-transform duration-300">
+              {image.alt}
+            </p>
           </div>
         </div>
       </div>
 
       {showModal && (
         <ImageModal
-          src={image.src}
-          alt={image.alt}
-          width={image.width}
-          height={image.height}
+          image={{ src: image.src, alt: image.alt }}
           onClose={() => setShowModal(false)}
         />
       )}
