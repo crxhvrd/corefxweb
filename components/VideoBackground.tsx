@@ -41,7 +41,7 @@ export default function VideoBackground() {
         className="absolute w-full h-full object-cover"
       >
         <source 
-          src="/video/thetimelapse.mp4" 
+          src="https://cdn.jsdelivr.net/gh/sarma-hrishi/corefxvideo/111.mp4" 
           type="video/mp4"
         />
       </video>
