@@ -1,4 +1,3 @@
-// app/layout.tsx
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -35,8 +34,9 @@ export default function RootLayout({
 
         {/* Navigation Bar */}
         <div className="fixed top-0 left-0 w-full z-50">
-          <div className="mx-auto px-8 py-8 flex justify-between items-center">
-            {/* Left Logo - GIF */}
+          {/* Уменьшаем ширину контейнера, чтобы лого сдвинулись ближе друг к другу */}
+          <div className="mx-auto max-w-4xl px-8 py-8 flex justify-between items-center">
+            {/* GIF Logo */}
             <Logo
               imageUrl="/images/Beta.png"
               alt="Animated Logo"
@@ -45,6 +45,7 @@ export default function RootLayout({
               circle={true}
             />
 
+            {/* Static Logo */}
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
