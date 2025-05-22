@@ -34,8 +34,7 @@ export default function RootLayout({
 
         {/* Navigation Bar */}
         <div className="fixed top-0 left-0 w-full z-50">
-          {/* Уменьшаем ширину контейнера, чтобы лого сдвинулись ближе друг к другу */}
-          <div className="mx-auto max-w-4xl px-8 py-8 flex justify-between items-center">
+          <div className="mx-auto pl-[36px] pr-[36px] py-8 flex justify-between items-center">
             {/* GIF Logo */}
             <Logo
               imageUrl="/images/Beta.png"
