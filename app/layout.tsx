@@ -69,7 +69,7 @@ export default function RootLayout({
         <SocialSidebar />
 
         {/* Attribution Section */}
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1 px-2">
+        <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1 px-2">
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
