@@ -1,4 +1,3 @@
-// app/layout.tsx
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -12,8 +11,8 @@ import SocialSidebar from '@/components/SocialSideBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'CoreFX - Immersive Experience',
-  description: 'An immersive visual experience with stunning animations',
+  title: 'CoreFX for Grand Theft Auto V',
+  description: 'Visual Overhaul',
   verification: {
     google: 'q1VFd5CuMhlxm-SiA9CXNLjEtkZVHH76FABplREUTY4',
   },
@@ -45,6 +44,7 @@ export default function RootLayout({
               circle={true}
             />
 
+            {/* Static Logo */}
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
@@ -77,9 +77,11 @@ export default function RootLayout({
               href="https://hrishiportv2.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative text-white"
+              className="group relative text-orange-500"
             >
-              <span className="group-hover:invisible transition-opacity duration-300">Hrishikesh</span>
+              <span className="group-hover:invisible transition-opacity duration-300">
+                Hrishikesh
+              </span>
               <span className="absolute left-0 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
                 CyaINhxLL
               </span>
