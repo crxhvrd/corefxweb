@@ -1,4 +1,3 @@
-// app/layout.tsx
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -11,8 +10,8 @@ import SocialSidebar from '@/components/SocialSideBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'CoreFX - Immersive Experience',
-  description: 'An immersive visual experience with stunning animations',
+  title: 'CoreFX for Grand Theft Auto V',
+  description: 'Visual Overhaul',
   verification: {
     google: 'q1VFd5CuMhlxm-SiA9CXNLjEtkZVHH76FABplREUTY4',
   },
@@ -35,8 +34,8 @@ export default function RootLayout({
 
         {/* Navigation Bar */}
         <div className="fixed top-0 left-0 w-full z-50">
-          <div className="mx-auto px-8 py-8 flex justify-between items-center">
-            {/* Left Logo - GIF */}
+          <div className="mx-auto pl-[45px] pr-[45px] py-8 flex justify-between items-center">
+            {/* GIF Logo */}
             <Logo
               imageUrl="/images/Beta.png"
               alt="Animated Logo"
@@ -45,6 +44,7 @@ export default function RootLayout({
               circle={true}
             />
 
+            {/* Static Logo */}
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
@@ -64,8 +64,13 @@ export default function RootLayout({
         <SocialSidebar />
 
         {/* Floating Attribution Section */}
-      
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1">
+        <div
+          className="
+            fixed bottom-8 left-1/2 -translate-x-1/2
+            z-50 text-xs text-white text-center
+            space-y-1 opacity-50
+          "
+        >
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
@@ -73,9 +78,11 @@ export default function RootLayout({
               href="https://hrishiportv2.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative text-white"
+              className="group relative text-orange-500"
             >
-              <span className="group-hover:invisible transition-opacity duration-300">Hrishikesh</span>
+              <span className="group-hover:invisible transition-opacity duration-300">
+                Hrishikesh
+              </span>
               <span className="absolute left-0 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
                 CyaINhxLL
               </span>
@@ -83,8 +90,6 @@ export default function RootLayout({
             with love
           </p>
         </div>
-
-
 
         {/* Page Content */}
         {children}
