@@ -50,13 +50,15 @@ export default function Changelogs() {
   return (
     <main className="min-h-screen pt-24">
       <AnimatedBackground />
-      <div className="container mx-auto px-8 flex gap-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
         {/* Main Changelog Section */}
-        <ScrollArea className="flex-1 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg p-8 text-white">
+        <ScrollArea className="flex-1 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg p-4 sm:p-6 md:p-8 text-white">
           <div className="space-y-6" ref={ref}>
-            <h1 className={`text-3xl font-bold transition-all duration-700 ${
+            <h1 className={`text-2xl sm:text-3xl font-bold transition-all duration-700 ${
               inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
-            }`}>Changelog</h1>
+            }`}>
+              Changelog
+            </h1>
 
             {changelogs.map((log, index) => (
               <div 
@@ -66,11 +68,12 @@ export default function Changelogs() {
                   inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                 }`}
               >
-                <h3 className="text-xl font-semibold">
+                <h3 className="text-lg sm:text-xl font-semibold">
                   {log.version} — {log.date}
                 </h3>
 
-                <div className="relative w-full h-[400px]  rounded-lg overflow-hidden">
+                {/* Main Image */}
+                <div className="relative w-full h-64 sm:h-80 md:h-[400px] rounded-lg overflow-hidden">
                   <Image
                     src={mainImages[log.version]}
                     alt="Main Preview"
@@ -80,15 +83,14 @@ export default function Changelogs() {
                     sizes="(max-width: 768px) 100vw, 800px"
                     priority={index === 0}
                   />
-
                 </div>
 
                 {/* Thumbnails */}
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                   {log.images.map((url, idx) => (
                     <div
                       key={idx}
-                      className={`w-20 h-20 relative rounded-lg cursor-pointer border-2 transition ${
+                      className={`w-16 h-16 sm:w-20 sm:h-20 relative rounded-lg cursor-pointer border-2 transition ${
                         mainImages[log.version] === url ? 'border-white' : 'border-transparent'
                       }`}
                       onClick={() =>
@@ -110,9 +112,10 @@ export default function Changelogs() {
                     </div>
                   ))}
                 </div>
-                {/* Change list */}
+
+                {/* Change List */}
                 <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                  {log.changes.map((change: string, idx: number) => (
+                  {log.changes.map((change, idx) => (
                     <li key={idx}>{change}</li>
                   ))}
                 </ul>
@@ -121,10 +124,10 @@ export default function Changelogs() {
           </div>
         </ScrollArea>
 
-        {/* Sidebar (Index + Socials) */}
-        <ScrollArea className="w-80 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg">
-          <div className="p-6">
-            <h2 className="text-xl font-semibold mb-4">Index</h2>
+        {/* Sidebar */}
+        <ScrollArea className="w-full lg:w-80 h-[calc(100vh-12rem)] bg-black/20 backdrop-blur-md rounded-lg">
+          <div className="p-4 sm:p-6">
+            <h2 className="text-lg sm:text-xl font-semibold mb-4">Index</h2>
             <div className="space-y-2">
               {changelogs.map((log) => (
                 <button
@@ -140,9 +143,6 @@ export default function Changelogs() {
                 </button>
               ))}
             </div>
-
-           
-
           </div>
         </ScrollArea>
       </div>

@@ -3,6 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import NavBar from '@/components/NavBar';
+import MobileNav from '@/components/MobileNav'; // ✅ New mobile nav
 import Logo from '@/components/Logo';
 import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
@@ -33,10 +34,9 @@ export default function RootLayout({
           <VideoBackground />
         </div>
 
-        {/* Navigation Bar */}
+        {/* Top Logo and Branding */}
         <div className="fixed top-0 left-0 w-full z-50">
-          <div className="mx-auto px-8 py-8 flex justify-between items-center">
-            {/* Left Logo - GIF */}
+          <div className="mx-auto px-4 sm:px-8 py-6 sm:py-8 flex justify-between items-center">
             <Logo
               imageUrl="/images/Beta.png"
               alt="Animated Logo"
@@ -48,24 +48,28 @@ export default function RootLayout({
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
-              width={84}
-              height={84}
+              width={72}
+              height={72}
               className="rounded"
             />
           </div>
         </div>
 
-        {/* Floating NavBar Bottom Right */}
-        <div className="fixed bottom-8 right-8 z-50">
+        {/* Desktop NavBar - Bottom Right */}
+        <div className="fixed bottom-8 right-8 z-50 hidden md:block">
           <NavBar />
         </div>
 
-        {/* Floating Social Sidebar Left Center */}
+        {/* Mobile Nav - Bottom Right trigger, slides in from right */}
+        <div className="fixed bottom-4 right-4 z-50 md:hidden">
+          <MobileNav />
+        </div>
+
+        {/* Social Sidebar */}
         <SocialSidebar />
 
-        {/* Floating Attribution Section */}
-      
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1">
+        {/* Attribution Section */}
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1 px-2">
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
@@ -84,9 +88,7 @@ export default function RootLayout({
           </p>
         </div>
 
-
-
-        {/* Page Content */}
+        {/* Main Page Content */}
         {children}
       </body>
     </html>
