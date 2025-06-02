@@ -69,7 +69,7 @@ export default function RootLayout({
         <SocialSidebar />
 
         {/* Attribution Section */}
-        <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-sm text-white text-center space-y-1 px-2">
+        <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-xs text-white opacity-60 text-center space-y-1 px-2"> {/* Изменения здесь */}
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
@@ -77,7 +77,7 @@ export default function RootLayout({
               href="https://hrishiportv2.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative text-orange-500"
+              className="group relative text-orange-500 hover:opacity-100" // Добавил hover:opacity-100 для ссылки, если хотите, чтобы она становилась менее прозрачной при наведении
             >
               <span className="group-hover:invisible transition-opacity duration-300">
                 Hrishikesh
