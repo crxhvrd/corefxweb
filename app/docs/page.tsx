@@ -193,99 +193,173 @@ export default function Prerequisites() {
 
                 <div className="bg-black/30 p-6 rounded-lg space-y-4">
                   {activeInstallTab === 'singleplayer' && (
-                    <>
-                      <h2 className="text-xl font-semibold">Legacy Singleplayer Installation</h2>
-                      <ul className="space-y-2 text-gray-300 list-disc pl-5">
-                        <li><strong>Before Installing:</strong>
-                          <ol className="list-decimal pl-5">
-                            <li>Add <code>-noBattlEye</code> to your game launcher&apos;s parameters.</li>
+                    <div className="install-block">
+                      <h4>Legacy Singleplayer Installation</h4>
+                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                        <li>
+                          <strong>Before Installing:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Add <code>-noBattlEye</code> to your game launcher's parameters.</li>
                           </ol>
                         </li>
-                        <li><strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5">
+                        <li>
+                          <strong>Installing CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
                             <li>Open <code>InstallCoreFX.oiv</code> using OpenIV.</li>
-                            <li>Install into the <em>mods</em> folder.</li>
-                            <li>Install the <strong>Old game build compatibility patch</strong> if needed.</li>
-                            <li>Set in-game brightness to 40-50%.</li>
+                            <li>Follow the on-screen prompts to install the mod into the <em>mods</em> folder.</li>
+                            <li>If on an older game build, install the <strong>Old game build compatibility patch</strong> from the <em>Optionals</em> folder.</li>
+                            <li>Launch GTA V and set in-game brightness to 40-50%.</li>
                           </ol>
                         </li>
-                        <li><strong>Uninstalling CoreFX:</strong>
-                          <ol className="list-decimal pl-5">
-                            <li>Open <code>UninstallCoreFX.oiv</code>.</li>
-                            <li>Reinstall original files.</li>
+                        <li>
+                          <strong>Uninstalling CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Open <code>UninstallCoreFX.oiv</code> using OpenIV.</li>
+                            <li>Reinstall original files in the <em>mods</em> folder.</li>
                           </ol>
                         </li>
-                        <li><strong>Installing CoreENB:</strong>
-                          <ol className="list-decimal pl-5">
-                            <li>Remove old ENBSeries and leftovers.</li>
-                            <li>Choose <strong>ENB Quality</strong> or <strong>ENB Performance</strong>.</li>
-                            <li>Copy files to GTA V root.</li>
-                            <li>Set PostFX and Shader Quality to Ultra, DirectX 11.</li>
+                        <li>
+                          <strong>Installing CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove old ENBSeries and all leftovers that can cause graphical bugs. Choose either <strong>ENB Quality</strong> or <strong>ENB Performance</strong> from the downloaded <code>CoreENB</code> folder.</li>
+                            <li>Copy files to your GTA V root directory.</li>
+                            <li>Set PostFX and Shader Quality to Ultra and use DirectX 11.</li>
                           </ol>
                         </li>
-                        <li><strong>Uninstalling CoreENB:</strong>
-                          <ol className="list-decimal pl-5">
-                            <li>Remove all ENB files.</li>
+                        <li>
+                          <strong>Uninstalling CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove all ENB files from your GTA V folder.</li>
                             <li>Restart the game.</li>
                           </ol>
                         </li>
                       </ul>
-                    </>
+                    </div>
                   )}
 
                   {activeInstallTab === 'enhanced' && (
-                    <>
-                      <h2 className="text-xl font-semibold">Enhanced Singleplayer Installation</h2>
-                      <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                        <li>Remove the old <code>dsound.dll</code> from your game directory.</li>
-                        <li>Add <code>-noBattlEye</code> to your launch options.</li>
-                        <li>Download and install ScriptHookV and OpenRPF.asi.</li>
-                        <li>Copy all files from the CoreFX folder to your Enhanced directory.</li>
-                        <li>Set brightness to 50% and enjoy CoreFX.</li>
-                        <li>To install Streetlights optionals, copy the <code>mods</code> folder into your directory.</li>
-                      </ol>
-                    </>
+                    <div className="install-block">
+                      <h4>Enhanced Singleplayer Installation</h4>
+                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                        <li>
+                          <strong>Before Installing:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove the old <code>dsound.dll</code> from your game directory.</li>
+                            <li>Disable BattlEye Anticheat by adding <code>-noBattlEye</code> to your launch options.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Installing CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Download and install ScriptHookV and OpenRPF.asi for GTA 5 Enhanced.</li>
+                            <li>Copy all files from the CoreFX folder into your main GTA 5 Enhanced directory.</li>
+                            <li>Launch the game, set brightness to 50%, and enjoy CoreFX.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>How To Install Streetlights Optionals:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>After installing the main CoreFX Package, copy the <code>mods</code> folder into your GTA 5 Enhanced directory.</li>
+                            <li>No further actions are required – just launch your game and enjoy.</li>
+                          </ol>
+                        </li>
+                      </ul>
+                    </div>
                   )}
 
                   {activeInstallTab === 'fivem' && (
-                    <>
-                      <h2 className="text-xl font-semibold">Legacy FiveM Installation</h2>
-                      <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                        <li>Place <code>corefxPack.rpf</code> into FiveM Mods folder.</li>
-                        <li>Install old-build patch if needed.</li>
-                        <li>Set brightness to 40-50%.</li>
-                        <li>Remove old ENB files and select desired ENB preset.</li>
-                        <li>Copy plugin files to GTA V and FiveM directories.</li>
-                        <li>Set PostFX and Shader Quality to Ultra, DirectX 11.</li>
-                      </ol>
-                    </>
+                    <div className="install-block">
+                      <h4>Legacy FiveM Installation</h4>
+                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                        <li>
+                          <strong>Installing CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Locate <code>corefxPack.rpf</code> in the package.</li>
+                            <li>Place it into your FiveM Mods folder.</li>
+                            <li>If on an older game build, install the old-build patch from <em>Optionals</em>.</li>
+                            <li>Set in-game brightness to ~40-50%.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove <code>corefxPack.rpf</code> from your Mods folder.</li>
+                            <li>Restart FiveM.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Installing CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove old ENBSeries and all leftovers that can cause graphical bugs. Select either <strong>ENB Quality</strong> or <strong>ENB Performance</strong>.</li>
+                            <li>If applicable, copy the <code>Plugins</code> folder contents to your FiveM Plugins folder.</li>
+                            <li>Copy same files inside your GTA V root directory.</li>
+                            <li>Set PostFX and Shader Quality to Ultra and choose DirectX 11.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove all ENB files from your FiveM directories.</li>
+                            <li>Restart FiveM.</li>
+                          </ol>
+                        </li>
+                      </ul>
+                    </div>
                   )}
 
                   {activeInstallTab === 'fivem-server' && (
-                    <>
-                      <h2 className="text-xl font-semibold">Legacy FiveM ServerSide Installation</h2>
-                      <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                        <li>Place <code>[CoreFX]</code> folder in <code>resources</code>.</li>
-                        <li>Add <code>start CoreFX</code> to <code>server.cfg</code>.</li>
-                        <li>Edit <code>config.lua</code> for optionals.</li>
+                    <div className="install-block">
+                      <h4>Legacy FiveM ServerSide Installation</h4>
+                      <ol className="list-decimal pl-5 text-gray-300 space-y-1">
+                        <li>Place the <code>[CoreFX]</code> folder into the <code>resources</code> directory on your FiveM server.</li>
+                        <li>Edit your <code>server.cfg</code> file and add <code>start CoreFX</code>.</li>
+                        <li>For optionals, open <code>config.lua</code> in <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters to "true" as needed.</li>
                       </ol>
-                    </>
+                    </div>
                   )}
 
                   {activeInstallTab === 'ragemp' && (
-                    <>
-                      <h2 className="text-xl font-semibold">Legacy RageMP Installation</h2>
-                      <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                        <li>Remove <code>enbhelper.dll</code> if flagged by Easy Anti Cheat.</li>
-                        <li>Use one of two CoreFX install methods: update folder or user_resources.</li>
-                        <li>Set brightness to 40-50%.</li>
-                        <li>Install ENB preset and copy files except <code>enbhelper.dll</code>.</li>
-                        <li>Set PostFX and Shader Quality to Ultra, DirectX 11.</li>
-                      </ol>
-                    </>
+                    <div className="install-block">
+                      <h4>Legacy RageMP Installation</h4>
+                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                        <li>
+                          <strong>Before Installing:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>If flagged by Easy Anti Cheat, remove <code>enbhelper.dll</code>.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Installing CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li><strong>Method 1:</strong> Copy the <code>update</code> folder contents into your GTA V root directory.</li>
+                            <li><strong>Method 2:</strong> Copy the <code>user_resources</code> folder into your RageMP directory.</li>
+                            <li>Set in-game brightness to ~40-50%.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Restore original files via your game launcher (Method 1) or remove <code>user_resources</code> (Method 2).</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Installing CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove old ENBSeries and all leftovers that can cause graphical bugs. Choose either <strong>ENB Quality</strong> or <strong>ENB Performance</strong>.</li>
+                            <li>Copy files (except <code>enbhelper.dll</code>) to your RageMP directory.</li>
+                            <li>Set PostFX and Shader Quality to Ultra and use DirectX 11.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreENB:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>Remove all ENB files from your RageMP directory and restart the game.</li>
+                          </ol>
+                        </li>
+                      </ul>
+                    </div>
                   )}
                 </div>
-           
               </div>
             )}
           </div>
