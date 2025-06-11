@@ -82,7 +82,7 @@ const faqs = [
   {
     question: 'What if I experience crashes or instability?',
     answer:
-      'Refer to the Disclaimer section. Removing ENBSeries files, using older game builds, or running crash fixes (located in the Optionals folder) can help mitigate issues.'
+      'Refer to the Issues section. Removing ENBSeries files, using older game builds, or running crash fixes (located in the Optionals folder) can help mitigate issues.'
   },
   {
     question:
@@ -93,7 +93,7 @@ const faqs = [
   {
     question: 'Where can I find updates and support?',
     answer:
-      'Visit the Home page to access our social media links. From there, you can join our Discord server for further support.'
+      'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
   },
   {
     question: 'What are the SE Optionals and why should I consider them?',
@@ -129,7 +129,7 @@ const issues = [
     items: [
       {
         problem: 'Game crashes on startup after installing CoreENB.',
-        solution: 'CoreENB is no longer supported by CoreFX and Boris Vorontsov, installing it may cause crashes that are can not be fixed natively. Although you can try Crash Fixes in Optionals, there is no guarantee of them working.'
+        solution: 'CoreENB is no longer supported by CoreFX and Boris Vorontsov, installing it may cause crashes that are can not be fixed natively. Although you can try Crash Fixes in Optionals, there is no guarantee of them working. You may also downgrade your game to patch 2845 or older to fix all ENBSeries related issues but this may cause issues with other mods you have installed.'
       },
       {
         problem: 'I have issues running LSPDFR with CoreENB',
