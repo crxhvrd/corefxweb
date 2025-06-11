@@ -8,6 +8,8 @@ import { ChevronDown } from "lucide-react";
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useInView } from 'react-intersection-observer';
 
+/* ───────────────────────── DATA ───────────────────────── */
+
 const prerequisitesSections = [
   {
     title: 'Prerequisites',
@@ -54,7 +56,7 @@ const faqs = [
     answer: 'Yes, advanced graphical enhancements typically require additional GPU and CPU resources. However, an ENB Performance preset is available for lower-end systems which disables some of the most demanding effects.'
   },
   {
-    question: 'I don\'t like blur when moving camera (motion blur). How can I disable it?',
+    question: 'I do not like blur when moving camera (motion blur). How can I disable it?',
     answer: 'Usually can be disabled using the Disable Motion Blur optional. In FiveM ServerSide version you need to open timecycle_mods_1.xml and change 1.000 1.000 to 0.000 0.000. To disable motion blur in CoreFX for GTA 5 Enhanced, go to in-game graphics settings and turn down the Motion Blur parameter.'
   },
   {
@@ -99,9 +101,27 @@ const faqs = [
   }
 ];
 
+const issues = [
+  {
+    title: 'Known Issues',
+    items: [
+      {
+        problem: 'Game crashes on startup after installing CoreENB.',
+        solution: 'CoreENB is no longer supported by CoreFX and Boris Vorontsov, installing it may cause crashes that are can not be fixed natively. Although you can try Crash Fixes in Optionals, there is no guarantee of them working.'
+      },
+      {
+        problem: 'I have issues running LSPDFR with CoreENB',
+        solution: 'ENBSeries originally never had proper support for RagePluginHook and LSPDFR mods. The only known way to run ENB and LSPDFR is to launch game normally, load into the game, and then run RagePluginHook.exe.'
+      }
+    ]
+  }
+];
+
+/* ───────────────────────── COMPONENT ───────────────────────── */
+
 export default function Prerequisites() {
-  const [activeSection, setActiveSection] = useState('prerequisites');
-  const [activeInstallTab, setActiveInstallTab] = useState('singleplayer');
+  const [activeSection, setActiveSection] = useState<'prerequisites' | 'installation' | 'issues'>('prerequisites');
+  const [activeInstallTab, setActiveInstallTab] = useState<'singleplayer' | 'enhanced' | 'fivem' | 'fivem-server' | 'ragemp'>('singleplayer');
   const [openFaqs, setOpenFaqs] = useState<number[]>([]);
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
 
@@ -117,23 +137,32 @@ export default function Prerequisites() {
     <main className="min-h-screen pt-24">
       <AnimatedBackground />
       <div className="container mx-auto px-4 md:px-8 flex flex-col lg:flex-row gap-6 md:gap-8">
+        {/* ──────────────── LEFT PANE ──────────────── */}
         <ScrollArea className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-hidden">
           <div className="p-4 md:p-8">
+            {/* Section Tabs */}
             <div className="flex flex-wrap gap-2 mb-8">
-              {['prerequisites', 'installation'].map((tab) => (
+              {['prerequisites', 'installation', 'issues'].map((tab) => (
                 <button
                   key={tab}
-                  onClick={() => setActiveSection(tab)}
+                  onClick={() => setActiveSection(tab as 'prerequisites' | 'installation' | 'issues')}
                   className={`px-4 py-2 rounded-full transition-all text-sm md:text-base ${
                     activeSection === tab
                       ? 'bg-white/20 text-white'
                       : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                   }`}
-                >{tab === 'prerequisites' ? 'Prerequisites' : 'Installation'}</button>
+                >
+                  {{
+                    prerequisites: 'Prerequisites',
+                    installation: 'Installation',
+                    issues: 'Issues'
+                  }[tab]}
+                </button>
               ))}
             </div>
 
-            {activeSection === 'prerequisites' ? (
+            {/* ──────────────── PREREQUISITES ──────────────── */}
+            {activeSection === 'prerequisites' && (
               <div className="space-y-6" ref={ref}>
                 {prerequisitesSections.map((section, index) => (
                   <div
@@ -168,30 +197,39 @@ export default function Prerequisites() {
                   </div>
                 ))}
               </div>
-            ) : (
+            )}
+
+            {/* ──────────────── INSTALLATION ──────────────── */}
+            {activeSection === 'installation' && (
               <div className="space-y-6">
                 <h1 className="text-2xl md:text-3xl font-bold mb-4">Installation</h1>
+
+                {/* Install Tabs */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {['singleplayer', 'enhanced', 'fivem', 'fivem-server', 'ragemp'].map((tab) => (
                     <button
                       key={tab}
-                      onClick={() => setActiveInstallTab(tab)}
+                      onClick={() => setActiveInstallTab(tab as typeof activeInstallTab)}
                       className={`px-4 py-2 rounded-full text-sm transition-all ${
                         activeInstallTab === tab
                           ? 'bg-white/20 text-white'
                           : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                       }`}
-                    >{{
-                      singleplayer: 'Legacy Singleplayer',
-                      enhanced: 'Enhanced Singleplayer',
-                      fivem: 'Legacy FiveM',
-                      'fivem-server': 'Legacy FiveM ServerSide',
-                      ragemp: 'Legacy RageMP'
-                    }[tab]}</button>
+                    >
+                      {{
+                        singleplayer: 'Legacy Singleplayer',
+                        enhanced: 'Enhanced Singleplayer',
+                        fivem: 'Legacy FiveM',
+                        'fivem-server': 'Legacy FiveM ServerSide',
+                        ragemp: 'Legacy RageMP'
+                      }[tab as keyof typeof activeInstallTab]}
+                    </button>
                   ))}
                 </div>
 
+                {/* Install Content */}
                 <div className="bg-black/30 p-6 rounded-lg space-y-4">
+                  {/* Singleplayer */}
                   {activeInstallTab === 'singleplayer' && (
                     <div className="install-block">
                       <h4>Legacy Singleplayer Installation</h4>
@@ -237,6 +275,7 @@ export default function Prerequisites() {
                     </div>
                   )}
 
+                  {/* Enhanced Singleplayer */}
                   {activeInstallTab === 'enhanced' && (
                     <div className="install-block">
                       <h4>Enhanced Singleplayer Installation</h4>
@@ -267,6 +306,7 @@ export default function Prerequisites() {
                     </div>
                   )}
 
+                  {/* Legacy FiveM */}
                   {activeInstallTab === 'fivem' && (
                     <div className="install-block">
                       <h4>Legacy FiveM Installation</h4>
@@ -307,6 +347,7 @@ export default function Prerequisites() {
                     </div>
                   )}
 
+                  {/* FiveM ServerSide */}
                   {activeInstallTab === 'fivem-server' && (
                     <div className="install-block">
                       <h4>Legacy FiveM ServerSide Installation</h4>
@@ -318,6 +359,7 @@ export default function Prerequisites() {
                     </div>
                   )}
 
+                  {/* RageMP */}
                   {activeInstallTab === 'ragemp' && (
                     <div className="install-block">
                       <h4>Legacy RageMP Installation</h4>
@@ -362,9 +404,29 @@ export default function Prerequisites() {
                 </div>
               </div>
             )}
+
+            {/* ──────────────── ISSUES ──────────────── */}
+            {activeSection === 'issues' && (
+              <div className="space-y-6">
+                {issues.map((section, idx) => (
+                  <div key={idx} className="bg-black/30 rounded-lg p-4 md:p-6">
+                    <h2 className="text-xl font-semibold mb-4">{section.title}</h2>
+                    <ul className="space-y-4">
+                      {section.items.map((issue, i) => (
+                        <li key={i} className="bg-black/40 rounded-lg p-4">
+                          <h3 className="font-medium text-white/90">{issue.problem}</h3>
+                          <p className="text-gray-300 text-sm mt-2">{issue.solution}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </ScrollArea>
 
+        {/* ──────────────── RIGHT PANE (FAQ) ──────────────── */}
         <ScrollArea className="w-full lg:w-80 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg">
           <div className="p-4 md:p-6 flex flex-col">
             <h2 className="text-xl font-semibold mb-4">FAQs</h2>
