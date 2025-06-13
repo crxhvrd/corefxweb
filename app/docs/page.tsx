@@ -128,7 +128,7 @@ const issues = [
     title: 'Known Issues',
     items: [
       {
-        problem: 'Game crashes on startup after installing CoreENB.',
+        problem: 'Game crashes on startup after installing CoreENB',
         solution: 'CoreENB is no longer supported by CoreFX and Boris Vorontsov, installing it may cause crashes that are can not be fixed natively. Although you can try Crash Fixes in Optionals, there is no guarantee of them working. You may also downgrade your game to patch 2845 or older to fix all ENBSeries related issues but this may cause issues with other mods you have installed.'
       },
       {
