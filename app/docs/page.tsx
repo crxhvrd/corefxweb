@@ -67,7 +67,7 @@ const faqs = [
     question:
       "I don't like blur when moving camera (motion blur). How can I disable it?",
     answer:
-      'Usually can be disabled using the Disable Motion Blur optional. In FiveM ServerSide version you need to open timecycle_mods_1.xml and change 1.000 1.000 to 0.000 0.000. To disable motion blur in CoreFX for GTA 5 Enhanced, go to in-game graphics settings and turn down the Motion Blur parameter.'
+      'Can be disabled using the Disable Motion Blur optional. In FiveM ServerSide version you need to open timecycle_mods_1.xml and change <postfx_motionblurlength> to 0.000 0.000. GTA 5 Enhanced motion blur can be disabled directly in the game graphical settings.'
   },
   {
     question: 'I have graphical bugs and they disappear when I disable ENBSeries.',
