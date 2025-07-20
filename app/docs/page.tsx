@@ -8,7 +8,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger
 } from '@/components/ui/collapsible';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Plus } from 'lucide-react';
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useInView } from 'react-intersection-observer';
 
@@ -72,12 +72,12 @@ const faqs = [
   {
     question: 'I have graphical bugs and they disappear when I disable ENBSeries.',
     answer:
-      'This happens because of improper CoreENB installation. Please follow the CoreENB installation tutorial. Don’t forget to remove old ENBSeries from your game if you used one.'
+      'This happens because of improper CoreENB installation. Please follow the CoreENB installation tutorial. Do not forget to remove old ENBSeries from your game if you used one.'
   },
   {
     question: 'Can I use other mods with CoreFX?',
     answer:
-      'It is possible, but not all mods are compatible. Mods that significantly alter the game’s visuals (like major ENB tweaks or weather overhauls) may conflict with CoreFX. Texture replacement mods are generally safer to combine.'
+      'It is possible, but not all mods are compatible. Mods that significantly alter the visuals of the game (like major ENB tweaks or weather overhauls) may conflict with CoreFX. Texture replacement mods are generally safer to combine.'
   },
   {
     question: 'What if I experience crashes or instability?',
@@ -109,12 +109,12 @@ const faqs = [
   {
     question: "I don't like the default ENB lens flares. Can I disable or reduce them?",
     answer:
-      'Yes. Open the ENB menu (Shift + Enter), go to the enbbloom.fx tab and lower the “Glare” intensity. Then, in the enblens.fx tab, reduce the “StarLens” intensity.'
+      'Yes. Open the ENB menu (Shift + Enter), go to the enbbloom.fx tab and lower the "Glare" intensity. Then, in the enblens.fx tab, reduce the "StarLens" intensity.'
   },
   {
     question: 'Can I quickly change the color grading to suit my personal preferences?',
     answer:
-      'Yes, there are two main methods:\n\n• Color Preset in ENB Menu: open the ENB menu (Shift + Enter), go to the enbeffect.fx tab and adjust the “Color Preset” along with related parameters.\n• LUT Filters: CoreENB supports LUT filters located in the enbseries/LUTS folder. Each weather condition can have its own LUT plus a global LUT (lut_global.png). You can edit these PNGs to create custom color grading.'
+      'Yes, there are two main methods:\n\n• Color Preset in ENB Menu: open the ENB menu (Shift + Enter), go to the enbeffect.fx tab and adjust the "Color Preset" along with related parameters.\n• LUT Filters: CoreENB supports LUT filters located in the enbseries/LUTS folder. Each weather condition can have its own LUT plus a global LUT (lut_global.png). You can edit these PNGs to create custom color grading.'
   },
   {
     question: 'Does CoreFX run on FiveM servers with Pure Mode enabled?',
@@ -139,6 +139,79 @@ const issues = [
   }
 ];
 
+const comparisions = [
+  {
+    title: 'CoreFX with ENB and without ENB',
+    items: [
+      {
+        beforeImage: '/images/comparisons/comp1.jpg',
+        afterImage: '/images/comparisons/comp2.jpg',
+        beforeDescription: 'CoreFX without ENB',
+        afterDescription: 'CoreFX with ENB',
+        beforeAlt: 'CoreFX without ENB',
+        afterAlt: 'CoreFX with ENB'
+      }
+      // Add more comparison pairs here if needed
+    ]
+
+    
+  }
+];
+
+const whitestreetlights = [
+  {
+    title: 'White Streetlights',
+    items: [
+      {
+        image: '/images/comparisons/white-streetlights.webp',
+        description: 'White Streetlights',
+        alt: 'White Streetlights'
+      }
+    ]
+  }
+]
+
+const motionblur = [
+  {
+    title: 'Motion Blur',
+    items: [
+      {
+        image: '/images/comparisons/motion-blur.webp',
+        description: 'Motion Blur',
+        alt: 'Motion Blur'
+      }
+    ]
+  }
+]
+
+const corona =[
+  {
+    title: 'Corona',
+    items: [
+      {
+        image: '/images/comparisons/corona.webp',
+        description: 'Corona',
+        alt: 'Corona'
+      }
+    ]
+  }
+]
+
+const enb = [
+  {
+    title: 'ENB',
+    items: [
+      {
+        image: '/images/comparisons/enb.webp',
+        description: 'ENB',
+        alt: 'ENB'
+      }
+    ]
+  }
+]
+
+
+
 /* ──────────────── types & helpers ──────────────── */
 
 const installTabs = [
@@ -161,14 +234,16 @@ const installLabels: Record<InstallTab, string> = {
 /* ───────────────────────── COMPONENT ───────────────────────── */
 
 export default function Prerequisites() {
+
+  const [comparisonStates, setComparisonStates] = useState<{[key: string]: boolean}>({});
   const [activeSection, setActiveSection] = useState<
-    'prerequisites' | 'installation' | 'issues'
+    'prerequisites' | 'installation' | 'issues' | 'comparisions' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
     useState<InstallTab>('singleplayer');
-
   const [openFaqs, setOpenFaqs] = useState<number[]>([]);
+  const [showMoreOptions, setShowMoreOptions] = useState<boolean>(false);
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
 
   const toggleFaq = (idx: number) =>
@@ -184,31 +259,136 @@ export default function Prerequisites() {
         {/* ───────── LEFT PANE ───────── */}
         <ScrollArea className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-hidden">
           <div className="p-4 md:p-8">
-            {/* section switcher */}
-            <div className="flex flex-wrap gap-2 mb-8">
-              {(['prerequisites', 'installation', 'issues'] as const).map(
-                (tab) => (
-                  <button
-                    key={tab}
-                    onClick={() =>
-                      setActiveSection(
-                        tab as 'prerequisites' | 'installation' | 'issues'
-                      )
-                    }
-                    className={`px-4 py-2 rounded-full transition-all text-sm md:text-base ${
-                      activeSection === tab
-                        ? 'bg-white/20 text-white'
-                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+            {/* section switcher with expanding menu */}
+            <div className="flex items-center gap-2 mb-8 relative">
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => setActiveSection('prerequisites')}
+                  className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
+                    activeSection === 'prerequisites'
+                      ? 'bg-white/20 text-white'
+                      : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                  }`}
+                >
+                  Prerequisites
+                </button>
+                <button
+                  onClick={() => setActiveSection('installation')}
+                  className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
+                    activeSection === 'installation'
+                      ? 'bg-white/20 text-white'
+                      : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                  }`}
+                >
+                  Installation
+                </button>
+              </div>
+
+              {/* Expandable More Button */}
+              <div className="relative">
+                <button
+                  onClick={() => setShowMoreOptions(!showMoreOptions)}
+                  className="px-2 py-2 rounded-full text-sm md:text-base transition-all bg-black/30 text-gray-300 hover:bg-white hover:text-black h-10 w-10 flex items-center justify-center group"
+                >
+                  <Plus
+                    className={`h-4 w-4 transition-all duration-300 ${
+                      showMoreOptions ? 'rotate-45 scale-110' : 'group-hover:rotate-90'
                     }`}
-                  >
-                    {{
-                      prerequisites: 'Prerequisites',
-                      installation: 'Installation',
-                      issues: 'Issues'
-                    }[tab]}
-                  </button>
-                )
-              )}
+                  />
+                </button>
+
+                {/* Expanding Menu to the Right */}
+                <div
+                  className={`absolute left-full top-0 ml-2 transition-all duration-500 ease-in-out ${
+                    showMoreOptions
+                      ? 'opacity-100 translate-x-0 scale-100'
+                      : 'opacity-0 -translate-x-4 scale-95 pointer-events-none'
+                  }`}
+                >
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => {
+                        setActiveSection('issues');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'issues'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      Issues
+                    </button>
+                    <button
+                      onClick={() => {
+                        setActiveSection('comparisions');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'comparisions'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      Comparisions
+                    </button>
+                    <button
+                      onClick={() => {
+                        setActiveSection('whitestreetlights');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'whitestreetlights'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      White Streetlights
+                    </button>
+                    <button
+                      onClick={() => {
+                        setActiveSection('motionblur');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'motionblur'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      Motion Blur
+                    </button>
+                    <button
+                      onClick={() => {
+                        setActiveSection('corona');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'corona'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      Corona
+                    </button>
+                    <button
+                      onClick={() => {
+                        setActiveSection('enb');
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                        activeSection === 'enb'
+                          ? 'bg-white/20 text-white'
+                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                      }`}
+                    >
+                      ENB
+                    </button>
+                  </div>
+                </div>
+
+                {/* Background overlay when expanded (optional, for better UX) */}
+                {showMoreOptions && (
+                  <div
+                    className="fixed inset-0 z-[-1]"
+                    onClick={() => setShowMoreOptions(false)}
+                  />
+                )}
+              </div>
             </div>
 
             {/* ───────── PREREQUISITES ───────── */}
@@ -606,6 +786,207 @@ export default function Prerequisites() {
                           </h3>
                           <p className="text-gray-300 text-sm mt-2">
                             {issue.solution}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+
+
+            {/* Comparisions */}
+            {activeSection === 'comparisions' && (
+              <div className="space-y-6">
+                {comparisions.map((sec, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
+                  >
+                    <h2 className="text-xl font-semibold">{sec.title}</h2>
+                    <div className="space-y-4">
+                      {sec.items.map((comparison, i) => {
+                        const comparisonKey = `${idx}-${i}`;
+                        const isShowingAfter = comparisonStates[comparisonKey] || false;
+                        const currentImage = isShowingAfter ? comparison.afterImage : comparison.beforeImage;
+                        const currentDescription = isShowingAfter ? comparison.afterDescription : comparison.beforeDescription;
+                        const currentAlt = isShowingAfter ? comparison.afterAlt : comparison.beforeAlt;
+                        
+                        return (
+                          <div key={i} className="bg-black/40 rounded-lg p-4">
+                            <div 
+                              className="relative group cursor-pointer"
+                              onClick={() => {
+                                setComparisonStates(prev => ({
+                                  ...prev,
+                                  [comparisonKey]: !prev[comparisonKey]
+                                }));
+                              }}
+                            >
+                              <img
+                                src={currentImage}
+                                alt={currentAlt}
+                                className="w-full max-w-full h-auto object-contain rounded-lg mb-2 transition-all duration-300 hover:brightness-110"
+                                style={{ maxHeight: '70vh' }}
+                              />
+                              
+                              {/* Click indicator overlay */}
+                              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
+                                <div className="bg-black/70 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
+                                  Click to {isShowingAfter ? 'show before' : 'show after'}
+                                </div>
+                              </div>
+                              
+                              {/* Image state indicator */}
+                              <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-medium backdrop-blur-sm pointer-events-none">
+                                {isShowingAfter ? 'After' : 'Before'}
+                              </div>
+                            </div>
+                            
+                            <div className="flex items-center justify-between">
+                              <p className="text-gray-300 text-sm">
+                                {currentDescription}
+                              </p>
+                              
+                              {/* Toggle button */}
+                              <button
+                                onClick={() => {
+                                  setComparisonStates(prev => ({
+                                    ...prev,
+                                    [comparisonKey]: !prev[comparisonKey]
+                                  }));
+                                }}
+                                className="ml-4 px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs text-gray-300 transition-all duration-200 flex items-center gap-1"
+                              >
+                                <svg 
+                                  className="w-3 h-3" 
+                                  fill="none" 
+                                  stroke="currentColor" 
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    strokeWidth={2} 
+                                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m0-4l-4-4" 
+                                  />
+                                </svg>
+                                Switch
+                              </button>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* White Streetlights */}
+            {activeSection === 'whitestreetlights' && (
+              <div className="space-y-6">
+                {whitestreetlights.map((sec, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
+                  >
+                    <h2 className="text-xl font-semibold">{sec.title}</h2>
+                    <ul className="space-y-4">
+                      {sec.items.map((issue, i) => (
+                        <li key={i} className="bg-black/40 rounded-lg p-4">
+                          <img
+                            src={issue.image}
+                            alt={issue.alt}
+                            className="w-full h-auto rounded-lg mb-2"
+                          />
+                          <p className="text-gray-300 text-sm">
+                            {issue.description}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* MotionBlur */}
+            {activeSection === 'motionblur' && (
+              <div className="space-y-6">
+                {motionblur.map((sec, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
+                  >
+                    <h2 className="text-xl font-semibold">{sec.title}</h2>
+                    <ul className="space-y-4">
+                      {sec.items.map((issue, i) => (
+                        <li key={i} className="bg-black/40 rounded-lg p-4">
+                          <img
+                            src={issue.image}
+                            alt={issue.alt}
+                            className="w-full h-auto rounded-lg mb-2"
+                          />
+                          <p className="text-gray-300 text-sm">
+                            {issue.description}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Corona */}
+            {activeSection === 'corona' && (
+              <div className="space-y-6">
+                {corona.map((sec, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
+                  >
+                    <h2 className="text-xl font-semibold">{sec.title}</h2>
+                    <ul className="space-y-4">
+                      {sec.items.map((issue, i) => (
+                        <li key={i} className="bg-black/40 rounded-lg p-4">
+                          <img
+                            src={issue.image}
+                            alt={issue.alt}
+                            className="w-full h-auto rounded-lg mb-2"
+                          />
+                          <p className="text-gray-300 text-sm">
+                            {issue.description}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* ENB */}
+            {activeSection === 'enb' && (
+              <div className="space-y-6">
+                {enb.map((sec, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
+                  >
+                    <h2 className="text-xl font-semibold">{sec.title}</h2>
+                    <ul className="space-y-4">
+                      {sec.items.map((issue, i) => (
+                        <li key={i} className="bg-black/40 rounded-lg p-4">
+                          <img
+                            src={issue.image}
+                            alt={issue.alt}
+                            className="w-full h-auto rounded-lg mb-2"
+                          />
+                          <p className="text-gray-300 text-sm">
+                            {issue.description}
                           </p>
                         </li>
                       ))}
