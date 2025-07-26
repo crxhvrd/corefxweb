@@ -139,7 +139,7 @@ const issues = [
   }
 ];
 
-const comparisions = [
+const optionals = [
   {
     title: 'Brighter Emergency Lights',
     items: [
@@ -161,9 +161,12 @@ const whitestreetlights = [
     title: 'White Streetlights',
     items: [
       {
-        image: '/images/comparisons/white-streetlights.webp',
-        description: 'White Streetlights',
-        alt: 'White Streetlights'
+        beforeImage: 'https://i.imgur.com/LsQLajP.png',
+        afterImage: 'https://i.imgur.com/7mRA6kF.png',
+        beforeDescription: 'Default',
+        afterDescription: 'White Streetlights',
+        beforeAlt: 'Default',
+        afterAlt: 'White Streetlights'
       }
     ]
   }
@@ -174,7 +177,7 @@ const motionblur = [
     title: 'Motion Blur',
     items: [
       {
-        image: '/images/comparisons/motion-blur.webp',
+        image: '/images/Optionals/motion-blur.webp',
         description: 'Motion Blur',
         alt: 'Motion Blur'
       }
@@ -187,7 +190,7 @@ const corona =[
     title: 'Corona',
     items: [
       {
-        image: '/images/comparisons/corona.webp',
+        image: '/images/Optionals/corona.webp',
         description: 'Corona',
         alt: 'Corona'
       }
@@ -200,7 +203,7 @@ const enb = [
     title: 'ENB',
     items: [
       {
-        image: '/images/comparisons/enb.webp',
+        image: '/images/Optionals/enb.webp',
         description: 'ENB',
         alt: 'ENB'
       }
@@ -231,9 +234,9 @@ const installLabels: Record<InstallTab, string> = {
 
 export default function Prerequisites() {
 
-  const [comparisonStates, setComparisonStates] = useState<{[key: string]: boolean}>({});
+  const [Optionalstates, setOptionalstates] = useState<{[key: string]: boolean}>({});
   const [activeSection, setActiveSection] = useState<
-    'prerequisites' | 'installation' | 'issues' | 'comparisions' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
+    'prerequisites' | 'installation' | 'issues' | 'optionals' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
@@ -325,16 +328,16 @@ export default function Prerequisites() {
                     </button>
                     <button
                       onClick={() => {
-                        setActiveSection('comparisions');
+                        setActiveSection('Optionals');
                         setShowComparisonOptions(true); // Показываем под-меню
                       }}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'comparisions'
+                        activeSection === 'Optionals'
                           ? 'bg-white/20 text-white'
                           : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                       }`}
                     >
-                      Comparisons
+                      Optionals
                     </button>
                     
                     {/* ПОД-МЕНЮ СРАВНЕНИЙ (отображается условно) */}
@@ -808,10 +811,10 @@ export default function Prerequisites() {
             )}
 
 
-            {/* Comparisions */}
-            {activeSection === 'comparisions' && (
+            {/* Optionals */}
+            {activeSection === 'Optionals' && (
               <div className="space-y-6">
-                {comparisions.map((sec, idx) => (
+                {Optionals.map((sec, idx) => (
                   <div
                     key={idx}
                     className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
@@ -820,7 +823,7 @@ export default function Prerequisites() {
                     <div className="space-y-4">
                       {sec.items.map((comparison, i) => {
                         const comparisonKey = `${idx}-${i}`;
-                        const isShowingAfter = comparisonStates[comparisonKey] || false;
+                        const isShowingAfter = Optionalstates[comparisonKey] || false;
                         const currentImage = isShowingAfter ? comparison.afterImage : comparison.beforeImage;
                         const currentDescription = isShowingAfter ? comparison.afterDescription : comparison.beforeDescription;
                         const currentAlt = isShowingAfter ? comparison.afterAlt : comparison.beforeAlt;
@@ -830,7 +833,7 @@ export default function Prerequisites() {
                             <div 
                               className="relative group cursor-pointer"
                               onClick={() => {
-                                setComparisonStates(prev => ({
+                                setOptionalstates(prev => ({
                                   ...prev,
                                   [comparisonKey]: !prev[comparisonKey]
                                 }));
@@ -864,7 +867,7 @@ export default function Prerequisites() {
                               {/* Toggle button */}
                               <button
                                 onClick={() => {
-                                  setComparisonStates(prev => ({
+                                  setOptionalstates(prev => ({
                                     ...prev,
                                     [comparisonKey]: !prev[comparisonKey]
                                   }));
