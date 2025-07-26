@@ -141,15 +141,15 @@ const issues = [
 
 const comparisions = [
   {
-    title: 'Brighter Emergency Lights',
+    title: 'CoreFX with ENB and without ENB',
     items: [
       {
-        beforeImage: 'https://i.imgur.com/j621Tz6.png',
-        afterImage: 'https://i.imgur.com/9kXUQYi.png',
-        beforeDescription: 'Default',
-        afterDescription: 'Brighter Emergency Lights',
-        beforeAlt: 'Default',
-        afterAlt: 'Brighter Emergency Lights'
+        beforeImage: '/images/comparisons/comp1.jpg',
+        afterImage: '/images/comparisons/comp2.jpg',
+        beforeDescription: 'CoreFX without ENB',
+        afterDescription: 'CoreFX with ENB',
+        beforeAlt: 'CoreFX without ENB',
+        afterAlt: 'CoreFX with ENB'
       }
       // Add more comparison pairs here if needed
     ]
@@ -161,12 +161,48 @@ const whitestreetlights = [
     title: 'White Streetlights',
     items: [
       {
-        beforeImage: 'https://i.imgur.com/LsQLajP.png',
-        afterImage: 'https://i.imgur.com/7mRA6kF.png',
-        beforeDescription: 'Default',
-        afterDescription: 'White Streetlights',
-        beforeAlt: 'Default',
-        afterAlt: 'White Streetlights'
+        image: '/images/comparisons/white-streetlights.webp',
+        description: 'White Streetlights',
+        alt: 'White Streetlights'
+      }
+    ]
+  }
+]
+
+const motionblur = [
+  {
+    title: 'Motion Blur',
+    items: [
+      {
+        image: '/images/comparisons/motion-blur.webp',
+        description: 'Motion Blur',
+        alt: 'Motion Blur'
+      }
+    ]
+  }
+]
+
+const corona =[
+  {
+    title: 'Corona',
+    items: [
+      {
+        image: '/images/comparisons/corona.webp',
+        description: 'Corona',
+        alt: 'Corona'
+      }
+    ]
+  }
+]
+
+const enb = [
+  {
+    title: 'ENB',
+    items: [
+      {
+        image: '/images/comparisons/enb.webp',
+        description: 'ENB',
+        alt: 'ENB'
       }
     ]
   }
