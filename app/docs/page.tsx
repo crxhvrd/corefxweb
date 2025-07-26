@@ -153,8 +153,6 @@ const comparisions = [
       }
       // Add more comparison pairs here if needed
     ]
-
-    
   }
 ];
 
@@ -210,8 +208,6 @@ const enb = [
   }
 ]
 
-
-
 /* ──────────────── types & helpers ──────────────── */
 
 const installTabs = [
@@ -244,6 +240,7 @@ export default function Prerequisites() {
     useState<InstallTab>('singleplayer');
   const [openFaqs, setOpenFaqs] = useState<number[]>([]);
   const [showMoreOptions, setShowMoreOptions] = useState<boolean>(false);
+  const [showComparisonOptions, setShowComparisonOptions] = useState<boolean>(false); // Новое состояние для под-меню
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
 
   const toggleFaq = (idx: number) =>
@@ -263,7 +260,10 @@ export default function Prerequisites() {
             <div className="flex items-center gap-2 mb-8 relative">
               <div className="flex flex-wrap gap-2">
                 <button
-                  onClick={() => setActiveSection('prerequisites')}
+                  onClick={() => {
+                    setActiveSection('prerequisites');
+                    setShowComparisonOptions(false); // Скрываем под-меню
+                  }}
                   className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
                     activeSection === 'prerequisites'
                       ? 'bg-white/20 text-white'
@@ -273,7 +273,10 @@ export default function Prerequisites() {
                   Prerequisites
                 </button>
                 <button
-                  onClick={() => setActiveSection('installation')}
+                  onClick={() => {
+                    setActiveSection('installation');
+                    setShowComparisonOptions(false); // Скрываем под-меню
+                  }}
                   className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
                     activeSection === 'installation'
                       ? 'bg-white/20 text-white'
@@ -306,9 +309,11 @@ export default function Prerequisites() {
                   }`}
                 >
                   <div className="flex gap-2">
+                    {/* ОСНОВНЫЕ ДОПОЛНИТЕЛЬНЫЕ КНОПКИ */}
                     <button
                       onClick={() => {
                         setActiveSection('issues');
+                        setShowComparisonOptions(false); // Скрываем под-меню
                       }}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
                         activeSection === 'issues'
@@ -321,6 +326,7 @@ export default function Prerequisites() {
                     <button
                       onClick={() => {
                         setActiveSection('comparisions');
+                        setShowComparisonOptions(true); // Показываем под-меню
                       }}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
                         activeSection === 'comparisions'
@@ -328,56 +334,62 @@ export default function Prerequisites() {
                           : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                       }`}
                     >
-                      Comparisions
+                      Comparisons
                     </button>
-                    <button
-                      onClick={() => {
-                        setActiveSection('whitestreetlights');
-                      }}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'whitestreetlights'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
-                    >
-                      White Streetlights
-                    </button>
-                    <button
-                      onClick={() => {
-                        setActiveSection('motionblur');
-                      }}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'motionblur'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
-                    >
-                      Motion Blur
-                    </button>
-                    <button
-                      onClick={() => {
-                        setActiveSection('corona');
-                      }}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'corona'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
-                    >
-                      Corona
-                    </button>
-                    <button
-                      onClick={() => {
-                        setActiveSection('enb');
-                      }}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'enb'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
-                    >
-                      ENB
-                    </button>
+                    
+                    {/* ПОД-МЕНЮ СРАВНЕНИЙ (отображается условно) */}
+                    {showComparisonOptions && (
+                      <>
+                        <button
+                          onClick={() => {
+                            setActiveSection('whitestreetlights');
+                          }}
+                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                            activeSection === 'whitestreetlights'
+                              ? 'bg-white/20 text-white'
+                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                          }`}
+                        >
+                          White Streetlights
+                        </button>
+                        <button
+                          onClick={() => {
+                            setActiveSection('motionblur');
+                          }}
+                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                            activeSection === 'motionblur'
+                              ? 'bg-white/20 text-white'
+                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                          }`}
+                        >
+                          Motion Blur
+                        </button>
+                        <button
+                          onClick={() => {
+                            setActiveSection('corona');
+                          }}
+                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                            activeSection === 'corona'
+                              ? 'bg-white/20 text-white'
+                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                          }`}
+                        >
+                          Corona
+                        </button>
+                        <button
+                          onClick={() => {
+                            setActiveSection('enb');
+                          }}
+                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
+                            activeSection === 'enb'
+                              ? 'bg-white/20 text-white'
+                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                          }`}
+                        >
+                          ENB
+                        </button>
+                      </>
+                    )}
                   </div>
                 </div>
 
@@ -480,7 +492,7 @@ export default function Prerequisites() {
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
                               Add <code>-noBattlEye</code> to your game
-                              launcher&apos;s parameters.
+                              launcher's parameters.
                             </li>
                           </ol>
                         </li>
@@ -686,7 +698,7 @@ export default function Prerequisites() {
                         <li>
                           For optionals, open <code>config.lua</code> in{' '}
                           <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters
-                          to &quot;true&quot; as needed.
+                          to "true" as needed.
                         </li>
                       </ol>
                     </div>
