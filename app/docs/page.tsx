@@ -139,7 +139,7 @@ const issues = [
   }
 ];
 
-const optionals = [
+const comparisions = [
   {
     title: 'Brighter Emergency Lights',
     items: [
@@ -172,45 +172,6 @@ const whitestreetlights = [
   }
 ]
 
-const motionblur = [
-  {
-    title: 'Motion Blur',
-    items: [
-      {
-        image: '/images/Optionals/motion-blur.webp',
-        description: 'Motion Blur',
-        alt: 'Motion Blur'
-      }
-    ]
-  }
-]
-
-const corona =[
-  {
-    title: 'Corona',
-    items: [
-      {
-        image: '/images/Optionals/corona.webp',
-        description: 'Corona',
-        alt: 'Corona'
-      }
-    ]
-  }
-]
-
-const enb = [
-  {
-    title: 'ENB',
-    items: [
-      {
-        image: '/images/Optionals/enb.webp',
-        description: 'ENB',
-        alt: 'ENB'
-      }
-    ]
-  }
-]
-
 /* ──────────────── types & helpers ──────────────── */
 
 const installTabs = [
@@ -234,9 +195,9 @@ const installLabels: Record<InstallTab, string> = {
 
 export default function Prerequisites() {
 
-  const [Optionalstates, setOptionalstates] = useState<{[key: string]: boolean}>({});
+  const [comparisonStates, setComparisonStates] = useState<{[key: string]: boolean}>({});
   const [activeSection, setActiveSection] = useState<
-    'prerequisites' | 'installation' | 'issues' | 'optionals' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
+    'prerequisites' | 'installation' | 'issues' | 'comparisions' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
@@ -328,16 +289,16 @@ export default function Prerequisites() {
                     </button>
                     <button
                       onClick={() => {
-                        setActiveSection('Optionals');
+                        setActiveSection('comparisions');
                         setShowComparisonOptions(true); // Показываем под-меню
                       }}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'Optionals'
+                        activeSection === 'comparisions'
                           ? 'bg-white/20 text-white'
                           : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                       }`}
                     >
-                      Optionals
+                      Comparisons
                     </button>
                     
                     {/* ПОД-МЕНЮ СРАВНЕНИЙ (отображается условно) */}
@@ -811,10 +772,10 @@ export default function Prerequisites() {
             )}
 
 
-            {/* Optionals */}
-            {activeSection === 'Optionals' && (
+            {/* Comparisions */}
+            {activeSection === 'comparisions' && (
               <div className="space-y-6">
-                {Optionals.map((sec, idx) => (
+                {comparisions.map((sec, idx) => (
                   <div
                     key={idx}
                     className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
@@ -823,7 +784,7 @@ export default function Prerequisites() {
                     <div className="space-y-4">
                       {sec.items.map((comparison, i) => {
                         const comparisonKey = `${idx}-${i}`;
-                        const isShowingAfter = Optionalstates[comparisonKey] || false;
+                        const isShowingAfter = comparisonStates[comparisonKey] || false;
                         const currentImage = isShowingAfter ? comparison.afterImage : comparison.beforeImage;
                         const currentDescription = isShowingAfter ? comparison.afterDescription : comparison.beforeDescription;
                         const currentAlt = isShowingAfter ? comparison.afterAlt : comparison.beforeAlt;
@@ -833,7 +794,7 @@ export default function Prerequisites() {
                             <div 
                               className="relative group cursor-pointer"
                               onClick={() => {
-                                setOptionalstates(prev => ({
+                                setComparisonStates(prev => ({
                                   ...prev,
                                   [comparisonKey]: !prev[comparisonKey]
                                 }));
@@ -867,7 +828,7 @@ export default function Prerequisites() {
                               {/* Toggle button */}
                               <button
                                 onClick={() => {
-                                  setOptionalstates(prev => ({
+                                  setComparisonStates(prev => ({
                                     ...prev,
                                     [comparisonKey]: !prev[comparisonKey]
                                   }));
