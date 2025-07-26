@@ -141,15 +141,15 @@ const issues = [
 
 const comparisions = [
   {
-    title: 'CoreFX with ENB and without ENB',
+    title: 'Brighter Emergency Lights',
     items: [
       {
-        beforeImage: '/images/comparisons/comp1.jpg',
-        afterImage: '/images/comparisons/comp2.jpg',
-        beforeDescription: 'CoreFX without ENB',
-        afterDescription: 'CoreFX with ENB',
-        beforeAlt: 'CoreFX without ENB',
-        afterAlt: 'CoreFX with ENB'
+        beforeImage: 'https://i.imgur.com/j621Tz6.png',
+        afterImage: 'https://i.imgur.com/9kXUQYi.png',
+        beforeDescription: 'Default',
+        afterDescription: 'Brighter Emergency Lights',
+        beforeAlt: 'Default',
+        afterAlt: 'Brighter Emergency Lights'
       }
       // Add more comparison pairs here if needed
     ]
