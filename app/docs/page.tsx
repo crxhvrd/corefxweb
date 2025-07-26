@@ -139,74 +139,47 @@ const issues = [
   }
 ];
 
-const comparisions = [
+// NEW UNIFIED COMPARISONS DATA
+const comparisons = [
   {
-    title: 'CoreFX with ENB and without ENB',
-    items: [
-      {
-        beforeImage: '/images/comparisons/comp1.jpg',
-        afterImage: '/images/comparisons/comp2.jpg',
-        beforeDescription: 'CoreFX without ENB',
-        afterDescription: 'CoreFX with ENB',
-        beforeAlt: 'CoreFX without ENB',
-        afterAlt: 'CoreFX with ENB'
-      }
-      // Add more comparison pairs here if needed
+    title: 'Motion Blur Comparison',
+    states: [
+      { image: 'https://i.imgur.com/ccHpwkW.png', description: 'Motion Blur 100% (Default)', alt: 'Motion Blur 100% (Default)' },
+      { image: 'https://i.imgur.com/fDBa9bd.png', description: 'Motion Blur 50%', alt: 'Motion Blur 50%' },
+      { image: 'https://i.imgur.com/Cxo94GM.png', description: 'No Motion Blur', alt: 'No Motion Blur' },
+    ]
+  },
+  {
+    title: 'Sun Flare Comparison',
+    states: [
+      { image: 'https://images2.imgbox.com/64/51/W9L1thCf_o.png', description: 'Default', alt: 'Default Sun Flare' },
+      { image: 'https://images2.imgbox.com/77/9e/DzzSEk4u_o.png', description: 'Star Lens Flare', alt: 'Star Lens Flare' },
+      { image: 'https://images2.imgbox.com/bf/05/qjJ8rNNF_o.png', description: 'Wide Lens Flare', alt: 'Wide Lens Flare' },
+    ]
+  },
+  {
+    title: 'White Streetlights vs Default',
+    states: [
+      { image: 'https://i.imgur.com/LsQLajP.png', description: 'Default', alt: 'Default Streetlights' },
+      { image: 'https://i.imgur.com/7mRA6kF.png', description: 'White Lights', alt: 'White Streetlights' },
+    ]
+  },
+  {
+    title: 'Coffee Streetlights vs Default',
+    states: [
+      { image: 'https://i.imgur.com/LsQLajP.png', description: 'Default', alt: 'Default Streetlights' },
+      { image: 'https://i.imgur.com/44uBPvc.png', description: 'Coffee Lights', alt: 'Coffee Streetlights' },
+    ]
+  },
+  {
+    title: 'Brighter Emergency Lights Comparison',
+    states: [
+      { image: 'https://i.imgur.com/j621Tz6.png', description: 'Default', alt: 'Default Emergency Lights' },
+      { image: 'https://i.imgur.com/9kXUQYi.png', description: 'Brighter Emergency Lights', alt: 'Brighter Emergency Lights' },
     ]
   }
 ];
 
-const whitestreetlights = [
-  {
-    title: 'White Streetlights',
-    items: [
-      {
-        image: '/images/comparisons/white-streetlights.webp',
-        description: 'White Streetlights',
-        alt: 'White Streetlights'
-      }
-    ]
-  }
-]
-
-const motionblur = [
-  {
-    title: 'Motion Blur',
-    items: [
-      {
-        image: '/images/comparisons/motion-blur.webp',
-        description: 'Motion Blur',
-        alt: 'Motion Blur'
-      }
-    ]
-  }
-]
-
-const corona =[
-  {
-    title: 'Corona',
-    items: [
-      {
-        image: '/images/comparisons/corona.webp',
-        description: 'Corona',
-        alt: 'Corona'
-      }
-    ]
-  }
-]
-
-const enb = [
-  {
-    title: 'ENB',
-    items: [
-      {
-        image: '/images/comparisons/enb.webp',
-        description: 'ENB',
-        alt: 'ENB'
-      }
-    ]
-  }
-]
 
 /* ──────────────── types & helpers ──────────────── */
 
@@ -231,22 +204,28 @@ const installLabels: Record<InstallTab, string> = {
 
 export default function Prerequisites() {
 
-  const [comparisonStates, setComparisonStates] = useState<{[key: string]: boolean}>({});
+  const [comparisonStates, setComparisonStates] = useState<{ [key: string]: number }>({});
   const [activeSection, setActiveSection] = useState<
-    'prerequisites' | 'installation' | 'issues' | 'comparisions' | 'whitestreetlights' | 'motionblur' | 'corona' | 'enb'
+    'prerequisites' | 'installation' | 'issues' | 'comparisons'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
     useState<InstallTab>('singleplayer');
   const [openFaqs, setOpenFaqs] = useState<number[]>([]);
   const [showMoreOptions, setShowMoreOptions] = useState<boolean>(false);
-  const [showComparisonOptions, setShowComparisonOptions] = useState<boolean>(false); // Новое состояние для под-меню
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
 
   const toggleFaq = (idx: number) =>
     setOpenFaqs((list) =>
       list.includes(idx) ? list.filter((i) => i !== idx) : [...list, idx]
     );
+
+  const handleSwitchComparison = (key: string, statesCount: number) => {
+    setComparisonStates(prev => ({
+      ...prev,
+      [key]: ((prev[key] || 0) + 1) % statesCount
+    }));
+  };
 
   return (
     <main className="min-h-screen pt-24">
@@ -260,10 +239,7 @@ export default function Prerequisites() {
             <div className="flex items-center gap-2 mb-8 relative">
               <div className="flex flex-wrap gap-2">
                 <button
-                  onClick={() => {
-                    setActiveSection('prerequisites');
-                    setShowComparisonOptions(false); // Скрываем под-меню
-                  }}
+                  onClick={() => setActiveSection('prerequisites')}
                   className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
                     activeSection === 'prerequisites'
                       ? 'bg-white/20 text-white'
@@ -273,10 +249,7 @@ export default function Prerequisites() {
                   Prerequisites
                 </button>
                 <button
-                  onClick={() => {
-                    setActiveSection('installation');
-                    setShowComparisonOptions(false); // Скрываем под-меню
-                  }}
+                  onClick={() => setActiveSection('installation')}
                   className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
                     activeSection === 'installation'
                       ? 'bg-white/20 text-white'
@@ -309,12 +282,8 @@ export default function Prerequisites() {
                   }`}
                 >
                   <div className="flex gap-2">
-                    {/* ОСНОВНЫЕ ДОПОЛНИТЕЛЬНЫЕ КНОПКИ */}
                     <button
-                      onClick={() => {
-                        setActiveSection('issues');
-                        setShowComparisonOptions(false); // Скрываем под-меню
-                      }}
+                      onClick={() => setActiveSection('issues')}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
                         activeSection === 'issues'
                           ? 'bg-white/20 text-white'
@@ -324,72 +293,15 @@ export default function Prerequisites() {
                       Issues
                     </button>
                     <button
-                      onClick={() => {
-                        setActiveSection('comparisions');
-                        setShowComparisonOptions(true); // Показываем под-меню
-                      }}
+                      onClick={() => setActiveSection('comparisons')}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'comparisions'
+                        activeSection === 'comparisons'
                           ? 'bg-white/20 text-white'
                           : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
                       }`}
                     >
                       Comparisons
                     </button>
-                    
-                    {/* ПОД-МЕНЮ СРАВНЕНИЙ (отображается условно) */}
-                    {showComparisonOptions && (
-                      <>
-                        <button
-                          onClick={() => {
-                            setActiveSection('whitestreetlights');
-                          }}
-                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                            activeSection === 'whitestreetlights'
-                              ? 'bg-white/20 text-white'
-                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                          }`}
-                        >
-                          White Streetlights
-                        </button>
-                        <button
-                          onClick={() => {
-                            setActiveSection('motionblur');
-                          }}
-                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                            activeSection === 'motionblur'
-                              ? 'bg-white/20 text-white'
-                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                          }`}
-                        >
-                          Motion Blur
-                        </button>
-                        <button
-                          onClick={() => {
-                            setActiveSection('corona');
-                          }}
-                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                            activeSection === 'corona'
-                              ? 'bg-white/20 text-white'
-                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                          }`}
-                        >
-                          Corona
-                        </button>
-                        <button
-                          onClick={() => {
-                            setActiveSection('enb');
-                          }}
-                          className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                            activeSection === 'enb'
-                              ? 'bg-white/20 text-white'
-                              : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                          }`}
-                        >
-                          ENB
-                        </button>
-                      </>
-                    )}
                   </div>
                 </div>
 
@@ -807,206 +719,76 @@ export default function Prerequisites() {
               </div>
             )}
 
-
-            {/* Comparisions */}
-            {activeSection === 'comparisions' && (
-              <div className="space-y-6">
-                {comparisions.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <div className="space-y-4">
-                      {sec.items.map((comparison, i) => {
-                        const comparisonKey = `${idx}-${i}`;
-                        const isShowingAfter = comparisonStates[comparisonKey] || false;
-                        const currentImage = isShowingAfter ? comparison.afterImage : comparison.beforeImage;
-                        const currentDescription = isShowingAfter ? comparison.afterDescription : comparison.beforeDescription;
-                        const currentAlt = isShowingAfter ? comparison.afterAlt : comparison.beforeAlt;
-                        
-                        return (
-                          <div key={i} className="bg-black/40 rounded-lg p-4">
-                            <div 
-                              className="relative group cursor-pointer"
-                              onClick={() => {
-                                setComparisonStates(prev => ({
-                                  ...prev,
-                                  [comparisonKey]: !prev[comparisonKey]
-                                }));
-                              }}
-                            >
-                              <img
-                                src={currentImage}
-                                alt={currentAlt}
-                                className="w-full max-w-full h-auto object-contain rounded-lg mb-2 transition-all duration-300 hover:brightness-110"
-                                style={{ maxHeight: '70vh' }}
-                              />
-                              
-                              {/* Click indicator overlay */}
-                              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
-                                <div className="bg-black/70 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
-                                  Click to {isShowingAfter ? 'show before' : 'show after'}
-                                </div>
-                              </div>
-                              
-                              {/* Image state indicator */}
-                              <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-medium backdrop-blur-sm pointer-events-none">
-                                {isShowingAfter ? 'After' : 'Before'}
-                              </div>
-                            </div>
-                            
-                            <div className="flex items-center justify-between">
-                              <p className="text-gray-300 text-sm">
-                                {currentDescription}
-                              </p>
-                              
-                              {/* Toggle button */}
-                              <button
-                                onClick={() => {
-                                  setComparisonStates(prev => ({
-                                    ...prev,
-                                    [comparisonKey]: !prev[comparisonKey]
-                                  }));
-                                }}
-                                className="ml-4 px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs text-gray-300 transition-all duration-200 flex items-center gap-1"
-                              >
-                                <svg 
-                                  className="w-3 h-3" 
-                                  fill="none" 
-                                  stroke="currentColor" 
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path 
-                                    strokeLinecap="round" 
-                                    strokeLinejoin="round" 
-                                    strokeWidth={2} 
-                                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m0-4l-4-4" 
-                                  />
-                                </svg>
-                                Switch
-                              </button>
+            {/* ───────── COMPARISONS ───────── */}
+            {activeSection === 'comparisons' && (
+              <div className="space-y-8">
+                {comparisons.map((comparison, idx) => {
+                  const comparisonKey = `comp-${idx}`;
+                  const currentIndex = comparisonStates[comparisonKey] || 0;
+                  const currentState = comparison.states[currentIndex];
+                  const statesCount = comparison.states.length;
+                  
+                  return (
+                    <div key={idx} className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4">
+                      <h2 className="text-xl font-semibold">{comparison.title}</h2>
+                      <div className="bg-black/40 rounded-lg p-4">
+                        <div
+                          className="relative group cursor-pointer"
+                          onClick={() => handleSwitchComparison(comparisonKey, statesCount)}
+                        >
+                          <img
+                            src={currentState.image}
+                            alt={currentState.alt}
+                            className="w-full max-w-full h-auto object-contain rounded-lg mb-2 transition-all duration-300 hover:brightness-110"
+                            style={{ maxHeight: '70vh' }}
+                          />
+                          
+                          {/* Click indicator overlay */}
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
+                            <div className="bg-black/70 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
+                              Click to switch
                             </div>
                           </div>
-                        );
-                      })}
+                          
+                          {/* Image state indicator */}
+                          <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-medium backdrop-blur-sm pointer-events-none">
+                            {currentIndex + 1} / {statesCount}
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-center justify-between mt-2">
+                          <p className="text-gray-300 text-sm">
+                            {currentState.description}
+                          </p>
+                          
+                          {/* Toggle button */}
+                          <button
+                            onClick={() => handleSwitchComparison(comparisonKey, statesCount)}
+                            className="ml-4 px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs text-gray-300 transition-all duration-200 flex items-center gap-1"
+                          >
+                            <svg 
+                              className="w-3 h-3" 
+                              fill="none" 
+                              stroke="currentColor" 
+                              viewBox="0 0 24 24"
+                            >
+                              <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m0-4l-4-4" 
+                              />
+                            </svg>
+                            Switch
+                          </button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
-
-            {/* White Streetlights */}
-            {activeSection === 'whitestreetlights' && (
-              <div className="space-y-6">
-                {whitestreetlights.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <ul className="space-y-4">
-                      {sec.items.map((issue, i) => (
-                        <li key={i} className="bg-black/40 rounded-lg p-4">
-                          <img
-                            src={issue.image}
-                            alt={issue.alt}
-                            className="w-full h-auto rounded-lg mb-2"
-                          />
-                          <p className="text-gray-300 text-sm">
-                            {issue.description}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* MotionBlur */}
-            {activeSection === 'motionblur' && (
-              <div className="space-y-6">
-                {motionblur.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <ul className="space-y-4">
-                      {sec.items.map((issue, i) => (
-                        <li key={i} className="bg-black/40 rounded-lg p-4">
-                          <img
-                            src={issue.image}
-                            alt={issue.alt}
-                            className="w-full h-auto rounded-lg mb-2"
-                          />
-                          <p className="text-gray-300 text-sm">
-                            {issue.description}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Corona */}
-            {activeSection === 'corona' && (
-              <div className="space-y-6">
-                {corona.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <ul className="space-y-4">
-                      {sec.items.map((issue, i) => (
-                        <li key={i} className="bg-black/40 rounded-lg p-4">
-                          <img
-                            src={issue.image}
-                            alt={issue.alt}
-                            className="w-full h-auto rounded-lg mb-2"
-                          />
-                          <p className="text-gray-300 text-sm">
-                            {issue.description}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* ENB */}
-            {activeSection === 'enb' && (
-              <div className="space-y-6">
-                {enb.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <ul className="space-y-4">
-                      {sec.items.map((issue, i) => (
-                        <li key={i} className="bg-black/40 rounded-lg p-4">
-                          <img
-                            src={issue.image}
-                            alt={issue.alt}
-                            className="w-full h-auto rounded-lg mb-2"
-                          />
-                          <p className="text-gray-300 text-sm">
-                            {issue.description}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
+            
           </div>
         </ScrollArea>
 
