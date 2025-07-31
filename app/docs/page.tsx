@@ -506,7 +506,7 @@ export default function Prerequisites() {
                           <strong>Installing CoreFX:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Using OpenIV, install <strong>CoreFX.oiv</strong> (main package) and <strong>CoreFX Roads.oiv</strong> (roads). The files will be installed into the <code>mods</code> folder.
+                              Using OpenIV, install <strong>CoreFXInstall.oiv</strong> (main package) and <strong>ClassicRoads.oiv</strong> (roads). The files will be installed into the <code>mods</code> folder.
                             </li>
                             <li>
                               <strong>Alternative Method:</strong> You can open the <code>.oiv</code> files with an archiver (like WinRar) and install the mod manually using CodeWalker.
