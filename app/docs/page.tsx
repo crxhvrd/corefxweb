@@ -469,7 +469,7 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing ReShade:</strong>
+                          <strong>Installing CoreFX ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
                               Copy all ReShade files into your main game directory.
@@ -497,9 +497,9 @@ export default function Prerequisites() {
                             <li>
                               <strong>One-Time OpenIV Setup:</strong> In the "OpenIV Fix" folder, run <code>OpenIV Fix.bat</code> and follow the instructions. This is required for OpenIV to correctly recognize your game, allowing you to use <code>.oiv</code> installers.
                             </li>
-                            <li?
+                            <li>
                               Add <strong>-noBattlEye</strong> to your game launcher's parameters.
-                          </li?
+                          </li>
                           </ol>
                         </li>
                         <li>
@@ -514,7 +514,7 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing ReShade:</strong>
+                          <strong>Installing CoreFX ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
                               Copy all ReShade files into your main GTA 5 Enhanced game directory.
@@ -594,7 +594,7 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing ReShade:</strong>
+                          <strong>Installing CoreFX ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
                               Copy all ReShade files into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
