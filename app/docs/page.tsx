@@ -497,10 +497,13 @@ export default function Prerequisites() {
                             <li>
                               <strong>One-Time OpenIV Setup:</strong> In the "OpenIV Fix" folder, run <code>OpenIV Fix.bat</code> and follow the instructions. This is required for OpenIV to correctly recognize your game, allowing you to use <code>.oiv</code> installers.
                             </li>
+                            <li?
+                              Add <strong>-noBattlEye</strong> to your game launcher's parameters.
+                          </li?
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreFX Mod:</strong>
+                          <strong>Installing CoreFX:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
                               Using OpenIV, install <strong>CoreFX.oiv</strong> (main package) and <strong>CoreFX Roads.oiv</strong> (roads). The files will be installed into the <code>mods</code> folder.
