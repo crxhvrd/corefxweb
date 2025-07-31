@@ -468,6 +468,17 @@ export default function Prerequisites() {
                             <li>Restart the game.</li>
                           </ol>
                         </li>
+                        <li>
+                          <strong>Installing ReShade:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Copy all ReShade files into your main game directory.
+                            </li>
+                            <li>
+                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                            </li>
+                          </ol>
+                        </li>
                       </ul>
                     </div>
                   )}
@@ -478,46 +489,35 @@ export default function Prerequisites() {
                       <h4>Enhanced Singleplayer Installation</h4>
                       <ul className="list-disc pl-5 text-gray-300 space-y-2">
                         <li>
-                          <strong>Before Installing:</strong>
+                          <strong>Prerequisites:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Remove the old <code>dsound.dll</code> from your
-                              game directory.
+                              Download and install <strong>OpenRPF.asi</strong> and <strong>ScriptHookV & Asi Loader</strong>. Ensure you use versions compatible with GTA V Enhanced.
                             </li>
                             <li>
-                              Disable BattlEye Anticheat by adding{' '}
-                              <code>-noBattlEye</code> to your launch options.
+                              <strong>One-Time OpenIV Setup:</strong> In the "OpenIV Fix" folder, run <code>OpenIV Fix.bat</code> and follow the instructions. This is required for OpenIV to correctly recognize your game, allowing you to use <code>.oiv</code> installers.
                             </li>
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreFX:</strong>
+                          <strong>Installing CoreFX Mod:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Download and install ScriptHookV and OpenRPF.asi
-                              for GTA 5 Enhanced.
+                              Using OpenIV, install <strong>CoreFX.oiv</strong> (main package) and <strong>CoreFX Roads.oiv</strong> (roads). The files will be installed into the <code>mods</code> folder.
                             </li>
                             <li>
-                              Copy all files from the CoreFX folder into your
-                              main GTA 5 Enhanced directory.
-                            </li>
-                            <li>
-                              Launch the game, set brightness to 50 %, and enjoy
-                              CoreFX.
+                              <strong>Alternative Method:</strong> You can open the <code>.oiv</code> files with an archiver (like WinRar) and install the mod manually using CodeWalker.
                             </li>
                           </ol>
                         </li>
                         <li>
-                          <strong>How To Install Streetlights Optionals:</strong>
+                          <strong>Installing ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              After installing the main CoreFX Package, copy the{' '}
-                              <code>mods</code> folder into your GTA 5 Enhanced
-                              directory.
+                              Copy all ReShade files into your main GTA 5 Enhanced game directory.
                             </li>
                             <li>
-                              No further actions are required — just launch your
-                              game and enjoy.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
                             </li>
                           </ol>
                         </li>
@@ -588,6 +588,17 @@ export default function Prerequisites() {
                               Remove all ENB files from your FiveM directories.
                             </li>
                             <li>Restart FiveM.</li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Installing ReShade:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Copy all ReShade files into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
+                            </li>
+                            <li>
+                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                            </li>
                           </ol>
                         </li>
                       </ul>
