@@ -97,6 +97,7 @@ const faqs = [
   }
 ];
 
+
 // NEW UNIFIED COMPARISONS DATA
 const comparisons = [
   {
@@ -391,13 +392,24 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreFX ReShade:</strong>
+                          <strong>Installing CoreFX Shaders (ReShade):</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Copy all ReShade files into your main game directory.
+                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your GTA V root directory to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                            </li>
+                            <li>
+                              Copy all ReShade files from the provided package into your main game directory.
                             </li>
                             <li>
                               In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
                             </li>
                           </ol>
                         </li>
@@ -436,13 +448,24 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreFX ReShade:</strong>
+                          <strong>Installing CoreFX Shaders (ReShade):</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Copy all ReShade files into your main GTA 5 Enhanced game directory.
+                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your GTA V Enhanced game directory to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                            </li>
+                            <li>
+                              Copy all ReShade files from the provided package into your main GTA 5 Enhanced game directory.
                             </li>
                             <li>
                               In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                            </li>
+                          </ol>
+                        </li>
+                         <li>
+                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
                             </li>
                           </ol>
                         </li>
@@ -484,13 +507,24 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreFX ReShade:</strong>
+                          <strong>Installing CoreFX Shaders (ReShade):</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Copy all ReShade files into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
+                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your FiveM <code>plugins</code> folder to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                            </li>
+                            <li>
+                              Copy all ReShade files from the provided package into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
                             </li>
                             <li>
                               In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Simply delete the ReShade files you previously copied into the <code>plugins</code> folder within your <code>FiveM Application Data</code> directory.
                             </li>
                           </ol>
                         </li>
