@@ -18,13 +18,12 @@ const prerequisitesSections = [
   {
     title: 'Prerequisites',
     content:
-      'Before installing and using CoreFX and CoreENB, please ensure your system meets these requirements.',
+      'Before installing and using CoreFX, please ensure your system meets these requirements.',
     requirements: [
       {
         title: 'Legacy Hardware Requirements',
         items: [
-          'ENB Recommended: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT',
-          'No ENB Recommended: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580'
+          'Recommended: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580'
         ]
       },
       {
@@ -51,7 +50,7 @@ const prerequisitesSections = [
       }
     ],
     warning:
-      'Mixing CoreFX with other graphics mods is not recommended, not supported and you can potentially break your game. By using CoreFX you automatically agree with these rules.',
+      'Mixing CoreFX with other graphics mods is not recommended and can potentially break your game. Please note that ENBSeries is no longer supported by its developer or by CoreFX. By using CoreFX you automatically agree with these rules.',
     image:
       'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
@@ -59,30 +58,15 @@ const prerequisitesSections = [
 
 const faqs = [
   {
-    question: 'Does using CoreFX and CoreENB affect game performance?',
-    answer:
-      'Yes, advanced graphical enhancements typically require additional GPU and CPU resources. However, an ENB Performance preset is available for lower-end systems which disables some of the most demanding effects.'
-  },
-  {
     question:
       "I don't like blur when moving camera (motion blur). How can I disable it?",
     answer:
       'Can be disabled using the Disable Motion Blur optional. In FiveM ServerSide version you need to open timecycle_mods_1.xml and change <postfx_motionblurlength> to 0.000 0.000. GTA 5 Enhanced motion blur can be disabled directly in the game graphical settings.'
   },
   {
-    question: 'I have graphical bugs and they disappear when I disable ENBSeries.',
-    answer:
-      'This happens because of improper CoreENB installation. Please follow the CoreENB installation tutorial. Do not forget to remove old ENBSeries from your game if you used one.'
-  },
-  {
     question: 'Can I use other mods with CoreFX?',
     answer:
-      'It is possible, but not all mods are compatible. Mods that significantly alter the visuals of the game (like major ENB tweaks or weather overhauls) may conflict with CoreFX. Texture replacement mods are generally safer to combine.'
-  },
-  {
-    question: 'What if I experience crashes or instability?',
-    answer:
-      'Refer to the Issues section. Removing ENBSeries files, using older game builds, or running crash fixes (located in the Optionals folder) can help mitigate issues.'
+      'It is possible, but not all mods are compatible. Mods that significantly alter the visuals of the game (like other graphics enhancers or weather overhauls) may conflict with CoreFX. Texture replacement mods are generally safer to combine.'
   },
   {
     question:
@@ -96,9 +80,9 @@ const faqs = [
       'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
   },
   {
-    question: 'What are the SE Optionals and why should I consider them?',
+    question: 'What are the SE Addons and why should I consider them?',
     answer:
-      'SE Optionals are extra add-ons available on Patreon. They currently include new streetlight colors (white and blue), a Milky Way night-sky texture, and a custom bokeh texture. Purchasing these add-ons supports future development.'
+      'SE Addons are extra add-ons available for Patreon supporters. They currently include Volumetric Clouds and HBGi Shaders for GTA 5 Legacy Singleplayer. Purchasing these add-ons supports future development.'
   },
   {
     question:
@@ -107,37 +91,13 @@ const faqs = [
       'This is caused by in-game motion blur remaining enabled. Disable motion blur via the Optionals folder and record new clips; previously recorded clips will remain blurred.'
   },
   {
-    question: "I don't like the default ENB lens flares. Can I disable or reduce them?",
-    answer:
-      'Yes. Open the ENB menu (Shift + Enter), go to the enbbloom.fx tab and lower the "Glare" intensity. Then, in the enblens.fx tab, reduce the "StarLens" intensity.'
-  },
-  {
-    question: 'Can I quickly change the color grading to suit my personal preferences?',
-    answer:
-      'Yes, there are two main methods:\n\n• Color Preset in ENB Menu: open the ENB menu (Shift + Enter), go to the enbeffect.fx tab and adjust the "Color Preset" along with related parameters.\n• LUT Filters: CoreENB supports LUT filters located in the enbseries/LUTS folder. Each weather condition can have its own LUT plus a global LUT (lut_global.png). You can edit these PNGs to create custom color grading.'
-  },
-  {
     question: 'Does CoreFX run on FiveM servers with Pure Mode enabled?',
     answer:
       'Pure Mode restricts custom client modifications. Currently, CoreFX does not have permission to run under enforced Pure Mode.'
   }
 ];
 
-const issues = [
-  {
-    title: 'Known Issues',
-    items: [
-      {
-        problem: 'Game crashes on startup after installing CoreENB',
-        solution: 'CoreENB is no longer supported by CoreFX and Boris Vorontsov, installing it may cause crashes that are can not be fixed natively. Although you can try Crash Fixes in Optionals, there is no guarantee of them working. You may also downgrade your game to patch 2845 or older to fix all ENBSeries related issues but this may cause issues with other mods you have installed.'
-      },
-      {
-        problem: 'I have issues running LSPDFR with CoreENB',
-        solution: 'ENBSeries originally never had proper support for RagePluginHook and LSPDFR mods. The only known way to run ENB and LSPDFR is to launch game normally, load into the game, and then run RagePluginHook.exe.'
-      }
-    ]
-  }
-];
+const issues = [];
 
 // NEW UNIFIED COMPARISONS DATA
 const comparisons = [
@@ -443,32 +403,6 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove old ENBSeries and all leftovers that can
-                              cause graphical bugs. Choose either{' '}
-                              <strong>ENB Quality</strong> or{' '}
-                              <strong>ENB Performance</strong> from the
-                              downloaded <code>CoreENB</code> folder.
-                            </li>
-                            <li>Copy files to your GTA V root directory.</li>
-                            <li>
-                              Set PostFX and Shader Quality to Ultra and use
-                              DirectX 11.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove all ENB files from your GTA V folder.
-                            </li>
-                            <li>Restart the game.</li>
-                          </ol>
-                        </li>
-                        <li>
                           <strong>Installing CoreFX ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
@@ -562,38 +496,6 @@ export default function Prerequisites() {
                           </ol>
                         </li>
                         <li>
-                          <strong>Installing CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove old ENBSeries and all leftovers that can
-                              cause graphical bugs. Select either{' '}
-                              <strong>ENB Quality</strong> or{' '}
-                              <strong>ENB Performance</strong>.
-                            </li>
-                            <li>
-                              If applicable, copy the <code>Plugins</code>{' '}
-                              folder contents to your FiveM Plugins folder.
-                            </li>
-                            <li>
-                              Copy the same files inside your GTA V root
-                              directory.
-                            </li>
-                            <li>
-                              Set PostFX and Shader Quality to Ultra and choose
-                              DirectX 11.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove all ENB files from your FiveM directories.
-                            </li>
-                            <li>Restart FiveM.</li>
-                          </ol>
-                        </li>
-                        <li>
                           <strong>Installing CoreFX ReShade:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
@@ -636,15 +538,6 @@ export default function Prerequisites() {
                       <h4>Legacy RageMP Installation</h4>
                       <ul className="list-disc pl-5 text-gray-300 space-y-2">
                         <li>
-                          <strong>Before Installing:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              If flagged by Easy Anti Cheat, remove{' '}
-                              <code>enbhelper.dll</code>.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
                           <strong>Installing CoreFX:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
@@ -669,34 +562,6 @@ export default function Prerequisites() {
                               Restore original files via your game launcher
                               (Method 1) or remove <code>user_resources</code>{' '}
                               (Method 2).
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove old ENBSeries and all leftovers that can
-                              cause graphical bugs. Choose either{' '}
-                              <strong>ENB Quality</strong> or{' '}
-                              <strong>ENB Performance</strong>.
-                            </li>
-                            <li>
-                              Copy files (except <code>enbhelper.dll</code>) to
-                              your RageMP directory.
-                            </li>
-                            <li>
-                              Set PostFX and Shader Quality to Ultra and use
-                              DirectX 11.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreENB:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove all ENB files from your RageMP directory
-                              and restart the game.
                             </li>
                           </ol>
                         </li>
