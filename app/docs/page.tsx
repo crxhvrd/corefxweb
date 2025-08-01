@@ -409,7 +409,7 @@ export default function Prerequisites() {
                           <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
+                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>d3d12.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
                             </li>
                           </ol>
                         </li>
