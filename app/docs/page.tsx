@@ -97,8 +97,6 @@ const faqs = [
   }
 ];
 
-const issues = [];
-
 // NEW UNIFIED COMPARISONS DATA
 const comparisons = [
   {
@@ -166,7 +164,7 @@ export default function Prerequisites() {
 
   const [comparisonStates, setComparisonStates] = useState<{ [key: string]: number }>({});
   const [activeSection, setActiveSection] = useState<
-    'prerequisites' | 'installation' | 'issues' | 'comparisons'
+    'prerequisites' | 'installation' | 'comparisons'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
@@ -242,16 +240,6 @@ export default function Prerequisites() {
                   }`}
                 >
                   <div className="flex gap-2">
-                    <button
-                      onClick={() => setActiveSection('issues')}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'issues'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
-                    >
-                      Issues
-                    </button>
                     <button
                       onClick={() => setActiveSection('comparisons')}
                       className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
@@ -569,32 +557,6 @@ export default function Prerequisites() {
                     </div>
                   )}
                 </div>
-              </div>
-            )}
-
-            {/* ───────── ISSUES ───────── */}
-            {activeSection === 'issues' && (
-              <div className="space-y-6">
-                {issues.map((sec, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4"
-                  >
-                    <h2 className="text-xl font-semibold">{sec.title}</h2>
-                    <ul className="space-y-4">
-                      {sec.items.map((issue, i) => (
-                        <li key={i} className="bg-black/40 rounded-lg p-4">
-                          <h3 className="font-medium text-white/90">
-                            {issue.problem}
-                          </h3>
-                          <p className="text-gray-300 text-sm mt-2">
-                            {issue.solution}
-                          </p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
               </div>
             )}
 
