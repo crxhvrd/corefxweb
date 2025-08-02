@@ -368,11 +368,6 @@ export default function Prerequisites() {
                               into the <em>mods</em> folder.
                             </li>
                             <li>
-                              If on an older game build, install the{' '}
-                              <strong>Old game build compatibility patch</strong>{' '}
-                              from the <em>Optionals</em> folder.
-                            </li>
-                            <li>
                               Launch GTA V and set in-game brightness to
                               40-50 %.
                             </li>
@@ -486,10 +481,6 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Place it into your FiveM <em>Mods</em> folder.
-                            </li>
-                            <li>
-                              If on an older game build, install the old-build
-                              patch from <em>Optionals</em>.
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
