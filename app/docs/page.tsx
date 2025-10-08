@@ -373,6 +373,9 @@ export default function Prerequisites() {
                               Launch GTA V and set in-game brightness to
                               40-50 %.
                             </li>
+                            <li>
+                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
+                            </li>
                           </ol>
                         </li>
                         <li>
@@ -442,6 +445,9 @@ export default function Prerequisites() {
                             <li>
                               <strong>Alternative Method:</strong> You can open the <code>.oiv</code> files with an archiver (like WinRar) and install the mod manually using CodeWalker.
                             </li>
+                            <li>
+                              After installation, launch the game and set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> in the graphics settings.
+                            </li>
                           </ol>
                         </li>
                         <li>
@@ -486,6 +492,9 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
+                            </li>
+                            <li>
+                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
                             </li>
                           </ol>
                         </li>
@@ -543,6 +552,9 @@ export default function Prerequisites() {
                           <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters
                           to "true" as needed.
                         </li>
+                        <li>
+                          <strong>Note for Players:</strong> For the best visual experience, players should set their in-game <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> in the graphics settings.
+                        </li>
                       </ol>
                     </div>
                   )}
@@ -567,6 +579,9 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
+                            </li>
+                            <li>
+                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
                             </li>
                           </ol>
                         </li>
@@ -599,6 +614,9 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
+                            </li>
+                            <li>
+                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
                             </li>
                           </ol>
                         </li>
