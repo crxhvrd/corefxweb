@@ -147,7 +147,8 @@ const installTabs = [
   'enhanced',
   'fivem',
   'fivem-server',
-  'ragemp'
+  'ragemp',
+  'enhanced-ragemp'
 ] as const;
 type InstallTab = typeof installTabs[number];
 
@@ -156,7 +157,8 @@ const installLabels: Record<InstallTab, string> = {
   enhanced: 'Enhanced Singleplayer',
   fivem: 'Legacy FiveM',
   'fivem-server': 'Legacy FiveM ServerSide',
-  ragemp: 'Legacy RageMP'
+  ragemp: 'Legacy RageMP',
+  'enhanced-ragemp': 'Enhanced RageMP'
 };
 
 /* ───────────────────────── COMPONENT ───────────────────────── */
@@ -575,6 +577,36 @@ export default function Prerequisites() {
                               Restore original files via your game launcher
                               (Method 1) or remove <code>user_resources</code>{' '}
                               (Method 2).
+                            </li>
+                          </ol>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                  
+                  {/* ───────── Enhanced RageMP ───────── */}
+                  {activeInstallTab === 'enhanced-ragemp' && (
+                    <div className="install-block">
+                      <h4>Enhanced RageMP Installation</h4>
+                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                        <li>
+                          <strong>Installing CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Copy the{' '}
+                              <code>user_resources</code> folder into your RageMP
+                              directory.
+                            </li>
+                            <li>
+                              Set in-game brightness to approximately 40-50 %.
+                            </li>
+                          </ol>
+                        </li>
+                        <li>
+                          <strong>Uninstalling CoreFX:</strong>
+                          <ol className="list-decimal pl-5 space-y-1">
+                            <li>
+                              Remove the <code>user_resources</code> folder from your RageMP directory.
                             </li>
                           </ol>
                         </li>
