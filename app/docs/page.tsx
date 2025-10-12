@@ -403,6 +403,9 @@ export default function Prerequisites() {
                             <li>
                               In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
                             </li>
+                            <li>
+                              If the ReShade menu does not appear when pressing <strong>F7</strong>, rename <code>d3d12.dll</code> to <code>dxgi.dll</code> in your game directory, then relaunch the game.
+                            </li>
                           </ol>
                         </li>
                         <li>
