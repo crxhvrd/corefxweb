@@ -9,8 +9,6 @@ const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Download', href: 'https://www.patreon.com/c/crxhvrd' },
   { name: 'Documentation', href: '/docs' },
-  { name: 'Changelogs', href: '/changelogs' },
-  
 ];
 
 export default function NavBar() {

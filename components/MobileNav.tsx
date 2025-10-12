@@ -3,14 +3,13 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Home, Download, BookOpen, ListOrdered } from 'lucide-react';
+import { Menu, X, Home, Download, BookOpen } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const navItems = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Download', href: 'https://www.patreon.com/c/crxhvrd', icon: Download },
   { name: 'Documentation', href: '/docs', icon: BookOpen },
-  { name: 'Changelogs', href: '/changelogs', icon: ListOrdered },
 ];
 
 export default function MobileNav() {
