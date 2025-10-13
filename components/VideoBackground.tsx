@@ -9,6 +9,10 @@ declare global {
   }
 }
 
+const TARGET_ASPECT_RATIO = 16 / 9;
+const SOURCE_ASPECT_RATIO = 4 / 3;
+const HORIZONTAL_STRETCH = TARGET_ASPECT_RATIO / SOURCE_ASPECT_RATIO;
+
 export default function VideoBackground() {
   const [blur, setBlur] = useState(0);
   const [playerSize, setPlayerSize] = useState({ width: 0, height: 0 });
@@ -66,6 +70,8 @@ export default function VideoBackground() {
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.setAttribute('tabIndex', '-1');
+        iframe.style.transform = `scaleX(${HORIZONTAL_STRETCH})`;
+        iframe.style.transformOrigin = 'center center';
       }
     };
 
@@ -159,7 +165,7 @@ export default function VideoBackground() {
 
       <div
         ref={playerContainerRef}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none overflow-hidden"
         style={{
           width: playerSize.width ? `${playerSize.width}px` : '100%',
           height: playerSize.height ? `${playerSize.height}px` : '100%',
