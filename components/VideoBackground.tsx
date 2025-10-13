@@ -28,8 +28,8 @@ export default function VideoBackground() {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-black/30 z-10"
+      <div
+        className="absolute inset-0 bg-black/10 z-10"
         style={{ backdropFilter: `blur(${blur}px)` }}
       ></div>
 
@@ -39,6 +39,7 @@ export default function VideoBackground() {
         muted
         playsInline
         className="absolute w-full h-full object-cover"
+        style={{ filter: 'brightness(1.15)' }}
       >
         <source 
           src="https://cdn.jsdelivr.net/gh/sarma-hrishi/corefxvideo/111.mp4" 
