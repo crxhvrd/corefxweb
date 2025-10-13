@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 declare global {
   interface Window {
@@ -12,11 +12,46 @@ declare global {
 const TARGET_ASPECT_RATIO = 16 / 9;
 const SOURCE_ASPECT_RATIO = 4 / 3;
 const HORIZONTAL_STRETCH = TARGET_ASPECT_RATIO / SOURCE_ASPECT_RATIO;
+const EDGE_OVERSCAN = 0.16;
+const INTERFACE_SHIFT_X = 0.05;
+const INTERFACE_SHIFT_Y = 0.08;
 
 export default function VideoBackground() {
   const [blur, setBlur] = useState(0);
   const [playerSize, setPlayerSize] = useState({ width: 0, height: 0 });
   const playerContainerRef = useRef<HTMLDivElement | null>(null);
+  const playerSizeRef = useRef(playerSize);
+
+  const applyChromelessStyling = useCallback(
+    (iframe: HTMLIFrameElement, size?: { width: number; height: number }) => {
+      const { width, height } = size ?? playerSizeRef.current;
+
+      iframe.style.pointerEvents = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.display = 'block';
+      iframe.style.border = '0';
+      iframe.setAttribute('tabIndex', '-1');
+      iframe.style.transformOrigin = 'center center';
+      iframe.style.margin = '0';
+
+      const overscanScale = 1 + EDGE_OVERSCAN;
+      const scaleX = HORIZONTAL_STRETCH * overscanScale;
+      const scaleY = overscanScale;
+      iframe.style.transform = `scale(${scaleX}, ${scaleY})`;
+
+      if (width && height) {
+        const offsetX = width * INTERFACE_SHIFT_X;
+        const offsetY = height * INTERFACE_SHIFT_Y;
+        iframe.style.marginLeft = `${offsetX}px`;
+        iframe.style.marginTop = `-${offsetY}px`;
+      } else {
+        iframe.style.marginLeft = '0px';
+        iframe.style.marginTop = '0px';
+      }
+    },
+    [],
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,19 +96,16 @@ export default function VideoBackground() {
   }, []);
 
   useEffect(() => {
-    let player: any;
+    playerSizeRef.current = playerSize;
 
-    const enhanceIframe = () => {
-      const iframe = playerContainerRef.current?.querySelector('iframe');
-      if (iframe) {
-        iframe.style.pointerEvents = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.setAttribute('tabIndex', '-1');
-        iframe.style.transform = `scaleX(${HORIZONTAL_STRETCH})`;
-        iframe.style.transformOrigin = 'center center';
-      }
-    };
+    const iframe = playerContainerRef.current?.querySelector('iframe');
+    if (iframe) {
+      applyChromelessStyling(iframe, playerSize);
+    }
+  }, [playerSize, applyChromelessStyling]);
+
+  useEffect(() => {
+    let player: any;
 
     const createPlayer = () => {
       if (!window.YT || !playerContainerRef.current) {
@@ -101,7 +133,10 @@ export default function VideoBackground() {
             event.target.mute();
             event.target.setPlaybackQuality?.('hd1080');
             event.target.playVideo();
-            enhanceIframe();
+            const iframe = playerContainerRef.current?.querySelector('iframe');
+            if (iframe) {
+              applyChromelessStyling(iframe);
+            }
           },
           onStateChange: (event: any) => {
             const endedState = window.YT?.PlayerState?.ENDED;
@@ -154,7 +189,7 @@ export default function VideoBackground() {
         player.destroy();
       }
     };
-  }, []);
+  }, [applyChromelessStyling]);
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
