@@ -61,7 +61,7 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               download links.
             </p>
             <p>
-              3. Download the archive and follow the FiveM setup instructions in the{' '}
+              3. Download the archive and follow the CoreFX setup instructions for your platform in the{' '}
               <a
                 href="https://corefx.me/docs"
                 target="_blank"
