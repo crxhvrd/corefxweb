@@ -490,14 +490,8 @@ export default function Prerequisites() {
                           <strong>Installing CoreFX:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Locate <code>corefxPack.rpf</code> in the package.
-                            </li>
-                            <li>
                               Drag the <code>mods</code> folder (containing the <code>.rpf</code> mods) and the <code>citizen</code>
                               folder (which includes the in-game shader replacements) into your FiveM Application Data directory.
-                            </li>
-                            <li>
-                              Ensure <code>corefxPack.rpf</code> resides inside the <em>Mods</em> folder within FiveM Application Data.
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
@@ -511,8 +505,10 @@ export default function Prerequisites() {
                           <strong>Uninstalling CoreFX:</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
-                              Remove <code>corefxPack.rpf</code> from your Mods
-                              folder.
+                              Remove every CoreFX-related <code>.rpf</code> file
+                              from your <code>mods</code> folder and from the
+                              <code>shaders</code> folder located inside
+                              <code>citizen/common</code>.
                             </li>
                             <li>Restart FiveM.</li>
                           </ol>
