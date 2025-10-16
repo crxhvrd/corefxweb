@@ -493,7 +493,11 @@ export default function Prerequisites() {
                               Locate <code>corefxPack.rpf</code> in the package.
                             </li>
                             <li>
-                              Place it into your FiveM <em>Mods</em> folder.
+                              Drag the <code>mods</code> folder (containing the <code>.rpf</code> mods) and the <code>citizen</code>
+                              folder (which includes the in-game shader replacements) into your FiveM Application Data directory.
+                            </li>
+                            <li>
+                              Ensure <code>corefxPack.rpf</code> resides inside the <em>Mods</em> folder within FiveM Application Data.
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
