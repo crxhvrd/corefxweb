@@ -7,6 +7,7 @@ import Logo from '@/components/Logo';
 import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import SocialSidebar from '@/components/SocialSideBar';
+import DownloadModalRoot from '@/components/DownloadModalRoot';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -92,6 +93,8 @@ export default function RootLayout({
 
         {/* Main Page Content */}
         {children}
+
+        <DownloadModalRoot />
       </body>
     </html>
   );

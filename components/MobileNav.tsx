@@ -5,11 +5,16 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Home, Download, BookOpen } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { triggerDownloadModal } from '@/lib/downloadModalEvents';
 
-const navItems = [
-  { name: 'Home', href: '/', icon: Home },
-  { name: 'Download', href: 'https://www.patreon.com/c/crxhvrd', icon: Download },
-  { name: 'Documentation', href: '/docs', icon: BookOpen },
+type NavItem =
+  | { name: string; type: 'link'; href: string; icon: typeof Home }
+  | { name: string; type: 'download'; icon: typeof Download };
+
+const navItems: NavItem[] = [
+  { name: 'Home', type: 'link', href: '/', icon: Home },
+  { name: 'Download', type: 'download', icon: Download },
+  { name: 'Documentation', type: 'link', href: '/docs', icon: BookOpen },
 ];
 
 export default function MobileNav() {
@@ -38,21 +43,36 @@ export default function MobileNav() {
             transition={{ duration: 0.2 }}
             className="flex flex-col items-center space-y-2 mt-2"
           >
-            {navItems.map(({ name, href, icon: Icon }) => {
-              const isActive = pathname === href;
+            {navItems.map((item) => {
+              const Icon = item.icon;
+              const key = item.type === 'link' ? item.href : item.name;
+              const isActive = item.type === 'link' ? pathname === item.href : false;
 
-              return (
+              return item.type === 'link' ? (
                 <Link
-                  key={name}
-                  href={href}
+                  key={key}
+                  href={item.href}
                   onClick={() => setIsOpen(false)}
                   className={`p-2 rounded-full transition-colors duration-300 ${
                     isActive ? 'bg-white text-black' : 'text-white hover:bg-white/20'
                   }`}
-                  aria-label={name}
+                  aria-label={item.name}
                 >
                   <Icon size={20} />
                 </Link>
+              ) : (
+                <button
+                  key={key}
+                  type="button"
+                  onClick={() => {
+                    triggerDownloadModal();
+                    setIsOpen(false);
+                  }}
+                  className="p-2 rounded-full text-white transition-colors duration-300 hover:bg-white/20"
+                  aria-label={item.name}
+                >
+                  <Icon size={20} />
+                </button>
               );
             })}
           </motion.div>
