@@ -351,6 +351,11 @@ export default function Prerequisites() {
                   {activeInstallTab === 'singleplayer' && (
                     <div className="install-block">
                       <h4>Legacy Singleplayer Installation</h4>
+                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg my-4">
+                          <p className="text-yellow-300 text-sm">
+                            It is critically important to have DirectX 11 enabled, and both PostFX and Shader quality set to Ultra in your in-game settings. Failing to do so can prevent new shader features from working and may cause significant visual bugs.
+                          </p>
+                        </div>
                       <ul className="list-disc pl-5 text-gray-300 space-y-2">
                         <li>
                           <strong>Before Installing:</strong>
@@ -403,7 +408,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into your main game directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable the available shaders manually.
                             </li>
                             <li>
                               If the ReShade menu does not appear when pressing <strong>F7</strong>, rename <code>d3d12.dll</code> to <code>dxgi.dll</code> in your game directory, then relaunch the game.
@@ -465,7 +470,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into your main GTA 5 Enhanced game directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable the available shaders manually.
                             </li>
                           </ol>
                         </li>
@@ -485,6 +490,11 @@ export default function Prerequisites() {
                   {activeInstallTab === 'fivem' && (
                     <div className="install-block">
                       <h4>Legacy FiveM Installation</h4>
+                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg my-4">
+                          <p className="text-yellow-300 text-sm">
+                            It is critically important to have DirectX 11 enabled, and both PostFX and Shader quality set to Ultra in your in-game settings. Failing to do so can prevent new shader features from working and may cause significant visual bugs.
+                          </p>
+                        </div>
                       <ul className="list-disc pl-5 text-gray-300 space-y-2">
                         <li>
                           <strong>Installing CoreFX:</strong>
@@ -523,7 +533,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable the available shaders manually.
                             </li>
                           </ol>
                         </li>
@@ -568,6 +578,11 @@ export default function Prerequisites() {
                   {activeInstallTab === 'ragemp' && (
                     <div className="install-block">
                       <h4>Legacy RageMP Installation</h4>
+                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg my-4">
+                          <p className="text-yellow-300 text-sm">
+                            It is critically important to have DirectX 11 enabled, and both PostFX and Shader quality set to Ultra in your in-game settings. Failing to do so can prevent new shader features from working and may cause significant visual bugs.
+                          </p>
+                        </div>
                       <ul className="list-disc pl-5 text-gray-300 space-y-2">
                         <li>
                           <strong>Installing CoreFX:</strong>
