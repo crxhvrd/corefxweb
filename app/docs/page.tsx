@@ -376,7 +376,11 @@ export default function Prerequisites() {
                               40-50 %.
                             </li>
                             <li>
-                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
+                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                <p className="text-red-300 text-sm">
+                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
+                                </p>
+                              </div>
                             </li>
                           </ol>
                         </li>
@@ -403,7 +407,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into your main game directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
                             </li>
                             <li>
                               If the ReShade menu does not appear when pressing <strong>F7</strong>, rename <code>d3d12.dll</code> to <code>dxgi.dll</code> in your game directory, then relaunch the game.
@@ -450,9 +454,6 @@ export default function Prerequisites() {
                             <li>
                               <strong>Alternative Method:</strong> You can open the <code>.oiv</code> files with an archiver (like WinRar) and install the mod manually using CodeWalker.
                             </li>
-                            <li>
-                              After installation, launch the game and set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> in the graphics settings.
-                            </li>
                           </ol>
                         </li>
                         <li>
@@ -465,7 +466,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into your main GTA 5 Enhanced game directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
                             </li>
                           </ol>
                         </li>
@@ -497,7 +498,11 @@ export default function Prerequisites() {
                               Set in-game brightness to approximately 40-50 %.
                             </li>
                             <li>
-                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
+                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                <p className="text-red-300 text-sm">
+                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
+                                </p>
+                              </div>
                             </li>
                           </ol>
                         </li>
@@ -523,7 +528,7 @@ export default function Prerequisites() {
                               Copy all ReShade files from the provided package into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
                             </li>
                             <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and <strong>F6</strong> to toggle effects on/off.
+                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
                             </li>
                           </ol>
                         </li>
@@ -586,7 +591,11 @@ export default function Prerequisites() {
                               Set in-game brightness to approximately 40-50 %.
                             </li>
                             <li>
-                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
+                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                <p className="text-red-300 text-sm">
+                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
+                                </p>
+                              </div>
                             </li>
                           </ol>
                         </li>
@@ -619,9 +628,6 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Set in-game brightness to approximately 40-50 %.
-                            </li>
-                            <li>
-                              In the in-game graphics settings, set <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> for the intended experience.
                             </li>
                           </ol>
                         </li>
