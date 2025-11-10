@@ -88,7 +88,7 @@ export default function AnimatedBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 -z-10 opacity-30"
+      className="fixed inset-0 -z-10 opacity-30 pointer-events-none"
     />
   );
 }
