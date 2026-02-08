@@ -57,16 +57,16 @@ export default function NavBar() {
                   onClick={() => {
                     triggerDownloadModal();
                   }}
-                  className="relative flex flex-col items-center px-4 py-1.5 text-sm font-semibold text-orange-400 hover:text-orange-300 rounded-lg transition-colors duration-300"
+                  className="relative flex flex-col items-center px-3 py-1 text-sm font-medium text-white rounded-md transition-colors duration-300"
                   animate={{
-                    boxShadow: [
-                      '0 0 0px rgba(251, 146, 60, 0)',
-                      '0 0 12px rgba(251, 146, 60, 0.6)',
-                      '0 0 0px rgba(251, 146, 60, 0)',
+                    textShadow: [
+                      '0 0 0px rgba(255, 255, 255, 0.5)',
+                      '0 0 8px rgba(255, 255, 255, 0.9)',
+                      '0 0 0px rgba(255, 255, 255, 0.5)',
                     ],
                   }}
                   transition={{
-                    duration: 2,
+                    duration: 2.5,
                     repeat: Infinity,
                     ease: 'easeInOut',
                   }}
