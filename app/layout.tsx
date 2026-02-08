@@ -8,6 +8,7 @@ import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import SocialSidebar from '@/components/SocialSideBar';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
+import ScrollIndicator from '@/components/ScrollIndicator';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -68,6 +69,9 @@ export default function RootLayout({
 
         {/* Social Sidebar */}
         <SocialSidebar />
+
+        {/* Scroll Indicator */}
+        <ScrollIndicator />
 
         {/* Attribution Section */}
         <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-xs text-white opacity-60 text-center space-y-1 px-2"> {/* Изменения здесь */}
