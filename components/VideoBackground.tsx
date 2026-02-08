@@ -38,7 +38,7 @@ export default function VideoBackground() {
         loop
         muted
         playsInline
-        className="absolute w-full h-full object-cover"
+        className="absolute w-full h-full object-cover z-0"
         style={{ filter: 'brightness(1.15)' }}
       >
         <source
