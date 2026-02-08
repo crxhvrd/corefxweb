@@ -5,31 +5,26 @@ import Image from 'next/image';
 import ImageModal from './ImageModal';
 
 const images = [
-  { id: 1, src: 'https://i.imgur.com/YLDABwm.png', alt: 'Phoenix' },
-  { id: 2, src: 'https://i.imgur.com/3Q6XNM4.png', alt: 'Porsche' },
-  { id: 3, src: 'https://i.imgur.com/W4ohUlf.png', alt: '3liza' },
-  { id: 4, src: 'https://i.imgur.com/sclszvM.png', alt: 'Abstract Art' },
-  { id: 5, src: 'https://i.imgur.com/NcB8EqK.png', alt: 'Technology' },
-  { id: 6, src: 'https://i.imgur.com/VV4vy6H.jpeg', alt: 'City Landscape' },
-  { id: 7, src: 'https://i.imgur.com/YoSvkFF.jpeg', alt: 'Digital Art' },
-  { id: 8, src: 'https://i.imgur.com/PgnkDDD.jpeg', alt: 'Modern Art' },
-  { id: 9, src: 'https://i.imgur.com/AXAX7Hn.png', alt: 'Space Concept' },
-  { id: 10, src: 'https://i.imgur.com/duroNMW.png', alt: 'Futuristic Design' },
-  { id: 11, src: 'https://i.imgur.com/ARdJUj5.png', alt: 'Futuristic Design' },
-  { id: 12, src: 'https://i.imgur.com/96xDRd6.png', alt: 'Futuristic Design' },
-  { id: 13, src: 'https://i.imgur.com/dNPZ6sE.png', alt: 'Futuristic Design' },
-  { id: 14, src: 'https://i.imgur.com/sclszvM.png', alt: 'Futuristic Design' },
-  { id: 15, src: 'https://i.imgur.com/VV4vy6H.jpeg', alt: 'Futuristic Design' },
-  { id: 16, src: 'https://i.imgur.com/YoSvkFF.jpeg', alt: 'Futuristic Design' },
-  { id: 17, src: 'https://i.imgur.com/FDnano1.jpeg', alt: 'Futuristic Design' },
-  { id: 18, src: 'https://i.imgur.com/PgnkDDD.jpeg', alt: 'Futuristic Design' },
-  { id: 19, src: 'https://i.imgur.com/yt3BCSo.jpeg', alt: 'Futuristic Design' },
-  { id: 20, src: 'https://i.imgur.com/CPQVBtC.jpeg', alt: 'Futuristic Design' },
-  { id: 21, src: 'https://i.imgur.com/sZhTBjW.jpeg', alt: 'Futuristic Design' },
-  { id: 22, src: 'https://i.imgur.com/CYy4wx6.jpeg', alt: 'Futuristic Design' },
-  { id: 23, src: 'https://i.imgur.com/zbe6Kdj.png', alt: 'Futuristic Design' },
-  { id: 24, src: 'https://i.imgur.com/pv5R1XJ.jpeg', alt: 'Futuristic Design' },
-  { id: 25, src: 'https://i.imgur.com/5i0i3au.png', alt: 'Futuristic Design' },
+  { id: 1, src: '/images/screenshots/3240220_20260208204541_1.png', alt: 'CoreFX Screenshot' },
+  { id: 2, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-01-11_078.png', alt: 'CoreFX Screenshot' },
+  { id: 3, src: '/images/screenshots/3240220_20260208210100_1.png', alt: 'CoreFX Screenshot' },
+  { id: 4, src: '/images/screenshots/3240220_20260208203346_1.png', alt: 'CoreFX Screenshot' },
+  { id: 5, src: '/images/screenshots/3240220_20260208211533_1.png', alt: 'CoreFX Screenshot' },
+  { id: 6, src: '/images/screenshots/3240220_20260208205249_1.png', alt: 'CoreFX Screenshot' },
+  { id: 7, src: '/images/screenshots/3240220_20260208202725_1.png', alt: 'CoreFX Screenshot' },
+  { id: 8, src: '/images/screenshots/3240220_20260208210507_1.png', alt: 'CoreFX Screenshot' },
+  { id: 9, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-22-33_545.png', alt: 'CoreFX Screenshot' },
+  { id: 10, src: '/images/screenshots/3240220_20260208204339_1.png', alt: 'CoreFX Screenshot' },
+  { id: 11, src: '/images/screenshots/3240220_20260208211115_1.png', alt: 'CoreFX Screenshot' },
+  { id: 12, src: '/images/screenshots/3240220_20260208210008_1.png', alt: 'CoreFX Screenshot' },
+  { id: 13, src: '/images/screenshots/3240220_20260208203122_1.png', alt: 'CoreFX Screenshot' },
+  { id: 14, src: '/images/screenshots/3240220_20260208212330_1.png', alt: 'CoreFX Screenshot' },
+  { id: 15, src: '/images/screenshots/3240220_20260208210710_1.png', alt: 'CoreFX Screenshot' },
+  { id: 16, src: '/images/screenshots/3240220_20260208204909_1.png', alt: 'CoreFX Screenshot' },
+  { id: 17, src: '/images/screenshots/3240220_20260208211447_1.png', alt: 'CoreFX Screenshot' },
+  { id: 18, src: '/images/screenshots/3240220_20260208205418_1.png', alt: 'CoreFX Screenshot' },
+  { id: 19, src: '/images/screenshots/3240220_20260208202914_1.png', alt: 'CoreFX Screenshot' },
+  { id: 20, src: '/images/screenshots/3240220_20260208203631_1.png', alt: 'CoreFX Screenshot' },
 ];
 
 export default function ImageGrid() {
@@ -48,7 +43,7 @@ export default function ImageGrid() {
           if (entry.isIntersecting && !animatedSet.has(entry.target)) {
             entry.target.classList.add('opacity-100', 'translate-y-0');
             entry.target.classList.remove('opacity-0', 'translate-y-10');
-            animatedSet.add(entry.target); 
+            animatedSet.add(entry.target);
           }
         });
       },
