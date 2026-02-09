@@ -191,10 +191,10 @@ export default function Prerequisites() {
   };
 
   return (
-    <main className="min-h-screen pt-24">
+    <main className="min-h-screen pt-20 sm:pt-24">
       <AnimatedBackground />
 
-      <div className="container mx-auto px-4 md:px-8 flex flex-col lg:flex-row gap-6 md:gap-8">
+      <div className="container mx-auto px-3 sm:px-4 md:px-8 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
         {/* ───────── LEFT PANE ───────── */}
         <ScrollArea className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-hidden">
           <div className="p-4 md:p-8">
@@ -203,21 +203,19 @@ export default function Prerequisites() {
               <div className="flex flex-wrap gap-2">
                 <button
                   onClick={() => setActiveSection('prerequisites')}
-                  className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
-                    activeSection === 'prerequisites'
-                      ? 'bg-white/20 text-white'
-                      : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                  }`}
+                  className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'prerequisites'
+                    ? 'bg-white/20 text-white'
+                    : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                    }`}
                 >
                   Prerequisites
                 </button>
                 <button
                   onClick={() => setActiveSection('installation')}
-                  className={`px-4 py-2 rounded-full text-sm md:text-base transition-all h-10 flex items-center justify-center ${
-                    activeSection === 'installation'
-                      ? 'bg-white/20 text-white'
-                      : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                  }`}
+                  className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'installation'
+                    ? 'bg-white/20 text-white'
+                    : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                    }`}
                 >
                   Installation
                 </button>
@@ -227,31 +225,28 @@ export default function Prerequisites() {
               <div className="relative">
                 <button
                   onClick={() => setShowMoreOptions(!showMoreOptions)}
-                  className="px-2 py-2 rounded-full text-sm md:text-base transition-all bg-black/30 text-gray-300 hover:bg-white hover:text-black h-10 w-10 flex items-center justify-center group"
+                  className="px-2 py-2 rounded-full text-base sm:text-sm md:text-base transition-all bg-black/30 text-gray-300 hover:bg-white hover:text-black h-12 w-12 sm:h-10 sm:w-10 flex items-center justify-center group"
                 >
                   <Plus
-                    className={`h-4 w-4 transition-all duration-300 ${
-                      showMoreOptions ? 'rotate-45 scale-110' : 'group-hover:rotate-90'
-                    }`}
+                    className={`h-4 w-4 transition-all duration-300 ${showMoreOptions ? 'rotate-45 scale-110' : 'group-hover:rotate-90'
+                      }`}
                   />
                 </button>
 
                 {/* Expanding Menu to the Right */}
                 <div
-                  className={`absolute left-full top-0 ml-2 transition-all duration-500 ease-in-out ${
-                    showMoreOptions
-                      ? 'opacity-100 translate-x-0 scale-100'
-                      : 'opacity-0 -translate-x-4 scale-95 pointer-events-none'
-                  }`}
+                  className={`absolute left-full top-0 ml-2 transition-all duration-500 ease-in-out ${showMoreOptions
+                    ? 'opacity-100 translate-x-0 scale-100'
+                    : 'opacity-0 -translate-x-4 scale-95 pointer-events-none'
+                    }`}
                 >
                   <div className="flex gap-2">
                     <button
                       onClick={() => setActiveSection('comparisons')}
-                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${
-                        activeSection === 'comparisons'
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
+                      className={`px-4 py-2 rounded-full text-sm md:text-base transition-all whitespace-nowrap h-10 flex items-center justify-center ${activeSection === 'comparisons'
+                        ? 'bg-white/20 text-white'
+                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                        }`}
                     >
                       Comparisons
                     </button>
@@ -274,13 +269,11 @@ export default function Prerequisites() {
                 {prerequisitesSections.map((section, idx) => (
                   <div
                     key={idx}
-                    className={`bg-black/30 rounded-lg overflow-hidden transition-all duration-700 delay-${
-                      idx * 100
-                    } ${
-                      inView
+                    className={`bg-black/30 rounded-lg overflow-hidden transition-all duration-700 delay-${idx * 100
+                      } ${inView
                         ? 'opacity-100 translate-y-0'
                         : 'opacity-0 translate-y-10'
-                    }`}
+                      }`}
                   >
                     <div className="p-4 md:p-6">
                       <h2 className="text-xl font-semibold mb-2">
@@ -334,11 +327,10 @@ export default function Prerequisites() {
                     <button
                       key={tab}
                       onClick={() => setActiveInstallTab(tab)}
-                      className={`px-4 py-2 rounded-full text-sm transition-all ${
-                        activeInstallTab === tab
-                          ? 'bg-white/20 text-white'
-                          : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                      }`}
+                      className={`px-4 py-3 sm:py-2 rounded-full text-sm sm:text-xs md:text-sm transition-all ${activeInstallTab === tab
+                        ? 'bg-white/20 text-white'
+                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                        }`}
                     >
                       {installLabels[tab]}
                     </button>
@@ -442,7 +434,7 @@ export default function Prerequisites() {
                             </li>
                             <li>
                               Add <strong>-noBattlEye</strong> to your game launcher's parameters.
-                          </li>
+                            </li>
                           </ol>
                         </li>
                         <li>
@@ -470,7 +462,7 @@ export default function Prerequisites() {
                             </li>
                           </ol>
                         </li>
-                         <li>
+                        <li>
                           <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
                           <ol className="list-decimal pl-5 space-y-1">
                             <li>
@@ -612,7 +604,7 @@ export default function Prerequisites() {
                       </ul>
                     </div>
                   )}
-                  
+
                   {/* ───────── Enhanced RageMP ───────── */}
                   {activeInstallTab === 'enhanced-ragemp' && (
                     <div className="install-block">
@@ -654,7 +646,7 @@ export default function Prerequisites() {
                   const currentIndex = comparisonStates[comparisonKey] || 0;
                   const currentState = comparison.states[currentIndex];
                   const statesCount = comparison.states.length;
-                  
+
                   return (
                     <div key={idx} className="bg-black/30 rounded-lg p-4 md:p-6 space-y-4">
                       <h2 className="text-xl font-semibold">{comparison.title}</h2>
@@ -669,41 +661,41 @@ export default function Prerequisites() {
                             className="w-full max-w-full h-auto object-contain rounded-lg mb-2 transition-all duration-300 hover:brightness-110"
                             style={{ maxHeight: '70vh' }}
                           />
-                          
+
                           {/* Click indicator overlay */}
                           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
                             <div className="bg-black/70 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
                               Click to switch
                             </div>
                           </div>
-                          
+
                           {/* Image state indicator */}
                           <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-medium backdrop-blur-sm pointer-events-none">
                             {currentIndex + 1} / {statesCount}
                           </div>
                         </div>
-                        
+
                         <div className="flex items-center justify-between mt-2">
                           <p className="text-gray-300 text-sm">
                             {currentState.description}
                           </p>
-                          
+
                           {/* Toggle button */}
                           <button
                             onClick={() => handleSwitchComparison(comparisonKey, statesCount)}
                             className="ml-4 px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs text-gray-300 transition-all duration-200 flex items-center gap-1"
                           >
-                            <svg 
-                              className="w-3 h-3" 
-                              fill="none" 
-                              stroke="currentColor" 
+                            <svg
+                              className="w-3 h-3"
+                              fill="none"
+                              stroke="currentColor"
                               viewBox="0 0 24 24"
                             >
-                              <path 
-                                strokeLinecap="round" 
-                                strokeLinejoin="round" 
-                                strokeWidth={2} 
-                                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m0-4l-4-4" 
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m0-4l-4-4"
                               />
                             </svg>
                             Switch
@@ -715,7 +707,7 @@ export default function Prerequisites() {
                 })}
               </div>
             )}
-            
+
           </div>
         </ScrollArea>
 
@@ -739,9 +731,8 @@ export default function Prerequisites() {
                       {faq.question}
                     </h3>
                     <ChevronDown
-                      className={`h-4 w-4 transition-transform ${
-                        openFaqs.includes(idx) ? 'rotate-180' : ''
-                      }`}
+                      className={`h-4 w-4 transition-transform ${openFaqs.includes(idx) ? 'rotate-180' : ''
+                        }`}
                     />
                   </CollapsibleTrigger>
                   <CollapsibleContent className="px-4 pb-4">

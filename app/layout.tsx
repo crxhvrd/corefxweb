@@ -41,18 +41,19 @@ export default function RootLayout({
             <Logo
               imageUrl="/images/Beta.png"
               alt="Animated Logo"
-              width={48}
-              height={48}
+              width={64}
+              height={64}
               circle={true}
+              className="sm:w-12 sm:h-12"
             />
 
             {/* Static Logo */}
             <Logo
               imageUrl="https://i.imgur.com/Awl16fH.png"
               alt="Static Logo"
-              width={72}
-              height={72}
-              className="rounded"
+              width={96}
+              height={96}
+              className="rounded sm:w-[72px] sm:h-[72px]"
             />
           </div>
         </div>

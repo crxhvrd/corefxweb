@@ -45,7 +45,7 @@ export default function SocialSidebar() {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden fixed bottom-4 left-4 z-50 flex flex-col items-start space-y-2">
+      <div className="md:hidden fixed bottom-6 left-4 z-50 flex flex-col items-start space-y-3">
         {/* Expanded icons */}
         <AnimatePresence>
           {isOpen &&
@@ -59,10 +59,10 @@ export default function SocialSidebar() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 10 }}
                 transition={{ duration: 0.15, delay: index * 0.05 }}
-                className="bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300"
+                className="bg-black/40 hover:bg-white hover:text-black text-white p-4 rounded-full transition duration-300"
                 aria-label={label}
               >
-                <Icon className="h-4 w-4" />
+                <Icon className="h-6 w-6" />
               </motion.a>
             ))}
         </AnimatePresence>
@@ -70,13 +70,13 @@ export default function SocialSidebar() {
         {/* Toggle button using compass icon */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="p-3 rounded-full bg-white text-black shadow-md"
+          className="p-4 rounded-full bg-white text-black shadow-lg"
           aria-label="Toggle Social Links"
         >
           {isOpen ? (
-            <span className="text-sm font-bold">×</span>
+            <span className="text-lg font-bold">×</span>
           ) : (
-            <FiCompass className="h-4 w-4" />
+            <FiCompass className="h-6 w-6" />
           )}
         </button>
       </div>
