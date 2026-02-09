@@ -9,6 +9,7 @@ import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import SocialSidebar from '@/components/SocialSideBar';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
 import ScrollIndicator from '@/components/ScrollIndicator';
+import BodyScrollbarHide from '@/components/BodyScrollbarHide';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-black text-white overflow-x-hidden`}>
         <ScrollToTopOnMount />
+        <BodyScrollbarHide />
 
         {/* Fixed Background */}
         <div className="fixed inset-0 z-0">
