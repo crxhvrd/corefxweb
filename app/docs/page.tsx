@@ -145,7 +145,7 @@ export default function Prerequisites() {
 
       <div className="container mx-auto px-3 sm:px-4 md:px-8 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
         {/* ───────── LEFT PANE ───────── */}
-        <ScrollArea className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-hidden">
+        <div className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-y-auto">
           <div className="p-4 md:p-8">
             {/* section switcher with expanding menu */}
             <div className="flex items-center gap-2 mb-8 relative">
@@ -547,7 +547,7 @@ export default function Prerequisites() {
             )}
 
           </div>
-        </ScrollArea>
+        </div>
 
         {/* ───────── RIGHT PANE (FAQ) ───────── */}
         <ScrollArea className="w-full lg:w-80 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg">
