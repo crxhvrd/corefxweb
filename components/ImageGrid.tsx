@@ -61,7 +61,7 @@ export default function ImageGrid() {
     <>
       <div
         ref={gridRef}
-        className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-4 max-h-[80vh] overflow-y-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 p-3 sm:p-4"
       >
         {images.map((img, i) => (
           <div

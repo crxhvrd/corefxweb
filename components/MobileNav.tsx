@@ -26,10 +26,10 @@ export default function MobileNav() {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-3 rounded-full bg-white text-black shadow-md z-50"
+        className="p-4 rounded-full bg-white text-black shadow-lg z-50"
         aria-label="Toggle Menu"
       >
-        {isOpen ? <X size={20} /> : <Menu size={20} />}
+        {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
       {/* Expandable Icons */}
@@ -53,12 +53,11 @@ export default function MobileNav() {
                   key={key}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className={`p-2 rounded-full transition-colors duration-300 ${
-                    isActive ? 'bg-white text-black' : 'text-white hover:bg-white/20'
-                  }`}
+                  className={`p-3 rounded-full transition-colors duration-300 ${isActive ? 'bg-white text-black' : 'text-white hover:bg-white/20'
+                    }`}
                   aria-label={item.name}
                 >
-                  <Icon size={20} />
+                  <Icon size={24} />
                 </Link>
               ) : (
                 <button
@@ -68,10 +67,10 @@ export default function MobileNav() {
                     triggerDownloadModal();
                     setIsOpen(false);
                   }}
-                  className="p-2 rounded-full text-white transition-colors duration-300 hover:bg-white/20"
+                  className="p-3 rounded-full text-white transition-colors duration-300 hover:bg-white/20"
                   aria-label={item.name}
                 >
-                  <Icon size={20} />
+                  <Icon size={24} />
                 </button>
               );
             })}
