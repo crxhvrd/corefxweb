@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import ImageModal from './ImageModal';
 
+// Component to display screenshots in a responsive grid
+
 const images = [
   { id: 1, src: '/images/screenshots/3240220_20260208204541_1.jpg', alt: 'CoreFX Screenshot' },
   { id: 2, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-01-11_078.jpg', alt: 'CoreFX Screenshot' },
