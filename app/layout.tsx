@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import NavBar from '@/components/NavBar';
 import MobileNav from '@/components/MobileNav'; // ✅ New mobile nav
-import Logo from '@/components/Logo';
+import HeaderLogos from '@/components/HeaderLogos';
 import VideoBackground from '@/components/VideoBackground';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import SocialSidebar from '@/components/SocialSideBar';
@@ -35,28 +35,8 @@ export default function RootLayout({
           <VideoBackground />
         </div>
 
-        {/* Top Logo and Branding */}
-        <div className="fixed top-0 left-0 w-full z-50">
-          <div className="mx-auto px-4 sm:px-8 py-6 sm:py-8 flex justify-between items-center">
-            <Logo
-              imageUrl="/images/Beta.png"
-              alt="Animated Logo"
-              width={64}
-              height={64}
-              circle={true}
-              className="sm:w-12 sm:h-12"
-            />
-
-            {/* Static Logo */}
-            <Logo
-              imageUrl="https://i.imgur.com/Awl16fH.png"
-              alt="Static Logo"
-              width={96}
-              height={96}
-              className="rounded sm:w-[72px] sm:h-[72px]"
-            />
-          </div>
-        </div>
+        {/* Top Logo and Branding - hides on docs page */}
+        <HeaderLogos />
 
         {/* Desktop NavBar - Bottom Right */}
         <div className="fixed bottom-8 right-8 z-50 hidden md:block">

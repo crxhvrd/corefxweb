@@ -1,11 +1,16 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
 export default function ScrollIndicator() {
     const [isVisible, setIsVisible] = useState(true);
+    const pathname = usePathname();
+
+    // Hide on docs page
+    const isDocsPage = pathname === '/docs';
 
     useEffect(() => {
         const handleScroll = () => {
@@ -16,6 +21,9 @@ export default function ScrollIndicator() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    // Don't render on docs page
+    if (isDocsPage) return null;
 
     return (
         <AnimatePresence>

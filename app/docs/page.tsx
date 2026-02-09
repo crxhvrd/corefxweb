@@ -191,7 +191,7 @@ export default function Prerequisites() {
   };
 
   return (
-    <main className="min-h-screen pt-20 sm:pt-24">
+    <main className="min-h-screen pt-6 sm:pt-8">
       <AnimatedBackground />
 
       <div className="container mx-auto px-3 sm:px-4 md:px-8 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
@@ -275,11 +275,11 @@ export default function Prerequisites() {
                         : 'opacity-0 translate-y-10'
                       }`}
                   >
-                    <div className="p-4 md:p-6">
-                      <h2 className="text-xl font-semibold mb-2">
+                    <div className="p-5 md:p-6">
+                      <h2 className="text-2xl md:text-xl font-semibold mb-3">
                         {section.title}
                       </h2>
-                      <p className="text-gray-300 mb-4">{section.content}</p>
+                      <p className="text-gray-300 text-base md:text-sm mb-4">{section.content}</p>
 
                       {section.warning && (
                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -292,14 +292,14 @@ export default function Prerequisites() {
                       <div className="space-y-4">
                         {section.requirements.map((req, rIdx) => (
                           <div key={rIdx}>
-                            <h3 className="font-medium text-white/80 text-sm md:text-base">
+                            <h3 className="font-medium text-white/80 text-base md:text-base">
                               {req.title}
                             </h3>
-                            <ul className="list-disc pl-5 mt-2 space-y-1">
+                            <ul className="list-disc pl-5 mt-2 space-y-2">
                               {req.items.map((item, iIdx) => (
                                 <li
                                   key={iIdx}
-                                  className="text-gray-300 text-sm"
+                                  className="text-gray-300 text-base md:text-sm"
                                 >
                                   {item}
                                 </li>
