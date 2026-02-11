@@ -9,6 +9,7 @@ interface Props {
   image: {
     src: string;
     alt: string;
+    version?: string;
   };
   onClose: () => void;
 }
@@ -72,6 +73,12 @@ export default function ImageModal({ image, onClose }: Props) {
           quality={100}
           priority
         />
+
+        {image.version && (
+          <span className="absolute bottom-3 left-3 px-3 py-1 text-sm font-medium text-white/90 bg-black/50 backdrop-blur-sm rounded-lg select-none pointer-events-none">
+            {image.version}
+          </span>
+        )}
       </div>
     </div>,
     document.body

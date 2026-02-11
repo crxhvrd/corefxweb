@@ -7,33 +7,33 @@ import ImageModal from './ImageModal';
 // Component to display screenshots in a responsive grid
 
 const images = [
-  { id: 1, src: '/images/screenshots/3240220_20260208204541_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 2, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-01-11_078.jpg', alt: 'CoreFX Screenshot' },
-  { id: 3, src: '/images/screenshots/3240220_20260209183346_1.jpg', alt: 'CoreFX Screenshot' }, // New Batch 2
-  { id: 4, src: '/images/screenshots/3240220_20260208210100_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 5, src: '/images/screenshots/3240220_20260209174016_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 6, src: '/images/screenshots/3240220_20260208203346_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 7, src: '/images/screenshots/3240220_20260208214801_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 8, src: '/images/screenshots/3240220_20260208211533_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 9, src: '/images/screenshots/3240220_20260208205249_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 10, src: '/images/screenshots/3240220_20260208202725_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 11, src: '/images/screenshots/3240220_20260209174232_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 12, src: '/images/screenshots/3240220_20260208210507_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 13, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-22-33_545.jpg', alt: 'CoreFX Screenshot' },
-  { id: 14, src: '/images/screenshots/3240220_20260208204339_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 15, src: '/images/screenshots/3240220_20260209183522_1.jpg', alt: 'CoreFX Screenshot' }, // New Batch 2
-  { id: 16, src: '/images/screenshots/3240220_20260208211115_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 17, src: '/images/screenshots/3240220_20260208210008_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 18, src: '/images/screenshots/3240220_20260208203122_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 19, src: '/images/screenshots/3240220_20260209173749_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 20, src: '/images/screenshots/3240220_20260208212330_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 21, src: '/images/screenshots/3240220_20260208210710_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 22, src: '/images/screenshots/3240220_20260208204909_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 23, src: '/images/screenshots/3240220_20260209184019_1.jpg', alt: 'CoreFX Screenshot' }, // New Batch 2
-  { id: 24, src: '/images/screenshots/3240220_20260208211447_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 25, src: '/images/screenshots/3240220_20260208205418_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 26, src: '/images/screenshots/3240220_20260208202914_1.jpg', alt: 'CoreFX Screenshot' },
-  { id: 27, src: '/images/screenshots/3240220_20260208203631_1.jpg', alt: 'CoreFX Screenshot' },
+  { id: 1, src: '/images/screenshots/3240220_20260208204541_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 2, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-01-11_078.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 3, src: '/images/screenshots/3240220_20260209183346_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 4, src: '/images/screenshots/3240220_20260208210100_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 5, src: '/images/screenshots/3240220_20260209174016_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 6, src: '/images/screenshots/3240220_20260208203346_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 7, src: '/images/screenshots/3240220_20260208214801_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 8, src: '/images/screenshots/3240220_20260208211533_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 9, src: '/images/screenshots/3240220_20260208205249_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 10, src: '/images/screenshots/3240220_20260208202725_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 11, src: '/images/screenshots/3240220_20260209174232_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 12, src: '/images/screenshots/3240220_20260208210507_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 13, src: '/images/screenshots/GTA5_Enhanced_2026-02-08_13-22-33_545.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 14, src: '/images/screenshots/3240220_20260208204339_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 15, src: '/images/screenshots/3240220_20260209183522_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 16, src: '/images/screenshots/3240220_20260208211115_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 17, src: '/images/screenshots/3240220_20260208210008_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 18, src: '/images/screenshots/3240220_20260208203122_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 19, src: '/images/screenshots/3240220_20260209173749_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 20, src: '/images/screenshots/3240220_20260208212330_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 21, src: '/images/screenshots/3240220_20260208210710_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 22, src: '/images/screenshots/3240220_20260208204909_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 23, src: '/images/screenshots/3240220_20260209184019_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 24, src: '/images/screenshots/3240220_20260208211447_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 25, src: '/images/screenshots/3240220_20260208205418_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 26, src: '/images/screenshots/3240220_20260208202914_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
+  { id: 27, src: '/images/screenshots/3240220_20260208203631_1.jpg', alt: 'CoreFX Screenshot', version: 'CoreFX 1.2 Enhanced' },
 ];
 
 export default function ImageGrid() {
@@ -74,7 +74,7 @@ export default function ImageGrid() {
         {images.map((img, i) => (
           <div
             key={img.id}
-            className="fade-item opacity-0 translate-y-10 transition-all duration-700 ease-out cursor-pointer hover:scale-[1.02] transform"
+            className="fade-item relative opacity-0 translate-y-10 transition-all duration-700 ease-out cursor-pointer hover:scale-[1.02] transform"
             style={{ transitionDelay: `${i * 75}ms` }}
             onClick={() => setSelectedImage(img)}
           >
@@ -86,6 +86,11 @@ export default function ImageGrid() {
               className="w-full h-auto rounded-lg shadow-md"
               loading="lazy"
             />
+            {img.version && (
+              <span className="absolute bottom-2 left-2 px-2 py-0.5 text-[10px] sm:text-xs font-medium text-white/90 bg-black/50 backdrop-blur-sm rounded-md select-none pointer-events-none">
+                {img.version}
+              </span>
+            )}
           </div>
         ))}
       </div>
