@@ -13,7 +13,7 @@ type NavItem =
 const navItems: NavItem[] = [
   { name: 'Home', type: 'link', href: '/' },
   { name: 'Download', type: 'download' },
-  { name: 'Documentation', type: 'link', href: '/docs' },
+  { name: 'Documentation', type: 'link', href: '/docs/prerequisites' },
 ];
 
 export default function NavBar() {
@@ -25,7 +25,7 @@ export default function NavBar() {
       <ul className="relative flex space-x-4">
         {navItems.map((item) => {
           const key = item.type === 'link' ? item.href : item.name;
-          const isActive = item.type === 'link' ? activeItem === item.href : false;
+          const isActive = item.type === 'link' ? (item.href === '/' ? activeItem === '/' : activeItem?.startsWith(item.href)) : false;
 
           return (
             <li key={key} className="relative flex items-center justify-center">

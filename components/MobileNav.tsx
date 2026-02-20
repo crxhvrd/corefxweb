@@ -14,7 +14,7 @@ type NavItem =
 const navItems: NavItem[] = [
   { name: 'Home', type: 'link', href: '/', icon: Home },
   { name: 'Download', type: 'download', icon: Download },
-  { name: 'Documentation', type: 'link', href: '/docs', icon: BookOpen },
+  { name: 'Documentation', type: 'link', href: '/docs/prerequisites', icon: BookOpen },
 ];
 
 export default function MobileNav() {

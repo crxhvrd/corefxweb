@@ -182,8 +182,11 @@ export default function DocsClient() {
             } else if (mainTab === 'prerequisites') {
                 setActiveSection('prerequisites');
             }
+        } else {
+            // Redirect /docs -> /docs/prerequisites
+            router.replace('/docs/prerequisites', { scroll: false });
         }
-    }, [slug]);
+    }, [slug, router]);
 
     // Update URL when changing sections
     const handleSectionChange = (section: 'prerequisites' | 'installation') => {
