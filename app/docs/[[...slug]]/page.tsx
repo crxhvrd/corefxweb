@@ -155,6 +155,16 @@ const installLabels: Record<InstallTab, string> = {
   'enhanced-ragemp': 'Enhanced RageMP'
 };
 
+export async function generateStaticParams() {
+  const paths = [
+    { slug: [] }, // /docs
+    { slug: ['prerequisites'] }, // /docs/prerequisites
+    ...installTabs.map((tab) => ({ slug: ['install', tab] })) // /docs/install/[tab]
+  ];
+
+  return paths;
+}
+
 /* ───────────────────────── COMPONENT ───────────────────────── */
 
 export default function Prerequisites() {
