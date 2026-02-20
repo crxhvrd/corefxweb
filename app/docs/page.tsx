@@ -602,9 +602,12 @@ ReShade5=ID:XXXXXX`}
                             <code>start CoreFX</code>.
                           </li>
                           <li>
-                            For optionals, open <code>config.lua</code> in{' '}
-                            <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters
-                            to &quot;true&quot; as needed.
+                            Edit your <code>server.cfg</code> file and add{' '}
+                            <code>start CoreFX</code>.
+                          </li>
+                          <li>
+                            <strong>Note for Optionals:</strong> Navigate to the <code>CoreFX\[CoreFX]\CoreFX</code> folder to configure <code>config.lua</code> for optional features.
+                            (Note: <code>Install.bat</code> / <code>Uninstall.bat</code> scripts for optionals are not applicable for server-side installation).
                           </li>
                           <li>
                             <strong>Note for Players:</strong> For the best visual
