@@ -322,6 +322,9 @@ export default function DocsClient() {
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ul className="list-disc pl-5 text-gray-300 space-y-2">
                                                     <li>
+                                                        Download and install <strong>ScriptHookV & Asi Loader</strong> compatible with GTA V Legacy.
+                                                    </li>
+                                                    <li>
                                                         Add <code>-noBattlEye</code> to your game launcher&apos;s
                                                         parameters.
                                                     </li>
