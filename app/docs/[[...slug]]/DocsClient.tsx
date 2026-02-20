@@ -598,6 +598,8 @@ export default function DocsClient() {
                                                         Copy all ReShade files from the provided package into
                                                         the <code>plugins</code> folder, located inside your{' '}
                                                         <code>FiveM Application Data</code> directory.
+                                                        <strong> Additionally</strong>, copy these same files
+                                                        into your main GTA 5 game directory.
                                                     </li>
                                                     <li>
                                                         In-game, press <strong>F7</strong> to open the ReShade
