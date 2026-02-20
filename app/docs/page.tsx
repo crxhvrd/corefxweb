@@ -587,7 +587,7 @@ export default function Prerequisites() {
                             </ul>
                             <pre className="bg-black/50 p-2 rounded mt-1 text-xs select-all">
                               {`[Addons]
-ReShade5=ID:XXXXXX`}
+ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to game crashes`}
                             </pre>
                           </li>
                         </ol>
