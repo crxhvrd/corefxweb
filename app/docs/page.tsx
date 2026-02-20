@@ -685,6 +685,14 @@ ReShade5=ID:XXXXXX`}
                           </li>
                         </ol>
                       </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            Remove the files you copied from the <code>CoreFX ReShade</code> folder from your main RageMP directory.
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -740,7 +748,16 @@ ReShade5=ID:XXXXXX`}
                           </li>
                           <li>
                             Copy all files from the <code>CoreFX ReShade</code>{' '}
-                            folder into your main RageMP directory.
+                            folder into your main RageMP directory (where{' '}
+                            <code>updater.exe</code> is located).
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            Remove the files you copied from the <code>CoreFX ReShade</code> folder from your main RageMP directory.
                           </li>
                         </ol>
                       </InstallationStep>
