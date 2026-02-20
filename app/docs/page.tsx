@@ -552,6 +552,9 @@ export default function Prerequisites() {
                             menu and enable available shaders manually.
                           </li>
                           <li>
+                            You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
+                          </li>
+                          <li>
                             <strong>
                               Troubleshooting &quot;ReShade Blocked&quot; Error:
                             </strong>
