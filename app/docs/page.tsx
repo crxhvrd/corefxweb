@@ -444,6 +444,13 @@ export default function Prerequisites() {
                             your main GTA 5 Enhanced game directory.
                           </li>
                           <li>
+                            <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
+                            <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
+                            to <strong>Ultra</strong> in your in-game graphics settings.
+                            This is required to load the custom RenoDX shaders included
+                            with ReShade.
+                          </li>
+                          <li>
                             In-game, press <strong>F7</strong> to open the ReShade
                             menu and enable available shaders manually.
                           </li>
@@ -500,8 +507,9 @@ export default function Prerequisites() {
                               <p className="text-red-300 text-sm">
                                 It is really important to have DirectX 11 enabled
                                 and PostFX and Shader quality set to Ultra in ingame
-                                settings to prevent visual bugs and to enable new
-                                shader features
+                                settings to prevent visual bugs, enable new
+                                shader features, and fix issues with night time being too dark
+                                (caused by CoreFX shader interactions).
                               </p>
                             </div>
                           </li>
@@ -650,8 +658,9 @@ ReShade5=ID:XXXXXX`}
                               <p className="text-red-300 text-sm">
                                 It is really important to have DirectX 11 enabled
                                 and PostFX and Shader quality set to Ultra in ingame
-                                settings to prevent visual bugs and to enable new
-                                shader features
+                                settings to prevent visual bugs, enable new
+                                shader features, and fix issues with night time being too dark
+                                (caused by CoreFX shader interactions).
                               </p>
                             </div>
                           </li>
@@ -753,6 +762,13 @@ ReShade5=ID:XXXXXX`}
                             Copy all files from the <code>CoreFX ReShade</code>{' '}
                             folder into your main RageMP directory (where{' '}
                             <code>updater.exe</code> is located).
+                          </li>
+                          <li>
+                            <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
+                            <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
+                            to <strong>Ultra</strong> in your in-game graphics settings.
+                            This is required to load the custom RenoDX shaders included
+                            with ReShade.
                           </li>
                         </ol>
                       </InstallationStep>
