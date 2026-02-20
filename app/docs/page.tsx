@@ -460,6 +460,9 @@ export default function Prerequisites() {
                           <li>
                             <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
                           </li>
+                          <li>
+                            <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
+                          </li>
                         </ol>
                       </InstallationStep>
 
@@ -792,6 +795,9 @@ ReShade5=ID:XXXXXX`}
                           </li>
                           <li>
                             <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
+                          </li>
+                          <li>
+                            <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
                           </li>
                         </ol>
                       </InstallationStep>
