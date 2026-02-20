@@ -286,7 +286,7 @@ export default function Prerequisites() {
                     <div className="install-block">
                       <h4>Legacy Singleplayer Installation</h4>
 
-                      <InstallationStep title="Before Installing" defaultOpen={false}>
+                      <InstallationStep title="Prerequisites" defaultOpen={false}>
                         <ul className="list-disc pl-5 text-gray-300 space-y-2">
                           <li>
                             Add <code>-noBattlEye</code> to your game launcher&apos;s
