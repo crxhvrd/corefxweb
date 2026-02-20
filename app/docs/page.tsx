@@ -695,6 +695,7 @@ ReShade5=ID:XXXXXX`}
 
                       <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
+                          <li>Extract the downloaded package.</li>
                           <li>
                             <strong>Method 1 (Recommended):</strong> Copy the
                             <code>user_resources</code> folder from the downloaded
