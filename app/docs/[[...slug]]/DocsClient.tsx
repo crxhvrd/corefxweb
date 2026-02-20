@@ -359,7 +359,9 @@ export default function DocsClient() {
                                                                 It is really important to have DirectX 11 enabled
                                                                 and PostFX and Shader quality set to Ultra in ingame
                                                                 settings to prevent visual bugs and to enable new
-                                                                shader features
+                                                                shader features. This will also fix super dark nights
+                                                                on certain weathers because of how CoreFX interacts
+                                                                with shaders.
                                                             </p>
                                                         </div>
                                                     </li>
@@ -556,9 +558,10 @@ export default function DocsClient() {
                                                             <p className="text-red-300 text-sm">
                                                                 It is really important to have DirectX 11 enabled
                                                                 and PostFX and Shader quality set to Ultra in ingame
-                                                                settings to prevent visual bugs, enable new
-                                                                shader features, and fix issues with night time being too dark
-                                                                (caused by CoreFX shader interactions).
+                                                                settings to prevent visual bugs and to enable new
+                                                                shader features. This will also fix super dark nights
+                                                                on certain weathers because of how CoreFX interacts
+                                                                with shaders.
                                                             </p>
                                                         </div>
                                                     </li>
@@ -706,9 +709,10 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                             <p className="text-red-300 text-sm">
                                                                 It is really important to have DirectX 11 enabled
                                                                 and PostFX and Shader quality set to Ultra in ingame
-                                                                settings to prevent visual bugs, enable new
-                                                                shader features, and fix issues with night time being too dark
-                                                                (caused by CoreFX shader interactions).
+                                                                settings to prevent visual bugs and to enable new
+                                                                shader features. This will also fix super dark nights
+                                                                on certain weathers because of how CoreFX interacts
+                                                                with shaders.
                                                             </p>
                                                         </div>
                                                     </li>
