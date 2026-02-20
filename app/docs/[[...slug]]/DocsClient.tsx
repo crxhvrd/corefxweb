@@ -204,13 +204,7 @@ export default function DocsClient() {
         router.push(`/docs/install/${tab}`, { scroll: false });
     };
 
-    const [openFaqs, setOpenFaqs] = useState<number[]>([]);
     const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
-
-    const toggleFaq = (idx: number) =>
-        setOpenFaqs((list) =>
-            list.includes(idx) ? list.filter((i) => i !== idx) : [...list, idx]
-        );
 
     return (
         <main className="min-h-screen pt-6 sm:pt-8">
@@ -871,21 +865,12 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     key={idx}
                                     className="bg-black/30 rounded-lg overflow-hidden border border-white/5"
                                 >
-                                    <button
-                                        onClick={() => toggleFaq(idx)}
-                                        className="w-full p-4 text-left flex justify-between items-start gap-3 hover:bg-white/5 transition-colors"
-                                    >
+                                    <div className="w-full p-4 text-left flex justify-between items-start gap-3 bg-white/5">
                                         <span className="font-semibold text-sm">{faq.question}</span>
-                                        <ChevronDown
-                                            className={`w-4 h-4 mt-1 transition-transform ${openFaqs.includes(idx) ? 'rotate-180' : ''
-                                                }`}
-                                        />
-                                    </button>
-                                    {openFaqs.includes(idx) && (
-                                        <div className="p-4 pt-0 text-gray-400 text-sm border-t border-white/5 mt-2">
-                                            {faq.answer}
-                                        </div>
-                                    )}
+                                    </div>
+                                    <div className="p-4 pt-4 text-gray-400 text-sm border-t border-white/5">
+                                        {faq.answer}
+                                    </div>
                                 </div>
                             ))}
                         </div>
