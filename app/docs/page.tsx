@@ -295,7 +295,7 @@ export default function Prerequisites() {
                         </ul>
                       </InstallationStep>
 
-                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                      <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
                           <li>Extract the downloaded package.</li>
                           <li>
@@ -399,7 +399,7 @@ export default function Prerequisites() {
                         </ol>
                       </InstallationStep>
 
-                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                      <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
                           <li>Extract the downloaded package.</li>
                           <li>
@@ -462,7 +462,7 @@ export default function Prerequisites() {
                     <div className="install-block">
                       <h4>Legacy FiveM Installation</h4>
 
-                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                      <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
                           <li>
                             Open the <code>CoreFX</code> folder and run{' '}
@@ -576,7 +576,7 @@ ReShade5=ID:XXXXXX`}
                     <div className="install-block">
                       <h4>Legacy FiveM ServerSide Installation</h4>
 
-                      <InstallationStep title="Server Installation" defaultOpen={true}>
+                      <InstallationStep title="Server Installation" defaultOpen={false}>
                         <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                           <li>
                             Place the <code>[CoreFX]</code> folder into the{' '}
@@ -608,7 +608,7 @@ ReShade5=ID:XXXXXX`}
                     <div className="install-block">
                       <h4>Legacy RageMP Installation</h4>
 
-                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                      <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
                           <li>
                             <strong>Method 1 (Recommended):</strong> Copy the
@@ -677,7 +677,7 @@ ReShade5=ID:XXXXXX`}
                     <div className="install-block">
                       <h4>Enhanced RageMP Installation</h4>
 
-                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                      <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
                           <li>
                             <strong>Method 1 (Recommended):</strong> Copy the
