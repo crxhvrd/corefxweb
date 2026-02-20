@@ -470,6 +470,7 @@ export default function Prerequisites() {
 
                       <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                         <ol className="list-decimal pl-5 space-y-2">
+                          <li>Extract the downloaded package.</li>
                           <li>
                             Open the <code>CoreFX</code> folder and run{' '}
                             <code>Install.bat</code>.
@@ -591,6 +592,7 @@ ReShade5=ID:XXXXXX`}
 
                       <InstallationStep title="Server Installation" defaultOpen={false}>
                         <ol className="list-decimal pl-5 text-gray-300 space-y-2">
+                          <li>Extract the downloaded package.</li>
                           <li>
                             Place the <code>[CoreFX]</code> folder into the{' '}
                             <code>resources</code> directory on your FiveM server.
