@@ -351,7 +351,8 @@ export default function DocsClient() {
                                                         script there.
                                                     </li>
                                                     <li>
-                                                        Launch GTA V and set in-game brightness to 40-50 %.
+                                                        Launch GTA V and set in-game brightness to approximately
+                                                        40-50 %.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -457,6 +458,9 @@ export default function DocsClient() {
                                                         Optionals (e.g., Roads, Streetlights, etc.). Simply
                                                         navigate to the specific optional folder and run the
                                                         script there.
+                                                    </li>
+                                                    <li>
+                                                        Set in-game brightness to approximately 40-50 %.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -673,7 +677,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         experience, players should set their in-game{' '}
                                                         <strong>Shader Quality</strong> and{' '}
                                                         <strong>Post FX</strong> to <strong>Ultra</strong> in
-                                                        the graphics settings.
+                                                        the graphics settings. Additionally, set in-game brightness to approximately 40-50 %.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
