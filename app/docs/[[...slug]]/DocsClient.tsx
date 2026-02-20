@@ -469,7 +469,8 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
                                                         Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder.
+                                                        <code>CoreFX</code> folder (works if you installed via{' '}
+                                                        <code>Install.bat</code>).
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -576,7 +577,8 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
                                                         Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder.
+                                                        <code>CoreFX</code> folder (works if you installed via{' '}
+                                                        <code>Install.bat</code>).
                                                     </li>
                                                     <li>Restart FiveM.</li>
                                                 </ol>
