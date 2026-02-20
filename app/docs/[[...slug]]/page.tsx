@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import {
   Collapsible,
@@ -11,6 +10,7 @@ import {
 import { ChevronDown } from 'lucide-react';
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useInView } from 'react-intersection-observer';
+import { useParams, useRouter } from 'next/navigation';
 
 /* ───────────────────────── COMPONENTS ───────────────────────── */
 
@@ -158,13 +158,49 @@ const installLabels: Record<InstallTab, string> = {
 /* ───────────────────────── COMPONENT ───────────────────────── */
 
 export default function Prerequisites() {
+  const params = useParams();
+  const router = useRouter();
+  const slug = params?.slug as string[] | undefined;
 
+  // Initialize state based on URL, or default if no URL param
   const [activeSection, setActiveSection] = useState<
     'prerequisites' | 'installation'
   >('prerequisites');
 
   const [activeInstallTab, setActiveInstallTab] =
     useState<InstallTab>('singleplayer');
+
+  // Sync state from URL on mount/update
+  useEffect(() => {
+    if (slug && slug.length > 0) {
+      const mainTab = slug[0];
+      if (mainTab === 'install') {
+        setActiveSection('installation');
+        if (slug[1] && installTabs.includes(slug[1] as InstallTab)) {
+          setActiveInstallTab(slug[1] as InstallTab);
+        }
+      } else if (mainTab === 'prerequisites') {
+        setActiveSection('prerequisites');
+      }
+    }
+  }, [slug]);
+
+  // Update URL when changing sections
+  const handleSectionChange = (section: 'prerequisites' | 'installation') => {
+    setActiveSection(section);
+    if (section === 'installation') {
+      router.push(`/docs/install/${activeInstallTab}`, { scroll: false });
+    } else {
+      router.push('/docs/prerequisites', { scroll: false });
+    }
+  };
+
+  // Update URL when changing install tabs
+  const handleInstallTabChange = (tab: InstallTab) => {
+    setActiveInstallTab(tab);
+    router.push(`/docs/install/${tab}`, { scroll: false });
+  };
+
   const [openFaqs, setOpenFaqs] = useState<number[]>([]);
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
 
@@ -185,7 +221,7 @@ export default function Prerequisites() {
             <div className="flex items-center gap-2 mb-8 relative">
               <div className="flex flex-wrap gap-2">
                 <button
-                  onClick={() => setActiveSection('prerequisites')}
+                  onClick={() => handleSectionChange('prerequisites')}
                   className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'prerequisites'
                     ? 'bg-white/20 text-white'
                     : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
@@ -194,7 +230,7 @@ export default function Prerequisites() {
                   Prerequisites
                 </button>
                 <button
-                  onClick={() => setActiveSection('installation')}
+                  onClick={() => handleSectionChange('installation')}
                   className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'installation'
                     ? 'bg-white/20 text-white'
                     : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
@@ -268,7 +304,7 @@ export default function Prerequisites() {
                   {installTabs.map((tab) => (
                     <button
                       key={tab}
-                      onClick={() => setActiveInstallTab(tab)}
+                      onClick={() => handleInstallTabChange(tab)}
                       className={`px-4 py-3 sm:py-2 rounded-full text-sm sm:text-xs md:text-sm transition-all ${activeInstallTab === tab
                         ? 'bg-white/20 text-white'
                         : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
