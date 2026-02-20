@@ -317,7 +317,7 @@ export default function DocsClient() {
                                     {/* ───────── Legacy Singleplayer ───────── */}
                                     {activeInstallTab === 'singleplayer' && (
                                         <div className="install-block">
-                                            <h4>Legacy Singleplayer Installation</h4>
+
 
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ul className="list-disc pl-5 text-gray-300 space-y-2">
@@ -425,7 +425,7 @@ export default function DocsClient() {
                                     {/* ───────── Enhanced Singleplayer ───────── */}
                                     {activeInstallTab === 'enhanced' && (
                                         <div className="install-block">
-                                            <h4>Enhanced Singleplayer Installation</h4>
+
 
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-1">
@@ -529,7 +529,7 @@ export default function DocsClient() {
                                     {/* ───────── Legacy FiveM ───────── */}
                                     {activeInstallTab === 'fivem' && (
                                         <div className="install-block">
-                                            <h4>Legacy FiveM Installation</h4>
+
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
@@ -659,7 +659,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {/* ───────── Legacy FiveM ServerSide ───────── */}
                                     {activeInstallTab === 'fivem-server' && (
                                         <div className="install-block">
-                                            <h4>Legacy FiveM ServerSide Installation</h4>
+
 
                                             <InstallationStep title="Server Installation" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
@@ -691,7 +691,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {/* ───────── Legacy RageMP ───────── */}
                                     {activeInstallTab === 'ragemp' && (
                                         <div className="install-block">
-                                            <h4>Legacy RageMP Installation</h4>
+
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
@@ -778,7 +778,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {/* ───────── Enhanced RageMP ───────── */}
                                     {activeInstallTab === 'enhanced-ragemp' && (
                                         <div className="install-block">
-                                            <h4>Enhanced RageMP Installation</h4>
+
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
