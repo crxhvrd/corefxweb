@@ -449,8 +449,9 @@ export default function DocsClient() {
                                                         <code>Install.bat</code>.
                                                     </li>
                                                     <li>
-                                                        If prompted, select your GTA 5 Enhanced folder. This
-                                                        automatic installer handles the main CoreFX package.
+                                                        If prompted, select your GTA 5 Enhanced folder. This will
+                                                        automatically install the mod into the <code>mods</code>{' '}
+                                                        folder.
                                                     </li>
                                                     <li>
                                                         <strong>Note:</strong> <code>Install.bat</code> and{' '}
