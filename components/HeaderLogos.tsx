@@ -7,7 +7,7 @@ export default function HeaderLogos() {
     const pathname = usePathname();
 
     // Hide logos on docs page
-    if (pathname === '/docs') return null;
+    if (pathname?.startsWith('/docs')) return null;
 
     return (
         <div className="fixed top-0 left-0 w-full z-50">

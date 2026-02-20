@@ -10,7 +10,7 @@ export default function ScrollIndicator() {
     const pathname = usePathname();
 
     // Hide on docs page
-    const isDocsPage = pathname === '/docs';
+    const isDocsPage = pathname?.startsWith('/docs');
 
     useEffect(() => {
         const handleScroll = () => {
