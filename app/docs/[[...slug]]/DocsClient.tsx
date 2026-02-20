@@ -335,13 +335,16 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
-                                                        Open the <code>CoreFX</code> folder and run{' '}
+                                                        <strong>Method 1 (Recommended):</strong> Open the <code>CoreFX</code> folder and run{' '}
                                                         <code>Install.bat</code>.
                                                     </li>
                                                     <li>
                                                         If prompted, select your GTA 5 Legacy folder. This will
                                                         automatically install the mod into the <code>mods</code>{' '}
                                                         folder.
+                                                    </li>
+                                                    <li>
+                                                        <strong>Method 2 (Alternative):</strong> Use the <strong>OpenIV</strong> app. Open OpenIV, click on "Tools" &gt; "Package Installer", and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder.
                                                     </li>
                                                     <li>
                                                         <strong>Note:</strong> <code>Install.bat</code> and{' '}
@@ -532,11 +535,19 @@ export default function DocsClient() {
                                         <div className="install-block">
 
 
+                                            <InstallationStep title="Prerequisites" defaultOpen={false}>
+                                                <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                                                    <li>
+                                                        <strong>Important:</strong> If you have installed older builds of CoreFX before, you must remove all shaders from the <code>FiveM.app\citizen\common\shaders\win32_40_final</code> folder.
+                                                    </li>
+                                                </ul>
+                                            </InstallationStep>
+
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
-                                                        Open the <code>CoreFX</code> folder and run{' '}
+                                                        <strong>Method 1 (Recommended):</strong> Open the <code>CoreFX</code> folder and run{' '}
                                                         <code>Install.bat</code>.
                                                     </li>
                                                     <li>
@@ -548,6 +559,9 @@ export default function DocsClient() {
                                                         If detection fails, or if you wish to install to a
                                                         different location, you can manually select your{' '}
                                                         <strong>FiveM Application Data</strong> folder.
+                                                    </li>
+                                                    <li>
+                                                        <strong>Method 2 (Alternative):</strong> Drag and drop the CoreFX <code>.rpf</code> package directly into your FiveM <code>mods</code> folder (located inside your FiveM Application Data directory).
                                                     </li>
                                                     <li>
                                                         <strong>Note:</strong> <code>Install.bat</code> and{' '}
