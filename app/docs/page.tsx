@@ -308,11 +308,11 @@ export default function Prerequisites() {
                             folder.
                           </li>
                           <li>
-                            <strong>Note:</strong> This includes the main CoreFX
-                            package and all <code>.oiv</code> optionals found in the
-                            package. For specific optionals, navigate to their
-                            respective folders and run <code>Install.bat</code>{' '}
-                            there.
+                            <strong>Note:</strong> <code>Install.bat</code> and{' '}
+                            <code>Uninstall.bat</code> are also included for CoreFX
+                            Optionals (e.g., Roads, Streetlights, etc.). Simply
+                            navigate to the specific optional folder and run the
+                            script there.
                           </li>
                           <li>
                             Launch GTA V and set in-game brightness to 40-50 %.
@@ -408,8 +408,14 @@ export default function Prerequisites() {
                           </li>
                           <li>
                             If prompted, select your GTA 5 Enhanced folder. This
-                            automatic installer handles the main CoreFX package and
-                            all <code>.oiv</code> optionals.
+                            automatic installer handles the main CoreFX package.
+                          </li>
+                          <li>
+                            <strong>Note:</strong> <code>Install.bat</code> and{' '}
+                            <code>Uninstall.bat</code> are also included for CoreFX
+                            Optionals (e.g., Roads, Streetlights, etc.). Simply
+                            navigate to the specific optional folder and run the
+                            script there.
                           </li>
                         </ol>
                       </InstallationStep>
@@ -477,6 +483,13 @@ export default function Prerequisites() {
                             If detection fails, or if you wish to install to a
                             different location, you can manually select your{' '}
                             <strong>FiveM Application Data</strong> folder.
+                          </li>
+                          <li>
+                            <strong>Note:</strong> <code>Install.bat</code> and{' '}
+                            <code>Uninstall.bat</code> are also included for CoreFX
+                            Optionals (e.g., Roads, Streetlights, etc.). Simply
+                            navigate to the specific optional folder and run the
+                            script there.
                           </li>
                           <li>
                             Set in-game brightness to approximately 40-50 %.
