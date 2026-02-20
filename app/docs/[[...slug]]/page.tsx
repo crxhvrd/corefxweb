@@ -12,7 +12,7 @@ const installTabs = [
 
 export async function generateStaticParams() {
   const paths = [
-    { slug: [] }, // /docs
+    { slug: [] as string[] }, // /docs
     { slug: ['prerequisites'] }, // /docs/prerequisites
     ...installTabs.map((tab) => ({ slug: ['install', tab] })) // /docs/install/[tab]
   ];
