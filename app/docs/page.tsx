@@ -97,7 +97,7 @@ const faqs = [
     question:
       "I don't like blur when moving camera (motion blur). How can I disable it?",
     answer:
-      'For Legacy builds, you can toggle it off via the RenoDX Shader Loader menu. For Enhanced builds, simply disable "In-Game Motion Blur" in your GTA 5 graphics settings. For FiveM ServerSide, motion blur is disabled by default.'
+      'For Legacy builds, you can toggle it off via the RenoDX Shader Loader menu. For Enhanced builds, simply disable it in your GTA 5 graphics settings. For FiveM ServerSide, motion blur is disabled by default.'
   },
   {
     question: 'Can I use other mods with CoreFX?',
@@ -124,7 +124,7 @@ const faqs = [
     question:
       'In Rockstar Editor, my recorded clips show a blurred screen when moving. What causes this?',
     answer:
-      'This is caused by in-game motion blur. For Legacy builds, disable it via the RenoDX Shader Loader menu. For Enhanced builds, turn off "In-Game Motion Blur" in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred.'
+      'This is caused by in-game motion blur. For Legacy builds, disable it via the RenoDX Shader Loader menu. For Enhanced builds, turn off motion blur in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred.'
   },
   {
     question: 'Does CoreFX run on FiveM servers with Pure Mode enabled?',
