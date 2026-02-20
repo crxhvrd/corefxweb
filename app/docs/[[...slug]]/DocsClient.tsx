@@ -483,11 +483,15 @@ export default function DocsClient() {
                                                         your main GTA 5 Enhanced game directory.
                                                     </li>
                                                     <li>
-                                                        <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
-                                                        <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
-                                                        to <strong>Ultra</strong> in your in-game graphics settings.
-                                                        This is required to load the custom RenoDX shaders included
-                                                        with ReShade.
+                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-red-300 text-sm">
+                                                                <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
+                                                                <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
+                                                                to <strong>Ultra</strong> in your in-game graphics settings.
+                                                                This is required to load the custom RenoDX shaders included
+                                                                with ReShade.
+                                                            </p>
+                                                        </div>
                                                     </li>
                                                     <li>
                                                         In-game, press <strong>F7</strong> to open the ReShade
@@ -815,11 +819,15 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         <code>updater.exe</code> is located).
                                                     </li>
                                                     <li>
-                                                        <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
-                                                        <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
-                                                        to <strong>Ultra</strong> in your in-game graphics settings.
-                                                        This is required to load the custom RenoDX shaders included
-                                                        with ReShade.
+                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-red-300 text-sm">
+                                                                <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
+                                                                <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
+                                                                to <strong>Ultra</strong> in your in-game graphics settings.
+                                                                This is required to load the custom RenoDX shaders included
+                                                                with ReShade.
+                                                            </p>
+                                                        </div>
                                                     </li>
                                                     <li>
                                                         In-game, press <strong>F7</strong> to open the ReShade
