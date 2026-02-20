@@ -658,10 +658,6 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         <code>start CoreFX</code>.
                                                     </li>
                                                     <li>
-                                                        Edit your <code>server.cfg</code> file and add{' '}
-                                                        <code>start CoreFX</code>.
-                                                    </li>
-                                                    <li>
                                                         <strong>Note for Optionals:</strong> Navigate to the <code>CoreFX\\[CoreFX]\\CoreFX</code> folder to configure <code>config.lua</code> for optional features.
                                                         (Note: <code>Install.bat</code> / <code>Uninstall.bat</code> scripts for optionals are not applicable for server-side installation).
                                                     </li>
