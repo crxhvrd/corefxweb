@@ -12,6 +12,40 @@ import { ChevronDown } from 'lucide-react';
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useInView } from 'react-intersection-observer';
 
+/* ───────────────────────── COMPONENTS ───────────────────────── */
+
+const InstallationStep = ({
+  title,
+  children,
+  defaultOpen = false
+}: {
+  title: string;
+  children: React.ReactNode;
+  defaultOpen?: boolean;
+}) => {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+  return (
+    <Collapsible
+      open={isOpen}
+      onOpenChange={setIsOpen}
+      className="mb-4 border border-white/10 rounded-lg bg-black/40 overflow-hidden"
+    >
+      <CollapsibleTrigger className="flex items-center justify-between w-full p-4 hover:bg-white/5 transition-colors text-left font-semibold text-lg">
+        {title}
+        <ChevronDown
+          className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''
+            }`}
+        />
+      </CollapsibleTrigger>
+      <CollapsibleContent>
+        <div className="p-4 pt-0 border-t border-white/10 text-gray-300 space-y-2 mt-4">
+          {children}
+        </div>
+      </CollapsibleContent>
+    </Collapsible>
+  );
+};
+
 /* ───────────────────────── DATA ───────────────────────── */
 
 const prerequisitesSections = [
@@ -38,8 +72,8 @@ const prerequisitesSections = [
         title: 'Software',
         items: [
           'Base Game: A legitimate copy of Grand Theft Auto V.',
-          'OpenIV & OpenIV.asi (Legacy Singleplayer): Required for installing the mod into the Legacy mods folder.',
-          'CodeWalker & OpenRPF.asi (Enhanced Singleplayer): Required for installing the mod into the Enhanced mods folder.',
+          'OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder.',
+          'OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder.',
           'ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading.'
         ]
       },
@@ -251,78 +285,98 @@ export default function Prerequisites() {
                   {activeInstallTab === 'singleplayer' && (
                     <div className="install-block">
                       <h4>Legacy Singleplayer Installation</h4>
-                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                        <li>
-                          <strong>Before Installing:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Add <code>-noBattlEye</code> to your game
-                              launcher's parameters.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Open <code>InstallCoreFX.oiv</code> using OpenIV.
-                            </li>
-                            <li>
-                              Follow the on-screen prompts to install the mod
-                              into the <em>mods</em> folder.
-                            </li>
-                            <li>
-                              Launch GTA V and set in-game brightness to
-                              40-50 %.
-                            </li>
-                            <li>
-                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                <p className="text-red-300 text-sm">
-                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
-                                </p>
-                              </div>
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Open <code>UninstallCoreFX.oiv</code> using
-                              OpenIV.
-                            </li>
-                            <li>
-                              Reinstall original files in the <em>mods</em>{' '}
-                              folder.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your GTA V root directory to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
-                            </li>
-                            <li>
-                              Copy all ReShade files from the provided package into your main game directory.
-                            </li>
-                            <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
-                            </li>
-                            <li>
-                              If the ReShade menu does not appear when pressing <strong>F7</strong>, rename <code>d3d12.dll</code> to <code>dxgi.dll</code> in your game directory, then relaunch the game.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>d3d12.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
-                            </li>
-                          </ol>
-                        </li>
-                      </ul>
+
+                      <InstallationStep title="Before Installing" defaultOpen={false}>
+                        <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                          <li>
+                            Add <code>-noBattlEye</code> to your game launcher&apos;s
+                            parameters.
+                          </li>
+                        </ul>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>Extract the downloaded package.</li>
+                          <li>
+                            Open the <code>CoreFX</code> folder and run{' '}
+                            <code>Install.bat</code>.
+                          </li>
+                          <li>
+                            If prompted, select your GTA 5 Legacy folder. This will
+                            automatically install the mod into the <code>mods</code>{' '}
+                            folder.
+                          </li>
+                          <li>
+                            <strong>Note:</strong> This includes the main CoreFX
+                            package and all <code>.oiv</code> optionals found in the
+                            package. For specific optionals, navigate to their
+                            respective folders and run <code>Install.bat</code>{' '}
+                            there.
+                          </li>
+                          <li>
+                            Launch GTA V and set in-game brightness to 40-50 %.
+                          </li>
+                          <li>
+                            <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                              <p className="text-red-300 text-sm">
+                                It is really important to have DirectX 11 enabled
+                                and PostFX and Shader quality set to Ultra in ingame
+                                settings to prevent visual bugs and to enable new
+                                shader features
+                              </p>
+                            </div>
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Run <code>Uninstall.bat</code> located in the{' '}
+                            <code>CoreFX</code> folder (works if you installed via{' '}
+                            <code>Install.bat</code>).
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <strong>Important:</strong> Before installing, remove
+                            any old ENBSeries or ReShade files from your GTA V root
+                            directory to avoid compatibility issues. These files may
+                            be named <code>d3d11.dll</code>, <code>d3d12.dll</code>,{' '}
+                            <code>dxgi.dll</code>, <code>dxgi.asi</code>, or{' '}
+                            <code>ReShade.asi</code>.
+                          </li>
+                          <li>
+                            Copy all ReShade files from the provided package into
+                            your main game directory.
+                          </li>
+                          <li>
+                            In-game, press <strong>F7</strong> to open the ReShade
+                            menu and enable available shaders manually.
+                          </li>
+                          <li>
+                            If the ReShade menu does not appear when pressing{' '}
+                            <strong>F7</strong>, rename <code>d3d12.dll</code> to{' '}
+                            <code>dxgi.dll</code> in your game directory, then
+                            relaunch the game.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Simply delete the ReShade files you previously copied
+                            into your main game directory (e.g.,{' '}
+                            <code>d3d12.dll</code>, <code>ReShade.ini</code>, and
+                            the <code>reshade-shaders</code> folder).
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -330,55 +384,76 @@ export default function Prerequisites() {
                   {activeInstallTab === 'enhanced' && (
                     <div className="install-block">
                       <h4>Enhanced Singleplayer Installation</h4>
-                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                        <li>
-                          <strong>Prerequisites:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Download and install <strong>OpenRPF.asi</strong> and <strong>ScriptHookV & Asi Loader</strong>. Ensure you use versions compatible with GTA V Enhanced.
-                            </li>
-                            <li>
-                              <strong>One-Time OpenIV Setup:</strong> In the "OpenIV Fix" folder, run <code>OpenIV Fix.bat</code> and follow the instructions. This is required for OpenIV to correctly recognize your game, allowing you to use <code>.oiv</code> installers.
-                            </li>
-                            <li>
-                              Add <strong>-noBattlEye</strong> to your game launcher's parameters.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Using OpenIV, install <strong>CoreFXInstall.oiv</strong> (main package) and <strong>ClassicRoads.oiv</strong> (roads). The files will be installed into the <code>mods</code> folder.
-                            </li>
-                            <li>
-                              <strong>Alternative Method:</strong> You can open the <code>.oiv</code> files with an archiver (like WinRar) and install the mod manually using CodeWalker.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your GTA V Enhanced game directory to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
-                            </li>
-                            <li>
-                              Copy all ReShade files from the provided package into your main GTA 5 Enhanced game directory.
-                            </li>
-                            <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Simply delete the ReShade files you previously copied into your main game directory (e.g., <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the <code>reshade-shaders</code> folder).
-                            </li>
-                          </ol>
-                        </li>
-                      </ul>
+
+                      <InstallationStep title="Prerequisites" defaultOpen={false}>
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Download and install{' '}
+                            <strong>ScriptHookV & Asi Loader</strong> compatible
+                            with GTA V Enhanced.
+                          </li>
+                          <li>
+                            Add <strong>-noBattlEye</strong> to your game
+                            launcher&apos;s parameters.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>Extract the downloaded package.</li>
+                          <li>
+                            Open the <code>CoreFX</code> folder and run{' '}
+                            <code>Install.bat</code>.
+                          </li>
+                          <li>
+                            If prompted, select your GTA 5 Enhanced folder. This
+                            automatic installer handles the main CoreFX package and
+                            all <code>.oiv</code> optionals.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Run <code>Uninstall.bat</code> located in the{' '}
+                            <code>CoreFX</code> folder.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <strong>Important:</strong> Before installing, remove
+                            any old ENBSeries or ReShade files from your GTA V
+                            Enhanced game directory to avoid compatibility issues.
+                            These files may be named <code>d3d11.dll</code>,{' '}
+                            <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
+                            <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                          </li>
+                          <li>
+                            Copy all ReShade files from the provided package into
+                            your main GTA 5 Enhanced game directory.
+                          </li>
+                          <li>
+                            In-game, press <strong>F7</strong> to open the ReShade
+                            menu and enable available shaders manually.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Simply delete the ReShade files you previously copied
+                            into your main game directory (e.g.,{' '}
+                            <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the{' '}
+                            <code>reshade-shaders</code> folder).
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -386,61 +461,113 @@ export default function Prerequisites() {
                   {activeInstallTab === 'fivem' && (
                     <div className="install-block">
                       <h4>Legacy FiveM Installation</h4>
-                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                        <li>
-                          <strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Drag the <code>mods</code> folder (containing the <code>.rpf</code> mods) and the <code>citizen</code>
-                              folder (which includes the in-game shader replacements) into your FiveM Application Data directory.
-                            </li>
-                            <li>
-                              Set in-game brightness to approximately 40-50 %.
-                            </li>
-                            <li>
-                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                <p className="text-red-300 text-sm">
-                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
-                                </p>
-                              </div>
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove every CoreFX-related <code>.rpf</code> file
-                              from your <code>mods</code> folder and from the
-                              <code>shaders</code> folder located inside
-                              <code>citizen/common</code>.
-                            </li>
-                            <li>Restart FiveM.</li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Installing CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              <strong>Important:</strong> Before installing, remove any old ENBSeries or ReShade files from your FiveM <code>plugins</code> folder to avoid compatibility issues. These files may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>, <code>dxgi.dll</code>, <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
-                            </li>
-                            <li>
-                              Copy all ReShade files from the provided package into the <code>plugins</code> folder, located inside your <code>FiveM Application Data</code> directory.
-                            </li>
-                            <li>
-                              In-game, press <strong>F7</strong> to open the ReShade menu and enable available shaders manually.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX Shaders (ReShade):</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Simply delete the ReShade files you previously copied into the <code>plugins</code> folder within your <code>FiveM Application Data</code> directory.
-                            </li>
-                          </ol>
-                        </li>
-                      </ul>
+
+                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            Open the <code>CoreFX</code> folder and run{' '}
+                            <code>Install.bat</code>.
+                          </li>
+                          <li>
+                            A generic installer window will appear. It will attempt
+                            to <strong>automatically detect</strong> your FiveM mods
+                            folder.
+                          </li>
+                          <li>
+                            If detection fails, or if you wish to install to a
+                            different location, you can manually select your{' '}
+                            <strong>FiveM Application Data</strong> folder.
+                          </li>
+                          <li>
+                            Set in-game brightness to approximately 40-50 %.
+                          </li>
+                          <li>
+                            <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                              <p className="text-red-300 text-sm">
+                                It is really important to have DirectX 11 enabled
+                                and PostFX and Shader quality set to Ultra in ingame
+                                settings to prevent visual bugs and to enable new
+                                shader features
+                              </p>
+                            </div>
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Run <code>Uninstall.bat</code> located in the{' '}
+                            <code>CoreFX</code> folder.
+                          </li>
+                          <li>Restart FiveM.</li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <strong>Important:</strong> Before installing, remove
+                            any old ENBSeries or ReShade files from your FiveM{' '}
+                            <code>plugins</code> folder to avoid compatibility
+                            issues. These files may be named <code>d3d11.dll</code>,{' '}
+                            <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
+                            <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                          </li>
+                          <li>
+                            Copy all ReShade files from the provided package into
+                            the <code>plugins</code> folder, located inside your{' '}
+                            <code>FiveM Application Data</code> directory.
+                          </li>
+                          <li>
+                            In-game, press <strong>F7</strong> to open the ReShade
+                            menu and enable available shaders manually.
+                          </li>
+                          <li>
+                            <strong>
+                              Troubleshooting &quot;ReShade Blocked&quot; Error:
+                            </strong>
+                            <ul className="list-disc pl-5 mt-1 space-y-1">
+                              <li>
+                                If FiveM crashes or blocks ReShade (version 5+),
+                                press <strong>F8</strong> in the FiveM main menu to
+                                check the log.
+                              </li>
+                              <li>
+                                Look for an error message starting with{' '}
+                                <code>
+                                  script:reshade Blocked load of ReShade version 5
+                                  or higher...
+                                </code>{' '}
+                                followed by a specific ID.
+                              </li>
+                              <li>
+                                Open <code>CitizenFX.ini</code> in your FiveM
+                                Application Data folder.
+                              </li>
+                              <li>
+                                Add the following section at the end of the file,
+                                replacing <code>ID:XXXXXX</code> with the exact ID
+                                from your log:
+                              </li>
+                            </ul>
+                            <pre className="bg-black/50 p-2 rounded mt-1 text-xs select-all">
+                              {`[Addons]
+ReShade5=ID:XXXXXX`}
+                            </pre>
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Simply delete the ReShade files you previously copied
+                            into the <code>plugins</code> folder within your{' '}
+                            <code>FiveM Application Data</code> directory.
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -448,24 +575,31 @@ export default function Prerequisites() {
                   {activeInstallTab === 'fivem-server' && (
                     <div className="install-block">
                       <h4>Legacy FiveM ServerSide Installation</h4>
-                      <ol className="list-decimal pl-5 text-gray-300 space-y-1">
-                        <li>
-                          Place the <code>[CoreFX]</code> folder into the{' '}
-                          <code>resources</code> directory on your FiveM server.
-                        </li>
-                        <li>
-                          Edit your <code>server.cfg</code> file and add{' '}
-                          <code>start CoreFX</code>.
-                        </li>
-                        <li>
-                          For optionals, open <code>config.lua</code> in{' '}
-                          <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters
-                          to "true" as needed.
-                        </li>
-                        <li>
-                          <strong>Note for Players:</strong> For the best visual experience, players should set their in-game <strong>Shader Quality</strong> and <strong>Post FX</strong> to <strong>Ultra</strong> in the graphics settings.
-                        </li>
-                      </ol>
+
+                      <InstallationStep title="Server Installation" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 text-gray-300 space-y-2">
+                          <li>
+                            Place the <code>[CoreFX]</code> folder into the{' '}
+                            <code>resources</code> directory on your FiveM server.
+                          </li>
+                          <li>
+                            Edit your <code>server.cfg</code> file and add{' '}
+                            <code>start CoreFX</code>.
+                          </li>
+                          <li>
+                            For optionals, open <code>config.lua</code> in{' '}
+                            <code>CoreFX\[CoreFX]\CoreFX</code> and set parameters
+                            to &quot;true&quot; as needed.
+                          </li>
+                          <li>
+                            <strong>Note for Players:</strong> For the best visual
+                            experience, players should set their in-game{' '}
+                            <strong>Shader Quality</strong> and{' '}
+                            <strong>Post FX</strong> to <strong>Ultra</strong> in
+                            the graphics settings.
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -473,43 +607,68 @@ export default function Prerequisites() {
                   {activeInstallTab === 'ragemp' && (
                     <div className="install-block">
                       <h4>Legacy RageMP Installation</h4>
-                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                        <li>
-                          <strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              <strong>Method 1:</strong> Copy the{' '}
-                              <code>update</code> folder contents into your
-                              GTA V root directory.
-                            </li>
-                            <li>
-                              <strong>Method 2:</strong> Copy the{' '}
-                              <code>user_resources</code> folder into your RageMP
-                              directory.
-                            </li>
-                            <li>
-                              Set in-game brightness to approximately 40-50 %.
-                            </li>
-                            <li>
-                              <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                <p className="text-red-300 text-sm">
-                                  It is really important to have DirectX 11 enabled and PostFX and Shader quality set to Ultra in ingame settings to prevent visual bugs and to enable new shader features
-                                </p>
-                              </div>
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Restore original files via your game launcher
-                              (Method 1) or remove <code>user_resources</code>{' '}
-                              (Method 2).
-                            </li>
-                          </ol>
-                        </li>
-                      </ul>
+
+                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <strong>Method 1 (Recommended):</strong> Copy the
+                            <code>user_resources</code> folder from the downloaded
+                            package into your main RageMP directory.
+                          </li>
+                          <li>
+                            <strong>Method 2 (Alternative):</strong> Replace your
+                            original <code>update.rpf</code> in{' '}
+                            <code>Grand Theft Auto V/update</code> with the one
+                            provided in the{' '}
+                            <code>update.rpf replace install method</code> folder.{' '}
+                            <strong>Backup your original update.rpf first!</strong>
+                          </li>
+                          <li>
+                            Set in-game brightness to approximately 40-50 %.
+                          </li>
+                          <li>
+                            <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                              <p className="text-red-300 text-sm">
+                                It is really important to have DirectX 11 enabled
+                                and PostFX and Shader quality set to Ultra in ingame
+                                settings to prevent visual bugs and to enable new
+                                shader features
+                              </p>
+                            </div>
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Remove the <code>user_resources</code> folder (Method 1)
+                            or restore your original <code>update.rpf</code> (Method
+                            2).
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
+                              <p className="text-yellow-300 text-sm">
+                                <strong>Warning:</strong> ReShade builds for RageMP
+                                are currently pending Easy Anti-Cheat (EAC)
+                                approval. While some servers may allow it, you might
+                                be unable to join others or face connection issues.
+                                Use at your own risk.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            Copy all files from the <code>CoreFX ReShade</code>{' '}
+                            folder into your main RageMP directory (where{' '}
+                            <code>updater.exe</code> is located).
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
 
@@ -517,29 +676,57 @@ export default function Prerequisites() {
                   {activeInstallTab === 'enhanced-ragemp' && (
                     <div className="install-block">
                       <h4>Enhanced RageMP Installation</h4>
-                      <ul className="list-disc pl-5 text-gray-300 space-y-2">
-                        <li>
-                          <strong>Installing CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Copy the{' '}
-                              <code>user_resources</code> folder into your RageMP
-                              directory.
-                            </li>
-                            <li>
-                              Set in-game brightness to approximately 40-50 %.
-                            </li>
-                          </ol>
-                        </li>
-                        <li>
-                          <strong>Uninstalling CoreFX:</strong>
-                          <ol className="list-decimal pl-5 space-y-1">
-                            <li>
-                              Remove the <code>user_resources</code> folder from your RageMP directory.
-                            </li>
-                          </ol>
-                        </li>
-                      </ul>
+
+                      <InstallationStep title="Installing CoreFX" defaultOpen={true}>
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <strong>Method 1 (Recommended):</strong> Copy the
+                            <code>user_resources</code> folder from the downloaded
+                            package into your main RageMP directory.
+                          </li>
+                          <li>
+                            <strong>Method 2 (Alternative):</strong> Replace your
+                            original <code>update.rpf</code> in{' '}
+                            <code>Grand Theft Auto V/update</code> with the one
+                            provided in the{' '}
+                            <code>update.rpf replace install method</code> folder.{' '}
+                            <strong>Backup your original update.rpf first!</strong>
+                          </li>
+                          <li>
+                            Set in-game brightness to approximately 40-50 %.
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Uninstalling CoreFX">
+                        <ol className="list-decimal pl-5 space-y-1">
+                          <li>
+                            Remove the <code>user_resources</code> folder (Method 1)
+                            or restore your original <code>update.rpf</code> (Method
+                            2).
+                          </li>
+                        </ol>
+                      </InstallationStep>
+
+                      <InstallationStep title="Installing CoreFX Shaders (ReShade)">
+                        <ol className="list-decimal pl-5 space-y-2">
+                          <li>
+                            <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
+                              <p className="text-yellow-300 text-sm">
+                                <strong>Warning:</strong> ReShade builds for RageMP
+                                are currently pending Easy Anti-Cheat (EAC)
+                                approval. While some servers may allow it, you might
+                                be unable to join others or face connection issues.
+                                Use at your own risk.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            Copy all files from the <code>CoreFX ReShade</code>{' '}
+                            folder into your main RageMP directory.
+                          </li>
+                        </ol>
+                      </InstallationStep>
                     </div>
                   )}
                 </div>
