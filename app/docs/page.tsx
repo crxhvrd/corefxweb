@@ -359,6 +359,9 @@ export default function Prerequisites() {
                             menu and enable available shaders manually.
                           </li>
                           <li>
+                            You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
+                          </li>
+                          <li>
                             If the ReShade menu does not appear when pressing{' '}
                             <strong>F7</strong>, rename <code>d3d12.dll</code> to{' '}
                             <code>dxgi.dll</code> in your game directory, then
@@ -453,6 +456,9 @@ export default function Prerequisites() {
                           <li>
                             In-game, press <strong>F7</strong> to open the ReShade
                             menu and enable available shaders manually.
+                          </li>
+                          <li>
+                            <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
                           </li>
                         </ol>
                       </InstallationStep>
@@ -695,6 +701,13 @@ ReShade5=ID:XXXXXX`}
                             folder into your main RageMP directory (where{' '}
                             <code>updater.exe</code> is located).
                           </li>
+                          <li>
+                            In-game, press <strong>F7</strong> to open the ReShade
+                            menu and enable available shaders manually.
+                          </li>
+                          <li>
+                            You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
+                          </li>
                         </ol>
                       </InstallationStep>
 
@@ -769,6 +782,13 @@ ReShade5=ID:XXXXXX`}
                             to <strong>Ultra</strong> in your in-game graphics settings.
                             This is required to load the custom RenoDX shaders included
                             with ReShade.
+                          </li>
+                          <li>
+                            In-game, press <strong>F7</strong> to open the ReShade
+                            menu and enable available shaders manually.
+                          </li>
+                          <li>
+                            <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
                           </li>
                         </ol>
                       </InstallationStep>
