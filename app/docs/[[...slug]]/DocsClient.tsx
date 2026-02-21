@@ -72,9 +72,9 @@ const prerequisitesSections = [
                 title: 'Software',
                 items: [
                     'Base Game: A legitimate copy of Grand Theft Auto V.',
-                    'OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder.',
-                    'OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder.',
-                    'ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading.'
+                    'OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager.',
+                    'OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)',
+                    'ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.'
                 ]
             },
             {
@@ -322,7 +322,7 @@ export default function DocsClient() {
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
-                                                        Download and install <strong>ScriptHookV & Asi Loader</strong> compatible with GTA V Legacy. Also install <strong>OpenIV.asi</strong>.
+                                                        Download and install <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible with GTA V Legacy (use <code>dinput8.dll</code>). Also install <strong>OpenIV.asi</strong> via the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a> (OpenIV &gt; ASI Manager).
                                                     </li>
                                                     <li>
                                                         Add <code>-noBattlEye</code> to your game launcher&apos;s
@@ -434,8 +434,8 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
                                                         Download and install{' '}
-                                                        <strong>ScriptHookV & Asi Loader</strong> compatible
-                                                        with GTA V Enhanced. Also install <strong>OpenRPF.asi</strong>.
+                                                        <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible
+                                                        with GTA V Enhanced (use <code>xinput1_4.dll</code>). Also install <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>OpenRPF.asi</strong></a>.
                                                     </li>
                                                     <li>
                                                         Add <strong>-noBattlEye</strong> to your game
