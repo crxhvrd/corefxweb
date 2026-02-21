@@ -72,9 +72,9 @@ const prerequisitesSections = [
                 title: 'Software',
                 items: [
                     'Base Game: A legitimate copy of Grand Theft Auto V.',
-                    'OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager.',
-                    'OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)',
-                    'ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.'
+                    <>OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager.</>,
+                    <>OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
+                    <>ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.</>
                 ]
             },
             {
