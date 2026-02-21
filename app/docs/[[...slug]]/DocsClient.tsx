@@ -320,7 +320,7 @@ export default function DocsClient() {
 
 
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
-                                                <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                                                <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
                                                         Download and install <strong>ScriptHookV & Asi Loader</strong> compatible with GTA V Legacy. Also install <strong>OpenIV.asi</strong>.
                                                     </li>
@@ -328,7 +328,7 @@ export default function DocsClient() {
                                                         Add <code>-noBattlEye</code> to your game launcher&apos;s
                                                         parameters.
                                                     </li>
-                                                </ul>
+                                                </ol>
                                             </InstallationStep>
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
@@ -509,6 +509,13 @@ export default function DocsClient() {
                                                         menu and enable available shaders manually.
                                                     </li>
                                                     <li>
+                                                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-yellow-300 text-sm">
+                                                                If ReShade fails to recognize shaders and gives errors, you need to install <a href="https://www.gta5-mods.com/scripts/directstoragefix" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-200">DirectStorageFix</a>.
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
                                                         <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
                                                     </li>
                                                     <li>
@@ -536,11 +543,11 @@ export default function DocsClient() {
 
 
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
-                                                <ul className="list-disc pl-5 text-gray-300 space-y-2">
+                                                <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
                                                         <strong>Important:</strong> If you have installed older builds of CoreFX before, you must remove all shaders from the <code>FiveM.app\citizen\common\shaders\win32_40_final</code> folder.
                                                     </li>
-                                                </ul>
+                                                </ol>
                                             </InstallationStep>
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
@@ -613,7 +620,9 @@ export default function DocsClient() {
                                                         Copy all ReShade files from the provided package into
                                                         the <code>plugins</code> folder, located inside your{' '}
                                                         <code>FiveM Application Data</code> directory.
-                                                        <strong> Additionally</strong>, copy these same files
+                                                    </li>
+                                                    <li>
+                                                        <strong>Additionally</strong>, copy these same files
                                                         into your main GTA 5 game directory.
                                                     </li>
                                                     <li>
