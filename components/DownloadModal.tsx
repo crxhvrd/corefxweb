@@ -72,6 +72,18 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               </a>
               .
             </p>
+            <p className="border-t border-white/10 pt-4 text-white/70">
+              <span className="font-medium text-white/90">Want more?</span> You can also financially support the creator on{' '}
+              <a
+                href="https://www.patreon.com/crxhvrd/membership"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/90 underline decoration-dotted decoration-white/40 hover:text-white"
+              >
+                Patreon
+              </a>
+              {' '}to get additional features.
+            </p>
           </div>
 
           <div className="flex flex-col items-center gap-3 text-xs text-white/60">
