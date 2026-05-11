@@ -69,7 +69,7 @@ export default function RootLayout({
           </p>
           <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
           <p>
-            Made by{' '}
+            Website made by{' '}
             <a
               href="https://hrishiportv2.vercel.app"
               target="_blank"
