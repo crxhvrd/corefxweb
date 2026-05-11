@@ -58,6 +58,15 @@ export default function RootLayout({
 
         {/* Attribution Section */}
         <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-xs text-white opacity-60 text-center space-y-1 px-2"> {/* Изменения здесь */}
+          <p>
+            Business proposals:{' '}
+            <a
+              href="mailto:crxhvrd@proton.me"
+              className="text-orange-500 hover:opacity-100"
+            >
+              crxhvrd@proton.me
+            </a>
+          </p>
           <p>Copyright © Beta 2025. All rights reserved.</p>
           <p>
             Made by{' '}
@@ -80,6 +89,20 @@ export default function RootLayout({
 
         {/* Main Page Content */}
         {children}
+
+        {/* Mobile Attribution (in-flow, shown at end of content) */}
+        <div className="md:hidden px-4 pt-6 pb-24 text-center text-[11px] text-white opacity-60 space-y-1">
+          <p>
+            Business proposals:{' '}
+            <a
+              href="mailto:crxhvrd@proton.me"
+              className="text-orange-500"
+            >
+              crxhvrd@proton.me
+            </a>
+          </p>
+          <p>Copyright © Beta 2025. All rights reserved.</p>
+        </div>
 
         <DownloadModalRoot />
       </body>
