@@ -67,7 +67,7 @@ export default function RootLayout({
               crxhvrd@proton.me
             </a>
           </p>
-          <p>Copyright © Beta 2025. All rights reserved.</p>
+          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
           <p>
             Made by{' '}
             <a
@@ -101,7 +101,7 @@ export default function RootLayout({
               crxhvrd@proton.me
             </a>
           </p>
-          <p>Copyright © Beta 2025. All rights reserved.</p>
+          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
         </div>
 
         <DownloadModalRoot />
