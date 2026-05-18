@@ -1,5 +1,86 @@
 [
   {
+    "id": "1505962349411176479",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-18T15:56:43.527000+00:00",
+    "content": "@CoreFX Updated lighting shader\n\nMade by Razed Mods, contributed into CoreFX\n\nThe changes includes but not limited to:\n- GGX Specular on all surfaces\n- Re-enabled SSAO-SSDO on ray tracing\n- and other fixes",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962352388997231/3240220_20260518184737_1.png?ex=6a0c883c&is=6a0b36bc&hm=46bdd77a49391258aa2286834728fe2bb4bee099041e6d26c5ca101a84abdb26&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962353286713374/3240220_20260518184743_1.png?ex=6a0c883c&is=6a0b36bc&hm=43bc86968288a7d5d1dd46b3803fb3fb18b288fc5332b83660b5efd10c266c34&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962354268176444/3240220_20260518184838_1.png?ex=6a0c883c&is=6a0b36bc&hm=ae61bae5972106675589a2c6c2ab8096ca4d0bb03f60ca59c50a33e95ec8f87f&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962355287261315/3240220_20260518184843_1.png?ex=6a0c883c&is=6a0b36bc&hm=ed9e47f1eb7d08269257c62577651ecb0192eebdb8abf8e02f07699b2dc3dfdd&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962356289572934/3240220_20260518184925_1.png?ex=6a0c883d&is=6a0b36bd&hm=65fb90f1e62391266240afb1814cb541d4e2b415b5019d42091e31a12a9537e8&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962357321633892/3240220_20260518184930_1.png?ex=6a0c883d&is=6a0b36bd&hm=fc689247e9ca0a0072afd7afbc4eb240c1bca79255720fed1538bfaf1a06fc06&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962358487388310/3240220_20260518185617_1.png?ex=6a0c883d&is=6a0b36bd&hm=ecd76261278f46bded182eda68c65ee120b7e8d0822940efb5b292e04b2a1729&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505962359489957888/3240220_20260518185623_1.png?ex=6a0c883d&is=6a0b36bd&hm=6c440a3354bca2104a7f79709d5697da7fbc770cbfdb403f97b5d9ff61d20986&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1505954510168784997",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-18T15:25:34.506000+00:00",
+    "content": "@CoreFX Updated website and added devblog - #channel channel is now live and can be seen at [corefx.me](https://corefx.me/devblog)\nCoreFX development news are coming soon too",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505954510303137982/6B43CBE3-4B16-4E0E-81BE-162ECDC86FD4.png?ex=6a0c80ee&is=6a0b2f6e&hm=503860ef867dd1cf36f623dfebf995afcb357e8e2cbf317d63d946422e125fc7&",
+        "contentType": "image/webp",
+        "width": 725,
+        "height": 844
+      }
+    ],
+    "embeds": [
+      {
+        "type": "link",
+        "url": "https://corefx.me/devblog",
+        "title": "Dev Blog · CoreFX",
+        "description": "Latest development updates from the CoreFX team, streamed live from our Discord announcements channel."
+      }
+    ]
+  },
+  {
     "id": "1504378024382955660",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -41,13 +122,13 @@
     "content": "@CoreFX Foreground Blur comparison between V1 and V2 (default settings) \n\nFocus is at the sky",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503974988796137493/FEA79353-583E-4C2F-8DE3-6D58D271AA9D.png?ex=6a0be4db&is=6a0a935b&hm=3729e812d5e130073f407aa4fd84d9c52fb88093ec6d5d642b5333b62458737b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503974988796137493/FEA79353-583E-4C2F-8DE3-6D58D271AA9D.png?ex=6a0c8d9b&is=6a0b3c1b&hm=6f3a1b0b88234eedb708f78329fbc89d858f042ab8f9344cf664bee09a24d801&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503974989383204864/218B359E-89FC-4B40-8949-754497F80939.png?ex=6a0be4db&is=6a0a935b&hm=d1dc0262354eee6c60725bc411af3c7586cdbd946103df3d13e6abc91d1c9459&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503974989383204864/218B359E-89FC-4B40-8949-754497F80939.png?ex=6a0c8d9b&is=6a0b3c1b&hm=830199b5d57cf6783070681e700e2921d2dc9a048058c92abf0816e005b60218&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -64,19 +145,19 @@
     "content": "@CoreFX SimpleDOF V2 (WIP)\n\nDeep modification of the current SimpleDOF with new multipass CoC system (fixed foreground bleed, you won't see near objects that are blurred have obvious contours anymore) and a lot of new options to control the way Depth of Field works and looks like",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972904654602350/B0EDD8C8-97E5-4EFF-8A86-3736A7D55AF9.png?ex=6a0be2ea&is=6a0a916a&hm=883e39eddccdd9b8527930fe227f53fab3f16e45ef76a80b1f2505989f9141a7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972904654602350/B0EDD8C8-97E5-4EFF-8A86-3736A7D55AF9.png?ex=6a0c8baa&is=6a0b3a2a&hm=661cfecf479aaeca9c020e0d19f06203fcf06fb248ab5b417207568bfe313c0f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972905476816966/AAE1B00A-CE53-4A1C-B8A4-56BA1D930A83.png?ex=6a0be2eb&is=6a0a916b&hm=e1bc6a453d45c3e3869f33297c0df05b10e1df198b10fea798a826607cfc42eb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972905476816966/AAE1B00A-CE53-4A1C-B8A4-56BA1D930A83.png?ex=6a0c8bab&is=6a0b3a2b&hm=2f1e4debb74b17c907ce1f3f780251577cc985844ad90d9efd7736dc42b044ca&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972905862697040/E4A91700-BD9C-46CD-BCC5-73629AC33068.png?ex=6a0be2eb&is=6a0a916b&hm=96a6b619a1a1fa4d2953059531381724ddb1ad6b0fac80621144cb767ffcfb7d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972905862697040/E4A91700-BD9C-46CD-BCC5-73629AC33068.png?ex=6a0c8bab&is=6a0b3a2b&hm=427f6a5e28b252b82b57b5bd53a26129ada365642bee49941ba512d9e68c9738&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -93,13 +174,13 @@
     "content": "@CoreFX Added Sky AO to improve sky color gradients\n\nGenerally, sky appearance is improved a lot with a little-to-none performance drop\n\nBefore all the changes/after all the changes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512628101152938/3240220_20260509062638_1.png?ex=6a0bd8ed&is=6a0a876d&hm=417fb78b1dffb47093ff9e44fc255239fa527e9e0d352d149b507c1be5ba18d4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512628101152938/3240220_20260509062638_1.png?ex=6a0c81ad&is=6a0b302d&hm=b91033e69c0961c221b73ecaf8a7168cbfbcfa3d853489459585a8f254db84eb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512629011320924/3240220_20260509062649_1.png?ex=6a0bd8ee&is=6a0a876e&hm=10fbeff6076ae9391fce425abb25c71497b5529beb184f9217dd957435f702b3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512629011320924/3240220_20260509062649_1.png?ex=6a0c81ae&is=6a0b302e&hm=8c554d581e862e3f4e316a89dec7eb061da23d6d10c29c0e65c04b64e553cbd7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -542,13 +623,13 @@
     "content": "@CoreFX Wheel improvements for Enhanced\n\nBefore / After",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493283807720116325/B96972DA-0C13-4E98-963B-EE89BBA9ADE4.png?ex=6a0be42b&is=6a0a92ab&hm=411ec9b861753e3d381ecafe1b91460d03c362d45dcae1dee424007d773def04&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493283807720116325/B96972DA-0C13-4E98-963B-EE89BBA9ADE4.png?ex=6a0c8ceb&is=6a0b3b6b&hm=85028d0a56ac105d32cf783dc77d7a0b8974c219874116d13f58c3c7fa776f6e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493283808236011674/B4ECCEB5-C394-4557-91B1-D55ADEDA723F.png?ex=6a0be42b&is=6a0a92ab&hm=7e1e1e3b40536d4c56f008d07b3c0fca509bc36c9af4f56936971310f5bb20be&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493283808236011674/B4ECCEB5-C394-4557-91B1-D55ADEDA723F.png?ex=6a0c8ceb&is=6a0b3b6b&hm=d4792e0af7909779c4402783e1c92a4eaa59e1187f453bc12f7bf2f44e555004&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -609,19 +690,19 @@
     "content": "@CoreFX Metallic Flakes for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910946925154384/9AF95BDF-F4BB-4CD8-BB86-53EF8CD9E70B.png?ex=6a0bda6a&is=6a0a88ea&hm=7429e102d78cdd3bcb044822ba20ef6e32f59327cece537609643187326a1499&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910946925154384/9AF95BDF-F4BB-4CD8-BB86-53EF8CD9E70B.png?ex=6a0c832a&is=6a0b31aa&hm=b77fa9f4cba6139e012b183539a1087ae130ed3ba2d2816e4ee469d5ab8f7b19&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910947747234014/456D129C-2864-40F1-B822-1BF40674A0EC.png?ex=6a0bda6a&is=6a0a88ea&hm=c3d9f5ea4b84bc8c58195f3761ec6072d08e96b9145c881761c5227eb98c4384&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910947747234014/456D129C-2864-40F1-B822-1BF40674A0EC.png?ex=6a0c832a&is=6a0b31aa&hm=32bc51b322df579c15549fed0b06ec4935eb0943480b6e665eb85a6ae94daec7&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910948757803260/3EE28C5B-8877-45B5-B59A-908E1CC6CDD8.png?ex=6a0bda6b&is=6a0a88eb&hm=70a449ff59d511780bf83e4e27d556e013c91d47a47ee537b5b35855b45fd500&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910948757803260/3EE28C5B-8877-45B5-B59A-908E1CC6CDD8.png?ex=6a0c832b&is=6a0b31ab&hm=2428e785e278e507040277d1e6a3cb47759508cb70d1d5c39e0cc359d57d2963&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -655,42 +736,6 @@
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1491068420337303783/Grand_Theft_Auto_V_Enhanced_2026.04.07_-_16.32.42.04.mp4?ex=6a0c66ae&is=6a0b152e&hm=0ca6b6bbbebb37f6b8202f671bf5fec8444b25fac8c6951b00f73994e6f7ab35&",
-        "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1481045494234087549",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-03-10T21:46:02.320000+00:00",
-    "content": "@CoreFX You can now try release version of Simple Camera on GTA5Mods\n\n# [Download](https://www.gta5-mods.com/scripts/simple-camera)",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "article",
-        "url": "https://www.gta5-mods.com/scripts/simple-camera",
-        "providerName": "GTA5-Mods.com",
-        "title": "Simple Camera",
-        "description": "Simple Camera for Advanced Filming &amp; Photography\n Elevate your Grand Theft Auto V photography and cinematography with the Simple Camera script. Built specifically for content creators, machinima directors, and virtual photographers, this plugin offers unparalleled control over your camera and the world state.\n \n Supports both GTA 5 Legacy an...",
-        "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/8446ed-simplecamera.png",
-        "color": 2144846
-      }
-    ]
-  },
-  {
-    "id": "1480396211369283634",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-03-09T02:46:01.222000+00:00",
-    "editedAt": "2026-03-09T02:46:34.639000+00:00",
-    "content": "@CoreFX Simple Camera\n\n- It also will allow you to lock on entity, so you can film driving cars easily",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1480396201210941554/Grand_Theft_Auto_V_Enhanced_2026.03.09_-_04.42.37.13.mp4?ex=6a0c77a6&is=6a0b2626&hm=48417f027f73ff0f33d079820b969fd6379b3e0ef2ba778bba1dcce814892caa&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
