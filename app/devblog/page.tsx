@@ -46,12 +46,16 @@ function embedColorToHex(color?: number): string {
 export default function DevBlogPage() {
   return (
     <main className="relative min-h-screen px-4 sm:px-6 pt-24 pb-32 max-w-3xl mx-auto">
-      <header className="mb-10">
+      <header className="mb-10 bg-black/40 backdrop-blur-md border border-white/10 rounded-lg px-6 py-5 shadow-lg">
         <div className="flex items-center gap-3 mb-2">
-          <Megaphone className="h-6 w-6 text-orange-400" />
-          <h1 className="text-3xl sm:text-4xl font-semibold text-white">Dev Blog</h1>
+          <Megaphone
+            className="h-6 w-6 text-orange-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
+          />
+          <h1 className="text-3xl sm:text-4xl font-semibold text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.85)]">
+            Dev Blog
+          </h1>
         </div>
-        <p className="text-gray-300 text-sm sm:text-base">
+        <p className="text-gray-200 text-sm sm:text-base [text-shadow:0_1px_4px_rgba(0,0,0,0.85)]">
           Streamed live from the CoreFX Discord announcements channel.
         </p>
       </header>
