@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Megaphone } from 'lucide-react';
 import { formatDistanceToNow, format } from 'date-fns';
+import type { ReactNode } from 'react';
 import postsData from '@/data/devblog-posts.json';
 
 export const metadata = {
@@ -17,6 +18,9 @@ type Attachment = {
 };
 
 type Embed = {
+  type?: string;
+  url?: string;
+  providerName?: string;
   title?: string;
   description?: string;
   imageUrl?: string;
@@ -41,6 +45,46 @@ const posts = (postsData as DevblogPost[])
 function embedColorToHex(color?: number): string {
   if (!color) return '#ffffff33';
   return '#' + color.toString(16).padStart(6, '0');
+}
+
+// Render Discord-flavored text: [label](url) markdown links + bare URLs become
+// clickable; everything else passes through as plain text, with the parent's
+// whitespace-pre-line preserving line breaks.
+const TOKEN_RE = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s<>"']+)/g;
+
+function renderContent(content: string): ReactNode[] {
+  if (!content) return [];
+  const out: ReactNode[] = [];
+  let lastIndex = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+  TOKEN_RE.lastIndex = 0;
+  while ((match = TOKEN_RE.exec(content)) !== null) {
+    if (match.index > lastIndex) {
+      out.push(content.slice(lastIndex, match.index));
+    }
+    const [, mdLabel, mdUrl, bareUrl] = match;
+    const href = mdUrl || bareUrl;
+    const label = mdLabel || bareUrl;
+    if (href) {
+      out.push(
+        <a
+          key={`l${key++}`}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-orange-400 underline decoration-orange-400/50 hover:text-orange-300 break-words"
+        >
+          {label}
+        </a>
+      );
+    }
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < content.length) {
+    out.push(content.slice(lastIndex));
+  }
+  return out;
 }
 
 export default function DevBlogPage() {
@@ -110,29 +154,60 @@ export default function DevBlogPage() {
               </div>
 
               {post.content && (
-                <p className="text-gray-200 whitespace-pre-line leading-relaxed">{post.content}</p>
+                <p className="text-gray-200 whitespace-pre-line leading-relaxed break-words">
+                  {renderContent(post.content)}
+                </p>
               )}
 
-              {post.embeds.map((embed, idx) => (
-                <div
-                  key={idx}
-                  className="border-l-4 pl-4 py-2 bg-white/5 rounded-r"
-                  style={{ borderColor: embedColorToHex(embed.color) }}
-                >
-                  {embed.title && <h3 className="text-white font-medium mb-1">{embed.title}</h3>}
-                  {embed.description && (
-                    <p className="text-gray-300 text-sm whitespace-pre-line">{embed.description}</p>
-                  )}
-                  {embed.imageUrl && (
-                    <img
-                      src={embed.imageUrl}
-                      alt=""
-                      className="mt-2 rounded max-w-full h-auto"
-                      loading="lazy"
-                    />
-                  )}
-                </div>
-              ))}
+              {post.embeds.map((embed, idx) => {
+                const inner = (
+                  <>
+                    {embed.providerName && (
+                      <p className="text-[11px] text-white/40 uppercase tracking-wide mb-1">
+                        {embed.providerName}
+                      </p>
+                    )}
+                    {embed.title && (
+                      <h3 className="text-white font-medium mb-1 group-hover:underline">
+                        {embed.title}
+                      </h3>
+                    )}
+                    {embed.description && (
+                      <p className="text-gray-300 text-sm whitespace-pre-line">{embed.description}</p>
+                    )}
+                    {embed.imageUrl && (
+                      <img
+                        src={embed.imageUrl}
+                        alt=""
+                        className="mt-2 rounded max-w-full h-auto"
+                        loading="lazy"
+                      />
+                    )}
+                  </>
+                );
+
+                const classes = 'group block border-l-4 pl-4 py-2 bg-white/5 rounded-r transition-colors hover:bg-white/10';
+                return embed.url ? (
+                  <a
+                    key={idx}
+                    href={embed.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes}
+                    style={{ borderColor: embedColorToHex(embed.color) }}
+                  >
+                    {inner}
+                  </a>
+                ) : (
+                  <div
+                    key={idx}
+                    className={classes}
+                    style={{ borderColor: embedColorToHex(embed.color) }}
+                  >
+                    {inner}
+                  </div>
+                );
+              })}
 
               {post.attachments.length > 0 && (
                 <div className="grid gap-3">

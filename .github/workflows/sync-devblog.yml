@@ -31,6 +31,7 @@ jobs:
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_ANNOUNCEMENT_CHANNEL_ID: '1080896900926017686'
+          DISCORD_GUILD_ID: '963349840681639946'
           POST_LIMIT: '30'
         run: node scripts/sync-devblog.mjs
 

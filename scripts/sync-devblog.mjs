@@ -12,6 +12,7 @@ const OUT_PATH = resolve(__dirname, '..', 'data', 'devblog-posts.json');
 
 const TOKEN = process.env.DISCORD_BOT_TOKEN;
 const CHANNEL_ID = process.env.DISCORD_ANNOUNCEMENT_CHANNEL_ID;
+const GUILD_ID = process.env.DISCORD_GUILD_ID;
 const LIMIT = Number(process.env.POST_LIMIT ?? 30);
 
 if (!TOKEN) {
@@ -43,7 +44,7 @@ function authorDisplayName(user) {
   return user.global_name || user.username || 'Unknown';
 }
 
-function normalizeContent(content, message) {
+function normalizeContent(content, message, roleMap) {
   if (!content) return '';
   let out = content;
   // Replace user mentions <@id> and <@!id> with @displayName from message.mentions
@@ -54,8 +55,11 @@ function normalizeContent(content, message) {
       out = out.replaceAll(`<@!${u.id}>`, `@${name}`);
     }
   }
-  // Replace role mentions <@&id> with @role-id (we don't have role names without an extra fetch)
-  out = out.replace(/<@&(\d+)>/g, '@role');
+  // Replace role mentions <@&id> with @RoleName from the cached guild roles
+  out = out.replace(/<@&(\d+)>/g, (_, id) => {
+    const name = roleMap?.get(id);
+    return name ? `@${name}` : '@role';
+  });
   // Replace channel mentions <#id> with #channel (no name resolution)
   out = out.replace(/<#(\d+)>/g, '#channel');
   // Discord custom emoji <:name:id> and <a:name:id> -> :name:
@@ -83,8 +87,11 @@ function guessContentType(name) {
 function normalizeEmbeds(message) {
   if (!Array.isArray(message.embeds)) return [];
   return message.embeds
-    .filter((e) => e.title || e.description || e.image)
+    .filter((e) => e.title || e.description || e.image || e.url)
     .map((e) => ({
+      type: e.type || undefined,
+      url: e.url || undefined,
+      providerName: e.provider?.name || undefined,
       title: e.title || undefined,
       description: e.description || undefined,
       imageUrl: e.image?.url || e.thumbnail?.url || undefined,
@@ -92,22 +99,21 @@ function normalizeEmbeds(message) {
     }));
 }
 
-function normalizeMessage(m) {
+function normalizeMessage(m, roleMap) {
   return {
     id: m.id,
     authorName: authorDisplayName(m.author),
     authorAvatarUrl: avatarUrl(m.author),
     timestamp: m.timestamp,
     editedAt: m.edited_timestamp || undefined,
-    content: normalizeContent(m.content, m),
+    content: normalizeContent(m.content, m, roleMap),
     attachments: normalizeAttachments(m),
     embeds: normalizeEmbeds(m),
   };
 }
 
-async function fetchMessages() {
-  const url = `https://discord.com/api/v10/channels/${CHANNEL_ID}/messages?limit=${Math.min(LIMIT, 100)}`;
-  const res = await fetch(url, {
+async function discordGet(path) {
+  const res = await fetch(`https://discord.com/api/v10${path}`, {
     headers: {
       Authorization: `Bot ${TOKEN}`,
       'User-Agent': 'CoreFX-DevblogSync (https://github.com/crxhvrd/corefxweb, 1.0.0)',
@@ -120,12 +126,34 @@ async function fetchMessages() {
   return res.json();
 }
 
+async function fetchMessages() {
+  return discordGet(`/channels/${CHANNEL_ID}/messages?limit=${Math.min(LIMIT, 100)}`);
+}
+
+async function fetchRoles(guildId) {
+  if (!guildId) return new Map();
+  try {
+    const roles = await discordGet(`/guilds/${guildId}/roles`);
+    const map = new Map();
+    for (const r of roles) {
+      if (r?.id && r?.name) map.set(r.id, r.name);
+    }
+    return map;
+  } catch (err) {
+    console.warn(
+      `Could not fetch guild roles: ${err.message}. Role mentions will fall back to "@role".`
+    );
+    return new Map();
+  }
+}
+
 async function main() {
+  const roleMap = await fetchRoles(GUILD_ID);
   const raw = await fetchMessages();
   // Skip non-default message types (joins, pins, etc.). Type 0 = DEFAULT, 19 = REPLY.
   const posts = raw
     .filter((m) => m.type === 0 || m.type === 19)
-    .map(normalizeMessage);
+    .map((m) => normalizeMessage(m, roleMap));
 
   const json = JSON.stringify(posts, null, 2) + '\n';
   let prev = '';
