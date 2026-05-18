@@ -2,17 +2,17 @@
 
 import { useEffect, useState } from 'react';
 
-const GUILD_ID = '963349840681639946';
-const WIDGET_URL = `https://discord.com/api/guilds/${GUILD_ID}/widget.json`;
-const CACHE_KEY = 'corefx-discord-widget-v1';
+const INVITE_CODE = 'jK4SRmBqYt';
+const INVITE_URL = `https://discord.com/api/v10/invites/${INVITE_CODE}?with_counts=true`;
+const CACHE_KEY = 'corefx-discord-members-v1';
 const TTL_MS = 5 * 60 * 1000;
 
-type Cached = { presence: number; at: number };
+type Cached = { members: number; at: number };
 
 const compact = new Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 });
 
 export default function DiscordCount() {
-  const [presence, setPresence] = useState<number | null>(null);
+  const [members, setMembers] = useState<number | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -21,8 +21,8 @@ export default function DiscordCount() {
       const raw = sessionStorage.getItem(CACHE_KEY);
       if (raw) {
         const cached = JSON.parse(raw) as Cached;
-        if (Date.now() - cached.at < TTL_MS && typeof cached.presence === 'number') {
-          setPresence(cached.presence);
+        if (Date.now() - cached.at < TTL_MS && typeof cached.members === 'number') {
+          setMembers(cached.members);
           return;
         }
       }
@@ -30,15 +30,19 @@ export default function DiscordCount() {
       // ignore cache errors
     }
 
-    fetch(WIDGET_URL, { cache: 'no-store' })
+    fetch(INVITE_URL, { cache: 'no-store' })
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
         if (cancelled || !data) return;
-        const count = typeof data.presence_count === 'number' ? data.presence_count : null;
+        const count =
+          typeof data.approximate_member_count === 'number' ? data.approximate_member_count : null;
         if (count === null) return;
-        setPresence(count);
+        setMembers(count);
         try {
-          sessionStorage.setItem(CACHE_KEY, JSON.stringify({ presence: count, at: Date.now() } satisfies Cached));
+          sessionStorage.setItem(
+            CACHE_KEY,
+            JSON.stringify({ members: count, at: Date.now() } satisfies Cached)
+          );
         } catch {
           // ignore quota / private mode
         }
@@ -52,15 +56,14 @@ export default function DiscordCount() {
     };
   }, []);
 
-  if (presence === null || presence <= 0) return null;
+  if (members === null || members <= 0) return null;
 
   return (
     <span
-      className="pointer-events-none absolute -top-1 -right-1 flex items-center gap-1 bg-green-500/95 text-white text-[9px] leading-none font-semibold px-1.5 py-0.5 rounded-full shadow-md ring-2 ring-black/40"
-      title={`${presence.toLocaleString('en')} members online`}
+      className="pointer-events-none absolute -top-1 -right-1 bg-[#5865F2] text-white text-[9px] leading-none font-semibold px-1.5 py-0.5 rounded-full shadow-md ring-2 ring-black/40"
+      title={`${members.toLocaleString('en')} members`}
     >
-      <span className="inline-block w-1 h-1 rounded-full bg-white" />
-      {compact.format(presence)}
+      {compact.format(members)}
     </span>
   );
 }
