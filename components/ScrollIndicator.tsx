@@ -9,8 +9,8 @@ export default function ScrollIndicator() {
     const [isVisible, setIsVisible] = useState(true);
     const pathname = usePathname();
 
-    // Hide on docs page
-    const isDocsPage = pathname?.startsWith('/docs');
+    // Hide on docs and devblog pages
+    const isHiddenRoute = pathname?.startsWith('/docs') || pathname?.startsWith('/devblog');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,8 +22,7 @@ export default function ScrollIndicator() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Don't render on docs page
-    if (isDocsPage) return null;
+    if (isHiddenRoute) return null;
 
     return (
         <AnimatePresence>

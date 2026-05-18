@@ -6,8 +6,8 @@ import Logo from '@/components/Logo';
 export default function HeaderLogos() {
     const pathname = usePathname();
 
-    // Hide logos on docs page
-    if (pathname?.startsWith('/docs')) return null;
+    // Hide logos on docs and devblog pages
+    if (pathname?.startsWith('/docs') || pathname?.startsWith('/devblog')) return null;
 
     return (
         <div className="fixed top-0 left-0 w-full z-50">

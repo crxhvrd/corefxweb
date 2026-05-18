@@ -10,6 +10,7 @@ import SocialSidebar from '@/components/SocialSideBar';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
 import ScrollIndicator from '@/components/ScrollIndicator';
 import BodyScrollbarHide from '@/components/BodyScrollbarHide';
+import AttributionFooter from '@/components/AttributionFooter';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -56,53 +57,11 @@ export default function RootLayout({
         {/* Scroll Indicator */}
         <ScrollIndicator />
 
-        {/* Attribution Section */}
-        <div className="hidden md:block fixed bottom-8 left-1/2 -translate-x-1/2 z-50 text-xs text-white opacity-60 text-center space-y-1 px-2"> {/* Изменения здесь */}
-          <p>
-            Business proposals:{' '}
-            <a
-              href="mailto:crxhvrd@proton.me"
-              className="text-orange-500 hover:opacity-100"
-            >
-              crxhvrd@proton.me
-            </a>
-          </p>
-          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
-          <p>
-            Website made by{' '}
-            <a
-              href="https://hrishiportv2.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative text-orange-500 hover:opacity-100" // Добавил hover:opacity-100 для ссылки, если хотите, чтобы она становилась менее прозрачной при наведении
-            >
-              <span className="group-hover:invisible transition-opacity duration-300">
-                Hrishikesh
-              </span>
-              <span className="absolute left-0 top-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded">
-                CyaINhxLL
-              </span>
-            </a>{' '}
-            with love
-          </p>
-        </div>
-
         {/* Main Page Content */}
         {children}
 
-        {/* Mobile Attribution (in-flow, shown at end of content) */}
-        <div className="md:hidden px-4 pt-6 pb-24 text-center text-[11px] text-white opacity-60 space-y-1">
-          <p>
-            Business proposals:{' '}
-            <a
-              href="mailto:crxhvrd@proton.me"
-              className="text-orange-500"
-            >
-              crxhvrd@proton.me
-            </a>
-          </p>
-          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
-        </div>
+        {/* Attribution — hides on docs and devblog routes */}
+        <AttributionFooter />
 
         <DownloadModalRoot />
       </body>
