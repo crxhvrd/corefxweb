@@ -4,7 +4,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-14T07:01:11.005000+00:00",
-    "content": "@role SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
+    "content": "@CoreFX SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a0c0ab7&is=6a0ab937&hm=cd82a9e8d6b13b40a3f592927f47208571059d1e4f60eced90c04ebc6269d5fd&",
@@ -38,7 +38,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-13T04:19:39.760000+00:00",
-    "content": "@role Foreground Blur comparison between V1 and V2 (default settings) \n\nFocus is at the sky",
+    "content": "@CoreFX Foreground Blur comparison between V1 and V2 (default settings) \n\nFocus is at the sky",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503974988796137493/FEA79353-583E-4C2F-8DE3-6D58D271AA9D.png?ex=6a0be4db&is=6a0a935b&hm=3729e812d5e130073f407aa4fd84d9c52fb88093ec6d5d642b5333b62458737b&",
@@ -61,7 +61,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-13T04:11:22.869000+00:00",
     "editedAt": "2026-05-13T04:12:08.162000+00:00",
-    "content": "@role SimpleDOF V2 (WIP)\n\nDeep modification of the current SimpleDOF with new multipass CoC system (fixed foreground bleed, you won't see near objects that are blurred have obvious contours anymore) and a lot of new options to control the way Depth of Field works and looks like",
+    "content": "@CoreFX SimpleDOF V2 (WIP)\n\nDeep modification of the current SimpleDOF with new multipass CoC system (fixed foreground bleed, you won't see near objects that are blurred have obvious contours anymore) and a lot of new options to control the way Depth of Field works and looks like",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972904654602350/B0EDD8C8-97E5-4EFF-8A86-3736A7D55AF9.png?ex=6a0be2ea&is=6a0a916a&hm=883e39eddccdd9b8527930fe227f53fab3f16e45ef76a80b1f2505989f9141a7&",
@@ -90,7 +90,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-09T03:28:46.177000+00:00",
     "editedAt": "2026-05-09T03:29:02.552000+00:00",
-    "content": "@role Added Sky AO to improve sky color gradients\n\nGenerally, sky appearance is improved a lot with a little-to-none performance drop\n\nBefore all the changes/after all the changes",
+    "content": "@CoreFX Added Sky AO to improve sky color gradients\n\nGenerally, sky appearance is improved a lot with a little-to-none performance drop\n\nBefore all the changes/after all the changes",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512628101152938/3240220_20260509062638_1.png?ex=6a0bd8ed&is=6a0a876d&hm=417fb78b1dffb47093ff9e44fc255239fa527e9e0d352d149b507c1be5ba18d4&",
@@ -112,7 +112,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-09T02:20:38.661000+00:00",
-    "content": "@role Volumetric Clouds (Enhanced)\n- Multi-scatter\n- Rim halo\n\nbefore/after",
+    "content": "@CoreFX Volumetric Clouds (Enhanced)\n- Multi-scatter\n- Rim halo\n\nbefore/after",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484550320158/31748E63-67FE-41F3-A702-3E5A6EA76AFC.png?ex=6a0c71b6&is=6a0b2036&hm=215759a56ac43686dcc1a10882637b9f9e489080a204ffb77dccfde891d27b47&",
@@ -134,7 +134,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-06T05:05:00.497000+00:00",
-    "content": "@role Sky Shader (wip)\n\nBefore (1.2) / after\n\nThis shader replaces timecycle sky with a dynamic atmosphere sky shader, completely eliminates banding, layers etc. And adds new lots of new details into the sky.\nWe made a lot of changes in the timecycle as well, to match the new sky colors, means that Enhanced version of the mod will depend on this shader.\n\nAll these features are also planned for Legacy, and will be ported in the next months",
+    "content": "@CoreFX Sky Shader (wip)\n\nBefore (1.2) / after\n\nThis shader replaces timecycle sky with a dynamic atmosphere sky shader, completely eliminates banding, layers etc. And adds new lots of new details into the sky.\nWe made a lot of changes in the timecycle as well, to match the new sky colors, means that Enhanced version of the mod will depend on this shader.\n\nAll these features are also planned for Legacy, and will be ported in the next months",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449680075358289/7BCBF775-6924-48BB-93F9-D7FCE60B6A91.png?ex=6a0bef7b&is=6a0a9dfb&hm=982cfb89a428722dba41da7a1aaa08de84bc950bf81d3ff4d40f84f4ca691955&",
@@ -204,7 +204,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-05T22:47:07.406000+00:00",
-    "content": "@role Sky Shader - 22:00\n\nbefore/after",
+    "content": "@CoreFX Sky Shader - 22:00\n\nbefore/after",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354586626195476/FE29A5B6-2C9D-41C1-AF47-15115E5A1D65.png?ex=6a0c3fab&is=6a0aee2b&hm=50ab51cf7eb2fd61bddb74d8330249d465e087ad24e2063b4fa9f056d2eba38f&",
@@ -227,7 +227,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-05T21:05:38.732000+00:00",
     "editedAt": "2026-05-05T21:06:42.600000+00:00",
-    "content": "@role Fixed ugly lighting shader bug with foliage at dawn / dusk\n\nBefore/after",
+    "content": "@CoreFX Fixed ugly lighting shader bug with foliage at dawn / dusk\n\nBefore/after",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a0c27e2&is=6a0ad662&hm=d96169b57b7589652ae2526a18d7cfe055dfb731c97d19df74bf296de01149a9&",
@@ -261,7 +261,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-05T20:26:12.189000+00:00",
-    "content": "@role Sky Shader - dawn / dusk update (wip)\n\n1.2 (old) / Timecycle Update / Sky Shader Update",
+    "content": "@CoreFX Sky Shader - dawn / dusk update (wip)\n\n1.2 (old) / Timecycle Update / Sky Shader Update",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122359943459/97FC113E-D74C-4B72-AAF7-9FD30BA2F146.png?ex=6a0c1ea3&is=6a0acd23&hm=9f6ec0207ce4bc514af2c9d6add7ade0e0699de0132b95c94440d363fa20d4fa&",
@@ -289,7 +289,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-05T02:12:09.562000+00:00",
-    "content": "@role Sky Shader improvements (wip)\n\n- sky layer banding is gone\n- better scattering system",
+    "content": "@CoreFX Sky Shader improvements (wip)\n\n- sky layer banding is gone\n- better scattering system",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501043796928888963/3240220_20260505050948_1.png?ex=6a0c6fb9&is=6a0b1e39&hm=0747cb62c5a03dbd57cff83961181ed37b37b37f577fcf8a815eb5250d2beb2a&",
@@ -311,7 +311,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-04T00:23:49.931000+00:00",
-    "content": "@role Better sunset/sunrise colors & gradients\n\nBefore/after",
+    "content": "@CoreFX Better sunset/sunrise colors & gradients\n\nBefore/after",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1500654146146013375/DAFE4C6B-E8CD-4565-8EF3-A66DBF58A44D.png?ex=6a0c5655&is=6a0b04d5&hm=40a7effcbc79938ffad5fe40e254f0770a7c9500153fbef3f4f3d17595de7f9d&",
@@ -357,7 +357,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-28T17:51:27.386000+00:00",
-    "content": "@role more settings upcoming",
+    "content": "@CoreFX more settings upcoming",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498743463028457492/Grand_Theft_Auto_V_Enhanced_2026.04.28_-_20.49.58.02.mp4?ex=6a0bfa5e&is=6a0aa8de&hm=b12e8572969bba58e639b7e76df614ad775acdf22d462c96cb9b90608112e79f&",
@@ -373,7 +373,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-28T16:29:30.617000+00:00",
-    "content": "@role RenoDX UI shader settings (work in progress)",
+    "content": "@CoreFX RenoDX UI shader settings (work in progress)",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498722836137644162/Grand_Theft_Auto_V_Enhanced_2026.04.28_-_19.28.28.01.mp4?ex=6a0be729&is=6a0a95a9&hm=e0e9bbae57e065a564ad8be2cab718983b75d2de55c9e84bbd2579d57ed62a9b&",
@@ -389,10 +389,13 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-27T17:48:53.059000+00:00",
-    "content": "@role [Clouds demonstration snippet](https://www.youtube.com/watch?v=yOZlQd38ii0)",
+    "content": "@CoreFX [Clouds demonstration snippet](https://www.youtube.com/watch?v=yOZlQd38ii0)",
     "attachments": [],
     "embeds": [
       {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yOZlQd38ii0",
+        "providerName": "YouTube",
         "title": "CoreFX Enhanced 1.2.1 volumetric clouds v2 early snippet",
         "imageUrl": "https://i.ytimg.com/vi/yOZlQd38ii0/maxresdefault.jpg",
         "color": 16711680
@@ -404,7 +407,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-27T14:54:41.640000+00:00",
-    "content": "@role Cloud Godrays for Enhanced (test screenshot)",
+    "content": "@CoreFX Cloud Godrays for Enhanced (test screenshot)",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498336593172500560/2B4F3CD6-BE2E-4BA1-B864-0B8F8A10A6A3.png?ex=6a0c79b1&is=6a0b2831&hm=b8ededfb53871584f5afac378b34ff57e19f79eb2284eb146cb03577c31ba71d&",
@@ -420,7 +423,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-27T03:00:31.312000+00:00",
-    "content": "@role i can also confirm that our new Volumetric Clouds will work inside .awc archives (.fxc equivalent but for Enhanced) so it's possible to use them outside of reshade",
+    "content": "@CoreFX i can also confirm that our new Volumetric Clouds will work inside .awc archives (.fxc equivalent but for Enhanced) so it's possible to use them outside of reshade",
     "attachments": [],
     "embeds": []
   },
@@ -429,7 +432,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-27T02:36:29.640000+00:00",
-    "content": "@role After a long work with moon/sun direction offsets, we can now implement moon godrays (i know, we're late)\n\nintensity increased for the demonstration",
+    "content": "@CoreFX After a long work with moon/sun direction offsets, we can now implement moon godrays (i know, we're late)\n\nintensity increased for the demonstration",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498150819084636180/859187AB-29E2-4AD9-86E7-6A49780A24E1.png?ex=6a0c756d&is=6a0b23ed&hm=236c8f4b14ef9a650caba0b12e36b6f5cf90de0bb11254e21cb0d61c9f5a4ed5&",
@@ -446,7 +449,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-24T18:19:12.626000+00:00",
     "editedAt": "2026-04-24T18:20:21.159000+00:00",
-    "content": "@role FPS comparison between Volumetric Clouds V1 and V2 in Enhanced (4k resolution no upscaling)\n25% gain, their shape is still a subject for change\nAlso they don't jitter with camera movement and are completely stable. And they render behind user interface.",
+    "content": "@CoreFX FPS comparison between Volumetric Clouds V1 and V2 in Enhanced (4k resolution no upscaling)\n25% gain, their shape is still a subject for change\nAlso they don't jitter with camera movement and are completely stable. And they render behind user interface.",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300896537645056/3240220_20260424211623_1.png?ex=6a0c00e0&is=6a0aaf60&hm=01035c32f2a5c48d841736f786f8b9a97afcd1ad840e77494e79d4306c66e0ee&",
@@ -468,7 +471,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-24T00:12:16.511000+00:00",
-    "content": "@role \nVolumetric Clouds V2 (Ingame shader injection) for CoreFX Enhanced (Work In Progress)\nWill be available for CoreFX Enhanced Singleplayer and CoreFX Enhanced FiveM in the next update, in the base free package. RageMP Enhanced support is not granted since bad anticheat system in there.",
+    "content": "@CoreFX \nVolumetric Clouds V2 (Ingame shader injection) for CoreFX Enhanced (Work In Progress)\nWill be available for CoreFX Enhanced Singleplayer and CoreFX Enhanced FiveM in the next update, in the base free package. RageMP Enhanced support is not granted since bad anticheat system in there.",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497027361760346244/080CDCA9-5BE6-4485-8B13-B6FBCC544E90.png?ex=6a0c53a0&is=6a0b0220&hm=c24dd46d916c7a54b203709f5626cf1435149ee62d061a42dddf8b5313064d58&",
@@ -485,10 +488,13 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-15T19:41:10.898000+00:00",
     "editedAt": "2026-04-15T19:41:21.951000+00:00",
-    "content": "@role \n\n[Video-snippet of Enhanced 1.2.1 update](https://www.youtube.com/watch?v=tOUIOvqe0Mk)\n\nThis update will not only include new shader features, but also will generally improve look of the game, to make it less bright and more cinematic. Work in Progress...\n\nLegacy will also be updated, including new weather support for clouds, coming soon.",
+    "content": "@CoreFX \n\n[Video-snippet of Enhanced 1.2.1 update](https://www.youtube.com/watch?v=tOUIOvqe0Mk)\n\nThis update will not only include new shader features, but also will generally improve look of the game, to make it less bright and more cinematic. Work in Progress...\n\nLegacy will also be updated, including new weather support for clouds, coming soon.",
     "attachments": [],
     "embeds": [
       {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tOUIOvqe0Mk",
+        "providerName": "YouTube",
         "title": "CoreFX Enhanced 1.2.1 early snippet II",
         "imageUrl": "https://i.ytimg.com/vi/tOUIOvqe0Mk/maxresdefault.jpg",
         "color": 16711680
@@ -500,7 +506,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-14T12:49:06.560000+00:00",
-    "content": "@role Ghost Lens in Enhanced",
+    "content": "@CoreFX Ghost Lens in Enhanced",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493593946197065839/04E77A09-CF87-404B-8889-7A732F5422B1.png?ex=6a0c5c42&is=6a0b0ac2&hm=ee2a1409848f1ba25c5d02469bf4c87dacbbc33e89274f32b1ceacfc8dacccf2&",
@@ -516,7 +522,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-14T12:11:07.024000+00:00",
-    "content": "@role Astigmatism Lens (From CoreENB) in Enhanced",
+    "content": "@CoreFX Astigmatism Lens (From CoreENB) in Enhanced",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493584385276903514/E5AECAEC-FBF2-4657-905D-0D4BB81104F6.png?ex=6a0c535a&is=6a0b01da&hm=cf42cfe01810f384be276d9703f5aec9388b1b31b0f048299b165c90cb5da81f&",
@@ -533,7 +539,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-13T16:16:43.866000+00:00",
     "editedAt": "2026-04-13T16:16:51.711000+00:00",
-    "content": "@role Wheel improvements for Enhanced\n\nBefore / After",
+    "content": "@CoreFX Wheel improvements for Enhanced\n\nBefore / After",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1493283807720116325/B96972DA-0C13-4E98-963B-EE89BBA9ADE4.png?ex=6a0be42b&is=6a0a92ab&hm=411ec9b861753e3d381ecafe1b91460d03c362d45dcae1dee424007d773def04&",
@@ -556,7 +562,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-12T20:40:41.460000+00:00",
     "editedAt": "2026-04-12T20:40:49.968000+00:00",
-    "content": "@role Specular & Vehicle reflections improvements for Enhanced\n\nBefore / After",
+    "content": "@CoreFX Specular & Vehicle reflections improvements for Enhanced\n\nBefore / After",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492987847496437952/0D258D60-9D91-4DC4-8ED5-44F150819C56.png?ex=6a0c2209&is=6a0ad089&hm=e3d1e8d3384fda98d129c81dc48c365a0558c98274c64bd2baa11a865b99e318&",
@@ -578,7 +584,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-12T18:45:45.050000+00:00",
-    "content": "@role Orange Peel for Enhanced",
+    "content": "@CoreFX Orange Peel for Enhanced",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492958922242392114/9EB083B2-9F75-4B96-AD80-F0B9FDC8130D.png?ex=6a0c0718&is=6a0ab598&hm=e6467a0a482200e94d4a0ff9694886fc0422effb514f7c134b0925d1a95a43c5&",
@@ -600,7 +606,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-12T15:35:07.152000+00:00",
-    "content": "@role Metallic Flakes for Enhanced",
+    "content": "@CoreFX Metallic Flakes for Enhanced",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910946925154384/9AF95BDF-F4BB-4CD8-BB86-53EF8CD9E70B.png?ex=6a0bda6a&is=6a0a88ea&hm=7429e102d78cdd3bcb044822ba20ef6e32f59327cece537609643187326a1499&",
@@ -628,7 +634,7 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-07T14:34:46.055000+00:00",
-    "content": "@role Improved Motion Blur for Enhanced, close to what we have in Legacy",
+    "content": "@CoreFX Improved Motion Blur for Enhanced, close to what we have in Legacy",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1491083821435846838/CCD070DE-B1B5-4C7F-B00B-7DD5040E05B7.png?ex=6a0c7506&is=6a0b2386&hm=b24cd60c89cbaf5552306422b592d563bd96a008d5ad60875de7d881a7353c52&",
@@ -645,7 +651,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-04-07T13:33:34.750000+00:00",
     "editedAt": "2026-04-07T13:33:42.272000+00:00",
-    "content": "@role Sliding vehicle raindrops for Enhanced",
+    "content": "@CoreFX Sliding vehicle raindrops for Enhanced",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1491068420337303783/Grand_Theft_Auto_V_Enhanced_2026.04.07_-_16.32.42.04.mp4?ex=6a0c66ae&is=6a0b152e&hm=0ca6b6bbbebb37f6b8202f671bf5fec8444b25fac8c6951b00f73994e6f7ab35&",
@@ -661,10 +667,13 @@
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-03-10T21:46:02.320000+00:00",
-    "content": "@role You can now try release version of Simple Camera on GTA5Mods\n\n# [Download](https://www.gta5-mods.com/scripts/simple-camera)",
+    "content": "@CoreFX You can now try release version of Simple Camera on GTA5Mods\n\n# [Download](https://www.gta5-mods.com/scripts/simple-camera)",
     "attachments": [],
     "embeds": [
       {
+        "type": "article",
+        "url": "https://www.gta5-mods.com/scripts/simple-camera",
+        "providerName": "GTA5-Mods.com",
         "title": "Simple Camera",
         "description": "Simple Camera for Advanced Filming &amp; Photography\n Elevate your Grand Theft Auto V photography and cinematography with the Simple Camera script. Built specifically for content creators, machinima directors, and virtual photographers, this plugin offers unparalleled control over your camera and the world state.\n \n Supports both GTA 5 Legacy an...",
         "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/8446ed-simplecamera.png",
@@ -678,7 +687,7 @@
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-03-09T02:46:01.222000+00:00",
     "editedAt": "2026-03-09T02:46:34.639000+00:00",
-    "content": "@role Simple Camera\n\n- It also will allow you to lock on entity, so you can film driving cars easily",
+    "content": "@CoreFX Simple Camera\n\n- It also will allow you to lock on entity, so you can film driving cars easily",
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1480396201210941554/Grand_Theft_Auto_V_Enhanced_2026.03.09_-_04.42.37.13.mp4?ex=6a0c77a6&is=6a0b2626&hm=48417f027f73ff0f33d079820b969fd6379b3e0ef2ba778bba1dcce814892caa&",
