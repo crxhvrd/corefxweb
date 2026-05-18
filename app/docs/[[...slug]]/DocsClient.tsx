@@ -72,9 +72,11 @@ const prerequisitesSections = [
                 title: 'Software',
                 items: [
                     'Base Game: A legitimate copy of Grand Theft Auto V.',
-                    <>OpenIV.asi (Legacy Singleplayer): Required to load mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager.</>,
-                    <>OpenRPF.asi (Enhanced Singleplayer): Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
-                    <>ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.</>
+                    <><strong>RageOpenV.asi (Recommended, Legacy & Enhanced Singleplayer):</strong> A modern replacement for both OpenIV.asi and OpenRPF.asi. Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
+                    <>OpenIV.asi (Legacy Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager. Superseded by RageOpenV.asi.</>,
+                    <>OpenRPF.asi (Enhanced Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>). Superseded by RageOpenV.asi.</>,
+                    <>ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.</>,
+                    <><strong>Standalone OIV Package Installer:</strong> Bundled with the CoreFX archive. Installs <code>.oiv</code> packages directly without requiring the obsolete OpenIV app. (Project page: <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>
                 ]
             },
             {
@@ -322,7 +324,7 @@ export default function DocsClient() {
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
-                                                        Download and install <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible with GTA V Legacy (use <code>dinput8.dll</code>). Also install <strong>OpenIV.asi</strong> via the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a> (OpenIV &gt; ASI Manager).
+                                                        Download and install <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible with GTA V Legacy (use <code>dinput8.dll</code>). For the mods folder loader, install <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>RageOpenV.asi</strong></a> (recommended) — or, as a legacy alternative, <strong>OpenIV.asi</strong> via the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a> (OpenIV &gt; ASI Manager).
                                                     </li>
                                                     <li>
                                                         Add <code>-noBattlEye</code> to your game launcher&apos;s
@@ -344,7 +346,10 @@ export default function DocsClient() {
                                                         folder.
                                                     </li>
                                                     <li>
-                                                        <strong>Method 2 (Alternative):</strong> Use the <strong>OpenIV</strong> app. Open OpenIV, click on "Tools" &gt; "Package Installer", and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder.
+                                                        <strong>Method 2 (Alternative):</strong> Use the <strong>Standalone <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OIV Package Installer</a></strong> bundled with the CoreFX archive. Run it and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder — no OpenIV app required.
+                                                    </li>
+                                                    <li>
+                                                        <strong>Method 3 (Legacy):</strong> Use the <strong>OpenIV</strong> app. Open OpenIV, click on "Tools" &gt; "Package Installer", and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder.
                                                     </li>
                                                     <li>
                                                         <strong>Note:</strong> <code>Install.bat</code> and{' '}
@@ -435,7 +440,7 @@ export default function DocsClient() {
                                                     <li>
                                                         Download and install{' '}
                                                         <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible
-                                                        with GTA V Enhanced (use <code>xinput1_4.dll</code>). Also install <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>OpenRPF.asi</strong></a>.
+                                                        with GTA V Enhanced (use <code>xinput1_4.dll</code>). For the mods folder loader, install <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>RageOpenV.asi</strong></a> (recommended) — or, as a legacy alternative, <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>OpenRPF.asi</strong></a>.
                                                     </li>
                                                     <li>
                                                         Add <strong>-noBattlEye</strong> to your game
