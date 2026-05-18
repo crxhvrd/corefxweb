@@ -1,11 +1,19 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function VideoBackground() {
   const [blur, setBlur] = useState(0);
+  const pathname = usePathname();
+  const enableScrollBlur = pathname === '/';
 
   useEffect(() => {
+    if (!enableScrollBlur) {
+      setBlur(0);
+      return;
+    }
+
     let rafId = 0;
     let ticking = false;
 
@@ -35,7 +43,7 @@ export default function VideoBackground() {
       window.removeEventListener('scroll', onScroll);
       cancelAnimationFrame(rafId);
     };
-  }, []);
+  }, [enableScrollBlur]);
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
