@@ -2,8 +2,11 @@ name: Sync devblog from Discord
 
 on:
   schedule:
-    # Every 5 minutes. GitHub's cron is best-effort and may skip ticks under heavy load.
-    - cron: '*/5 * * * *'
+    # GitHub silently drops short-interval cron ticks (*/5) under load.
+    # Every 15 min is the shortest cadence they reliably honor in practice.
+    # Use workflow_dispatch ("Run workflow" in the Actions tab) to force
+    # an immediate sync after publishing a high-priority announcement.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
