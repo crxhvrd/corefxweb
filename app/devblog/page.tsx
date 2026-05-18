@@ -89,13 +89,13 @@ function renderContent(content: string): ReactNode[] {
 
 export default function DevBlogPage() {
   return (
-    <main className="relative min-h-screen px-4 sm:px-6 pt-24 pb-32 max-w-3xl mx-auto">
-      <header className="mb-10 bg-black/40 backdrop-blur-md border border-white/10 rounded-lg px-6 py-5 shadow-lg">
+    <main className="relative min-h-screen px-4 sm:px-6 pt-12 sm:pt-24 pb-24 sm:pb-32 max-w-3xl mx-auto">
+      <header className="mb-8 sm:mb-10 bg-black/40 backdrop-blur-md border border-white/10 rounded-lg px-5 py-4 sm:px-6 sm:py-5 shadow-lg">
         <div className="flex items-center gap-3 mb-2">
           <Megaphone
-            className="h-6 w-6 text-orange-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]"
+            className="h-6 w-6 text-orange-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] shrink-0"
           />
-          <h1 className="text-3xl sm:text-4xl font-semibold text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.85)]">
+          <h1 className="text-2xl sm:text-4xl font-semibold text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.85)]">
             Dev Blog
           </h1>
         </div>
@@ -105,7 +105,7 @@ export default function DevBlogPage() {
       </header>
 
       {posts.length === 0 ? (
-        <div className="bg-black/30 border border-white/10 backdrop-blur-md p-8 rounded-lg text-center space-y-3">
+        <div className="bg-black/30 border border-white/10 backdrop-blur-md p-6 sm:p-8 rounded-lg text-center space-y-3">
           <p className="text-white/80">No posts yet.</p>
           <p className="text-white/50 text-sm">
             Check back after our next Discord announcement, or{' '}
@@ -125,7 +125,7 @@ export default function DevBlogPage() {
           {posts.map((post, i) => (
             <li
               key={post.id}
-              className="bg-black/30 border border-white/10 backdrop-blur-md p-6 rounded-lg space-y-4"
+              className="bg-black/30 border border-white/10 backdrop-blur-md p-5 sm:p-6 rounded-lg space-y-4"
             >
               <div className="flex items-center gap-3">
                 {post.authorAvatarUrl ? (
