@@ -149,11 +149,26 @@ async function fetchRoles(guildId) {
 
 async function main() {
   const roleMap = await fetchRoles(GUILD_ID);
+  console.log(`Fetched ${roleMap.size} guild roles.`);
   const raw = await fetchMessages();
+  console.log(`Discord returned ${raw.length} messages from channel ${CHANNEL_ID}.`);
+  if (raw.length > 0) {
+    const newest = raw[0];
+    console.log(
+      `Newest message: id=${newest.id} type=${newest.type} ts=${newest.timestamp} ` +
+        `author=${newest.author?.username} contentLen=${(newest.content || '').length} ` +
+        `attachments=${newest.attachments?.length || 0} embeds=${newest.embeds?.length || 0}`
+    );
+  }
+  const typeCounts = {};
+  for (const m of raw) typeCounts[m.type] = (typeCounts[m.type] || 0) + 1;
+  console.log(`Message types breakdown: ${JSON.stringify(typeCounts)}`);
+
   // Skip non-default message types (joins, pins, etc.). Type 0 = DEFAULT, 19 = REPLY.
   const posts = raw
     .filter((m) => m.type === 0 || m.type === 19)
     .map((m) => normalizeMessage(m, roleMap));
+  console.log(`After type filter: ${posts.length} posts.`);
 
   const json = JSON.stringify(posts, null, 2) + '\n';
   let prev = '';
