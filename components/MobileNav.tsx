@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Home, Download, BookOpen } from 'lucide-react';
+import { Menu, X, Home, Download, BookOpen, Megaphone } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { triggerDownloadModal } from '@/lib/downloadModalEvents';
 
@@ -15,6 +15,7 @@ const navItems: NavItem[] = [
   { name: 'Home', type: 'link', href: '/', icon: Home },
   { name: 'Download', type: 'download', icon: Download },
   { name: 'Documentation', type: 'link', href: '/docs/prerequisites', icon: BookOpen },
+  { name: 'Dev Blog', type: 'link', href: '/devblog', icon: Megaphone },
 ];
 
 export default function MobileNav() {

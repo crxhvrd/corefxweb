@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { FaYoutube, FaPatreon, FaDiscord } from 'react-icons/fa';
 import { FiCompass } from 'react-icons/fi';
 import { AnimatePresence, motion } from 'framer-motion';
+import DiscordCount from './DiscordCount';
 
 export default function SocialSidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,10 +37,11 @@ export default function SocialSidebar() {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300"
+            className="relative bg-black/30 hover:bg-white hover:text-black text-white p-3 rounded-full transition duration-300"
             aria-label={label}
           >
             <Icon className="h-4 w-4" />
+            {label === 'Discord' && <DiscordCount />}
           </a>
         ))}
       </div>
@@ -59,10 +61,11 @@ export default function SocialSidebar() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 10 }}
                 transition={{ duration: 0.15, delay: index * 0.05 }}
-                className="bg-black/40 hover:bg-white hover:text-black text-white p-4 rounded-full transition duration-300"
+                className="relative bg-black/40 hover:bg-white hover:text-black text-white p-4 rounded-full transition duration-300"
                 aria-label={label}
               >
                 <Icon className="h-6 w-6" />
+                {label === 'Discord' && <DiscordCount />}
               </motion.a>
             ))}
         </AnimatePresence>

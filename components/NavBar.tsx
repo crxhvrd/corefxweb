@@ -14,6 +14,7 @@ const navItems: NavItem[] = [
   { name: 'Home', type: 'link', href: '/' },
   { name: 'Download', type: 'download' },
   { name: 'Documentation', type: 'link', href: '/docs/prerequisites' },
+  { name: 'Dev Blog', type: 'link', href: '/devblog' },
 ];
 
 export default function NavBar() {
