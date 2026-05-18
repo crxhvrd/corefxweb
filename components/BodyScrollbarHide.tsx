@@ -7,8 +7,12 @@ export default function BodyScrollbarHide() {
     const pathname = usePathname();
 
     useEffect(() => {
-        // Hide scrollbar on homepage only
-        if (pathname === '/') {
+        const shouldHide =
+            pathname === '/' ||
+            pathname?.startsWith('/devblog') ||
+            pathname?.startsWith('/docs');
+
+        if (shouldHide) {
             document.documentElement.classList.add('scrollbar-hide');
             document.body.classList.add('scrollbar-hide');
         } else {
