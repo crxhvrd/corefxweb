@@ -1,5 +1,21 @@
 [
   {
+    "id": "1506713690148311160",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-20T17:42:17.118000+00:00",
+    "content": "@CoreFX Inner glass raindrops for Enhanced",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506713690387517611/53FBF172-9CA1-457A-A07D-EE04A0BA6740.png?ex=6a0f43f9&is=6a0df279&hm=f5f2322eb2c6249c2c7ba6e63b95a7c791deb7cae988a02d88dfce9bf2787d6b&",
+        "contentType": "image/png",
+        "width": 1388,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1506678500851978410",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -110,25 +126,25 @@
     "content": "@CoreFX SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a0eadb7&is=6a0d5c37&hm=29961814770faeb4a4d4730757737294fcc12bcdad5eb37c3562f24e22d94325&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a0f5677&is=6a0e04f7&hm=5a3e2c962cfbd1d8d6f3910f6b5cec15bab281ec8ad78ff1d1c446a31fdc7ab2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a0eadb7&is=6a0d5c37&hm=e343aa947ef034467a90747c135efea389ad454cea4a3e535b8844c01a0285c0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a0f5677&is=6a0e04f7&hm=4af3967b05bfbd39815ae7b1e702d67ef66f3652fb61cf7a9b4b8a154c0f9f7a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a0eadb7&is=6a0d5c37&hm=9844a46ab0a326e56946c94d6ded9df675665107dffed971b4071ba37069dff1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a0f5677&is=6a0e04f7&hm=895fb896c421fe5e0d9acd71db2599dfa888b5728e3dcec3e511e27d4025f71c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a0eadb7&is=6a0d5c37&hm=bae9e9b1b306ca9f54e05b19a658ce331957b7264ef81dacb22743abe4a09567&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a0f5677&is=6a0e04f7&hm=2cd07f1beca4fac4c773e20ce555684739ce3af397e061b67eef321b96eb4c5b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -463,7 +479,7 @@
     "content": "@CoreFX more settings upcoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498743463028457492/Grand_Theft_Auto_V_Enhanced_2026.04.28_-_20.49.58.02.mp4?ex=6a0e9d5e&is=6a0d4bde&hm=120c8220bfa3fe4069313f39553a3e3ab65ed7d4649cb473a0e59e3e1648dac9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498743463028457492/Grand_Theft_Auto_V_Enhanced_2026.04.28_-_20.49.58.02.mp4?ex=6a0f461e&is=6a0df49e&hm=87fe0932a73343fcfb0739b46a9c02aa62ed2c6d2744c79dde94a9634b04ecb0&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -555,13 +571,13 @@
     "content": "@CoreFX FPS comparison between Volumetric Clouds V1 and V2 in Enhanced (4k resolution no upscaling)\n25% gain, their shape is still a subject for change\nAlso they don't jitter with camera movement and are completely stable. And they render behind user interface.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300896537645056/3240220_20260424211623_1.png?ex=6a0ea3e0&is=6a0d5260&hm=4bc77432b0266198944b8a7f203c3df622333137bb327b377cada1d5bb1dafb2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300896537645056/3240220_20260424211623_1.png?ex=6a0f4ca0&is=6a0dfb20&hm=563b6a5918ed0431ac547925ba4bf6384d836692cf9aa414914a5da3862c7635&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300897737478166/3240220_20260424211544_1.png?ex=6a0ea3e0&is=6a0d5260&hm=105651a8ea8a9647a960898a3a8692c22b2c29fe30d5649f90b121cb09414d49&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300897737478166/3240220_20260424211544_1.png?ex=6a0f4ca0&is=6a0dfb20&hm=33e313be44d8b71ab8959476ea9830076242df3738d8f6e4372b74c0ac5a3d49&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -690,13 +706,13 @@
     "content": "@CoreFX Orange Peel for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492958922242392114/9EB083B2-9F75-4B96-AD80-F0B9FDC8130D.png?ex=6a0eaa18&is=6a0d5898&hm=b72f25389f0fa059650d9257293ace34d314340e0735dd08a592cb0f454dfcb8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492958922242392114/9EB083B2-9F75-4B96-AD80-F0B9FDC8130D.png?ex=6a0f52d8&is=6a0e0158&hm=391b8191863a77770bef6361c4e76600dc80e7be639066072ef2309a8322ef02&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492958923026858147/9774E73E-24C2-457C-8134-C35E90645699.png?ex=6a0eaa19&is=6a0d5899&hm=e20ea784df829b37131b47964edc737afcaf4f0756ea45e9b895e01ecb351ed1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492958923026858147/9774E73E-24C2-457C-8134-C35E90645699.png?ex=6a0f52d9&is=6a0e0159&hm=c5b14e08d466ce97219aa4b8e03f61f1aed94d210cc94aeffbe0bdc44a4e9d45&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -727,22 +743,6 @@
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1492910948757803260/3EE28C5B-8877-45B5-B59A-908E1CC6CDD8.png?ex=6a0f262b&is=6a0dd4ab&hm=4ad9d8e3dc84442db146a611bc6bcb3da1d6e928e3bb60aa31c46075a26f837f&",
         "contentType": "image/png",
         "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1491083821548830771",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-04-07T14:34:46.055000+00:00",
-    "content": "@CoreFX Improved Motion Blur for Enhanced, close to what we have in Legacy",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1491083821435846838/CCD070DE-B1B5-4C7F-B00B-7DD5040E05B7.png?ex=6a0f1806&is=6a0dc686&hm=698e9383c49061c4094b76142deeb32ac192f48531c8513b31c9d264040cd4cc&",
-        "contentType": "image/png",
-        "width": 1206,
         "height": 1080
       }
     ],
