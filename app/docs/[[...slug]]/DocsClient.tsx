@@ -627,8 +627,15 @@ export default function DocsClient() {
                                                         <code>FiveM Application Data</code> directory.
                                                     </li>
                                                     <li>
-                                                        <strong>Additionally</strong>, copy these same files
-                                                        into your main GTA 5 game directory.
+                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-red-300 text-sm">
+                                                                <strong>Important:</strong> Copy these same files
+                                                                into your main GTA 5 game directory. This step is
+                                                                required for the <strong>RenoDX Shader Loader</strong>{' '}
+                                                                menu to work correctly &mdash; without it, you will not
+                                                                see any menu options inside the RenoDX Shader Loader menu.
+                                                            </p>
+                                                        </div>
                                                     </li>
                                                     <li>
                                                         In-game, press <strong>F7</strong> to open the ReShade
