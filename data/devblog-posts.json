@@ -1,5 +1,21 @@
 [
   {
+    "id": "1509661232611721248",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-28T20:54:46.004000+00:00",
+    "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a19fd14&is=6a18ab94&hm=7cee09eb96bc1bfad88549afcf4bf4448517fad717a712bbccdc33e984df315e&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1509090330404851783",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -442,25 +458,25 @@
     "content": "@CoreFX Fixed ugly lighting shader bug with foliage at dawn / dusk\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a1956e2&is=6a180562&hm=52c8196a974683fd043968afa75195f80bdd05343d50ab0eaa3f30d1b5f00a5d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a19ffa2&is=6a18ae22&hm=53c08adb0ab612ecdf7adcbdf4a44b6942f7426ac5861208cf97af7319dac580&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047706140884/3C929ED2-F4E3-431F-93E2-3727032BC6BE.png?ex=6a1956e2&is=6a180562&hm=cf23e422c41bee90724d82f3669bb5a3d2b6ffacd4642458acdb9bb3f72d73ce&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047706140884/3C929ED2-F4E3-431F-93E2-3727032BC6BE.png?ex=6a19ffa2&is=6a18ae22&hm=1fd19d264f9e74d05c648b339d9015a047fdde029cfc396fbace9b1bf55ad1fb&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048222175303/375F2BA9-9A38-4A78-8826-BCF6DDE16F04.png?ex=6a1956e2&is=6a180562&hm=ab284d032bf55dce2cf0fc81162ec80abd45eaac0b48666f711543909cdeaf40&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048222175303/375F2BA9-9A38-4A78-8826-BCF6DDE16F04.png?ex=6a19ffa2&is=6a18ae22&hm=b35d2e1282c885b7d24247512941c29bb816512cf994e2affa957163d440410f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048943460513/143D8486-709B-4B53-8830-1F034BC69AB1.png?ex=6a1956e2&is=6a180562&hm=c4e13fbf893039366548067c455d04e8a259e352ba88b5aeada705e639ffe3dc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048943460513/143D8486-709B-4B53-8830-1F034BC69AB1.png?ex=6a19ffa2&is=6a18ae22&hm=d18342884c19f4f9f3fe1b554088acfb8e93b86bd0ab7d0422ebe165f4ef1c2c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -476,19 +492,19 @@
     "content": "@CoreFX Sky Shader - dawn / dusk update (wip)\n\n1.2 (old) / Timecycle Update / Sky Shader Update",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122359943459/97FC113E-D74C-4B72-AAF7-9FD30BA2F146.png?ex=6a194da3&is=6a17fc23&hm=3376520a64052e299238d4ecc37395978c6441b2f07fa869d0edeedcb2309add&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122359943459/97FC113E-D74C-4B72-AAF7-9FD30BA2F146.png?ex=6a19f663&is=6a18a4e3&hm=8a51b7a7520a2f96e372b01ec35814bc97ef224b3afd2e318948d248e8e0196c&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122917654598/D67908EE-944B-4746-B2EF-827A4AEB7C4A.png?ex=6a194da4&is=6a17fc24&hm=802266311c775e10e9dad73558d04f2dec09f0b57fdda6c2f5e05759e0091539&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122917654598/D67908EE-944B-4746-B2EF-827A4AEB7C4A.png?ex=6a19f664&is=6a18a4e4&hm=5609f5db1a0955dbb00549b23769c58711f7e04cb4c377f208f7b977b7be1e3c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319123408519269/4677FB4F-3DB5-427B-AB11-891B9470D3F0.png?ex=6a194da4&is=6a17fc24&hm=f35bd3960449173cf1a6f941233980e7f91cd7fc195fff30f8e3d3a8b2c7bb06&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319123408519269/4677FB4F-3DB5-427B-AB11-891B9470D3F0.png?ex=6a19f664&is=6a18a4e4&hm=620d2d44c01b2b8c2eed176abc563e49f081eb1f6634c313b34f59996b21d51a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -693,24 +709,5 @@
       }
     ],
     "embeds": []
-  },
-  {
-    "id": "1494060036094169249",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-04-15T19:41:10.898000+00:00",
-    "editedAt": "2026-04-15T19:41:21.951000+00:00",
-    "content": "@CoreFX \n\n[Video-snippet of Enhanced 1.2.1 update](https://www.youtube.com/watch?v=tOUIOvqe0Mk)\n\nThis update will not only include new shader features, but also will generally improve look of the game, to make it less bright and more cinematic. Work in Progress...\n\nLegacy will also be updated, including new weather support for clouds, coming soon.",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=tOUIOvqe0Mk",
-        "providerName": "YouTube",
-        "title": "CoreFX Enhanced 1.2.1 early snippet II",
-        "imageUrl": "https://i.ytimg.com/vi/tOUIOvqe0Mk/maxresdefault.jpg",
-        "color": 16711680
-      }
-    ]
   }
 ]
