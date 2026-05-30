@@ -1,5 +1,33 @@
 [
   {
+    "id": "1510400799526748331",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-30T21:53:32.497000+00:00",
+    "content": "@CoreFX Hello everyone, i'd like to clarify why 1.3 is not releasing yet\n\nIm remaking all cloudy weathers from scratch to include volumetric clouds natively. Currently i've finished three: Clouds, Overcast & Rain. Six other weathers (Thunder, Foggy, Clearing, Snow, Blizzard, Halloween) needs to be reworked",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a1caddc&is=6a1b5c5c&hm=a743ecbfaba31b52938e3ed4fcc9c4c3120f2353d6e50e2682b32147ae543007&",
+        "contentType": "image/png",
+        "width": 783,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a1caddc&is=6a1b5c5c&hm=c2e3b9eecca2fb41a666bb4cc877e73448900b9e5aa6e6d2916063bbf793ab98&",
+        "contentType": "image/png",
+        "width": 852,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a1caddc&is=6a1b5c5c&hm=5fd657ed53b7f441f75acb764f364ede218ee04d367765e297a1927ffe801ec9&",
+        "contentType": "image/png",
+        "width": 955,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1509661232611721248",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -690,22 +718,6 @@
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1497027361944633466",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-04-24T00:12:16.511000+00:00",
-    "content": "@CoreFX \nVolumetric Clouds V2 (Ingame shader injection) for CoreFX Enhanced (Work In Progress)\nWill be available for CoreFX Enhanced Singleplayer and CoreFX Enhanced FiveM in the next update, in the base free package. RageMP Enhanced support is not granted since bad anticheat system in there.",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497027361760346244/080CDCA9-5BE6-4485-8B13-B6FBCC544E90.png?ex=6a1c25a0&is=6a1ad420&hm=fb33fccaaacdfea8a997072117ef5ad25e1921a9bce7597bc1265cf0dfcb075f&",
-        "contentType": "image/png",
-        "width": 1916,
-        "height": 1080
       }
     ],
     "embeds": []
