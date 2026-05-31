@@ -118,7 +118,7 @@
     "content": "@CoreFX Preview of Camera Sequence mode",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a1ce730&is=6a1b95b0&hm=d256f68da4b4856296a91e532ec3589b8a5c1abb372ddeef6397fba3ba39f8bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a1d8ff0&is=6a1c3e70&hm=194d9bbca72dbbe5f48463c1ceae66077b79781c3c74e63382018d26aa1f5230&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -393,13 +393,13 @@
     "content": "@CoreFX Volumetric Clouds (Enhanced)\n- Multi-scatter\n- Rim halo\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484550320158/31748E63-67FE-41F3-A702-3E5A6EA76AFC.png?ex=6a1cec76&is=6a1b9af6&hm=b411164c74fd25fba89c267dde05912bce332d63b7074f2afb25250db1db9297&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484550320158/31748E63-67FE-41F3-A702-3E5A6EA76AFC.png?ex=6a1d9536&is=6a1c43b6&hm=ae18bcc3475afe31c152d0e15f7089074129c3544657984c35b3113fe97d3bda&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484978135132/B99ED3E6-8EB6-4B85-8E05-3B2D5553C229.png?ex=6a1cec76&is=6a1b9af6&hm=773acc57a7dcb806ee10f34cc0c375f0413fa6f172957c675072becadaebf004&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484978135132/B99ED3E6-8EB6-4B85-8E05-3B2D5553C229.png?ex=6a1d9536&is=6a1c43b6&hm=1c14e1311431ab23f68c3bd997b84fb59b4de40d06ab521471c2d20bfa7dca31&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -570,13 +570,13 @@
     "content": "@CoreFX Sky Shader improvements (wip)\n\n- sky layer banding is gone\n- better scattering system",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501043796928888963/3240220_20260505050948_1.png?ex=6a1cea79&is=6a1b98f9&hm=aad0ab47975bc97c72f8fbcfd1f9ab1372de9aacaabb0c0c7e3247d5d4ab527f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501043796928888963/3240220_20260505050948_1.png?ex=6a1d9339&is=6a1c41b9&hm=ce0ea76affb16cb318ee5105b7aad2c61e0c0b8276614eede9a317895990334b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501043798049030404/3240220_20260505050701_1.png?ex=6a1cea79&is=6a1b98f9&hm=bd1bda0f6b4ad1a1ab69b139c27409cf6ace34c15da27f3e7babd8a9e959ea2a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501043798049030404/3240220_20260505050701_1.png?ex=6a1d9339&is=6a1c41b9&hm=99853a83ef22d5c5e7e8ee175cdee7919461aedfe5760f122c896e39053dd97b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -688,7 +688,7 @@
     "content": "@CoreFX Cloud Godrays for Enhanced (test screenshot)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498336593172500560/2B4F3CD6-BE2E-4BA1-B864-0B8F8A10A6A3.png?ex=6a1cf471&is=6a1ba2f1&hm=7da24cc23c8bffd8445388ee39d7fccdc6e1b428bb75454734db629d4ec5b328&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498336593172500560/2B4F3CD6-BE2E-4BA1-B864-0B8F8A10A6A3.png?ex=6a1d9d31&is=6a1c4bb1&hm=eb9707b73aaef953f4aff64358754995b33f3b92849fe36e278af5c4a62d2d7b&",
         "contentType": "image/png",
         "width": 1137,
         "height": 1080
@@ -713,7 +713,7 @@
     "content": "@CoreFX After a long work with moon/sun direction offsets, we can now implement moon godrays (i know, we're late)\n\nintensity increased for the demonstration",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498150819084636180/859187AB-29E2-4AD9-86E7-6A49780A24E1.png?ex=6a1cf02d&is=6a1b9ead&hm=8f45e6ab72f9e6d0368085407fd1123683725a7517f218311d3f854d46332a06&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1498150819084636180/859187AB-29E2-4AD9-86E7-6A49780A24E1.png?ex=6a1d98ed&is=6a1c476d&hm=4c11f615372a4c02aba3c756d20b15fe4916d2c6f95399c8d85611d67b97db83&",
         "contentType": "image/png",
         "width": 1159,
         "height": 1080
