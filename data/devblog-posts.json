@@ -1,5 +1,27 @@
 [
   {
+    "id": "1510431019554046012",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-05-30T23:53:37.513000+00:00",
+    "content": "@CoreFX also vehicle paint update\n\nbefore/after",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a1cca01&is=6a1b7881&hm=eab4c1faa2b641e209658bd6556d881929e1e548bda7e35859bdf460bbe488a9&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a1cca01&is=6a1b7881&hm=04cbba45a4bebc8c2f61579f93900701bc536175d96b41925f3ddc79f9926da2&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1510400799526748331",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -695,29 +717,6 @@
         "contentType": "image/png",
         "width": 1159,
         "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1497300898156646400",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-04-24T18:19:12.626000+00:00",
-    "editedAt": "2026-04-24T18:20:21.159000+00:00",
-    "content": "@CoreFX FPS comparison between Volumetric Clouds V1 and V2 in Enhanced (4k resolution no upscaling)\n25% gain, their shape is still a subject for change\nAlso they don't jitter with camera movement and are completely stable. And they render behind user interface.",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300896537645056/3240220_20260424211623_1.png?ex=6a1c7ba0&is=6a1b2a20&hm=cb2c94efb47f793a16c4e8c7d9935cba723b275090fcfab24925cb1513c841d8&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1497300897737478166/3240220_20260424211544_1.png?ex=6a1c7ba0&is=6a1b2a20&hm=13424ff252a17e2efba3d9686d9e336d1f9c138376a93df1e321959f3b72a9b2&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
       }
     ],
     "embeds": []
