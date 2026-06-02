@@ -109,7 +109,7 @@
     "content": "@CoreFX Volumetric Lightning effects ported to Enhanced (not a Thunder weather yet, work in progress)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a1ffb39&is=6a1ea9b9&hm=b51a737c086872b910e74bf0f8b6bef25569310be764dcbd64b0f63778f93770&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a20a3f9&is=6a1f5279&hm=ddbc2e5b21020f339b416814beffc216845e2162b02e1ef2cd192233e8ae62e5&",
         "contentType": "video/mp4",
         "width": 1264,
         "height": 684
@@ -147,19 +147,19 @@
     "content": "@CoreFX Hello everyone, i'd like to clarify why 1.3 is not releasing yet\n\nIm remaking all cloudy weathers from scratch to include volumetric clouds natively. Currently i've finished three: Clouds, Overcast & Rain. Six other weathers (Thunder, Foggy, Clearing, Snow, Blizzard, Halloween) needs to be reworked",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a1ff99c&is=6a1ea81c&hm=5ddb972781eec10003cca3ec837305a60342a27ac04772bf421cbf650df281f1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a20a25c&is=6a1f50dc&hm=d09fafcec55b6a3d54664c2938b5779d14f22fc6d443197e42bf30061ec205fe&",
         "contentType": "image/png",
         "width": 783,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a1ff99c&is=6a1ea81c&hm=4807e37b983ec03e216edf8465bc930b608255d5facd14f8278b4005e03ebb2b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a20a25c&is=6a1f50dc&hm=2241d387759b50a38f0beda2712fa9b128e7def0e0cbdbf47a0a45eb90b3d6f5&",
         "contentType": "image/png",
         "width": 852,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a1ff99c&is=6a1ea81c&hm=acf563ad2745e20e3bb42b3b55d0d3b6a5084b0f05937d89d64ec529d9ec1038&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a20a25c&is=6a1f50dc&hm=4f2e52a6767ce4561a433d618439b20e107baf8c9f769d62a109bd0bb2c09b15&",
         "contentType": "image/png",
         "width": 955,
         "height": 1080
@@ -175,7 +175,7 @@
     "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a1febd4&is=6a1e9a54&hm=9135e9fd24054b9f5992fb572527a1ed952ba1bc1354f7ae99e5754f927c4a64&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a209494&is=6a1f4314&hm=0580b32375fc620fcb03821015ca57305047e2fd15ae3e19dad358356f524969&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -626,25 +626,25 @@
     "content": "@CoreFX Fixed ugly lighting shader bug with foliage at dawn / dusk\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a1fee62&is=6a1e9ce2&hm=7e3b7fa56aacbc89073c97eca85f1e8549adb4136b115753cbdd5121f929e22b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a209722&is=6a1f45a2&hm=e4fed66eb192eb1ee81b8ea426cfda07dc3a1592aa67886f3e11c33b99e79022&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047706140884/3C929ED2-F4E3-431F-93E2-3727032BC6BE.png?ex=6a1fee62&is=6a1e9ce2&hm=2d698c77034d9883590b7575e08d0aaf0f1946ce2c91fa2e93a1201abb6bb86e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047706140884/3C929ED2-F4E3-431F-93E2-3727032BC6BE.png?ex=6a209722&is=6a1f45a2&hm=80b72236e40910576341421cad8cee2a242886cf552c7e747aa31feef29e6130&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048222175303/375F2BA9-9A38-4A78-8826-BCF6DDE16F04.png?ex=6a1fee62&is=6a1e9ce2&hm=1f15d6f13be968e4e4e934f4e3334bee6fc7995eaedfad52232cb3e75ef1c0bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048222175303/375F2BA9-9A38-4A78-8826-BCF6DDE16F04.png?ex=6a209722&is=6a1f45a2&hm=b0f4be7518f52005b236b66ff881bcdc71a70950fbc5edccfce3fddee20df543&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048943460513/143D8486-709B-4B53-8830-1F034BC69AB1.png?ex=6a1fee62&is=6a1e9ce2&hm=6443bb1674cc5f75cdc10474da2097bafdbfd78c2d18416b87cdd7afa054befe&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048943460513/143D8486-709B-4B53-8830-1F034BC69AB1.png?ex=6a209722&is=6a1f45a2&hm=61cde7bf68c161a3042855bdca27ca1a69515d1d68e9b688c90d36c2226d2afe&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -660,19 +660,19 @@
     "content": "@CoreFX Sky Shader - dawn / dusk update (wip)\n\n1.2 (old) / Timecycle Update / Sky Shader Update",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122359943459/97FC113E-D74C-4B72-AAF7-9FD30BA2F146.png?ex=6a1fe523&is=6a1e93a3&hm=fc3c9394db66e0d3a3998d33989ed99cc612b481d6b3c822236636266f9688b0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122359943459/97FC113E-D74C-4B72-AAF7-9FD30BA2F146.png?ex=6a208de3&is=6a1f3c63&hm=1c08f2cd6d5034109159a30e8d9527ed8b9cc6a0514c5f6384dc06d073270d46&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122917654598/D67908EE-944B-4746-B2EF-827A4AEB7C4A.png?ex=6a1fe524&is=6a1e93a4&hm=4731b364dfb61ca037dd6339348ca8ba685ad709dc47826dec2fc86b4d250b61&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319122917654598/D67908EE-944B-4746-B2EF-827A4AEB7C4A.png?ex=6a208de4&is=6a1f3c64&hm=806d1169192694f54b61110e784675cabd3e28b49eac543f7f3e20325266fd82&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319123408519269/4677FB4F-3DB5-427B-AB11-891B9470D3F0.png?ex=6a1fe524&is=6a1e93a4&hm=5d2533b08fd7bdd92ec133fca1bde216f22f06333bafff850f4b29248a14b7c0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501319123408519269/4677FB4F-3DB5-427B-AB11-891B9470D3F0.png?ex=6a208de4&is=6a1f3c64&hm=46d314a80ad3c726639f431798081974ec12bc5cb519e0f63ef78f36ff7feccb&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
