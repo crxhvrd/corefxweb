@@ -8,7 +8,7 @@
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a236710&is=6a221590&hm=00ec804b6ed03ce6d77ffaaefe1639eda734d6b3d509258ee4a06e8b54339c77&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a240fd0&is=6a22be50&hm=0e7920793594bdd27e1c942c28aa62d94e44e62400cea53ec0c5519985951ae8&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -24,13 +24,13 @@
     "content": "@CoreFX Some really cool shader feature has been implemented. Modified tree/grass animations (Video before/after)\nVanilla GTA 5 does not allow windy trees and foliage without boosting timecycle wind intensity - it also affects gameplay. This shader modifies how tree and grass animation behave to give you that realistic wind day feeling that matches the ambient sounds of your game",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a2361eb&is=6a22106b&hm=931238db172ce94ef3d339c95b19de8b5e4e0bd0697de9485bf8c220d1d0a8b5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a240aab&is=6a22b92b&hm=35d346181de6fcc4f1cdca894b16b07fdc9662c6fc69c40a9182af8ada8b87fe&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a2361ec&is=6a22106c&hm=913aedd8f226cef0e700627d854c7af206972d648f950558b7ac21ceab46af0d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a240aac&is=6a22b92c&hm=1b0b36bf32c46805d9f08d20d35b335e8580a1c2d1f34d2272e15c4cf1a81367&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -164,13 +164,13 @@
     "content": "@CoreFX also vehicle paint update\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a236181&is=6a221001&hm=5f20af34ba51723841057aff31997fdc08ff9b812ff0c478b8d0a9a1d1420911&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a240a41&is=6a22b8c1&hm=46e1a4dcce73994d890466d902dd3613e1d9e409973bdca15e6fc5a571bc426f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a236181&is=6a221001&hm=2f363a83c769cc7430bf12aae9eec67070a83007d3d97407549bf8a541a07ca8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a240a41&is=6a22b8c1&hm=92d04287e0b2ee370882b84174908585e937c71116cfeb8e06ae45217b4c56d1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -259,7 +259,7 @@
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a2370df&is=6a221f5f&hm=32c1efc442e57db8e2c10e83eef74da592ccd882d270ba54bfd033fc7d72291d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a24199f&is=6a22c81f&hm=7652a270be47f319d6ac8c72965e8351e20b4ba0fae382a78997888229180239&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -291,7 +291,7 @@
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a236e25&is=6a221ca5&hm=625427fc3d2dc30d6165941068e78369b784235b809a7346f1764e9191d6d07b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a2416e5&is=6a22c565&hm=0956a2328b35564b5b752072f8868fd0f7ab70778477d4c3f145ff1999b8b923&",
         "contentType": "image/png",
         "width": 1911,
         "height": 994
@@ -307,7 +307,7 @@
     "content": "@CoreFX Simple Camera - procedural camera shake generator. Work in Progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a23544c&is=6a2202cc&hm=b078067205553d7035e4b72fb16088d50c338c53144a88d8b9d5d47c939f371a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a23fd0c&is=6a22ab8c&hm=537bafe4302b525e4fed287470d33f40da898466c838f35e90126e886b518089&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -642,13 +642,13 @@
     "content": "@CoreFX Sky Shader - 22:00\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354586626195476/FE29A5B6-2C9D-41C1-AF47-15115E5A1D65.png?ex=6a2351eb&is=6a22006b&hm=73cbc2c37c9ed20a0b5c434c449253e810be317e9cb7aff04f2d7b8c704e3752&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354586626195476/FE29A5B6-2C9D-41C1-AF47-15115E5A1D65.png?ex=6a23faab&is=6a22a92b&hm=0d48f3e678b5cbe3bcbd8d5f1468023163b0e3e4d6cbf5f55e0ac832acd0614b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354587167391774/C875C188-A87A-4314-80A2-D50919E7CFC3.png?ex=6a2351eb&is=6a22006b&hm=ad3250bc48a6552b9dced545844c36c19b57685b8f3e156544d3fc13a532f919&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354587167391774/C875C188-A87A-4314-80A2-D50919E7CFC3.png?ex=6a23faab&is=6a22a92b&hm=5d373e7ae45ca149a18a5bcbca3435045a1ef5ee8ea0508c8831e10e713b9e54&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
