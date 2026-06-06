@@ -1,5 +1,21 @@
 [
   {
+    "id": "1512908586097971292",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-06T19:58:35.408000+00:00",
+    "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a25cd6b&is=6a247beb&hm=aaef49cbe470a54b159a405bccb0d0c857265eed0431eba92c110b0aaa034c1c&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1512893986249900083",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -303,7 +319,7 @@
     "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a2531d4&is=6a23e054&hm=ce32697c1561ad494f02678924d3ae182c3bec28e44d6d5aab018220d5522270&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a25da94&is=6a248914&hm=544e1cda7427a93a08d4751156708ac43d2efc2fc80248cfd73215e42ec336fc&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -646,76 +662,6 @@
       },
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484978135132/B99ED3E6-8EB6-4B85-8E05-3B2D5553C229.png?ex=6a257e36&is=6a242cb6&hm=6fca32281fb501a962cca4b2a38c4779eb87dbf35458f2d00efae05e7df6c3d4&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1501449685028569219",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-06T05:05:00.497000+00:00",
-    "content": "@CoreFX Sky Shader (wip)\n\nBefore (1.2) / after\n\nThis shader replaces timecycle sky with a dynamic atmosphere sky shader, completely eliminates banding, layers etc. And adds new lots of new details into the sky.\nWe made a lot of changes in the timecycle as well, to match the new sky colors, means that Enhanced version of the mod will depend on this shader.\n\nAll these features are also planned for Legacy, and will be ported in the next months",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449680075358289/7BCBF775-6924-48BB-93F9-D7FCE60B6A91.png?ex=6a25a4bb&is=6a24533b&hm=b3f9fbbb49f3adb66d913bfa60e792ed4d11851739722936e904c332043c1a49&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449680620621834/323D76E4-4A7F-459D-B3E9-9587D1C2B4C6.png?ex=6a25a4bb&is=6a24533b&hm=5dac2c3ca1ccd60e76b545d1187e52ff86ee057a1a7518161957e7ba325ad9d5&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449681153036399/CB55B682-A27E-47C6-BD4F-AF7B8D83AEF7.png?ex=6a25a4bb&is=6a24533b&hm=c9e376febb3c1177bcc306f7c3cf20eb802baa1ccd9ef5818a9d6d663e387e49&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449681698426900/E8F655C6-CDF0-468A-A94E-90C0A7396A3A.png?ex=6a25a4bb&is=6a24533b&hm=0264d96e486a1a65ec71b7eb326f9d44d989818460c47c6570e0400b3195677f&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449682197676032/9746222E-4B4A-4D93-8607-4ECDB6541308.png?ex=6a25a4bb&is=6a24533b&hm=b8156cb23b2d2b50adfe7220f5b961c1060d4c1b3f4a6464fb7cb2294b17b7e0&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449682633752617/A18D77F7-7C6C-4E9F-AF92-AB1C684EB70E.png?ex=6a25a4bb&is=6a24533b&hm=9ba802cbb7c2dc3c0c3bc588214e290ba148b3937d40a4f93f27d0c889acb941&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449683187404901/33786A39-5A9B-4800-9894-43B7360835FF.png?ex=6a25a4bc&is=6a24533c&hm=8b84bbf3031746824e9b9d9b015f8d2ec4783ba681f65e3bc0dc583800b81da3&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449683716014220/9BFF1B40-5DDA-4A72-B900-C6FC5EAE3635.png?ex=6a25a4bc&is=6a24533c&hm=f3006088045c7782c04e11d66b57d18edc6120850e1d1108894421397efbfb25&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449684189843556/0AE06AB3-641F-4883-9377-65BBC7A3813C.png?ex=6a25a4bc&is=6a24533c&hm=60774f2dbd3bf8f192b9a1e969cea0294ff2fd743be4f5da6cdd6863f196ed57&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449684957397072/4891F46F-938F-49D2-83A9-24D4629A951C.png?ex=6a25a4bc&is=6a24533c&hm=516a6d6bc87ebf7750415f35917a70b9bebc77ceed18ba50061677e46b1aa000&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
