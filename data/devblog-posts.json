@@ -1,5 +1,49 @@
 [
   {
+    "id": "1512893986249900083",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-06T19:00:34.533000+00:00",
+    "content": "",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a25bfd2&is=6a246e52&hm=bb09b5d063f6a7019452026c2f6a0d62dcdcd66b8e8b4182601875734fec1087&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a25bfd2&is=6a246e52&hm=f939a20d745e37077345a698b32027100170d9cace4343e7bfb7494e152b6f5f&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1512892910587089081",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-06T18:56:18.075000+00:00",
+    "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a25bed1&is=6a246d51&hm=a2dbef5b28ab8e848d0c20ec1292fd0a82232d9949ee6255bba8328652d8645e&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a25bed2&is=6a246d52&hm=571275ad552ca581f9495391821541501a64a7db44865fabcc7ff1d594c211b8&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1512876329815642344",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -91,7 +135,7 @@
     "content": "@CoreFX Ped Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a25166a&is=6a23c4ea&hm=c5d29e028e478fed4e68abab8cbab9a7ce5e0ac944b37d9133362c18f2219150&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a25bf2a&is=6a246daa&hm=4d9553fa567ebff2a7b71e92ba794cda82908e6f88acf54a4ca7cc622790c817&",
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
@@ -108,7 +152,7 @@
     "content": "@CoreFX Weapon Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a251133&is=6a23bfb3&hm=9928a28f99c96bf3845344d499543996815a372acd19b0a337370b180d195a5f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a25b9f3&is=6a246873&hm=708ef13b0ecf6788b36f71cf2a082f3b58930dcd8be22009bd437bcce836fc8a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1061
@@ -487,25 +531,25 @@
     "content": "@CoreFX SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a251737&is=6a23c5b7&hm=03045e38e898991d6d9c011101238adbcaa1234071db3e6bb4500312c7a96bda&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a25bff7&is=6a246e77&hm=facd5b6ff33bec25c8a94c3d130c6fc69bc0444bb0f9031c3cf00b948257c773&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a251737&is=6a23c5b7&hm=251c53ad99bf6ef241e94457cb31955f0836f5c886ff5e612787df5f1a19b3e8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a25bff7&is=6a246e77&hm=bf51c1a6bceb501805e70bd0e4e0d091d0c2d0e89388446b2722724286162137&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a251737&is=6a23c5b7&hm=ed32fcd93e174e072637aafcd2d95bb07ead0446945682295c525978397217d1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a25bff7&is=6a246e77&hm=962e68d8f789c282020fa4dd0d1255b3fb0bcfc33c3b64e2229afe19ff1376f5&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a251737&is=6a23c5b7&hm=ec5d0770c4194eb9a9bf1d91512951e62bbd86b550389626f4edfc9a30f816a4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a25bff7&is=6a246e77&hm=0eaa90e12eb265ac18eaff9bfaec0f4db09645f90f931f7dedfe141a52c62d9c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -672,63 +716,6 @@
       },
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501449684957397072/4891F46F-938F-49D2-83A9-24D4629A951C.png?ex=6a25a4bc&is=6a24533c&hm=516a6d6bc87ebf7750415f35917a70b9bebc77ceed18ba50061677e46b1aa000&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1501354587192430613",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-05T22:47:07.406000+00:00",
-    "content": "@CoreFX Sky Shader - 22:00\n\nbefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354586626195476/FE29A5B6-2C9D-41C1-AF47-15115E5A1D65.png?ex=6a254c2b&is=6a23faab&hm=0eda598b873e876fb2565a030ca871cfa254cc946f8581f5ef68fd3ab3f3b8ad&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501354587167391774/C875C188-A87A-4314-80A2-D50919E7CFC3.png?ex=6a254c2b&is=6a23faab&hm=17c0d206234f1989e1262d43d32e4cbafc011d8b0a3c0e70a014847e92e502d4&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1501329049442717887",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-05T21:05:38.732000+00:00",
-    "editedAt": "2026-05-05T21:06:42.600000+00:00",
-    "content": "@CoreFX Fixed ugly lighting shader bug with foliage at dawn / dusk\n\nBefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047097970918/5684F15E-6BD3-4D20-964E-813D2FE56230.png?ex=6a253462&is=6a23e2e2&hm=f33d44ca68b1903de609d7f8014025530fab2eef6bd8b37cf0336641e321ec69&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329047706140884/3C929ED2-F4E3-431F-93E2-3727032BC6BE.png?ex=6a253462&is=6a23e2e2&hm=0511ef9727002853988dd776771e181b536575bbea07a43a041865512a12b054&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048222175303/375F2BA9-9A38-4A78-8826-BCF6DDE16F04.png?ex=6a253462&is=6a23e2e2&hm=3a764144598f82195080b3a94dcb235cb53877bae1a16617bfdb91b3d0ab0856&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1501329048943460513/143D8486-709B-4B53-8830-1F034BC69AB1.png?ex=6a253462&is=6a23e2e2&hm=834f13ce10957bf26b8e21387c152a398f2388a07f241c8958f8cdec4b79f292&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
