@@ -1,5 +1,44 @@
 [
   {
+    "id": "1513252225143537754",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-07T18:44:05.341000+00:00",
+    "content": "",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a270d75&is=6a25bbf5&hm=526809be97c201d55063587708a81c7b41db58c1807480b07b56065fb120e5b1&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1513252143472316557",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-07T18:43:45.869000+00:00",
+    "editedAt": "2026-06-07T18:43:51.935000+00:00",
+    "content": "@CoreFX Simple Camera - Image Sequence Rendering. Now you will be able to export your camera sequences into PNG image sequence with a working motion blur",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a270d61&is=6a25bbe1&hm=b596bfdc7035217b5305525e4b128cca29179b3a571ebb36e517e7f43633573b&",
+        "contentType": "image/png",
+        "width": 1919,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a270d61&is=6a25bbe1&hm=64de13fa5291eb68c1935641d7fd221e0cf5e7f89721c1853d89dd000f6b9380&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1512908586097971292",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -23,13 +62,13 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a266892&is=6a251712&hm=244df8931f9a635064d6194a4e4e4fa403b6ad43730d5b3286bd20510cec0b4a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a271152&is=6a25bfd2&hm=f2c7041efa1194261722ffeb0f3571fa5c33a8f32e1dc9dcf6bc99a71d0efb50&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a266892&is=6a251712&hm=7183f7c0e0e8e26a54d6a666ad685397b35ad8564191a18456234715a1d861f3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a271152&is=6a25bfd2&hm=a1fe26b78022051e34a6441ed8d61b2b90fde53cb3018af6eead9b9ca9667080&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -45,13 +84,13 @@
     "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a266791&is=6a251611&hm=a08e44803dc5ab646ba42f321a708d1db0cef086d34f6ed6b2bfd536871b2d16&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a271051&is=6a25bed1&hm=2b06bcd5bb2b67e0a04acd2b53f1dd1a3d7e3e4e7cc55299f74f5e19782dd0e1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a266792&is=6a251612&hm=0d324fa87c577945513aa20836a838bb50f1462a5dc3723e1102ae142a2f4e41&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a271052&is=6a25bed2&hm=d526e3873b550c7916bf7ce1a92fe9f0d524e42fe24e9a79648892090ecb9744&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -151,7 +190,7 @@
     "content": "@CoreFX Ped Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a2667ea&is=6a25166a&hm=8bd2425e07198616d1f754fcf4b336156420f86c05c853d2ba27245dfefd21bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a2710aa&is=6a25bf2a&hm=cfa9eb48c0b2b8d4c8d39586fe30092d6873708ee7f15b4c121835e2a5da4bb4&",
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
@@ -168,7 +207,7 @@
     "content": "@CoreFX Weapon Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a2662b3&is=6a251133&hm=f54ed95e5d71d7a889bf584601b70ffc54412725aa3a7c5104e0fa9a2a7ae0b9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a270b73&is=6a25b9f3&hm=c6adc97931ac70fc2b48d0a0c48d8ccd11af8bef7eab809aa7d177d79e23706e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1061
@@ -547,25 +586,25 @@
     "content": "@CoreFX SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a2668b7&is=6a251737&hm=b14b4b56a81f010cbbd38b4739a9441736a791e6b50ebd1f7b66dcaeff17b689&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a271177&is=6a25bff7&hm=a98283b7f00f748ec3b6e5f250fd1cd4521f71b4a1e95cdcd78d1d361a7dc089&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a2668b7&is=6a251737&hm=40f7660d85015c04fc3c550feb9926acb4ce3d939a7792dde54abe90b0d237b5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a271177&is=6a25bff7&hm=75ae33436b273a5758ff537509db92a31a80716a0630990d05fc1abe2bfa2393&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a2668b7&is=6a251737&hm=52b243ff19baaf7f2be2d62480dca77411a74d9b669aa9ca3eeb987844485a45&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a271177&is=6a25bff7&hm=b3fa1f67f5d9f7b0978371f26a44436c9d7d3d463bf0c8d8a10201c12d16feba&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a2668b7&is=6a251737&hm=3d8ef43cb6868feb16d824434b014edfee79cda66c1d3264a3a55b505e40e30e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a271177&is=6a25bff7&hm=b9ebe39d14add97f1e2db24f1a49baf4bd1a4f9e6a9d1516f4084b29dda22841&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -617,51 +656,6 @@
       },
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1503972905862697040/E4A91700-BD9C-46CD-BCC5-73629AC33068.png?ex=6a26e9ab&is=6a25982b&hm=d140ab7f52cfbcd46df04f440200a63f0465b11b446e649799140a79222d514f&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1502512629372162220",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-09T03:28:46.177000+00:00",
-    "editedAt": "2026-05-09T03:29:02.552000+00:00",
-    "content": "@CoreFX Added Sky AO to improve sky color gradients\n\nGenerally, sky appearance is improved a lot with a little-to-none performance drop\n\nBefore all the changes/after all the changes",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512628101152938/3240220_20260509062638_1.png?ex=6a26dfad&is=6a258e2d&hm=292cbcb40c70d603fc949d5e04e5056853c94028faa13a47b51f0f180e104109&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502512629011320924/3240220_20260509062649_1.png?ex=6a26dfae&is=6a258e2e&hm=cac058e2ecf82893812183dd3e487ad71a70a49ff940acbf8136f5a1de3da547&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1502495485087322164",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-09T02:20:38.661000+00:00",
-    "content": "@CoreFX Volumetric Clouds (Enhanced)\n- Multi-scatter\n- Rim halo\n\nbefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484550320158/31748E63-67FE-41F3-A702-3E5A6EA76AFC.png?ex=6a26cfb6&is=6a257e36&hm=a048784f07afd4d20f23b40de7d3083d02c59d5b8a0b38d56a5b7ca41baa1d5e&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1502495484978135132/B99ED3E6-8EB6-4B85-8E05-3B2D5553C229.png?ex=6a26cfb6&is=6a257e36&hm=485ceb93de83e50522057eeb1ff6cce80ef59dbea91562d229381b8363830e05&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
