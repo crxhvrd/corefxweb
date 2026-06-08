@@ -2,7 +2,7 @@
   {
     "id": "1513252225143537754",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-07T18:44:05.341000+00:00",
     "content": "",
     "attachments": [
@@ -18,7 +18,7 @@
   {
     "id": "1513252143472316557",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-07T18:43:45.869000+00:00",
     "editedAt": "2026-06-07T18:43:51.935000+00:00",
     "content": "@CoreFX Simple Camera - Image Sequence Rendering. Now you will be able to export your camera sequences into PNG image sequence with a working motion blur",
@@ -41,12 +41,12 @@
   {
     "id": "1512908586097971292",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-06T19:58:35.408000+00:00",
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a271eeb&is=6a25cd6b&hm=176968a53c9a51ce065e448118494a6aafde8fee9032629bbe637f023928a305&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a27c7ab&is=6a26762b&hm=1bd446a372bcdfd28ee1d3da8d40af70766c3aa8409b2d0448c32259504be539&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -57,18 +57,18 @@
   {
     "id": "1512893986249900083",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-06T19:00:34.533000+00:00",
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a271152&is=6a25bfd2&hm=f2c7041efa1194261722ffeb0f3571fa5c33a8f32e1dc9dcf6bc99a71d0efb50&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a27ba12&is=6a266892&hm=364cc26e50800a78c483d971667e78e0f57f98f963856bc3444dcb4b3954de64&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a271152&is=6a25bfd2&hm=a1fe26b78022051e34a6441ed8d61b2b90fde53cb3018af6eead9b9ca9667080&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a27ba12&is=6a266892&hm=7d131c4c38b43f6fd3fdae9c61c7fcb99c8d39bd5350765c486c079355fb4746&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -79,18 +79,18 @@
   {
     "id": "1512892910587089081",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-06T18:56:18.075000+00:00",
     "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a271051&is=6a25bed1&hm=2b06bcd5bb2b67e0a04acd2b53f1dd1a3d7e3e4e7cc55299f74f5e19782dd0e1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a27b911&is=6a266791&hm=7b10a810d42215563ae95d71563fa6a5975e8c182f478ead5625b00355dee499&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a271052&is=6a25bed2&hm=d526e3873b550c7916bf7ce1a92fe9f0d524e42fe24e9a79648892090ecb9744&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a27b912&is=6a266792&hm=00fd182f8b150dce5abdb21c8c7e48f19f7f1cf5341d2b10a07a11c5a5fada3f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -101,7 +101,7 @@
   {
     "id": "1512876329815642344",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-06T17:50:24.911000+00:00",
     "content": "@CoreFX Ray Tracing shaders update - RT Reflections denoise\n\nBefore/after",
     "attachments": [
@@ -123,7 +123,7 @@
   {
     "id": "1512871319258140844",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-06T17:30:30.301000+00:00",
     "editedAt": "2026-06-06T17:34:04.844000+00:00",
     "content": "@CoreFX Ray Tracing shaders update - RTGI fixed denoise (no performance loss)\n\nBefore/after",
@@ -146,7 +146,7 @@
   {
     "id": "1511886542661091469",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-04T00:17:21.264000+00:00",
     "editedAt": "2026-06-04T00:17:34.595000+00:00",
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
@@ -163,7 +163,7 @@
   {
     "id": "1511881023271469127",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-03T23:55:25.339000+00:00",
     "content": "@CoreFX Some really cool shader feature has been implemented. Modified tree/grass animations (Video before/after)\nVanilla GTA 5 does not allow windy trees and foliage without boosting timecycle wind intensity - it also affects gameplay. This shader modifies how tree and grass animation behave to give you that realistic wind day feeling that matches the ambient sounds of your game",
     "attachments": [
@@ -185,12 +185,12 @@
   {
     "id": "1511443731071369436",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-02T18:57:46.754000+00:00",
     "content": "@CoreFX Ped Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a2710aa&is=6a25bf2a&hm=cfa9eb48c0b2b8d4c8d39586fe30092d6873708ee7f15b4c121835e2a5da4bb4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a27b96a&is=6a2667ea&hm=314e0793536fe4e8ee4524edb06250b60f656b4ab64be329c1db897bb6566f5a&",
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
@@ -201,7 +201,7 @@
   {
     "id": "1511438130555650248",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-02T18:35:31.487000+00:00",
     "editedAt": "2026-06-02T18:35:36.545000+00:00",
     "content": "@CoreFX Weapon Raindrops for enhanced",
@@ -218,7 +218,7 @@
   {
     "id": "1511426270234279968",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-02T17:48:23.766000+00:00",
     "content": "@CoreFX Weapon Material update for Enhanced\n\nBefore/after",
     "attachments": [
@@ -252,7 +252,7 @@
   {
     "id": "1511398253403570326",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-02T15:57:04.033000+00:00",
     "editedAt": "2026-06-02T15:57:19.753000+00:00",
     "content": "@CoreFX Updated Puddle Shader for Enhanced\n\nBigger draw distance & fixed their opacity\n\nBefore/after",
@@ -287,12 +287,12 @@
   {
     "id": "1511127310835777626",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-06-01T22:00:26.291000+00:00",
     "content": "@CoreFX Volumetric Lightning effects ported to Enhanced (not a Thunder weather yet, work in progress)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a273b79&is=6a25e9f9&hm=675193805441bd0fc2c1f584e0ba12afa15d80845bfddb889a0594ac4fd33949&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a27e439&is=6a2692b9&hm=d32f9c500402681f722678142c4ad13342d482bbf8eb53aaeafdd51a47bf469a&",
         "contentType": "video/mp4",
         "width": 1264,
         "height": 684
@@ -303,7 +303,7 @@
   {
     "id": "1510431019554046012",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-30T23:53:37.513000+00:00",
     "content": "@CoreFX also vehicle paint update\n\nbefore/after",
     "attachments": [
@@ -325,24 +325,24 @@
   {
     "id": "1510400799526748331",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-30T21:53:32.497000+00:00",
     "content": "@CoreFX Hello everyone, i'd like to clarify why 1.3 is not releasing yet\n\nIm remaking all cloudy weathers from scratch to include volumetric clouds natively. Currently i've finished three: Clouds, Overcast & Rain. Six other weathers (Thunder, Foggy, Clearing, Snow, Blizzard, Halloween) needs to be reworked",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a2739dc&is=6a25e85c&hm=3e1b074bf07fa5b12c8b0db4085efee77bef567c01adc62e960eb545d476e842&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a27e29c&is=6a26911c&hm=42e48fabc12bb9355a64e5d8e6b584c2bdceeb013062c197566a44776c99bbc1&",
         "contentType": "image/png",
         "width": 783,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a2739dc&is=6a25e85c&hm=8f6892b60c3481fb6fca659ef351e9e92f9b69e17ed79dfae21dc4f718a33bbe&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a27e29c&is=6a26911c&hm=46b3695a5cadbcd83b1658923c5d387067b004070a1b4a939063000e307d3728&",
         "contentType": "image/png",
         "width": 852,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a2739dc&is=6a25e85c&hm=f459c81282a28ef23c67f31ccc2c67314d0384c70125436bad2c40687812f1d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a27e29c&is=6a26911c&hm=118d0d84ad605e933d7f6e8c993cbb26db23c2a6d2ef220e9e90a7e5188b9aa1&",
         "contentType": "image/png",
         "width": 955,
         "height": 1080
@@ -353,12 +353,12 @@
   {
     "id": "1509661232611721248",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-28T20:54:46.004000+00:00",
     "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a272c14&is=6a25da94&hm=e22df64593c4528ddc0b44a650963e18496f24f82e3e9d1db6748ab5131be378&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a27d4d4&is=6a268354&hm=58762fb8e2b051242058cf2c47e57d8d5372b0c7c81a02e447ba8260972415dc&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -369,7 +369,7 @@
   {
     "id": "1509090330404851783",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-27T07:06:12.311000+00:00",
     "content": "https://www.gta5-mods.com/scripts/simple-camera\n\n@CoreFX  Updated, go and try the new camera sequence mode",
     "attachments": [],
@@ -388,7 +388,7 @@
   {
     "id": "1508849239734747257",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-26T15:08:11.816000+00:00",
     "editedAt": "2026-05-26T15:08:54.389000+00:00",
     "content": "@CoreFX \n\nRegarding RageMP, CoreFX 1.3 will be the last supported version for that multiplayer, and even if we release newer updates before August 31st (RageMP complete shutdown date), they won't be released for RageMP, thanks for understanding.\n\nAfter August 31st, CoreFX for RageMP will be removed from public download links as well.",
@@ -398,7 +398,7 @@
   {
     "id": "1507729611159634051",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-23T12:59:11.562000+00:00",
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
@@ -414,7 +414,7 @@
   {
     "id": "1506838465365541026",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-21T01:58:05.848000+00:00",
     "content": "@CoreFX Preview of Camera Sequence mode",
     "attachments": [
@@ -430,7 +430,7 @@
   {
     "id": "1506820714450386944",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-21T00:47:33.700000+00:00",
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
@@ -446,12 +446,12 @@
   {
     "id": "1506792956626206801",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-20T22:57:15.719000+00:00",
     "content": "@CoreFX Simple Camera - procedural camera shake generator. Work in Progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a2748cc&is=6a25f74c&hm=70664bff5d90dc35a462e7c15c9e80cf53705ce2bb9f02b3e03729d54dd7611d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a27f18c&is=6a26a00c&hm=8a54268cd24d009803e2badf600572277c10cf2c525a3ec458bdbbb18635f73a&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -462,7 +462,7 @@
   {
     "id": "1506713690148311160",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-20T17:42:17.118000+00:00",
     "content": "@CoreFX Inner glass raindrops for Enhanced",
     "attachments": [
@@ -478,7 +478,7 @@
   {
     "id": "1506678500851978410",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-20T15:22:27.336000+00:00",
     "content": "@CoreFX Updated motion blur for Enhanced, final version",
     "attachments": [
@@ -500,7 +500,7 @@
   {
     "id": "1505962349411176479",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-18T15:56:43.527000+00:00",
     "content": "@CoreFX Updated lighting shader\n\nMade by Razed Mods, contributed into CoreFX\n\nThe changes includes but not limited to:\n- GGX Specular on all surfaces\n- Re-enabled SSAO-SSDO on ray tracing\n- and other fixes",
     "attachments": [
@@ -558,7 +558,7 @@
   {
     "id": "1505954510168784997",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-18T15:25:34.506000+00:00",
     "content": "@CoreFX Updated website and added devblog - #channel channel is now live and can be seen at [corefx.me](https://corefx.me/devblog)\nCoreFX development news are coming soon too",
     "attachments": [
@@ -581,30 +581,30 @@
   {
     "id": "1504378024382955660",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-14T07:01:11.005000+00:00",
     "content": "@CoreFX SimpleDOF lets you customize your focus point and shape in a 3d space, so you can make unique photo shots",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a271177&is=6a25bff7&hm=a98283b7f00f748ec3b6e5f250fd1cd4521f71b4a1e95cdcd78d1d361a7dc089&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378024630685706/F6625C75-1AF3-4AB6-BF7A-2252735D10DA.png?ex=6a27ba37&is=6a2668b7&hm=69484451ed738049ce73d28a5242377b055b614cb196c26fe11ebcff272c31bf&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a271177&is=6a25bff7&hm=75ae33436b273a5758ff537509db92a31a80716a0630990d05fc1abe2bfa2393&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025091924028/5D46AE75-003C-4947-99E6-FD870645FC18.png?ex=6a27ba37&is=6a2668b7&hm=b768381fac5a1f017d789a4138ab1db62108876949cb62122337cb12e30f802b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a271177&is=6a25bff7&hm=b3fa1f67f5d9f7b0978371f26a44436c9d7d3d463bf0c8d8a10201c12d16feba&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378025817407488/EE6E4552-801E-4C32-90AA-D6E3EAB21FB4.png?ex=6a27ba37&is=6a2668b7&hm=fb17a842f5cff45c5000833af595984e2a01986fbb648da71b10cf4337da4755&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a271177&is=6a25bff7&hm=b9ebe39d14add97f1e2db24f1a49baf4bd1a4f9e6a9d1516f4084b29dda22841&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1504378026299883520/156164A3-5204-4DC4-AC1A-562037E93DE3.png?ex=6a27ba37&is=6a2668b7&hm=8ecd7a4d62c978ed4e9e5908015f0a1928e8a52b338dba38ec6e1d8fb00a31fb&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -615,7 +615,7 @@
   {
     "id": "1503974988489949216",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-13T04:19:39.760000+00:00",
     "content": "@CoreFX Foreground Blur comparison between V1 and V2 (default settings) \n\nFocus is at the sky",
     "attachments": [
@@ -637,7 +637,7 @@
   {
     "id": "1503972904378040433",
     "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/5ca7c1464e064730844a389f24fdde29.png?size=128",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
     "timestamp": "2026-05-13T04:11:22.869000+00:00",
     "editedAt": "2026-05-13T04:12:08.162000+00:00",
     "content": "@CoreFX SimpleDOF V2 (WIP)\n\nDeep modification of the current SimpleDOF with new multipass CoC system (fixed foreground bleed, you won't see near objects that are blurred have obvious contours anymore) and a lot of new options to control the way Depth of Field works and looks like",
