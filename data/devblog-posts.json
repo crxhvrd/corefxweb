@@ -7,19 +7,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a280ccb&is=6a26bb4b&hm=2b15f641305620a66778366318afe8f29d1c6767d107eb8e245e964ac413fd58&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a28b58b&is=6a27640b&hm=a685ce2ab98014a8121b263b887f44e6b1735e0aa833999ecd0ba04569519943&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a280ccb&is=6a26bb4b&hm=6d01deb4e9e58f90519f0c39a911a4f81b11dceef49d0385f051684f55304cbd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a28b58b&is=6a27640b&hm=8931951c1cb895d5884e5081d98da853a126b2a45f3994c3a91e4b8db9930605&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a280ccb&is=6a26bb4b&hm=b3553678fc4ada673e59470b7c8251c09da6dec05e59db75eeee5c23eb8cbbc2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a28b58b&is=6a27640b&hm=6c86955b800e4fa2e21228cf0f51c519f670757ef6725e5d509d56ced17b054f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -180,7 +180,7 @@
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a280450&is=6a26b2d0&hm=e574e82594f8e8323a84bb76b5701cc522cfab2dedfd85041c6fcd43d6cfe83e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a28ad10&is=6a275b90&hm=0d23e478f617e81105c97732a738a289f4be27eb5ecfd6d12491b741a7eb4a54&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -196,13 +196,13 @@
     "content": "@CoreFX Some really cool shader feature has been implemented. Modified tree/grass animations (Video before/after)\nVanilla GTA 5 does not allow windy trees and foliage without boosting timecycle wind intensity - it also affects gameplay. This shader modifies how tree and grass animation behave to give you that realistic wind day feeling that matches the ambient sounds of your game",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a27ff2b&is=6a26adab&hm=a06a974fb2f59b20b5b9e5d58ce7e87d1c4754fa9dc05a39264b0896fdcb14d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a28a7eb&is=6a27566b&hm=b911d1587a1f2bc8ad0da5a3e18d2c7e1839b1eb484520cc0a1ed057702cd587&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a27ff2c&is=6a26adac&hm=8a052ada996acee841dc8c33409c4f9929828a6df78be421b343fcd1b14a5f6e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a28a7ec&is=6a27566c&hm=92195cab9682a9ed7db3ca9be5d9a618a66745898501c40b72413a1e4fcaec96&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -336,13 +336,13 @@
     "content": "@CoreFX also vehicle paint update\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a27fec1&is=6a26ad41&hm=d36872039c3f35e7dfacbff38dd69f756017ae0b081f3e4d228f8fa1e66baa97&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a28a781&is=6a275601&hm=e284be6b0a4078497d4adb5e001161978e52ec6731ea30064f2f0d3e707fb69b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a27fec1&is=6a26ad41&hm=b04154c635eded594ed4a0cf2591b01b119a8844d8b23fecaabf24931aa40592&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a28a781&is=6a275601&hm=868e2757e7e2ccb0c065b77d643fafca3d740f3ed5f9251920943b3bb016440d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -431,7 +431,7 @@
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a280e1f&is=6a26bc9f&hm=03b6a5bad179657273bd4a5c3a7e3181da0cd6ab8ac2d93b2255215262b0a8ea&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a28b6df&is=6a27655f&hm=7004777021e22f6ec9a03d756b98c2e0fa87efeca25de44c9e01719e2011beb8&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -463,7 +463,7 @@
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a280b65&is=6a26b9e5&hm=a3f23ccb6a7c4071bd660432ce6b8eb403dcde1010db32ba9460bde150df2052&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a28b425&is=6a2762a5&hm=26a558f0be9a1efaf8c00dab4a03cbe9b4ba8b3d05ad178fe83e78538e2c3b1e&",
         "contentType": "image/png",
         "width": 1911,
         "height": 994
