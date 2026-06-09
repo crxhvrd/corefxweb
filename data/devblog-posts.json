@@ -180,7 +180,7 @@
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a28ad10&is=6a275b90&hm=0d23e478f617e81105c97732a738a289f4be27eb5ecfd6d12491b741a7eb4a54&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a2955d0&is=6a280450&hm=6d95072b53711563685c57b8ff50f437412eae93c6e09ff599c895451e76b71f&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -196,13 +196,13 @@
     "content": "@CoreFX Some really cool shader feature has been implemented. Modified tree/grass animations (Video before/after)\nVanilla GTA 5 does not allow windy trees and foliage without boosting timecycle wind intensity - it also affects gameplay. This shader modifies how tree and grass animation behave to give you that realistic wind day feeling that matches the ambient sounds of your game",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a28a7eb&is=6a27566b&hm=b911d1587a1f2bc8ad0da5a3e18d2c7e1839b1eb484520cc0a1ed057702cd587&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a2950ab&is=6a27ff2b&hm=c69adcc8b3a81e7931ad95f2e633c3bc8f901fd83c0bb96fcb245c5861871fc3&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a28a7ec&is=6a27566c&hm=92195cab9682a9ed7db3ca9be5d9a618a66745898501c40b72413a1e4fcaec96&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a2950ac&is=6a27ff2c&hm=53eb738925e32dd177107211dcefae5fa5e8af391515c3d19af4f5def4edf575&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -320,7 +320,7 @@
     "content": "@CoreFX Volumetric Lightning effects ported to Enhanced (not a Thunder weather yet, work in progress)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a288cf9&is=6a273b79&hm=29e9709ac25b638a3f69bd6dd28836784a7efd0400d89438100a1c447531f1d4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a2935b9&is=6a27e439&hm=29c76e7d955cca4165850be5b5c4bded53b0c53a1c890a8e4c0b470035fa827b&",
         "contentType": "video/mp4",
         "width": 1264,
         "height": 684
@@ -336,13 +336,13 @@
     "content": "@CoreFX also vehicle paint update\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a28a781&is=6a275601&hm=e284be6b0a4078497d4adb5e001161978e52ec6731ea30064f2f0d3e707fb69b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431018744549516/E7E13E33-8818-4C25-9D4C-4C854A6D1305.png?ex=6a295041&is=6a27fec1&hm=eaedc0f30088859174745229ce0cf6af70cafbc5dcefff00234a3513e55ed84e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a28a781&is=6a275601&hm=868e2757e7e2ccb0c065b77d643fafca3d740f3ed5f9251920943b3bb016440d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510431019269099691/574B0A99-9115-4D6F-8D98-6D4DCE6DADAA.png?ex=6a295041&is=6a27fec1&hm=4bcc8d7e1efb220ea2acdc582f2275287abe92383bcfdf4b6c5d308d1c83035b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -358,19 +358,19 @@
     "content": "@CoreFX Hello everyone, i'd like to clarify why 1.3 is not releasing yet\n\nIm remaking all cloudy weathers from scratch to include volumetric clouds natively. Currently i've finished three: Clouds, Overcast & Rain. Six other weathers (Thunder, Foggy, Clearing, Snow, Blizzard, Halloween) needs to be reworked",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a288b5c&is=6a2739dc&hm=9ba0d2e9ad4775f3a1399680922c7d59688ac5fea52f0e33b81f3056395918e6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a29341c&is=6a27e29c&hm=33368b1c731c94eae67b04254643f8c59b4367552acf8f1793fca4fbd123997f&",
         "contentType": "image/png",
         "width": 783,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a288b5c&is=6a2739dc&hm=27bc0dd64d5af4af2cc7ae0dca0b4ebb6c10dc4c7cfa238d97b4fcecbb83d192&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a29341c&is=6a27e29c&hm=b25de5994b280082ded3278e4b46b22b8f07f3640176b4c63cea7bfd05395f36&",
         "contentType": "image/png",
         "width": 852,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a288b5c&is=6a2739dc&hm=21ff7b1762ddf3ae02a73e55b246e1edd8bcd3ceb7fb7c47f77e2e2d57e11b12&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a29341c&is=6a27e29c&hm=e15f12adf088f816ac120edb2e756b741492a35c259c60d361dcf262fefd4f65&",
         "contentType": "image/png",
         "width": 955,
         "height": 1080
@@ -479,7 +479,7 @@
     "content": "@CoreFX Simple Camera - procedural camera shake generator. Work in Progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a289a4c&is=6a2748cc&hm=07c075495252c2a31a313a459f5c80e0daa067600eebd3a3d2f79c60f97cc07e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a29430c&is=6a27f18c&hm=fccd3a06135d81864ef852858ab58d8fc566b42c64ab00f81f60056150bb8f9f&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
