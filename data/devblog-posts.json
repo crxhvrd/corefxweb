@@ -7,19 +7,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a28b58b&is=6a27640b&hm=a685ce2ab98014a8121b263b887f44e6b1735e0aa833999ecd0ba04569519943&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a295e4b&is=6a280ccb&hm=8907337fbfc0fbb8949a6c47605d36f20b0127383ecf45ba48251260da53e3ee&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a28b58b&is=6a27640b&hm=8931951c1cb895d5884e5081d98da853a126b2a45f3994c3a91e4b8db9930605&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a295e4b&is=6a280ccb&hm=783290287d34f01a291a70cd3987fce040ee70aedfe506cfbc711228f731996c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a28b58b&is=6a27640b&hm=6c86955b800e4fa2e21228cf0f51c519f670757ef6725e5d509d56ced17b054f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a295e4b&is=6a280ccb&hm=d3d9510ae06770cf3d30f4e7cc2e7fc08e5e5cc3c9459a5a99a77b632afe3536&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -431,7 +431,7 @@
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a28b6df&is=6a27655f&hm=7004777021e22f6ec9a03d756b98c2e0fa87efeca25de44c9e01719e2011beb8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a295f9f&is=6a280e1f&hm=6c73fdd225c7d5df7e56da6bf68be648c94be8d145b66a62b59d07f3e04d1ff2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -447,7 +447,7 @@
     "content": "@CoreFX Preview of Camera Sequence mode",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a28c4b0&is=6a277330&hm=57648e6b27abb510c256a03c88b4bb13b3eebffb41508d9227bb31921b960482&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a296d70&is=6a281bf0&hm=a0f036e1bb7299a881a54432aeb3e201f4d2b71bdb658ddd4028b441f479080e&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -463,7 +463,7 @@
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a28b425&is=6a2762a5&hm=26a558f0be9a1efaf8c00dab4a03cbe9b4ba8b3d05ad178fe83e78538e2c3b1e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a295ce5&is=6a280b65&hm=f47a32bec7e33a99093ba7f61cd6cc3719df4c43cdf8f08faf8ac30a45948ad7&",
         "contentType": "image/png",
         "width": 1911,
         "height": 994
@@ -511,13 +511,13 @@
     "content": "@CoreFX Updated motion blur for Enhanced, final version",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506678501279924294/78B5A262-DE25-4FEE-8389-CB8D0F201E39.png?ex=6a28d873&is=6a2786f3&hm=49bc70f0cee85d39610b7d85ec30ff36455f7b9eb8cc03b4151bc24f078b3c6c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506678501279924294/78B5A262-DE25-4FEE-8389-CB8D0F201E39.png?ex=6a298133&is=6a282fb3&hm=0b4b40c2851f0bd7d5b10ae14eab65a99fcea27442d986cc7077afc7b57ef367&",
         "contentType": "image/png",
         "width": 1918,
         "height": 815
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506678501892296814/524B3064-9FF6-47DD-8134-C79AA15F4D57.png?ex=6a28d873&is=6a2786f3&hm=2ba9bca938cbcae8978a1899c4a5c62ec2bea800e6657dc9991ef55fdb50693e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506678501892296814/524B3064-9FF6-47DD-8134-C79AA15F4D57.png?ex=6a298133&is=6a282fb3&hm=3acc7a24629d1648e2e6c8fdc702d4049e3b16a267fe27caab4bdf2cc2b3385a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 640
@@ -591,7 +591,7 @@
     "content": "@CoreFX Updated website and added devblog - #channel channel is now live and can be seen at [corefx.me](https://corefx.me/devblog)\nCoreFX development news are coming soon too",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505954510303137982/6B43CBE3-4B16-4E0E-81BE-162ECDC86FD4.png?ex=6a28d92e&is=6a2787ae&hm=b342511585685cd164ad29b0913fa98fb60bf64141f2dee058de2ab0e0227caf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505954510303137982/6B43CBE3-4B16-4E0E-81BE-162ECDC86FD4.png?ex=6a2981ee&is=6a28306e&hm=0abc4c4f5d10d44e575f885541249a796a32cfc81c29fbd56c1a7aeb0e0cbdaa&",
         "contentType": "image/webp",
         "width": 725,
         "height": 844
