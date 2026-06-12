@@ -1,5 +1,28 @@
 [
   {
+    "id": "1515054807990403262",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-12T18:06:54.582000+00:00",
+    "editedAt": "2026-06-12T18:07:24.946000+00:00",
+    "content": "@CoreFX I was messing with Claude Fable 5 model a bit and just casually asked it to optimize my clouds. Results (Before/after), 4k res DLAA",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a2d9c3e&is=6a2c4abe&hm=f34eeb00de274bef9df8acf0a3f430efa3383c9387296272fb1164c5caf50b33&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a2d9c3e&is=6a2c4abe&hm=d894632c4b6fd1bafd972a88c0575a63c86f61ed312c4e85e5d6ae30573052c4&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1514315158292529325",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -162,13 +185,13 @@
     "content": "@CoreFX Ray Tracing shaders update - RT Reflections denoise\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512876329094352957/172563CB-5753-49FB-9282-C4DDC50FC555.png?ex=6a2cefa0&is=6a2b9e20&hm=6f61d1cc6c973b4a07e64f43ebbbdcc9eb82f7ab4e59f9a738a3f69f15f35b7a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512876329094352957/172563CB-5753-49FB-9282-C4DDC50FC555.png?ex=6a2d9860&is=6a2c46e0&hm=35bd1dc801ce0250620afb8f2d8d17789c313a5e4d25e41b780605c609f68c7f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512876329517973648/3A5EFFFD-295A-4E02-AEF0-6FE57DE7ABED.png?ex=6a2cefa0&is=6a2b9e20&hm=7c560515a276047672973f492a4ca5bdb79fe9eb09de9a86220831b7bf67310a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512876329517973648/3A5EFFFD-295A-4E02-AEF0-6FE57DE7ABED.png?ex=6a2d9860&is=6a2c46e0&hm=18494ef193dcd16639af694cbb9c27136c9448ba9fa7573c0093e67731334d5b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -185,13 +208,13 @@
     "content": "@CoreFX Ray Tracing shaders update - RTGI fixed denoise (no performance loss)\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a2ceaf6&is=6a2b9976&hm=dab4a60645729e2b96c911486935cbb69331390f6714115f31d6b5f1452be86a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a2d93b6&is=6a2c4236&hm=2644bf6dc9ae47e030ec5b31e26b3db61bb643171ea6e01496bb4db2be269cc4&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a2ceaf6&is=6a2b9976&hm=0bec0b588a53c3404da397b2f1b9895338523e8cc77e9e023c6ea9d0a1ad6f65&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a2d93b6&is=6a2c4236&hm=51cdc363e18df5b898dda247d2312004e848b7e118319d2a4384f938a48c0072&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -279,25 +302,25 @@
     "content": "@CoreFX Weapon Material update for Enhanced\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268367949824/845F87B8-907C-476C-82DB-568F7C20CB96.png?ex=6a2cef27&is=6a2b9da7&hm=affcbe3919b6c582183660b6cb05f7c91e731db0b2cbcdce90366d66fa0c7c93&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268367949824/845F87B8-907C-476C-82DB-568F7C20CB96.png?ex=6a2d97e7&is=6a2c4667&hm=6c20db17eb8279d17cc0a78e4009de480f765c35ca1d625245c1c057e3acbe31&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268829319239/CA7B3952-79AB-4328-AFBC-D2667DA8F05B.png?ex=6a2cef27&is=6a2b9da7&hm=75328b0ddb349de37707799b8f1552e56978dc8d94f32d1b29a7f9af116bc4e2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268829319239/CA7B3952-79AB-4328-AFBC-D2667DA8F05B.png?ex=6a2d97e7&is=6a2c4667&hm=824c14dada59f88bf0ccd3af5e374efc71acf7a17c82d8f5389630dd962ed0e3&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269416525914/14802C2B-7512-4C0C-896A-368030904FC7.png?ex=6a2cef27&is=6a2b9da7&hm=9d6f18fcbc7648fa5397438f058897c0dce5ac35a6fcdb39901c583261951390&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269416525914/14802C2B-7512-4C0C-896A-368030904FC7.png?ex=6a2d97e7&is=6a2c4667&hm=c0eb4838db02bbdd6e90bc760e9e68d4f567a7b5cbf33f470889fd1b7fdc1e11&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269978296370/9C57E196-61F7-4B5D-AC2F-46CC3ADCC0E5.png?ex=6a2cef27&is=6a2b9da7&hm=8740351614484cf1505b4023176a219946c3f1a2a61e1b608503d8943dfda441&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269978296370/9C57E196-61F7-4B5D-AC2F-46CC3ADCC0E5.png?ex=6a2d97e7&is=6a2c4667&hm=09d51ad1567c36112d2ccfeff68e0922d55f603260966f1b2357890bf48da583&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -523,7 +546,7 @@
     "content": "@CoreFX Inner glass raindrops for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506713690387517611/53FBF172-9CA1-457A-A07D-EE04A0BA6740.png?ex=6a2cedb9&is=6a2b9c39&hm=555c2362da7fd21a0210fb28dc4b5ec509c20500fa6048c6ce778ebbe7a42923&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506713690387517611/53FBF172-9CA1-457A-A07D-EE04A0BA6740.png?ex=6a2d9679&is=6a2c44f9&hm=6b37ccb5e8289934a64a5b1237c034efb8d2f12cdc62d1406040e6ea5c539bf4&",
         "contentType": "image/png",
         "width": 1388,
         "height": 1080
@@ -610,28 +633,5 @@
       }
     ],
     "embeds": []
-  },
-  {
-    "id": "1505954510168784997",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-18T15:25:34.506000+00:00",
-    "content": "@CoreFX Updated website and added devblog - #channel channel is now live and can be seen at [corefx.me](https://corefx.me/devblog)\nCoreFX development news are coming soon too",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1505954510303137982/6B43CBE3-4B16-4E0E-81BE-162ECDC86FD4.png?ex=6a2d766e&is=6a2c24ee&hm=d2a65297de5c2461525d703a80927596eb03077bb006f397ef20283cb6e3f731&",
-        "contentType": "image/webp",
-        "width": 725,
-        "height": 844
-      }
-    ],
-    "embeds": [
-      {
-        "type": "link",
-        "url": "https://corefx.me/devblog",
-        "title": "Dev Blog · CoreFX",
-        "description": "Latest development updates from the CoreFX team, streamed live from our Discord announcements channel."
-      }
-    ]
   }
 ]
