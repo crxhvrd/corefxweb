@@ -115,19 +115,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a2d52cb&is=6a2c014b&hm=94313d7a756075093d7b2621fab41d73d2aa2279202ece75930cafec95dcbf04&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a2dfb8b&is=6a2caa0b&hm=db4d6c047eccaf845952dc836f8b44bba9f83baa03484eac32f96e7224c6a008&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a2d52cb&is=6a2c014b&hm=11572453e614054aeb61ebc7cb77aef9cc926e5039aab9b5c5d2c0cb220e7626&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a2dfb8b&is=6a2caa0b&hm=9893be9c1135988e6246e7f050b47d1b953cbf129ec02bb34a64ce7a95a5f357&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a2d52cb&is=6a2c014b&hm=84387d15b68afff23b8650453dbf78b620e87c9431558fa7bf9e12fd6ea18435&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a2dfb8b&is=6a2caa0b&hm=cc63f130e013d6cc39a24ae0ab16620bfb5c449ba37c187baf2132b6eff9ec34&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -288,7 +288,7 @@
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a2d4a50&is=6a2bf8d0&hm=6e3d22c9d7faee3b450caa317bc26b84314bbff5ce533d0e1ac1d17fab30f63d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a2df310&is=6a2ca190&hm=906066aeeee9a89ef079ec8e429f4c65cbd2ebd3c72d91dc7ee2bfe56d34f3e8&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -539,7 +539,7 @@
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a2d541f&is=6a2c029f&hm=c4f6f7c059351bd4931865e9fc3649a77b2ca5dc33c9a398b232b2d887b1d874&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a2dfcdf&is=6a2cab5f&hm=b58ae3d0edaf0b4b14f623b7e2fb043f8b189a2922cb48dde159e1a3f354d9a3&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -555,7 +555,7 @@
     "content": "@CoreFX Preview of Camera Sequence mode",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a2d61f0&is=6a2c1070&hm=77cf90832c62698d3d486f9e225de5ca16835a0d57bc7e0cdc8ce16fa7f4d3cb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a2e0ab0&is=6a2cb930&hm=2df3772aa3a5d3b35332e4c6cd0266ff44e67ee9c60a817fb73aa921f9d2b6b5&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -571,7 +571,7 @@
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a2d5165&is=6a2bffe5&hm=b08527e0aebae62cdb808dd9f236c7c33328df3762f8c4f135fe4a32204f7bdc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a2dfa25&is=6a2ca8a5&hm=d761bad945af068e655790d5ad545be34011251f03206d7865e4f08f186609b2&",
         "contentType": "image/png",
         "width": 1911,
         "height": 994
