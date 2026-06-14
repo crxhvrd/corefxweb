@@ -1,5 +1,21 @@
 [
   {
+    "id": "1515770856863830056",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-14T17:32:13.937000+00:00",
+    "content": "@CoreFX More preview, fixed vehicle rotation",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515770854200311808/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_20.31.06.02.mp4?ex=6a30371d&is=6a2ee59d&hm=33e3763c95a8f2d0cdb844d80784c4a697266e1f879ae4ed1ef458864bc2d90f&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1515510449448423616",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -282,13 +298,13 @@
     "content": "@CoreFX Ray Tracing shaders update - RTGI fixed denoise (no performance loss)\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a2f8df6&is=6a2e3c76&hm=79fef43c4d7d934311ee48a7d2861c948f17fe5c242c36a5dfdce29b88c5c907&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a3036b6&is=6a2ee536&hm=41c6918fbc25bece1e0cfd78e9e8c0c9f07f31e52ff59f9f9dd08b9b6cd7f18a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a2f8df6&is=6a2e3c76&hm=4ed8d032af42a867ab38a258001b8ddce115e11ae5d1dfffe4f67ad0885fe15d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a3036b6&is=6a2ee536&hm=a4c0f7040d505aa19b945517eb55437e7199d64556a25f2dbff6ba8a75a1049e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -592,22 +608,6 @@
         "contentType": "image/png",
         "width": 1911,
         "height": 994
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1506792956626206801",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-20T22:57:15.719000+00:00",
-    "content": "@CoreFX Simple Camera - procedural camera shake generator. Work in Progress",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506792959545442464/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_01.55.42.08.mp4?ex=6a2fda8c&is=6a2e890c&hm=1b5b84e6dfb61453485eb1119ef1a7bf5d0c0c9c85d17e4c879275010e26b752&",
-        "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
       }
     ],
     "embeds": []
