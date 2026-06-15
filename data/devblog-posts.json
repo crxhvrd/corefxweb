@@ -7,7 +7,7 @@
     "content": "@CoreFX More preview, fixed vehicle rotation",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515770854200311808/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_20.31.06.02.mp4?ex=6a30371d&is=6a2ee59d&hm=33e3763c95a8f2d0cdb844d80784c4a697266e1f879ae4ed1ef458864bc2d90f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515770854200311808/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_20.31.06.02.mp4?ex=6a30dfdd&is=6a2f8e5d&hm=4c99c602235cf50ef51d7f8127e5c6f68d0342841bf8819a30480fbcb3465726&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -148,19 +148,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a2ff5cb&is=6a2ea44b&hm=f9ea366c6107f49c6ff683f51cfab327052b287c737461efaf4fe5c7bf6ebf7d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a309e8b&is=6a2f4d0b&hm=1a0ce48be41425438e88d9be364121f12fece165edeb4a8a233bc63cd47f3413&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a2ff5cb&is=6a2ea44b&hm=952e3cb1be53eb7cd01349558362940a1b81cd2e4e114ec0d45799823bbcc216&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a309e8b&is=6a2f4d0b&hm=7a7e121c493aa981edaf2b6849cd4c9b6fcdb356abdbe830307c50c6facc42e2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a2ff5cb&is=6a2ea44b&hm=73ccb7a0e0f679a43a0111a247fcfed6d4899215d4135fa7a0c2f107df65da05&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a309e8b&is=6a2f4d0b&hm=8731f12f7ac602f7073920e1b60e83d8c352b60fe6f274ac4272e9577cf9c1df&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -298,13 +298,13 @@
     "content": "@CoreFX Ray Tracing shaders update - RTGI fixed denoise (no performance loss)\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a3036b6&is=6a2ee536&hm=41c6918fbc25bece1e0cfd78e9e8c0c9f07f31e52ff59f9f9dd08b9b6cd7f18a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a30df76&is=6a2f8df6&hm=b40677829873a414cd358d630da9a49341351fb0893ef3b63c0d4446ee346db4&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a3036b6&is=6a2ee536&hm=a4c0f7040d505aa19b945517eb55437e7199d64556a25f2dbff6ba8a75a1049e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a30df76&is=6a2f8df6&hm=5d90591208b3e20f4355f5e2c6f10b4a7123782cc805fdd96813f5c0866df1ef&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -427,25 +427,25 @@
     "content": "@CoreFX Updated Puddle Shader for Enhanced\n\nBigger draw distance & fixed their opacity\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a3020cf&is=6a2ecf4f&hm=e924f39b6b58405f1f446845d7b92b0610ebba4fdef00ec4304dcc2e8f0daf0a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a30c98f&is=6a2f780f&hm=121139ce6d6d13828c902d550a5e2f8e0bd5d5e4a0d230821672d620f7c1519d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a3020cf&is=6a2ecf4f&hm=5641c693456194ad74e8bd219f0f2f6aaafd193a223970530975b48108ac9495&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a30c98f&is=6a2f780f&hm=7a3bf845d7d86aa9ccea5d7377329e2f6b1e36261a385437c5e8e0395e86fbd2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a3020cf&is=6a2ecf4f&hm=1f923b71532897d70b45057e63b266ed32cb90e70d38f655e5b2e410dfb8583c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a30c98f&is=6a2f780f&hm=9f3dc3dd3c7c3b6b2771be0696c7a2ce4b33b85778a7ceefccbedc8faa26f82d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a3020cf&is=6a2ecf4f&hm=0cfcce80af0bd54d4ae992728f7febf5afb95aeb84fde92c296748d57ba79966&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a30c98f&is=6a2f780f&hm=b42e306064faeb052617f4a86a1e48377ea2d972fa0d97ee86324139ec3f316b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -572,7 +572,7 @@
     "content": "@CoreFX Overcast Volumetric Clouds (with cloud godrays) for Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a2ff71f&is=6a2ea59f&hm=fe7449e85cc40e8e431fd78c64ba3a81c20fc9c8b258df5b3bbf97df399ce523&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1507729611646308392/DAE21F8A-BF68-481D-8888-E079E4324632.png?ex=6a309fdf&is=6a2f4e5f&hm=9bc9a4998ffc77331db9cc8f3fd0d22566b698555d5fa9046c4786547594faff&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -588,7 +588,7 @@
     "content": "@CoreFX Preview of Camera Sequence mode",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a3004f0&is=6a2eb370&hm=51fe6a879d981d828ebc16c1a310117f5bc5d36f111d420942f81a588b2d6d30&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506838474941009930/Grand_Theft_Auto_V_Enhanced_2026.05.21_-_04.56.34.15.mp4?ex=6a30adb0&is=6a2f5c30&hm=f2cd9b27c552dd2f9aebba2143375e0ce59b8ec0409e5dc0a63ada4938e402d6&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -604,7 +604,7 @@
     "content": "@CoreFX Simple Camera - Camera Sequence mode. You can now create animated camera sequences with a lot of customization and such, work in progress",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a2ff465&is=6a2ea2e5&hm=f70a99c0f7d85bd0d506d5d0868b290f887a3e98c7b990531a618d401a383c69&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1506820714836000849/4EACE2AB-4FE2-4138-ABB1-3A47DE901A0D.png?ex=6a309d25&is=6a2f4ba5&hm=7b3fe7165684839ec17827e341f1626bdacdad92fd4232e8c5c0122a57ba557d&",
         "contentType": "image/png",
         "width": 1911,
         "height": 994
