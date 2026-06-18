@@ -76,13 +76,13 @@
     "content": "@CoreFX Dual RTAO. Now has contact and environmant shadows that work together, creating more details than a regular RTAO",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a345096&is=6a32ff16&hm=bcd3a517c97833284d538ac2cf9a92ba71941089304122cd3d754431443f4e61&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a34f956&is=6a33a7d6&hm=e9701cb661b421a688bbe45f242f569ac85b05da2cc4b223da4aa2ee5f30cc33&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a345096&is=6a32ff16&hm=d9965af0bd3c84fd6a552095476e9e30bcaa0c5cab2c87278b48607a1c6ed717&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a34f956&is=6a33a7d6&hm=c12493ec8213c270f524980a0c9c8b1988615e1864360495cb9121e41d1c09a6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -251,7 +251,7 @@
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a344deb&is=6a32fc6b&hm=67736579f674eac726fda6544cbddf9e3358c6db6c342360a33f1e0b908cd3e2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a34f6ab&is=6a33a52b&hm=4e71e82d8bc29788ce6abff21900638c2a71b23c42619cd1479d63cd00b2991b&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -497,7 +497,7 @@
     "content": "@CoreFX Volumetric Lightning effects ported to Enhanced (not a Thunder weather yet, work in progress)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a346a79&is=6a3318f9&hm=24660fdb9f412368463ce3116b245b992e359efd6ae152890b35c3c8dcc783e5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511127309296472114/Grand_Theft_Auto_V_Enhanced_2026.06.02_-_00.58.34.01.mp4?ex=6a351339&is=6a33c1b9&hm=fba13edf311538f3d5c44f162917cb1fc71ee700aa58670422a03b4b47356c00&",
         "contentType": "video/mp4",
         "width": 1264,
         "height": 684
@@ -535,19 +535,19 @@
     "content": "@CoreFX Hello everyone, i'd like to clarify why 1.3 is not releasing yet\n\nIm remaking all cloudy weathers from scratch to include volumetric clouds natively. Currently i've finished three: Clouds, Overcast & Rain. Six other weathers (Thunder, Foggy, Clearing, Snow, Blizzard, Halloween) needs to be reworked",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a3468dc&is=6a33175c&hm=42c17f76507d21ad2f83667300e6aa7a495af4ee291ab2f12774ce70bdb98838&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798411063467/64F07D0B-92BD-4BB8-9945-38A4CA204B70.png?ex=6a35119c&is=6a33c01c&hm=77bbc405146cf640cdd64f452ea4bed99b836a8101e8b527d4559a05907f6da7&",
         "contentType": "image/png",
         "width": 783,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a3468dc&is=6a33175c&hm=33d508c5af8d2e2623185cb6e223ad8a339a6d268af6a33f935cb4c05501b95e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400798821974036/78DFBEA4-24F1-4C46-8AC0-77D82F7CA1F7.png?ex=6a35119c&is=6a33c01c&hm=dd9cadaa581421ad006c6fed11f8d67c2a9166d714e24653c2cc9bada052fd1a&",
         "contentType": "image/png",
         "width": 852,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a3468dc&is=6a33175c&hm=930d1a579cf3ee1d17579bf270d6de455fc45159c9908f4babaccc592829739e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a35119c&is=6a33c01c&hm=628f18d3e1553c147f586be67ff6c74c6b2763ca25339e3c40c12fd37ade0cc1&",
         "contentType": "image/png",
         "width": 955,
         "height": 1080
@@ -563,7 +563,7 @@
     "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a345b14&is=6a330994&hm=a2cb21d478c30afa20fa25d853b3f9620441ec24998305b55f8bec6b1199dbbf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a3503d4&is=6a33b254&hm=13fce4b25f1a3c08936b91ed72f957e92e400a98ae55e98ceadfeee753cb5bf2&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
