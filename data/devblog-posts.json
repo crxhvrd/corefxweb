@@ -1,5 +1,25 @@
 [
   {
+    "id": "1517595353254330571",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-19T18:22:07.774000+00:00",
+    "editedAt": "2026-06-19T18:44:34.581000+00:00",
+    "content": "@everyone @CoreFX 1.3 Enhanced Coming June 25th\n\nhttps://www.youtube.com/watch?v=GaZ9j11sIKc\n\nFull changelog on the release day",
+    "attachments": [],
+    "embeds": [
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GaZ9j11sIKc",
+        "providerName": "YouTube",
+        "title": "CoreFX 1.3 for Grand Theft Auto V Enhanced — Cinematic Trailer",
+        "description": "Experience VI earlier than the others. Coming June 25th.\n\nhttps://corefx.me/\nhttps://www.patreon.com/c/crxhvrd\nhttps://discord.com/invite/jK4SRmBqYt",
+        "imageUrl": "https://i.ytimg.com/vi/GaZ9j11sIKc/maxresdefault.jpg",
+        "color": 16711680
+      }
+    ]
+  },
+  {
     "id": "1517448452378988666",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -115,25 +135,25 @@
     "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a363671&is=6a34e4f1&hm=84ba66afab15a9cd3adfd715599dbd71cafdfb58e0e50122e909ea1cafb16527&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a36df31&is=6a358db1&hm=6fec20240ae0d8f4ebe5e9b7dd830d5fe5018552a9e131fd294d0637cfb8e053&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a363671&is=6a34e4f1&hm=422679abed8a05011ad0812fa798ff6d0362b0e0df3e55f7205c1ed9b80fdefc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a36df31&is=6a358db1&hm=92ebbf67befad1341713657ded5ecdd7d7e05e4b0fb1bffbff05ea3636c47bf6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a363672&is=6a34e4f2&hm=8f0aef91f5f6a0d0393c745d0c8537cde8112a492c36e171013bb7ef4882d338&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a36df32&is=6a358db2&hm=7e381ecea8401b07cd4b97d3fa93c15cb24e6e04f614da3049a58f726d6f5a3d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a363672&is=6a34e4f2&hm=7ed31c9aa244e3247385772411a7d61d1b35a25cf95cffff69dedfda3327b0f7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a36df32&is=6a358db2&hm=24c9029673c6f99136d8604514f3d2c251ff064b63880e9f6cdc812a17ab2800&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -228,7 +248,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a3636b5&is=6a34e535&hm=8a6a3664484695fb8ce09ddd39d0619fcdf1f59446c3987f45a72f642850f6da&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a36df75&is=6a358df5&hm=4f20a6cc220309afc6807f3264f51399681e4c9d2f0664b9a66e0894fac2d9cf&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -245,13 +265,13 @@
     "content": "@CoreFX Simple Camera - Image Sequence Rendering. Now you will be able to export your camera sequences into PNG image sequence with a working motion blur",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a3636a1&is=6a34e521&hm=803a927eb030f45d9ea5e71609caff83fc5408be59e4bc677719fc533a266072&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a36df61&is=6a358de1&hm=8a0a1ed4cee94707b5349905516ce39a6e419465aa3407cb6d7f4e5120479511&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a3636a1&is=6a34e521&hm=128e13b28893ad3562c035d22eda7f4d221d03265fe916463cce2685afe8d626&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a36df61&is=6a358de1&hm=b780b3e419de60970e882f86bad9df107a228366431442483177fc3d9520fa55&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -267,7 +287,7 @@
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a36482b&is=6a34f6ab&hm=e4924db5ae08bbe67c4e2d8e318ba595e8496212304f1304b89c5648eaf53bec&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a36f0eb&is=6a359f6b&hm=19ce50263f1d97e5c00ce480a63afea9ca865f777ed7acb06dfe167ebaed170d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -283,13 +303,13 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a363a92&is=6a34e912&hm=20d12c88e402bc3104c144122ea5007aacb9bd59bae330adfeb92a56b8ba3439&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a36e352&is=6a3591d2&hm=5e11038aa313ec2286260dadff74ebef727f9ca9f463fa76a8e884cd21820ab4&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a363a92&is=6a34e912&hm=c4a431bae7f56abc4c6ec85883e22a70c4c514114380c3eca84a3769bf54ac44&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a36e352&is=6a3591d2&hm=9b10458a4aa40f2be5ac0e2427e2aa4d9068500f76e80d0546a82705cf0d0dbe&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -305,13 +325,13 @@
     "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a363991&is=6a34e811&hm=d1099e66d8e40cfb9c01517af4cf3e4823ac76bbeb61e12bc690c316ed2a63ec&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a36e251&is=6a3590d1&hm=cfa02c2d0e9ccd9d32c5d8b4443a33b19b6959bb6923064ffa857dc51ca0819c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a363992&is=6a34e812&hm=b55350e6e241b82631a1de8ae391936dcc51bd655e413234e9f862c0797b1b7a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a36e252&is=6a3590d2&hm=7374d7524b34bece4eb910825772acb75e28175e950e917b790e8b2cc7a7f326&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -411,7 +431,7 @@
     "content": "@CoreFX Ped Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a3639ea&is=6a34e86a&hm=a1ce8d5a45791aca7e0e6ada5d18baf96857c5f56fef490fff402523fe99675d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a36e2aa&is=6a35912a&hm=6603c6c384e615a279d9e082e7258e5ccfbc3baa46ec518e668805ff9fc4cdf4&",
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
@@ -428,7 +448,7 @@
     "content": "@CoreFX Weapon Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a3634b3&is=6a34e333&hm=1c7ac72712e187150a713394058768bc4c6293cd6d1fe4a1518760bcdb013d29&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a36dd73&is=6a358bf3&hm=495c18b80d71741fd638da02e358c9ddc539bbb983b2be02d659537e1f281679&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1061
@@ -605,15 +625,5 @@
         "color": 2144846
       }
     ]
-  },
-  {
-    "id": "1508849239734747257",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-26T15:08:11.816000+00:00",
-    "editedAt": "2026-05-26T15:08:54.389000+00:00",
-    "content": "@CoreFX \n\nRegarding RageMP, CoreFX 1.3 will be the last supported version for that multiplayer, and even if we release newer updates before August 31st (RageMP complete shutdown date), they won't be released for RageMP, thanks for understanding.\n\nAfter August 31st, CoreFX for RageMP will be removed from public download links as well.",
-    "attachments": [],
-    "embeds": []
   }
 ]
