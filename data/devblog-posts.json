@@ -1,5 +1,14 @@
 [
   {
+    "id": "1517928094776692806",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-20T16:24:19.535000+00:00",
+    "content": "@CoreFX I'm going to clarify Legacy situation a bit. Legacy 1.3 will be released about a month after Enhanced 1.3, as we plan to port all the new features we made for Enhanced. This includes all the new updated weather systems, volumetric cloud support for all weather conditions, and other features you all saw in our dev blog. We are also will be removing few Legacy shader additions (StarLens, particle updates, vehicle environment sirens etc) that are considered low quality and ruining the visual style of the mod.",
+    "attachments": [],
+    "embeds": []
+  },
+  {
     "id": "1517595353254330571",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -499,25 +508,25 @@
     "content": "@CoreFX Updated Puddle Shader for Enhanced\n\nBigger draw distance & fixed their opacity\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a37610f&is=6a360f8f&hm=bcbecf45be20eac68f4d6e08363cde0a854f435ffbd11023ff7c1088ccca3a4c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a3809cf&is=6a36b84f&hm=5e2a399e9b2908d6cc76d54f94deb8f87e5d43b0b4a85d2dfc942ebd40030cb2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a37610f&is=6a360f8f&hm=f6833489d7d809d2f07a59fc9f8198759985bcd2058680e989667840c7b32c6a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a3809cf&is=6a36b84f&hm=63228e6b299519ea9d66644303b63b2b77d5f72288b81813122fc068d772438b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a37610f&is=6a360f8f&hm=c63a357879441fe5a954375c9bebf990ba9d189aac59c08cb1f31b1750ada9dd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a3809cf&is=6a36b84f&hm=bde0d7db22e8fa81fbad84b00971adff02eb039eef517a1a88b7f5f18b46d382&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a37610f&is=6a360f8f&hm=9acce9a02abe9bc5db90bae5df871656346875005e94b27de3acccb6afcd7aa7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a3809cf&is=6a36b84f&hm=6c1eb99f3ac1fa292848ceb3a350c9c375246b5daddd4b0bf110cf85bc10e77a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -606,24 +615,5 @@
       }
     ],
     "embeds": []
-  },
-  {
-    "id": "1509090330404851783",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-27T07:06:12.311000+00:00",
-    "content": "https://www.gta5-mods.com/scripts/simple-camera\n\n@CoreFX  Updated, go and try the new camera sequence mode",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "article",
-        "url": "https://www.gta5-mods.com/scripts/simple-camera",
-        "providerName": "GTA5-Mods.com",
-        "title": "Simple Camera",
-        "description": "Simple Camera — Cinematic Toolkit for GTA V\n \n A professional camera and world-control suite for Grand Theft Auto V. Built for filmmakers, photographers, and trailer editors who need precise, repeatable shots — not a casual flycam.\n \n Key Features\n \n • Free Camera mode — a 6-DOF flycam that can switch into a fully physics-based drone mod...",
-        "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/87203f-1.jpg",
-        "color": 2144846
-      }
-    ]
   }
 ]
