@@ -46,6 +46,30 @@ const InstallationStep = ({
     );
 };
 
+const RageMpSunsetNotice = () => (
+    <div className="bg-amber-900/30 border border-amber-600/50 p-4 rounded-lg mb-6">
+        <p className="text-amber-300 text-sm font-semibold mb-1">
+            ⚠️ CoreFX for RageMP is being retired
+        </p>
+        <p className="text-amber-200/90 text-sm">
+            Following RageMP&apos;s{' '}
+            <a
+                href="https://rage.mp/forums/topic/26561-long-term-eco-system-integration-pt-ii-final-outreach-cd/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-white"
+            >
+                ecosystem shutdown announcement
+            </a>
+            , the RageMP builds of CoreFX (Legacy &amp; Enhanced) will remain available
+            for download until <strong>August 31, 2026</strong>. After this date they
+            will be removed from all public download repositories. If you wish to keep
+            using them, please back up your copy before then. Singleplayer and FiveM
+            builds are unaffected.
+        </p>
+    </div>
+);
+
 /* ───────────────────────── DATA ───────────────────────── */
 
 const prerequisitesSections = [
@@ -110,7 +134,13 @@ const faqs = [
         question:
             'Is CoreFX compatible with Singleplayer and multiplayer platforms like FiveM or RageMP?',
         answer:
-            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions.'
+            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions. Note: due to RageMP’s ecosystem shutdown, the RageMP builds of CoreFX will be available only until August 31, 2026.'
+    },
+    {
+        question:
+            'What is happening to CoreFX for RageMP?',
+        answer:
+            'Following RageMP’s ecosystem shutdown announcement, the RageMP builds of CoreFX (both Legacy and Enhanced) will remain available for download until August 31, 2026. After that date they will be removed from all public download repositories. If you want to keep using them, back up your copy before then. The Singleplayer and FiveM builds are not affected.'
     },
     {
         question: 'Where can I find updates and support?',
@@ -728,6 +758,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {activeInstallTab === 'ragemp' && (
                                         <div className="install-block">
 
+                                            <RageMpSunsetNotice />
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
@@ -815,6 +846,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {activeInstallTab === 'enhanced-ragemp' && (
                                         <div className="install-block">
 
+                                            <RageMpSunsetNotice />
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
