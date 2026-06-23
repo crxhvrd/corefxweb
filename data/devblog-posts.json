@@ -1,5 +1,24 @@
 [
   {
+    "id": "1518776543659299016",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-23T00:35:45.512000+00:00",
+    "content": "https://www.youtube.com/watch?v=jI0uZwcqVWQ\n\n@CoreFX Yes, Simple Camera tutorial",
+    "attachments": [],
+    "embeds": [
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jI0uZwcqVWQ",
+        "providerName": "YouTube",
+        "title": "GTA 5 Simple Camera Tutorial: Camera Sequence & Vehicle Chase Scene...",
+        "description": "Download Simple Camera at GTA5Mods: https://www.gta5-mods.com/scripts/simple-camera\n\nDiscord server: https://discord.com/invite/jK4SRmBqYt",
+        "imageUrl": "https://i.ytimg.com/vi/jI0uZwcqVWQ/maxresdefault.jpg",
+        "color": 16711680
+      }
+    ]
+  },
+  {
     "id": "1517928094776692806",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -229,19 +248,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a3a81cb&is=6a39304b&hm=4ef211214f3cac20872c9433c21dc2f5de6e15f19b2fbcca05ba8a1068f1b732&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a3b2a8b&is=6a39d90b&hm=fdfc090a2452008ae83a01d52ed1eeda22f9d70872245d92dfdfa63c8a2119b3&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a3a81cb&is=6a39304b&hm=07ffbff6ebd1ad0e7835196d5f6d02132e84a196e5520cfc8f5f920e15600b8b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a3b2a8b&is=6a39d90b&hm=3809624eb8ae3e6dd61fc64e47d70f2c43cf8f2024a48553f75387039aaea9ab&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a3a81cb&is=6a39304b&hm=04d22c1c5047d06dbf5b3ce4774acf3c2a7d0aedd6d3405bb63a2fd15f4834f3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a3b2a8b&is=6a39d90b&hm=bf8100a2f99c184fb6a2980a21f4c319eb979ab3805452a47d80a4d1c4efa1dd&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -508,25 +527,25 @@
     "content": "@CoreFX Updated Puddle Shader for Enhanced\n\nBigger draw distance & fixed their opacity\n\nBefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a3aaccf&is=6a395b4f&hm=10d38aef3b3f998e00dba0df10fe7cbb117d55b8f05ceb29f449da2071df565d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251230789743/E3D6F9A8-7D04-4E86-8917-083251837748.png?ex=6a3b558f&is=6a3a040f&hm=ac5d3c2ea09f9433d708b02d06d4d88a4124222589db28e3f99652139d543885&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a3aaccf&is=6a395b4f&hm=b414c621624e70835ba51f6f90598e8656ee7e3bc9dd51c83927e49a5876ee57&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398251792830565/D62FFC28-A92C-444C-BA9C-F397BBB79449.png?ex=6a3b558f&is=6a3a040f&hm=70a6a21a8010cc2aeb77b4cfbcff7f755271dd6a850e08f4ceaa810bbd77f4bc&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a3aaccf&is=6a395b4f&hm=321c51c2b5db57efc7c6d21488f7f5313aae82a2b37d50ef6a1b9e073f02c6bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252380028969/BC730F17-9E6B-49F4-B9AA-A8CEAE54AC32.png?ex=6a3b558f&is=6a3a040f&hm=eeabb8d13912eb10eed582e0627ce68b357fab8c243d4d8c955472a062e6969e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a3aaccf&is=6a395b4f&hm=1d5a1c96e7bc3784dd1fdfb01cbdeae3cadf58db4e0e058e61bc8d3fda462cc0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511398252929351801/40EBD7F2-3722-425A-9AC7-1FBF130A1ACF.png?ex=6a3b558f&is=6a3a040f&hm=bfaf4e0515a2e6865400cca46385bee55d3ec69a331b88c1ad9d562a0482df85&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -595,22 +614,6 @@
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1510400799220699196/9B0D95BE-C19B-4BF5-AC07-B8650439B9B0.png?ex=6a3b005c&is=6a39aedc&hm=0164fc4ce8ac19d2a87b1b765a4dd732950045f3613072bb6b192cc6db01250e&",
         "contentType": "image/png",
         "width": 955,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1509661232611721248",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-05-28T20:54:46.004000+00:00",
-    "content": "@CoreFX Rain particles shader\n\nReplaces rain texture with a procedural raindrop and also increased their density to simulate real world dense rain, as well as other tweaks",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1509661228144922764/Grand_Theft_Auto_V_Enhanced_2026.05.28_-_23.52.40.01.mp4?ex=6a3af294&is=6a39a114&hm=be0cf681deac1af78d1e1cfcc14028e23d98c8d5a41342e94f3a71f5d67f94f0&",
-        "contentType": "video/mp4",
-        "width": 1920,
         "height": 1080
       }
     ],
