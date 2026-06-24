@@ -163,25 +163,25 @@
     "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a3ccdf1&is=6a3b7c71&hm=164edd07a0af3936c7855a201dfc6bc58f0ad83ac732070aaeacde726849b5b5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a3d76b1&is=6a3c2531&hm=24769910c88585f21946fb0138c0af0be1102a44d8fcd46f951ec62c0cad6b5b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a3ccdf1&is=6a3b7c71&hm=61ff9c353d273d616266f941c72d3f870f66bd0597fd7ffdfda84189a5b3b456&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a3d76b1&is=6a3c2531&hm=10d1705a8eb1b89c8c4f5e64a53a4a9ac197076a4b4274decd8e6d595bc0b1fe&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a3ccdf2&is=6a3b7c72&hm=bd86c1e8b71c656922214f7560cb096256045e75ab1e6fca35814ba3cac49d07&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a3d76b2&is=6a3c2532&hm=a9671577f8d9e687b67edba53e2f43dffd5d08646088888c46e60b9b0553f3d1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a3ccdf2&is=6a3b7c72&hm=1a40dab40d4d76a0ec81a0129c7156383e020ff861d5187635879f6309215457&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a3d76b2&is=6a3c2532&hm=33419c8a9f7e328a2bc5fab1a2c8c1fe005e612d57315ff76d2e8ba75420b96d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -198,13 +198,13 @@
     "content": "@CoreFX I was messing with Claude Fable 5 model a bit and just casually asked it to optimize my clouds. Results (Before/after), 4k res DLAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a3cc57e&is=6a3b73fe&hm=62a32fdb9cadc85dd24906ef2e95ac12e3534f153fd74d55e2270befd4a967dc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a3d6e3e&is=6a3c1cbe&hm=25089d6996677434b0624d13f304818451140f4ff856b049e692d7e5efc86777&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a3cc57e&is=6a3b73fe&hm=ba8e3e1882ff3e01cceb8f6a937ddd47f0edb0d0867a3bc6710995daa541d0c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a3d6e3e&is=6a3c1cbe&hm=f88a6ece2f14ba947042c66eec6e6d8846d5b1152060978c11ea8f7c7b5cd063&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -276,7 +276,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a3cce35&is=6a3b7cb5&hm=cff4ce1e5fd894392a0dc54a54fab7f853102ec85478d18bc18ab99df9e5b50b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a3d76f5&is=6a3c2575&hm=44900701bdae671cfa605e246003d705def0b18da6047471626f34b41b0cca7d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -293,13 +293,13 @@
     "content": "@CoreFX Simple Camera - Image Sequence Rendering. Now you will be able to export your camera sequences into PNG image sequence with a working motion blur",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a3cce21&is=6a3b7ca1&hm=865a42f4da825c31421567b39ef524e1d2ceeeefc10eaf6d578a53057216f753&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a3d76e1&is=6a3c2561&hm=6fc9285c6e17f6d7ddf8e5292d64e7992e1cd6321700dc9945d1d6da194fd79f&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a3cce21&is=6a3b7ca1&hm=a37c86bd76ed536360d51277e8fdf170f5c0f3d1a9e4a868e03b43389a47288a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a3d76e1&is=6a3c2561&hm=2bd9d7b7b95ac90498062306c690f1dba51021d9c1349b3489519c9407362388&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -331,13 +331,13 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a3cd212&is=6a3b8092&hm=a39a2580430e0b62ffa0d4f92725390eda76b234b46e4709f5fc04b6524a3e63&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a3d7ad2&is=6a3c2952&hm=3e253b76b03ce8835576f5fc888692b23b24582de97c3747e8f30b0bf93e1ebc&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a3cd212&is=6a3b8092&hm=515304492ff1349fee76a84240cb16e19f38f09663c4331af3e778e5ef073294&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a3d7ad2&is=6a3c2952&hm=c94e5e96cb26ebe6d590aa88af7c0cd0a2f845a23939b375bfd1367947a59680&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -353,13 +353,13 @@
     "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a3cd111&is=6a3b7f91&hm=505e5f98b732c3f647d4e668e2f60c1e1298428916a1141e33adf025dce0c449&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a3d79d1&is=6a3c2851&hm=1f835a187c4d1d65a15ea639a4e7218f641802424d544df5c8914e1c1eefb4f8&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a3cd112&is=6a3b7f92&hm=d9da81e3437f14afdb373de157c0f59900e5c337a2e6ae3be4874a2bc0f963ce&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a3d79d2&is=6a3c2852&hm=547cdaa211069e8d5562c23f6d6f94a0b1ff074b2a2e326dc64f64025b0f038d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -459,7 +459,7 @@
     "content": "@CoreFX Ped Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a3cd16a&is=6a3b7fea&hm=39d046463bfc0c0731aae433929cb1391568eb3a4ca16c5ef774a2ab9838098b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511443730719310014/02ED21ED-4FF6-4917-8EC8-78B97523BE87.png?ex=6a3d7a2a&is=6a3c28aa&hm=c8b7dc697d5cc93e1e46955f233dc4d2bcfbc688978d1f50d1b38125f9c7162b&",
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
@@ -476,7 +476,7 @@
     "content": "@CoreFX Weapon Raindrops for enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a3ccc33&is=6a3b7ab3&hm=b38c5e4eb68446a068dad2e21cd34f1b21a36684b2cbb639697f6a9569bedf74&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a3d74f3&is=6a3c2373&hm=d0c72e67075a7244de1d1ec5d3ec78d484df542c18be85004ccde02c755b102b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1061
