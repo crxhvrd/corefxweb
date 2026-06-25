@@ -483,13 +483,23 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
+                                                        <strong>Important:</strong> Before installing, remove
+                                                        any old ENBSeries or ReShade files from your GTA V
+                                                        Enhanced game directory to avoid compatibility issues.
+                                                        These files may be named <code>d3d11.dll</code>,{' '}
+                                                        <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
+                                                        <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
+                                                    </li>
+                                                    <li>
                                                         Open the <code>CoreFX</code> folder and run{' '}
                                                         <code>Install.bat</code>.
                                                     </li>
                                                     <li>
                                                         If prompted, select your GTA 5 Enhanced folder. This will
                                                         automatically install the mod into the <code>mods</code>{' '}
-                                                        folder.
+                                                        folder. The CoreFX shaders (ReShade + the RenoDX addon) are
+                                                        now installed in this same step — there is no longer a
+                                                        separate shader install.
                                                     </li>
                                                     <li>
                                                         <strong>Note:</strong> <code>Install.bat</code> and{' '}
@@ -499,49 +509,25 @@ export default function DocsClient() {
                                                         script there.
                                                     </li>
                                                     <li>
-                                                        Set in-game brightness to approximately 40-50 %.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder (works if you installed via{' '}
-                                                        <code>Install.bat</code>).
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Installing CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        <strong>Important:</strong> Before installing, remove
-                                                        any old ENBSeries or ReShade files from your GTA V
-                                                        Enhanced game directory to avoid compatibility issues.
-                                                        These files may be named <code>d3d11.dll</code>,{' '}
-                                                        <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
-                                                        <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
-                                                    </li>
-                                                    <li>
-                                                        Copy all ReShade files from the provided package into
-                                                        your main GTA 5 Enhanced game directory.
-                                                    </li>
-                                                    <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
                                                             <p className="text-red-300 text-sm">
                                                                 <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
                                                                 <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
                                                                 to <strong>Ultra</strong> in your in-game graphics settings.
-                                                                This is required to load the custom RenoDX shaders included
-                                                                with ReShade.
+                                                                This is required to load the custom RenoDX shaders.
                                                             </p>
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade
-                                                        menu and enable available shaders manually.
+                                                        Set in-game brightness to approximately 40-50 %.
+                                                    </li>
+                                                    <li>
+                                                        In-game, press <strong>F7</strong> to open the ReShade menu,
+                                                        then open the <strong>RenoDX Shader Loader</strong> window.
+                                                        The Enhanced build now has a full UI with adjustable settings,
+                                                        just like the Legacy build — toggle and fine-tune individual
+                                                        effects there (or set the preset to &quot;Off&quot; to disable
+                                                        all shader modifications).
                                                     </li>
                                                     <li>
                                                         <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
@@ -551,21 +537,18 @@ export default function DocsClient() {
                                                         </div>
                                                     </li>
                                                     <li>
-                                                        <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
-                                                    </li>
-                                                    <li>
                                                         <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
 
-                                            <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
+                                            <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
-                                                        Simply delete the ReShade files you previously copied
-                                                        into your main game directory (e.g.,{' '}
-                                                        <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the{' '}
-                                                        <code>reshade-shaders</code> folder).
+                                                        Run <code>Uninstall.bat</code> located in the{' '}
+                                                        <code>CoreFX</code> folder (works if you installed via{' '}
+                                                        <code>Install.bat</code>). This removes both the base mod
+                                                        and the shaders in one step.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -865,6 +848,24 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         <strong>Backup your original update.rpf first!</strong>
                                                     </li>
                                                     <li>
+                                                        The CoreFX shaders are now <strong>baked directly into the
+                                                        game files</strong> and ship with the base mod above —
+                                                        there is no separate shader install, and no ReShade or other
+                                                        external injector is used. Because nothing is injected into
+                                                        the game process, this avoids the previous anti-cheat (EAC)
+                                                        concerns.
+                                                    </li>
+                                                    <li>
+                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-red-300 text-sm">
+                                                                <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
+                                                                <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
+                                                                to <strong>Ultra</strong> in your in-game graphics settings.
+                                                                This is required for the CoreFX shaders to load.
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
                                                         Set in-game brightness to approximately 40-50 %.
                                                     </li>
                                                 </ol>
@@ -875,60 +876,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                     <li>
                                                         Remove the <code>user_resources</code> folder (Method 1)
                                                         or restore your original <code>update.rpf</code> (Method
-                                                        2).
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Installing CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-yellow-300 text-sm">
-                                                                <strong>Warning:</strong> ReShade builds for RageMP
-                                                                are currently pending Easy Anti-Cheat (EAC)
-                                                                approval. While some servers may allow it, you might
-                                                                be unable to join others or face connection issues.
-                                                                Use at your own risk.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        Copy all files from the <code>CoreFX ReShade</code>{' '}
-                                                        folder into your main RageMP directory (where{' '}
-                                                        <code>updater.exe</code> is located).
-                                                    </li>
-                                                    <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
-                                                                <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
-                                                                <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
-                                                                to <strong>Ultra</strong> in your in-game graphics settings.
-                                                                This is required to load the custom RenoDX shaders included
-                                                                with ReShade.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade
-                                                        menu and enable available shaders manually.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Note:</strong> The <strong>RenoDX Shader Loader</strong> window is included but currently has no adjustable settings. The only available option is to set the preset to &quot;Off&quot; to disable shader modifications.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Simply delete the ReShade files you previously copied
-                                                        into your main game directory (e.g.,{' '}
-                                                        <code>dxgi.dll</code>, <code>ReShade.ini</code>, and the{' '}
-                                                        <code>reshade-shaders</code> folder).
+                                                        2). This also removes the baked-in shaders.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
