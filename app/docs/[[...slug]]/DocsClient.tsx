@@ -104,6 +104,12 @@ const prerequisitesSections = [
                 ]
             },
             {
+                title: 'Required In-Game Settings',
+                items: [
+                    <><strong>Shader Quality</strong> and <strong>Post FX</strong> must be set to <strong>Ultra (maximum)</strong> in the in-game Graphics settings. This is required for the CoreFX shaders to load — at lower settings the game uses different shader variants that CoreFX does not replace, so the mod will look incorrect.</>
+                ]
+            },
+            {
                 title: 'Optional',
                 items: [
                     'FiveM or RageMP (Multiplayer): CoreFX supports multiplayer platforms.',
