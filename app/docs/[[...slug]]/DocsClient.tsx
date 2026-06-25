@@ -530,13 +530,6 @@ export default function DocsClient() {
                                                         all shader modifications).
                                                     </li>
                                                     <li>
-                                                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-yellow-300 text-sm">
-                                                                If ReShade fails to recognize shaders and gives errors, you need to install <a href="https://www.gta5-mods.com/scripts/directstoragefix" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-200">DirectStorageFix</a>.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
                                                         <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
                                                     </li>
                                                 </ol>
