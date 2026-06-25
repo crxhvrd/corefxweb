@@ -528,14 +528,18 @@ export default function DocsClient() {
                                                         Set in-game brightness to approximately 40-50 %.
                                                     </li>
                                                     <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade menu,
-                                                        then open the <strong>RenoDX Shader Loader</strong> window.
-                                                        The Enhanced build now has a full UI with adjustable settings,
-                                                        just like the Legacy build — toggle and fine-tune individual
-                                                        effects there, including ray tracing, clouds, vehicles and
-                                                        ambient occlusion (these settings replace the old RTMenu
-                                                        add-on). Set the preset to &quot;Off&quot; to disable all
-                                                        shader modifications.
+                                                        In-game, press <strong>Page Up</strong> to open the ReShade
+                                                        menu, then open the <strong>RenoDX Shader Loader</strong>{' '}
+                                                        window. The Enhanced build now has a full UI with adjustable
+                                                        settings, just like the Legacy build — toggle and fine-tune
+                                                        individual effects there, including ray tracing, clouds,
+                                                        vehicles and ambient occlusion (these settings replace the old
+                                                        RTMenu add-on). Set the preset to &quot;Off&quot; to disable
+                                                        all shader modifications.
+                                                    </li>
+                                                    <li>
+                                                        Press <strong>Page Down</strong> to toggle the ReShade
+                                                        shaders on or off.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
