@@ -526,11 +526,10 @@ export default function DocsClient() {
                                                         then open the <strong>RenoDX Shader Loader</strong> window.
                                                         The Enhanced build now has a full UI with adjustable settings,
                                                         just like the Legacy build — toggle and fine-tune individual
-                                                        effects there (or set the preset to &quot;Off&quot; to disable
-                                                        all shader modifications).
-                                                    </li>
-                                                    <li>
-                                                        <strong>Ray Tracing Config:</strong> Configuration for <code>RTMenu.addon</code> can be found in the ReShade <strong>Addons</strong> tab.
+                                                        effects there, including ray tracing, clouds, vehicles and
+                                                        ambient occlusion (these settings replace the old RTMenu
+                                                        add-on). Set the preset to &quot;Off&quot; to disable all
+                                                        shader modifications.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
