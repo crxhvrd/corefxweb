@@ -1,5 +1,27 @@
 [
   {
+    "id": "1519984893327577138",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-26T08:37:18.523000+00:00",
+    "content": "@CoreFX i will upload another hotfix soon, that implements contact shadows for all small objects that are affected by the sunlight, so everything, even small grass or trash will cast shadows",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a3f8bbe&is=6a3e3a3e&hm=8e80a8c50004cab38a181ecac0d6e4dee148724c4ba4e27054bb3715c3a8fbf1&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a3f8bbe&is=6a3e3a3e&hm=93e4083f5198572f4284002fbd3306ecb51b53b6ba547f69690d1b5982fab490&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1519916334689943772",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -163,7 +185,7 @@
     "content": "@CoreFX today",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a3ee33f&is=6a3d91bf&hm=dae46eb18882960fffecb3b31848ab6e0200b2f17b717ef080f8b6702261daa1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a3f8bff&is=6a3e3a7f&hm=7392984040c875dd32546c1dc93436aeaa0cc69d5c87d4367d4d0d256f0205de&",
         "contentType": "image/png",
         "width": 3840,
         "height": 1920
@@ -248,13 +270,13 @@
     "content": "@CoreFX Dual RTAO. Now has contact and environmant shadows that work together, creating more details than a regular RTAO",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a3edc96&is=6a3d8b16&hm=a79e195b80f6b8e8675a9aace08e57043e7436a86006af65a8e52adb3bd93891&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a3f8556&is=6a3e33d6&hm=62473f2aeb29c1c7a60c793c72e5c95529c528b50e69611e9e7930915f513467&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a3edc96&is=6a3d8b16&hm=7140a02865cc8b4741cd3d324549bdb3341e1a68d6ea422796ea0762bc8cc141&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a3f8556&is=6a3e33d6&hm=4832d5b936622e7450018b9b315b26cbfed15116e15855f33befb52a494b7df6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -423,7 +445,7 @@
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a3ed9eb&is=6a3d886b&hm=3e2744534147c1a7425b603a21e4243bd6ee10c8f37c314ff4a337cbeafef16b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a3f82ab&is=6a3e312b&hm=fe39624dbf2cc4fb149e00d6d774841603a11d83cf887429b4cd5fca35e8801c&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -588,40 +610,6 @@
         "contentType": "image/png",
         "width": 1920,
         "height": 1061
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1511426270234279968",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-02T17:48:23.766000+00:00",
-    "content": "@CoreFX Weapon Material update for Enhanced\n\nBefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268367949824/845F87B8-907C-476C-82DB-568F7C20CB96.png?ex=6a3f6427&is=6a3e12a7&hm=272dc894458edd3e42aabaca405e95340b46c5e444c56fb1fb4ea02c4d5c93e8&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426268829319239/CA7B3952-79AB-4328-AFBC-D2667DA8F05B.png?ex=6a3f6427&is=6a3e12a7&hm=dc5bc4b37b74ef087f65163d68922f22ad29e4a513552970b2693a1698559ff7&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269416525914/14802C2B-7512-4C0C-896A-368030904FC7.png?ex=6a3f6427&is=6a3e12a7&hm=cdece6f294f35e923636a55399ea9ddadc9ae6390f82c3567a8054a4a28a5325&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511426269978296370/9C57E196-61F7-4B5D-AC2F-46CC3ADCC0E5.png?ex=6a3f6427&is=6a3e12a7&hm=f1467291cfe861f122b7498f87784dc06589e301805d211de5b5a763fa95e304&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
       }
     ],
     "embeds": []
