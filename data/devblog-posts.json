@@ -1,5 +1,31 @@
 [
   {
+    "id": "1520941004595921018",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-06-28T23:56:33.213000+00:00",
+    "content": "@CoreFX Next CoreFX Enhanced 1.3 Hotfix will migrate installation files into one big Super OIV file (.oivs), this is a new installation method that is exclusive to our [OIV Package Installer](https://www.gta5-mods.com/tools/oiv-package-installer).\n\nThis was also made in prior to people stop using OpenIV to install CoreFX, because it does not support uninstalller that provided in the package and generally considered as an obsolete modding tool.",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1520941004985864202/AEEB7937-ED17-4ABE-9DC6-F698A0F1E52B.png?ex=6a430631&is=6a41b4b1&hm=ed785a85a299b7a54537646f284cd640dcbc65e4a918c0e316959620a7f45dd0&",
+        "contentType": "image/webp",
+        "width": 942,
+        "height": 689
+      }
+    ],
+    "embeds": [
+      {
+        "type": "article",
+        "url": "https://www.gta5-mods.com/tools/oiv-package-installer",
+        "providerName": "GTA5-Mods.com",
+        "title": "OIV Package Installer",
+        "description": "OIV Package Installer is a lightweight alternative to the OpenIV Package Installer. Built on the CodeWalker core, it offers a clean, reliable interface for installing OIV modification packages for Grand Theft Auto V Legacy and Enhanced.\n \n Source Code: https://github.com/crxhvrd/CodeWalkerProjects\n \n CoreFX Modding Discord Server: https://discor...",
+        "imageUrl": "https://img.gta5-mods.com/q75/images/oiv-package-installer/71cc0f-1000003257.jpg",
+        "color": 2144846
+      }
+    ]
+  },
+  {
     "id": "1519984893327577138",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -202,7 +228,7 @@
     "content": "@CoreFX 1.3 Enhanced RenoDX menu showcase, you are able to manipulate ray tracing (more options compared to RTMenu), clouds, raindrops & vehicle stuff, coronas",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1516235527396003930/Grand_Theft_Auto_V_Enhanced_2026.06.16_-_03.15.53.01.mp4?ex=6a4262a0&is=6a411120&hm=b4f4de6e95e30822642c6d0d902131e155977aa1de3b4e4732ff46b79e42fb80&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1516235527396003930/Grand_Theft_Auto_V_Enhanced_2026.06.16_-_03.15.53.01.mp4?ex=6a430b60&is=6a41b9e0&hm=7f44530b606b0499d26819483121253640e03a8537319dc5251ee0454a302695&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -254,7 +280,7 @@
     "content": "@CoreFX People i'm sorry but Simple Camera will probably get another update, this time it will allow you to record vehicle replays (ghost replay style accurate replays) and have them on a simple camera timeline\n\nWork In Progress (i know, wheel rotation will be fixed)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515510447401467944/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_03.00.06.02.mp4?ex=6a426257&is=6a4110d7&hm=d39e13b3f81dc88d9fcf981b2de0cb884dd60b1f2b3f23f0b78d5fc78ba601b4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515510447401467944/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_03.00.06.02.mp4?ex=6a430b17&is=6a41b997&hm=4845c07d2d556a962f4ccbc3cf649d475aeec8c46aae93c3149193fca6f00ed9&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -378,19 +404,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a426acb&is=6a41194b&hm=c28913e5749b99a59b28f57c1c1e972ab4d9a448e3a06cbb11875d65acb0a032&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a43138b&is=6a41c20b&hm=9525600a416afdfa8e173e5372230ebff3b55c2ac4b3dc70e037e2ef755ea3f6&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a426acb&is=6a41194b&hm=7d3c918b563f79ce429f60452e3dcd909adc4ebfe9577138d68b7d2d457510c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a43138b&is=6a41c20b&hm=11ef36edf1d9d876116fea57f6ce2adaa3a9277420e901d7dbae22ff429b00e9&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a426acb&is=6a41194b&hm=4265f018d79fdb78bbdc8ddc7c0ba0f9dce5c1bbf4780d112a3141e41e721ca1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a43138b&is=6a41c20b&hm=5bcb977ce2b94fdfe3ac7e73d46cf5bccd41c9faf42ad44571655cab2040cdae&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -551,7 +577,7 @@
     "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a426250&is=6a4110d0&hm=0150d9fd45626748937255a3bc6fbdd2db717ed09178bb2e1a4aea07cb5ad10e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a430b10&is=6a41b990&hm=8b3acfdabccfb970391b09f7efa32660b109abb970ad0c64f9f692a1c9f04e4f&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -567,13 +593,13 @@
     "content": "@CoreFX Some really cool shader feature has been implemented. Modified tree/grass animations (Video before/after)\nVanilla GTA 5 does not allow windy trees and foliage without boosting timecycle wind intensity - it also affects gameplay. This shader modifies how tree and grass animation behave to give you that realistic wind day feeling that matches the ambient sounds of your game",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a425d2b&is=6a410bab&hm=3d4575a04e742e4a6247e5c9e0d0fcc8afa788ce3d895634eecf601980b880ae&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881017563156594/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.51.53.01.mp4?ex=6a4305eb&is=6a41b46b&hm=6e43d805eeb0d19da1c0f3fba516e90fb4e5147dd1700ef9c096e803b2ca641f&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a425d2c&is=6a410bac&hm=7e1e18a399a95d99e05a391670d9d5e72acf6c0b927f09c63ec6f45a8b64b169&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511881020348301393/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_02.52.23.02.mp4?ex=6a4305ec&is=6a41b46c&hm=c7f700ef59c214c3c573b13000e1b720eeefe41736a41f881f895d202600d813&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -593,23 +619,6 @@
         "contentType": "image/png",
         "width": 1605,
         "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1511438130555650248",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-02T18:35:31.487000+00:00",
-    "editedAt": "2026-06-02T18:35:36.545000+00:00",
-    "content": "@CoreFX Weapon Raindrops for enhanced",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511438130220236982/9FE356C8-D24D-42B5-B20C-B054D3733114.png?ex=6a42baf3&is=6a416973&hm=a7dd63bc786c65fcf900144e6ccba062213aba6d3adbfa395fc1763b2564c5ae&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1061
       }
     ],
     "embeds": []
