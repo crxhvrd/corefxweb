@@ -852,12 +852,11 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         <strong>Backup your original update.rpf first!</strong>
                                                     </li>
                                                     <li>
-                                                        The CoreFX shaders are now <strong>baked directly into the
-                                                        game files</strong> and ship with the base mod above —
-                                                        there is no separate shader install, and no ReShade or other
-                                                        external injector is used. Because nothing is injected into
-                                                        the game process, this avoids the previous anti-cheat (EAC)
-                                                        concerns.
+                                                        The CoreFX shaders are <strong>baked directly into the
+                                                        game files</strong> and ship with the base mod above, so
+                                                        there is no separate shader install and no ReShade or other
+                                                        external injector. Because nothing is injected into the game
+                                                        process, this avoids anti-cheat (EAC) concerns.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
