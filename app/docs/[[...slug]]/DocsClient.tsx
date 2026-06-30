@@ -498,21 +498,25 @@ export default function DocsClient() {
                                                     </li>
                                                     <li>
                                                         Open the <code>CoreFX</code> folder and run{' '}
-                                                        <code>Install.bat</code>.
+                                                        <code>Install.bat</code>. The <strong>CoreFX Package
+                                                        Installer</strong> opens with CoreFX already loaded.
                                                     </li>
                                                     <li>
-                                                        If prompted, select your GTA 5 Enhanced folder. This will
-                                                        automatically install the mod into the <code>mods</code>{' '}
-                                                        folder. The CoreFX shaders (ReShade + the RenoDX addon) are
-                                                        now installed in this same step — there is no longer a
-                                                        separate shader install.
+                                                        Click <strong>Install</strong>. A selection window opens
+                                                        where you choose what to install — tick any optional
+                                                        add-ons you want, such as <strong>Classic Roads</strong>,{' '}
+                                                        <strong>Brighter Emergency Lights</strong>,{' '}
+                                                        <strong>Streetlights</strong>, <strong>Sun Lens Flare</strong>{' '}
+                                                        and <strong>Simple Camera</strong>, each with before/after
+                                                        previews. The base mod and the CoreFX shaders (ReShade +
+                                                        the RenoDX addon) are always included.
                                                     </li>
                                                     <li>
-                                                        <strong>Note:</strong> <code>Install.bat</code> and{' '}
-                                                        <code>Uninstall.bat</code> are also included for CoreFX
-                                                        Optionals (e.g., Roads, Streetlights, etc.). Simply
-                                                        navigate to the specific optional folder and run the
-                                                        script there.
+                                                        If prompted, select your GTA 5 Enhanced folder. Everything
+                                                        you chose — the base mod, the shaders, and your selected
+                                                        optionals — installs into the <code>mods</code> folder in a
+                                                        single step. There is no longer a separate shader install or
+                                                        per-optional folders to run.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -547,10 +551,13 @@ export default function DocsClient() {
                                             <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
-                                                        Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder (works if you installed via{' '}
-                                                        <code>Install.bat</code>). This removes both the base mod
-                                                        and the shaders in one step.
+                                                        Run <code>Uninstall.bat</code> in the <code>CoreFX</code>{' '}
+                                                        folder. The installer opens straight to{' '}
+                                                        <strong>Manage Mods</strong> — select <strong>CoreFX</strong>{' '}
+                                                        and choose <strong>Revert to Backup</strong> (or{' '}
+                                                        <strong>Reset to Vanilla</strong>). This removes the base
+                                                        mod, the shaders, and any optionals you installed, in one
+                                                        step.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
