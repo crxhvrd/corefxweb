@@ -514,9 +514,7 @@ export default function DocsClient() {
                                                     <li>
                                                         If prompted, select your GTA 5 Enhanced folder. Everything
                                                         you chose — the base mod, the shaders, and your selected
-                                                        optionals — installs into the <code>mods</code> folder in a
-                                                        single step. There is no longer a separate shader install or
-                                                        per-optional folders to run.
+                                                        optionals — installs into the <code>mods</code> folder.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -534,12 +532,10 @@ export default function DocsClient() {
                                                     <li>
                                                         In-game, press <strong>Page Up</strong> to open the ReShade
                                                         menu, then open the <strong>RenoDX Shader Loader</strong>{' '}
-                                                        window. The Enhanced build now has a full UI with adjustable
-                                                        settings, just like the Legacy build — toggle and fine-tune
-                                                        individual effects there, including ray tracing, clouds,
-                                                        vehicles and ambient occlusion (these settings replace the old
-                                                        RTMenu add-on). Set the preset to &quot;Off&quot; to disable
-                                                        all shader modifications.
+                                                        window. It has a full UI to toggle and fine-tune individual
+                                                        effects, including ray tracing, clouds, vehicles and ambient
+                                                        occlusion. Set the preset to &quot;Off&quot; to disable all
+                                                        shader modifications.
                                                     </li>
                                                     <li>
                                                         Press <strong>Page Down</strong> to toggle the ReShade
@@ -556,8 +552,7 @@ export default function DocsClient() {
                                                         <strong>Manage Mods</strong> — select <strong>CoreFX</strong>{' '}
                                                         and choose <strong>Revert to Backup</strong> (or{' '}
                                                         <strong>Reset to Vanilla</strong>). This removes the base
-                                                        mod, the shaders, and any optionals you installed, in one
-                                                        step.
+                                                        mod, the shaders, and any optionals you installed.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
