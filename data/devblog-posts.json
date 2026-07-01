@@ -35,13 +35,13 @@
     "content": "@CoreFX changed volumetric clouds scale so they appear more detailed (yeah it was a one line change)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a4601ea&is=6a44b06a&hm=2476b45154370a751aff4a1baa786129a0c248ea035f49770129278f6dfe8c30&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a46aaaa&is=6a45592a&hm=01e6c2a1153242281b1cd4be94415a10a3a64f350df27979b6bb841bef7039d9&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a4601ea&is=6a44b06a&hm=89bd2f45d3aa474e5431d998785da75dc4bed2241131f68fa6ae05e9238bb5b9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a46aaaa&is=6a45592a&hm=8acb55917e489b38f1b14e8e8f52a9d34359f23870a7a8561c61d7c03b793d6d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -346,13 +346,13 @@
     "content": "@CoreFX Dual RTAO. Now has contact and environmant shadows that work together, creating more details than a regular RTAO",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a461cd6&is=6a44cb56&hm=5600c3b6bcf285ce5fc9dfc3c70be5d56cc738a6caaa451a9d4e2516880d260e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a46c596&is=6a457416&hm=a194e478e7774d062f2b91ddedea3f037816d69639741c2d6015a92ca36c9bfb&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a461cd6&is=6a44cb56&hm=febf50126fc794bd38834e4ee803962e76ba34b0b1417277221f478d69880045&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a46c596&is=6a457416&hm=c7648945f771759bb749098d2ad6f78ab1720813dc06ab9de1744332889c92a1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -369,25 +369,25 @@
     "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a460871&is=6a44b6f1&hm=44f875e55853b90ac9cf2f4127dfd0bed6ba9d568840103947cb3a5456640dd2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a46b131&is=6a455fb1&hm=bbd6c6792933af38e31decb185a257d6dfefdfe9fdfa4c141c53f3ae53504fa0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a460871&is=6a44b6f1&hm=c17338a7cdec7e0ed45e6856d27d61275a5612dc13fe6cea153a1e4491e825a9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a46b131&is=6a455fb1&hm=c693929d927df830beb8483d206ffc0e0ceddb5fe8ee8bbdfff30e29ac82a433&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a460872&is=6a44b6f2&hm=c606b08f2ec43a681d667de57da00c3b21d482742db750cae921a39de36bc510&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a46b132&is=6a455fb2&hm=5497cc251978e9a9d52d1fe517323ee83e392adfad25933cf17d163b381f1011&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a460872&is=6a44b6f2&hm=885181a6ac365c758e9f4f4c24431adbfe5222162054c223d02f602c4f3392f1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a46b132&is=6a455fb2&hm=288d3ad9cf348c5d38a9a3a27cca03ddbd03286807f18ce86221f7400dc9d76d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -482,7 +482,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a4608b5&is=6a44b735&hm=ad851b8687b21972c36e4994ebe669a7dd57d4c6eb35605074c6806a1f69b1d6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a46b175&is=6a455ff5&hm=cbac990034f05152ca7596f82e4888ca6e8b54b083ff7f457b3f7944351acbfb&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -499,13 +499,13 @@
     "content": "@CoreFX Simple Camera - Image Sequence Rendering. Now you will be able to export your camera sequences into PNG image sequence with a working motion blur",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a4608a1&is=6a44b721&hm=02b3a0f9fae669d85b069aab6c14c276e1e0d4581a3f9b37457bdb21a6bf39ca&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142100648016/4616E884-ED74-43BD-A920-D8D362F442E3.png?ex=6a46b161&is=6a455fe1&hm=17594a1c16ae0cd2f2db7d38b5211d0f42d004a59bce291213b4e3532392c0aa&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a4608a1&is=6a44b721&hm=d8888f467324552944f4d0949a1bf36243d767847a78ad9341a231fa8f3dcdd1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a46b161&is=6a455fe1&hm=96fc1412bf645ba247e02f7038150ef728a048f019ab49763f6302d49bded8f6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -521,7 +521,7 @@
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a461a2b&is=6a44c8ab&hm=9698dd851e1aa945417a1e4ddeae87e2abd8b5caea4d67e92a7a89eebb810b90&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a46c2eb&is=6a45716b&hm=b262858410bf79ca0d76153551b9ef31fecea3a82fe766e1bc9dac4de50045c7&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -537,13 +537,13 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a460c92&is=6a44bb12&hm=82156253bd337a86bc152dbe9e1ac0f6cfd9d03d477a4fc7b1cc62bc6a70a9da&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985507770508/F5D0D309-77F5-4CB7-89A4-48D3E4282807.png?ex=6a46b552&is=6a4563d2&hm=25457256f9cacf791883859b688a74e54bd1f2517a2c8d80a45789fe32b9a5da&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a460c92&is=6a44bb12&hm=b24d3dbb51dded3ea3d752b4786ac91915172f98257b81be2d516100c1051e67&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512893985956302919/76A9BB49-5018-42A5-80B9-2F63191EDA90.png?ex=6a46b552&is=6a4563d2&hm=70731621e1e14ec1e6d833578ca704f2e065036a7de726788e94258ecdbfcb99&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -559,13 +559,13 @@
     "content": "@CoreFX Ray Tracing shaders - preview of main ray tracing gi shader modification (increase rtgi intensity)\n\nThis will be a base for our replacement of RT Menu, where you can edit every aspect of the ray tracing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a460b91&is=6a44ba11&hm=645453ed6e60e8cc93d2281043613a1434e03e21b389960ef34925ed59f32f5b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892909870125169/E3029253-D6F1-44E9-95C7-6B142B11F0D2.png?ex=6a46b451&is=6a4562d1&hm=9fd77d222b44aa94a66d7e53e6a4133e775180ed7e90beaf2ace2d75609ea092&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a460b92&is=6a44ba12&hm=15dc7f11977db9194c70fa09e58ba4107757cc17343be06da29e6a9dfd2616e5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512892910322843738/9C00EE95-FFEA-41A8-9DE4-20861C92EB7D.png?ex=6a46b452&is=6a4562d2&hm=4c99913336ee2977aff97207e0e8d0919d2b9bbcc0cef9a6bec650d80ec2a912&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
