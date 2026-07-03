@@ -189,13 +189,13 @@
     "content": "@CoreFX changed volumetric clouds scale so they appear more detailed (yeah it was a one line change)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a48a4ea&is=6a47536a&hm=2a359cf7c0b96cdd24b3b1023039db2bc5a69a9d2b44a335c7be8f9d62d3c0f4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a494daa&is=6a47fc2a&hm=2c512cf3a1a9fc52eea803aed07e21452f7a25a37f5d0069a9533165310f98fa&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a48a4ea&is=6a47536a&hm=4bfee253c79c33a30fccc5e6747ad42b52c6a732b536752dfda80f0ac123d213&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a494daa&is=6a47fc2a&hm=43303c03a477ed01196924187622ce9121026dbd82b873066cdcfd8641bb0aec&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -523,25 +523,25 @@
     "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a48ab71&is=6a4759f1&hm=2c013e98ae23d506daf684d7d86c2af44fbc3458cf89cce605a2020c47e2d593&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a495431&is=6a4802b1&hm=0984dca558e3b4e35411a6d591c52033522b344cb7eba40c34dfa607d36f6fc2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a48ab71&is=6a4759f1&hm=e8960aba241c9a39be0197e2e1146741bb36d777300d98920eccce0245f01b0e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a495431&is=6a4802b1&hm=145829b05ad1d6c7d2f1e940d5dfa58d46c870b0eea4b52f18e9b3211cf0f6dc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a48ab72&is=6a4759f2&hm=98c41de37656a55b9e75a923ae6d3f015f2e83fee1acc4b0cbea0d944dd36a33&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a495432&is=6a4802b2&hm=a2da7aa0b92cd14b35bd3b16b1f7f3e200f8c20777a8049069c7f0d8d1102afa&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a48ab72&is=6a4759f2&hm=bc6981a80aea4d6959387a7fe1e2db9e60c2c8a7f07be69e4d97718e58fb03a9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a495432&is=6a4802b2&hm=4d3f25257529925075b9e1421c91843446a713671e000c0ecd6932a4bd3cfa0d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -558,13 +558,13 @@
     "content": "@CoreFX I was messing with Claude Fable 5 model a bit and just casually asked it to optimize my clouds. Results (Before/after), 4k res DLAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a48a2fe&is=6a47517e&hm=a7bb466983410c8a9e918306e888c624b58c32c90f0cfec7fc87b9da45abfd60&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a494bbe&is=6a47fa3e&hm=78100b66b7d3e38983361a808b56ea835145c786b9d81b728adc045a92f00ff4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a48a2fe&is=6a47517e&hm=22d0fd6f549064680086a37d0cf2b61e5a77d9c6f5aa28f476f1db39f4866d49&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a494bbe&is=6a47fa3e&hm=bc567087dd11ae523f37026066cad73c5e0eabc6171dfdb4504196ba975d2d9b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -636,7 +636,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a48abb5&is=6a475a35&hm=5d2022b3d0b722df4de2bb53e775a68690efedb816dc60b70399f06e7182d535&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252224720175287/image.png?ex=6a495475&is=6a4802f5&hm=5c9cb738a0a26ac02f2c64b89c6fec260b9f3d26acfe0eec88390c8a60b03dec&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
