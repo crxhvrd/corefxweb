@@ -1,5 +1,21 @@
 [
   {
+    "id": "1522590790545571841",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-03T13:12:12.835000+00:00",
+    "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a4906ac&is=6a47b52c&hm=3ad52da481912998a892d2366ca819e342bd3253988bb317ff9d617c0db28112&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1522574553165991968",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -570,19 +586,19 @@
     "content": "@CoreFX Video Output result and added new options for Image Rendering\n\nNote: Image Rendering will work if you have installed ReShade, IGCS Connector & IGCS DoF (enable it in the reshade effects menu)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a48598b&is=6a47080b&hm=324abd46588f3b1b8734c2e5645e7893428106b27a4f7557446d6cadb8472c5a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526389033275434/render_0018.mp4?ex=6a49024b&is=6a47b0cb&hm=c76ae23c266b564d5d8e0de059f17e9b4a6bb29a60bd955143bbde31267714a6&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a48598b&is=6a47080b&hm=9e283694ac4ab191b363c95e195bf7e857c0d384da570bdb915be014c4eb9dea&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526390946009168/440A23F8-27BF-42F6-9DA4-3F9AB75DE14D.png?ex=6a49024b&is=6a47b0cb&hm=85d6b17d97086da922d0134842a531dc958b38898d003a11bd53ef0b53fd82da&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a48598b&is=6a47080b&hm=43e28e0426b143883c22d517d132eafbedadbdd57b28db9918bc1322eaed14c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513526391746859119/E738596D-56F6-4185-B068-964A3CED7181.png?ex=6a49024b&is=6a47b0cb&hm=bb8de49115a33348fceccbf27b732cf6b2d2024eb1023152905d0a05bde982b2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -623,22 +639,6 @@
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1513252142624932001/frame_000009.png?ex=6a48aba1&is=6a475a21&hm=c0bdabdfd919dbf42139c2d71cf3630fb1d0e14ff5d2ad6ca60245352962eeb9&",
         "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1512908586097971292",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-06T19:58:35.408000+00:00",
-    "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a48bd2b&is=6a476bab&hm=c436d8277b286a0c836dfa86e0ee25dae83d47bf0ce2c052805a9c4736d354ea&",
-        "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       }
