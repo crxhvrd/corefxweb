@@ -1,5 +1,37 @@
 [
   {
+    "id": "1522528154873233510",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-03T09:03:19.327000+00:00",
+    "content": "@CoreFX Backport progress\n\n- Ported Volumetric Clouds from Enhanced\n- Ported Dynamic Atmosphere Sky shaders",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a48cc57&is=6a477ad7&hm=b62c60bcd776ef19fcc9c1d8582ada84f817618abefa6db180594cc019b3c2a9&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1522516743015239680",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-03T08:17:58.528000+00:00",
+    "content": "@CoreFX Starting to work on 1.3 Legacy",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a48c1b6&is=6a477036&hm=4a6c66da512a4aaf01ac0f7cc0bbfa8a81c090328ef97da8543983a61df2c444&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1521549605114740950",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -83,13 +115,13 @@
     "content": "@CoreFX i will upload another hotfix soon, that implements contact shadows for all small objects that are affected by the sunlight, so everything, even small grass or trash will cast shadows",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a481d7e&is=6a46cbfe&hm=1122f4887198d8a45ff3fd8cb3be25efb876ac480898d98a6c04933de5d39789&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a48c63e&is=6a4774be&hm=0a4f6717176323931050d21290872a558dad971391fb4949b96c8657f8e77100&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a481d7e&is=6a46cbfe&hm=134780d9e63f6a43e35bd99b8279808d077c71b553b486d34a5195a03e857554&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a48c63e&is=6a4774be&hm=257e4ab54fcfeb3093f5caaeb7c96af42a9b9a1bcea4666f20506b6f66968f9c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -261,7 +293,7 @@
     "content": "@CoreFX today",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a481dbf&is=6a46cc3f&hm=11f5f2b6a1c943c2acc7ffeea47e5bd10ff164162219ddffc626244f1d7b436d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a48c67f&is=6a4774ff&hm=551a519666bdae240837d0e64f8d00031801da1bc04ede5845ba3dfa1b460cf8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 1920
@@ -346,13 +378,13 @@
     "content": "@CoreFX Dual RTAO. Now has contact and environmant shadows that work together, creating more details than a regular RTAO",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a481716&is=6a46c596&hm=263b04f8be6d3ba04473b0a54081c198cc8631a8133a44f184bae1d11822ad1e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a48bfd6&is=6a476e56&hm=5c402861dc1b37ef24d939edb10fe87330844fba7ddcc39ff577e420303ffee7&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a481716&is=6a46c596&hm=444ba1a964dd340e9c6ca83496d69de0de38b1e95f7bb4f2cfe58b9d87690617&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a48bfd6&is=6a476e56&hm=73cf0b0abd9af0c156e72e5594b122b282d082b56ee65a15c8d803695f8aa0a1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -521,7 +553,7 @@
     "content": "@CoreFX RTMenu is now can be fully replaced with RenoDX UI settings (will work with FiveM, not singleplayer only)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a48146b&is=6a46c2eb&hm=0693a90c6d39660566d0bc9f9c4fdfe36535b72348c997e21bc92a5e5814a3e3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512908584596275452/Grand_Theft_Auto_V_Enhanced_2026.06.06_-_22.56.59.03.mp4?ex=6a48bd2b&is=6a476bab&hm=c436d8277b286a0c836dfa86e0ee25dae83d47bf0ce2c052805a9c4736d354ea&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -589,46 +621,6 @@
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512876329517973648/3A5EFFFD-295A-4E02-AEF0-6FE57DE7ABED.png?ex=6a489f20&is=6a474da0&hm=3a43ca751b50049b8275dbbc548a65ee4358083f71e591f1ff809e806c4c5845&",
         "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1512871319258140844",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-06T17:30:30.301000+00:00",
-    "editedAt": "2026-06-06T17:34:04.844000+00:00",
-    "content": "@CoreFX Ray Tracing shaders update - RTGI fixed denoise (no performance loss)\n\nBefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318465417256/8847666C-8F97-4DC9-B554-64023BA39C59.png?ex=6a489a76&is=6a4748f6&hm=1ef2e80b0e1a17f4e6bb7368457cee0cc39de2c80b068b9fd7fe22b86e49a763&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1512871318956015757/F69954ED-8A0E-4FA7-A7A1-F8143913B622.png?ex=6a489a76&is=6a4748f6&hm=fe3e335b231acba2a8764293b6f2919f6ed463daa95fb6bdc1cce367a5b1cd69&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1511886542661091469",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-04T00:17:21.264000+00:00",
-    "editedAt": "2026-06-04T00:17:34.595000+00:00",
-    "content": "@CoreFX well guess what, tree lods are also getting a wind animation now. It was not there in an original game and lods were completely still (WIP)",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1511886541105139782/Grand_Theft_Auto_V_Enhanced_2026.06.04_-_03.16.15.04.mp4?ex=6a485110&is=6a46ff90&hm=dacb564fc99135a37318aed8b27f4f38b6ea3a7bc35c8ab0ec22ab8b914279a2&",
-        "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
       }
