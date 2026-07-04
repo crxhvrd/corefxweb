@@ -1,5 +1,21 @@
 [
   {
+    "id": "1522958028305993809",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-04T13:31:29.140000+00:00",
+    "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a4a5cb1&is=6a490b31&hm=e8841bb637726e040b02ed9fd1f3e0ff82f1f268ea7d5a76acbafc6ced9b2507&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1522936606024138753",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -61,7 +77,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a49af6c&is=6a485dec&hm=dbc953d8f366c509f853529252c8a0f0324cf63954c6609ce011dc9b157639b2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a4a582c&is=6a4906ac&hm=9411bd52e3f59c5d6634a84de367db5556e4103cb7574f298e33b7bd01439468&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -612,24 +628,5 @@
     "content": "@CoreFX Next update will be for CoreFX, Release date will be revealed in several days",
     "attachments": [],
     "embeds": []
-  },
-  {
-    "id": "1514315019053957221",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-10T17:07:15.155000+00:00",
-    "content": "@CoreFX \n\nhttps://www.gta5-mods.com/scripts/simple-camera\n\nUploaded Version 3.0 with all the new features",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "article",
-        "url": "https://www.gta5-mods.com/scripts/simple-camera",
-        "providerName": "GTA5-Mods.com",
-        "title": "Simple Camera",
-        "description": "Simple Camera — Cinematic Toolkit for GTA V\n \n A professional camera and world-control suite for Grand Theft Auto V. Built for filmmakers, photographers, and trailer editors who need precise, repeatable shots — not a casual flycam.\n \n Key Features\n \n • Free Camera mode — a 6-DOF flycam that can switch into a fully physics-based drone mod...",
-        "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/87203f-1.jpg",
-        "color": 2144846
-      }
-    ]
   }
 ]
