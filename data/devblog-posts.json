@@ -1,5 +1,21 @@
 [
   {
+    "id": "1523031917971116283",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-04T18:25:05.809000+00:00",
+    "content": "@CoreFX bloom update\n\nported bloom airy technique from GTA 5 Enhanced aka Jorge Jimenez mip-pyramid bloom, which will make Legacy look like enhanced even more",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523031917639761941/271590_20260704212311_1.png?ex=6a4aa181&is=6a495001&hm=250698ccbe87732ee343a9949de52b2263008d6630e268f41ead17f4860ca32c&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1522958028305993809",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -237,13 +253,13 @@
     "content": "@CoreFX changed volumetric clouds scale so they appear more detailed (yeah it was a one line change)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a49f66a&is=6a48a4ea&hm=aa77262f221e815d4266dcbdb5f41fdba0bb4887f3150cf1d438431e8c2f950e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a4a9f2a&is=6a494daa&hm=346429dc5a28a90d1655a737cee0b166a7272450b0280455b4c08b30fdb20dba&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a49f66a&is=6a48a4ea&hm=98b9f3c52816452b925b7e694006401142bde5634acefff8dc3f424e98abf17a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a4a9f2a&is=6a494daa&hm=696d7e0c91145bce1a326fae6cb9efdf4b3cdee1709f91d0ec65695b3b241775&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -571,25 +587,25 @@
     "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a49fcf1&is=6a48ab71&hm=dc045b5698d5b4e38f751676c0bc86c5314374365590b2dcc104820ea172a605&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a4aa5b1&is=6a495431&hm=92400254b2b4f49a51cb370c808c312191b072f4edda90ef595c719f2ce78a3a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a49fcf1&is=6a48ab71&hm=cdf1ecb4196a8442025c2b2e209e3454dd71781698caf13685cde58e227e1261&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a4aa5b1&is=6a495431&hm=25f0e60a834b793a707e57bbfea44f11e433aae503cdd47edd9d49af4eb6a403&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a49fcf2&is=6a48ab72&hm=850a09dd6ee4461f0d4fc883f1309572fef72fbae181f8e077eda25a91ad7730&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a4aa5b2&is=6a495432&hm=5d6c35634c96f8819c043128448a78be0a8cee28f5dd8758252232dbecf0f2a4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a49fcf2&is=6a48ab72&hm=284120b0d7cf497913bb24346d25458b0b2ede478e426b735b8df2f51487046e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a4aa5b2&is=6a495432&hm=6861726d91205fa36683b21d15f35f08e3e192cc8bb468f92935102a7ea98cc2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -606,27 +622,18 @@
     "content": "@CoreFX I was messing with Claude Fable 5 model a bit and just casually asked it to optimize my clouds. Results (Before/after), 4k res DLAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a49f47e&is=6a48a2fe&hm=22499604f936a40a5ca88a0d20352cbc47fe0651c02a680ee00689a825651f5c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a4a9d3e&is=6a494bbe&hm=8eac6d58ca82bacfb632aea99315f6b77f732db943d92d96c5a37f344195f339&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a49f47e&is=6a48a2fe&hm=0e405dbe5c5419943214bd50c8b76a7666a39225e80bba27bd7f588326998bf5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a4a9d3e&is=6a494bbe&hm=9e2b25fc3b28a2d6644a7fdda1a37ac7b499b431eb66b59997e43402a6627080&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       }
     ],
-    "embeds": []
-  },
-  {
-    "id": "1514315158292529325",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-10T17:07:48.352000+00:00",
-    "content": "@CoreFX Next update will be for CoreFX, Release date will be revealed in several days",
-    "attachments": [],
     "embeds": []
   }
 ]
