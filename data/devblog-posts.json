@@ -1,5 +1,50 @@
 [
   {
+    "id": "1523258372093382796",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-05T09:24:56.679000+00:00",
+    "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a4b7468&is=6a4a22e8&hm=a66cff46ad834a85a38a7e2e64253e56a89ca70534bdf2c16ba7d7f4b4b89efa&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a4b7468&is=6a4a22e8&hm=1dddf4b6a7a1b7aa42b408ef0fa0aa082d547f4d8e67492d843afa89f5c8bf9b&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1523254929853251584",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-05T09:11:15.985000+00:00",
+    "editedAt": "2026-07-05T09:11:25.377000+00:00",
+    "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a4b7133&is=6a4a1fb3&hm=d960989e66c05082a106c8da98a626a1992be558a514db108984959cb4440b6f&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a4b7133&is=6a4a1fb3&hm=3419cbcfee45dda14e33ab4eff13494fb30e575e3ab625babc0f4caa83903594&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1523031917971116283",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -193,7 +238,7 @@
     "content": "@CoreFX Backport progress\n\n- Ported Volumetric Clouds from Enhanced\n- Ported Dynamic Atmosphere Sky shaders",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a4ac697&is=6a497517&hm=abc986cadb5b406d0fadcdc5bbb7139fc3b7fe1d08133e5ccf9efb27719d69ec&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a4b6f57&is=6a4a1dd7&hm=12d95ea511b3530e0c35d0f6ed2f0ec04dbbaf38244b5c96172df37e2ca30028&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -209,7 +254,7 @@
     "content": "@CoreFX Starting to work on 1.3 Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a4abbf6&is=6a496a76&hm=5043dd7f5eaa6f3df7e7a712a71f5e571d405c016cc232810a90c8ca10ef2378&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a4b64b6&is=6a4a1336&hm=560cca67e4950c66dd0afe04993dd6375dbafb5bbc58fa534b7fb493b170bf85&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -301,13 +346,13 @@
     "content": "@CoreFX i will upload another hotfix soon, that implements contact shadows for all small objects that are affected by the sunlight, so everything, even small grass or trash will cast shadows",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a4ac07e&is=6a496efe&hm=f3b352eeb5c4a0b24a099f1134bea4e35a0b7b68ce1e111bedb851d83ae1564f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a4b693e&is=6a4a17be&hm=0fb79ae319d45ce26896a41a26bfc0348e25418ccf5a3fe91d83e64486402160&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a4ac07e&is=6a496efe&hm=7da433958fe4589bf6d5375e0c14911b083414ca9a05908965956c0521525100&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a4b693e&is=6a4a17be&hm=addcc85b17710fd40e669e8d86e5f22f147257b787e111a2f677740797d6e134&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -479,7 +524,7 @@
     "content": "@CoreFX today",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a4ac0bf&is=6a496f3f&hm=7446f76c8675859dfdb9ef80c815e19f968f450f39aec913a2f325e129f857c5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1517448451942776832/1.png?ex=6a4b697f&is=6a4a17ff&hm=dda1384dd36eba551fb947681681cd0f5c174120c377ee59984253031cf9cdb0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 1920
@@ -574,64 +619,6 @@
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1515063883969335519",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-12T18:42:58.464000+00:00",
-    "editedAt": "2026-06-12T18:43:10.587000+00:00",
-    "content": "@CoreFX You will be able to enable \"Volumetric Clouds - Performance Mode\" to enable additional optimization patches that are sometimes lossy, but nothing crazy, winning extra 20 fps added to the previous post",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063880664092702/3240220_20260612213801_1.png?ex=6a4b4e71&is=6a49fcf1&hm=32825dc86327f0bcd61dfd7f2a2419824f1ff80981b4a4c91cb6ba3b056a7dbf&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063881645691040/3240220_20260612213832_1.png?ex=6a4b4e71&is=6a49fcf1&hm=7bf529179a44103c00d9e1d76f8346ae12597badac0c06495669adc1e7654d25&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063882559918272/3240220_20260612214031_1.png?ex=6a4b4e72&is=6a49fcf2&hm=28a73b987f46e3f7d71ec9ebb31fb80058438dca94e74886101a42a531541c51&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515063883390390402/3240220_20260612213953_1.png?ex=6a4b4e72&is=6a49fcf2&hm=6c1ebba880dc7b2675d832665e5719009cfd631dccd7687ce782a32f6ebc1995&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1515054807990403262",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-12T18:06:54.582000+00:00",
-    "editedAt": "2026-06-12T18:07:24.946000+00:00",
-    "content": "@CoreFX I was messing with Claude Fable 5 model a bit and just casually asked it to optimize my clouds. Results (Before/after), 4k res DLAA",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807017066616/3240220_20260612210453_1.png?ex=6a4b45fe&is=6a49f47e&hm=f2cb24159738524fe206aca0431013e76688676f87ff07e4aec5d1c61f291a00&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515054807726030968/3240220_20260612210336_1.png?ex=6a4b45fe&is=6a49f47e&hm=051176505c826592e4ce544233de06b0ea499e090c3af5421eef80f832f26de8&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
       }
     ],
     "embeds": []
