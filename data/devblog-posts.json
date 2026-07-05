@@ -7,25 +7,25 @@
     "content": "@CoreFX softened light & shadows for almost all spot & point lights of the game, exterior and interior.\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a4b90e2&is=6a4a3f62&hm=d532ab5bba736277b527ef70f1aa242102cbd8499dd894c190afa1a06986b10b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a4c39a2&is=6a4ae822&hm=6537cf1ba025a907348809e1082dc0a24134654d58abad8ddbadbae3f4642acf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a4b90e2&is=6a4a3f62&hm=a3556bae18675a591b01f404db246612bae4f28a6fd66cd75c1baa0b1cb2ec4b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a4c39a2&is=6a4ae822&hm=d554a51c565f7d37916401660218d84d3a844fdf483a05fb5ab63ebb43c3a383&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a4b90e2&is=6a4a3f62&hm=aeef75ef2c6818fe3d153cf089a513823a5747143a26741f24a17e3e64cb78fa&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a4c39a2&is=6a4ae822&hm=8f2781d8829e19dd318c600549b99df579ac1c46184f2a4a14b620165a495118&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a4b90e3&is=6a4a3f63&hm=533f5b72f6c4e32221e835ae4b2d3474be08f90c5ae6374bf9375ef3b4990339&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a4c39a3&is=6a4ae823&hm=f2a0f95d9d7e325e889316287ec0c7d2016386805ceee9395471d5ea7fc6a56e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -234,13 +234,13 @@
     "content": "@CoreFX comparison\n\nEnhanced / Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572017885511710/image.png?ex=6a4b9831&is=6a4a46b1&hm=253eba2134d5d91205748da0150ed925eacdcdb0e5222591a664bc3a0439a26e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572017885511710/image.png?ex=6a4c40f1&is=6a4aef71&hm=940b607f1c6aa75cb30ba3e4f2b9349813eb2ff827441db977783f951c46b3ec&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572018736959528/271590_20260703145702_1.png?ex=6a4b9831&is=6a4a46b1&hm=9191002194de22445ce60d9e22c8a0d0135fc7223ecafbe7b923e59846f8a4b8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572018736959528/271590_20260703145702_1.png?ex=6a4c40f1&is=6a4aef71&hm=bc2b1aac56826833443c9c783f175a29c8e693be19d9f3077117fd511d6678b2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -256,7 +256,7 @@
     "content": "@CoreFX \n\nPorted vehicle + lightning shaders and some other stuff\n\nright now, it looks exactly like Enhanced but without ray tracing (obviously, since weather files are copied from Enhanced too)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522570718838132847/image.png?ex=6a4b96fb&is=6a4a457b&hm=94e434bcad96370c32c6ab253e526b17e537bd5b8e9dddd7bd148685a6b19962&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522570718838132847/image.png?ex=6a4c3fbb&is=6a4aee3b&hm=060b475cf679af382d269419bec3fe88ed7f9645dc0dcc7e36402a30c2a40504&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -354,7 +354,7 @@
     "content": "@CoreFX Next CoreFX Enhanced 1.3 Hotfix will migrate installation files into one big Super OIV file (.oivs), this is a new installation method that is exclusive to our [OIV Package Installer](https://www.gta5-mods.com/tools/oiv-package-installer).\n\nThis was also made in prior to people stop using OpenIV to install CoreFX, because it does not support uninstalller that provided in the package and generally considered as an obsolete modding tool.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1520941004985864202/AEEB7937-ED17-4ABE-9DC6-F698A0F1E52B.png?ex=6a4b97f1&is=6a4a4671&hm=3efb5a90d9f1e635fd2f7c43b1b42eee35174b4c4eaf37436fc191d4b58ce919&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1520941004985864202/AEEB7937-ED17-4ABE-9DC6-F698A0F1E52B.png?ex=6a4c40b1&is=6a4aef31&hm=f26253d3eb77e008b200e4ecaf622867425251f6cce8d808f2523ebd4bcee9a0&",
         "contentType": "image/webp",
         "width": 942,
         "height": 689
