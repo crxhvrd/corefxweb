@@ -1,5 +1,39 @@
 [
   {
+    "id": "1523288950456713288",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-05T11:26:27.129000+00:00",
+    "content": "@CoreFX softened light & shadows for almost all spot & point lights of the game, exterior and interior.\n\nbefore/after",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a4b90e2&is=6a4a3f62&hm=d532ab5bba736277b527ef70f1aa242102cbd8499dd894c190afa1a06986b10b&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a4b90e2&is=6a4a3f62&hm=a3556bae18675a591b01f404db246612bae4f28a6fd66cd75c1baa0b1cb2ec4b&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a4b90e2&is=6a4a3f62&hm=aeef75ef2c6818fe3d153cf089a513823a5747143a26741f24a17e3e64cb78fa&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a4b90e3&is=6a4a3f63&hm=533f5b72f6c4e32221e835ae4b2d3474be08f90c5ae6374bf9375ef3b4990339&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1523258372093382796",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -222,7 +256,7 @@
     "content": "@CoreFX \n\nPorted vehicle + lightning shaders and some other stuff\n\nright now, it looks exactly like Enhanced but without ray tracing (obviously, since weather files are copied from Enhanced too)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522570718838132847/image.png?ex=6a4aee3b&is=6a499cbb&hm=b1eccb76778fe1e93579c08a585705df731da7b10119a125b06597bc55a395b4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522570718838132847/image.png?ex=6a4b96fb&is=6a4a457b&hm=94e434bcad96370c32c6ab253e526b17e537bd5b8e9dddd7bd148685a6b19962&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -595,28 +629,6 @@
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515510447401467944/Grand_Theft_Auto_V_Enhanced_2026.06.14_-_03.00.06.02.mp4?ex=6a4af417&is=6a49a297&hm=45bfdc9d6693bb72c5c3be3d2c54b35476a3e98a317f9ce94bda3f27cc71e0a8&",
         "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1515085779741839440",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-12T20:09:58.823000+00:00",
-    "content": "@CoreFX Dual RTAO. Now has contact and environmant shadows that work together, creating more details than a regular RTAO",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085778793795674/CCBA1E73-67DE-4430-9406-1316379DA486.png?ex=6a4b62d6&is=6a4a1156&hm=7dd9f009c41948d94d9e351970ab691a6025800fbc366ce4286fe3bfc5a817de&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1515085779326468227/C14C63CE-4130-461C-8D27-F088118B83F5.png?ex=6a4b62d6&is=6a4a1156&hm=2efc5d29f55158ab774e7765dad7dc34e79b66cc9de4ad04bbb534be1b25274f&",
-        "contentType": "image/png",
         "width": 1920,
         "height": 1080
       }
