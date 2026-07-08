@@ -8,13 +8,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a4e5d03&is=6a4d0b83&hm=8d7e042a223af59ed7c1b2b26c9d8d8d406d9035a9830d52f99a25df39cad057&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a4f05c3&is=6a4db443&hm=7a00c1e04d064b26d5d9b25711cd3235a6d0f05f310ec0ee4b1372c18f1587e3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a4e5d03&is=6a4d0b83&hm=6b92f044a39d2d52cae256f17dddb8179edfbe41a951c979fc17128b49db7f80&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a4f05c3&is=6a4db443&hm=699c0e7155e30fdf53933d4a85f6562aa846ecba916e0665573abdf3e35a9db5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -125,7 +125,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a4e5131&is=6a4cffb1&hm=36d496d0b80d7535194c22077fc406b3495e0b6e19a5a0a821467c7989bc6686&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a4ef9f1&is=6a4da871&hm=91f7307428a8de612137cbdce469273c46a3baaa4bf72e1f80ca4f43ea14acef&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -195,7 +195,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a4e4cac&is=6a4cfb2c&hm=a8ca63da834ac2b638313fe963c841c69309c53a21f40c9eb160f5972ae98133&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a4ef56c&is=6a4da3ec&hm=ff89fa9c5eaa6fdfc7b6051aa806d5e17a8c239e540d3407e5d219af870c0790&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
