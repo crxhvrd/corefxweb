@@ -1,5 +1,39 @@
 [
   {
+    "id": "1524588550543380555",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-09T01:30:35.935000+00:00",
+    "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a504b3b&is=6a4ef9bb&hm=3c7d71f57019611b6f49639d9ac1be6bd3c5edd7e33f1f6592774e54334822db&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a504b3b&is=6a4ef9bb&hm=fe68df11a63ad7309f7d5c82ae24fa50d7e31712b401d95311fdd72520d94715&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a504b3b&is=6a4ef9bb&hm=5216c63c344aad2e6ec7065d222f1b74244c5232b665fb40ab8913945c4330f9&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a504b3b&is=6a4ef9bb&hm=e4daac1c27e28f27db6ec04542cd26e6b7dedba1b113b6f002dba99aebb518f2&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1524468898336997418",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -30,13 +64,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a4fae83&is=6a4e5d03&hm=980465344245e35b3720ab53ac5c0e5c75c92eeea59521a49ccc2e2f1064fcdd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a505743&is=6a4f05c3&hm=80885a2b33823eb04fa8bac733c2d682230697a3750634b79dae85c0f7d453a5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a4fae83&is=6a4e5d03&hm=eaa0b7e369c89777fd2ddab1448c492421fb728aeac41a7d56ce06828d76b54e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a505743&is=6a4f05c3&hm=d7663ddc7478c2103135f866d93012bee3d9bda597be766906be100473ee3d7e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -147,7 +181,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a4fa2b1&is=6a4e5131&hm=914ea61deafe52f82048586de1c673e0de00f128591d9051ac9bdb46d7d623e3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a504b71&is=6a4ef9f1&hm=2f04c10534e2b4424e27a28fd61bc6599bf8242bd0a77fdb965dd07f5ddf7c54&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -217,7 +251,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a4f9e2c&is=6a4e4cac&hm=e3c7805ce9509830a5db6f36b029b21945770408c09afa8687b846a9abf4864d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a5046ec&is=6a4ef56c&hm=65943a1aa1a492d51e596ddf79622709b73011d1494b7924914276c012548d22&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -349,19 +383,19 @@
     "content": "@CoreFX CoreFX 1.3 Enhanced Hotfix 2 brings updated volumetric clouds & lightning effects, contact shadows for small objects, new installation method for Singleplayer and other minor fixes\n\nAvailable to download on Patreon page",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549602757804092/3240220_20260630191249_1.png?ex=6a4fc8fe&is=6a4e777e&hm=d7bb720e9b195bc2229adb109364f103207f48a0ea15157673f9a84ebfcc7837&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549602757804092/3240220_20260630191249_1.png?ex=6a5071be&is=6a4f203e&hm=f8a55106ba117166c8ddba555d8745252063e01147ad75a7b04a83e640ce0871&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549603797995631/3240220_20260630190842_1.png?ex=6a4fc8fe&is=6a4e777e&hm=4d93e3fefb066615f503ff6299745e44ac521b5d92f302fa58584827ee0c35da&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549603797995631/3240220_20260630190842_1.png?ex=6a5071be&is=6a4f203e&hm=8afa7914550339dc5412c91a666ae6bc8f44c7d9e1e6cd92d1963c4933d4b1e9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549604754034738/3240220_20260630191156_1.png?ex=6a4fc8fe&is=6a4e777e&hm=09219ed41dab12431d72a282859427e0ec0f45a25501757bf33d93fae89ec8d7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549604754034738/3240220_20260630191156_1.png?ex=6a5071be&is=6a4f203e&hm=f838f1a1b87e2d44f1e15d68269be4957c93d0da61c5c0ea4d6e6c19d3aaedf5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -627,24 +661,5 @@
       }
     ],
     "embeds": []
-  },
-  {
-    "id": "1516136415841222758",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-15T17:44:49.989000+00:00",
-    "content": "@CoreFX https://www.gta5-mods.com/scripts/simple-camera\n\nUpdated to 3.2",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "article",
-        "url": "https://www.gta5-mods.com/scripts/simple-camera",
-        "providerName": "GTA5-Mods.com",
-        "title": "Simple Camera",
-        "description": "Simple Camera — Cinematic Toolkit for GTA V\n \n A free-camera and photo-mode plugin for Grand Theft Auto V. Detach the camera from your character and fly anywhere to frame screenshots and cinematic shots, or switch to Camera Sequence mode to author keyframed camera moves and render them out for video.\n \n Key Features\n \n • Free Camera mode —...",
-        "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/87203f-1.jpg",
-        "color": 2144846
-      }
-    ]
   }
 ]
