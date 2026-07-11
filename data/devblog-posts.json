@@ -152,13 +152,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a52b4a8&is=6a516328&hm=3c343be86e9540da03f0093e0d28e3fca20077d13d99cbd395a9ae1f1a755e93&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a535d68&is=6a520be8&hm=98dfb534a71173d7da758a2468f539c7f503b5091cbdef942026c5fa1c1a4f31&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a52b4a8&is=6a516328&hm=c323fe49080d3eb7445c836fdc8f81243f4648db75fb20c02263f7d03425069b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a535d68&is=6a520be8&hm=2dcafc77ec1c19cbd951bd96f3b2d1b99301016437165682f3097c107803bb2f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -175,13 +175,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a52b173&is=6a515ff3&hm=22221798432d870bc55bf7245c92669faed57f243401940c0875c43cb09f75e7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a535a33&is=6a5208b3&hm=20d0af3de8420d1e2c546bc2c07435afba52d75439fca00472484ef9c2bba2ab&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a52b173&is=6a515ff3&hm=08cedd48f7193761cd3f1d0c77da696cc8104fda1c1f04ddb7f99fca57fbe53b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a535a33&is=6a5208b3&hm=558ec5ed6b5ec55e0ff9e8e1ff7aa070a723010ec8feef897fdd43e88c687b60&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -383,7 +383,7 @@
     "content": "@CoreFX Backport progress\n\n- Ported Volumetric Clouds from Enhanced\n- Ported Dynamic Atmosphere Sky shaders",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a52af97&is=6a515e17&hm=b3e869cfb7bb1d36f51f36d3f2001514d6666b98ec524962ccd45d9d4cec834f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a535857&is=6a5206d7&hm=f4de780288af9e8c61f4fa441e7e8dcb4be88f595c643e73fea73cc556235818&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -491,13 +491,13 @@
     "content": "@CoreFX i will upload another hotfix soon, that implements contact shadows for all small objects that are affected by the sunlight, so everything, even small grass or trash will cast shadows",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a52a97e&is=6a5157fe&hm=a624dc811eb34fbcf60e90cfffe716f22807ae2727b3551911056320ec7fb582&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a53523e&is=6a5200be&hm=f9270f268fe719763fbdef7a748ddbc113d513c5ba517c90ed99c5cf6bfad8d6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a52a97e&is=6a5157fe&hm=11519a62f96e72a8da8d2fae95cb2cf726bd5a27333ae7b400dc5dcf68a7533e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a53523e&is=6a5200be&hm=912c62d486763cc467b5d6e3426ed8eaedcf875bc1f57e70a0df29b342e33150&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
