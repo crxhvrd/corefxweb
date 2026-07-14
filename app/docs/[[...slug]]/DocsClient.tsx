@@ -61,11 +61,11 @@ const RageMpSunsetNotice = () => (
             >
                 ecosystem shutdown announcement
             </a>
-            , the RageMP builds of CoreFX (Legacy &amp; Enhanced) will remain available
-            for download until <strong>August 31, 2026</strong>. After this date they
-            will be removed from all public download repositories. If you wish to keep
-            using them, please back up your copy before then. Singleplayer and FiveM
-            builds are unaffected.
+            , the Enhanced RageMP build of CoreFX will remain available for download
+            until <strong>August 31, 2026</strong>. After this date it will be removed
+            from all public download repositories. If you wish to keep using it, please
+            back up your copy before then. The Legacy RageMP build has already been
+            discontinued. Singleplayer and FiveM builds are unaffected.
         </p>
     </div>
 );
@@ -140,13 +140,13 @@ const faqs = [
         question:
             'Is CoreFX compatible with Singleplayer and multiplayer platforms like FiveM or RageMP?',
         answer:
-            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions. Note: due to RageMP’s ecosystem shutdown, the RageMP builds of CoreFX will be available only until August 31, 2026.'
+            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions. Note: due to RageMP’s ecosystem shutdown, the Enhanced RageMP build of CoreFX will be available only until August 31, 2026, and the Legacy RageMP build has already been discontinued.'
     },
     {
         question:
             'What is happening to CoreFX for RageMP?',
         answer:
-            'Following RageMP’s ecosystem shutdown announcement, the RageMP builds of CoreFX (both Legacy and Enhanced) will remain available for download until August 31, 2026. After that date they will be removed from all public download repositories. If you want to keep using them, back up your copy before then. The Singleplayer and FiveM builds are not affected.'
+            'Following RageMP’s ecosystem shutdown announcement, the Enhanced RageMP build of CoreFX will remain available for download until August 31, 2026. After that date it will be removed from all public download repositories. If you want to keep using it, back up your copy before then. The Legacy RageMP build has already been discontinued following the new GTA 5 update and will not be maintained. The Singleplayer and FiveM builds are not affected.'
     },
     {
         question: 'Where can I find updates and support?',
