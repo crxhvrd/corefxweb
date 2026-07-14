@@ -6,7 +6,6 @@ const installTabs = [
   'enhanced',
   'fivem',
   'fivem-server',
-  'ragemp',
   'enhanced-ragemp'
 ] as const;
 

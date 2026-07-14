@@ -179,7 +179,6 @@ const installTabs = [
     'enhanced',
     'fivem',
     'fivem-server',
-    'ragemp',
     'enhanced-ragemp'
 ] as const;
 type InstallTab = typeof installTabs[number];
@@ -189,7 +188,6 @@ const installLabels: Record<InstallTab, string> = {
     enhanced: 'Enhanced Singleplayer',
     fivem: 'Legacy FiveM',
     'fivem-server': 'Legacy FiveM ServerSide',
-    ragemp: 'Legacy RageMP',
     'enhanced-ragemp': 'Enhanced RageMP'
 };
 
@@ -735,94 +733,6 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                         <strong>Shader Quality</strong> and{' '}
                                                         <strong>Post FX</strong> to <strong>Ultra</strong> in
                                                         the graphics settings. Additionally, set in-game brightness to approximately 40-50 %.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-                                        </div>
-                                    )}
-
-                                    {/* ───────── Legacy RageMP ───────── */}
-                                    {activeInstallTab === 'ragemp' && (
-                                        <div className="install-block">
-
-                                            <RageMpSunsetNotice />
-
-                                            <InstallationStep title="Installing CoreFX" defaultOpen={false}>
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>Extract the downloaded package.</li>
-                                                    <li>
-                                                        <strong>Method 1 (Recommended):</strong> Copy the
-                                                        <code>user_resources</code> folder from the downloaded
-                                                        package into your main RageMP directory.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Method 2 (Alternative):</strong> Replace your
-                                                        original <code>update.rpf</code> in{' '}
-                                                        <code>Grand Theft Auto V/update</code> with the one
-                                                        provided in the{' '}
-                                                        <code>update.rpf replace install method</code> folder.{' '}
-                                                        <strong>Backup your original update.rpf first!</strong>
-                                                    </li>
-                                                    <li>
-                                                        Set in-game brightness to approximately 40-50 %.
-                                                    </li>
-                                                    <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
-                                                                It is really important to have DirectX 11 enabled
-                                                                and PostFX and Shader quality set to Ultra in ingame
-                                                                settings to prevent visual bugs and to enable new
-                                                                shader features. This will also fix super dark nights
-                                                                on certain weathers because of how CoreFX interacts
-                                                                with shaders.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Remove the <code>user_resources</code> folder (Method 1)
-                                                        or restore your original <code>update.rpf</code> (Method
-                                                        2).
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Installing CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-yellow-300 text-sm">
-                                                                <strong>Warning:</strong> ReShade builds for RageMP
-                                                                are currently pending Easy Anti-Cheat (EAC)
-                                                                approval. While some servers may allow it, you might
-                                                                be unable to join others or face connection issues.
-                                                                Use at your own risk.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        Copy all files from the <code>CoreFX ReShade</code>{' '}
-                                                        folder into your main RageMP directory (where{' '}
-                                                        <code>updater.exe</code> is located).
-                                                    </li>
-                                                    <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade
-                                                        menu and enable available shaders manually.
-                                                    </li>
-                                                    <li>
-                                                        You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        Remove the files you copied from the <code>CoreFX ReShade</code> folder from your main RageMP directory.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
