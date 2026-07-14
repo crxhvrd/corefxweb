@@ -1,5 +1,14 @@
 [
   {
+    "id": "1526577357022822451",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-14T13:13:24.350000+00:00",
+    "content": "@CoreFX CoreFX for RageMP is sunsetting early, 1.2 Legacy RageMP is removed from public downloads due to new GTA 5 Update and 1.3 Enhanced RageMP will be removed after 1.3.1 Legacy & Enhanced release later this month, so download and save before complete End-of-Life of RageMP version of the mod.",
+    "attachments": [],
+    "embeds": []
+  },
+  {
     "id": "1525671678712090776",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -7,13 +16,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a56def9&is=6a558d79&hm=7c68ada2581fbe179aa2922a721783eb414fc6084eac48186d61e3ac1f78b79a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a5787b9&is=6a563639&hm=f76c2f8d44c6f013f66eeea2f4cb7d7ccd40ce144faf9a0714841aa652f5af93&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a56def9&is=6a558d79&hm=a4c41c42e1e3a673fe84af9cf93e21ef93dd3fdc3d51d15151538a0f7d2c9a18&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a5787b9&is=6a563639&hm=df4e4e96bf0e69976440f3ef2bb41711410f50813afb985467f834220a430a32&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -45,7 +54,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a56ec10&is=6a559a90&hm=67601541faa9336ff083a33f09399b15b0a7db95db6d13e5771840eb7c6d46d4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5794d0&is=6a564350&hm=39b48ebdbfed8df568e54c403be16dac7aa269329c715d1c314a1c4c1ab14e7a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -61,25 +70,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a56e2bb&is=6a55913b&hm=4c4ea203c79437447624a388dcb78b70dd200505bbfdbfd936ee466cb82bb888&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a578b7b&is=6a5639fb&hm=fd763c0cd7dc1e15e846eee9db437924358fe8a1f50fbedd98a401b02c9c16c8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a56e2bb&is=6a55913b&hm=de30ae0bbd471f77cec2be72f385ebdca3ff6f5b9c6da19b9d9b7ae2bebb50d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a578b7b&is=6a5639fb&hm=459efeb8819c02e6e462ce8242ae53c4c32ccff4c821aa491c1af0b4b0186b81&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a56e2bb&is=6a55913b&hm=25028063f7361d5a3c67a9ef3b2cdabaed9bab9564de4c18723f0e1d28b26e69&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a578b7b&is=6a5639fb&hm=30874e351016d503f13d02c55646f2620260d4fb9906b0866e6422bb844ddcef&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a56e2bb&is=6a55913b&hm=70e1ca06937e6a7c345f46e5821ed10fa3acf7439a42964e5a9b53b7f599d02c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a578b7b&is=6a5639fb&hm=9e99072137c96a1141db577fffd77aae2fc785462e588d2364f5789e77048d08&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -118,13 +127,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a56eec3&is=6a559d43&hm=814aad4cf9b717f92678cd392e2079aabca98242a336e36d9fed37002036111b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a579783&is=6a564603&hm=ae5f850a4ee6042f1dee01d70beb67c941f6f0f2bbf69a93f0c6599c85ce74ac&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a56eec3&is=6a559d43&hm=da3600249a987cd90e0e6803771b9353f041615b38a2c489450136aa121ce230&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a579783&is=6a564603&hm=9bebac8c98fb8bdeafdf937c5b5998864975b76e2a68980ec6c47a10ffb73d9e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -235,7 +244,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a56e2f1&is=6a559171&hm=648a02978fa4f0873efd11f5082af4e3a9629c2395942a7eee74eb30a22f1d0c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a578bb1&is=6a563a31&hm=0fb37a08dd0cc9d96b07283eca76332c32c815483099068dfd17f84e02f4aebd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -305,7 +314,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a56de6c&is=6a558cec&hm=59a6bf15032e395544548a197c2db6caf34be9c1e6f9b5a6a4cbde0da84a8abb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a57872c&is=6a5635ac&hm=06a0fb7dd152816bae58431cf8524f34f70496669d0335bc5360f667c78b3c1d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -653,14 +662,5 @@
         "color": 16711680
       }
     ]
-  },
-  {
-    "id": "1517928094776692806",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-20T16:24:19.535000+00:00",
-    "content": "@CoreFX I'm going to clarify Legacy situation a bit. Legacy 1.3 will be released about a month after Enhanced 1.3, as we plan to port all the new features we made for Enhanced. This includes all the new updated weather systems, volumetric cloud support for all weather conditions, and other features you all saw in our dev blog. We are also will be removing few Legacy shader additions (StarLens, particle updates, vehicle environment sirens etc) that are considered low quality and ruining the visual style of the mod.",
-    "attachments": [],
-    "embeds": []
   }
 ]
