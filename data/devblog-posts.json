@@ -16,13 +16,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a5787b9&is=6a563639&hm=f76c2f8d44c6f013f66eeea2f4cb7d7ccd40ce144faf9a0714841aa652f5af93&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a583079&is=6a56def9&hm=b0bda02d9a85117dcfa27ec913e56d63a16b0e737761569f6a542c39d914b582&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a5787b9&is=6a563639&hm=df4e4e96bf0e69976440f3ef2bb41711410f50813afb985467f834220a430a32&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a583079&is=6a56def9&hm=0c8ba6f6dab1e73b575a72d678bfe3999575c1396c660ae457598f2cb72cbcf0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -54,7 +54,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5794d0&is=6a564350&hm=39b48ebdbfed8df568e54c403be16dac7aa269329c715d1c314a1c4c1ab14e7a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a583d90&is=6a56ec10&hm=daccea4ee0183c53b173653120a1549ea02029dbd5e0452ee6b8b8db047ea994&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -70,25 +70,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a578b7b&is=6a5639fb&hm=fd763c0cd7dc1e15e846eee9db437924358fe8a1f50fbedd98a401b02c9c16c8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a58343b&is=6a56e2bb&hm=4cb6ac3c9544a46d1be27333901b95823492a619722fa13c0b865a76af54dded&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a578b7b&is=6a5639fb&hm=459efeb8819c02e6e462ce8242ae53c4c32ccff4c821aa491c1af0b4b0186b81&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a58343b&is=6a56e2bb&hm=68c37ee4ad35001e9336e6386ba8403243c87b1c56554121eb149cea4bf564a4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a578b7b&is=6a5639fb&hm=30874e351016d503f13d02c55646f2620260d4fb9906b0866e6422bb844ddcef&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a58343b&is=6a56e2bb&hm=a0dcfac29794bb6f8d6270340edfd14da531c4eda6c7dd1e929f481affb8746b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a578b7b&is=6a5639fb&hm=9e99072137c96a1141db577fffd77aae2fc785462e588d2364f5789e77048d08&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a58343b&is=6a56e2bb&hm=e71a2b97b9f0a615273d267dd46247df6140ed6f99fe1cdea262887cd90c69c0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -127,13 +127,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a579783&is=6a564603&hm=ae5f850a4ee6042f1dee01d70beb67c941f6f0f2bbf69a93f0c6599c85ce74ac&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a584043&is=6a56eec3&hm=179e5acd674ebc7391ccb80f202a037774577f35a5016bd8d0dc542a3d85bb65&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a579783&is=6a564603&hm=9bebac8c98fb8bdeafdf937c5b5998864975b76e2a68980ec6c47a10ffb73d9e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a584043&is=6a56eec3&hm=4103b96da1bfa747df8560a2780626c0a9a7ee9d19d5f545f3e9885b9fd7a7b3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -244,7 +244,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a578bb1&is=6a563a31&hm=0fb37a08dd0cc9d96b07283eca76332c32c815483099068dfd17f84e02f4aebd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a583471&is=6a56e2f1&hm=9581ac6e76d3b9450959417d4dfb9865ac61a1f36fa2f76b94e9daaaeef25e82&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -314,7 +314,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a57872c&is=6a5635ac&hm=06a0fb7dd152816bae58431cf8524f34f70496669d0335bc5360f667c78b3c1d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a582fec&is=6a56de6c&hm=6be27eeab7a56f3360f429f2e44e08ef213e44a23ee7095982fd95d495e56a39&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
