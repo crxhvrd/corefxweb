@@ -1,5 +1,14 @@
 [
   {
+    "id": "1526897061033676940",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-15T10:23:47.726000+00:00",
+    "content": "@CoreFX Newest GTA 5 Update broke CoreFX Enhanced shaders, some of them need to be updated. RageMP Enhanced will not be updated and is going to be removed from public downloads soon due to the big amount of shader work that we need to do.",
+    "attachments": [],
+    "embeds": []
+  },
+  {
     "id": "1526577357022822451",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -38,7 +47,7 @@
     "content": "@CoreFX WIP - StarLens, inspired by our old ENB StarLens",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a581b39&is=6a56c9b9&hm=08abec86d71472198c37a69e1e90de8e6dbe9f2624050c583574c5adb9d0fffa&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a58c3f9&is=6a577279&hm=bc6cb553953e8b6a1d1ceba0accaa8ce74cee635e24c861b91d3f812036424ad&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -149,25 +158,25 @@
     "content": "@CoreFX softened light & shadows for almost all spot & point lights of the game, exterior and interior.\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a581722&is=6a56c5a2&hm=54780d9436addc6ade2b9a02277e079d06d5737e99d1933d18ea796a326d4642&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a58bfe2&is=6a576e62&hm=4c05e05846b0280e4f4b04d28c6860a1d8df3435197445fa73da47ce44d63312&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a581722&is=6a56c5a2&hm=9b3f408cdf31eb796b6c9ee012527cdcca033b0b1e11ce1ea69473840389f6d8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a58bfe2&is=6a576e62&hm=59733206daa940431748e18ac83dd2081b20f01d41630476342edb7786727fb6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a581722&is=6a56c5a2&hm=da3586222859d732b4c4d49d5a671c0516b8c6b0dc46e3d1a6fec09d7650fb40&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a58bfe2&is=6a576e62&hm=56cc27dd4792acb5c051232daf22c5501b0e3772e491a3b833aadd561a6b76d7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a581723&is=6a56c5a3&hm=ea7417e20d8d656966d37680120f39d3815e1e55fe04f9149ff3f5dbda2877e8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a58bfe3&is=6a576e63&hm=f5a2101777128df323ce72d694c8d4e2bd84f1c9f7bf1dc3e83d7b013005a3da&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -643,24 +652,5 @@
       }
     ],
     "embeds": []
-  },
-  {
-    "id": "1518776543659299016",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-23T00:35:45.512000+00:00",
-    "content": "https://www.youtube.com/watch?v=jI0uZwcqVWQ\n\n@CoreFX Yes, Simple Camera tutorial",
-    "attachments": [],
-    "embeds": [
-      {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=jI0uZwcqVWQ",
-        "providerName": "YouTube",
-        "title": "GTA 5 Simple Camera Tutorial: Camera Sequence & Vehicle Chase Scene...",
-        "description": "Download Simple Camera at GTA5Mods: https://www.gta5-mods.com/scripts/simple-camera\n\nDiscord server: https://discord.com/invite/jK4SRmBqYt",
-        "imageUrl": "https://i.ytimg.com/vi/jI0uZwcqVWQ/maxresdefault.jpg",
-        "color": 16711680
-      }
-    ]
   }
 ]
