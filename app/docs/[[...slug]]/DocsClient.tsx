@@ -148,7 +148,8 @@ const installTabs = [
     'singleplayer',
     'enhanced',
     'fivem',
-    'fivem-server'
+    'fivem-server',
+    'enhanced-fivem'
 ] as const;
 type InstallTab = typeof installTabs[number];
 
@@ -156,7 +157,8 @@ const installLabels: Record<InstallTab, string> = {
     singleplayer: 'Legacy Singleplayer',
     enhanced: 'Enhanced Singleplayer',
     fivem: 'Legacy FiveM',
-    'fivem-server': 'Legacy FiveM ServerSide'
+    'fivem-server': 'Legacy FiveM ServerSide',
+    'enhanced-fivem': 'Enhanced FiveM'
 };
 
 /* ───────────────────────── COMPONENT ───────────────────────── */
@@ -704,6 +706,32 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
+                                        </div>
+                                    )}
+
+                                    {/* ───────── Enhanced FiveM ───────── */}
+                                    {activeInstallTab === 'enhanced-fivem' && (
+                                        <div className="install-block">
+                                            <div className="flex flex-col items-center justify-center text-center py-16 px-6">
+                                                <span className="text-5xl mb-4">🚧</span>
+                                                <h3 className="text-2xl font-bold mb-2">
+                                                    Coming Soon
+                                                </h3>
+                                                <p className="text-gray-400 max-w-md">
+                                                    CoreFX for Enhanced FiveM is in the works. An
+                                                    installation guide will be published here once it&apos;s
+                                                    ready. Stay tuned on our{' '}
+                                                    <a
+                                                        href="https://discord.gg/jK4SRmBqYt"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="underline hover:text-white"
+                                                    >
+                                                        Discord
+                                                    </a>{' '}
+                                                    for updates.
+                                                </p>
+                                            </div>
                                         </div>
                                     )}
 

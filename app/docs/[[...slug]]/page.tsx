@@ -5,7 +5,8 @@ const installTabs = [
   'singleplayer',
   'enhanced',
   'fivem',
-  'fivem-server'
+  'fivem-server',
+  'enhanced-fivem'
 ] as const;
 
 export async function generateStaticParams() {
