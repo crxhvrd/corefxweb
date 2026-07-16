@@ -46,31 +46,6 @@ const InstallationStep = ({
     );
 };
 
-const RageMpSunsetNotice = () => (
-    <div className="bg-amber-900/30 border border-amber-600/50 p-4 rounded-lg mb-6">
-        <p className="text-amber-300 text-sm font-semibold mb-1">
-            ⚠️ CoreFX for RageMP is sunsetting early
-        </p>
-        <p className="text-amber-200/90 text-sm">
-            Following RageMP&apos;s{' '}
-            <a
-                href="https://rage.mp/forums/topic/26561-long-term-eco-system-integration-pt-ii-final-outreach-cd/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-white"
-            >
-                ecosystem shutdown announcement
-            </a>
-            {' '}and the new GTA 5 update, the <strong>Legacy RageMP</strong> build (1.2)
-            has been removed from public downloads. The <strong>Enhanced RageMP</strong>{' '}
-            build (1.3) will be removed after the <strong>1.3.1 Legacy &amp; Enhanced</strong>{' '}
-            release later this month, at which point the RageMP version of CoreFX reaches
-            complete End-of-Life. Please download and back up your copy before then.
-            Singleplayer and FiveM builds are unaffected.
-        </p>
-    </div>
-);
-
 /* ───────────────────────── DATA ───────────────────────── */
 
 const prerequisitesSections = [
@@ -113,7 +88,7 @@ const prerequisitesSections = [
             {
                 title: 'Optional',
                 items: [
-                    'FiveM or RageMP (Multiplayer): CoreFX supports multiplayer platforms.',
+                    'FiveM (Multiplayer): CoreFX supports multiplayer platforms.',
                     'Graphics Driver Updates: Keep your GPU drivers up to date.'
                 ]
             }
@@ -139,15 +114,9 @@ const faqs = [
     },
     {
         question:
-            'Is CoreFX compatible with Singleplayer and multiplayer platforms like FiveM or RageMP?',
+            'Is CoreFX compatible with Singleplayer and multiplayer platforms like FiveM?',
         answer:
-            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions. Note: the RageMP version of CoreFX is sunsetting early. The Legacy RageMP build (1.2) has been removed from public downloads due to the new GTA 5 update, and the Enhanced RageMP build (1.3) will be removed after the 1.3.1 Legacy & Enhanced release later this month. Please download and back up before then.'
-    },
-    {
-        question:
-            'What is happening to CoreFX for RageMP?',
-        answer:
-            'CoreFX for RageMP is sunsetting early. The Legacy RageMP build (1.2) has been removed from public downloads due to the new GTA 5 update and will not be maintained. The Enhanced RageMP build (1.3) will be removed after the 1.3.1 Legacy & Enhanced release later this month, at which point the RageMP version of CoreFX reaches complete End-of-Life. Please download and save your copy before then. The Singleplayer and FiveM builds are not affected.'
+            'Yes. However, installation steps differ for each platform — please refer to the Installation section for detailed instructions.'
     },
     {
         question: 'Where can I find updates and support?',
@@ -179,8 +148,7 @@ const installTabs = [
     'singleplayer',
     'enhanced',
     'fivem',
-    'fivem-server',
-    'enhanced-ragemp'
+    'fivem-server'
 ] as const;
 type InstallTab = typeof installTabs[number];
 
@@ -188,8 +156,7 @@ const installLabels: Record<InstallTab, string> = {
     singleplayer: 'Legacy Singleplayer',
     enhanced: 'Enhanced Singleplayer',
     fivem: 'Legacy FiveM',
-    'fivem-server': 'Legacy FiveM ServerSide',
-    'enhanced-ragemp': 'Enhanced RageMP'
+    'fivem-server': 'Legacy FiveM ServerSide'
 };
 
 /* ───────────────────────── COMPONENT ───────────────────────── */
@@ -740,62 +707,6 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                         </div>
                                     )}
 
-                                    {/* ───────── Enhanced RageMP ───────── */}
-                                    {activeInstallTab === 'enhanced-ragemp' && (
-                                        <div className="install-block">
-
-                                            <RageMpSunsetNotice />
-
-                                            <InstallationStep title="Installing CoreFX" defaultOpen={false}>
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>Extract the downloaded package.</li>
-                                                    <li>
-                                                        <strong>Method 1 (Recommended):</strong> Copy the
-                                                        <code>user_resources</code> folder from the downloaded
-                                                        package into your main RageMP directory.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Method 2 (Alternative):</strong> Replace your
-                                                        original <code>update.rpf</code> in{' '}
-                                                        <code>Grand Theft Auto V/update</code> with the one
-                                                        provided in the{' '}
-                                                        <code>update.rpf replace install method</code> folder.{' '}
-                                                        <strong>Backup your original update.rpf first!</strong>
-                                                    </li>
-                                                    <li>
-                                                        The CoreFX shaders are <strong>baked directly into the
-                                                        game files</strong> and ship with the base mod above, so
-                                                        there is no separate shader install and no ReShade or other
-                                                        external injector. Because nothing is injected into the game
-                                                        process, this avoids anti-cheat (EAC) concerns.
-                                                    </li>
-                                                    <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
-                                                                <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
-                                                                <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
-                                                                to <strong>Ultra</strong> in your in-game graphics settings.
-                                                                This is required for the CoreFX shaders to load.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        Set in-game brightness to approximately 40-50 %.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Remove the <code>user_resources</code> folder (Method 1)
-                                                        or restore your original <code>update.rpf</code> (Method
-                                                        2). This also removes the baked-in shaders.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-                                        </div>
-                                    )}
                                 </div>
                             </div>
                         )}
