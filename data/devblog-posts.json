@@ -73,7 +73,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5ae090&is=6a598f10&hm=b52bb9c9b6b8115769a8ca045f0da48772a7d259534d31ffa92d133ab4bd3e07&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5b8950&is=6a5a37d0&hm=2f7568ae95d5facdeecc1fd855241f222ce6f757b13143a85af45c45ee4394bd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -89,25 +89,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a5ad73b&is=6a5985bb&hm=3e5a7991e0816f8de4e43273fe35e0f6431f57f169535fe49ac1c9c99bf9735a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a5b7ffb&is=6a5a2e7b&hm=30dc344e515f3682bc253b824c51e1a9b7e666f44596ebd3738d12e7e01e46f8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a5ad73b&is=6a5985bb&hm=143798b8e0598fa6650f084a464b71ff86a0896639e1a4bddd6d3b3c2e7c4d17&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a5b7ffb&is=6a5a2e7b&hm=a4687b984ba1b07b958f98b0ee99bd27608636f946b3010e0910a6abc5b3c34b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a5ad73b&is=6a5985bb&hm=aba1e1966e4c2d7f0d1b334ab04fc99c36a92c78b3c0ab2824143c878dee6ce1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a5b7ffb&is=6a5a2e7b&hm=fdda00b1581041dacc76b7c9aacc494b76728f2c42b72648a21538a40eb10f87&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a5ad73b&is=6a5985bb&hm=a2604fe97d23bad0274eaa13c01713ed79decc1ce89e26032d5bcb98ad3b5b82&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a5b7ffb&is=6a5a2e7b&hm=93893d28bcf8c6f3bb7ecce9568bb37860446a2064dcfe00c0dafb60fd666af4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -146,13 +146,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5ae343&is=6a5991c3&hm=cfb5614b0784c4cf789f53269f7d044cb6c72386d594e608fcfe5497b44d0cdf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5b8c03&is=6a5a3a83&hm=84c656fda7d3fc2ab051105ef1dd5673a8053324ebf10cdf7a8a0b72ba8755a2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5ae343&is=6a5991c3&hm=1ab2d6fc6951c87a4a5e7d5008ad640a50056dc1356ee3f707cd392398364d5f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5b8c03&is=6a5a3a83&hm=40c218942bb6f221554aa1be9192c6551e0696aa5d02831c51cde6e7dd0da08f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -263,7 +263,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a5ad771&is=6a5985f1&hm=cf8924a87f9758e5eb2c3ac145db597550e93c3d7f5ac5a56a43b5501f5afa18&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a5b8031&is=6a5a2eb1&hm=9ff7292b8da35a8c981f0d99d970d2240d2a07975056222b46428126b0d68317&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
