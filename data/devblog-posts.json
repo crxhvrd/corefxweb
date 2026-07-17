@@ -202,13 +202,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a5a9da8&is=6a594c28&hm=c577a3e4737029a061eacd1ae09f60ebde26062983949292a9e4dab7ae1a949d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a5b4668&is=6a59f4e8&hm=512630689fd2db9ed78e8f7f98f51c27381b5787e03fe3ab5c2c60ea3c5f6b0a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a5a9da8&is=6a594c28&hm=7653d5a16717c90530b7386b33a8ffc7a4ca90ce707d64b473aabdd58cd1d97d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a5b4668&is=6a59f4e8&hm=900490c0ee304534f4f35ca4979771976b304361e969c6553f9d30fe61a68133&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -225,13 +225,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a5a9a73&is=6a5948f3&hm=0aa5aaa9e727119c57790867e95cdf654205612a7490f0c1cedb9365a26ce5a5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a5b4333&is=6a59f1b3&hm=be7c580b2fda2c43c3a6f5f8858db356ad0e0ccae8d0e92193aeb9c6c925ceff&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a5a9a73&is=6a5948f3&hm=befbe964163191224a3cd0485772900062a77da5e6be93d4aed8573303293421&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a5b4333&is=6a59f1b3&hm=aea6ae7e9a90f6d67dba4941b4c329a539938d6f1b19fa5d8883b2ab7ad794f0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -433,7 +433,7 @@
     "content": "@CoreFX Backport progress\n\n- Ported Volumetric Clouds from Enhanced\n- Ported Dynamic Atmosphere Sky shaders",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a5a9897&is=6a594717&hm=fa4b2f6987f8a26552c3ed01e8057066e2669218c7104c58447f48c488638e80&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a5b4157&is=6a59efd7&hm=ab84f18a6a42f003c40f6257b1a3f4b97e1618d6013c0bae92ee7f0dc7eac3b8&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
