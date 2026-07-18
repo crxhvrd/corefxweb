@@ -1,5 +1,21 @@
 [
   {
+    "id": "1528047043480912043",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-18T14:33:24.907000+00:00",
+    "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a5ce034&is=6a5b8eb4&hm=a341b23a2984a00bfedefe7e3fa30757aeab105e071ef95cc0a996d542f96c30&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1527346697779282000",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -73,7 +89,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5c3210&is=6a5ae090&hm=40cbe69a2731305a3d4c324a20f01569bc5a4b82612fa5b70c593917bba0f71a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5cdad0&is=6a5b8950&hm=667d74445735e397b9845b6cc92e728c57114d485b7c20a52db814c4afd2101a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -146,13 +162,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5c34c3&is=6a5ae343&hm=3417fd9b2e3193cb5bf0c020bd707578efa2463a1c181382e6c7cd39c02e0c3b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5cdd83&is=6a5b8c03&hm=53c5586fb9a7bb1f93ee0b6349facc49161bab3da28abf09d5a902eac2cd7f5b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5c34c3&is=6a5ae343&hm=ed42047f864ed753723e5c632d91ac3c2be90b3376cde040fac7b30bf09d6973&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5cdd83&is=6a5b8c03&hm=0dfabd1985c33b5da21532e686c81e69561004d82e5968e0e49bf085942d8a62&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -582,14 +598,5 @@
         "color": 1184274
       }
     ]
-  },
-  {
-    "id": "1519770812100382881",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-25T18:26:37.581000+00:00",
-    "content": "@CoreFX Update on RageMP: all the modified shaders will be included in AWC, no exceptions",
-    "attachments": [],
-    "embeds": []
   }
 ]
