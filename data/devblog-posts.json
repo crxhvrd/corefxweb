@@ -7,7 +7,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a5ce034&is=6a5b8eb4&hm=a341b23a2984a00bfedefe7e3fa30757aeab105e071ef95cc0a996d542f96c30&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a5d88f4&is=6a5c3774&hm=03141adf02071aa8e7d69f32216696bcc1e16abefb9ebca5a9bc87c296de20a6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -51,13 +51,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a5ccdb9&is=6a5b7c39&hm=4fa8fd3dbb8f69f123aee8f4ee1077132aca02464d70ff2b46dc0a12a8b3224c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a5d7679&is=6a5c24f9&hm=004d9320172efd58f4f96058707cc2ae5203922fe9ce009acbb63c4fa5b856fa&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a5ccdb9&is=6a5b7c39&hm=46e0a33a1f7d218f2f145dc746633e2d75718e5d857fec08604c28f8085a525b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a5d7679&is=6a5c24f9&hm=1806dff78c7adca62bfa467ede2b1cd35f83cf0c3447c08ae2e7035f0496fb1d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -89,7 +89,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5cdad0&is=6a5b8950&hm=667d74445735e397b9845b6cc92e728c57114d485b7c20a52db814c4afd2101a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a5d8390&is=6a5c3210&hm=d846a965f9ec81875b873172a045aca4f734bad168801fbeb5d1e804aaeb4d1e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -105,25 +105,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a5cd17b&is=6a5b7ffb&hm=5dd761f628f29e5d9242c3f5510cba5c336f2a5c619d542284be15a05de4e612&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a5d7a3b&is=6a5c28bb&hm=b42163263169544d8ff0cfef92e67103041f57a1463ff5c2ccad7b4d023606df&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a5cd17b&is=6a5b7ffb&hm=bdd0a37a4197f0fd803d4cef1a6d15dbf4658b2c1e027ee7956e5a7003b1ce55&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a5d7a3b&is=6a5c28bb&hm=2866e6d755e14e549ed851bdac82bf7dee12dec35b4c712b8e19d427ed2721f6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a5cd17b&is=6a5b7ffb&hm=6db67e3ca51cfa60524bd2eea35f86ad304389a22e301ec27bcf9633176be2e5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a5d7a3b&is=6a5c28bb&hm=2a71659787bd8dc20c2df446d04cb3fe8c6f4ec298213482eacbab1776ad1cd9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a5cd17b&is=6a5b7ffb&hm=71ebb1a0e608b674bfb99760063871bbe586a9ec90a356438841cd26a15bb522&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a5d7a3b&is=6a5c28bb&hm=8991426a615f5dcf51110413314b99c8e7eec6c5dc2d57f3c39391a6ce82d8d6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -162,13 +162,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5cdd83&is=6a5b8c03&hm=53c5586fb9a7bb1f93ee0b6349facc49161bab3da28abf09d5a902eac2cd7f5b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a5d8643&is=6a5c34c3&hm=7d45339664724c66b81082ae381d959bcbf37562f422f6ba8d23bccafdc6716a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5cdd83&is=6a5b8c03&hm=0dfabd1985c33b5da21532e686c81e69561004d82e5968e0e49bf085942d8a62&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a5d8643&is=6a5c34c3&hm=5f1cfe6504ad2bcd0e94c14af2ff8b7dc7f769498b7c0a8cf7ebe31324f0c585&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -279,7 +279,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a5cd1b1&is=6a5b8031&hm=73f80aef03adf55e97d490083d08056afa2de2c24f7462b16002720476d47bf7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a5d7a71&is=6a5c28f1&hm=f4c33e1946bd2abb906690343558a307a97d169e5304801558778c4b608dc2c8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -349,7 +349,7 @@
     "content": "@CoreFX also fixed that weird police paint yellow glow at night time in some areas, old shaders were removed and rewritten from scratch",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a5ccd2c&is=6a5b7bac&hm=eb61e56e29a379f73ec4e55e55cb161c1fbc49d23c7818a9d0724d646ed7b51c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a5d75ec&is=6a5c246c&hm=e732e28049337ad798cfe1ed8e2db75add2c0dac3f597cc0791e279477186c3e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -365,37 +365,37 @@
     "content": "@CoreFX more screenshots\n\nThis is only the **first day** of work",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574547675517008/271590_20260703150358_1.png?ex=6a5cbe0c&is=6a5b6c8c&hm=4076442504bda4a655d492cd8681c2b80bd00b856210a8b68358051deef9215d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574547675517008/271590_20260703150358_1.png?ex=6a5d66cc&is=6a5c154c&hm=61ffbc0b26c0ba8ab7b7c695f0d445b167612cc2822da17264173231565b9e92&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574548745191514/271590_20260703150414_1.png?ex=6a5cbe0c&is=6a5b6c8c&hm=311f45a12b802b9d58ece263a30ca2a4f38c03f795715c242aa9fac245f5fbde&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574548745191514/271590_20260703150414_1.png?ex=6a5d66cc&is=6a5c154c&hm=a449a08a3ce34475408768bfec7ee918071b398d893e9bd641d2b7fd8d346a9d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574549772669059/271590_20260703150430_1.png?ex=6a5cbe0c&is=6a5b6c8c&hm=a50b52f4aa81e74b2999a9da7cfaeab186d5055f80932c5b92300dcec4bcb98c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574549772669059/271590_20260703150430_1.png?ex=6a5d66cc&is=6a5c154c&hm=fb33ecbf6e062a6ca885bee7504ad1624f494b4e925bc9fe4ddd11764cfacf95&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574550972502187/271590_20260703150454_1.png?ex=6a5cbe0d&is=6a5b6c8d&hm=d7387d1415628df1d58a3404fade3993cda2a802537b7afd475e1e666787b633&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574550972502187/271590_20260703150454_1.png?ex=6a5d66cd&is=6a5c154d&hm=0332caff4e2e76bb274fcf3b64eeeb57512c61c7d82d82189ca9067ce91fe568&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574552096571542/271590_20260703150524_1.png?ex=6a5cbe0d&is=6a5b6c8d&hm=c1f325e9bc7ffac7ea0338c7ac3ece2b511cb7983fdd9db8864aa7e719989b3d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574552096571542/271590_20260703150524_1.png?ex=6a5d66cd&is=6a5c154d&hm=56d8c8045e6241977c2cc78ebd8b5041b16f6f79590c00c23862382d113ec7c1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574553094819850/271590_20260703150705_1.png?ex=6a5cbe0d&is=6a5b6c8d&hm=14929f040cfc77da0a7bed5d1326ce8d3d5c512943be79b32392906dc062ee4c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574553094819850/271590_20260703150705_1.png?ex=6a5d66cd&is=6a5c154d&hm=7bfd512450187e42721cb175174148bd4d41c578d139154bf9081f62e234f4ec&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
