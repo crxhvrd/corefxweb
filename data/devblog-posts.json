@@ -1,5 +1,28 @@
 [
   {
+    "id": "1529167170712502322",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-21T16:44:24.050000+00:00",
+    "editedAt": "2026-07-21T16:44:44.875000+00:00",
+    "content": "@CoreFX water shader edits\n\nbefore/after",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a60f367&is=6a5fa1e7&hm=9f67daf98453c03c98e2880d5190f655ef8120e744af340e81ec097bdec71397&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a60f367&is=6a5fa1e7&hm=52e131699145586dc0f0f5ed8fb137e5f09666455dcb8b1ff132b0bcb9b3a4e1&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1528929632794054686",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -190,13 +213,13 @@
     "content": "@CoreFX new wetness model\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a60568c&is=6a5f050c&hm=f38af5372db9d5472b39d94050a7b8372f52893dd103f81eceb84d88cf255c04&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a60ff4c&is=6a5fadcc&hm=7624a1f0354c0850b824e54e2d03977187b22b480ca8101be90a1b229a6763fa&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a60568c&is=6a5f050c&hm=f90e051e85f206a14091a4f63956c60da913e3662e610af0aaceba5a34e4149f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a60ff4c&is=6a5fadcc&hm=35133bc6e281740440350273fbe514158b460e3395aa8d64219e645a08af60ee&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -378,13 +401,13 @@
     "content": "@CoreFX some casual cascade shadow improvements",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a605277&is=6a5f00f7&hm=c1c2b94b4f6391b7bae7adf88b37c487042b949a24870ca6e95faf94a54055a3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a60fb37&is=6a5fa9b7&hm=6841f920167bea85f5739d96c02b2f14b9d7a24dd1d28dfabbad615bb45ce6cf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a605277&is=6a5f00f7&hm=f213a7512ef08c31945723668271e77b12648ada947e162a387cba2100604b27&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a60fb37&is=6a5fa9b7&hm=3d5ece0f32a2685e6594b4cf0929e83570f0f5541c0a033416730c3d17a9658d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -599,27 +622,5 @@
         "color": 2144846
       }
     ]
-  },
-  {
-    "id": "1519984893327577138",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-26T08:37:18.523000+00:00",
-    "content": "@CoreFX i will upload another hotfix soon, that implements contact shadows for all small objects that are affected by the sunlight, so everything, even small grass or trash will cast shadows",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984892560281692/5A95B7AB-9A5F-4E16-9B16-43B67B331CE7.png?ex=6a60813e&is=6a5f2fbe&hm=e91ce3e6821527d11baaa9e63f298492f898a8c9ad00aa56d979b381e3f88c4a&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1519984893038166026/E047A578-E5D8-441F-B5E1-3D605FC9EF59.png?ex=6a60813e&is=6a5f2fbe&hm=cbe9ef13d7b6bfd81df686c577b7117b8adf0d30b900181302be8cd5f0400745&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
   }
 ]
