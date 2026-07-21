@@ -1,5 +1,21 @@
 [
   {
+    "id": "1529232260782362815",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-21T21:03:02.732000+00:00",
+    "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a613006&is=6a5fde86&hm=0c28d466080fcbdf2aa4c901b65d5c80844e6558fdb8db60f110852c53e699a6&",
+        "contentType": "image/webp",
+        "width": 551,
+        "height": 453
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1529224339264634921",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -348,13 +364,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a608c68&is=6a5f3ae8&hm=4f6e6a704c240b03e7c522b0a7851d14b41e9e8b9bbfaa834d07fd4279d9994b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a613528&is=6a5fe3a8&hm=1dffeac39a2fdc9cc8abf05a5774e5f44ae89b02e6684d058d0d3eda3355c54c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a608c68&is=6a5f3ae8&hm=b160dd92e57ed21bb3affab0b6dbfa11e873a69d45e446dc291a79697d43faff&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a613528&is=6a5fe3a8&hm=4e35047532e01757cb7f54c243e9a495bef6b7c0788a8d07bc2052f57f737b83&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -371,13 +387,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a608933&is=6a5f37b3&hm=e95fa2c4019595aaf7896e904ad395bbbb290ac40926e1e4d7a22c726c781679&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a6131f3&is=6a5fe073&hm=3ed191e7f1fa0dda225f84c1872a3c02c053a27d3d6bd9c3744ab2c57a15ff99&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a608933&is=6a5f37b3&hm=7aa883431526a2cba59ffa8dc51d3d2359ccbeae12f91964b87e89111f07c796&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a6131f3&is=6a5fe073&hm=102ee0b5ee029f0501150c2a86c4a6567809696fa3a71796a6284c0be54f391a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -579,23 +595,7 @@
     "content": "@CoreFX Backport progress\n\n- Ported Volumetric Clouds from Enhanced\n- Ported Dynamic Atmosphere Sky shaders",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a608757&is=6a5f35d7&hm=82b1ad7ee939d5c1a9fda04f1892cdf00ab442e52e409d6f3947e226df597239&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1522516743015239680",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-03T08:17:58.528000+00:00",
-    "content": "@CoreFX Starting to work on 1.3 Legacy",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a612576&is=6a5fd3f6&hm=a3417744045ae6ec470bf645fff7de19b63a4fa5e6930d7246e9f45b9000f2a1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522528154575573022/image.png?ex=6a613017&is=6a5fde97&hm=9dcd9215da43afb36948563c96abde22c49d59af6fbabafc5d8ab986b3143b13&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
