@@ -1,5 +1,39 @@
 [
   {
+    "id": "1529224339264634921",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-21T20:31:34.095000+00:00",
+    "editedAt": "2026-07-21T20:31:41.216000+00:00",
+    "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a6128a6&is=6a5fd726&hm=0ffcbad5ec3c26411214ecea1e293c5c0c02b135fedbfff38f25d860d9683c19&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
+    "id": "1529222251055157528",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-21T20:23:16.227000+00:00",
+    "editedAt": "2026-07-21T20:23:31.779000+00:00",
+    "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a6126b4&is=6a5fd534&hm=a639f2546955dd7db1fff72ad801fdba9c62cb6d82b83d9774ac4b074bc3e2c2&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1529195309807173682",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -561,57 +595,7 @@
     "content": "@CoreFX Starting to work on 1.3 Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a607cb6&is=6a5f2b36&hm=6c52918c403c8215eae634025cae2304886373777d7c57e7f6f5887c15de5932&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1521549605114740950",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-30T16:14:54.884000+00:00",
-    "content": "@CoreFX CoreFX 1.3 Enhanced Hotfix 2 brings updated volumetric clouds & lightning effects, contact shadows for small objects, new installation method for Singleplayer and other minor fixes\n\nAvailable to download on Patreon page",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549602757804092/3240220_20260630191249_1.png?ex=6a60ec7e&is=6a5f9afe&hm=738630eab50f6f1a856eebc123e4b576718000f9c9c2b75351120cfb26e816f0&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549603797995631/3240220_20260630190842_1.png?ex=6a60ec7e&is=6a5f9afe&hm=bee7bbe989e54df8fdabab153787f0c474d9ab3ab5042b332b1d9ab5c6f3d94b&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521549604754034738/3240220_20260630191156_1.png?ex=6a60ec7e&is=6a5f9afe&hm=47b05ca8aaf066b1e574be002e55c7250e3fc9ef88c5d1e4fa77081add3c4f2c&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1521398658162098276",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-06-30T06:15:06.326000+00:00",
-    "content": "@CoreFX changed volumetric clouds scale so they appear more detailed (yeah it was a one line change)",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657272774656/9ECA0881-BEB1-44E8-8B74-361EA1B62222.png?ex=6a6108aa&is=6a5fb72a&hm=fe92f80d88eb25855baa9b4e6d92342d35124e52fcad6c4351dffd1717030ecd&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1521398657797328896/EE5178F7-A34A-4A46-A9FA-921BEFC8F208.png?ex=6a6108aa&is=6a5fb72a&hm=325688d9d5d4af3abcb7be402f09610197af6d7ae21c75fb1bdfd0bbca15f78f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522516742746931310/image.png?ex=6a612576&is=6a5fd3f6&hm=a3417744045ae6ec470bf645fff7de19b63a4fa5e6930d7246e9f45b9000f2a1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
