@@ -23,7 +23,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a613006&is=6a5fde86&hm=0c28d466080fcbdf2aa4c901b65d5c80844e6558fdb8db60f110852c53e699a6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a61d8c6&is=6a608746&hm=72a2804d88b03ccd496c2a5206f03a4e1ba9155b7405ffc4f3a966822a796560&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -40,7 +40,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a6128a6&is=6a5fd726&hm=0ffcbad5ec3c26411214ecea1e293c5c0c02b135fedbfff38f25d860d9683c19&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a61d166&is=6a607fe6&hm=9fd176d2b96d18076061ee9c1b076e8d003224b24b1b59048c5caf718a8a6f4e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -57,7 +57,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a6126b4&is=6a5fd534&hm=a639f2546955dd7db1fff72ad801fdba9c62cb6d82b83d9774ac4b074bc3e2c2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a61cf74&is=6a607df4&hm=7203c625f25aea7fe4931ef3eb7766bb011f7e9d69100edf38f807f1ba07b82e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -380,13 +380,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a613528&is=6a5fe3a8&hm=1dffeac39a2fdc9cc8abf05a5774e5f44ae89b02e6684d058d0d3eda3355c54c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a61dde8&is=6a608c68&hm=ec0289af52594038db0821521f239138f8eed8938341f9a9f183787a2ee0c1d4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a613528&is=6a5fe3a8&hm=4e35047532e01757cb7f54c243e9a495bef6b7c0788a8d07bc2052f57f737b83&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a61dde8&is=6a608c68&hm=8ac602f68fc863ea5eb1c24b9144c909de05cd2f3912ee808d7c7f40c023044d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -403,13 +403,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a6131f3&is=6a5fe073&hm=3ed191e7f1fa0dda225f84c1872a3c02c053a27d3d6bd9c3744ab2c57a15ff99&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a61dab3&is=6a608933&hm=33b0a56a3a2bcc7962846f23f1f78f804ed8f761889482b7312259def4581cd6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a6131f3&is=6a5fe073&hm=102ee0b5ee029f0501150c2a86c4a6567809696fa3a71796a6284c0be54f391a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a61dab3&is=6a608933&hm=4ace8f276163c6c15ed439657bb2d7ef3ee2132a2788ba16fae819a515c81dde&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
