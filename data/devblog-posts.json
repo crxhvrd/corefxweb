@@ -1,5 +1,37 @@
 [
   {
+    "id": "1529897974757458182",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-23T17:08:21.312000+00:00",
+    "content": "@CoreFX",
+    "attachments": [],
+    "embeds": []
+  },
+  {
+    "id": "1529897919753224464",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-23T17:08:08.198000+00:00",
+    "editedAt": "2026-07-23T17:08:18.517000+00:00",
+    "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a639bf7&is=6a624a77&hm=2ee20e7362115759d83b0f571476f9175557b3babe70dd02514915d68b946a9f&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a639bf8&is=6a624a78&hm=8983eef10b33948ec7d4abfc3aef927fb59870aa60a89c3ab56702abb8a124f0&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1529338492746727506",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -301,13 +333,13 @@
     "content": "@CoreFX new wetness model\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a62f98c&is=6a61a80c&hm=f9a63ac2970595d5c2d0465fbed8765eb2d856fb77dbfac2d47ecaf7c6654d46&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a63a24c&is=6a6250cc&hm=3db08f62253d7df1db6fd7d532be994e3d28ca4fabb32d0c0dec07ba6321848c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a62f98c&is=6a61a80c&hm=f87a8511fa4d7600a5086ce1e77f8612972967e01f67a1c44e7779ca2e665aa1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a63a24c&is=6a6250cc&hm=69b08e537e6428db0bb7b98e4db9ccf1ecaf22a20fd7f85e284692df9e7f822c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -489,13 +521,13 @@
     "content": "@CoreFX some casual cascade shadow improvements",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a62f577&is=6a61a3f7&hm=eb01d90d8a272111026751fbb59b7f48b8bea238bf4246c4b49a1e5d3d75c738&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a639e37&is=6a624cb7&hm=34fa369916a44030f81c2bb9721b15c9c35cd534231153607903fb7af891b326&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a62f577&is=6a61a3f7&hm=9d059dfa4a3ff5ffe39fbd1b44942e35afc7ed5d63272f43bea9e60ab2ed5c42&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a639e37&is=6a624cb7&hm=50bf7eddb5053aed6410d52f9338f278a34dda437a2a4dcb8e09f0467cbd4483&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -561,44 +593,6 @@
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1522572019319836764",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-03T11:57:37.426000+00:00",
-    "content": "@CoreFX comparison\n\nEnhanced / Legacy",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572017885511710/image.png?ex=6a635331&is=6a6201b1&hm=27d98d65f7e58215ff916c4c799720957ee994e14b087d2532b7fbe6b0d850a4&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522572018736959528/271590_20260703145702_1.png?ex=6a635331&is=6a6201b1&hm=c7d2b74d5cd26bc571cfb2f60fe9fba4257aa88a06a7f8575c644f19e6ee777f&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1522570719240781834",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-03T11:52:27.463000+00:00",
-    "content": "@CoreFX \n\nPorted vehicle + lightning shaders and some other stuff\n\nright now, it looks exactly like Enhanced but without ray tracing (obviously, since weather files are copied from Enhanced too)",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522570718838132847/image.png?ex=6a6351fb&is=6a62007b&hm=bc729238ef24308f8b27518e1a6ce66894d04f958343c5606b5576be365159c5&",
-        "contentType": "image/png",
-        "width": 1920,
-        "height": 1080
       }
     ],
     "embeds": []
