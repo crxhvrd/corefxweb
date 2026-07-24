@@ -1,5 +1,21 @@
 [
   {
+    "id": "1529997840355557416",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-07-23T23:45:11.126000+00:00",
+    "content": "@CoreFX TNNAA improvements, on/off comparison at 1080P + no MSAA",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6a63f906&is=6a62a786&hm=668ab4151add198232ea3a9290c926b80f945ded7c57bc8e993ed15759def1d5&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1529897974757458182",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -150,7 +166,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a6361ee&is=6a62106e&hm=9dd08644f0389625a1f9acbfc8493b1574fe581f53b56e5846bca60652e01cda&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a640aae&is=6a62b92e&hm=508083b31704e949fda48dc128138b0d8ce70194cb91172a7b0bcaa0008892a3&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -267,7 +283,7 @@
     "content": "@CoreFX WIP - StarLens, inspired by our old ENB StarLens",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a634ff9&is=6a61fe79&hm=a41f72d47f6e59aaa00a2740f2ee442577a13da464469b142ada84976911c4ea&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a63f8b9&is=6a62a739&hm=b10c5b1c77390472b9cc029f73c1007b70e09a82d4127a5ba8180eb6d990b858&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -499,13 +515,13 @@
     "content": "Updated puddle screen space reflections, fixed most of the issues with them & improved quality. Look crisp at any distance & angle.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522936573589586020/271590_20260704150432_1.png?ex=6a635535&is=6a6203b5&hm=4c6372053403af7bc33a189de875a5da6bb0ab76c996a52c7c815aa6c1e25757&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522936573589586020/271590_20260704150432_1.png?ex=6a63fdf5&is=6a62ac75&hm=2b046b881e160bbaf23e5f385bd4003b607373c5f67fb218354da155eba53870&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522936574633971784/271590_20260704150513_1.png?ex=6a635536&is=6a6203b6&hm=3069422f47bc1e01cc92111982869ca72969d1e567ed1a09ac2d08cdfb662c4f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522936574633971784/271590_20260704150513_1.png?ex=6a63fdf6&is=6a62ac76&hm=c6469ca39e1d48b8e872b98dc9e0660c7fde325a23a575f8c90f8c81a1d4a17f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -544,52 +560,6 @@
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522590790067687647/271590_20260703161055_1.png?ex=6a6364ac&is=6a62132c&hm=71c054f5dc2b8e42785e1614c3032a7d528e114f3c1c1e9ecf924fb682ef2154&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1522574553165991968",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-03T12:07:41.542000+00:00",
-    "content": "@CoreFX more screenshots\n\nThis is only the **first day** of work",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574547675517008/271590_20260703150358_1.png?ex=6a63558c&is=6a62040c&hm=9953206a9bc97657619d08e05c454d8652eccbcae810c650ea24e4c7009b132d&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574548745191514/271590_20260703150414_1.png?ex=6a63558c&is=6a62040c&hm=f8670405b52eb7650caf4d8b1c069ff9838e01f1669de930e5aa3f539f4e7ff6&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574549772669059/271590_20260703150430_1.png?ex=6a63558c&is=6a62040c&hm=4fe62cdc8f409bc42ae08dbcc0a619bfd7078ddf797a84d87b8f28a0d11f92ee&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574550972502187/271590_20260703150454_1.png?ex=6a63558d&is=6a62040d&hm=604782629194e6f8ef0ace3cffc7ce4ed6acd2a8c446162dd20a73d7dd71b0eb&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574552096571542/271590_20260703150524_1.png?ex=6a63558d&is=6a62040d&hm=cfd75157fce9c13e6e16a74032165e92853413d8c96b09181a85b25155625e1c&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522574553094819850/271590_20260703150705_1.png?ex=6a63558d&is=6a62040d&hm=bcf6a8bbb3e222343f1886c73efdd3c65d7d0a803dd4dfb64ceec2209ff73503&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
