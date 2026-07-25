@@ -55,13 +55,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a659637&is=6a6444b7&hm=6464bfefe88dc11aef3ca9b95932c6beda18223882ff2fa1f282568e89794bb3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a663ef7&is=6a64ed77&hm=7d47c98f3f7a5e891f0bea1c6c14fda57eb325404c73fdbe5ca456e081e1af4d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a659638&is=6a6444b8&hm=b570dd7c4980d19f3e8551047abba6da117eeeeaf81185e0cce8b21e793f47f9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a663ef8&is=6a64ed78&hm=c7a20877c957a09c984c91a2641e4ebb1d95589036bead78cce25368b1756b57&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -166,13 +166,13 @@
     "content": "@CoreFX water shader edits\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a6590a7&is=6a643f27&hm=6204b90ec8c8be22827a035dc673de82e9c6444d7af6bc974e10c7c20632397b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a663967&is=6a64e7e7&hm=4010b732eb0d40869c9f5321ebc730e526826ef4cc3ff32c047b849421705189&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a6590a7&is=6a643f27&hm=ae2f2f73a1fdc25878df7e3377c1e2a3d36145dd0bfe1a3b1dfdcb5522e56f80&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a663967&is=6a64e7e7&hm=9c8aa85c72f437007263e8f2f3fdaf4a82be93999d6dc50ba9c9486bdecfc117&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -371,13 +371,13 @@
     "content": "@CoreFX new wetness model\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a659c8c&is=6a644b0c&hm=6d79e5e15049283cd81679458148d6a4c3b55190fcdefd9ea7e7b57466ce56c0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a66454c&is=6a64f3cc&hm=79da21495cd1f82e6b3317be9b51a6e6f3d6cd99771978cc950f39143b7eb092&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a659c8c&is=6a644b0c&hm=8c73655e443b53f3167a6b07991e43f65962c4440ccd9ca80180e19d6e1e10a2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a66454c&is=6a64f3cc&hm=a63f3828f964355d16f180809c6b2af7e0afc1256e2916b3194bcbe23e3002f1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -559,13 +559,13 @@
     "content": "@CoreFX some casual cascade shadow improvements",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a659877&is=6a6446f7&hm=e95d77361c83ed792d65003048defe9974a62e397ab756c240682313e9f88f72&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652574312824903/271590_20260703201627_1.png?ex=6a664137&is=6a64efb7&hm=fdc90f7c1832a701ee89e29528d8b3490da4674f807b7eedce00d71b25173499&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a659877&is=6a6446f7&hm=ec9addf43b5a1a3b729806d56abd33b7c33abd91e91daf64af787b3dd5d534d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522652575470456832/271590_20260703201634_1.png?ex=6a664137&is=6a64efb7&hm=5c3ba618932d5117d7885f9c65b03646a3bbd15f91671d86a4c9cd91bd8c607d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
