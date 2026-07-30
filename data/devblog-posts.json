@@ -127,7 +127,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a6b7635&is=6a6a24b5&hm=dba5888b48035ea65a2ff5e15c945a878b43649ec61fc418659b4de6c68c440f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a6c1ef5&is=6a6acd75&hm=818816a8c8163e1dbd35786fc698170128982c0f836bb3d86b20cd8630bc7859&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -255,25 +255,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a6b56ef&is=6a6a056f&hm=b0448135b2b703f10d8df0fba8ca627a6a92e955ac869ae83a6ba356fa7ac39f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a6bffaf&is=6a6aae2f&hm=04664a4b85d1cd6041c9c88c51447ba20e4bb0469635b411aab027d93f88d2b1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a6b56ef&is=6a6a056f&hm=f56d4093b9d37ea068ef619e910cc12ebd326ab01c0094aec2420cc5c962d7d8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a6bffaf&is=6a6aae2f&hm=2c80c24b95bf3b073672fe1df439705ab4d42c3cb7948d758f4ec1d0e45c629b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a6b56ef&is=6a6a056f&hm=f0ea9faf9bb015be27ada6fceca1294fdc2c869dc197face7d2ed213c9b03e71&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a6bffaf&is=6a6aae2f&hm=4a17e3ae5531453cf5e00830f372056c2529521991857bd4054827ac8ba9834b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a6b56ef&is=6a6a056f&hm=a6a969fd63a9355651632d829685364fa1df1075e17006394b1f038371911e73&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a6bffaf&is=6a6aae2f&hm=c1af9403f32ff0f54be77471eb9e03055050af668bf2c46281571fd390f8d2bc&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -289,7 +289,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a6b60b4&is=6a6a0f34&hm=3d245721d94184247b513f4550ae1a7843719be5c411397b82ee2e735468baf0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a6c0974&is=6a6ab7f4&hm=6355f4e1294dd5b517381fa69cc1dea58515c269bcf578ac9d285d2bbe491ba6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -371,7 +371,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a6b5b50&is=6a6a09d0&hm=c6b204b1ccfd71608282fb7bc92c1dc5ed62dea83860b0e0312e984920a37f65&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a6c0410&is=6a6ab290&hm=1ad48a92f8d08da219bc5bd22a4eab2e9a1e5a7bf72e8130c29186238620cb7f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -387,25 +387,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6b51fb&is=6a6a007b&hm=3166f9012a24aef4074b786efdb773ce4f2970c66fe2f9eb41764e0a5b226f82&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6bfabb&is=6a6aa93b&hm=8ee201d70f06e595a22f884abfce0f23d87b8866a5f7c4d73fdcb578e8b8c27a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6b51fb&is=6a6a007b&hm=d2ab7737cbce38c3510b646888a4302f04318778346de1d3a3d79ece46b9d96b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6bfabb&is=6a6aa93b&hm=d3114fbfe23b1f3a7352cc6523ef28cd344e1eae2b7688fbfed7bb800db27da0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6b51fb&is=6a6a007b&hm=929ad3be87f71766fe529cc10160aece511f755ee75ef61f8823d8985affba09&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6bfabb&is=6a6aa93b&hm=c3307b55dc7bd453151eeafeb6f48d25aa14c60767fc4006a0dc6be1ead3e5b7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6b51fb&is=6a6a007b&hm=ca5d06841019764dd36419f46c513944cef6bb40457f8e55278e8cfbb2036486&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6bfabb&is=6a6aa93b&hm=b0f09153817365aa562348ff9db7e2fdbbd4b1da10a35fa84662d30ef0d8bfb9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -444,13 +444,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a6b5e03&is=6a6a0c83&hm=3bdac21c428fd753d9ebeabc476e947de39df9b0e9ab575e7aa6b2712ff1e64c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a6c06c3&is=6a6ab543&hm=b3bd7f69ccd364d1abe5f155822746c29ae567bdde19242917a89f5c7df0aa5a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a6b5e03&is=6a6a0c83&hm=f324bc248d3ddc67f7e7d376b181910c52c5e9d77391abf0c05959a57638d524&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a6c06c3&is=6a6ab543&hm=33129223796142de796012c71e9772ccbebeda937049f402004c25d0fd9edfb0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -561,7 +561,7 @@
     "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a6b5231&is=6a6a00b1&hm=de98f7512fe220ba4c0d668733d928ade138f3f0b6321f6c6bcb3b262f7091b6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a6bfaf1&is=6a6aa971&hm=493ce061796b1cd0ba113895db49c2f1a792f8b20af5e44e96837e6b9ba37263&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
