@@ -7,7 +7,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a6c3be0&is=6a6aea60&hm=0a5e1f21bfd05638f87d48a53eb5f3bbac2ad074e89ecdaff55f70b5c6a5ddf7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a6ce4a0&is=6a6b9320&hm=1dbf70ba2d748e6e0f179ac6a8ac224e5f23d5f2d8897a6f26150ebc22346646&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -24,7 +24,7 @@
     "content": "@CoreFX we even added more functionality into rockstar editor, WIP",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a6c3b5b&is=6a6ae9db&hm=7e166bc905f45da8f93b1e831e23d255cc71162791702c167c7994af781998e4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a6ce41b&is=6a6b929b&hm=7d00e2f8ae547561b7a116fb7680593f54c53e73c26e42998a9c3fa688dc5ef9&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -41,7 +41,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a6c34ac&is=6a6ae32c&hm=94011d738515e97f9ea9f14dc43c8d53eeeeda304a51e2c98bea8f6c62c81705&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a6cdd6c&is=6a6b8bec&hm=59f94b9ad3c5b19b98923299ed54d3fd647eb868e8828f2395d754fede468690&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -105,13 +105,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a6c2db7&is=6a6adc37&hm=743c6d14360dd860a10a22f610995c4767dddcfea2b527c5b79782e3fa0dd3c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a6cd677&is=6a6b84f7&hm=eeebdb8cc9f7350cd422dcc5064f10051e8a46803dcc2d8bc8ea208a78fbf9bc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a6c2db8&is=6a6adc38&hm=a6ecd33e3d395e682eb157b7fad3dca21562eb4e9f5d9d1476981618b580a5f5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a6cd678&is=6a6b84f8&hm=03cc5dbfc097999d912af12674681cf7dd3789f727a26846bde7d9e8d4362325&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -193,13 +193,13 @@
     "content": "@CoreFX Water parallax, to improve wave details",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a6c425c&is=6a6af0dc&hm=07c637b78d3a2b8fbe642dd2d868c7b7333728e55e5b372f379dbc76979d5370&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a6ceb1c&is=6a6b999c&hm=9bde4275f5e59503c92c7c483e7e4b4d00f8070e22e9f39d3070c06ea5d6fbdf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a6c425c&is=6a6af0dc&hm=325c81bf304f9a319c48770440f859f6139f428b33aa72953724d2f30ab13017&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a6ceb1c&is=6a6b999c&hm=0ce97e2a74005cd331ab48ff836cf05ab0b44859d410a856382bdbd78723f3a8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -421,13 +421,13 @@
     "content": "@CoreFX new wetness model\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a6c340c&is=6a6ae28c&hm=658d52dd9aa2f19e12218eda3397e2f4bd6b294f2c1f7e50a239c82e27fec6e0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a6cdccc&is=6a6b8b4c&hm=0f576816cb1ab4fb30063983a4cdf89962669cfb5be54a546c19b09c4528df1c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a6c340c&is=6a6ae28c&hm=f20ebeed8e5b5e0de32e59e557003a2eb626e9ac46826cf7d2e247328fe6bead&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a6cdccc&is=6a6b8b4c&hm=40310177e45353ae10427dc3850eed0caaf135300dd7d0139e7c91e9420f1800&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -545,7 +545,7 @@
     "content": "@CoreFX bloom update\n\nported bloom airy technique from GTA 5 Enhanced aka Jorge Jimenez mip-pyramid bloom, which will make Legacy look like enhanced even more",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523031917639761941/271590_20260704212311_1.png?ex=6a6c3fc1&is=6a6aee41&hm=d12ed4ef409d0ef3b44220974520b2598989c02838105abdb5fb48623ca4896b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523031917639761941/271590_20260704212311_1.png?ex=6a6ce881&is=6a6b9701&hm=93e7ff8f1cdb64c47f08736bbb025add97bfd4bf54be6021ff91008582329c37&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
