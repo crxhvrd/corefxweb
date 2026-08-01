@@ -1,5 +1,45 @@
 [
   {
+    "id": "1532921879688511521",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-01T01:24:16.429000+00:00",
+    "editedAt": "2026-08-01T01:24:26.647000+00:00",
+    "content": "Also updated Simple Camera with fixed wheel spin in FiveM & other QOL features\n\nhttps://www.gta5-mods.com/scripts/simple-camera",
+    "attachments": [],
+    "embeds": [
+      {
+        "type": "article",
+        "url": "https://www.gta5-mods.com/scripts/simple-camera",
+        "providerName": "GTA5-Mods.com",
+        "title": "Simple Camera",
+        "description": "Simple Camera — Cinematic Toolkit for GTA VA free-camera and photo-mode plugin for Grand Theft Auto V. Detach the camera from your character and fly anywhere to frame screenshots and cinematic shots, or switch to Camera Sequence mode to author keyframed camera moves and render them out for video.Key Features• Free Camera mode — a 6-DOF fly...",
+        "imageUrl": "https://img.gta5-mods.com/q75/images/simple-camera/87203f-1.jpg",
+        "color": 2144846
+      }
+    ]
+  },
+  {
+    "id": "1532921291945017375",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-01T01:21:56.300000+00:00",
+    "editedAt": "2026-08-01T01:22:20.366000+00:00",
+    "content": "https://www.gta5-mods.com/scripts/rockstar-editor\n\n@CoreFX Released RE+, go check it out",
+    "attachments": [],
+    "embeds": [
+      {
+        "type": "article",
+        "url": "https://www.gta5-mods.com/scripts/rockstar-editor",
+        "providerName": "GTA5-Mods.com",
+        "title": "Rockstar Editor+",
+        "description": "Rockstar Editor+ is an overhaul of GTA V's Rockstar Editor. It rewrites how the camera moves, removes the editor's built-in restrictions, and replaces the Export button with its own render pipeline.Works on Legacy, Enhanced and FiveM from a single build.Smooth Blend, rewrittenSmooth Blend is the transition every moving shot depends on, and stock...",
+        "imageUrl": "https://img.gta5-mods.com/q75/images/rockstar-editor/ce4d59-123.jpg",
+        "color": 2144846
+      }
+    ]
+  },
+  {
     "id": "1531000284136865953",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -238,7 +278,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a6dedee&is=6a6c9c6e&hm=830b6d991dbf09f26738c63c8b95173fa4be36365120ca4387e79113208969cb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a6e96ae&is=6a6d452e&hm=d4f635f0bae27a52547427d204a25dc3aecc2d3a48924f4aa136066edf5b7213&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -255,25 +295,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a6df9ef&is=6a6ca86f&hm=117595cdbb8f6f651c2d9b8f7008d6a6c35b6adb7ebea30d8272ec803cb861bf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a6ea2af&is=6a6d512f&hm=045092ba7c65b8eb790d2c501d8061d1c9f362d10a9d1b3dce0106eedb342be1&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a6df9ef&is=6a6ca86f&hm=736402100d4d2d8523942a42f5c7c50040907ef52b97e7b550ebb2d5ca8bc06d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a6ea2af&is=6a6d512f&hm=ec1170cf881d3840ece094881bee455760925bbe6d5654f223b76f3088654f1f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a6df9ef&is=6a6ca86f&hm=c3c440848826351073e6991f048852030df079f5ee4647a0c443b2e22f063a10&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a6ea2af&is=6a6d512f&hm=d2926a4726a5645e5aa63d254d0b4638ef7277e3a60636b2ed1e407ffef04326&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a6df9ef&is=6a6ca86f&hm=25442c0cc7fc2362e345fd19e14a846c0930ca6e2ec7072fed499f2fb7390be4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a6ea2af&is=6a6d512f&hm=b3bdd119ee6bb037f2e6f794b878c3fd73d86368e55cd94d877abdd2525f1e25&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -333,13 +373,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a6df139&is=6a6c9fb9&hm=8daef8d71891ce107a9d59ac325c38dc7cc1c4432e49ec7fa9fda2fd171cd4dd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a6e99f9&is=6a6d4879&hm=ac33d6cd9d6044ff9d5b2b56a583b3670c9662a369b35674a72b1504b9245331&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a6df139&is=6a6c9fb9&hm=68ad5d291e21ca7a34a52fe8dd7fd4806ad9b754bb252883a513cd6cc676f8ba&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a6e99f9&is=6a6d4879&hm=857eea3adb59c5e3d2d11f3517cab65c6debb93d0e7c9789325a80b0207000c2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -387,25 +427,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6df4fb&is=6a6ca37b&hm=0e494eee2c081a66f851182c56613e71f7450ea0e98a894f66e763ef54924273&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=0db77c2ad21825eb8375ac5ff063b12c68e2ef3a60a1e86b1f9d87e29d0acfce&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6df4fb&is=6a6ca37b&hm=afc35e914714cc5617a32256f25f6f8298247f416812d60f22ffffe0d5e93c77&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=2d0005e276a17e22fb310834937bc6ff33f032e6117e52e51854eeef39c74903&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6df4fb&is=6a6ca37b&hm=c74214a9cfdb93a673cebebf23027d8880d9d9cce00e71b98824a231d455cb05&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=0b8f3cf64537d5c379b3933085d3b4a810abdb1eb782989b320eb44ca8c523a7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6df4fb&is=6a6ca37b&hm=c3c0d9de8d7e26dc093bafa0b68295bb69db5a49483ab186f38cfacda9a68b42&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=a6005d259a1ed298da8d06b53d50464cec8b0bd4f35f7318ae532a8729af405b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -530,38 +570,6 @@
       },
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a6e60f3&is=6a6d0f73&hm=6df88dd3a5a83c5d3cda69ef24adef387b40510f20b5e0b5eae6f0ad3137e1f5&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1523031917971116283",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-04T18:25:05.809000+00:00",
-    "content": "@CoreFX bloom update\n\nported bloom airy technique from GTA 5 Enhanced aka Jorge Jimenez mip-pyramid bloom, which will make Legacy look like enhanced even more",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523031917639761941/271590_20260704212311_1.png?ex=6a6e3a01&is=6a6ce881&hm=f46a7c215955991dee7e71199d2e5ad706d217a2b20b7dad876ea1c6c178ab59&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1522958028305993809",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-04T13:31:29.140000+00:00",
-    "content": "@CoreFX updated bloom shaders to be more widespread & soft\n\ncurrent look:",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1522958028024840192/271590_20260704163030_1.png?ex=6a6df531&is=6a6ca3b1&hm=b320e0c10f03b51d8256ff5da965d2318a28635771d6e202551def9f41620dda&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
