@@ -278,7 +278,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a6e96ae&is=6a6d452e&hm=d4f635f0bae27a52547427d204a25dc3aecc2d3a48924f4aa136066edf5b7213&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a6f3f6e&is=6a6dedee&hm=ea71722a23e90b56b82bba81e88b4db69a1a53fa380aa86c998c3b7b1c286c8c&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -373,13 +373,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a6e99f9&is=6a6d4879&hm=ac33d6cd9d6044ff9d5b2b56a583b3670c9662a369b35674a72b1504b9245331&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a6f42b9&is=6a6df139&hm=02712071c1b6d32b554e44220c9b2944ef065997d8b8a9843844a3b1ba466b86&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a6e99f9&is=6a6d4879&hm=857eea3adb59c5e3d2d11f3517cab65c6debb93d0e7c9789325a80b0207000c2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a6f42b9&is=6a6df139&hm=633de1902eea7391b3ab5599eecfa6cf4fa17f982ccceb523cc3cec7b73f1032&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -427,25 +427,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=0db77c2ad21825eb8375ac5ff063b12c68e2ef3a60a1e86b1f9d87e29d0acfce&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a6f467b&is=6a6df4fb&hm=efb1bc943af7f372e77c74711edde4865eae3cf6bbb70122fdbfda865c19ecbb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=2d0005e276a17e22fb310834937bc6ff33f032e6117e52e51854eeef39c74903&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a6f467b&is=6a6df4fb&hm=cad6679f2b98731760894f02cc2344a245e26b4d2ae9361d72fef9bf91fcf77c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=0b8f3cf64537d5c379b3933085d3b4a810abdb1eb782989b320eb44ca8c523a7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a6f467b&is=6a6df4fb&hm=f0f7caeb9f7ba75c80fde9da57447e161fec38c2f62adb675e5f7d243e703c61&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6e9dbb&is=6a6d4c3b&hm=a6005d259a1ed298da8d06b53d50464cec8b0bd4f35f7318ae532a8729af405b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a6f467b&is=6a6df4fb&hm=d1a0a48cb819c5fc092f10e0660d55f8548b9ed4ebb7e509b9d964a09600d0f1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
