@@ -145,13 +145,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a6e27f7&is=6a6cd677&hm=7c7cdec2ac4fbe3fdb83d54a8e229cfbe0dab1a8f7bb34bad51029375bee9145&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a6ed0b7&is=6a6d7f37&hm=c1e4baba28710734a520930f0379d085c5de1105753ce425ab3cc9c3c3edb6b9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a6e27f8&is=6a6cd678&hm=8323d2222e470767b986ad7b3545c596c596e2ba52483fe4a0a2b17479724241&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a6ed0b8&is=6a6d7f38&hm=888c75d20d0162ce8a9681c373421c21c4886fb7d70d982fb1aeb3db373e13c8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -167,7 +167,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a6e1935&is=6a6cc7b5&hm=25219b161d888a3d9e7a51603ea743d7665f4fc136a9aff7304d18bda0dffdf4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a6ec1f5&is=6a6d7075&hm=851e32924e5e4de53eb218d69ca8542af763d9a1cc1b44628750baf7934eff61&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -256,13 +256,13 @@
     "content": "@CoreFX water shader edits\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a6e2267&is=6a6cd0e7&hm=aca87ff29fb57100e8d339774d7fe3cd2126c05a99c851e805afc5f187cbfe57&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a6ecb27&is=6a6d79a7&hm=8218f99540a1240a28fd7a591c9f957d2f2a6e260d0604666130fa7826a8902c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a6e2267&is=6a6cd0e7&hm=2ea177f4fba6ef2a0a3fe967a33e5c41756bddecb4907ccc7ebc7a1fb0241505&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a6ecb27&is=6a6d79a7&hm=58f43a7ed02dce7cedea73d6d74a5b6d2e1baa314a9f91cdf20d9c11ce929ef8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -329,7 +329,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a6e03b4&is=6a6cb234&hm=08a3ea6fbffcb78bd8dabf881894dd63a689cd67d644bf8983bc35699878fe65&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a6eac74&is=6a6d5af4&hm=515a994ea740bebe7555c0ea95fc4a0bfda2fe45901d06cc2ac9f4e0610ad14e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -411,7 +411,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a6dfe50&is=6a6cacd0&hm=0357884a71388a17e2f6c0dc4ac4d14d2549f2d7b29d90d82e5d3c25e0063a5b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a6ea710&is=6a6d5590&hm=aa363be4bf72f37677b0d41eb9ea228e60a00852c50e9e57c9865a014b96658a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -484,13 +484,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a6e0103&is=6a6caf83&hm=abb181419a8846c9ce3aed1256b9b84b3bfca6c290da9d990f0f36cd72cbce71&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a6ea9c3&is=6a6d5843&hm=6c5ded5241e159856c17f36ae377d00af4300fdacf4ac16c7754876c840d05fe&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a6e0103&is=6a6caf83&hm=9ecdd778b4562840e81b0ead12d855296c0a162814ef1f884bb7a678ed6b2962&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a6ea9c3&is=6a6d5843&hm=31e5437f06e706af03f727ca747e768103fe828d253b850eda82b3fd043ff54c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
