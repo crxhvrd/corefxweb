@@ -97,13 +97,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a6e4d87&is=6a6cfc07&hm=e8ec43bdb13c63da7265171a340237e83022054aeedccb50608a69654647d95d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a6ef647&is=6a6da4c7&hm=331aa5fb0fb453540637cc5791462afc82cc08b617cb8f6f2b08aa96ddefde58&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a6e4d87&is=6a6cfc07&hm=69ed2aad60e65bfd22fa515a0be007edbfe6ecf25c3084072fbcb6d32ed2a49e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a6ef647&is=6a6da4c7&hm=87d03a79937e7b558d8e31c580001b1035272e66d4a2778901f7276c662162b1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -183,7 +183,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a6e5f06&is=6a6d0d86&hm=9ee1bcb4b2193ae232508718a7b6464fc61d20c5820212b6ad72259c33afaeb9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a6f07c6&is=6a6db646&hm=a62448b1657c71ca728c547c29d584508f4474bbaf7376d5a50805c03a35783b&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -200,7 +200,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a6e57a6&is=6a6d0626&hm=a956b6bd4322fb927c5547735873c206e1401c9823b5b1c29dc996ae39e62d9e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a6f0066&is=6a6daee6&hm=9c50decb502ea3bd48cae03b722c922ae3265b2d76107d6a6344aea51cbf5bc7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -217,7 +217,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a6e55b4&is=6a6d0434&hm=872f5225ddce3405caf296a76c4dc3e079cc81ea25217343a57096c29bd95802&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a6efe74&is=6a6dacf4&hm=b6cdb2b815ac14cda7eb0750034b9de00103a6b0075d9c5e1ed2a250673f4cb2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -540,13 +540,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a6e6428&is=6a6d12a8&hm=beebc67c5d43efc30afb1ca328299c8b08c707567b9133a7f0a71b4cd8d2ffb5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a6f0ce8&is=6a6dbb68&hm=41ce6a7e8d5ab242b09c3704e450ce870321b870b3cc0da86aa7228b38ec6fbf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a6e6428&is=6a6d12a8&hm=af4740082d7ec4e297c4c1b9db73d3672990ea31905c1d2bf7ca1b397939307e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a6f0ce8&is=6a6dbb68&hm=bef3df804ce1aa85880bbe76f050bd76de57007cbbca9f1f5b9649efc6c0cf64&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -563,13 +563,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a6e60f3&is=6a6d0f73&hm=8485394d28719a7ae5c7513f80ee32fcf399ab22338779d978b870f2e188c106&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a6f09b3&is=6a6db833&hm=1468328bd75f7f585cc624fc2f18251cc94b980b9b098524e334aa63bb46da30&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a6e60f3&is=6a6d0f73&hm=6df88dd3a5a83c5d3cda69ef24adef387b40510f20b5e0b5eae6f0ad3137e1f5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a6f09b3&is=6a6db833&hm=2c1dfa6c707d4850da794b0d150b7574498f0efa6ada800ddaf60ba0be6599a0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
