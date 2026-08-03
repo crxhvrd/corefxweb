@@ -183,7 +183,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a71aac6&is=6a705946&hm=95eb111ef15caeb448f9b13014a3bda0084c4d88225f42cee889340b95634930&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a725386&is=6a710206&hm=95064f61c8c965cf396baad412ca426e65ff44cd76b9da915b7d1d368f395325&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -200,7 +200,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a71a366&is=6a7051e6&hm=e941d1bcc9ce66b836aa805bf34343d7acf358c8d2ea12abd5550512b7a98726&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a724c26&is=6a70faa6&hm=f236e7d5a2565c5069dceb4bc1e1cbbff75741e7ee7f588de09034e41e2894fb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -217,7 +217,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a71a174&is=6a704ff4&hm=7030ee1db0947ddf0a107d2880181c87081c0db0c4352d07e11a45a3d63ff905&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a724a34&is=6a70f8b4&hm=46026d2a48d9bc011e28405e5bcb4b4f921a9a5c07c67018e5068ef54f86d1b7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -563,13 +563,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a71acb3&is=6a705b33&hm=fafef694f5767bac1ee77bdda81774ea3c2f85a1f5a012f4b43100208984fb21&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a725573&is=6a7103f3&hm=2eb7b816ed490d64cf088b4b7219837a4303e9325943a86a5448cc4027acf1aa&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a71acb3&is=6a705b33&hm=352ca103a3863376b5378d671610d7c944cb75e3e7bf833a8ca2092d52d9186e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a725573&is=6a7103f3&hm=3051b665676b3e00c26a3e3a032f2fc622f50fd78da4ae47e244eb3c22355de8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
