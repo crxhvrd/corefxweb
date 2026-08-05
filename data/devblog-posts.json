@@ -97,13 +97,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a743c47&is=6a72eac7&hm=43f776ac77f8de831564d1c2596b816d75192d9a37de56f7dff053d4719ecedc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a74e507&is=6a739387&hm=8c73fe487b225458f148003c2afbc177c2325754a2cca071d49e0b1631542ca4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a743c47&is=6a72eac7&hm=988c1012592ffb2ab5dd4682e3362edd310666e827af36a0ce1b35cb4056e3d8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a74e507&is=6a739387&hm=100c38582a7a7dfb962738e65a0c6b92209d737d83906477ade070a5ce39085a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -217,7 +217,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a744474&is=6a72f2f4&hm=0c95de3849a6bdba2471120ef680891304ad51976426fc6697c67f649e550b01&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a74ed34&is=6a739bb4&hm=5ca328d17493a5a1013584a32d68ac186f6b327c4822392d57269732180f7c45&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
