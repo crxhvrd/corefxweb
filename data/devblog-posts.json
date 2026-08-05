@@ -183,7 +183,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a744dc6&is=6a72fc46&hm=b0216047135cafed1e4f86fd44c793c6291ec20bb88d24fdc6baa2ac31a7a26f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a74f686&is=6a73a506&hm=d7ec04947067135432ac4b017d084ac3cf1e3caa9583b03be0cd4636f1d83a27&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -200,7 +200,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a744666&is=6a72f4e6&hm=a13b929500e9d73923d5918a6bb6ff8da3588d5c33b7d8897ef0f4d3ce87abbf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a74ef26&is=6a739da6&hm=3515ece46ef91bbcc414a460f233f33e60edf1d938d8aef1810d88145720d4ab&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -540,13 +540,13 @@
     "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a7452e8&is=6a730168&hm=818cc1c4ea263f15791a7381af3d50a5f5551e866521b3194e6c1b7f1b97b0b0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a74fba8&is=6a73aa28&hm=ab7ae3e7d2f4aa8192966389885e4c5aecc78416a1385d0237e93e13b5361c81&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a7452e8&is=6a730168&hm=f8061f8bd9e2c3b48f28b2c69268180feab155e5883614e173ba5498d025d434&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a74fba8&is=6a73aa28&hm=b7c728e78f591b9a71ec17dbc47a8e545674990d148b1d35368a4511eb3b96cc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -563,13 +563,13 @@
     "content": "@CoreFX \n\nwrong channel it was, again, fixed bad spotlight pixelated shadows\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a744fb3&is=6a72fe33&hm=cfbd3f02cf4a82f42d94fb0202d80eff046ccb11bc56ec38392fc3c5c5fb40c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254928280387605/271590_20260705120138_1.png?ex=6a74f873&is=6a73a6f3&hm=2fb6dd251769b9d53d87cb0bc725d7851d0964186b2b86b95fc9f37418788ef3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a744fb3&is=6a72fe33&hm=41482f1b4300fdf77a4cab3d5f1cde2e1462962c96a046f742a169b4d6a936e7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523254929333031022/271590_20260705120144_1.png?ex=6a74f873&is=6a73a6f3&hm=68b0ec1f2e3d31c3092056a8d5b314e996cfb86f9e4da3c9bc2d4e6e8d459e8f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
