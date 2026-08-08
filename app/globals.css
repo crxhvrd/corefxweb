@@ -107,6 +107,29 @@ body {
   padding-top: 100vh;
 }
 
+/* Hero intro typing block */
+@keyframes caretBlink {
+  0%, 45% { opacity: 1; }
+  55%, 100% { opacity: 0; }
+}
+
+.animate-caret {
+  animation: caretBlink 1.05s steps(1, end) infinite;
+}
+
+.hero-text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), 0 2px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* Fluid instead of stepped, so the copy keeps its line breaks at every width */
+.hero-headline {
+  font-size: clamp(1.25rem, 0.66rem + 2.61vw, 2.75rem);
+}
+
+.hero-sub {
+  font-size: clamp(0.875rem, 0.78rem + 0.43vw, 1.125rem);
+}
+
 /* Collapsible animation overrides */
 .collapsible[data-state="open"] {
   animation: slideDown 0.3s ease-out;
