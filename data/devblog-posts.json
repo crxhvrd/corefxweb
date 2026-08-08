@@ -345,7 +345,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a77e6f4&is=6a769574&hm=dbd580187cdd981ea1bb48f9f7a1d7ef329cfaaec47996177720c01e99b93ae4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a788fb4&is=6a773e34&hm=1aaf48acaac62f1329f8d59040849da93c08eba981bcdf08fe5de2550e4cbff7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -427,7 +427,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a77e190&is=6a769010&hm=225af253e85e0032539cb35fc82c024cff3d2502f7ea61415c201a241b266b1b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a788a50&is=6a7738d0&hm=cd8beb97e7351258f3849d4ded6aaa825effad78c538a2da47362be656dee999&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -500,13 +500,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a77e443&is=6a7692c3&hm=db4f2896b2eb6f71368a59ca2c63c75aca8b430813f51a13db843508cdffe1dc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a788d03&is=6a773b83&hm=657ad6960f92c8b5ccc080cf1b440358e1613518abfa8e0a96592c922c7ccf7d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a77e443&is=6a7692c3&hm=8efc58a7cc96f4a56175ca7fe8a0c3ad78ddda8b69f2126434730f6321aed5c6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a788d03&is=6a773b83&hm=2f26c39daffc171dc901240d1f5382655b1f5816278aa7a03a3671b060506394&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
