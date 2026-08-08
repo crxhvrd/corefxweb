@@ -34,7 +34,7 @@ const PARTS: Segment[][] = [
         { text: 'graphics textures', className: EM },
         { text: ', and adds new features to ' },
         { text: 'the\u00a0game’s own shaders', className: EM },
-        { text: ' — volumetric clouds, wet asphalt, softer light.' },
+        { text: '.' },
     ],
     [
         { text: 'Two builds: ' },
