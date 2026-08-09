@@ -427,7 +427,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a793310&is=6a77e190&hm=f0b4a6fc4f49fdf0e1767479b329d54347b60d618a69fd5fe777688edebe1d07&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a79dbd0&is=6a788a50&hm=51b96b7853195601f71ce2e198ee9cf8ab7a0ce51ef843eea07340dfdce5d6e1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -500,13 +500,13 @@
     "content": "@CoreFX More volumetric clouds optimization, getting close to performance free experience.\n\nOff/On (Quality Mode)\n\n4K Resolution, MSAA X4. On lower resolutions fps drop will be even less noticeable.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a7935c3&is=6a77e443&hm=fe8f2ffc81aa64027bc67aabda18d305959a9d728f844f2b895dc71b3bc3ed39&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695495829131264/image.png?ex=6a79de83&is=6a788d03&hm=221e19e976cbbd96fbc582b341e41e7469d15478f9cc8c11cdfe2ad9bab7ff00&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a7935c3&is=6a77e443&hm=7f4d7a44248687ff70429cc65393cbe03f89192e422f744ff80c9e16c81747ee&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a79de83&is=6a788d03&hm=990ab184b032da3d37680c3e2a8bc9dd4f6c588aa6112ac6a21919597181d694&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
