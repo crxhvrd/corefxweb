@@ -311,25 +311,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a792eaf&is=6a77dd2f&hm=05cdbe540583ac51981cc965621a521b85a562e651506e56b41c4e3d9e2cee8e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a79d76f&is=6a7885ef&hm=48394cef05b7ae8cff5838898cd652b9f5c8d940b13fa10089473c51b01ee761&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a792eaf&is=6a77dd2f&hm=7da8327662fc6d574b501dfecfa393bb06033d5b235a040f57932df8f9834cb6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a79d76f&is=6a7885ef&hm=0c9a1c34341e333e7a869b58d1458fb74c92d20171d6fe36a2dcc006d5c8d693&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a792eaf&is=6a77dd2f&hm=a612eb7ac23ef0cefea2dc71c2d8f22cafa2d6d4524ba73829f3e85ed6d565fc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a79d76f&is=6a7885ef&hm=028e1864d3501ec3b65a12e9d1ba2f4a0c40eed8e93496355cd4fe6189381497&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a792eaf&is=6a77dd2f&hm=bf5680946007ce1853dff25ba29261d9d24592b0130b1d42a9eed928c51584a7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a79d76f&is=6a7885ef&hm=33bd2ddc3cecfd88ad36e7c4094537e7e7448898dbae39ed1d9dead8a4a6d40d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -389,13 +389,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a7925f9&is=6a77d479&hm=855a5d7729c5ad5f58f34fa9dad153cf390184f18035d9e7795e1974a94d3990&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a79ceb9&is=6a787d39&hm=3c0753db4bb6b601c74e543ceb779a5b7b390ec9e6b2b6b06cdb55af05d68dd6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a7925f9&is=6a77d479&hm=3ee26b0f05c11fe3855fcd38cf8a78821a334409dccdefad88c37f1b1d921ef4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a79ceb9&is=6a787d39&hm=a196703654bc474e2f6bc64576df684e8ad7c8ece151e0fe246995144b56b50a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -443,25 +443,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a7929bb&is=6a77d83b&hm=cdbe9b2361a608250c5202477b21eeb8901562c35fd22d16dee1c42cb5ac4152&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a79d27b&is=6a7880fb&hm=2ca164a3795defcb98d72204b9e5d9c4140ade423035b85df8b135e14e56902e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a7929bb&is=6a77d83b&hm=277fc806cd3eb0256dda7f847c8c20bd96c0811fa742c4cea4a37a9455795f45&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a79d27b&is=6a7880fb&hm=e3fae3161ddbf50aaafcce9230ac660cd6524b6dcc06eda64f158bbe745dc9ac&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a7929bb&is=6a77d83b&hm=550f8e97bfe13f45bc9f9cec0e3af2869f40dbaf945bba41a7d04c2dafe15386&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a79d27b&is=6a7880fb&hm=56dad852c4c98ded43f2f0d93f2cb2d833f56c3b9631c0941802b8a8bc11f1b0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a7929bb&is=6a77d83b&hm=6ad1bb856cadd7d6403f8a17470b66eb01388df3ec244836ad8b83768ede640a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a79d27b&is=6a7880fb&hm=6ea9058e9dacf73a7d3c4cf812049939a9e9d5ccb5703c0fbbe19db1be993306&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
