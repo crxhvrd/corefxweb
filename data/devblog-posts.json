@@ -113,13 +113,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a7d76c7&is=6a7c2547&hm=508af16b153dab5f1c75fc76cdde7e8d9d752d86b95c6ce833474b8449bc149f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a7e1f87&is=6a7cce07&hm=d5d5b8963a3cdc370c877079fd20771b6ef7bfd7f5132e925afa486a2a47eff7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a7d76c7&is=6a7c2547&hm=aa842c83231cbebd949fcfedcf5f56b43df2b77a3312bbf1c70e732676130a69&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a7e1f87&is=6a7cce07&hm=d2ad07db5c90231f6912de39fae540bb95034a9d197d86e46a6de5005c1b1f6d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -216,7 +216,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a7d80e6&is=6a7c2f66&hm=1b9f0a83b6a465ab8a4d6812fb9ee8785352a95d5725239a743e0db3afdf7be7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a7e29a6&is=6a7cd826&hm=6394cd32b7c570f76d26c3d787e13ea1d94f0790a7fcfe6880f56a84d38c64cb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -233,7 +233,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a7d7ef4&is=6a7c2d74&hm=b4acde6d680962ff0445866e79c55dc7eca69ecb8f5781ff09d28241fa018f89&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a7e27b4&is=6a7cd634&hm=68fbfadbe36cec624480fb5aa971fb1bc657721218d95506101e3b743996caef&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
