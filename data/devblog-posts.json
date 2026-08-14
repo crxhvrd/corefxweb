@@ -63,7 +63,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a7f59a0&is=6a7e0820&hm=f0bbbadd79e9a763cf31214761f3b00805d7f3e0b96d6687362476b9464448fb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a800260&is=6a7eb0e0&hm=5f67d1cb9e03113e4b55dfdb8b357e43de28a5835accff95091e4941d9481351&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -80,7 +80,7 @@
     "content": "@CoreFX we even added more functionality into rockstar editor, WIP",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a7f591b&is=6a7e079b&hm=6b5e91194d5564554f9241cb39ae8af7cc351a15cb45a14cc63a0b8c36c68453&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a8001db&is=6a7eb05b&hm=e482f135b97be29bf6266523537fb701cbf7399eaaf96027bee0caafcf81141f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -97,7 +97,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a7f526c&is=6a7e00ec&hm=ca410ffbd2fdafe7d2da87ef08d06dc62932f05e4500af8f4b5b1f6147aef830&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a7ffb2c&is=6a7ea9ac&hm=311c6848b539600c179d937c97c48e8aa4664002fe5bc90412d88211479ae19e&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -161,13 +161,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a7f4b77&is=6a7df9f7&hm=b1d3b25a3bb622372edc038c592a78207d8c00e37d64b938e3c8877b0dd6b163&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a7ff437&is=6a7ea2b7&hm=2a4d652da78295e776c76c2a0e9a90b23f950f57c891864600387d8a253f44c1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a7f4b78&is=6a7df9f8&hm=7365d4d3d826c5a9364683700f9d6e6d8a8ba81a4cebaf89d1dc59c1ab963462&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a7ff438&is=6a7ea2b8&hm=5c398056c2f9ba434850f88d1c49f5b79970cd4acad15b43926f40219d724b59&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -477,13 +477,13 @@
     "content": "@CoreFX new wetness model\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a7f51cc&is=6a7e004c&hm=7de53a42d49037384a0cc3d8e9a274766b96f39c40e7d32a57a7a928ec5e3316&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a7ffa8c&is=6a7ea90c&hm=1d2d6c155107fc3189f9b2635e07fae718a7c522e633239d4431662761a304cb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a7f51cc&is=6a7e004c&hm=255309391b42eea7d8701f67b7436fe911f9d4ab73a76d0097ad4a78c7bc1f50&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a7ffa8c&is=6a7ea90c&hm=4b0c2e52e849ef90328a8824b6148c728ff902a687ef3b136bef8bb1b0fb2f24&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
