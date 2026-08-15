@@ -233,7 +233,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a80cab4&is=6a7f7934&hm=10dcc3af19e0b6d93c0e36a74f4ba22bedcd1bf208d8388e79939ef87cc38bc6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a817374&is=6a8021f4&hm=f096bc4e6b28d18134ae35586ce20bed09016c23113024ea6af95ef4cea3c88f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
