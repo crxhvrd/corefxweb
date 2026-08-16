@@ -337,25 +337,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a82692f&is=6a8117af&hm=274b60a13f0ca9be0995e739cabf0f6f1e9a3183c6a609f4947eeb9b2b7b607c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8311ef&is=6a81c06f&hm=9ea7c7ec159c50147db51c853d17a1fce98248502d6d7edd49c3d3b6ceabb418&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a82692f&is=6a8117af&hm=3c7652692a2129373e1acbf87f3aa71bd551e3463e9db5c10336bdf2de230ece&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8311ef&is=6a81c06f&hm=7cb0c695a1252bd38253ec521b653ec404e116823e8e21c1f4979b4217fb9635&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a82692f&is=6a8117af&hm=4e5801a6bc3ac177e594f18b889d4f0513ddc8961a9acf4f5571d771d0bd59b0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8311ef&is=6a81c06f&hm=f47913aefb8aa202d70fe203171997e7476114d59e9af48d8062257aebdffcb3&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a82692f&is=6a8117af&hm=407789ed444c7b51f307720178d2aac1d0f422508f2102aa62b9ba4069384155&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8311ef&is=6a81c06f&hm=b59a8467583a906e0f972405a0f20c44da8e028a8ba00ad1e6b82ac18c316857&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
