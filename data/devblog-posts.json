@@ -1,5 +1,31 @@
 [
   {
+    "id": "1538535219093831762",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-16T13:09:40.834000+00:00",
+    "content": "@CoreFX",
+    "attachments": [],
+    "embeds": []
+  },
+  {
+    "id": "1538534958514044990",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-16T13:08:38.707000+00:00",
+    "editedAt": "2026-08-16T13:09:36.021000+00:00",
+    "content": "Legacy build is finished, full RenoDX settings preview",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a8307d3&is=6a81b653&hm=3643712cc2d1ad6ccaee765fcdcde0c08d8b97188fd518a16ed02beb9755f913&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1534852139065806858",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -389,13 +415,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a826079&is=6a810ef9&hm=4bf245c511292486d3c32cebd05a4370f083207af55e14d313cf3e50143ac9a5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a830939&is=6a81b7b9&hm=d9573d55d17890469aea56e0fafddfdadbf65226cad8bc36dcdaf4782e374e71&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a826079&is=6a810ef9&hm=712491756d7e7f507efb120f4e14784fa545899596bee648f2b29eec6780b1c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a830939&is=6a81b7b9&hm=af879562d85164ed5f5cbebc49c87f156ba37676b467722ccf3bde712e7c5a97&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -443,25 +469,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a82643b&is=6a8112bb&hm=fe04f7d858ff5d3dc5747dfd890c9d7d48d59d0b41a5d82a2082b23639ca02c8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a830cfb&is=6a81bb7b&hm=acb837b27c76ce40f45942c68ac296154713815cf500f816cd6c2c669f3e3458&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a82643b&is=6a8112bb&hm=ab314b6edd49c39aefd7ab94810db44b848369da95d443a6089f659f76d450d9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a830cfb&is=6a81bb7b&hm=6a6a51475982ad3437b773ef27e5dd970cfd121a176b7a28ec101379f0cc7185&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a82643b&is=6a8112bb&hm=0b3eb8e3b69060aebf6e185e9815bd9f4f276778753a9445bbce4bcad829bdc8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a830cfb&is=6a81bb7b&hm=76bcb25980346061c851699a41f29f8de1c1f85adcec230a7c8e8d7feac42e47&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a82643b&is=6a8112bb&hm=8731a0990f067dfb8be605b13be7d8d996ab5831fd30e03745eab8adb363100e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a830cfb&is=6a81bb7b&hm=2e30ec55119a1572cc568216c5c961a13fb962eeb0706ae4c6fcb60ced9ed9bf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -507,62 +533,6 @@
       },
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523695496760393910/image.png?ex=6a827043&is=6a811ec3&hm=9a4de457b5282510f8d612b4e566e83a5a7721fce1d441d01ab4e39a79f8c62e&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1523288950456713288",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-05T11:26:27.129000+00:00",
-    "content": "@CoreFX softened light & shadows for almost all spot & point lights of the game, exterior and interior.\n\nbefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288946694553601/271590_20260705141719_1.png?ex=6a82efe2&is=6a819e62&hm=4de2f84a0bbd943b805dfc435f9864ce41a6ac77dc46b9b7d2d7fd62ad2db059&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288947944591430/271590_20260705141612_1.png?ex=6a82efe2&is=6a819e62&hm=cf370a141e66c6ead8a2ad96772edf261a53a89c0cd77ca4801e54b67433315a&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288949026586654/271590_20260705142443_1.png?ex=6a82efe2&is=6a819e62&hm=70369b30e098ad017040e97da7a2dbf9af154226fd27d4c926ed1ac76b3b6aa5&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523288950297591878/271590_20260705142337_1.png?ex=6a82efe3&is=6a819e63&hm=73cc8a20ff124b92d901e236584bc14d6c1443ce2fca72ad01f2eadfdc4faf51&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1523258372093382796",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-05T09:24:56.679000+00:00",
-    "content": "@CoreFX  also fixed spot lighting sharp unrealistic edges, now light distribution is soft",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258370788823100/271590_20260705122349_1.png?ex=6a82d368&is=6a8181e8&hm=446948b18da217901a680e8537af8fc98580713c401e1fe3226e8914ef044c07&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1523258371736604703/271590_20260705122356_1.png?ex=6a82d368&is=6a8181e8&hm=4fcd1202ff0275c643f196cdc357d0790f71deea68bbea23dae716686d3ae8c7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
