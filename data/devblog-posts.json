@@ -242,7 +242,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a84c126&is=6a836fa6&hm=77556f0467eabe2c11aca607c258c6e460478094aa66644e32ed90a6290baa58&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a8569e6&is=6a841866&hm=1d687a085caf5c827173bf10b4ebf883601d08dfb746ef48de0eac533127755f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
