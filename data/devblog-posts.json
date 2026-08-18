@@ -242,7 +242,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a8569e6&is=6a841866&hm=1d687a085caf5c827173bf10b4ebf883601d08dfb746ef48de0eac533127755f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a8612a6&is=6a84c126&hm=75ce0f926fc799893be1defeca3636724ef65af9ebbb8d6e7cf8f1f3d95b16e5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -259,7 +259,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a8567f4&is=6a841674&hm=4edc0d0fdf300fe6cab6710f6d096078d23607bfd516336fec6fdc466e7a51ec&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a8610b4&is=6a84bf34&hm=c54d08f1a351e79f7b6bb597ea277df1cc783615dc78dd665ed760b2ae1c5cc5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
