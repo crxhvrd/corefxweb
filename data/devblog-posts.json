@@ -337,25 +337,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8900af&is=6a87af2f&hm=19662ab4d7a7fb023e039daec4bd99136a44c36f7638021d530b4878782ee060&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a89a96f&is=6a8857ef&hm=32fa67a0b53e48d7e50b6ee67af9eceb853155d240f4156a8a1cd62c960136e9&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8900af&is=6a87af2f&hm=7e951016720f36f59e4a688eedbb1acbb525a085464b2673e43604aced7e33ca&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a89a96f&is=6a8857ef&hm=8bdfb30f9ccd580a37e1ac935ca36e8d3ef8b1faf0467edf220e31243be9792b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8900af&is=6a87af2f&hm=3adbea5ed5696963735a1eb2f76f96d1979d819390ce14f4519d2391b479e6c9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a89a96f&is=6a8857ef&hm=be76bfd9cc427be06e7226a819af6c8f0ecb4d4e9ec073c677326c25e3e32ce6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8900af&is=6a87af2f&hm=3ed951b10d37b73bddf92b5af36fe74dcb69bc3b57fedd8924648c405fce4f96&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a89a96f&is=6a8857ef&hm=b1dc9e1e561554c120809d3f61464ec3b19412b1a9f08f80546337735238b5ed&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -453,7 +453,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a890510&is=6a87b390&hm=4c705459bbe82778dd74b17f5fb671ca32efba19c782d7785d0f9c2fa488d55f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a89add0&is=6a885c50&hm=4f02c22445660e2ba13447028a94c4fcf43870d89f5620008434c9b8f6867a0c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
