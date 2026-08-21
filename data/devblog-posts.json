@@ -17,7 +17,7 @@
     "content": "Legacy build is finished, full RenoDX settings preview",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a88f693&is=6a87a513&hm=fc1b12a06260207d0d98758d9fcf1722799459dcfaab32be4ebc4664e6d2d926&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a899f53&is=6a884dd3&hm=ae734e3d30652711257534b3c85fa4828b21f5bba9936cc31939aea23af83e9c&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -320,7 +320,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a88f4ae&is=6a87a32e&hm=dd2fc56a4a683c97986217bda068ede1608e81cdeddc42485572e5da09c9e71f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a899d6e&is=6a884bee&hm=7ac5c525d1c3f32badec789aa56196a33df61a7c09517a8d5362b3f8bd5e2a2d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -415,13 +415,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a88f7f9&is=6a87a679&hm=06068b22eb6ed62ab813017b9bf35681862dc87a9bba5fe2b55ce2eecb6e788f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a89a0b9&is=6a884f39&hm=d3a8d55fd00832d4788ec601c643e26482e91bf00fe11bc7f7bdd8c1f90edc55&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a88f7f9&is=6a87a679&hm=0551bbf96bd1fd84cd69689ad5ecf699c1b78ba2accf274fda85106ecbe0a853&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a89a0b9&is=6a884f39&hm=e9e0b2dd3caaa650e13ea83916ad75df33b38f1f3d85cf88016d9c5d879ec86a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -469,25 +469,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a88fbbb&is=6a87aa3b&hm=ac8eb6c34dd987c55027fb477b2cadeaa74b8bb8961fd18479dad08d63420a1e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a89a47b&is=6a8852fb&hm=c748cf62e3ae8a62eed661c78e1370fa627f097dc666553c7f1225e49c245f52&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a88fbbb&is=6a87aa3b&hm=b82c38fe36666b680aabfead48e18d255b9b9ea4295ddcea89e6b44ad2d87deb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a89a47b&is=6a8852fb&hm=b081659f707811bbf7637730dae26c7584f2808c4d2b46a942ecc7f02e3dc2c4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a88fbbb&is=6a87aa3b&hm=0b52b8b0aa8cd4a8dba2be5133fa87458c1af776ca2b0fd8438f895a79e695d8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a89a47b&is=6a8852fb&hm=ab721aafffcf62c5d8b1884f7de597dd71693da0bc6a6d7a62f331bbc9b40831&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a88fbbb&is=6a87aa3b&hm=f2081fe710cd7e1091b5709efa3856f71ebd3767fe9c6ecfd891fa669dc55108&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a89a47b&is=6a8852fb&hm=9e81335dbc7d8947f55889a42d939cfa309b930e1d69f2c2056d5e3cdfb0ea99&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
