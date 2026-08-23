@@ -469,25 +469,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a8b9ebb&is=6a8a4d3b&hm=2d84fb37792d4eaca789ee5bf7c4345781f88c0d5a00e691ff44cd47909b61cb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a8c477b&is=6a8af5fb&hm=df3d140af6e8837d4a3150ea34ce65576eb8e2921712c622e7bedc0978fe3ba8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a8b9ebb&is=6a8a4d3b&hm=4e68db14f8ebdb90215fb103120564419442d2a264ae755ad4a41dc1b71ce1ad&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a8c477b&is=6a8af5fb&hm=366efc00860b5ddd6a018529cb21c65922bd4c5a977782259e3c01a05ae694c1&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a8b9ebb&is=6a8a4d3b&hm=052459628d14a8533a9e432e59890e70983f37c6a7f2dbe152ebadb47c723649&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a8c477b&is=6a8af5fb&hm=5c95c58a88121516a1050a19a142dafd409cc26a7a7652d18824c4ff78012239&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a8b9ebb&is=6a8a4d3b&hm=025e849f2effdceafa981cb39bcff7a2dfac2921e62ecc9a672a8fea2d03ef09&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a8c477b&is=6a8af5fb&hm=ef0259d09abdaf735b65f12c2775f209fae8c2c91b6c62cad80111db18eee094&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
