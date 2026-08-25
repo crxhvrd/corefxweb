@@ -1,5 +1,31 @@
 [
   {
+    "id": "1541876987977535538",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-25T18:28:40.623000+00:00",
+    "content": "10-Day Early Access and release date will be announced soon too",
+    "attachments": [],
+    "embeds": []
+  },
+  {
+    "id": "1541876683345235978",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-25T18:27:27.993000+00:00",
+    "editedAt": "2026-08-25T18:27:36.616000+00:00",
+    "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a8f300f&is=6a8dde8f&hm=732097141c336690d2924270b684b0906a9b7c5b3112f1f5979210748b782fe0&",
+        "contentType": "image/png",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1541871473755693077",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -322,13 +348,13 @@
     "content": "@CoreFX Water parallax, to improve wave details",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a8e895c&is=6a8d37dc&hm=4fb26968aa585df77f4373ba976f47c52ce5699d09a431b28ca1ae472220bc64&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a8f321c&is=6a8de09c&hm=d8aa9b76058ddefed7de67a1e5502b0896b2257f9fdcf72eb668615cee89f2b6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a8e895c&is=6a8d37dc&hm=0280c1fba5e9b378610a2736b276ac3a04376c30d49f4687b41fa3a412b37ffb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a8f321c&is=6a8de09c&hm=bd7a97f92efe2965ff0ad0d873d694c878a182862d0e552ee6ac8ae04aec36d4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -501,62 +527,6 @@
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8ef3d0&is=6a8da250&hm=533e35ec9fd882441b3d3de964ddffbd1ce535aa6b348174cb5435a29ffdb549&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1524588550543380555",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-09T01:30:35.935000+00:00",
-    "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a8eea7b&is=6a8d98fb&hm=b8f007ea603dc09a9621d5bae5b7e025b963086e6e8eb2cc43847a0778d47db2&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a8eea7b&is=6a8d98fb&hm=9d868f8f83b62a06c2a3ae02f4ed32dcf654ded1200cadc0dae3acb517111168&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a8eea7b&is=6a8d98fb&hm=9b05b5ae49c58ecdae0c44fbf38c3fc6c5cbc5f2aa97a094946446ed74618f96&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a8eea7b&is=6a8d98fb&hm=e2468b6ed7db244b26ff74c2432ebd47de016088ceeb5cce41a54b4985b8461b&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1524468898336997418",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-08T17:35:08.626000+00:00",
-    "content": "@CoreFX new wetness model\n\nbefore/after",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468896847892500/271590_20260708203341_1.png?ex=6a8f23cc&is=6a8dd24c&hm=9a945f06c59c91197c275bb048db2de50cfedb474d28c174e94c29d994a11e73&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      },
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524468897930018987/271590_20260708203412_1.png?ex=6a8f23cc&is=6a8dd24c&hm=d35a964ece5c845e97f308e6492a87b1c8cc636fda7654cb805cca005e09ecfd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
