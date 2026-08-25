@@ -337,25 +337,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8e46af&is=6a8cf52f&hm=123301df2815aed96e272eb654790c1b838555f7bcde3cb4086629319988ee57&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8eef6f&is=6a8d9def&hm=d52faee17e3965d6330b019aa6349c4937c955f990ef72244dc34fd6bdc7280c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8e46af&is=6a8cf52f&hm=29f586b1b3ef55ddf5dae2383f4a04727f395429f57cb3f2dac1c215d134c42e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8eef6f&is=6a8d9def&hm=bad269c3b5a16a4f3c4ebc7999634dc691596869de713ed76797abc795c40c76&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8e46af&is=6a8cf52f&hm=987678432c37b92bdf35379d5e6510683393bf3ef3ccc033e3b69357a5d1a505&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8eef6f&is=6a8d9def&hm=37e0587280ef7b960a871742b207679028bfbfbb162460ca6b6bc5b623707e87&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8e46af&is=6a8cf52f&hm=353e17636f0ff859c5e137eb5a807266b04ac703ce858f0df1399cde2ee88018&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8eef6f&is=6a8d9def&hm=0b0427b5bc66f07e52f234ad4ed911d1d966c538fb8dee6abe6268a70948eeb0&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -453,7 +453,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8e4b10&is=6a8cf990&hm=ed5dd4b426f1f0df12f813a98f0705e9b7a55622141e8bb817ef2514377d6c45&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8ef3d0&is=6a8da250&hm=533e35ec9fd882441b3d3de964ddffbd1ce535aa6b348174cb5435a29ffdb549&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -469,25 +469,25 @@
     "content": "@CoreFX Road refinement shader\n\nClassic Roads may be good, but they are using 1k textures. This shader improves how road textures look like without touching an actual textures:\n\n- added new high frequency details\n- shader now generates parallax without any new height map textures\n- denoising",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a8e41bb&is=6a8cf03b&hm=5f717260745d11677df9498f0b456f07039caeeac97d9da85e662b2e4205e169&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588546684485853/271590_20260709042525_1.png?ex=6a8eea7b&is=6a8d98fb&hm=b8f007ea603dc09a9621d5bae5b7e025b963086e6e8eb2cc43847a0778d47db2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a8e41bb&is=6a8cf03b&hm=8adb79c6f7efde0b15badd8a58c967fc67d54f6568fcdb5932fb3f8cb3015567&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588547988783135/271590_20260709042534_1.png?ex=6a8eea7b&is=6a8d98fb&hm=9d868f8f83b62a06c2a3ae02f4ed32dcf654ded1200cadc0dae3acb517111168&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a8e41bb&is=6a8cf03b&hm=cfb76cb852b7fa78a3bdf7904352b2079e715be6e2aaf94ad39da4b521ddb9cc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588549041819648/271590_20260709042642_1.png?ex=6a8eea7b&is=6a8d98fb&hm=9b05b5ae49c58ecdae0c44fbf38c3fc6c5cbc5f2aa97a094946446ed74618f96&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a8e41bb&is=6a8cf03b&hm=87b4f8af17c4b2e84b0ad5dee043b18afb6c580406b45d438a5266fa2bafb465&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524588550522142942/271590_20260709042649_1.png?ex=6a8eea7b&is=6a8d98fb&hm=e2468b6ed7db244b26ff74c2432ebd47de016088ceeb5cce41a54b4985b8461b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
