@@ -1,5 +1,52 @@
 [
   {
+    "id": "1542125519133347841",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-08-26T10:56:15.068000+00:00",
+    "editedAt": "2026-08-26T10:56:58.527000+00:00",
+    "content": "@CoreFX HDR support via RenoDX, PsychoV Tonemapper\nPics made in HDR and may be incorrect without HDR display",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125514410434560/GTA5_Enhanced_2026-08-26_05-28-51.png?ex=6a9017cd&is=6a8ec64d&hm=16f91e274aad5d73c78b7051856cd7b4cecc7b042561bfc0a396ee249a7259ae&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125515950006322/GTA5_Enhanced_2026-08-26_05-44-57.png?ex=6a9017ce&is=6a8ec64e&hm=30bf84de85402e43b702e20b724bd93d0e0bcaf2f40c5ab0585ebbd86bf979f1&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125516666970132/GTA5_Enhanced_2026-08-26_05-44-09.png?ex=6a9017ce&is=6a8ec64e&hm=aeb1cba50267e3370f3fcf5301194e451cef528724ca8bf890975f01ba258255&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125517325602856/GTA5_Enhanced_2026-08-26_05-42-12.png?ex=6a9017ce&is=6a8ec64e&hm=da445c46b53657ca305e5a0437bc692123b170d689a621d7d92fea28ff3c1c31&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518126845982/GTA5_Enhanced_2026-08-26_05-39-54.png?ex=6a9017ce&is=6a8ec64e&hm=630f51c7f366a3d747e01c28edebbe22156415f2844d957857b50debcfe90465&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518885888150/GTA5_Enhanced_2026-08-26_05-38-05.png?ex=6a9017cf&is=6a8ec64f&hm=2dddf6e5fc21dde521a9ab735fd49e81efa0b6dfe3957b8740b15767e0440c89&",
+        "contentType": "image/png",
+        "width": 2560,
+        "height": 1440
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1541876987977535538",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -511,22 +558,6 @@
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a8f7a39&is=6a8e28b9&hm=eaa99b1a7e3dc03d67364c61cd300e58a4a5371fc4262e7db652a1d11189975d&",
-        "contentType": "image/png",
-        "width": 3840,
-        "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1524960957778886706",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-10T02:10:24.739000+00:00",
-    "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8f9c90&is=6a8e4b10&hm=a4a59a59edf6c37ca0f5a99641333c3b4c2e7a8d2c0092bee8fde9a3202753b3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
