@@ -457,25 +457,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8f982f&is=6a8e46af&hm=9689e1914b709e2b04dbd93376912f1f182f93fae88c094aa83712681fa5294e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a9040ef&is=6a8eef6f&hm=59028b6803fcc70b9a9344e0e34419077b206d840ead58326b2b42cbbd8e3c96&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8f982f&is=6a8e46af&hm=e06d3035236b01552fc73d22c5500edf538ab2c99117b10ae9a82e1d8fcfa863&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a9040ef&is=6a8eef6f&hm=97a336a8b21f4a8c406ab7931872956d2ee48c6caa8b52d1fdf48a91efe9292a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8f982f&is=6a8e46af&hm=93591f548e70e78a8eb08546ad0dedf7bed92b72c6952faa0809f2dfb1e2d654&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a9040ef&is=6a8eef6f&hm=461f1939f9b24baa9ede68bca13716d3f8338a539636cb200bde1e2d8c474801&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8f982f&is=6a8e46af&hm=eacc90cf051926b75f0b92b32115acd4c6c72f88653e6d500767f683efddf665&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a9040ef&is=6a8eef6f&hm=2de994f92a6838b6409f24006fb71d1725978b650ec537d616462e30e6ae7e7b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -535,13 +535,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a8f8f79&is=6a8e3df9&hm=bde2c34523a3ab1db80f873eb74d66669a2cc700155ca883fea0288295e79984&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a903839&is=6a8ee6b9&hm=da1d11368e3188f5ce2544b631ed2d4938f3826414f0448b3bdb28fa38cd778a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a8f8f79&is=6a8e3df9&hm=0fc9162967d8a7e9ed72afbbeaf6789351935b37d1108edf5bb410367bc9ff06&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a903839&is=6a8ee6b9&hm=60024f3e90e03b81e903e937fe0c779a4dd6fe23ef6aa35e3347dc3cd13988d5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
