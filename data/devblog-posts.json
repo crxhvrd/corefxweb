@@ -90,7 +90,7 @@
     "content": "Legacy build is finished, full RenoDX settings preview",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a8ee553&is=6a8d93d3&hm=b038a751418efb26ecd68e96ec5a92fb3962e521491a6bd22bbf1effb832a1b6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a8f8e13&is=6a8e3c93&hm=d921ec5a104acf570ccd80f9c02ca4e749ee7a18fe5840f5daf8b1ab3cc104cb&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -393,7 +393,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a8ee36e&is=6a8d91ee&hm=4c3e70a0301d7120fa20e7a71d1b4dc395e521646a4c0ea828c1a6b3e1857532&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a8f8c2e&is=6a8e3aae&hm=71e3cc68850f494f45ad47b9ee781ff5e4a124a543f8ce86004558ec4b2728ae&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -410,25 +410,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8eef6f&is=6a8d9def&hm=d52faee17e3965d6330b019aa6349c4937c955f990ef72244dc34fd6bdc7280c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a8f982f&is=6a8e46af&hm=9689e1914b709e2b04dbd93376912f1f182f93fae88c094aa83712681fa5294e&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8eef6f&is=6a8d9def&hm=bad269c3b5a16a4f3c4ebc7999634dc691596869de713ed76797abc795c40c76&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a8f982f&is=6a8e46af&hm=e06d3035236b01552fc73d22c5500edf538ab2c99117b10ae9a82e1d8fcfa863&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8eef6f&is=6a8d9def&hm=37e0587280ef7b960a871742b207679028bfbfbb162460ca6b6bc5b623707e87&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a8f982f&is=6a8e46af&hm=93591f548e70e78a8eb08546ad0dedf7bed92b72c6952faa0809f2dfb1e2d654&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8eef6f&is=6a8d9def&hm=0b0427b5bc66f07e52f234ad4ed911d1d966c538fb8dee6abe6268a70948eeb0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a8f982f&is=6a8e46af&hm=eacc90cf051926b75f0b92b32115acd4c6c72f88653e6d500767f683efddf665&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -488,13 +488,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a8ee6b9&is=6a8d9539&hm=a450fd7673f5ac1cc40e6cb9596757cb9bceef42fa2b2a0fba953ef5aab4f582&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a8f8f79&is=6a8e3df9&hm=bde2c34523a3ab1db80f873eb74d66669a2cc700155ca883fea0288295e79984&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a8ee6b9&is=6a8d9539&hm=cbafddfb23f3f7586aa51731562efe603599936c886a8f30d18a407e325fdfd5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a8f8f79&is=6a8e3df9&hm=0fc9162967d8a7e9ed72afbbeaf6789351935b37d1108edf5bb410367bc9ff06&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -526,7 +526,7 @@
     "content": "@CoreFX ported all rain shaders (particles/raindrops)\n\ntotal shaders rewritten/updated - 163\nmore incoming",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8ef3d0&is=6a8da250&hm=533e35ec9fd882441b3d3de964ddffbd1ce535aa6b348174cb5435a29ffdb549&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1524960957355266068/271590_20260710050829_1.png?ex=6a8f9c90&is=6a8e4b10&hm=a4a59a59edf6c37ca0f5a99641333c3b4c2e7a8d2c0092bee8fde9a3202753b3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
