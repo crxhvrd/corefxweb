@@ -137,7 +137,7 @@
     "content": "Legacy build is finished, full RenoDX settings preview",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a9036d3&is=6a8ee553&hm=c2f193fca38701ed0dbed941c17f44a2827a94c3e974e1cb086d09af6755b02a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a90df93&is=6a8f8e13&hm=6100ecd3560984a53d00097e26051fe6d3f7f0af797aa37554b2140cc1ca6b69&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -281,7 +281,7 @@
     "content": "@CoreFX TNNAA improvements, on/off comparison at 1080P + no MSAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6a902346&is=6a8ed1c6&hm=ccfa3ad2432cf0d7c5852e41067e8deaa44bc5cc8cfdd8bd8e22691e537baedc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6a90cc06&is=6a8f7a86&hm=a207bf444a00a5db7b4c14beb49a23c7095ca7a49ec0c119c067d1880097d3a0&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -329,7 +329,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a906035&is=6a8f0eb5&hm=bc249db1b9c201efda44cb1a2aa337a3decd349ba038e6613e313ec288b1c0da&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a9108f5&is=6a8fb775&hm=cdb5931f0687a2cddaaf5751544b3e3c4ce8947de75f264d50c95f65227d73e5&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -440,7 +440,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a9034ee&is=6a8ee36e&hm=b501532f42d15936d1b6671d1889f77ba932cfa9ef506525e73798f0c9982967&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a90ddae&is=6a8f8c2e&hm=3654b514ab3563520fa6ae731856f1edc56eb11916d850c86af3664013fa28c8&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -457,25 +457,25 @@
     "content": "@CoreFX Streetlight overhaul - final update\n\n(debug and final color screenshots)\n\nModified over 100 shaders to add support of our new streetlight color change system via RenoDX menu\n- You will be able to edit three different layers of streetlights separately, color and intensity\n- Vanilla white & cyan lights are untouched\n- Separate global volume fog settings for foggy & smog weathers\n- Default preset will have a mix of white, yellow and light blue colored streetlights across the map\n\nComing to Enhanced as well",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a9040ef&is=6a8eef6f&hm=59028b6803fcc70b9a9344e0e34419077b206d840ead58326b2b42cbbd8e3c96&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327135228104/image.png?ex=6a90e9af&is=6a8f982f&hm=d4cbc53a1cca0cba7f51ec6ef0a484d98baadb67d711f00b3f8f1624277000d8&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a9040ef&is=6a8eef6f&hm=97a336a8b21f4a8c406ab7931872956d2ee48c6caa8b52d1fdf48a91efe9292a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761327680753715/image.png?ex=6a90e9af&is=6a8f982f&hm=e62241ba96062de8ae4a118ea2723445ccd6c01b9c626eda2c7be5724c795ae2&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a9040ef&is=6a8eef6f&hm=461f1939f9b24baa9ede68bca13716d3f8338a539636cb200bde1e2d8c474801&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328208969758/image.png?ex=6a90e9af&is=6a8f982f&hm=f8de2e9fd06e60b1e27e1af9c169622561acf7cdd41bdd6abeccf34715c818d3&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a9040ef&is=6a8eef6f&hm=2de994f92a6838b6409f24006fb71d1725978b650ec537d616462e30e6ae7e7b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528761328917938367/image.png?ex=6a90e9af&is=6a8f982f&hm=03e4aa8ec20f0b22f1800146f5975ca1184e81de2a6915a44ff6f3adebd3f495&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -491,7 +491,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a904ab4&is=6a8ef934&hm=c766d94021a4cbaec1dc8a64ca3045ac454e67da0c6ce988044b9878b11ab678&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a90f374&is=6a8fa1f4&hm=f4c5334d5af995b1c7ba3f94db046d0ee3cb7ca4cdeedb3665afa7c5bfc2a21b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -535,13 +535,13 @@
     "content": "@CoreFX Defocused raindrops effect",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a903839&is=6a8ee6b9&hm=da1d11368e3188f5ce2544b631ed2d4938f3826414f0448b3bdb28fa38cd778a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671677566910464/271590_20260712041238_1.png?ex=6a90e0f9&is=6a8f8f79&hm=f939cc83e6fc0c7d31398faa6c9dcb6753a13672341726e4800e5c2ec183251b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a903839&is=6a8ee6b9&hm=60024f3e90e03b81e903e937fe0c779a4dd6fe23ef6aa35e3347dc3cd13988d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525671678418485409/271590_20260712040923_1.png?ex=6a90e0f9&is=6a8f8f79&hm=b7b801c56c7e9774dd2bfe6a9305dff79034531413360a848a71f98b2b56f604&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -557,7 +557,7 @@
     "content": "@CoreFX WIP - StarLens, inspired by our old ENB StarLens",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a9022f9&is=6a8ed179&hm=60ffd193aacdff8a1b23045b06ff180a3c94043e7128d4b0be41b38b5a31813d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1525286473170030763/271590_20260711024228_1.png?ex=6a90cbb9&is=6a8f7a39&hm=2652408f0e74c6897b56ac928a1163732e7e1b6a05800ea9405d54a904be7d37&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
