@@ -7,25 +7,25 @@
     "content": "@CoreFX DLSS 5 Neural Rendering\n\nYesterday, a binary of a DLSS 5 got leaked into the internet, and good fellas from RenoDX community made it compatible with any game that supports DLSS 5 Neural Rendering in any game\n\nResults in GTA 5 Enhanced with CoreFX. If this is not a photorealism, then what this is?\n\nWe will much likely implement DLSS 5 Neural Rendering in our CoreFX RenoDX addon, but you will need to find a leaked binary yourself. And you need a RTX 50 series card. But it's worth it, trust me.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a96dd56&is=6a958bd6&hm=3624639f8de76f35142337fd17693a10c5722409892d57d22613784ad95d4127&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a978616&is=6a963496&hm=68a3e9c7b8b9ccd405bd22954e910c781fccfc919f626d7e4974441bf7f722af&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a96dd56&is=6a958bd6&hm=38d480da8a73f20940df3c1d0e07046736a0480840127833ae42ac631dc1641a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a978616&is=6a963496&hm=27f7c32b50f23919399224308146bc037b9bf709e463e8042bcc89c8fc5bc40b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a96dd57&is=6a958bd7&hm=836e9b130b71909df3c2a5d0d4858a57bee6935956c8d3f3c81e6a82ed965a40&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a978617&is=6a963497&hm=55ee8303ed3a54297ec305bfcf27cc76fe9484fb0bf91c3333abe65c6af1a364&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a96dd57&is=6a958bd7&hm=2014b1a2fbe41729906a13bb64a06215ed21d5195cda232267f6029feeef013b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a978617&is=6a963497&hm=8aef8ffc76b7ecc0160e183b9ac08827796db3e1df8797e404ba9db9f6beb00b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -98,7 +98,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a97190f&is=6a95c78f&hm=68d33702eb51997acbb58e53fc603078b4c5852983a5d04d8b63fc4dd2776a89&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a97c1cf&is=6a96704f&hm=4e710fcb9a2d93207f70135024654f3d783734e962823dde6921edba68e218a2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -115,37 +115,37 @@
     "content": "@CoreFX Big change for CoreFX Enhanced - Definitive Ray Tracing Mode by @Valkill \n\nThis pack of modified shaders changes how Ray Tracing behaves and how it's denoised, and how it works with GTA 5 Lighting system and makes RT look more mature, close to Cyberpunk Path Tracing in some cases\n\nBefore (old Ray Tracing)/after (Definitive Ray Tracing)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6a971434&is=6a95c2b4&hm=ecfcc1140c1f8123554d5ea6e23074bbf95414a31fca770e01b8651570b4fe46&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6a97bcf4&is=6a966b74&hm=ec7626bc94aef2790015b318c9df1ca713ecd839c503c6b78111e1473734d9bc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6a971434&is=6a95c2b4&hm=e53adcc091d5cb590133af98e5969f63d63a273c2a8eb248c403000acb3ba005&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6a97bcf4&is=6a966b74&hm=f344923e410408794b8cc25c76fd3426a41cf7ad78c43f6ff608c01cb411ac4f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6a971435&is=6a95c2b5&hm=70129aea275616f2edacf6112b68ff0264a625f6a3a6fe1c999e2cb8e1ad9bbb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6a97bcf5&is=6a966b75&hm=720a8d05616fa4f55762afe376bd1ec17e58288746e4c48b2b5add271968a0ba&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6a971435&is=6a95c2b5&hm=762d6c3270a1c1f826cbd1b8fc76b69db00d79990d94cde415b9694b2143b689&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6a97bcf5&is=6a966b75&hm=e55ef30e4d3c845f448ba6ad5eeb2ff7155dbda6b876539b03bc370168038c95&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6a971435&is=6a95c2b5&hm=b56e2f91299cca1b70766a4d35c8234ad435cc3fddc1257fbb7bec635c0f4da9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6a97bcf5&is=6a966b75&hm=1149ea2ea701a8ae8d03180f73e799c591d22c91fccc06fdf6a9b6d2720482d0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6a971435&is=6a95c2b5&hm=eeb14a46754aa484d8a1487b9d6fc777ac37d00c89572a4f7266b892fd2d5456&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6a97bcf5&is=6a966b75&hm=8d3f389ceecb2d274b26c3d2ad7933e755151cefdab1034b49dd95d097eceedd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -243,7 +243,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a9714a0&is=6a95c320&hm=38b8f4e466bfa2a00ab23da1b2323d8460ae9091a063716d4ff94cee7c3c10b2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a97bd60&is=6a966be0&hm=59aacb8c36ceccc5bd2e089733d5f716d9c6113a40dd7c2ce5def1c607f4ae0b&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -260,7 +260,7 @@
     "content": "@CoreFX we even added more functionality into rockstar editor, WIP",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a97141b&is=6a95c29b&hm=15b541befedf7006d7a4b030a8c26e7c63d22139651ac6dcf9e10d8f9b4536ca&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a97bcdb&is=6a966b5b&hm=7796e657dc90f29f3f7ea30dc6fccb0b559c4ee86f42522469d13683aebb15ba&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -277,7 +277,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a970d6c&is=6a95bbec&hm=c4126cfe49d78cc6c5acfa07f7f1cbf4852d28a024b67c45eaf382c98fe097a4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a97b62c&is=6a9664ac&hm=9e04a8c828d79faf69151ed262255013638de74fc8f27b56456189c74c85b46d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -341,13 +341,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a970677&is=6a95b4f7&hm=8ffed69a327556aae69a7549e872f4359c2b444bba0493cda7c6d66f743b3539&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a97af37&is=6a965db7&hm=3941fc7822754e3b3f522424ca7c387806ebeaba32b0c1b857e034ebc9ac886e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a970678&is=6a95b4f8&hm=4c74910a07332e5d247df87c02afa6ab6fcd0e8935a5dc8c953d069d4e2f9002&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a97af38&is=6a965db8&hm=edccef634ad46f76056fe9acc4c97ffe1ed74fa48c278c6bf03000c667384915&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -363,7 +363,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a96f7b5&is=6a95a635&hm=c3dcea56c91f4f6829516d04f8b99d7ffe200a9b42d54efa5bc736c8eff6e376&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a97a075&is=6a964ef5&hm=a802e277df87af276aa75b68e834a61b4fca7499a4c49499950a6c1865eff653&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -429,13 +429,13 @@
     "content": "@CoreFX Water parallax, to improve wave details",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a971b1c&is=6a95c99c&hm=830e0a97cf32d216536378b2526d3402f570eb2d076ee7e2bf2a7d2dfdcffd82&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a97c3dc&is=6a96725c&hm=55ba175e30ee4aef74bbd667796d8cf861683839bd7203669474191d00793ca9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a971b1c&is=6a95c99c&hm=ad6caeb9f47a66850f06222b09b20461e64a9bc703f8d89a520b40ae7931bfdb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a97c3dc&is=6a96725c&hm=e374937dd1db10e09e46f5b816f5925d39ac69be14fe42afc54d9f8e9959c7a8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -452,13 +452,13 @@
     "content": "@CoreFX water shader edits\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a9700e7&is=6a95af67&hm=c8e376c1e092a896e82ced5b00350c92cccd7ee2d01bc2957259d018d7f3eaf7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a97a9a7&is=6a965827&hm=780559518b70c0300546a6a65f2f74573d1f1a3cf94f55f8a7b1f018b4d01cb0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a9700e7&is=6a95af67&hm=750cd226db32037874984426db84864db384f983ede5afc06f1d27f48a4864ff&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a97a9a7&is=6a965827&hm=fcbc4c6033f45e044960bf693606dcf3d0a0602c7c2131835e8a3802ee2d5f8d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -525,7 +525,7 @@
     "content": "@CoreFX Streetlight color change, WIP. Detects different hue values to target only specific streetlight colors.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a96e234&is=6a9590b4&hm=24dc32fb99aec1d9cff8158a927db0e4528ee0a03d8782340f4977d8fe4ea7c5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528047043174600714/image.png?ex=6a978af4&is=6a963974&hm=5b5fefff0b852d202ee0727c3a704c2c35c552401ca31d6af0eac72d43e91509&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
