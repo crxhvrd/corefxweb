@@ -188,7 +188,7 @@
     "content": "back to @CoreFX development. New vehicle raindrops shader, Legacy & Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6a97e8f1&is=6a969771&hm=a922a4a7a1cd401427e9577215b81b77b9fa31841abffcf83a1032cd4b7775ac&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6a9891b1&is=6a974031&hm=76b5e5bdbaf78555a90660f3ac074112753f8449534dc8430f46b5aca5803dba&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -294,13 +294,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a97d4c7&is=6a968347&hm=c091b194323eb423c9468826abc9ac0b5c0af3e13ea036e28acf0154cf8ce0c8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a987d87&is=6a972c07&hm=80de85fda8f565e3665607a449171d9ac2e3c4f39b4e4cc31a6bfbf735dc66b5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a97d4c7&is=6a968347&hm=74822e5af2e7466645eaa74002cad5de7a4a88b77808eea7d42fffa2f1512acf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a987d87&is=6a972c07&hm=3496851ad88a500b01ba8322a04b7c62a32529b29aa27d5506c59dd4ef9ce749&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -380,7 +380,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a97e646&is=6a9694c6&hm=0ea3d89b8dfdc0960de7a889187cee19089dec572bcc8c5efa42b07446cb0c9a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6a988f06&is=6a973d86&hm=24d5b5262e122f06907bebf079033250308b7c64090765b32dc91b71c4141e20&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -397,7 +397,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a97dee6&is=6a968d66&hm=a1a032a94afd6724c61e2e2502c57c176fc6aa7f0a4dc5e8d1d5ae070a842d0c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a9887a6&is=6a973626&hm=aa71565942d6d1de800b7403945399586124c008bf103b1d9adc7eb9387212a0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -414,7 +414,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a97dcf4&is=6a968b74&hm=e2b7cdb696113f9c379d8b3bc5734b27be57bbd1d41e2fcccc0c010e4853b25b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a9885b4&is=6a973434&hm=e9497e871f67e1fffd72089acf1252a54772045eff8c117411bf91869eac2f1f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
