@@ -1,5 +1,22 @@
 [
   {
+    "id": "1544756455767416955",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-09-02T17:10:39.242000+00:00",
+    "editedAt": "2026-09-02T17:11:10.910000+00:00",
+    "content": "@everyone\n# **CoreFX 1.3.1 — Release Dates & New Monetization Policy**\n\n**Release schedule**\n• **September 4** — 1.3.1 Early Access opens for $9 tier testers\n• **September 14** — Public release for everyone\n\n# **The new policy** (see image below)\n\nSingleplayer users lose nothing and gain something: Volumetric Clouds are no longer paywalled on Legacy SP, and Enhanced SP is untouched. The paid side moves to FiveM, where CoreFX ends up running in a server context. And the $9 tier stops being a feature paywall entirely — it's early access to updates now, not a gate on content.\n\n# **Why I'm doing this**\n\nI'd rather explain than quietly change the numbers.\n\nI'm trying to leave Ukraine, or at minimum move away from the capital region to somewhere quieter. A [military warehouse explosion near me](https://discord.com/channels/963349840681639946/963349840681639950/1542971191566929991) recently killed almost 40 people. I don't feel safe where I live anymore, and relocating takes money I don't currently have.\n\nThis was the most honest way I could find to fund that: shift the paid part to FiveM, and make singleplayer more complete than it was before rather than less. I didn't want to solve my problem by taking something away from the people who have been using this mod for free.\n\nCoreFX remains what it has always been — a personal project, not a service. No roadmap, no requests, no promises about what gets worked on next. That doesn't change. Development continues either way.\n\nThank you to everyone who has supported this. It matters more than usual right now.\n\n— CoreFX",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6a99aa0f&is=6a98588f&hm=9fbd27de9b5d0a9f90fb2e5a670a8444e75bb4a18642a259890a5d6eded90f4a&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1544733775400013875",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -133,7 +150,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a99134f&is=6a97c1cf&hm=5ee74d384eb78b6a966a63f4fbec402d38d3c02b5006084d86e3cedaae2c539e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a99bc0f&is=6a986a8f&hm=a5ea3c43bc7a08eef7560b6d71d5e1b3bc4e0476f79f552b1812a2ea1d9a1397&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -150,37 +167,37 @@
     "content": "@CoreFX Big change for CoreFX Enhanced - Definitive Ray Tracing Mode by @Valkill \n\nThis pack of modified shaders changes how Ray Tracing behaves and how it's denoised, and how it works with GTA 5 Lighting system and makes RT look more mature, close to Cyberpunk Path Tracing in some cases\n\nBefore (old Ray Tracing)/after (Definitive Ray Tracing)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6a990e74&is=6a97bcf4&hm=2966809429e1192323a768c5a051d5d07ef9d5aa907537b878723e97b5797bf5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6a99b734&is=6a9865b4&hm=56fe78b15c57ddcfa31491a45f323d07ce3e08f320bb4eaa0fa3d7000dc8447d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6a990e74&is=6a97bcf4&hm=b2cf45ae37add534e1db4aca949148645922e99ba0a046e098210d6a0e82c161&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6a99b734&is=6a9865b4&hm=f02f87fe213920359c5518c6ca7e4a6e10c580d69046e55b4d0574f55bf880a0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6a990e75&is=6a97bcf5&hm=ea5ef249bcab76a2b97780712d68fdb736203547196358654bc5266a37df3d9a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6a99b735&is=6a9865b5&hm=2ea2c96f0a8d9ebd1c469f03228b26f53d029384d570f259434addd7b4c5a127&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6a990e75&is=6a97bcf5&hm=d4c80fbcc4712359772bb040a59933a70a4ec5e63a125b9820e1f55a05ed3953&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6a99b735&is=6a9865b5&hm=3d8c003f92236f9a249c072f5385ef7e3a3f3538362c5924113b2e94a9c10ec7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6a990e75&is=6a97bcf5&hm=df7074518dbcc57a95255d020741dbb0fea4fed139ad705a909d61235b4c573a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6a99b735&is=6a9865b5&hm=5babb6c1cc9dfa0491caece7bac0d243a96cc9a318cc9eda9b0170cb79856729&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6a990e75&is=6a97bcf5&hm=1e0bb5125943835ffa3983ca4b14ea76a7af5ec5d7db281db344d6ffa573e35e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6a99b735&is=6a9865b5&hm=c1f34b90eacde9a1b63b24bb1f7ce71b2c1210217638546443acfea65e3830f4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -278,7 +295,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a990ee0&is=6a97bd60&hm=713b7d88757e4d7673d7c53bedd63561367c4cefa329b7a483d541de6afcc97c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6a99b7a0&is=6a986620&hm=2b7ce86c5a2559c2c0836939e58147335f2a225f4f76bcdd7a2528d96187328b&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -295,7 +312,7 @@
     "content": "@CoreFX we even added more functionality into rockstar editor, WIP",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a990e5b&is=6a97bcdb&hm=85f3c027939b66b88e516f57e68564b160d326c8cc357e1718f2ee7a28464f53&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6a99b71b&is=6a98659b&hm=e2ca0f9c3416b4b51629cf5bb13db1ff88e9bb063bbbabcd7a3625d48e76f638&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -312,7 +329,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a9907ac&is=6a97b62c&hm=eb025ca86f45954da2f5868f97e49e4d978852b39fb4894466e86121843e5f08&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a99b06c&is=6a985eec&hm=9d4dbab46bb5b588df6b28177e66c1962dcc83fa2504d9fb2d118d12e0f43f51&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -464,13 +481,13 @@
     "content": "@CoreFX Water parallax, to improve wave details",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a99155c&is=6a97c3dc&hm=6401267e4ccb0ae90d720bbba96fbc6ec12877fdf07cd0646e2a5ecf72f29ad8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a99be1c&is=6a986c9c&hm=9e8fc3e5b38e565c3470e91e2824b885eb15d51c26c949f686e56d404bea54cc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a99155c&is=6a97c3dc&hm=0c44c2bc8c880e4b0842198ff6eefaefa94db52b7d21def37a9a8e385a96f04d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a99be1c&is=6a986c9c&hm=314b7185d63ad08c0a55c69d59aceddac5d927eddd78a27edc3795bcd42bae9b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -575,15 +592,6 @@
     "timestamp": "2026-07-16T16:10:29.480000+00:00",
     "editedAt": "2026-07-16T16:32:15.067000+00:00",
     "content": "@CoreFX CoreFX for Enhanced was updated to support newest shaders with few additional shader/installer fixes. CoreFX for RageMP is now officially declared end-of-life and removed from public downloads & removed installation tutorials from the website.\n\nSee you in FiveM Enhanced at July 21st:a_lebronjam:",
-    "attachments": [],
-    "embeds": []
-  },
-  {
-    "id": "1526897061033676940",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-15T10:23:47.726000+00:00",
-    "content": "@CoreFX Newest GTA 5 Update broke CoreFX Enhanced shaders, some of them need to be updated. RageMP Enhanced will not be updated and is going to be removed from public downloads soon due to the big amount of shader work that we need to do.",
     "attachments": [],
     "embeds": []
   }
