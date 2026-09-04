@@ -57,9 +57,9 @@ const prerequisitesSections = [
             {
                 title: 'Which Builds Are Free',
                 items: [
-                    <><strong>Legacy Singleplayer:</strong> Free. Volumetric Clouds included.</>,
-                    <><strong>Enhanced Singleplayer:</strong> Free. Volumetric Clouds included.</>,
-                    <><strong>Legacy FiveM:</strong> Requires the $5 Patreon tier. Volumetric Clouds included.</>,
+                    <><strong>Legacy Singleplayer:</strong> Free.</>,
+                    <><strong>Enhanced Singleplayer:</strong> Free.</>,
+                    <><strong>Legacy FiveM:</strong> Requires the $5 Patreon tier.</>,
                     <><strong>Legacy FiveM ServerSide:</strong> Access to be announced. There is no 1.3.1 ServerSide build yet — the current package is still 1.2.</>,
                     <>The <strong>$9 tier</strong> is early access: new updates land there 10 days before public release, and it includes everything the $5 tier does. It is no longer a feature paywall — no effect is locked behind it.</>
                 ]
@@ -151,9 +151,9 @@ const faqs = [
             'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
     },
     {
-        question: 'What happened to the SE Addons and the 3D Clouds paywall?',
+        question: 'What happened to the SE Addons?',
         answer:
-            'They are gone as a paywall. Volumetric Clouds now ship with the base mod on every build — free on both Singleplayer versions, and included with Legacy FiveM. The $9 tier no longer unlocks any effect; it gives you new updates 10 days before public release, plus everything the $5 tier includes. The paid side of CoreFX is now the Legacy FiveM build ($5 tier).'
+            'They are gone. Everything they used to add now ships with the base mod on every build. The $9 tier no longer unlocks any effect — it gives you new updates 10 days before public release, plus everything the $5 tier includes. The paid side of CoreFX is now the Legacy FiveM build ($5 tier).'
     },
     {
         question:
@@ -641,9 +641,8 @@ export default function DocsClient() {
                                             <div className="bg-blue-900/30 border border-blue-700/50 p-4 rounded-lg mb-4">
                                                 <p className="text-blue-200 text-sm">
                                                     <strong>This build requires the $5 Patreon tier.</strong>{' '}
-                                                    Volumetric Clouds are included. There is no installer — the
-                                                    package is copied into place by hand, and it has to go to{' '}
-                                                    <strong>two</strong> locations.
+                                                    There is no installer — the package is copied into place by
+                                                    hand, and it has to go to <strong>two</strong> locations.
                                                 </p>
                                             </div>
 

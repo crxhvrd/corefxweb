@@ -55,7 +55,7 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
             <p>
               1. Head over to our Patreon and create a free account. CoreFX uses a Freemium model: both{' '}
               <span className="font-medium text-white/95">Singleplayer</span> builds — Legacy and Enhanced — are
-              available at no cost once you join with a free membership, Volumetric Clouds included. The{' '}
+              available at no cost once you join with a free membership. The{' '}
               <span className="font-medium text-white/95">Legacy FiveM</span> build is on the $5 tier.
             </p>
             <p>
