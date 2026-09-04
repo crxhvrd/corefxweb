@@ -303,18 +303,6 @@ export default function DocsClient() {
                             </div>
                         </div>
 
-                        {/* ───────── EARLY ACCESS NOTICE ───────── */}
-                        <div className="bg-blue-900/30 border border-blue-700/50 p-4 rounded-lg mb-8">
-                            <p className="text-blue-200 text-sm">
-                                <strong>These docs cover CoreFX 1.3.1.</strong> It is in
-                                early access for $9 tier supporters from{' '}
-                                <strong>4 September</strong>, and goes public for everyone
-                                on <strong>14 September</strong>. If you are still on 1.3
-                                or earlier, some steps below will not match your download
-                                yet.
-                            </p>
-                        </div>
-
                         {/* ───────── PREREQUISITES ───────── */}
                         {activeSection === 'prerequisites' && (
                             <div className="space-y-6" ref={ref}>
