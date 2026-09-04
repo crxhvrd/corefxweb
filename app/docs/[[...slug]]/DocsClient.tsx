@@ -55,6 +55,16 @@ const prerequisitesSections = [
             'Before installing and using CoreFX, please ensure your system meets these requirements.',
         requirements: [
             {
+                title: 'Which Builds Are Free',
+                items: [
+                    <><strong>Legacy Singleplayer:</strong> Free. Volumetric Clouds included.</>,
+                    <><strong>Enhanced Singleplayer:</strong> Free. Volumetric Clouds included.</>,
+                    <><strong>Legacy FiveM:</strong> Requires the $5 Patreon tier. Volumetric Clouds included.</>,
+                    <><strong>Legacy FiveM ServerSide:</strong> Access to be announced. There is no 1.3.1 ServerSide build yet — the current package is still 1.2.</>,
+                    <>The <strong>$9 tier</strong> is early access: new updates land there 10 days before public release, and it includes everything the $5 tier does. It is no longer a feature paywall — no effect is locked behind it.</>
+                ]
+            },
+            {
                 title: 'Legacy Hardware Requirements',
                 items: [
                     'Minimum: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580',
@@ -69,6 +79,14 @@ const prerequisitesSections = [
                 ]
             },
             {
+                title: 'HDR (Optional, Legacy & Enhanced)',
+                items: [
+                    'An HDR-capable display with "Use HDR" enabled in Windows Display settings. CoreFX upgrades the game to an HDR10 (PQ / BT.2020) swapchain.',
+                    <>HDR is switched on in the <strong>CoreFX Addon</strong> menu (<strong>HDR</strong> tab &gt; <strong>HDR Mode</strong>), not in the game. It defaults to <strong>Auto</strong>, which follows the Windows setting for your primary display. <strong>Changing it requires a game restart.</strong></>,
+                    <><strong>Enhanced only:</strong> in-game HDR must be <strong>off</strong> and <strong>DLSS enabled</strong>. CoreFX HDR and <strong>DLSS Frame Generation</strong> cannot both run — Frame Generation presents its own frames without passing through the HDR conversion, so the picture stops updating. Turn one of the two off, or install RenoDX&apos;s <a href="https://github.com/clshortfuse/renodx/releases/download/snapshot/renodx-dlssfix.addon64" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">DLSS fix addon</a> beside the game executable.</>
+                ]
+            },
+            {
                 title: 'Software',
                 items: [
                     'Base Game: A legitimate copy of Grand Theft Auto V.',
@@ -76,13 +94,15 @@ const prerequisitesSections = [
                     <>OpenIV.asi (Legacy Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager. Superseded by RageOpenV.asi.</>,
                     <>OpenRPF.asi (Enhanced Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>). Superseded by RageOpenV.asi.</>,
                     <>ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.</>,
-                    <><strong>Standalone OIV Package Installer:</strong> Bundled with the CoreFX archive. Installs <code>.oiv</code> packages directly without requiring the obsolete OpenIV app. (Project page: <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>
+                    <><strong>CoreFX Package Installer:</strong> Bundled with both Singleplayer archives and launched for you by <code>Install.bat</code> — you do not download or run it separately. It installs the <code>.oivs</code> package directly, with no OpenIV app required. (Project page: <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
+                    <><strong>Note for Legacy FiveM:</strong> that package has no installer. It is copied into place by hand — see the Legacy FiveM installation guide.</>
                 ]
             },
             {
                 title: 'Required In-Game Settings',
                 items: [
-                    <><strong>Shader Quality</strong> and <strong>Post FX</strong> must be set to <strong>Ultra (maximum)</strong> in the in-game Graphics settings. This is required for the CoreFX shaders to load — at lower settings the game uses different shader variants that CoreFX does not replace, so the mod will look incorrect.</>
+                    <><strong>Shader Quality</strong> and <strong>Post FX</strong> must be set to <strong>Ultra (maximum)</strong> in the in-game Graphics settings. This is required for the CoreFX shaders to load — at lower settings the game uses different shader variants that CoreFX does not replace, so the mod will look incorrect.</>,
+                    <>If they are set too low, CoreFX shows an on-screen warning — <em>&quot;CoreFX: postfx composite not loaded&quot;</em> — a few seconds after the game starts rendering. Fix the settings and restart the game. (You will also see it while sitting in the main menu, which is normal.)</>
                 ]
             },
             {
@@ -90,6 +110,13 @@ const prerequisitesSections = [
                 items: [
                     'FiveM (Multiplayer): CoreFX supports multiplayer platforms.',
                     'Graphics Driver Updates: Keep your GPU drivers up to date.'
+                ]
+            },
+            {
+                title: 'Licence',
+                items: [
+                    <>Every CoreFX archive ships with <code>LICENSE.md</code> (the CoreFX end user licence, version 2.1) and <code>THIRD-PARTY-NOTICES.md</code>. Installing or using CoreFX means accepting those terms — worth a read before you start.</>,
+                    <>CoreFX is distributed only through the CoreFX Patreon page and links published at <a href="https://corefx.me" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">corefx.me</a>. Copies from anywhere else are not licensed to you.</>
                 ]
             }
         ],
@@ -105,7 +132,7 @@ const faqs = [
         question:
             "I don't like blur when moving camera (motion blur). How can I disable it?",
         answer:
-            'For Legacy builds, you can toggle it off via the RenoDX Shader Loader menu. For Enhanced builds, simply disable it in your GTA 5 graphics settings. For FiveM ServerSide, motion blur is disabled by default.'
+            'For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, disable motion blur in your GTA 5 graphics settings. For FiveM ServerSide, motion blur is disabled by default.'
     },
     {
         question: 'Can I use other mods with CoreFX?',
@@ -124,20 +151,42 @@ const faqs = [
             'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
     },
     {
-        question: 'What are the SE Addons and why should I consider them?',
+        question: 'What happened to the SE Addons and the 3D Clouds paywall?',
         answer:
-            'SE Addons are extra add-ons available for Patreon supporters. This package contains WIP shaders for Legacy builds of the game (currently) such as Volumetric Clouds and SSGI. Purchasing these add-ons supports future development.'
+            'They are gone as a paywall. Volumetric Clouds now ship with the base mod on every build — free on both Singleplayer versions, and included with Legacy FiveM. The $9 tier no longer unlocks any effect; it gives you new updates 10 days before public release, plus everything the $5 tier includes. The paid side of CoreFX is now the Legacy FiveM build ($5 tier).'
     },
     {
         question:
             'In Rockstar Editor, my recorded clips show a blurred screen when moving. What causes this?',
         answer:
-            'This is caused by in-game motion blur. For Legacy builds, disable it via the RenoDX Shader Loader menu. For Enhanced builds, turn off motion blur in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred.'
+            'This is caused by in-game motion blur. For Legacy builds, disable it in the CoreFX Addon menu under Image > Motion Blur. For Enhanced builds, turn off motion blur in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred. If you spend a lot of time in the editor, Rockstar Editor+ (linked as an optional in the installer) adds a spline camera, camera shake, and removes several of the editor’s built-in limits.'
     },
     {
         question: 'Does CoreFX run on FiveM servers with Pure Mode enabled?',
         answer:
             'Pure Mode restricts custom client modifications. Currently, CoreFX does not have permission to run under enforced Pure Mode.'
+    },
+    {
+        question: 'How do I open the CoreFX shader menu?',
+        answer:
+            'Press Page Up in-game to open the ReShade overlay, then find the CoreFX Addon window inside it — that is where every CoreFX setting lives. Page Down toggles the ReShade effects on and off. This is the same on all builds. (Older CoreFX versions used F7; that is no longer the key.)'
+    },
+    {
+        question: 'Does CoreFX support HDR?',
+        answer:
+            'Yes, on both Legacy and Enhanced. Open the CoreFX Addon menu, go to the HDR tab and set HDR Mode — Auto follows the Windows "Use HDR" setting for your primary display, or you can force it On or Off. It takes effect on the next game launch, because the swapchain has to be upgraded before the game creates its device. Once it is active you get a full HDR tone mapping and colour grading panel. On Enhanced, in-game HDR must be off, DLSS must be on, and DLSS Frame Generation cannot be used at the same time.'
+    },
+    {
+        question:
+            'I see an orange "CoreFX: postfx composite not loaded" message on screen. What does it mean?',
+        answer:
+            'CoreFX is installed and running, but its main shaders are not rendering. Almost always this means Shader Quality or Post FX is below Ultra in the in-game graphics settings — fix those and restart the game. You will also see it in the main menu, which is normal. If you want it gone permanently, the CoreFX Addon menu has a "Hide on-screen warnings" toggle under Options.'
+    },
+    {
+        question:
+            'On FiveM the shader menu is empty or has no settings. How do I fix it?',
+        answer:
+            'ReShade and CoreFX.addon64 have to be installed in BOTH places — the FiveM plugins folder and your real GTA V root folder — each with its own CustomShaders folder beside it. Installing to only one location is enough for the addon to show up, but not for it to find its settings. The package ships both copies ready to go; make sure you copied each one to its matching destination.'
     }
 ];
 
@@ -170,7 +219,7 @@ export default function DocsClient() {
 
     // Initialize state based on URL, or default if no URL param
     const [activeSection, setActiveSection] = useState<
-        'prerequisites' | 'installation'
+        'prerequisites' | 'installation' | 'settings'
     >('prerequisites');
 
     const [activeInstallTab, setActiveInstallTab] =
@@ -187,6 +236,8 @@ export default function DocsClient() {
                 }
             } else if (mainTab === 'prerequisites') {
                 setActiveSection('prerequisites');
+            } else if (mainTab === 'settings') {
+                setActiveSection('settings');
             }
         } else {
             // Redirect /docs -> /docs/prerequisites
@@ -195,10 +246,14 @@ export default function DocsClient() {
     }, [slug, router]);
 
     // Update URL when changing sections
-    const handleSectionChange = (section: 'prerequisites' | 'installation') => {
+    const handleSectionChange = (
+        section: 'prerequisites' | 'installation' | 'settings'
+    ) => {
         setActiveSection(section);
         if (section === 'installation') {
             router.push(`/docs/install/${activeInstallTab}`, { scroll: false });
+        } else if (section === 'settings') {
+            router.push('/docs/settings', { scroll: false });
         } else {
             router.push('/docs/prerequisites', { scroll: false });
         }
@@ -241,7 +296,28 @@ export default function DocsClient() {
                                 >
                                     Installation
                                 </button>
+                                <button
+                                    onClick={() => handleSectionChange('settings')}
+                                    className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'settings'
+                                        ? 'bg-white/20 text-white'
+                                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                                        }`}
+                                >
+                                    Shader Settings
+                                </button>
                             </div>
+                        </div>
+
+                        {/* ───────── EARLY ACCESS NOTICE ───────── */}
+                        <div className="bg-blue-900/30 border border-blue-700/50 p-4 rounded-lg mb-8">
+                            <p className="text-blue-200 text-sm">
+                                <strong>These docs cover CoreFX 1.3.1.</strong> It is in
+                                early access for $9 tier supporters from{' '}
+                                <strong>4 September</strong>, and goes public for everyone
+                                on <strong>14 September</strong>. If you are still on 1.3
+                                or earlier, some steps below will not match your download
+                                yet.
+                            </p>
                         </div>
 
                         {/* ───────── PREREQUISITES ───────── */}
@@ -328,11 +404,19 @@ export default function DocsClient() {
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
-                                                        Download and install <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible with GTA V Legacy (use <code>dinput8.dll</code>). For the mods folder loader, install <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>RageOpenV.asi</strong></a> (recommended) — or, as a legacy alternative, <strong>OpenIV.asi</strong> via the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a> (OpenIV &gt; ASI Manager).
+                                                        Download and install <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV &amp; Asi Loader</strong></a> compatible with GTA V Legacy (use <code>dinput8.dll</code>). For the mods folder loader, install <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>RageOpenV.asi</strong></a> (recommended) — or, as a legacy alternative, <strong>OpenIV.asi</strong> via the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a> (OpenIV &gt; ASI Manager).
                                                     </li>
                                                     <li>
                                                         Add <code>-noBattlEye</code> to your game launcher&apos;s
                                                         parameters.
+                                                    </li>
+                                                    <li>
+                                                        <strong>Important:</strong> Remove any old ENBSeries or
+                                                        ReShade files from your GTA V root directory first. These
+                                                        may be named <code>d3d11.dll</code>, <code>d3d12.dll</code>,{' '}
+                                                        <code>dxgi.dll</code>, <code>dxgi.asi</code>, or{' '}
+                                                        <code>ReShade.asi</code>. CoreFX installs its own ReShade
+                                                        build and two copies will conflict.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -341,30 +425,42 @@ export default function DocsClient() {
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
-                                                        <strong>Method 1 (Recommended):</strong> Open the <code>CoreFX</code> folder and run{' '}
-                                                        <code>Install.bat</code>.
+                                                        Open the <code>CoreFX</code> folder and run{' '}
+                                                        <code>Install.bat</code>. The <strong>CoreFX Package
+                                                        Installer</strong> opens with CoreFX already loaded.
                                                     </li>
                                                     <li>
-                                                        If prompted, select your GTA 5 Legacy folder. This will
-                                                        automatically install the mod into the <code>mods</code>{' '}
-                                                        folder.
+                                                        Click <strong>Install</strong>. A selection window opens
+                                                        where you choose what to install. The <strong>base mod</strong>{' '}
+                                                        and the <strong>CoreFX shaders</strong> (ReShade plus the
+                                                        <strong>CoreFX Addon</strong>) are always included — you do not install the
+                                                        shaders separately any more.
                                                     </li>
                                                     <li>
-                                                        <strong>Method 2 (Alternative):</strong> Use the <strong>Standalone <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OIV Package Installer</a></strong> bundled with the CoreFX archive. Run it and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder — no OpenIV app required.
+                                                        Tick any optional add-ons you want:
+                                                        <ul className="list-disc pl-5 mt-1 space-y-1">
+                                                            <li>
+                                                                <strong>Classic Roads</strong> — cleaner, classic
+                                                                asphalt road surfaces.
+                                                            </li>
+                                                            <li>
+                                                                <strong>Sun Lens Flare</strong> — pick{' '}
+                                                                <strong>Star</strong>, <strong>Wide</strong>, or
+                                                                none, with before/after previews.
+                                                            </li>
+                                                            <li>
+                                                                <strong>Simple Camera</strong> and{' '}
+                                                                <strong>Rockstar Editor+</strong> — these are{' '}
+                                                                <strong>not installed</strong> by the package. They
+                                                                are updated far more often than CoreFX itself, so
+                                                                ticking them simply opens their official download
+                                                                page when the install finishes. Both need ScriptHookV.
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        <strong>Method 3 (Legacy):</strong> Use the <strong>OpenIV</strong> app. Open OpenIV, click on "Tools" &gt; "Package Installer", and select the <code>.oiv</code> packages related to CoreFX to install them into your <code>mods</code> folder.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Note:</strong> <code>Install.bat</code> and{' '}
-                                                        <code>Uninstall.bat</code> are also included for CoreFX
-                                                        Optionals (e.g., Roads, Streetlights, etc.). Simply
-                                                        navigate to the specific optional folder and run the
-                                                        script there.
-                                                    </li>
-                                                    <li>
-                                                        Launch GTA V and set in-game brightness to approximately
-                                                        40-50 %.
+                                                        If prompted, select your GTA 5 Legacy folder. Everything you
+                                                        chose installs into the <code>mods</code> folder.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -378,56 +474,35 @@ export default function DocsClient() {
                                                             </p>
                                                         </div>
                                                     </li>
+                                                    <li>
+                                                        Launch GTA V and set in-game brightness to approximately
+                                                        40-50 %.
+                                                    </li>
+                                                    <li>
+                                                        In-game, press <strong>Page Up</strong> to open the ReShade
+                                                        menu, then open the <strong>CoreFX Addon</strong>{' '}
+                                                        window — that is where every CoreFX setting lives. Press{' '}
+                                                        <strong>Page Down</strong> to toggle the ReShade effects on
+                                                        or off. See the <strong>Shader Settings</strong> section for
+                                                        what the menu contains.
+                                                    </li>
+                                                    <li>
+                                                        If nothing happens when you press <strong>Page Up</strong>,
+                                                        rename <code>d3d12.dll</code> in your game directory to{' '}
+                                                        <code>dxgi.dll</code>, then relaunch the game.
+                                                    </li>
                                                 </ol>
                                             </InstallationStep>
 
                                             <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
-                                                        Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder (works if you installed via{' '}
-                                                        <code>Install.bat</code>).
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Installing CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        <strong>Important:</strong> Before installing, remove
-                                                        any old ENBSeries or ReShade files from your GTA V root
-                                                        directory to avoid compatibility issues. These files may
-                                                        be named <code>d3d11.dll</code>, <code>d3d12.dll</code>,{' '}
-                                                        <code>dxgi.dll</code>, <code>dxgi.asi</code>, or{' '}
-                                                        <code>ReShade.asi</code>.
-                                                    </li>
-                                                    <li>
-                                                        Copy all ReShade files from the provided package into
-                                                        your main game directory.
-                                                    </li>
-                                                    <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade
-                                                        menu and enable available shaders manually.
-                                                    </li>
-                                                    <li>
-                                                        You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
-                                                    </li>
-                                                    <li>
-                                                        If the ReShade menu does not appear when pressing{' '}
-                                                        <strong>F7</strong>, rename <code>d3d12.dll</code> to{' '}
-                                                        <code>dxgi.dll</code> in your game directory, then
-                                                        relaunch the game.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Simply delete the ReShade files you previously copied
-                                                        into your main game directory (e.g.,{' '}
-                                                        <code>d3d12.dll</code>, <code>ReShade.ini</code>, and
-                                                        the <code>reshade-shaders</code> folder).
+                                                        Run <code>Uninstall.bat</code> in the <code>CoreFX</code>{' '}
+                                                        folder. The installer opens straight to{' '}
+                                                        <strong>Manage Mods</strong> — select <strong>CoreFX</strong>{' '}
+                                                        and choose <strong>Revert to Backup</strong> (or{' '}
+                                                        <strong>Reset to Vanilla</strong>). This removes the base
+                                                        mod, the shaders, and any optionals you installed.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -438,12 +513,11 @@ export default function DocsClient() {
                                     {activeInstallTab === 'enhanced' && (
                                         <div className="install-block">
 
-
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
                                                         Download and install{' '}
-                                                        <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV & Asi Loader</strong></a> compatible
+                                                        <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>ScriptHookV &amp; Asi Loader</strong></a> compatible
                                                         with GTA V Enhanced (use <code>xinput1_4.dll</code>). For the mods folder loader, install <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>RageOpenV.asi</strong></a> (recommended) — or, as a legacy alternative, <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white"><strong>OpenRPF.asi</strong></a>.
                                                     </li>
                                                     <li>
@@ -471,13 +545,36 @@ export default function DocsClient() {
                                                     </li>
                                                     <li>
                                                         Click <strong>Install</strong>. A selection window opens
-                                                        where you choose what to install — tick any optional
-                                                        add-ons you want, such as <strong>Classic Roads</strong>,{' '}
-                                                        <strong>Brighter Emergency Lights</strong>,{' '}
-                                                        <strong>Streetlights</strong>, <strong>Sun Lens Flare</strong>{' '}
-                                                        and <strong>Simple Camera</strong>, each with before/after
-                                                        previews. The base mod and the CoreFX shaders (ReShade +
-                                                        the RenoDX addon) are always included.
+                                                        where you choose what to install. The <strong>base mod</strong>{' '}
+                                                        and the <strong>CoreFX shaders</strong> (ReShade plus the
+                                                        <strong>CoreFX Addon</strong>) are always included.
+                                                    </li>
+                                                    <li>
+                                                        Tick any optional add-ons you want:
+                                                        <ul className="list-disc pl-5 mt-1 space-y-1">
+                                                            <li>
+                                                                <strong>Classic Roads</strong> — cleaner, classic
+                                                                asphalt road surfaces.
+                                                            </li>
+                                                            <li>
+                                                                <strong>Sun Lens Flare</strong> — pick{' '}
+                                                                <strong>Star</strong>, <strong>Wide</strong>, or
+                                                                none, with before/after previews.
+                                                            </li>
+                                                            <li>
+                                                                <strong>Simple Camera</strong> and{' '}
+                                                                <strong>Rockstar Editor+</strong> — these are{' '}
+                                                                <strong>not installed</strong> by the package. They
+                                                                are updated far more often than CoreFX itself, so
+                                                                ticking them simply opens their official download
+                                                                page when the install finishes. Both need ScriptHookV.
+                                                            </li>
+                                                        </ul>
+                                                        <p className="mt-2 text-sm text-gray-400">
+                                                            Streetlights and emergency-light brightness are no
+                                                            longer install-time options — they are live settings in
+                                                            the CoreFX Addon menu instead.
+                                                        </p>
                                                     </li>
                                                     <li>
                                                         If prompted, select your GTA 5 Enhanced folder. Everything
@@ -490,7 +587,7 @@ export default function DocsClient() {
                                                                 <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
                                                                 <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
                                                                 to <strong>Ultra</strong> in your in-game graphics settings.
-                                                                This is required to load the custom RenoDX shaders.
+                                                                This is required to load the custom CoreFX shaders.
                                                             </p>
                                                         </div>
                                                     </li>
@@ -499,15 +596,25 @@ export default function DocsClient() {
                                                     </li>
                                                     <li>
                                                         In-game, press <strong>Page Up</strong> to open the ReShade
-                                                        menu, then open the <strong>RenoDX Shader Loader</strong>{' '}
+                                                        menu, then open the <strong>CoreFX Addon</strong>{' '}
                                                         window. It has a full UI to toggle and fine-tune individual
                                                         effects, including ray tracing, clouds, vehicles and ambient
-                                                        occlusion. Set the preset to &quot;Off&quot; to disable all
-                                                        shader modifications.
+                                                        occlusion — see the <strong>Shader Settings</strong> section
+                                                        for the full list.
                                                     </li>
                                                     <li>
                                                         Press <strong>Page Down</strong> to toggle the ReShade
                                                         shaders on or off.
+                                                    </li>
+                                                    <li>
+                                                        <strong>Optional — HDR:</strong> in the{' '}
+                                                        <strong>HDR</strong> tab of the menu, set{' '}
+                                                        <strong>HDR Mode</strong> to <strong>Auto</strong> or{' '}
+                                                        <strong>On</strong> and restart the game. Enhanced also
+                                                        needs in-game HDR turned <strong>off</strong> and{' '}
+                                                        <strong>DLSS enabled</strong>, and it cannot run alongside{' '}
+                                                        <strong>DLSS Frame Generation</strong>. See{' '}
+                                                        <strong>Prerequisites &gt; HDR</strong> for the details.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -531,44 +638,102 @@ export default function DocsClient() {
                                     {activeInstallTab === 'fivem' && (
                                         <div className="install-block">
 
+                                            <div className="bg-blue-900/30 border border-blue-700/50 p-4 rounded-lg mb-4">
+                                                <p className="text-blue-200 text-sm">
+                                                    <strong>This build requires the $5 Patreon tier.</strong>{' '}
+                                                    Volumetric Clouds are included. There is no installer — the
+                                                    package is copied into place by hand, and it has to go to{' '}
+                                                    <strong>two</strong> locations.
+                                                </p>
+                                            </div>
 
                                             <InstallationStep title="Prerequisites" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
                                                     <li>
                                                         <strong>Important:</strong> If you have installed older builds of CoreFX before, you must remove all shaders from the <code>FiveM.app\citizen\common\shaders\win32_40_final</code> folder.
                                                     </li>
+                                                    <li>
+                                                        Remove any old ENBSeries or ReShade files from your FiveM{' '}
+                                                        <code>plugins</code> folder <em>and</em> your GTA V root
+                                                        folder. These may be named <code>d3d11.dll</code>,{' '}
+                                                        <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
+                                                        <code>dxgi.asi</code>, or <code>ReShade.asi</code>. CoreFX
+                                                        ships its own ReShade build.
+                                                    </li>
                                                 </ol>
+                                            </InstallationStep>
+
+                                            <InstallationStep title="What's in the package" defaultOpen={false}>
+                                                <p className="mb-3">
+                                                    Once extracted, the <code>CoreFX</code> folder contains two
+                                                    folders named after where their contents go. Nothing is
+                                                    automated — you copy each one to its matching destination.
+                                                </p>
+                                                <ul className="list-disc pl-5 space-y-3">
+                                                    <li>
+                                                        <code>FiveM Application Data\</code>
+                                                        <ul className="list-disc pl-5 mt-1 space-y-1">
+                                                            <li>
+                                                                <code>mods\aa_corefxPack.rpf</code> — the base mod.
+                                                                Required.
+                                                            </li>
+                                                            <li>
+                                                                <code>mods\ao_corefxRoads.rpf</code> —{' '}
+                                                                <strong>Classic Roads, optional.</strong> Skip this
+                                                                file if you do not want the road textures; it is by
+                                                                far the largest file in the package.
+                                                            </li>
+                                                            <li>
+                                                                <code>plugins\</code> — <code>dxgi.dll</code>,{' '}
+                                                                <code>CoreFX.addon64</code>,{' '}
+                                                                <code>CustomShaders\</code>,{' '}
+                                                                <code>reshade-shaders\</code> and{' '}
+                                                                <code>ReShade.ini</code>.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <code>GTA 5 Root Folder\</code> — the same shader payload
+                                                        again, for your actual GTA V install folder.
+                                                    </li>
+                                                </ul>
                                             </InstallationStep>
 
                                             <InstallationStep title="Installing CoreFX" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
-                                                        <strong>Method 1 (Recommended):</strong> Open the <code>CoreFX</code> folder and run{' '}
-                                                        <code>Install.bat</code>.
+                                                        Copy the contents of{' '}
+                                                        <code>CoreFX\FiveM Application Data\</code> into your{' '}
+                                                        <strong>FiveM Application Data</strong> folder, so that{' '}
+                                                        <code>mods\</code> and <code>plugins\</code> merge with the
+                                                        ones already there. (Leave out{' '}
+                                                        <code>ao_corefxRoads.rpf</code> if you do not want Classic
+                                                        Roads.)
                                                     </li>
                                                     <li>
-                                                        A generic installer window will appear. It will attempt
-                                                        to <strong>automatically detect</strong> your FiveM mods
-                                                        folder.
+                                                        Copy the contents of{' '}
+                                                        <code>CoreFX\GTA 5 Root Folder\</code> into your{' '}
+                                                        <strong>GTA V root folder</strong> — the one containing{' '}
+                                                        <code>GTA5.exe</code>.
                                                     </li>
                                                     <li>
-                                                        If detection fails, or if you wish to install to a
-                                                        different location, you can manually select your{' '}
-                                                        <strong>FiveM Application Data</strong> folder.
+                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
+                                                            <p className="text-red-300 text-sm">
+                                                                <strong>Both copies are required.</strong> ReShade
+                                                                and <code>CoreFX.addon64</code> must be installed in
+                                                                both places — the FiveM <code>plugins</code> folder{' '}
+                                                                <em>and</em> the GTA V root folder — each with its
+                                                                own <code>CustomShaders</code> folder beside it.
+                                                                Installing to only one location is enough for the
+                                                                addon to load, but not for it to find its settings,
+                                                                and you will end up with an empty shader menu.
+                                                            </p>
+                                                        </div>
                                                     </li>
                                                     <li>
-                                                        <strong>Method 2 (Alternative):</strong> Drag and drop the CoreFX <code>.rpf</code> package directly into your FiveM <code>mods</code> folder (located inside your FiveM Application Data directory).
-                                                    </li>
-                                                    <li>
-                                                        <strong>Note:</strong> <code>Install.bat</code> and{' '}
-                                                        <code>Uninstall.bat</code> are also included for CoreFX
-                                                        Optionals (e.g., Roads, Streetlights, etc.). Simply
-                                                        navigate to the specific optional folder and run the
-                                                        script there.
-                                                    </li>
-                                                    <li>
-                                                        Set in-game brightness to approximately 40-50 %.
+                                                        Launch FiveM and set in-game brightness to approximately
+                                                        40-50 %.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -582,57 +747,55 @@ export default function DocsClient() {
                                                             </p>
                                                         </div>
                                                     </li>
+                                                    <li>
+                                                        In-game, press <strong>Page Up</strong> to open the ReShade
+                                                        menu, then open the <strong>CoreFX Addon</strong>{' '}
+                                                        window — that is where every CoreFX setting lives. Press{' '}
+                                                        <strong>Page Down</strong> to toggle the ReShade effects on
+                                                        or off. See the <strong>Shader Settings</strong> section for
+                                                        what the menu contains.
+                                                    </li>
                                                 </ol>
                                             </InstallationStep>
 
                                             <InstallationStep title="Uninstalling CoreFX">
-                                                <ol className="list-decimal pl-5 space-y-1">
+                                                <ol className="list-decimal pl-5 space-y-2">
                                                     <li>
-                                                        Run <code>Uninstall.bat</code> located in the{' '}
-                                                        <code>CoreFX</code> folder (works if you installed via{' '}
-                                                        <code>Install.bat</code>).
+                                                        Delete <code>aa_corefxPack.rpf</code> and{' '}
+                                                        <code>ao_corefxRoads.rpf</code> from the{' '}
+                                                        <code>mods</code> folder in your FiveM Application Data
+                                                        directory.
+                                                    </li>
+                                                    <li>
+                                                        Delete the files you copied into the FiveM{' '}
+                                                        <code>plugins</code> folder — <code>dxgi.dll</code>,{' '}
+                                                        <code>CoreFX.addon64</code>, <code>ReShade.ini</code>, and
+                                                        the <code>CustomShaders</code> and{' '}
+                                                        <code>reshade-shaders</code> folders.
+                                                    </li>
+                                                    <li>
+                                                        Delete the same set of files from your GTA V root folder.
                                                     </li>
                                                     <li>Restart FiveM.</li>
                                                 </ol>
                                             </InstallationStep>
 
-                                            <InstallationStep title="Installing CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-2">
-                                                    <li>
-                                                        <strong>Important:</strong> Before installing, remove
-                                                        any old ENBSeries or ReShade files from your FiveM{' '}
-                                                        <code>plugins</code> folder to avoid compatibility
-                                                        issues. These files may be named <code>d3d11.dll</code>,{' '}
-                                                        <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
-                                                        <code>dxgi.asi</code>, or <code>ReShade.asi</code>.
-                                                    </li>
-                                                    <li>
-                                                        Copy all ReShade files from the provided package into
-                                                        the <code>plugins</code> folder, located inside your{' '}
-                                                        <code>FiveM Application Data</code> directory.
-                                                    </li>
-                                                    <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
-                                                                <strong>Important:</strong> Copy these same files
-                                                                into your main GTA 5 game directory. This step is
-                                                                required for the <strong>RenoDX Shader Loader</strong>{' '}
-                                                                menu to work correctly &mdash; without it, you will not
-                                                                see any menu options inside the RenoDX Shader Loader menu.
-                                                            </p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        In-game, press <strong>F7</strong> to open the ReShade
-                                                        menu and enable available shaders manually.
-                                                    </li>
-                                                    <li>
-                                                        You will see a <strong>RenoDX Shader Loader</strong> window within the main ReShade menu. This is where you can configure various shader settings.
-                                                    </li>
+                                            <InstallationStep title="Troubleshooting">
+                                                <ul className="list-disc pl-5 space-y-3">
                                                     <li>
                                                         <strong>
-                                                            Troubleshooting &quot;ReShade Blocked&quot; Error:
+                                                            The shader menu is empty, or CoreFX says it could not
+                                                            read settings.json
                                                         </strong>
+                                                        <br />
+                                                        You installed to only one of the two locations. Copy the
+                                                        shader payload into both the FiveM <code>plugins</code>{' '}
+                                                        folder and the GTA V root folder, each with its own{' '}
+                                                        <code>CustomShaders</code> folder beside{' '}
+                                                        <code>CoreFX.addon64</code>.
+                                                    </li>
+                                                    <li>
+                                                        <strong>&quot;ReShade Blocked&quot; error</strong>
                                                         <ul className="list-disc pl-5 mt-1 space-y-1">
                                                             <li>
                                                                 If FiveM crashes or blocks ReShade (version 5+),
@@ -662,17 +825,7 @@ export default function DocsClient() {
 ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to game crashes`}
                                                         </pre>
                                                     </li>
-                                                </ol>
-                                            </InstallationStep>
-
-                                            <InstallationStep title="Uninstalling CoreFX Shaders (ReShade)">
-                                                <ol className="list-decimal pl-5 space-y-1">
-                                                    <li>
-                                                        Simply delete the ReShade files you previously copied
-                                                        into the <code>plugins</code> folder within your{' '}
-                                                        <code>FiveM Application Data</code> directory.
-                                                    </li>
-                                                </ol>
+                                                </ul>
                                             </InstallationStep>
                                         </div>
                                     )}
@@ -681,6 +834,15 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {activeInstallTab === 'fivem-server' && (
                                         <div className="install-block">
 
+                                            <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
+                                                <p className="text-yellow-200 text-sm">
+                                                    <strong>Still on 1.2.</strong> There is no 1.3.1 ServerSide
+                                                    build yet, and access terms for the next one are to be
+                                                    announced. The steps below describe the current 1.2 package;
+                                                    it does not include the newer shader work found in the
+                                                    Singleplayer and FiveM client builds.
+                                                </p>
+                                            </div>
 
                                             <InstallationStep title="Server Installation" defaultOpen={false}>
                                                 <ol className="list-decimal pl-5 text-gray-300 space-y-2">
@@ -736,6 +898,200 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     )}
 
                                 </div>
+                            </div>
+                        )}
+
+                        {/* ───────── SHADER SETTINGS ───────── */}
+                        {activeSection === 'settings' && (
+                            <div className="space-y-6">
+                                <div className="bg-black/30 rounded-lg p-5 md:p-6">
+                                    <h2 className="text-2xl md:text-xl font-semibold mb-3">
+                                        The CoreFX Addon menu
+                                    </h2>
+                                    <p className="text-gray-300 text-base md:text-sm mb-4">
+                                        Every CoreFX effect is toggled and tuned from one place:
+                                        the <strong>CoreFX Addon</strong> window inside
+                                        the ReShade overlay. Settings are saved automatically and
+                                        apply live, except where noted.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2 text-gray-300 text-base md:text-sm">
+                                        <li>
+                                            <strong>Page Up</strong> — open or close the ReShade
+                                            overlay. The CoreFX Addon is one of the windows
+                                            inside it.
+                                        </li>
+                                        <li>
+                                            <strong>Page Down</strong> — toggle the ReShade effects
+                                            on and off.
+                                        </li>
+                                        <li>
+                                            <strong>Numpad *</strong> — show or hide the FPS
+                                            counter. <strong>Numpad -</strong> — take a screenshot
+                                            (saved next to the game executable).
+                                        </li>
+                                    </ul>
+                                    <p className="text-gray-400 text-sm mt-4">
+                                        Older CoreFX versions opened the menu with F7. That is no
+                                        longer the key on any build.
+                                    </p>
+                                </div>
+
+                                <InstallationStep title="Legacy — what's in the menu" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        Applies to Legacy Singleplayer and Legacy FiveM. The menu is
+                                        split into six tabs.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-3">
+                                        <li>
+                                            <strong>World</strong> — Volumetric Clouds, Godrays,
+                                            Lightning &amp; Bolts, Cloud Performance Mode (cheaper
+                                            cloud rendering); Screen Raindrops and a defocused
+                                            style for them; Texture Detail with parallax depth,
+                                            self-shadowing and ambient occlusion.
+                                        </li>
+                                        <li>
+                                            <strong>Vehicles &amp; Peds</strong> — vehicle
+                                            raindrops, metallic flakes, orange peel, and per-type
+                                            emissive brightness sliders for headlights, taillights,
+                                            indicators, brake lights, reverse lights, full beam,
+                                            signs and sirens. Also ped and weapon raindrops.
+                                        </li>
+                                        <li>
+                                            <strong>Lighting</strong> — coronas; streetlight
+                                            recolouring with lamp and shaft/fog strength and
+                                            colour; and three configurable streetlight colour
+                                            bands (white, blue, orange).
+                                        </li>
+                                        <li>
+                                            <strong>Image</strong> — puddle reflections, vehicle
+                                            reflections, wet surfaces; motion blur with an
+                                            intensity slider.
+                                        </li>
+                                        <li>
+                                            <strong>HDR</strong> — see below.
+                                        </li>
+                                        <li>
+                                            <strong>Options</strong> — hide the on-screen warnings,
+                                            reload shaders and settings, reset everything, and
+                                            links to the Discord and these docs.
+                                        </li>
+                                    </ul>
+                                </InstallationStep>
+
+                                <InstallationStep title="Enhanced — what's in the menu" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        Enhanced has everything Legacy has apart from the Image tab
+                                        (motion blur is a game setting there, and reflections are
+                                        ray traced), plus a Ray Tracing tab.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-3">
+                                        <li>
+                                            <strong>Ray Tracing</strong> — a master{' '}
+                                            <strong>Definitive Ray Tracing</strong> toggle, then
+                                            RTGI intensity, ray length and contact detail; RT
+                                            reflection distance and intensity; and RTAO intensity
+                                            and ray length.
+                                        </li>
+                                        <li>
+                                            <strong>Ray Tracing &gt; Ambient Occlusion</strong> —
+                                            SSAO, Detail Shadows, Micro Shadow and Sun Contact
+                                            Shadows, each with its own intensity slider.
+                                        </li>
+                                        <li>
+                                            <strong>World</strong> — as Legacy, plus{' '}
+                                            <strong>Enhanced Wind Animation</strong> for vegetation
+                                            (off by default).
+                                        </li>
+                                        <li>
+                                            <strong>Lighting</strong> — as Legacy, plus lens ghosts
+                                            and lens halo.
+                                        </li>
+                                        <li>
+                                            <strong>Vehicles &amp; Peds</strong>,{' '}
+                                            <strong>HDR</strong> and <strong>Options</strong> — same
+                                            as Legacy.
+                                        </li>
+                                    </ul>
+                                </InstallationStep>
+
+                                <InstallationStep title="HDR" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        CoreFX can upgrade the game to an HDR10 (PQ / BT.2020)
+                                        swapchain on both Legacy and Enhanced. The HDR tab is where
+                                        you turn it on and grade it.
+                                    </p>
+                                    <ol className="list-decimal pl-5 space-y-2">
+                                        <li>
+                                            Set <strong>HDR Mode</strong>. <strong>Auto</strong>{' '}
+                                            follows the Windows &quot;Use HDR&quot; setting for your
+                                            primary display; force <strong>On</strong> or{' '}
+                                            <strong>Off</strong> if the game opens on a different
+                                            monitor.
+                                        </li>
+                                        <li>
+                                            <strong>Restart the game.</strong> The swapchain has to
+                                            be set up before the game creates its device, so the
+                                            change only takes effect on the next launch. The menu
+                                            tells you whether HDR is currently active.
+                                        </li>
+                                        <li>
+                                            <strong>Enhanced only:</strong> in-game HDR must be off
+                                            and DLSS must be on. DLSS Frame Generation cannot be used
+                                            at the same time — see{' '}
+                                            <strong>Prerequisites &gt; HDR</strong>.
+                                        </li>
+                                    </ol>
+                                    <p className="mt-3 mb-2">
+                                        Once HDR is active, two panels become available:
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            <strong>HDR Tone Mapping</strong> — tone mapper choice,
+                                            peak brightness, game and UI brightness (nits), gamma
+                                            correction, white clip, compression and cone response.
+                                        </li>
+                                        <li>
+                                            <strong>HDR Color Grading</strong> — scene grade
+                                            strength, exposure, highlights, shadows, contrast,
+                                            saturation and film grain.
+                                        </li>
+                                    </ul>
+                                    <p className="text-gray-400 text-sm mt-3">
+                                        While HDR is inactive these settings have no effect, and
+                                        CoreFX runs as the standard SDR addon. The HDR swapchain and
+                                        the tone mappers come from{' '}
+                                        <a href="https://github.com/clshortfuse/renodx" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">RenoDX by ShortFuse</a>.
+                                    </p>
+                                </InstallationStep>
+
+                                <InstallationStep title="On-screen warnings">
+                                    <ul className="list-disc pl-5 space-y-3">
+                                        <li>
+                                            <strong>
+                                                &quot;CoreFX: postfx composite not loaded&quot;
+                                            </strong>{' '}
+                                            — CoreFX is running, but its main shaders are not
+                                            rendering. Set Shader Quality and Post FX to maximum in
+                                            the game&apos;s graphics settings and restart. You will
+                                            also see this in the main menu, which is normal.
+                                        </li>
+                                        <li>
+                                            <strong>
+                                                &quot;CoreFX: settings.json not loaded&quot;
+                                            </strong>{' '}
+                                            — the addon cannot find its settings file, so every
+                                            shader is running on built-in defaults and the menu is
+                                            empty. On FiveM this almost always means the payload was
+                                            installed to only one of the two required locations.
+                                        </li>
+                                    </ul>
+                                    <p className="mt-3">
+                                        Both can be silenced permanently with{' '}
+                                        <strong>Hide on-screen warnings</strong> under{' '}
+                                        <strong>Options</strong> — though it is worth fixing the
+                                        cause first.
+                                    </p>
+                                </InstallationStep>
                             </div>
                         )}
                     </div>

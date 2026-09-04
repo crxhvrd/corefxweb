@@ -48,17 +48,19 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
         <div className="space-y-6">
           <div className="text-center space-y-2">
             <h2 className="text-2xl font-semibold">How to Download and Install CoreFX</h2>
-            <p className="text-sm text-white/70">Follow these steps to grab the base mod package for free</p>
+            <p className="text-sm text-white/70">Follow these steps to grab the mod package for your platform</p>
           </div>
 
           <div className="space-y-4 text-sm leading-relaxed text-white/85">
             <p>
-              1. Head over to our Patreon and create a free account. CoreFX uses a Freemium model, so the base mod
-              package is available at no cost once you join with a free membership.
+              1. Head over to our Patreon and create a free account. CoreFX uses a Freemium model: both{' '}
+              <span className="font-medium text-white/95">Singleplayer</span> builds — Legacy and Enhanced — are
+              available at no cost once you join with a free membership, Volumetric Clouds included. The{' '}
+              <span className="font-medium text-white/95">Legacy FiveM</span> build is on the $5 tier.
             </p>
             <p>
               2. Subscribe to the CoreFX page and open any post announcing a CoreFX update to reveal the latest
-              download links.
+              download links. The $9 tier gets new updates 10 days before everyone else.
             </p>
             <p>
               3. Download the archive and follow the CoreFX setup instructions for your platform in the{' '}
@@ -73,7 +75,7 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               .
             </p>
             <p className="border-t border-white/10 pt-4 text-white/70">
-              <span className="font-medium text-white/90">Want more?</span> You can also financially support the creator on{' '}
+              <span className="font-medium text-white/90">Want more?</span> A paid{' '}
               <a
                 href="https://www.patreon.com/crxhvrd/membership"
                 target="_blank"
@@ -82,7 +84,8 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               >
                 Patreon
               </a>
-              {' '}to get additional features.
+              {' '}tier adds the FiveM build and early access to updates — no visual effect is
+              locked behind it — and it supports the creator directly.
             </p>
           </div>
 

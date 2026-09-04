@@ -9,7 +9,7 @@ const EM = 'text-white/85';
 // Typed once on load, then left alone.
 const HEADLINE: Segment[] = [
     { text: 'CoreFX', className: 'font-semibold' },
-    { text: ' is a free visual overhaul for ' },
+    { text: ' is a visual overhaul for ' },
     // non-breaking spaces keep the game title on one line at every width
     { text: 'Grand\u00a0Theft\u00a0Auto\u00a0V' },
 ];
@@ -44,9 +44,9 @@ const PARTS: Segment[][] = [
         { text: ' for the ray-traced one. Legacy also runs on FiveM, client and server-side; Enhanced FiveM is in the works.' },
     ],
     [
-        { text: 'The base package ' },
-        { text: 'costs nothing', className: EM },
-        { text: ': join the Patreon on its free tier, open the latest update post, and the links are there. Start from ' },
+        { text: 'Both singleplayer builds ' },
+        { text: 'cost nothing', className: EM },
+        { text: ': join the Patreon on its free tier, open the latest update post, and the links are there. The FiveM build is on the $5 tier. Start from ' },
         { text: 'Download', className: EM },
         { text: ', bottom\u00a0right.' },
     ],
