@@ -61,7 +61,7 @@ const prerequisitesSections = [
                     <><strong>Enhanced Singleplayer:</strong> Free.</>,
                     <><strong>Legacy FiveM:</strong> Requires the $5 Patreon tier.</>,
                     <><strong>Legacy FiveM ServerSide:</strong> Access to be announced. There is no 1.3.1 ServerSide build yet — the current package is still 1.2.</>,
-                    <>The <strong>$9 tier</strong> is early access: new updates land there 10 days before public release, and it includes everything the $5 tier does. It is no longer a feature paywall — no effect is locked behind it.</>
+                    <>The <strong>$9 tier</strong> is early access: new updates land there 10 days before public release, and it includes everything the $5 tier does. No visual effect is locked behind any tier.</>
                 ]
             },
             {
@@ -151,11 +151,6 @@ const faqs = [
             'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
     },
     {
-        question: 'What happened to the SE Addons?',
-        answer:
-            'They are gone. Everything they used to add now ships with the base mod on every build. The $9 tier no longer unlocks any effect — it gives you new updates 10 days before public release, plus everything the $5 tier includes. The paid side of CoreFX is now the Legacy FiveM build ($5 tier).'
-    },
-    {
         question:
             'In Rockstar Editor, my recorded clips show a blurred screen when moving. What causes this?',
         answer:
@@ -169,7 +164,7 @@ const faqs = [
     {
         question: 'How do I open the CoreFX shader menu?',
         answer:
-            'Press Page Up in-game to open the ReShade overlay, then find the CoreFX Addon window inside it — that is where every CoreFX setting lives. Page Down toggles the ReShade effects on and off. This is the same on all builds. (Older CoreFX versions used F7; that is no longer the key.)'
+            'Press Page Up in-game to open the ReShade overlay, then find the CoreFX Addon window inside it — that is where every CoreFX setting lives. Page Down toggles the ReShade effects on and off. This is the same on all builds.'
     },
     {
         question: 'Does CoreFX support HDR?',
@@ -433,8 +428,7 @@ export default function DocsClient() {
                                                         Click <strong>Install</strong>. A selection window opens
                                                         where you choose what to install. The <strong>base mod</strong>{' '}
                                                         and the <strong>CoreFX shaders</strong> (ReShade plus the
-                                                        <strong>CoreFX Addon</strong>) are always included — you do not install the
-                                                        shaders separately any more.
+                                                        <strong>CoreFX Addon</strong>) are always included.
                                                     </li>
                                                     <li>
                                                         Tick any optional add-ons you want:
@@ -570,11 +564,6 @@ export default function DocsClient() {
                                                                 page when the install finishes. Both need ScriptHookV.
                                                             </li>
                                                         </ul>
-                                                        <p className="mt-2 text-sm text-gray-400">
-                                                            Streetlights and emergency-light brightness are no
-                                                            longer install-time options — they are live settings in
-                                                            the CoreFX Addon menu instead.
-                                                        </p>
                                                     </li>
                                                     <li>
                                                         If prompted, select your GTA 5 Enhanced folder. Everything
@@ -837,9 +826,8 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                                 <p className="text-yellow-200 text-sm">
                                                     <strong>Still on 1.2.</strong> There is no 1.3.1 ServerSide
                                                     build yet, and access terms for the next one are to be
-                                                    announced. The steps below describe the current 1.2 package;
-                                                    it does not include the newer shader work found in the
-                                                    Singleplayer and FiveM client builds.
+                                                    announced. The steps below describe the current 1.2
+                                                    package.
                                                 </p>
                                             </div>
 
@@ -929,10 +917,6 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             (saved next to the game executable).
                                         </li>
                                     </ul>
-                                    <p className="text-gray-400 text-sm mt-4">
-                                        Older CoreFX versions opened the menu with F7. That is no
-                                        longer the key on any build.
-                                    </p>
                                 </div>
 
                                 <InstallationStep title="Legacy — what's in the menu" defaultOpen={false}>
