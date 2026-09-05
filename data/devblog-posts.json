@@ -202,7 +202,7 @@
     "content": "@CoreFX All packages done. Enhanced Singleplayer, Legacy Singleplayer, Legacy FiveM. Serverside builds will be released later\n\n(Legacy FiveM on the screenshot)\n\n10-day early access will be announced later today, as well as new CoreFX monetization policy, which will benefit most of the people, because there won't be any Volumetric Clouds separation, every build of CoreFX will come with full package of features.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6a9cde25&is=6a9b8ca5&hm=de2150fde4c91bd65da6a5456d659110e70af836676fe389dc3667c625ca12b9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6a9d86e5&is=6a9c3565&hm=4d6a61989fc4d2916fc9e4fb0aac379c32c001e5f073d58ed8b5ae9e7d96f955&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -219,25 +219,25 @@
     "content": "@CoreFX DLSS 5 Neural Rendering\n\nYesterday, a binary of a DLSS 5 got leaked into the internet, and good fellas from RenoDX community made it compatible with any game that supports DLSS 5 Neural Rendering in any game\n\nResults in GTA 5 Enhanced with CoreFX. If this is not a photorealism, then what this is?\n\nWe will not implement DLSS 5 Neural Rendering in our CoreFX RenoDX addon, and you will need to find a leaked binary yourself. And you need a RTX series card. But it's worth it, trust me.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a9ccc16&is=6a9b7a96&hm=08d037f5c42a620adbe6401b638d7b696a307fc23d19568a0aa8b786c79e8e22&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a9d74d6&is=6a9c2356&hm=705782fa93d7d1ee302049d9bcc7e97c1899fdca757ce7eee674a4fd71b91555&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a9ccc16&is=6a9b7a96&hm=4a81ff0aa057a433e89d7a80ceccb16cf78b6ad1231bf1742e997eaccbe4a8ae&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a9d74d6&is=6a9c2356&hm=8493d68f5d032e144c411e5ac9203c9f9409e312606382a4ea836934b6f26fe2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a9ccc17&is=6a9b7a97&hm=dc31745ef743145942107f2cc1b26b037d1c236326dbe85359d6ef851b43bf96&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a9d74d7&is=6a9c2357&hm=e71472767253ae2dce2ee44160ef8a2c79087bbb2bb2030e763ee2c5876998c7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a9ccc17&is=6a9b7a97&hm=52dcc6a4c9802f1f846908377a9df407958b69b88efc0ced146f980813e348db&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a9d74d7&is=6a9c2357&hm=39f07d8dc3e80ba130b5abe34e093d2324420253fca5dcef4f8792b72b9c805d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -383,7 +383,7 @@
     "content": "Legacy build is finished, full RenoDX settings preview",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a9cbd13&is=6a9b6b93&hm=24ad8c1c2b44575d3fa92d9a80fd2f50571734616a769dad9baedc8c4e94cb55&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a9d65d3&is=6a9c1453&hm=be31f8fa7e8c121a8453bf7edda7913fee26e2d9ba093c5b78e60b1bc501e114&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -686,7 +686,7 @@
     "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a9cbb2e&is=6a9b69ae&hm=d0d7eac097214b85a9d7a8f7f9d9b599a051a9c721c24302abd7004300ba1d4b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a9d63ee&is=6a9c126e&hm=b2f11b4006075e6878c4a1ec188e6308635b3a010948bfefedf478a234eb434b&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
