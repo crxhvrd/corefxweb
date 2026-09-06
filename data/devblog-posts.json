@@ -1,5 +1,22 @@
 [
   {
+    "id": "1545935817762021466",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-09-05T23:17:01.053000+00:00",
+    "editedAt": "2026-09-06T01:06:11.244000+00:00",
+    "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6a9df46b&is=6a9ca2eb&hm=35d59c592f348e0d8e0e82f4ffc922b738b7ace4c671a3405a33741c95123fda&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1545438396909092994",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -27,61 +44,61 @@
     "content": "@CoreFX 1.3.1 Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402844578979941/3240220_20260904044002_1.png?ex=6a9d558e&is=6a9c040e&hm=daf6fa8affde8da75a5210a7546dacfd242ad6ebdae0ef7645bd0977b75d4419&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402844578979941/3240220_20260904044002_1.png?ex=6a9dfe4e&is=6a9cacce&hm=8ae25827f302a7a86547eceb110f777d23bca628792af10374b41937f62637c9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402846110031892/3240220_20260904043910_1.png?ex=6a9d558e&is=6a9c040e&hm=4b3c7c3cae526751ba265acb38d7ba006ac0f7101841217a3148d0b9d8bd19de&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402846110031892/3240220_20260904043910_1.png?ex=6a9dfe4e&is=6a9cacce&hm=7f22f7215ac28e5107b4797a997e77da8a85eded11c8fe3403dba0c33b7cf98d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402847687086171/3240220_20260904043601_1.png?ex=6a9d558f&is=6a9c040f&hm=d5d45513671cc5b56acd813bda2c6a056733ff5dd67ecb0467fffbe06116e92e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402847687086171/3240220_20260904043601_1.png?ex=6a9dfe4f&is=6a9caccf&hm=eb4ad21824a7d16b2c8efdb98ea5c6bf16a4fefa9983796f513b2680d610aa78&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402848873943080/3240220_20260904044612_1.png?ex=6a9d558f&is=6a9c040f&hm=ee6577421a19777362e983b5631d8b4ca477f9063f2fdb5e0fa18e32cee787b4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402848873943080/3240220_20260904044612_1.png?ex=6a9dfe4f&is=6a9caccf&hm=428add2f23732674819df5868653e081a380668e23297267f851a8995a5270c5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402850375376996/3240220_20260904051801_1.png?ex=6a9d558f&is=6a9c040f&hm=578699bbcdc83ee9245d48ba4a0844475b64eb171b3edcb420059ad0abdc0051&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402850375376996/3240220_20260904051801_1.png?ex=6a9dfe4f&is=6a9caccf&hm=c16e20a1170700347cc85ed34fd37c285377f1d179eb3100efc41760039fc09c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402851701035178/3240220_20260904140045_1.png?ex=6a9d5590&is=6a9c0410&hm=dd667c7b97de151a9c0450a45019147b6996e180b14d1f2a20e51ea5825e3959&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402851701035178/3240220_20260904140045_1.png?ex=6a9dfe50&is=6a9cacd0&hm=fc84b9c438b1e867899e9fac16099a4842c71b18942acb8b8ff3570aab7a7d9c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402853227757618/3240220_20260904051400_1.png?ex=6a9d5590&is=6a9c0410&hm=40847e421b611ead54b82a9d3aa1496edd047daeda9546d633292fec3eaac41c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402853227757618/3240220_20260904051400_1.png?ex=6a9dfe50&is=6a9cacd0&hm=884cff4d5c130eb3afce1f2f59f22da9441eebc85291b67dd83664030fd790c3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402854649368667/3240220_20260904135102_1.png?ex=6a9d5590&is=6a9c0410&hm=1eab9d7968acac80f0918ad7c5e99e08c10dad419b9b6da412e6d18b4b2196bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402854649368667/3240220_20260904135102_1.png?ex=6a9dfe50&is=6a9cacd0&hm=a5211ee83a40254edfa8e2dc465c3d4abb9ae11037c60f43c3a604648f7ed4a6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402855975026739/3240220_20260904044417_1.png?ex=6a9d5591&is=6a9c0411&hm=84b7907564a2c6919f06742f2d8da02c48633c7ee23d33a714a5d62a5474fd87&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402855975026739/3240220_20260904044417_1.png?ex=6a9dfe51&is=6a9cacd1&hm=6796e0ef6a84afa6898776aac61870df376e239831942e2246a6fff75f19e9f3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402857346437120/3240220_20260904044234_1.png?ex=6a9d5591&is=6a9c0411&hm=6830c3567faf837e590cf1b8bbd6ce4ba3f5fdac618e57e1377328ce49a1e709&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402857346437120/3240220_20260904044234_1.png?ex=6a9dfe51&is=6a9cacd1&hm=c9d876b892e4b243f5a8fbf479428ceda74651b9f4acd3d8c817c31011df064b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -97,61 +114,61 @@
     "content": "@CoreFX 1.3.1 Early Access is starting today, changelog is still work in progress, so here are some screenshots:\n\nLegacy:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402337680564224/271590_20260904144806_1.png?ex=6a9d5515&is=6a9c0395&hm=583e62d84416cab738d3bd77af8a6b2fa9a05bff67bea0c6e84d3a4f9f044957&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402337680564224/271590_20260904144806_1.png?ex=6a9dfdd5&is=6a9cac55&hm=78ff0f9249d9e74c66d708ba356e8a52ccb75b27bf4e094e7676af8852a8a7ef&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402339253551194/271590_20260904145018_1.png?ex=6a9d5515&is=6a9c0395&hm=fbb0623558fb44182ce7c9ab39d3ab9c4e7d8d08ff740bd0f17b6a59de2e4ca9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402339253551194/271590_20260904145018_1.png?ex=6a9dfdd5&is=6a9cac55&hm=a540d2de1f2ab44ba778affcf2ec352aa5eb3a965d25fe284ebe0475d9070a4b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402340419309568/271590_20260904144956_1.png?ex=6a9d5516&is=6a9c0396&hm=b210db3b90be1338f8bc1a4c8538b04c0be5616b36ce36d0c65cb68f5776156d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402340419309568/271590_20260904144956_1.png?ex=6a9dfdd6&is=6a9cac56&hm=e0cf92e3565df5d26bb4d7482a253aef66e892680f3e7b20ea6c53f6185e1562&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402341463687210/271590_20260904144149_1.png?ex=6a9d5516&is=6a9c0396&hm=916900e9ce3c4c91a27c65b2e8297f4fd7fa121078a7e7d23731bdbc2e246a99&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402341463687210/271590_20260904144149_1.png?ex=6a9dfdd6&is=6a9cac56&hm=9a69d6ec5f24b8c1c206d62e2d7a354e6216b4cdd34aaf6e490ac0116d8b5939&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402342218928189/271590_20260904143815_1.png?ex=6a9d5516&is=6a9c0396&hm=c8da49bd942100b89e4916fac081c985a556175ae115d720b663ccb13251ea42&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402342218928189/271590_20260904143815_1.png?ex=6a9dfdd6&is=6a9cac56&hm=597117ca7604fa796fdd09cf9ee4c972e7d2f28e990a6cf95feed0e0bd81a797&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402343225430116/271590_20260904143348_1.png?ex=6a9d5516&is=6a9c0396&hm=7e190de339df790c943f1cb11ec9b6c354893d7ac23619e8f941a02cf4f6584d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402343225430116/271590_20260904143348_1.png?ex=6a9dfdd6&is=6a9cac56&hm=82a7c84a17fa14904e6073199470654acde59f2854a079f42005ba045d9ab0c0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402344215154709/271590_20260904143157_1.png?ex=6a9d5517&is=6a9c0397&hm=aebe9c1f6fe4f5ed4588d831939355fa52710bdb6e995416c9fe1ab845f3df95&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402344215154709/271590_20260904143157_1.png?ex=6a9dfdd7&is=6a9cac57&hm=c42a849bcff2da4eca7b5d6f42b4076ce3626f7072b59c14f2723a717aaa89dd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402344941027345/271590_20260904144537_1.png?ex=6a9d5517&is=6a9c0397&hm=ebd20c2555b60a627757676afe39d908a3b00e4b4348bbc0878f673e49c01e9c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402344941027345/271590_20260904144537_1.png?ex=6a9dfdd7&is=6a9cac57&hm=d026d30394fd7ac2d6b27541c4cba7971b2da094c4ca1521b33ef88afbc7988e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402345834291210/271590_20260904145344_1.png?ex=6a9d5517&is=6a9c0397&hm=4f21fb8da80bad6c0fd9e252a0c3d34f50d9e6de228609aacaa6dbd80af383e0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402345834291210/271590_20260904145344_1.png?ex=6a9dfdd7&is=6a9cac57&hm=a230bb76941f5b531b455175579c2428e65734edaf43acebe3cb221c0869d9fc&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402346719281213/271590_20260904143442_1.png?ex=6a9d5517&is=6a9c0397&hm=df2072bdf77c119d3a83b7303d512a351c8b9618e7687f9d821a9eedda6318ba&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545402346719281213/271590_20260904143442_1.png?ex=6a9dfdd7&is=6a9cac57&hm=834302318c35980dea9b8098fbc2919a24417b585aeff14e7bf1474fd62e27f2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -527,7 +544,7 @@
     "content": "@CoreFX TNNAA improvements, on/off comparison at 1080P + no MSAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6a9d5246&is=6a9c00c6&hm=4ca2835e8bc9d9812631a90e5b6fa4c331f9b2d1b507748855880efc04748a6c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6a9dfb06&is=6a9ca986&hm=59819e4e4e5339794de136b5e72c0c251568b8c8e02070b4bd520587ec384366&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -674,22 +691,6 @@
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1528929632794054686",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-21T01:00:30.597000+00:00",
-    "content": "@CoreFX Dynamic Raindrops\n\n- reacts to camera movement\n- interior detection (not perfect)\n- can be switched to [defocused raindrops](https://discord.com/channels/963349840681639946/1080896900926017686/1525671678712090776) at runtime",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1528929631661457519/Grand_Theft_Auto_V_2026.07.21_-_03.56.57.02.mp4?ex=6a9d63ee&is=6a9c126e&hm=b2f11b4006075e6878c4a1ec188e6308635b3a010948bfefedf478a234eb434b&",
-        "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
       }
     ],
     "embeds": []
