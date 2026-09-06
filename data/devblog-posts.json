@@ -344,7 +344,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a9e594f&is=6a9d07cf&hm=83aab279c3ce9cf041f57ead238adae58f18d9c029c552073357974cfd75a2c0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6a9f020f&is=6a9db08f&hm=3411d3649d38da05da514aae0688befea3209904c0cbe9de10b6e08b79429209&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -539,13 +539,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a9e6c47&is=6a9d1ac7&hm=d54d710172aa58981dfde29f877addbb980c6c6128feac577ed283ba0aa13734&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6a9f1507&is=6a9dc387&hm=bbd67205eae75d299174e09889f8fa2b632fbca7e136c593f358f84aaaf3785f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a9e6c47&is=6a9d1ac7&hm=168931b39f0a4bf5dd32d2956fb85b06ed5768a5045e8073148c120f9fad6f4e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6a9f1507&is=6a9dc387&hm=71236a1c2058edcf1a605711556fd2f14d2ee9b887b9270119fbb38af31bbd2e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -642,7 +642,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a9e7666&is=6a9d24e6&hm=4e464c7f4a196ea1448abe883369127227bccbb19789515f4d1ec6ad3942fa4c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6a9f1f26&is=6a9dcda6&hm=2667ffa8a197a6e9544728efbe32d2d0bfa853d3f420b1d51b75234134d64c05&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -659,7 +659,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a9e7474&is=6a9d22f4&hm=ed861d13cb086bfbc0010baaf0e0090a359e3bac5ceae886f63f6f209b0dfe0a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6a9f1d34&is=6a9dcbb4&hm=ddce22bdcf021caf955783e280f234501290b3a018893383a16775e2ff843fb0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -675,13 +675,13 @@
     "content": "@CoreFX Water parallax, to improve wave details",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a9e5b5c&is=6a9d09dc&hm=557ae11f8c2b9fdbbe07b4257790655a599d51a08a16eef9c647eba62c9bc9da&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195307668082777/271590_20260721213520_1.png?ex=6a9f041c&is=6a9db29c&hm=091dc8ce114f1fd5c2d3a756a2977186d7e749b608ff31446ee96c377f45b627&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a9e5b5c&is=6a9d09dc&hm=b2941bdaafa3de50b9a93049e7eefd7a07120a9e4b2c1690dd226f0227b3cec0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529195308750471220/271590_20260721213436_1.png?ex=6a9f041c&is=6a9db29c&hm=2ed56b4a3fa78c8d0eb1d228ed54946e2d6cace15c0a677391b3cfc08c2ad5cb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
