@@ -185,7 +185,7 @@
     "content": "@everyone\n# **CoreFX 1.3.1 — Release Dates & New Monetization Policy**\n\n**Release schedule**\n• **September 4** — 1.3.1 Early Access opens for $9 tier testers\n• **September 14** — Public release for everyone\n\n# **The new policy** (see image below)\n\nSingleplayer users lose nothing and gain something: Volumetric Clouds are no longer paywalled on Legacy SP, and Enhanced SP is untouched. The paid side moves to FiveM, where CoreFX ends up running in a server context. And the $9 tier stops being a feature paywall entirely — it's early access to updates now, not a gate on content.\n\n# **Why I'm doing this**\n\nI'd rather explain than quietly change the numbers.\n\nI'm trying to leave Ukraine, or at minimum move away from the capital region to somewhere quieter. A [military warehouse explosion near me](https://discord.com/channels/963349840681639946/963349840681639950/1542971191566929991) recently killed almost 40 people. I don't feel safe where I live anymore, and relocating takes money I don't currently have.\n\nThis was the most honest way I could find to fund that: shift the paid part to FiveM, and make singleplayer more complete than it was before rather than less. I didn't want to solve my problem by taking something away from the people who have been using this mod for free.\n\nCoreFX remains what it has always been — a personal project, not a service. No roadmap, no requests, no promises about what gets worked on next. That doesn't change. Development continues either way.\n\nThank you to everyone who has supported this. It matters more than usual right now.\n\n— CoreFX",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6a9d9e8f&is=6a9c4d0f&hm=2ac02c0bc43262af331c0ee90eb6d3e0f649a03e58daa3dea15922cc5d24e40e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6a9e474f&is=6a9cf5cf&hm=286117d2729c660462cfe798ae50441947061b3f1a47462afb7dc71b061a034b&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -202,7 +202,7 @@
     "content": "@CoreFX Also, for all CoreFX builds, we implemented CoreFX notifications if something is wrong with CoreFX shaders or something like that. A preview here shows that the notification will disappear once you set proper ingame graphics settings for working shaders\n\nThese notifications can be disabled permanently, but i recommend to keep them.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6a9d896e&is=6a9c37ee&hm=b12806df706717b4cd8ec3d0f31405e45053231218a66eb7973cb43867f966ad&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6a9e322e&is=6a9ce0ae&hm=4de2a62e12e3506d3d0df02280726c1c456a0bb715f26fdbd7e06f720ea8a1eb&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -219,7 +219,7 @@
     "content": "@CoreFX All packages done. Enhanced Singleplayer, Legacy Singleplayer, Legacy FiveM. Serverside builds will be released later\n\n(Legacy FiveM on the screenshot)\n\n10-day early access will be announced later today, as well as new CoreFX monetization policy, which will benefit most of the people, because there won't be any Volumetric Clouds separation, every build of CoreFX will come with full package of features.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6a9d86e5&is=6a9c3565&hm=4d6a61989fc4d2916fc9e4fb0aac379c32c001e5f073d58ed8b5ae9e7d96f955&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6a9e2fa5&is=6a9cde25&hm=ccddbefab1a415bcda385d5e10d3a7d85e7ce31232859d6dc5a2de39b629161c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -236,25 +236,25 @@
     "content": "@CoreFX DLSS 5 Neural Rendering\n\nYesterday, a binary of a DLSS 5 got leaked into the internet, and good fellas from RenoDX community made it compatible with any game that supports DLSS 5 Neural Rendering in any game\n\nResults in GTA 5 Enhanced with CoreFX. If this is not a photorealism, then what this is?\n\nWe will not implement DLSS 5 Neural Rendering in our CoreFX RenoDX addon, and you will need to find a leaked binary yourself. And you need a RTX series card. But it's worth it, trust me.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a9d74d6&is=6a9c2356&hm=705782fa93d7d1ee302049d9bcc7e97c1899fdca757ce7eee674a4fd71b91555&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6a9e1d96&is=6a9ccc16&hm=6608342fd1c2d5261df29b921562609f903fd581c69b2b003ba80b53f8808f33&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a9d74d6&is=6a9c2356&hm=8493d68f5d032e144c411e5ac9203c9f9409e312606382a4ea836934b6f26fe2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6a9e1d96&is=6a9ccc16&hm=a6c77f3d0655643f874c7191f9a4d69eeb4af3623a11a3ea18b10d2fbd6b0183&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a9d74d7&is=6a9c2357&hm=e71472767253ae2dce2ee44160ef8a2c79087bbb2bb2030e763ee2c5876998c7&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6a9e1d97&is=6a9ccc17&hm=883a1d90c1c6520aa5ae124da340e0e8756bc0bb0f84718dfb49225add986466&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a9d74d7&is=6a9c2357&hm=39f07d8dc3e80ba130b5abe34e093d2324420253fca5dcef4f8792b72b9c805d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6a9e1d97&is=6a9ccc17&hm=2e5ba27afa4a72cf018b2d70596dd868d74090c2132e1795874c44abc8a49eaf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -400,7 +400,7 @@
     "content": "Legacy build is finished, full RenoDX settings preview",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a9d65d3&is=6a9c1453&hm=be31f8fa7e8c121a8453bf7edda7913fee26e2d9ba093c5b78e60b1bc501e114&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1538534945167773766/Grand_Theft_Auto_V_2026.08.16_-_16.03.58.01.mp4?ex=6a9e0e93&is=6a9cbd13&hm=f7893a2356bbded19c6ad96573e5a11c6af0a6daf4d699e905c2d316e89d6e95&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -506,7 +506,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a9da4ec&is=6a9c536c&hm=31bb8b85b8f846932f89ccfc6ee7d63af6d67445cf64d6a30d72b7daef8a78de&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6a9e4dac&is=6a9cfc2c&hm=ea976e35386d7069e563d901c5884c07202017d29a9012556e2d666592f9be7a&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -570,13 +570,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a9d9df7&is=6a9c4c77&hm=530d6338d157e57676e6533d5485b44d33444b8dfb637ecd2e01a07f6a34ff4d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6a9e46b7&is=6a9cf537&hm=345cd5f2836daa6c7fc045ef10685a7aadf9b349c649fc2600c27affee2ff9a2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a9d9df8&is=6a9c4c78&hm=fa4dea5dbbdf85e20995679ff5676eb375e0caf2fa9ee2afdd566c0e066c7365&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6a9e46b8&is=6a9cf538&hm=4488704814f072043a4f20f2d77add42cc2434f63591f2e566a57dfb5c8b5677&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -592,7 +592,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a9d8f35&is=6a9c3db5&hm=e166808ece047a9c75bde2451e6e28274e719a796b10d5f24719aa64999e4ec0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6a9e37f5&is=6a9ce675&hm=d64afb69e1a4fedc9e7f2b6a2c1e30abbdbe9a47d3c6e72fb66b969f779facac&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -681,13 +681,13 @@
     "content": "@CoreFX water shader edits\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a9d9867&is=6a9c46e7&hm=75cca9e77009daea097446995adb4d1f97b8e602cb60fae3d9c739ebc073c9d9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167169248690186/271590_20260721194236_1.png?ex=6a9e4127&is=6a9cefa7&hm=25ef1430ca3bfd1843dcb3da4fe0c9f9337b89579ecf9db0ef9eb5585dea2d97&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a9d9867&is=6a9c46e7&hm=724a1810e5783c4022cfb340c4f1099ec2b588043ba0c5e9007125d5cdb7735f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529167170276163734/271590_20260721194247_1.png?ex=6a9e4127&is=6a9cefa7&hm=e27fad43207db041b1a81b297e735b4f5ffa58b4cb7ac15979283b17f7452162&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
