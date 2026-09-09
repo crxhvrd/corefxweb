@@ -231,7 +231,7 @@ export default function HeroIntro() {
     const empty = headTyped === 0 && bodyTyped === 0;
 
     return (
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex h-screen items-center justify-center px-6 pb-24 sm:pb-16">
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex h-screen items-center justify-center overflow-hidden px-6 pb-24 sm:pb-16">
             <div className="animate-fadeUp relative w-full max-w-3xl text-center">
                 {/* soft scrim — the footage behind this is bright */}
                 <div

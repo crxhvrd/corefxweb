@@ -7,10 +7,18 @@
   --background-rgb: 0, 0, 0;
 }
 
+/* overflow-x on body alone is unreliable: with html at overflow:visible the value
+   propagates to the viewport and body stops clipping, so a wide child can still
+   widen the document. Setting it on html too is what actually holds. */
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 @layer base {
