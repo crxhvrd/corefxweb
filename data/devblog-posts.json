@@ -456,7 +456,7 @@
     "content": "back to @CoreFX development. New vehicle raindrops shader, Legacy & Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6aa3c671&is=6aa274f1&hm=41f778964bf8505bfc8e891cc5baeca4be5c268b8b42f09f2651974b9e672b64&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6aa46f31&is=6aa31db1&hm=ba91b2c11ece6c3a8cacb1ff4c60110ab545b7dab478b5fd9717ede6760129f3&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -648,7 +648,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa3c3c6&is=6aa27246&hm=959e535445e1ce6d24a3fc5f0be53c68e19ca53dc5a17fb78b7c74c24393796a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa46c86&is=6aa31b06&hm=d5c70f73a6a9c1f5c3fd4fd30dfeb6db74fe1e6da77c51359c5fb0796d2756bf&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -665,7 +665,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa3bc66&is=6aa26ae6&hm=d491bccb2348c9db29a0ffdbdb1c081861b8873cfbb65bf6124a7120ad0e8266&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa46526&is=6aa313a6&hm=ce33a97c748c4fe9583850aa2f8f4716f7b23dbd78fd7ee25ba42b6fdcc64a89&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -682,7 +682,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa3ba74&is=6aa268f4&hm=d8f8a55eedc290a3b9d2368f7cfcf98cbed5f15da35dd7b007a79ff2dbc77b41&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa46334&is=6aa311b4&hm=2fc899aba8f24fd06ed4812f8544d6937f8417c11b5159110c18211d5a2e6c2d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
