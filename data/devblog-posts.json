@@ -8,13 +8,13 @@
     "content": "@CoreFX heavily expanded volumetric clouds draw distance with no performance hit and their fade is much more smoother now\n\nfrom 8km to roughly 35km",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6aa43a5f&is=6aa2e8df&hm=2b425d7cf788629593d98ac11d48547d1e13ec98a2113ca0a69a3ee236949416&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6aa4e31f&is=6aa3919f&hm=ba4c115f61cbd04e304a0dfb759b2bd636f79e13a2bcadda440f2debbb217bc6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6aa43a60&is=6aa2e8e0&hm=b54ec833e60e79ba55329200b749736d24b50ff015e073c81287bcecebb184cd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6aa4e320&is=6aa391a0&hm=ec6026ce13b8ba79a13fdd0c819997073cbbb9c8fa80fb4c3209ea4ffa3d0a6e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -225,7 +225,7 @@
     "content": "@everyone\n# **CoreFX 1.3.1 — Release Dates & New Monetization Policy**\n\n**Release schedule**\n• **September 4** — 1.3.1 Early Access opens for $9 tier testers\n• **September 14** — Public release for everyone\n\n# **The new policy** (see image below)\n\nSingleplayer users lose nothing and gain something: Volumetric Clouds are no longer paywalled on Legacy SP, and Enhanced SP is untouched. The paid side moves to FiveM, where CoreFX ends up running in a server context. And the $9 tier stops being a feature paywall entirely — it's early access to updates now, not a gate on content.\n\n# **Why I'm doing this**\n\nI'd rather explain than quietly change the numbers.\n\nI'm trying to leave Ukraine, or at minimum move away from the capital region to somewhere quieter. A [military warehouse explosion near me](https://discord.com/channels/963349840681639946/963349840681639950/1542971191566929991) recently killed almost 40 people. I don't feel safe where I live anymore, and relocating takes money I don't currently have.\n\nThis was the most honest way I could find to fund that: shift the paid part to FiveM, and make singleplayer more complete than it was before rather than less. I didn't want to solve my problem by taking something away from the people who have been using this mod for free.\n\nCoreFX remains what it has always been — a personal project, not a service. No roadmap, no requests, no promises about what gets worked on next. That doesn't change. Development continues either way.\n\nThank you to everyone who has supported this. It matters more than usual right now.\n\n— CoreFX",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6aa4360f&is=6aa2e48f&hm=6ec5fec2dca7d701a9556148633206800bb9f5eb57ec1395cc22867df622ffb6&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6aa4decf&is=6aa38d4f&hm=a48ab1b2e3385cadeee48faa4c44452d16168217181924eeacbfc908df0835ac&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -367,7 +367,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6aa4480f&is=6aa2f68f&hm=3e13adcdbc95a84c9bf9f937920d49db467250cb7741f3feeb3fa8d5928b42a9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6aa4f0cf&is=6aa39f4f&hm=6c0fe5f42f0d2c28e0825559061d02f994f8df9e8d99936755e2dcc4f49ee90a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -384,37 +384,37 @@
     "content": "@CoreFX Big change for CoreFX Enhanced - Definitive Ray Tracing Mode by @Valkill \n\nThis pack of modified shaders changes how Ray Tracing behaves and how it's denoised, and how it works with GTA 5 Lighting system and makes RT look more mature, close to Cyberpunk Path Tracing in some cases\n\nBefore (old Ray Tracing)/after (Definitive Ray Tracing)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6aa44334&is=6aa2f1b4&hm=868d10c16546452c2893d59ec7b8b44c17f50c6a08967125f31a1ff602d302a4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6aa4ebf4&is=6aa39a74&hm=9f675d831d3ef149b0f7c5f9e220c22f3b0a4bef37e23e0d95cf2a0e4fe7b469&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6aa44334&is=6aa2f1b4&hm=3c9088bca935afc027fbaeb0d22cc160fad33a94ca74916509b6b4cf35241d90&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6aa4ebf4&is=6aa39a74&hm=4455f6c79dc32ccea4ed176b5ac21043ded761ed394e8a55eecc4f1ee05a015a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6aa44335&is=6aa2f1b5&hm=37d9b58b70a07238367d41d8cdb9c5e4f3c9c1581c64b6738be7450a2f74f880&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6aa4ebf5&is=6aa39a75&hm=2b03ea7cdf32fef4397cacfd16a913e2928f7e598b4628379a5b0a9f483e52ef&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6aa44335&is=6aa2f1b5&hm=f900d2bc08e815523c00c15f3e322e7dcc7976d5514a2f709ffa77e78da6ed14&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6aa4ebf5&is=6aa39a75&hm=934f84edef6d9db02192a29ceeae8260fe7a986dd08dc7d8c6154ad78578b083&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6aa44335&is=6aa2f1b5&hm=08c90ff2e9e1321a9fb49f5b5fcc6681a8d2e8be19e2870a92a87b6babe6dd9e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6aa4ebf5&is=6aa39a75&hm=afbf2d74fe8c91b678cae5b8796cd9064ccc8616b9ec5e0ba9060df0b50e9b2d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6aa44335&is=6aa2f1b5&hm=0a65923fe65459717a2751ac1d5451bef9b54fdbb38d21d99ccd6cddafcd5bcc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6aa4ebf5&is=6aa39a75&hm=e8b4c0712dc943d3bc08d6308452691311b929e7de0b02517091c13bed6537c7&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -512,7 +512,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6aa443a0&is=6aa2f220&hm=287309f8e6e3b840061f44fc3628447cc5bfb23bb6180032ec7f620de1e489c3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6aa4ec60&is=6aa39ae0&hm=90f0749e4391b708054281eb4d85b12bc411b160fbfc62fa43d545e0f06d9687&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -529,7 +529,7 @@
     "content": "@CoreFX we even added more functionality into rockstar editor, WIP",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6aa4431b&is=6aa2f19b&hm=0cecf6c5f25e0693785fd633f4d6b0ba139dfda6f12992f6bb46c44a27045f56&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530999726974046409/image.png?ex=6aa4ebdb&is=6aa39a5b&hm=682c6daf5d547282d11384df9884dca84c18a7ea64f9f0e6e20422d025219362&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -546,7 +546,7 @@
     "content": "@CoreFX It's official, we have fixed Smooth Blend in Rockstar Editor\n\nThat means no delay between keyframes",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6aa43c6c&is=6aa2eaec&hm=f1e74d36554b5eb4a638a1467c758ca604a3ef3999defbb933c6b46001b50b2f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530992549114675351/Grand_Theft_Auto_V_2026.07.26_-_20.36.39.01.mp4?ex=6aa4e52c&is=6aa393ac&hm=f32a16789a15815f2f5738c3bcca20a191aec57716809482b0aead16daa708da&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -562,13 +562,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6aa45b07&is=6aa30987&hm=41227a946b1880922b342a042d6e8a256d5830d78249f43ed41f96de7389e759&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6aa503c7&is=6aa3b247&hm=b5a2f6fe345cf339a2a27feef9549192900a732b7bdf1581b4d04d270b9fdcd4&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6aa45b07&is=6aa30987&hm=7eea8ef764d081a7759fd02d857c9d185fff4a04ab3ca6b3ec58f3ba79425393&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6aa503c7&is=6aa3b247&hm=b5d382827d073c646da6fc2718ca236eaad37edca460f8a24c486971b3404826&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -610,13 +610,13 @@
     "content": "Water shader final update\n\nAdded Subsurface scattering (wave light tint in the direction of the sun)\n\nvanilla water shader & modified",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6aa43577&is=6aa2e3f7&hm=dad1b64993fdea94db906f21cccae5c2bd9bdc688746dfca5c79c844bb00e412&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897918792990922/271590_20260723200546_1.png?ex=6aa4de37&is=6aa38cb7&hm=5e6641e4ffe14eb3b103a4832668840e1033266e799b29efc8e600d2bac78657&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6aa43578&is=6aa2e3f8&hm=24bbbe7527b7364b04b48ef4d34177723f1afa3340574c9548a736bf100cc605&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529897919463821342/271590_20260723200538_1.png?ex=6aa4de38&is=6aa38cb8&hm=c86bf5ff48fd1cdc8715f66d9294dc230c6bc2cc945e6e0d7273007e501079b3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -648,7 +648,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa46c86&is=6aa31b06&hm=d5c70f73a6a9c1f5c3fd4fd30dfeb6db74fe1e6da77c51359c5fb0796d2756bf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa51546&is=6aa3c3c6&hm=ae3d99fcf9b0331e643a8afd795c62d2458176e22dad56a4622f96190b8ba2bd&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -665,7 +665,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa46526&is=6aa313a6&hm=ce33a97c748c4fe9583850aa2f8f4716f7b23dbd78fd7ee25ba42b6fdcc64a89&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa50de6&is=6aa3bc66&hm=b6bccdaf2b6ad047fb8080891bcc016935ab7c5cb64e516fda82a21adf31d870&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -682,7 +682,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa46334&is=6aa311b4&hm=2fc899aba8f24fd06ed4812f8544d6937f8417c11b5159110c18211d5a2e6c2d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa50bf4&is=6aa3ba74&hm=faeb56910927153ad1d1822206fa3c4b7f252fa6bd0d866d8dea546429d67df0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
