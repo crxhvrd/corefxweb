@@ -48,7 +48,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6aa534ab&is=6aa3e32b&hm=563a6de3a5ff6b55d6a23e43d323feffe0d50fcd50550c3f01066e370121c3cf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6aa5dd6b&is=6aa48beb&hm=638732d422146d37dcc05ecf114178b0b77d09108b3fb80670a51dbe8bad8c26&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -311,37 +311,37 @@
     "content": "@CoreFX HDR support via RenoDX, PsychoV Tonemapper\nPics made in HDR and may be incorrect without HDR display",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125514410434560/GTA5_Enhanced_2026-08-26_05-28-51.png?ex=6aa52fcd&is=6aa3de4d&hm=066999268b6b39f4418ea1f9b07a154050e4cff8d82d70b46320afde1d79c8c8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125514410434560/GTA5_Enhanced_2026-08-26_05-28-51.png?ex=6aa5d88d&is=6aa4870d&hm=a40134d8b0dfdbe85026c9f5b908eb46d170b2faf37e9922ac7985c7c5a95dbe&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125515950006322/GTA5_Enhanced_2026-08-26_05-44-57.png?ex=6aa52fce&is=6aa3de4e&hm=5a49bc953494b74baa9701454d53b922cf749c56878e876e863d8e6a1983afe9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125515950006322/GTA5_Enhanced_2026-08-26_05-44-57.png?ex=6aa5d88e&is=6aa4870e&hm=c77ed6bdcdebabeb89a7be3e143cb66688d9a12efbbf293f1db3610e6fb6da5b&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125516666970132/GTA5_Enhanced_2026-08-26_05-44-09.png?ex=6aa52fce&is=6aa3de4e&hm=677b4e881e57578320862422828cbb4f7f782bb94a335dd6af54fc540bfe39bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125516666970132/GTA5_Enhanced_2026-08-26_05-44-09.png?ex=6aa5d88e&is=6aa4870e&hm=15c817d7b11220290f873f4249d39af216a670f20ec49acc20a1c5b3109d104d&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125517325602856/GTA5_Enhanced_2026-08-26_05-42-12.png?ex=6aa52fce&is=6aa3de4e&hm=50dbeb84919197b02447265ff03602dc79d40e14eabfa85222f6685fc1638c12&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125517325602856/GTA5_Enhanced_2026-08-26_05-42-12.png?ex=6aa5d88e&is=6aa4870e&hm=9d41235ff9866eda3ac56091c56b81812b98d70701499f6c3ec18f381cf1685f&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518126845982/GTA5_Enhanced_2026-08-26_05-39-54.png?ex=6aa52fce&is=6aa3de4e&hm=0474c6dbe98da9243b2cca2078e0d7b7cdcd7b40f7c7f048141da31f93a652e2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518126845982/GTA5_Enhanced_2026-08-26_05-39-54.png?ex=6aa5d88e&is=6aa4870e&hm=77e0d58a7b4bd46b5135f8b88b58ed7243e6f2e2dc22d87031bb0902b642787e&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518885888150/GTA5_Enhanced_2026-08-26_05-38-05.png?ex=6aa52fcf&is=6aa3de4f&hm=69acd5c6d695e3721e74916dd976d110d5e218fd84d3fc243434c24b65106eda&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518885888150/GTA5_Enhanced_2026-08-26_05-38-05.png?ex=6aa5d88f&is=6aa4870f&hm=d98b2fa461193b0d0891b16166f6ce28b951fd759af28f5387546b6ebab7f181&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
