@@ -242,7 +242,7 @@
     "content": "@CoreFX Also, for all CoreFX builds, we implemented CoreFX notifications if something is wrong with CoreFX shaders or something like that. A preview here shows that the notification will disappear once you set proper ingame graphics settings for working shaders\n\nThese notifications can be disabled permanently, but i recommend to keep them.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6aa61b2e&is=6aa4c9ae&hm=914d48eeba2ca3195c6f62830f01f6f879739f12057c8f488f8eff7f49d87ede&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6aa6c3ee&is=6aa5726e&hm=ae15df8a794a4d05715750d6b40c7c55f08bc834f5839692afece34afcdc8952&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -259,7 +259,7 @@
     "content": "@CoreFX All packages done. Enhanced Singleplayer, Legacy Singleplayer, Legacy FiveM. Serverside builds will be released later\n\n(Legacy FiveM on the screenshot)\n\n10-day early access will be announced later today, as well as new CoreFX monetization policy, which will benefit most of the people, because there won't be any Volumetric Clouds separation, every build of CoreFX will come with full package of features.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6aa618a5&is=6aa4c725&hm=1e50671559abbf6d9c81d0070651c66e1a7d6a516b0c79b9de364f6c5560c834&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6aa6c165&is=6aa56fe5&hm=3c5bfa425f396b9a4edc01fa9efa814c67dc13140229ff9039527b61fd689fad&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -276,25 +276,25 @@
     "content": "@CoreFX DLSS 5 Neural Rendering\n\nYesterday, a binary of a DLSS 5 got leaked into the internet, and good fellas from RenoDX community made it compatible with any game that supports DLSS 5 Neural Rendering in any game\n\nResults in GTA 5 Enhanced with CoreFX. If this is not a photorealism, then what this is?\n\nWe will not implement DLSS 5 Neural Rendering in our CoreFX RenoDX addon, and you will need to find a leaked binary yourself. And you need a RTX series card. But it's worth it, trust me.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6aa60696&is=6aa4b516&hm=d55733ba008ef3cf972f6b01cfebc226876b12d1eb633d5aee249688105b4037&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718525335142410/3240220_20260828044808_1.png?ex=6aa6af56&is=6aa55dd6&hm=4d2f9809f6313961ac2ef1617432ebc60afec7090033b155471556b8c32802a6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6aa60696&is=6aa4b516&hm=f13228e69e0744f5da807f8ed95306f5303b22a1df58763d9e25e4292c924db1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718526312284180/3240220_20260828045315_1.png?ex=6aa6af56&is=6aa55dd6&hm=652425f2099b34d6b1e88649ef908604edcc3b57175e4d540f51d838371bf78f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6aa60697&is=6aa4b517&hm=bf0e8deb339d56196dd6f6e2a5da42d0bcf49f792c2634ae3e9cecf9b140e218&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718527310659846/3240220_20260828045721_1.png?ex=6aa6af57&is=6aa55dd7&hm=eb4071d02861bba77507a81ec3f37441fee94a4c05635628c9389987521aa21b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6aa60697&is=6aa4b517&hm=2de98141ed577eb8fd715ff744aed0e42f2f2c703c7b7700f7f5d2a5979c9620&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542718528329879572/3240220_20260828050808_1.png?ex=6aa6af57&is=6aa55dd7&hm=6e358432bd37c86f450ded4631648613eebb655791f7a1439dcd7e09c476a5bf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -632,7 +632,7 @@
     "content": "@CoreFX We are developing our own Timecycle & Visualsettings editor for Legacy & Enhanced (latest GTA 5 Update). Original implementation by @Dreamt.\n\nCurrently supports Weather files, Timecycle mods and visualsettings",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6aa620f5&is=6aa4cf75&hm=ad5b6c466e71ea26b353a043ac56914ddaeeda036da8d901971223b168834902&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529338490540785784/Grand_Theft_Auto_V_2026.07.22_-_07.01.16.03.mp4?ex=6aa6c9b5&is=6aa57835&hm=f8ce140b2e3b433a8786c2aac8b2db3ad2e9258184e5d5855fc8c737b9c3024f&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
