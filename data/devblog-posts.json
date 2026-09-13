@@ -48,7 +48,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6aa72eeb&is=6aa5dd6b&hm=5ee9fa551a98838a3f604cf627515bd5acade5938ea732a61ee1f94ddc8f8283&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6aa7d7ab&is=6aa6862b&hm=7478a6d81f3b6a3a462444dc37c4e9d086bfd77a0ab8af36edb1b6cb950363a3&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -311,37 +311,37 @@
     "content": "@CoreFX HDR support via RenoDX, PsychoV Tonemapper\nPics made in HDR and may be incorrect without HDR display",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125514410434560/GTA5_Enhanced_2026-08-26_05-28-51.png?ex=6aa72a0d&is=6aa5d88d&hm=e8578614efac8dc798fbef456fd9754d15f1f641a1dfa2e9d84db9470b286718&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125514410434560/GTA5_Enhanced_2026-08-26_05-28-51.png?ex=6aa7d2cd&is=6aa6814d&hm=30e3b688d6d1d5f52c8358c4a8451b246ff5017705806a927f0095e4314e2743&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125515950006322/GTA5_Enhanced_2026-08-26_05-44-57.png?ex=6aa72a0e&is=6aa5d88e&hm=6727d129ea2a844ff517c467cef9c31bc3354e0f35d937efa4954cfcf8996b10&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125515950006322/GTA5_Enhanced_2026-08-26_05-44-57.png?ex=6aa7d2ce&is=6aa6814e&hm=18fb960b473734c97f5662baa6a92bb7d955208bff5e70dfb299ee59f01509d3&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125516666970132/GTA5_Enhanced_2026-08-26_05-44-09.png?ex=6aa72a0e&is=6aa5d88e&hm=5702005c0f5f42e261ef756c25438a2ed5bf0854c6982f8b25f6735790c907ab&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125516666970132/GTA5_Enhanced_2026-08-26_05-44-09.png?ex=6aa7d2ce&is=6aa6814e&hm=4007bcccc721c52047a3b15f76e5b087c1767ce4ade127b59c11f6c4796f0697&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125517325602856/GTA5_Enhanced_2026-08-26_05-42-12.png?ex=6aa72a0e&is=6aa5d88e&hm=c38e4398a25fa15018013d2f546a52cb1e746d01aa6e606e2eceb11372fef711&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125517325602856/GTA5_Enhanced_2026-08-26_05-42-12.png?ex=6aa7d2ce&is=6aa6814e&hm=9aa8f838dc02cc47f9e92e70fea950974b4c0011c69e5529bea6e52ae1ac7c85&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518126845982/GTA5_Enhanced_2026-08-26_05-39-54.png?ex=6aa72a0e&is=6aa5d88e&hm=2c1c33df6dbf34be6d9763989a19da01e2ad53e8464426b9359932feb5f1c902&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518126845982/GTA5_Enhanced_2026-08-26_05-39-54.png?ex=6aa7d2ce&is=6aa6814e&hm=5082aa72db1d8fdba3bbf2e5d1ec6c63f3dc9d9f5dfb4913b0d37e95e4ad6883&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518885888150/GTA5_Enhanced_2026-08-26_05-38-05.png?ex=6aa72a0f&is=6aa5d88f&hm=9d21bd274de3929b352c44576b866f85d6509a3ca6b33fc975f45b91ed61702f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1542125518885888150/GTA5_Enhanced_2026-08-26_05-38-05.png?ex=6aa7d2cf&is=6aa6814f&hm=834d085e04380a0b3355806a91ec24643ae2c0cd70989e7abd1801d69297b7c1&",
         "contentType": "image/png",
         "width": 2560,
         "height": 1440
@@ -367,7 +367,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6aa6eb0f&is=6aa5998f&hm=d7571a57f99c9139b843800fcc9e58ac998b7f753957d226ae043609c809540b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6aa793cf&is=6aa6424f&hm=2d0d3987cc4bcc36276dd75bbdc0b0d5391db5cfa0b731e798e766332de27ec2&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -456,7 +456,7 @@
     "content": "back to @CoreFX development. New vehicle raindrops shader, Legacy & Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6aa71231&is=6aa5c0b1&hm=3fa2905362b5dedbf050a4f099393c0dfa9733ced48214457fc2d27832dc2509&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1534852137551397014/Grand_Theft_Auto_V_2026.08.06_-_12.12.48.02.mp4?ex=6aa7baf1&is=6aa66971&hm=39e4bf917ec08d6c19ac708022b9eb5343892bb8737e3bf5f4e5acdfe1d9d59d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -562,13 +562,13 @@
     "content": "@CoreFX Added shadowing to road parallax shader so the details are even more pronounced\n\nShader off/on",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6aa6fe07&is=6aa5ac87&hm=7833b02a5c740465d89ccc6811d7b82f9f904d29292c35998b268d6cbd0ccd07&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300635654656031/271590_20260724224720_1.png?ex=6aa7a6c7&is=6aa65547&hm=edee4f0451c36198f9e6e8ed408f7319f82fddef46ec0acf055b5b6ba0f29d57&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6aa6fe07&is=6aa5ac87&hm=1752dbaef147a403624cfd5b9ffbf00992506e1f1cf1b582258c702a8c74735f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1530300636703232020/271590_20260724224727_1.png?ex=6aa7a6c7&is=6aa65547&hm=2fdda89bd1388d5260127859711fdab6d381c27d707c4594e1c9277e7a9b0472&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -584,7 +584,7 @@
     "content": "@CoreFX TNNAA improvements, on/off comparison at 1080P + no MSAA",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6aa73586&is=6aa5e406&hm=838f8137fa9d7206b1f71368066892d905bf6ef1ce21b2ceae655a2bc3d5d6d9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529997839596392458/Grand_Theft_Auto_V_2026.07.23_-_00.44.29.01.mp4?ex=6aa7de46&is=6aa68cc6&hm=134d4d16b1736fb3d060f9317ea2d8f65591943d12f12d2bcb08378d48abfcba&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -648,7 +648,7 @@
     "content": "@CoreFX FiveM Enhanced Early Access is running in enforced Pure Mode, so it's currently impossible to port CoreFX on that platform until Early Access ends",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa70f86&is=6aa5be06&hm=174f173d0bde3ab23e9fd86446921d612b8ee722114f266244290075017b414a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529232260484825409/D3B4873A-E2EE-4B9B-AA22-FE8490486D3D.png?ex=6aa7b846&is=6aa666c6&hm=dbc8d656649937e1a7f1a5b7361db4a0245fd694a9b2ed03aaed92b1e6c01572&",
         "contentType": "image/webp",
         "width": 551,
         "height": 453
@@ -665,7 +665,7 @@
     "content": "@CoreFX Clouds update\n\nSince CoreFX 1.3 removes all the 2d clouds from the game in prior of Volumetric Clouds, free Legacy users may be left without clouds at all. \nTo fix this, we will implement Volumetric Clouds for free users, but only for Clear weather (on the screenshot).\nFull volumetric clouds access is still for paid testers since we have unresolved issues with rainy & other cloudy weathers at the moment.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa70826&is=6aa5b6a6&hm=6cfe84ed3e71cfb5c7c497ba4d1888d735561a6a71a1b774e1f47552015da0b2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529224338988077177/271590_20260721232810_1.png?ex=6aa7b0e6&is=6aa65f66&hm=541f111e64edd4357dc907a2c2699ab5ee88f304cd662448d53359a5f0949d62&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -682,7 +682,7 @@
     "content": "@CoreFX Vehicle light emissive shader edits\n\nYou will be able to modify these options at runtime:\n- Headlight\n- Taillights\n- Brakelights\n- Indicators\n- Reverselights\n- Extra full beams\n- Defaultlights (old sirens, taxi & bus signs)\n- Sirenlights (new sirens)\n\n- Less invasive, just multiplies current values from visualsettings.dat, so probably will be compatible with ELS and other emissive mods.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa70634&is=6aa5b4b4&hm=dd52aad95be09e5c129a81a6ec254b0cd2fe1d47fcb17885ac51f35a7ec50a6a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1529222250660630578/271590_20260721231934_1.png?ex=6aa7aef4&is=6aa65d74&hm=35d1f17388e4cb1b79f00e4d5c8eb1eb0ef14b6fd8da5a5ba61e0bdee802e591&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
