@@ -55,16 +55,6 @@ const prerequisitesSections = [
             'Before installing and using CoreFX, please ensure your system meets these requirements.',
         requirements: [
             {
-                title: 'Which Builds Are Free',
-                items: [
-                    <><strong>Legacy Singleplayer:</strong> Free.</>,
-                    <><strong>Enhanced Singleplayer:</strong> Free.</>,
-                    <><strong>Legacy FiveM:</strong> Requires the $5 Patreon tier.</>,
-                    <><strong>Legacy FiveM ServerSide:</strong> Access to be announced. There is no 1.3.1 ServerSide build yet — the current package is still 1.2.</>,
-                    <>The <strong>$9 tier</strong> is early access: new updates land there 10 days before public release, and it includes everything the $5 tier does. No visual effect is locked behind any tier.</>
-                ]
-            },
-            {
                 title: 'Legacy Hardware Requirements',
                 items: [
                     'Minimum: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580',
@@ -82,7 +72,7 @@ const prerequisitesSections = [
                 title: 'HDR (Optional, Legacy & Enhanced)',
                 items: [
                     'An HDR-capable display with "Use HDR" enabled in Windows Display settings. CoreFX upgrades the game to an HDR10 (PQ / BT.2020) swapchain.',
-                    <>HDR is switched on in the <strong>CoreFX Addon</strong> menu (<strong>HDR</strong> tab &gt; <strong>HDR Mode</strong>), not in the game. It defaults to <strong>Auto</strong>, which follows the Windows setting for your primary display. <strong>Changing it requires a game restart.</strong></>,
+                    <>HDR is switched on in the <strong>CoreFX Addon</strong> menu (<strong>HDR</strong> tab &gt; <strong>HDR Mode</strong>), not in the game. It is <strong>Off</strong> by default — set it to <strong>On</strong>. <strong>Changing it requires a game restart.</strong></>,
                     <><strong>Enhanced only:</strong> in-game HDR must be <strong>off</strong> and <strong>DLSS enabled</strong>. CoreFX HDR and <strong>DLSS Frame Generation</strong> cannot both run — Frame Generation presents its own frames without passing through the HDR conversion, so the picture stops updating. Turn one of the two off, or install RenoDX&apos;s <a href="https://github.com/clshortfuse/renodx/releases/download/snapshot/renodx-dlssfix.addon64" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">DLSS fix addon</a> beside the game executable.</>
                 ]
             },
@@ -132,7 +122,7 @@ const faqs = [
         question:
             "I don't like blur when moving camera (motion blur). How can I disable it?",
         answer:
-            'For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, disable motion blur in your GTA 5 graphics settings. For FiveM ServerSide, motion blur is disabled by default.'
+            'For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, disable motion blur in your GTA 5 graphics settings.'
     },
     {
         question: 'Can I use other mods with CoreFX?',
@@ -169,7 +159,7 @@ const faqs = [
     {
         question: 'Does CoreFX support HDR?',
         answer:
-            'Yes, on both Legacy and Enhanced. Open the CoreFX Addon menu, go to the HDR tab and set HDR Mode — Auto follows the Windows "Use HDR" setting for your primary display, or you can force it On or Off. It takes effect on the next game launch, because the swapchain has to be upgraded before the game creates its device. Once it is active you get a full HDR tone mapping and colour grading panel. On Enhanced, in-game HDR must be off, DLSS must be on, and DLSS Frame Generation cannot be used at the same time.'
+            'Yes, on both Legacy and Enhanced. Turn on "Use HDR" in Windows for your display, then open the CoreFX Addon menu, go to the HDR tab and set HDR Mode to On (it is Off by default). It takes effect on the next game launch, because the swapchain has to be upgraded before the game creates its device. Once HDR is active, the tone mapping and colour grading settings in the same tab take effect. On Enhanced, in-game HDR must be off, DLSS must be on, and DLSS Frame Generation cannot be used at the same time.'
     },
     {
         question:
@@ -586,8 +576,9 @@ export default function DocsClient() {
                                                     <li>
                                                         <strong>Optional — HDR:</strong> in the{' '}
                                                         <strong>HDR</strong> tab of the menu, set{' '}
-                                                        <strong>HDR Mode</strong> to <strong>Auto</strong> or{' '}
-                                                        <strong>On</strong> and restart the game. Enhanced also
+                                                        <strong>HDR Mode</strong> to <strong>On</strong> (it is{' '}
+                                                        <strong>Off</strong> by default), make sure Windows{' '}
+                                                        &quot;Use HDR&quot; is on, and restart the game. Enhanced also
                                                         needs in-game HDR turned <strong>off</strong> and{' '}
                                                         <strong>DLSS enabled</strong>, and it cannot run alongside{' '}
                                                         <strong>DLSS Frame Generation</strong>. See{' '}
@@ -809,40 +800,26 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     {/* ───────── Legacy FiveM ServerSide ───────── */}
                                     {activeInstallTab === 'fivem-server' && (
                                         <div className="install-block">
-
-                                            <div className="bg-yellow-900/30 border border-yellow-700/50 p-4 rounded-lg mb-4">
-                                                <p className="text-yellow-200 text-sm">
-                                                    <strong>Still on 1.2.</strong> There is no 1.3.1 ServerSide
-                                                    build yet, and access terms for the next one are to be
-                                                    announced. The steps below describe the current 1.2
-                                                    package.
+                                            <div className="flex flex-col items-center justify-center text-center py-16 px-6">
+                                                <span className="text-5xl mb-4">🚧</span>
+                                                <h3 className="text-2xl font-bold mb-2">
+                                                    Work In Progress
+                                                </h3>
+                                                <p className="text-gray-400 max-w-md">
+                                                    CoreFX for Legacy FiveM ServerSide is being completely
+                                                    remade, and it is not available to download in the
+                                                    meantime. Please wait for its announcement on our{' '}
+                                                    <a
+                                                        href="https://discord.gg/jK4SRmBqYt"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="underline hover:text-white"
+                                                    >
+                                                        Discord
+                                                    </a>
+                                                    .
                                                 </p>
                                             </div>
-
-                                            <InstallationStep title="Server Installation" defaultOpen={false}>
-                                                <ol className="list-decimal pl-5 text-gray-300 space-y-2">
-                                                    <li>Extract the downloaded package.</li>
-                                                    <li>
-                                                        Place the <code>[CoreFX]</code> folder into the{' '}
-                                                        <code>resources</code> directory on your FiveM server.
-                                                    </li>
-                                                    <li>
-                                                        Edit your <code>server.cfg</code> file and add{' '}
-                                                        <code>start CoreFX</code>.
-                                                    </li>
-                                                    <li>
-                                                        <strong>Note for Optionals:</strong> Navigate to the <code>CoreFX\\[CoreFX]\\CoreFX</code> folder to configure <code>config.lua</code> for optional features.
-                                                        (Note: <code>Install.bat</code> / <code>Uninstall.bat</code> scripts for optionals are not applicable for server-side installation).
-                                                    </li>
-                                                    <li>
-                                                        <strong>Note for Players:</strong> For the best visual
-                                                        experience, players should set their in-game{' '}
-                                                        <strong>Shader Quality</strong> and{' '}
-                                                        <strong>Post FX</strong> to <strong>Ultra</strong> in
-                                                        the graphics settings. Additionally, set in-game brightness to approximately 40-50 %.
-                                                    </li>
-                                                </ol>
-                                            </InstallationStep>
                                         </div>
                                     )}
 
@@ -921,11 +898,15 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             self-shadowing and ambient occlusion.
                                         </li>
                                         <li>
-                                            <strong>Vehicles &amp; Peds</strong> — vehicle
-                                            raindrops, metallic flakes, orange peel, and per-type
-                                            emissive brightness sliders for headlights, taillights,
-                                            indicators, brake lights, reverse lights, full beam,
-                                            signs and sirens. Also ped and weapon raindrops.
+                                            <strong>Vehicles &amp; Peds</strong> — Vehicle Paint
+                                            RGB Fixes (paint comes out as the colour you picked
+                                            in the RGB picker, instead of the game&apos;s far
+                                            brighter version), vehicle raindrops, metallic flakes,
+                                            orange peel, and Vehicle Emissives: an overall emissive
+                                            brightness slider plus per-type sliders for headlights,
+                                            taillights, indicators, brake lights, reverse lights,
+                                            full beam, signs and sirens. Also ped and weapon
+                                            raindrops.
                                         </li>
                                         <li>
                                             <strong>Lighting</strong> — coronas; streetlight
@@ -943,10 +924,14 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                         </li>
                                         <li>
                                             <strong>Options</strong> — hide the on-screen warnings,
-                                            reload shaders and settings, reset everything, and
-                                            links to the Discord and these docs.
+                                            and reload shaders and settings without restarting.
                                         </li>
                                     </ul>
+                                    <p className="mt-3">
+                                        Above the tabs sit <strong>Reset All</strong> and the links
+                                        to the Discord and these docs, so they are reachable from
+                                        every tab.
+                                    </p>
                                 </InstallationStep>
 
                                 <InstallationStep title="Enhanced — what's in the menu" defaultOpen={false}>
@@ -993,11 +978,10 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     </p>
                                     <ol className="list-decimal pl-5 space-y-2">
                                         <li>
-                                            Set <strong>HDR Mode</strong>. <strong>Auto</strong>{' '}
-                                            follows the Windows &quot;Use HDR&quot; setting for your
-                                            primary display; force <strong>On</strong> or{' '}
-                                            <strong>Off</strong> if the game opens on a different
-                                            monitor.
+                                            Turn on Windows &quot;Use HDR&quot; for the display the
+                                            game runs on, then set <strong>HDR Mode</strong> at the
+                                            top of the HDR tab to <strong>On</strong>. It is{' '}
+                                            <strong>Off</strong> by default.
                                         </li>
                                         <li>
                                             <strong>Restart the game.</strong> The swapchain has to
@@ -1013,7 +997,8 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                         </li>
                                     </ol>
                                     <p className="mt-3 mb-2">
-                                        Once HDR is active, two panels become available:
+                                        Below HDR Mode are two panels, which take effect once HDR is
+                                        active:
                                     </p>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>
@@ -1055,12 +1040,26 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             empty. On FiveM this almost always means the payload was
                                             installed to only one of the two required locations.
                                         </li>
+                                        <li>
+                                            <strong>
+                                                &quot;CoreFX: DLSS Frame Generation conflicts with HDR&quot;
+                                            </strong>{' '}
+                                            (Enhanced only) — CoreFX HDR and DLSS Frame Generation
+                                            are both on, so the picture stops updating. Install
+                                            RenoDX&apos;s{' '}
+                                            <a href="https://github.com/clshortfuse/renodx/releases/download/snapshot/renodx-dlssfix.addon64" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">DLSS fix addon</a>{' '}
+                                            beside the game executable, or turn one of the two off:
+                                            Frame Generation in the game&apos;s graphics settings, or
+                                            HDR Mode in the CoreFX Addon (then restart).
+                                        </li>
                                     </ul>
                                     <p className="mt-3">
-                                        Both can be silenced permanently with{' '}
-                                        <strong>Hide on-screen warnings</strong> under{' '}
-                                        <strong>Options</strong> — though it is worth fixing the
-                                        cause first.
+                                        <strong>Hide on-screen warnings</strong> in the{' '}
+                                        <strong>Options</strong> tab silences the postfx composite
+                                        and Frame Generation warnings permanently — though it is
+                                        worth fixing the cause first. The settings.json warning
+                                        cannot be hidden, because that toggle is itself stored in
+                                        the file that failed to load.
                                     </p>
                                 </InstallationStep>
                             </div>

@@ -41,7 +41,7 @@ const PARTS: Segment[][] = [
         { text: 'Legacy', className: EM },
         { text: ' for the original game, ' },
         { text: 'Enhanced', className: EM },
-        { text: ' for the ray-traced one. Legacy also runs on FiveM, client and server-side; Enhanced FiveM is in the works.' },
+        { text: ' for the ray-traced one. Legacy also runs on FiveM; a server-side build and Enhanced FiveM are in the works.' },
     ],
     [
         { text: 'Both singleplayer builds ' },
