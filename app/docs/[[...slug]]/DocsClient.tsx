@@ -57,14 +57,14 @@ const prerequisitesSections = [
             {
                 title: 'Legacy Hardware Requirements',
                 items: [
-                    'Minimum: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580',
-                    'Recommended: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT'
+                    'Minimum: NVIDIA GeForce RTX 2060 Super or AMD Radeon RX 5700',
+                    'Recommended: NVIDIA GeForce RTX 3070 or AMD Radeon RX 6700 XT'
                 ]
             },
             {
                 title: 'Enhanced Hardware Requirements',
                 items: [
-                    'Ray Tracing Minimum: NVIDIA GeForce RTX 3050 or AMD Radeon RX 6600',
+                    'Ray Tracing Minimum: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT',
                     'Ray Tracing Recommended: NVIDIA GeForce RTX 4060 Ti or AMD Radeon RX 7700 XT'
                 ]
             },
