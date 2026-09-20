@@ -13,7 +13,10 @@ export default function LicensePage() {
   return (
     <PackageDocument
       doc={loadPackageDoc('LICENSE.md')}
-      related={{ href: '/third-party-notices', label: 'the third-party notices' }}
+      related={[
+        { href: '/third-party-notices', label: 'the third-party notices' },
+        { href: '/partners', label: 'the authorised partners' },
+      ]}
     />
   );
 }

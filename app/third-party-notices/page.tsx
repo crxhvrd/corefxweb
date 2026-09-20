@@ -13,7 +13,10 @@ export default function ThirdPartyNoticesPage() {
   return (
     <PackageDocument
       doc={loadPackageDoc('THIRD-PARTY-NOTICES.md')}
-      related={{ href: '/license', label: 'the CoreFX licence' }}
+      related={[
+        { href: '/license', label: 'the CoreFX licence' },
+        { href: '/partners', label: 'the authorised partners' },
+      ]}
     />
   );
 }

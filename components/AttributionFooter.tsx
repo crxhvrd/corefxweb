@@ -19,14 +19,18 @@ export default function AttributionFooter() {
               crxhvrd@proton.me
             </a>
           </p>
+          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
           <p>
-            Copyright © CRXHVRD 2026. All rights reserved. ·{' '}
             <Link href="/license" className="text-orange-500 hover:opacity-100">
               Licence
             </Link>{' '}
             ·{' '}
             <Link href="/third-party-notices" className="text-orange-500 hover:opacity-100">
               Third-party notices
+            </Link>{' '}
+            ·{' '}
+            <Link href="/partners" className="text-orange-500 hover:opacity-100">
+              Partners
             </Link>
           </p>
           <p>
@@ -56,10 +60,18 @@ export default function AttributionFooter() {
               crxhvrd@proton.me
             </a>
           </p>
+          <p>Copyright © CRXHVRD 2026. All rights reserved.</p>
           <p>
-            Copyright © CRXHVRD 2026. All rights reserved. ·{' '}
             <Link href="/license" className="text-orange-500">
               Licence
+            </Link>{' '}
+            ·{' '}
+            <Link href="/third-party-notices" className="text-orange-500">
+              Third-party notices
+            </Link>{' '}
+            ·{' '}
+            <Link href="/partners" className="text-orange-500">
+              Partners
             </Link>
           </p>
         </div>

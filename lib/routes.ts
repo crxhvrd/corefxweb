@@ -7,6 +7,7 @@ const DOCUMENT_ROUTES = [
   '/license',
   '/licence',
   '/third-party-notices',
+  '/partners',
 ];
 
 export function isDocumentRoute(pathname: string | null | undefined): boolean {

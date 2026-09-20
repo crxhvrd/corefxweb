@@ -146,7 +146,7 @@ export default function PackageDocument({
   related,
 }: {
   doc: PackageDoc;
-  related?: { href: string; label: string };
+  related?: { href: string; label: string }[];
 }) {
   return (
     <main className="relative mx-auto min-h-screen max-w-5xl px-4 pb-24 pt-12 sm:px-6 sm:pb-32 sm:pt-24">
@@ -175,13 +175,18 @@ export default function PackageDocument({
             Open the original file
           </a>
           .
-          {related && (
+          {related && related.length > 0 && (
             <>
               {' '}
               See also{' '}
-              <Link href={related.href} className={linkClass}>
-                {related.label}
-              </Link>
+              {related.map((item, i) => (
+                <span key={item.href}>
+                  {i > 0 && (i === related.length - 1 ? ' and ' : ', ')}
+                  <Link href={item.href} className={linkClass}>
+                    {item.label}
+                  </Link>
+                </span>
+              ))}
               .
             </>
           )}
