@@ -32,7 +32,7 @@
     "content": "",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550354379666620467/Grand_Theft_Auto_V_2026.09.18_-_06.53.11.07.mp4?ex=6ab0aa88&is=6aaf5908&hm=0a69a3da526060ae8808756af26562329891eba1ad06320765eccca73300c244&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550354379666620467/Grand_Theft_Auto_V_2026.09.18_-_06.53.11.07.mp4?ex=6ab15348&is=6ab001c8&hm=400b944344c4b8fa87b13fe522c556572e36e63e3a8416cd890a426ae5b6a36d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -48,7 +48,7 @@
     "content": "@CoreFX",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550354200611786812/711D6356-D30C-42DD-8130-BDF5D179D1B4.png?ex=6ab0aa5d&is=6aaf58dd&hm=9735f7d3b38d1b42dac467adbcf0c310400a6bf39d44b41081e9bbc896c66c1d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550354200611786812/711D6356-D30C-42DD-8130-BDF5D179D1B4.png?ex=6ab1531d&is=6ab0019d&hm=1a705abf4c6e79c16a9304486ff6103f78358851b2017796bcfd8c9cf433c871&",
         "contentType": "image/webp",
         "width": 689,
         "height": 417
@@ -203,13 +203,13 @@
     "content": "@CoreFX heavily expanded volumetric clouds draw distance with no performance hit and their fade is much more smoother now\n\nfrom 8km to roughly 35km",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6ab0c09f&is=6aaf6f1f&hm=464e76df5856b0abd768895f4188326b8f62eaa3d2ee6460016fb97f12d80a7f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6ab1695f&is=6ab017df&hm=c3aedc1ccec580b9a498e7b72a65621b386690793aa739cc7e25292dad9783af&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6ab0c0a0&is=6aaf6f20&hm=513eb41ff85aeb3a5d2fd53d31fbe22de666f4a15b4954838e975150ec851ba1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6ab16960&is=6ab017e0&hm=3989afe24a1f65a99281e4071666c6da8bbe8c3c524f86fb48f4797bf6f8be48&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -420,7 +420,7 @@
     "content": "@everyone\n# **CoreFX 1.3.1 — Release Dates & New Monetization Policy**\n\n**Release schedule**\n• **September 4** — 1.3.1 Early Access opens for $9 tier testers\n• **September 14** — Public release for everyone\n\n# **The new policy** (see image below)\n\nSingleplayer users lose nothing and gain something: Volumetric Clouds are no longer paywalled on Legacy SP, and Enhanced SP is untouched. The paid side moves to FiveM, where CoreFX ends up running in a server context. And the $9 tier stops being a feature paywall entirely — it's early access to updates now, not a gate on content.\n\n# **Why I'm doing this**\n\nI'd rather explain than quietly change the numbers.\n\nI'm trying to leave Ukraine, or at minimum move away from the capital region to somewhere quieter. A [military warehouse explosion near me](https://discord.com/channels/963349840681639946/963349840681639950/1542971191566929991) recently killed almost 40 people. I don't feel safe where I live anymore, and relocating takes money I don't currently have.\n\nThis was the most honest way I could find to fund that: shift the paid part to FiveM, and make singleplayer more complete than it was before rather than less. I didn't want to solve my problem by taking something away from the people who have been using this mod for free.\n\nCoreFX remains what it has always been — a personal project, not a service. No roadmap, no requests, no promises about what gets worked on next. That doesn't change. Development continues either way.\n\nThank you to everyone who has supported this. It matters more than usual right now.\n\n— CoreFX",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6ab0bc4f&is=6aaf6acf&hm=726421d20f8827cee4ce6f4a3a0d559a0f36c2c290bf15882daf983af3680545&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544756455440130188/-2.png?ex=6ab1650f&is=6ab0138f&hm=94041b5b888fc3c6214c37ac294c65df1936eb641be84223a573c843cfe9dac6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -437,7 +437,7 @@
     "content": "@CoreFX Also, for all CoreFX builds, we implemented CoreFX notifications if something is wrong with CoreFX shaders or something like that. A preview here shows that the notification will disappear once you set proper ingame graphics settings for working shaders\n\nThese notifications can be disabled permanently, but i recommend to keep them.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6ab0a72e&is=6aaf55ae&hm=ea4dcb6f796545b0a6d66d4d786c920b6569d5e2dce7ff7caf9bd1aaf2a3a0b8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544733770861514822/Desktop_2026.09.02_-_18.37.23.02.mp4?ex=6ab14fee&is=6aaffe6e&hm=b48d02b4c87ab086bf70fc83b46bd359359fdf3640bd18e9362e57b5a8d29d3b&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -454,7 +454,7 @@
     "content": "@CoreFX All packages done. Enhanced Singleplayer, Legacy Singleplayer, Legacy FiveM. Serverside builds will be released later\n\n(Legacy FiveM on the screenshot)\n\n10-day early access will be announced later today, as well as new CoreFX monetization policy, which will benefit most of the people, because there won't be any Volumetric Clouds separation, every build of CoreFX will come with full package of features.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6ab0a4a5&is=6aaf5325&hm=35514557c355385819c9ed21cffc0d1ae17928462ad2fa74da2609d5a7c9115b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1544731048624263208/2676230_20260902182554_1.png?ex=6ab14d65&is=6aaffbe5&hm=0f5f282a2c89e03da11447afe4546859083aad96d658e1d7f520e980d66d5943&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
