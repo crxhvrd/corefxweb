@@ -90,6 +90,16 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
           </div>
 
           <div className="flex flex-col items-center gap-3 text-xs text-white/60">
+            <p>
+              Every archive ships with the CoreFX{' '}
+              <a
+                href="/license"
+                className="text-white/85 underline decoration-dotted decoration-white/40 hover:text-white"
+              >
+                end user licence
+              </a>
+              . Installing CoreFX means accepting it.
+            </p>
             <p>Ready to continue? Click below to open Patreon and unlock the files.</p>
             <a
               href="https://www.patreon.com/c/crxhvrd"

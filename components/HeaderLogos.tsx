@@ -2,12 +2,13 @@
 
 import { usePathname } from 'next/navigation';
 import Logo from '@/components/Logo';
+import { isDocumentRoute } from '@/lib/routes';
 
 export default function HeaderLogos() {
     const pathname = usePathname();
 
-    // Hide logos on docs and devblog pages
-    if (pathname?.startsWith('/docs') || pathname?.startsWith('/devblog')) return null;
+    // Hide logos on the long-form document pages
+    if (isDocumentRoute(pathname)) return null;
 
     return (
         <div className="fixed top-0 left-0 w-full z-50">

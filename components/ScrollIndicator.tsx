@@ -4,13 +4,14 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { isDocumentRoute } from '@/lib/routes';
 
 export default function ScrollIndicator() {
     const [isVisible, setIsVisible] = useState(true);
     const pathname = usePathname();
 
-    // Hide on docs and devblog pages
-    const isHiddenRoute = pathname?.startsWith('/docs') || pathname?.startsWith('/devblog');
+    // Hide on the long-form document pages
+    const isHiddenRoute = isDocumentRoute(pathname);
 
     useEffect(() => {
         const handleScroll = () => {

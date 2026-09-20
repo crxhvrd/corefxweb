@@ -105,7 +105,7 @@ const prerequisitesSections = [
             {
                 title: 'Licence',
                 items: [
-                    <>Every CoreFX archive ships with <code>LICENSE.md</code> (the CoreFX end user licence, version 2.1) and <code>THIRD-PARTY-NOTICES.md</code>. Installing or using CoreFX means accepting those terms — worth a read before you start.</>,
+                    <>Every CoreFX archive ships with <code>LICENSE.md</code> (the CoreFX end user licence, version 2.1) and <code>THIRD-PARTY-NOTICES.md</code>. Installing or using CoreFX means accepting those terms — worth a read before you start. Both are on this site: the <a href="/license" className="underline hover:text-white">licence</a> and the <a href="/third-party-notices" className="underline hover:text-white">third-party notices</a>.</>,
                     <>CoreFX is distributed only through the CoreFX Patreon page and links published at <a href="https://corefx.me" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">corefx.me</a>. Copies from anywhere else are not licensed to you.</>
                 ]
             }
