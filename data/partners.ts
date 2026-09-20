@@ -24,6 +24,6 @@ export const partners: Partner[] = [
     name: 'Network Graphics',
     href: 'https://ntw.graphics/',
     site: 'ntw.graphics',
-    what: 'A mod manager for Grand Theft Auto V in the same mould as ModsHub, built mainly for a Russian-speaking audience, with its own library of graphics reduxes for roleplay servers including RAGE MP.',
+    what: 'A mod manager for Grand Theft Auto V in the same mould as ModsHub, built mainly for a Russian-speaking audience, with its own library of graphics overhauls for roleplay servers.',
   },
 ];
