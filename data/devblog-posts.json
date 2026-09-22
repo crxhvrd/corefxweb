@@ -1,5 +1,21 @@
 [
   {
+    "id": "1552026195636256918",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-09-22T18:38:00.292000+00:00",
+    "content": "@CoreFX DLSS Quality (Upscale from 720P back to 1080P)",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552026193165946921/Grand_Theft_Auto_V_2026.09.22_-_21.34.25.03.mp4?ex=6ab41c87&is=6ab2cb07&hm=a6d62de5e7565f9b58c82026590a7cfa07e0d9882c7936aef29ec5985156ce9e&",
+        "contentType": "video/mp4",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1551931979140702290",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -80,7 +96,7 @@
     "content": "@CoreFX Temporal Anti Aliasing is in CoreFX Legacy now. Takes almost zero fps, better than MSAA 8X:e_roflan:",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550215741373026434/Grand_Theft_Auto_V_2026.09.17_-_21.40.29.05.mp4?ex=6ab3752a&is=6ab223aa&hm=51b397670646356a1f7d281a74e449df72033edda589b168d5df28571f55303c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550215741373026434/Grand_Theft_Auto_V_2026.09.17_-_21.40.29.05.mp4?ex=6ab41dea&is=6ab2cc6a&hm=e4ac5e350625932fe0108245a7d07c688f798a5e1d652cc2de6ffc02accc6ed7&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -97,7 +113,7 @@
     "content": "@CoreFX Motion Vectors for GTA V Legacy. First step to achieve Temporal Anti Aliasing and DLSS Upscaling in GTA V Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550209432485498890/Grand_Theft_Auto_V_2026.09.17_-_21.15.34.02.mp4?ex=6ab36f4a&is=6ab21dca&hm=0d33397a3a6b87e68a52363eafad2f20fa26a6f9d5f2def203caa6f3292445a1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550209432485498890/Grand_Theft_Auto_V_2026.09.17_-_21.15.34.02.mp4?ex=6ab4180a&is=6ab2c68a&hm=dd1ec7186bc1675e89dc92aa8ffb786a9488d5ca9e3a4dd5f8462be1e02fa904&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -132,61 +148,61 @@
     "content": "@everyone \n\nCoreFX 1.3.1 (Public Release)\n\nThanks everyone for participation in Early Access program, your feedback helped us to fix some several issues before the public release\n\n- Volumetric Clouds now have their own shadows, reflections and they render behind smoke, glass. Also we increased draw distance and improved optimization\n- Fixed issues with vehicle paint in both Legacy and Enhanced, added a new slider to enable/disable Vehpaint RGB Fix\n- Fixed issues with postfx composite shaders not working in some scenarios, we edited a lot more of them to provide better stability\n- And other minor fixes\n\nPatreon post will come in minutes with all the available download links",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139792007139529/3240220_20260914221722_1.png?ex=6ab37f9c&is=6ab22e1c&hm=db7af926c189a7ba4eb94527097c2cac897180a766e1f57cea42800bb59aa3d1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139792007139529/3240220_20260914221722_1.png?ex=6ab4285c&is=6ab2d6dc&hm=f0f21cb138b05e4b6819da4228e61c238dac07b2b41efcf2ccb2fa2479accd7b&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139792917434379/3240220_20260914213339_1.png?ex=6ab37f9c&is=6ab22e1c&hm=5819074345e85674369950529763384417344eadb0ebcdf7183443b61bb1cd12&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139792917434379/3240220_20260914213339_1.png?ex=6ab4285c&is=6ab2d6dc&hm=b193c4cfc2e260b3454a73cacdb24dd0499d1b5500f9c679af805dccdfa6b4e9&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139794016206898/3240220_20260914213544_1.png?ex=6ab37f9c&is=6ab22e1c&hm=89356253c8e34bf233a9f1d7baf7be81839e12dc9cd99b95fe088ff69acf4dfa&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139794016206898/3240220_20260914213544_1.png?ex=6ab4285c&is=6ab2d6dc&hm=a1d2474ab2f845600285669209e8d6fc89f508ad88f3bfbce72b98f8ad92b164&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139794657939687/3240220_20260914215335_1.png?ex=6ab37f9c&is=6ab22e1c&hm=32f78709028c8a3cf1b9b9c21852623e73348c1d5ee1ebaf04c157d43036cc3b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139794657939687/3240220_20260914215335_1.png?ex=6ab4285c&is=6ab2d6dc&hm=2935181cdbbabf2ecb1b818707b3b25c5f2d5c9b489638d780764dc755a6e47d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139795438075964/3240220_20260914220736_1.png?ex=6ab37f9c&is=6ab22e1c&hm=352391b2de29ef353344e3cdb29b762bc2f560720d9539be382e52aa925c97cd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139795438075964/3240220_20260914220736_1.png?ex=6ab4285c&is=6ab2d6dc&hm=9f93b9c7fbd8778dd659f3ffedb77f444eef5238d442d47a84e6a771f72f2bbf&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139796281008158/3240220_20260914203240_1.png?ex=6ab37f9d&is=6ab22e1d&hm=8f846d89d86c19b0c13267c48fd02f7d77e4acd0c5f780e45515f6764147895c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139796281008158/3240220_20260914203240_1.png?ex=6ab4285d&is=6ab2d6dd&hm=02bde8b2b8ca3f97d73e752ed58f2d31755f3682673e08f33841f23c3054ac7f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139797392760882/3240220_20260914184724_1.png?ex=6ab37f9d&is=6ab22e1d&hm=651c47e1040da0e4168fb046525f188e1bae42c879ce33270c0c1908f63faac4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139797392760882/3240220_20260914184724_1.png?ex=6ab4285d&is=6ab2d6dd&hm=7b2e998a362fa8112fff0a88afcce29c4f076781ebfd7c1dc2164952ef8b2957&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139798357442690/3240220_20260914213013_1.png?ex=6ab37f9d&is=6ab22e1d&hm=d33059fdcfc28a598def9a7fd4c9fc4fe6a3a5c0117975839607ac391a7f7a2c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139798357442690/3240220_20260914213013_1.png?ex=6ab4285d&is=6ab2d6dd&hm=a82ff59f2491b10535cb0039bc1e9257e3eb23f0e3e35f55fe0852f4c7195618&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139799175073972/3240220_20260914215624_1.png?ex=6ab37f9d&is=6ab22e1d&hm=6cbc30570d0d771d4f0edf8c77ffaa89a59b4f54d0bf73a375d01452133bae57&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139799175073972/3240220_20260914215624_1.png?ex=6ab4285d&is=6ab2d6dd&hm=05be4cfa5a2b926f8c1b9c579c553ff486f6cc4e34d2db4044a85e0b893b6f85&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139800018260099/3240220_20260914220402_1.png?ex=6ab37f9d&is=6ab22e1d&hm=a21b3126db26ea13cc70f2fdb07fed754d3ca47ac3b97a4b520aa1b5a8feda05&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1549139800018260099/3240220_20260914220402_1.png?ex=6ab4285d&is=6ab2d6dd&hm=3bcc9f6582d0e0b2170cbdf58a4e414aece51a89c3f857cc43f5d0ea8c7bd975&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -202,7 +218,7 @@
     "content": "@CoreFX RageCoop ported to Enhanced, and supports cross-platform play between Legacy and Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ab3832c&is=6ab231ac&hm=c0e8847c0f70744d1767319afead577730a006d474b28ec450b0cae6a5be39d9&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ab42bec&is=6ab2da6c&hm=5547bb612280675b12863e808fb863955246ef61f57c5d9df5cfe29ed0e8f212&",
         "contentType": "image/png",
         "width": 1906,
         "height": 1028
@@ -219,13 +235,13 @@
     "content": "@CoreFX heavily expanded volumetric clouds draw distance with no performance hit and their fade is much more smoother now\n\nfrom 8km to roughly 35km",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6ab3639f&is=6ab2121f&hm=25cc25d67d6af96b26d05664c996875a622525d9b030e389bb2c2e522ef5002f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935415871643690/7D88810A-B60B-4757-BFC1-1B4793225F77.png?ex=6ab40c5f&is=6ab2badf&hm=fdea099a6b8654bb38af3de32b0a686fbf2901c0c198ce0491f9ea6617fe67a6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6ab363a0&is=6ab21220&hm=0f208d5c05e7f8b5de6f107180d2b105069c4f173ed3e32b20a01e9ab691a03e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546935416765288478/0683149E-75EB-4539-8345-EA9309CC7BA4.png?ex=6ab40c60&is=6ab2bae0&hm=b519a9eb51f6181b1fd017acb5cda33dfc4deb7b23199f2d472c45c7839e4c45&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -578,7 +594,7 @@
     "content": "@CoreFX Also ported all streetlights features to Enhanced: Recolor, Shadow & Cone Smoothening",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6ab3714f&is=6ab21fcf&hm=de5e331d5056cde3f6a93a4d1f2d3472515fb7ffbd349bb6951f0d3a2e66fb91&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541876683014021120/3240220_20260825212646_1.png?ex=6ab41a0f&is=6ab2c88f&hm=13bb0f62d6a87c056377e9ae5556c62650643951995f1b22d05138c9ecc3200f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -595,37 +611,37 @@
     "content": "@CoreFX Big change for CoreFX Enhanced - Definitive Ray Tracing Mode by @Valkill \n\nThis pack of modified shaders changes how Ray Tracing behaves and how it's denoised, and how it works with GTA 5 Lighting system and makes RT look more mature, close to Cyberpunk Path Tracing in some cases\n\nBefore (old Ray Tracing)/after (Definitive Ray Tracing)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6ab36c74&is=6ab21af4&hm=055719a7a3c76696a7dc9bb8b4328e8ab5aff44fab571f032c7a791623e16406&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468231528558/3240220_20260825203658_1.png?ex=6ab41534&is=6ab2c3b4&hm=5655a218656d3f0f0ce8d075139bee9de9d83f67daad1914a542968a1cd15966&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6ab36c74&is=6ab21af4&hm=5ab88c38733afe6f2fc2c55eaef58478a13c961c941954b23cf5491949b9eade&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871468986507315/3240220_20260825203638_1.png?ex=6ab41534&is=6ab2c3b4&hm=023e65773fa87b7c5fdd957e3029e06b2882d336b132176560543cad078b9f8a&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6ab36c75&is=6ab21af5&hm=1baf905e6007219641a8b68be168188f554f6a69396fc048266f27b0c6ec0ea8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871470161174528/3240220_20260825202644_1.png?ex=6ab41535&is=6ab2c3b5&hm=72cbc39d9b28e31778fd83b2c335f9e6669370c6d93d6fd078784040e0e278fb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6ab36c75&is=6ab21af5&hm=ed3ec43433a6d20459b406b813d4abc265b06ba5c040a91eabccf21c2c97d6f0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871471511601282/3240220_20260825202611_1.png?ex=6ab41535&is=6ab2c3b5&hm=63f7cbfae9c87b87a2677061cbc504215aee1a44ab92f1ddcc7f189a5b08da65&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6ab36c75&is=6ab21af5&hm=77bf85cd34c04a5e124016abcdaa1161d6b315c176343e6d7da6bc68a8e802b5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871472426090636/3240220_20260825210419_1.png?ex=6ab41535&is=6ab2c3b5&hm=22f8c19a6c4d5aea52eaba32463c4f1952fed404615fd34026d8ad193cb36617&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6ab36c75&is=6ab21af5&hm=8324b7c4535210745ea9bba2325fa57aee5905ae9c0f16da2447ac0e2e958b23&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1541871473205977148/3240220_20260825210358_1.png?ex=6ab41535&is=6ab2c3b5&hm=4ccfc1689e6a9815ab8fb53e1060cf2196156059251bddc7c9b74c96d002fb4c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -714,21 +730,5 @@
         "color": 2144846
       }
     ]
-  },
-  {
-    "id": "1531000284136865953",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-07-26T18:08:32.348000+00:00",
-    "content": "",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1531000283436548307/Grand_Theft_Auto_V_2026.07.26_-_21.08.12.03.mp4?ex=6ab36ce0&is=6ab21b60&hm=683bbe758ceade9dd1504c1089c3776984726710b9c4bf451f834f2575b4955a&",
-        "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
   }
 ]
