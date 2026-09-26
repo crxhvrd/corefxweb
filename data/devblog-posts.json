@@ -256,7 +256,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ab9034f&is=6ab7b1cf&hm=f34dbc7651be34b5b64176299ab8345754fe1a0ddd42e714de8f6f07f6b23303&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ab9ac0f&is=6ab85a8f&hm=622a91f6c6c9d2e1b00a816da22428a607d5a5ef45326f1007c082f198ca6b16&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -492,7 +492,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ab8fb2b&is=6ab7a9ab&hm=e42787dfd8ba826933ef11d6c89676f69c9bac2074896265e71496d10f8dcaf3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ab9a3eb&is=6ab8526b&hm=f112e61b713ae158e618175b0139474013942ffd549f370d2ab42f80021c1693&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
