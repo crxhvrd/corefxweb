@@ -163,7 +163,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6abccef8&is=6abb7d78&hm=0459859a5852cc92c126e17cd2a0978539bbe46d70d93ae3d2a984e046ec48f4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6abd77b8&is=6abc2638&hm=d0d887aecee083afc251fed5edfde242f284cf0c00820391f5e68ac25b953e9a&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -316,7 +316,7 @@
     "content": "@CoreFX Introducing RTDI - Ray Traced Direct Illumination for GTA 5 Enhanced. Now, every streetlight and vehicle light in the game is ray traced and can cast ray traced shadows. Still work in progress, but it's a hard requirement for WIP Path Tracer that we work on.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6abcc78d&is=6abb760d&hm=83b8340549aae6b6b6ceea31432aac83babb600453ce526239a1cfe8edff90c8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6abd704d&is=6abc1ecd&hm=c712d0ed08994e64812d00fc2852cd0ad6213af8607ade725d34ba7bb0ecfa7d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -648,7 +648,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6abcefab&is=6abb9e2b&hm=07983d128b09f61a94a42d31952cba23b2ea6d42494ff7ee3cdf0952c27de28a&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6abd986b&is=6abc46eb&hm=b6162839992d4c89f59002a92d0cb929e3c494cb83d29941c8cfc28d747e18c6&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
