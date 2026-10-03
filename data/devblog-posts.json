@@ -163,7 +163,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac214f8&is=6ac0c378&hm=6d96d7d40b1fef685a3a9942e59cfa48531818b11979ceee977bc3157b3f796d&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac2bdb8&is=6ac16c38&hm=8a8bb42a86e00715f8c370e73e8c461501d1d28eb16533616ae1b29f18619040&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -269,37 +269,37 @@
     "content": "@CoreFX This will be the night time of CoreFX Enhanced 1.4: Every light source is ray traced, new streetlight reflections, spiced with Ray Reconstruction and other new features",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ac203cc&is=6ac0b24c&hm=3818efc3be1ee0f602e7a89611c32ff8e4b59f6c51acc5492f4ea8c975ab1682&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ac2ac8c&is=6ac15b0c&hm=698a63eb1c8088bf5e4ad4749cb60878f10e72b8239fc36981ff421bdac2a5d3&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ac203cd&is=6ac0b24d&hm=f670cdd6119f679c1b3670177ba8f3d16f6ab78927b2db7d40a98efee1ee9089&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ac2ac8d&is=6ac15b0d&hm=8d4b4eae8c4c475c69302c37317bfcf1620a2ed6c22050c616dfeaa9e22b4ba0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ac203cd&is=6ac0b24d&hm=c958a2b1e15fb8cef55cd32aebea86411b388c7988f670fc55b42bcc13eb6583&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ac2ac8d&is=6ac15b0d&hm=c14ac372f7e4a114abfc7afb2045b1a81c440fe20eaa545a23585437d4691821&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ac203cd&is=6ac0b24d&hm=726a67d659b3a49e4202fda132a264f3583aaa6c6bc9f6274a7b80731779139f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ac2ac8d&is=6ac15b0d&hm=004285e91a0709d0b4be45dddca8c1b210c492a92f311f08dc6b77e6f68fb4f6&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ac203cd&is=6ac0b24d&hm=3b7da87e0aa4bd422ec6d899b7c7c1fef5ba5bba20abfe8f0aee33f8375fc184&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ac2ac8d&is=6ac15b0d&hm=a800bfb920ed935a2c197b86bf97cbc2e2d011e74757731c95e78c04ca97ce93&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ac203ce&is=6ac0b24e&hm=3e821af094f9c5eda065e24e144bf1e13c858012a316cbb1de5b5af523dda574&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ac2ac8e&is=6ac15b0e&hm=16037865c490b3e2701ba9f728e0dbdef45c0375e0cd081781fa596634e58071&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -316,7 +316,7 @@
     "content": "@CoreFX Introducing RTDI - Ray Traced Direct Illumination for GTA 5 Enhanced. Now, every streetlight and vehicle light in the game is ray traced and can cast ray traced shadows. Still work in progress, but it's a hard requirement for WIP Path Tracer that we work on.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac20d8d&is=6ac0bc0d&hm=30fbe9ffd4da316c6261f031dfaafac71a32a1c1e87b293af2653c24f3ba2c1c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac2b64d&is=6ac164cd&hm=e715468b675d49ce8ffde7fae9a534ccb2dc1c80fcbe45c18a5183f95d84dd44&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -591,7 +591,7 @@
     "content": "@CoreFX RageCoop ported to Enhanced, and supports cross-platform play between Legacy and Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ac203ac&is=6ac0b22c&hm=00b3cf1f8b11799dfd44c1bceccad7d4b0d883793ef76b23fc2b2d4740d2a49b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ac2ac6c&is=6ac15aec&hm=ad39578cebbf49b8ea025ebb3478594086d14359ee75696da1a78cad6b04bf8b&",
         "contentType": "image/png",
         "width": 1906,
         "height": 1028
