@@ -163,7 +163,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac36678&is=6ac214f8&hm=6cb01b7a41299251c54639a429f23c964ad56ae30f989180b2d15ba86bebf94b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac40f38&is=6ac2bdb8&hm=4871c3d497a49cc98a1b8cbbd783c1514c80c65209a63ed5baf3cf3070d098b8&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -648,7 +648,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac3872b&is=6ac235ab&hm=4cc18fc5e3da5f670be1c7ba083a34e1551829538d5f2056c9fd4c5ef876f7eb&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac42feb&is=6ac2de6b&hm=1187206f370ec48f097c44d48db3f187635833c76b8baf1b43f1655940d5b671&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
