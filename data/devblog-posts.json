@@ -127,49 +127,49 @@
     "content": "@CoreFX Ported new light speculars from Enhanced into Legacy, so night will feel much different now\n\nbefore/after",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565123325460490/image.png?ex=6ac6e4c5&is=6ac59345&hm=ac280d9113b3d0aaf722739f2989041f8af2b044e7ae9ad25482b0eb3a18c332&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565123325460490/image.png?ex=6ac78d85&is=6ac63c05&hm=63286c021859ff93ce0922f4633154618a4c784eba7d5764b3ee173d9d883199&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565123917119488/image.png?ex=6ac6e4c5&is=6ac59345&hm=77f9cf17175928568caadfac69f3c7393f284dc036095e6aacf309b5cc36b1bc&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565123917119488/image.png?ex=6ac78d85&is=6ac63c05&hm=a5e1362809312e34b015f1d7e17f6c6cafda28cf9e3bd27491abc93d94d99465&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565124525301820/image.png?ex=6ac6e4c5&is=6ac59345&hm=0f0f0fccfb7d269a89ec11d0ea1736e5b6ba36208af7ba7d7ad283c43a91b405&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565124525301820/image.png?ex=6ac78d85&is=6ac63c05&hm=39458130d240afe408b525e49e2de5ac1cbc151a816a55d06c46048581df31e6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565125120884806/image.png?ex=6ac6e4c5&is=6ac59345&hm=9752138eeb99b86c94aabc03bf7c78e098ee1cf9343b935f2f4a44fb24905ee1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565125120884806/image.png?ex=6ac78d85&is=6ac63c05&hm=8ef4f23e415156b9e723b7ccfce6ed50580c3ad358452b80e8375f5721b355f6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565125791981648/image.png?ex=6ac6e4c5&is=6ac59345&hm=4b1c537d01c404e40ec3b07d974db6c01349768c3889f3ccf33ac192acf7dda5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565125791981648/image.png?ex=6ac78d85&is=6ac63c05&hm=3b5b95014a67a731d5cc3971bffe0469ccab0f2de880b4c2905e0840fbabae01&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565126609739846/image.png?ex=6ac6e4c6&is=6ac59346&hm=27e447d76d9d1de34fb3c20a429f3de2f993ff5b0037a95705e49072f4642e66&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565126609739846/image.png?ex=6ac78d86&is=6ac63c06&hm=bb39e8c5a731f12640cee3059e55387d54717be19a7648621e26075de635aaf6&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565127209648128/image.png?ex=6ac6e4c6&is=6ac59346&hm=183c6bba9925f0ee0eb7e3458973d70867a41b7d5675b4bcb9f60bbee5437dd4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565127209648128/image.png?ex=6ac78d86&is=6ac63c06&hm=d1b1f17d5ea827f62bee3b887079027bc922bc7a50b590105ecd860f40a36522&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565127842996284/image.png?ex=6ac6e4c6&is=6ac59346&hm=07268c9a9d54a89131f5ffd008bf6bc880dcd28a33ed09af8ad4ff5952e48872&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553565127842996284/image.png?ex=6ac78d86&is=6ac63c06&hm=a0a9b8d034d7ccb1a39477f2cb1f9a7194042f4b98ebdca628eaca8f8d1ffca7&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -185,7 +185,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac6b238&is=6ac560b8&hm=4bc0cdc8eb12993d00fac2c6a36352560f63e25dbb905a051c3fee958ed302ae&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac75af8&is=6ac60978&hm=622302acb4b1f7c5f5cdc0b1c63907f75978cb2a5a43323268bb1d0dfb29b980&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -201,7 +201,7 @@
     "content": "@CoreFX Currently fixing Legacy reflection cubemaps, comparison between old and new behavior shaders which fixes their orientation entirely\n\n- No reflection drift when moving the camera around\n- Screen space reflections on vehicles will be correct and you will see reflected parts of the vehicle properly, also properly reflected characters",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6ac6dd6e&is=6ac58bee&hm=549f2a14c2c69c037f389a6af68e8fd8be136972487d5f1a3a73855de3588141&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6ac7862e&is=6ac634ae&hm=972c10ed744b5c61b46b44bf8a962e47e1a37eb522f26968c63560aadbc869d5&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -338,7 +338,7 @@
     "content": "@CoreFX Introducing RTDI - Ray Traced Direct Illumination for GTA 5 Enhanced. Now, every streetlight and vehicle light in the game is ray traced and can cast ray traced shadows. Still work in progress, but it's a hard requirement for WIP Path Tracer that we work on.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac6aacd&is=6ac5594d&hm=73a899859b1a905248086bf8129c0616119132bb2fc99ccec25284ca1475f174&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac7538d&is=6ac6020d&hm=3602ded77a64d044e55957dcc7474d1c9c932e6cdaf4417a61912721b4878ff7&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -354,7 +354,7 @@
     "content": "@CoreFX Ray Reconstruction 4.5 for GTA 5 Enhanced. Added ReSTIR and SHaRC techniques to eliminate remaining noise and make RTGI render in RT Reflections",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6ac6de55&is=6ac58cd5&hm=dceea5649f843c305361513a212698114b4bf812c328629297b97b126f05d0ab&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6ac78715&is=6ac63595&hm=a90842fd17361f9c4045d14851aa830556c3739ae5f59a228e30a025875534a2&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -386,7 +386,7 @@
     "content": "@CoreFX Ray Reconstruction for GTA 5 Enhanced, part 1",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552135936069079150/Grand_Theft_Auto_V_Enhanced_2026.09.23_-_04.53.17.05.mp4?ex=6ac6f7bc&is=6ac5a63c&hm=4797fc790f720f161f68896f7234fcf2698d75e41cef4e4d2fed02870815c659&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552135936069079150/Grand_Theft_Auto_V_Enhanced_2026.09.23_-_04.53.17.05.mp4?ex=6ac7a07c&is=6ac64efc&hm=b5d8ea2928266b69e79011ba5d82e75ef8f89b49a825a65a4e41978a9426d855&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -418,7 +418,7 @@
     "content": "@CoreFX DLAA implemented into GTA 5 Legacy CoreFX Menu, next step is Upscaling & Frame Generation",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6ac6e288&is=6ac59108&hm=bfeda3aaeb3a017fd90370a966039c5b8748123e5462fa78df9eb03f16da939b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6ac78b48&is=6ac639c8&hm=19e389e41052403b6a31d6421096c0bad62e72995e3e08bb908ba6273b553211&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -434,7 +434,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac6db0f&is=6ac5898f&hm=6e0abdc48bc5411ecd5f014e3e547ebef1afdc17de0feb4b26886f5204321dc1&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac783cf&is=6ac6324f&hm=fd628a1c2310f16aa4cb5cfe020022cb69570ea8293a158f49a45d53d165f84c&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -653,7 +653,7 @@
     "content": "@CoreFX fully working volumetric cloud shadows instead of fake ones, also implemented",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546148808692605019/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_16.21.53.01.mp4?ex=6ac6f08a&is=6ac59f0a&hm=9d38732679e462e940d4714b2ad02bf076bd084df44c05863bab42c4917295bf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546148808692605019/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_16.21.53.01.mp4?ex=6ac7994a&is=6ac647ca&hm=b5ff5a48d77e96053720ca2d2a023f94b781e1d7e9208ff8d5e8c499dd5cd43a&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -670,7 +670,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac6d2eb&is=6ac5816b&hm=90b237a93dcbc283b778bf9703acfeb769ef76807a1e84a767392fa8cde2ce63&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac77bab&is=6ac62a2b&hm=f184a4e85a1ada284e1fc6f41907b0fce108bfc4be3461b64cc11a10b3300fbf&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
