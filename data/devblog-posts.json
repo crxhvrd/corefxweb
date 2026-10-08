@@ -1,5 +1,21 @@
 [
   {
+    "id": "1557843049944715294",
+    "authorName": "core",
+    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
+    "timestamp": "2026-10-08T19:52:06.431000+00:00",
+    "content": "@CoreFX Per-weather volumetric clouds app. Each weather can carry multiple presets of volumetric clouds that you can edit and they will be changing with their own probability system that you can also can change, basically it replicates how Cloudhats are working, but with even more freedom of editing",
+    "attachments": [
+      {
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557843049516892210/18EB027C-BC2F-490A-B9ED-525B8CA16833.png?ex=6ac945e6&is=6ac7f466&hm=16963cc8d44fd8a226e9492c51e826ed6b643f63fe638fedc6e2ad8155121cc2&",
+        "contentType": "image/png",
+        "width": 1920,
+        "height": 1010
+      }
+    ],
+    "embeds": []
+  },
+  {
     "id": "1557642562549055520",
     "authorName": "core",
     "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
@@ -213,7 +229,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac8ac78&is=6ac75af8&hm=c36c087ce107050b479e2633015c4c397d88a422f4f1e8d52c71a45e7e34a1ec&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac95538&is=6ac803b8&hm=549404efbe51dc7b8412a20d50c4f302e9cc087b339dd5a8164c4789ab925e17&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -319,37 +335,37 @@
     "content": "@CoreFX This will be the night time of CoreFX Enhanced 1.4: Every light source is ray traced, new streetlight reflections, spiced with Ray Reconstruction and other new features",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ac89b4c&is=6ac749cc&hm=9e122b16614d43fb0deef0bb6da7bd1aebbae54307f5ddc6abded1fa4abcdb4f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ac9440c&is=6ac7f28c&hm=f42125eea7712ffba84028031f321bfbecfd3bdd97a61ddc847e8b2354d5c13f&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ac89b4d&is=6ac749cd&hm=b3f859c59b2189503d83c714f337ee8ab83c9f206a324351f3c78ec5fc536ed3&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ac9440d&is=6ac7f28d&hm=2ee3c5df6cfa5e6f238bec9a34ad5f93bb00e97e8166c22f49a6e6943d739ae8&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ac89b4d&is=6ac749cd&hm=e6baa7adfbbb63223952e864afbc9727c0ccd0ba0b4a8928848772123db3fa80&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ac9440d&is=6ac7f28d&hm=2d64a236a36effb76eaafa93c780eb46f6d403efd5acbf9fbab9a8590056c3bb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ac89b4d&is=6ac749cd&hm=0abe1a70cf8e884da8605eeaf31d2e6695f487b73c02d946fcdd21acf5e30256&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ac9440d&is=6ac7f28d&hm=da25a305dac872ca02e0872aec1f6ea9b723b260385386ab6358e77838628431&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ac89b4d&is=6ac749cd&hm=746ef9ada81cd1e441a6524c67424b2750da3e0fc954968c757f58bfbb51e325&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ac9440d&is=6ac7f28d&hm=e358147a94709bb58f00f1a583656126354d8e949377fa81cee05330c808ddca&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ac89b4e&is=6ac749ce&hm=42b28cb5f83ccee434bfef17cfa4803dc8feaf498b6b38d69056c565f316a6f4&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ac9440e&is=6ac7f28e&hm=da7b1c2044aa01dd94e3949966106a061369414653b94715f006f00b95f56587&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -366,7 +382,7 @@
     "content": "@CoreFX Introducing RTDI - Ray Traced Direct Illumination for GTA 5 Enhanced. Now, every streetlight and vehicle light in the game is ray traced and can cast ray traced shadows. Still work in progress, but it's a hard requirement for WIP Path Tracer that we work on.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac8a50d&is=6ac7538d&hm=5f9d7c43dd425a00c710e4b3f700ce3e4d8c2cb7ec69c58545d8f0592ac0626e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ac94dcd&is=6ac7fc4d&hm=d85ae4c415b07b082d9af0b1606fa55464dfc54e8f75d5e29d24ef1091bc3780&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -462,7 +478,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac8d54f&is=6ac783cf&hm=352110615c7ba4012d506b60e6cd2d588447e99da46239f111bf41888ec97959&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac97e0f&is=6ac82c8f&hm=5e3b76286b3a79fc007630a740e3a74511806d129d0f67ae5568124ffa8f35c5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -641,7 +657,7 @@
     "content": "@CoreFX RageCoop ported to Enhanced, and supports cross-platform play between Legacy and Enhanced",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ac89b2c&is=6ac749ac&hm=b4af554fe658c5148bea3dabd4dc1de26bbb63e0110c47529ad71f1ed1a55c14&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1548781232051978390/B86D9959-74B7-4EBE-9C55-6F516A17C039.png?ex=6ac943ec&is=6ac7f26c&hm=d5986e88c89028f3afc2223a22a7fb6f8120e0926935c04d72b6aa938f362d73&",
         "contentType": "image/png",
         "width": 1906,
         "height": 1028
@@ -682,23 +698,6 @@
     "attachments": [
       {
         "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1546148808692605019/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_16.21.53.01.mp4?ex=6ac8eaca&is=6ac7994a&hm=910d271321e9a44bd1324fde59837bb0e2ce54d0ea8202bc417e782a414fc57a&",
-        "contentType": "video/mp4",
-        "width": 1920,
-        "height": 1080
-      }
-    ],
-    "embeds": []
-  },
-  {
-    "id": "1545935817762021466",
-    "authorName": "core",
-    "authorAvatarUrl": "https://cdn.discordapp.com/avatars/853217279466930178/4f03d93f0734da395e2636ac59efbaf3.png?size=128",
-    "timestamp": "2026-09-05T23:17:01.053000+00:00",
-    "editedAt": "2026-09-06T01:06:11.244000+00:00",
-    "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
-    "attachments": [
-      {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac8cd2b&is=6ac77bab&hm=e2223e137b0d76fc75195318c55ae0af48b879188fb7dd3e37abd5c4fec1eeec&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
