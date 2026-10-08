@@ -185,7 +185,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac75af8&is=6ac60978&hm=622302acb4b1f7c5f5cdc0b1c63907f75978cb2a5a43323268bb1d0dfb29b980&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ac803b8&is=6ac6b238&hm=866b0ed4fb1c531b4e755c80ea3b63fdc6d9370a1c422ba5da0139d33e68176c&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -201,7 +201,7 @@
     "content": "@CoreFX Currently fixing Legacy reflection cubemaps, comparison between old and new behavior shaders which fixes their orientation entirely\n\n- No reflection drift when moving the camera around\n- Screen space reflections on vehicles will be correct and you will see reflected parts of the vehicle properly, also properly reflected characters",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6ac7862e&is=6ac634ae&hm=972c10ed744b5c61b46b44bf8a962e47e1a37eb522f26968c63560aadbc869d5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6ac82eee&is=6ac6dd6e&hm=868936afaa2373738b5a13a3b7aa77f6fd11828ce2bd5acafdcba21b11f21c09&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -354,7 +354,7 @@
     "content": "@CoreFX Ray Reconstruction 4.5 for GTA 5 Enhanced. Added ReSTIR and SHaRC techniques to eliminate remaining noise and make RTGI render in RT Reflections",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6ac78715&is=6ac63595&hm=a90842fd17361f9c4045d14851aa830556c3739ae5f59a228e30a025875534a2&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6ac82fd5&is=6ac6de55&hm=2e576fd5c076454a03bea2c0feb5ad360f2ecbd00234d212c95fcad84ee8c232&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -418,7 +418,7 @@
     "content": "@CoreFX DLAA implemented into GTA 5 Legacy CoreFX Menu, next step is Upscaling & Frame Generation",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6ac78b48&is=6ac639c8&hm=19e389e41052403b6a31d6421096c0bad62e72995e3e08bb908ba6273b553211&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6ac83408&is=6ac6e288&hm=5d76e68d3c116bbec0b6fcff2983ae1d27d24607aefdd615a645ae05c1d2d58e&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -434,7 +434,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac783cf&is=6ac6324f&hm=fd628a1c2310f16aa4cb5cfe020022cb69570ea8293a158f49a45d53d165f84c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6ac82c8f&is=6ac6db0f&hm=728aed2a517aa5289bff7544dd134522dae8dba8cb6180f43bfe307284b04302&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -670,7 +670,7 @@
     "content": "@CoreFX We did a native injection of Volumetric Clouds into the game\n\n- They are now dont have any jitter on the edges of collision object\n- They render in reflections now\n- They render behind any kind of glass and transparent objects\n- They render behind any kind of particles\n- They render before motion blur, ingame depth of field and any kind of postfx effects\n\nNo visual change, just a shader migration. Same logic, same settings.\n\nEnhanced & Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac77bab&is=6ac62a2b&hm=f184a4e85a1ada284e1fc6f41907b0fce108bfc4be3461b64cc11a10b3300fbf&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1545935809994170398/Grand_Theft_Auto_V_Enhanced_2026.09.06_-_02.12.07.04.mp4?ex=6ac8246b&is=6ac6d2eb&hm=82bbb3d3cc0da4598d2ecfe6f54f96ca86b1d56124918c57b980e85fbf3b4c1d&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
