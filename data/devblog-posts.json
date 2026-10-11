@@ -315,7 +315,7 @@
     "content": "@CoreFX Currently fixing Legacy reflection cubemaps, comparison between old and new behavior shaders which fixes their orientation entirely\n\n- No reflection drift when moving the camera around\n- Screen space reflections on vehicles will be correct and you will see reflected parts of the vehicle properly, also properly reflected characters",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6acb7aae&is=6aca292e&hm=85b5e6da6bba1fd2d0c300d9301e2207248169fc9547e69b192d2bfb53d17b23&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6acc236e&is=6acad1ee&hm=e164f22f63cf768e7c19e7431d58109425f2fec2967748357b269b09c7a2ec85&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -468,7 +468,7 @@
     "content": "@CoreFX Ray Reconstruction 4.5 for GTA 5 Enhanced. Added ReSTIR and SHaRC techniques to eliminate remaining noise and make RTGI render in RT Reflections",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6acb7b95&is=6aca2a15&hm=750aa25b1f840d26df4ab6c22a0bdd0dd3a2175a3e14423a45c97c7b11e5ccbd&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6acc2455&is=6acad2d5&hm=0f328295e787fb07a9bd8eeab11fcb981bb84042c0bcefb0093bca76827a14f5&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -532,7 +532,7 @@
     "content": "@CoreFX DLAA implemented into GTA 5 Legacy CoreFX Menu, next step is Upscaling & Frame Generation",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6acb7fc8&is=6aca2e48&hm=cd4ed8698520ecf654b71bc8759890fa252f25dc80ff77c98d0af8c3fae72b02&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1551931977068707850/Grand_Theft_Auto_V_2026.09.22_-_15.20.25.01.mp4?ex=6acc2888&is=6acad708&hm=7cde3cf149a109c3b2c74f8eb5d699112ae94ef2ce2b7bbb66cebc87700bb870&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -548,7 +548,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6acb784f&is=6aca26cf&hm=8ad81b230c56af77f344baf6e0d4e32480e7109b3ba1f13ce53fbf4feb6a5395&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6acc210f&is=6acacf8f&hm=52bbb8529f09e15650dfe14e528075f160b6594bd01d962007770d44531beabb&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
