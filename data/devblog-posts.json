@@ -315,7 +315,7 @@
     "content": "@CoreFX Currently fixing Legacy reflection cubemaps, comparison between old and new behavior shaders which fixes their orientation entirely\n\n- No reflection drift when moving the camera around\n- Screen space reflections on vehicles will be correct and you will see reflected parts of the vehicle properly, also properly reflected characters",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6adb4cae&is=6ad9fb2e&hm=0222c847adc12060c916617f978b1fc00970203ac1c02f53f9d7c06c8f254120&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553376050082488521/Grand_Theft_Auto_V_2026.09.26_-_14.58.36.03.mp4?ex=6adbf56e&is=6adaa3ee&hm=c77ae30c5e30b29fa165ca1650cb6812d7fd413067064b7873e4b228e2c68825&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -468,7 +468,7 @@
     "content": "@CoreFX Ray Reconstruction 4.5 for GTA 5 Enhanced. Added ReSTIR and SHaRC techniques to eliminate remaining noise and make RTGI render in RT Reflections",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6adb4d95&is=6ad9fc15&hm=9e0aee00a5cbcedec9f49fe6e14bae98cfb03c58b3c78c47113f543510e51a78&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552471046714691635/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_03.03.01.09.mp4?ex=6adbf655&is=6adaa4d5&hm=c2c883bf07d920f122aa162d6e73a103a0f15caf7c085fcd483a6b6db469be59&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -548,7 +548,7 @@
     "content": "@CoreFX Also fixed that yellow road issue with road textures",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6adb4a4f&is=6ad9f8cf&hm=9f2d25f938a67039cad27086fbeab7a9e50c18aad6496c373ae47f979f0add00&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1550655595303010404/image.png?ex=6adbf30f&is=6adaa18f&hm=5c1dd5b6c162a42c2dac9ee213d0ebb69227b9c4c64b062bb8652c184f6cdc6e&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
