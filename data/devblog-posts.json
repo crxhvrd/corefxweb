@@ -77,7 +77,7 @@
     "content": "@CoreFX FSR 3.1 for GTA 5 Legacy",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1565433547408547930/Grand_Theft_Auto_V_2026.10.29_-_20.33.22.02.mp4?ex=6ae6dd5a&is=6ae58bda&hm=22566c37cf40f278f8db70aad85dc16d12468bf689b3e1f2877073ee6f125997&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1565433547408547930/Grand_Theft_Auto_V_2026.10.29_-_20.33.22.02.mp4?ex=6ae7861a&is=6ae6349a&hm=1cb5e7332cdc0c6de5b53d37d7b37d08456c323208d3f901b0eb2a2ddb40c1da&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -299,7 +299,7 @@
     "content": "@CoreFX Per-weather volumetric clouds app. Each weather can carry multiple presets of volumetric clouds that you can edit and they will be changing with their own probability system that you can also can change, basically it replicates how Cloudhats are working, but with even more freedom of editing",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557843049516892210/18EB027C-BC2F-490A-B9ED-525B8CA16833.png?ex=6ae6efa6&is=6ae59e26&hm=8a76ff3da8dcd76a5aed0f917bc5c89296839011cdcb382df1e0688e8a230050&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557843049516892210/18EB027C-BC2F-490A-B9ED-525B8CA16833.png?ex=6ae79866&is=6ae646e6&hm=eb0e5ac86daa6d3e940f603f0bad47cb1d47e6a9d787f3362a60321695d0067f&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1010
@@ -315,19 +315,19 @@
     "content": "@CoreFX First prototype of our new volumetric clouds system",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642559998787665/6B22339E-60B2-40AD-9A31-844F91EC040C.png?ex=6ae6ddad&is=6ae58c2d&hm=930a6916c6024d54e90b52b2e225b801d86f06ba232ecca8a8ed3d61049b7a8e&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642559998787665/6B22339E-60B2-40AD-9A31-844F91EC040C.png?ex=6ae7866d&is=6ae634ed&hm=d4f1dec503bac0af3fba855b341e51076a37ce8c29262db09faa8115ad75f059&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642561080922142/3353FA04-8228-4694-8AA7-88150203D40F.png?ex=6ae6ddae&is=6ae58c2e&hm=39ba2ffcd01464ca575de24b637ef08850078fd5be97de5d0b26ff8b24454988&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642561080922142/3353FA04-8228-4694-8AA7-88150203D40F.png?ex=6ae7866e&is=6ae634ee&hm=1dde69cb59bf8e99d7579f16b38261fd1a25f22b5848047b816857fbb7556a0d&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642562171314267/6154C49B-AEBC-4F2B-BF99-501102D652EC.png?ex=6ae6ddae&is=6ae58c2e&hm=d38b1c5c7228e3f48c2b3935a35fde69110e95be23bf64d80354a12ebfa6926b&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557642562171314267/6154C49B-AEBC-4F2B-BF99-501102D652EC.png?ex=6ae7866e&is=6ae634ee&hm=e0cd8b1a95df5dbdd3506a889ab65abeee7cd62dfe3636b2f541e40f7a3a42af&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -343,13 +343,13 @@
     "content": "@CoreFX We are developing new cloud & sky system from literal scratch, and switch to volumetric clouds & physical sky on every weather\n\nyou will also be able to create your own volumetric clouds presets through new app we made, export to CoreFX addon and use in the game",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557292517676945449/012D7BE4-8B7C-4E2E-B645-D6AF0CF86BEE.png?backend=b2&ex=6ae6e92d&is=6ae597ad&hm=f462cab9b95432de1c844600641f86b0137f2fd15e14fcf1be4f2ba3ef4a0e33&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557292517676945449/012D7BE4-8B7C-4E2E-B645-D6AF0CF86BEE.png?backend=b2&ex=6ae791ed&is=6ae6406d&hm=e8278b7850ea3dafeb32081e08e0722f57572731afbe87dd763ea32923f0c43d&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1006
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557292518834708572/B4ECB8F5-B534-4A75-AF0D-700088E1281E.png?backend=b2&ex=6ae6e92d&is=6ae597ad&hm=694c0571ab65706926263c5579c1fdf7455fb9a8c3be74d373ec9a064175a4d0&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1557292518834708572/B4ECB8F5-B534-4A75-AF0D-700088E1281E.png?backend=b2&ex=6ae791ed&is=6ae6406d&hm=3782c6314636a6582b19282e09657e03beff1205dabfba63547b127205036ac7&",
         "contentType": "image/png",
         "width": 1919,
         "height": 1012
@@ -446,7 +446,7 @@
     "content": "@CoreFX New CoreFX addon WIP menu and new Enhanced RT improvements: old A-SVGF denoiser was replaced by NRD (NVIDIA Real-Time Denoiser) which is just slightly weaker than Ray Reconstruction but can run on any GPU, since it's not AI denoiser",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1554024497261183046/Grand_Theft_Auto_V_Enhanced_2026.09.28_-_09.56.19.01.mp4?ex=6ae6e318&is=6ae59198&hm=4068e655a3b847933d036ddd6abddcdaa67940f4dee7d0e3e739aa96ba1839ae&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1554024497261183046/Grand_Theft_Auto_V_Enhanced_2026.09.28_-_09.56.19.01.mp4?ex=6ae78bd8&is=6ae63a58&hm=1b824ba3f8f545efbd3cbca56c81e98c5cba78ca783dcea02c5647b8ce5159ed&",
         "contentType": "video/mp4",
         "width": 3840,
         "height": 2160
@@ -521,7 +521,7 @@
     "content": "@CoreFX Fixed SSR reflections for Legacy on vehicles, you can now see the vehicle itself in a reflection",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ae6fef8&is=6ae5ad78&hm=778619cea12aa921209e5d9a55b435b1e6ba9c0216b792e46ab16648c62028b8&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1553510846565457960/image.png?ex=6ae7a7b8&is=6ae65638&hm=7ab1cfe259a3e5af0e257d02d8b2d2b498bed2db73c7627a3cb39537cba379fa&",
         "contentType": "image/png",
         "width": 1920,
         "height": 1080
@@ -627,37 +627,37 @@
     "content": "@CoreFX This will be the night time of CoreFX Enhanced 1.4: Every light source is ray traced, new streetlight reflections, spiced with Ray Reconstruction and other new features",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ae6edcc&is=6ae59c4c&hm=2b5daa26296a38b7d9b7f16873ac3ecbcf41aae3a447e1af9063a992694ad841&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948827315503244/3240220_20260925103709_1.png?ex=6ae7968c&is=6ae6450c&hm=b15e5e98cefd5de88fb83cf75bb8d9cfb42e8f5f0b40d64f16480f08513e29cd&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ae6edcd&is=6ae59c4d&hm=aa43180196adb982f2146fa07779e3262a29dd27b5792ea1bd00c8bef791f871&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948828641173554/3240220_20260925103749_1.png?ex=6ae7968d&is=6ae6450d&hm=3eda969759cc618cb8652c4cc2280dae2f9af3cfc0da77fdce40b0426200f290&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ae6edcd&is=6ae59c4d&hm=45e9b2e15fd4b135b822b8b13c71f5abc053e6e293150cbf5e82469df5a9a1db&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948829316317236/3240220_20260925103759_1.png?ex=6ae7968d&is=6ae6450d&hm=b5bb956abae6244db225cddb4bc24cdfcbc41064ff28b2c9b22a4ba244aa4dd5&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ae6edcd&is=6ae59c4d&hm=a40dca13391fd68691ba00318292eef33bd85dd507f17276a3406fbf2a4daa52&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948830243135588/3240220_20260925104037_1.png?ex=6ae7968d&is=6ae6450d&hm=44f419ed6fac9ae07c4c4fae4476293e67f3e45cfce7a0ada6f0a8fa4c1053ec&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ae6edcd&is=6ae59c4d&hm=ea4a587793f26a6fcbec34761e9c11dd52a03363262b0489e9651a34ff25f6a5&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948831191310366/3240220_20260925104137_1.png?ex=6ae7968d&is=6ae6450d&hm=38568561ce5753b4ee6f0bf859a5a227b5f3cfc19a5d3f2aaf7ec42d307596c0&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
       },
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ae6edce&is=6ae59c4e&hm=6f4af9a249218a859a8728e0d7fd694ea3c211c81007f41a1ba31dcca539175f&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552948832260718663/3240220_20260925104344_1.png?ex=6ae7968e&is=6ae6450e&hm=d4e565ed43c3a09301c861fa85b7a3618caec7f04e395521b702e3c923906e61&",
         "contentType": "image/png",
         "width": 3840,
         "height": 2160
@@ -674,7 +674,7 @@
     "content": "@CoreFX Introducing RTDI - Ray Traced Direct Illumination for GTA 5 Enhanced. Now, every streetlight and vehicle light in the game is ray traced and can cast ray traced shadows. Still work in progress, but it's a hard requirement for WIP Path Tracer that we work on.",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ae6f78d&is=6ae5a60d&hm=280bf65b1663f3f5982f952491b245db678738dd25f0f80fc1d6c030de2fb491&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552596910202822746/Grand_Theft_Auto_V_Enhanced_2026.09.24_-_11.23.22.10.mp4?ex=6ae7a04d&is=6ae64ecd&hm=71d47e0f8e83adc6fb3d8e2815112de257af44d5298d0084711b0f7d21613cd9&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
@@ -738,7 +738,7 @@
     "content": "@CoreFX DLSS Quality (Upscale from 720P back to 1080P)",
     "attachments": [
       {
-        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552026193165946921/Grand_Theft_Auto_V_2026.09.22_-_21.34.25.03.mp4?ex=6ae6de47&is=6ae58cc7&hm=9d709fa4aceb346a80288459bb37980c895166c7ede0f305e505c7837081899c&",
+        "url": "https://cdn.discordapp.com/attachments/1080896900926017686/1552026193165946921/Grand_Theft_Auto_V_2026.09.22_-_21.34.25.03.mp4?ex=6ae78707&is=6ae63587&hm=37648c32568fc7509afc763ae306f88790b47d9e7a38e1b0483c3c2829da7e99&",
         "contentType": "video/mp4",
         "width": 1920,
         "height": 1080
