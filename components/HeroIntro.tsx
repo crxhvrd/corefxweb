@@ -37,6 +37,13 @@ const PARTS: Segment[][] = [
         { text: '.' },
     ],
     [
+        { text: 'Enhanced gets ' },
+        { text: 'FXPT', className: EM },
+        { text: ', our own path tracing. Legacy gets ' },
+        { text: 'FXRT', className: EM },
+        { text: ', real ray tracing for a game that never had it.' },
+    ],
+    [
         { text: 'Two builds: ' },
         { text: 'Legacy', className: EM },
         { text: ' for the original game, ' },

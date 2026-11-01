@@ -58,14 +58,19 @@ const prerequisitesSections = [
                 title: 'Legacy Hardware Requirements',
                 items: [
                     'Minimum: NVIDIA GeForce RTX 2060 Super or AMD Radeon RX 5700',
-                    'Recommended: NVIDIA GeForce RTX 3070 or AMD Radeon RX 6700 XT'
+                    'Recommended: NVIDIA GeForce RTX 3070 or AMD Radeon RX 6700 XT',
+                    'FXRT (ray tracing): a graphics card with hardware ray tracing, NVIDIA RTX or AMD Radeon RX 6000 and newer, and an up-to-date driver.',
+                    'DLSS: an NVIDIA RTX card and a recent driver. FSR: any card that runs Direct3D 12, under Windows 11.'
                 ]
             },
             {
                 title: 'Enhanced Hardware Requirements',
                 items: [
                     'Ray Tracing Minimum: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT',
-                    'Ray Tracing Recommended: NVIDIA GeForce RTX 4060 Ti or AMD Radeon RX 7700 XT'
+                    'Ray Tracing Recommended: NVIDIA GeForce RTX 4060 Ti or AMD Radeon RX 7700 XT',
+                    'FXPT (path tracing): NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.',
+                    'FXPT (path tracing) builds on the game\'s ray tracing, so keep ray tracing on in the game\'s graphics settings. It is heavier on the GPU than the game\'s own.',
+                    'Denoisers: NRD runs on any card, DLSS Ray Reconstruction on RTX cards, and FSR Ray Regeneration on Radeon RX 9000 cards under Windows 11.'
                 ]
             },
             {
@@ -92,7 +97,8 @@ const prerequisitesSections = [
                 title: 'Required In-Game Settings',
                 items: [
                     <><strong>Shader Quality</strong> and <strong>Post FX</strong> must be set to <strong>Ultra (maximum)</strong> in the in-game Graphics settings. This is required for the CoreFX shaders to load — at lower settings the game uses different shader variants that CoreFX does not replace, so the mod will look incorrect.</>,
-                    <>If they are set too low, CoreFX shows an on-screen warning — <em>&quot;CoreFX: postfx composite not loaded&quot;</em> — a few seconds after the game starts rendering. Fix the settings and restart the game. (You will also see it while sitting in the main menu, which is normal.)</>
+                    <>If CoreFX&apos;s shaders are not drawing, it shows an on-screen warning — <em>&quot;CoreFX: shaders not running&quot;</em>. In the main menu or on a loading screen this is normal. If it stays while you play, see <strong>Shader Settings &gt; On-screen warnings</strong>.</>,
+                    <><strong>Legacy only:</strong> Shader Quality has to be High or Very High, and Stereo 3D has to be off.</>
                 ]
             },
             {
@@ -122,7 +128,7 @@ const faqs = [
         question:
             "I don't like blur when moving camera (motion blur). How can I disable it?",
         answer:
-            'For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, disable motion blur in your GTA 5 graphics settings.'
+            'For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, turn Motion Blur Strength down in your GTA 5 graphics settings, or set Image > Motion Blur Strength to 0 in the CoreFX Addon window.'
     },
     {
         question: 'Can I use other mods with CoreFX?',
@@ -163,15 +169,24 @@ const faqs = [
     },
     {
         question:
-            'I see an orange "CoreFX: postfx composite not loaded" message on screen. What does it mean?',
+            'I see an orange "CoreFX: shaders not running" message on screen. What does it mean?',
         answer:
-            'CoreFX is installed and running, but its main shaders are not rendering. Almost always this means Shader Quality or Post FX is below Ultra in the in-game graphics settings — fix those and restart the game. You will also see it in the main menu, which is normal. If you want it gone permanently, the CoreFX Addon menu has a "Hide on-screen warnings" toggle under Options.'
+            'CoreFX is loaded, but the game is not drawing with its shaders. In the main menu or on a loading screen this is normal. If it stays while you play on Legacy, check that Shader Quality is High or Very High and Stereo 3D is off, then restart the game. If those are right, or you are on Enhanced, a game update has most likely changed the game\'s shaders, so update CoreFX to the version made for your game. If you want it gone permanently, the CoreFX Addon menu has a "Hide on-screen warnings" toggle under Options.'
     },
     {
-        question:
-            'On FiveM the shader menu is empty or has no settings. How do I fix it?',
+        question: 'What are FXPT and FXRT?',
         answer:
-            'ReShade and CoreFX.addon64 have to be installed in BOTH places — the FiveM plugins folder and your real GTA V root folder — each with its own CustomShaders folder beside it. Installing to only one location is enough for the addon to show up, but not for it to find its settings. The package ships both copies ready to go; make sure you copied each one to its matching destination.'
+            'FXPT is CoreFX\'s own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX\'s ray tracing for GTA V Legacy: ray-traced sun shadows, ambient occlusion, global illumination and lamp shadows. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.'
+    },
+    {
+        question: 'How do I use DLSS or FSR on Legacy?',
+        answer:
+            'Open the Image tab of the CoreFX Addon window and set Anti-Aliasing to DLSS or FSR. At the game\'s Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game\'s TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.'
+    },
+    {
+        question: 'Can I change the clouds?',
+        answer:
+            'Yes. CloudBuilder comes with CoreFX, in the CoreFX\\CloudBuilder folder. Make your own clouds there, install them into the game with one click, and pick them under World > Sky > Cloud Pack in the CoreFX Addon window.'
     }
 ];
 
@@ -431,8 +446,10 @@ export default function DocsClient() {
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        If prompted, select your GTA 5 Legacy folder. Everything you
-                                                        chose installs into the <code>mods</code> folder.
+                                                        If prompted, select your GTA 5 Legacy folder. The base mod
+                                                        and your optionals install into the <code>mods</code>{' '}
+                                                        folder; ReShade, <code>CoreFX.addon64</code> and the{' '}
+                                                        <code>CoreFX</code> folder go beside the game executable.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -544,9 +561,10 @@ export default function DocsClient() {
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        If prompted, select your GTA 5 Enhanced folder. Everything
-                                                        you chose — the base mod, the shaders, and your selected
-                                                        optionals — installs into the <code>mods</code> folder.
+                                                        If prompted, select your GTA 5 Enhanced folder. The base mod
+                                                        and your optionals install into the <code>mods</code>{' '}
+                                                        folder; ReShade, <code>CoreFX.addon64</code> and the{' '}
+                                                        <code>CoreFX</code> folder go beside the game executable.
                                                     </li>
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
@@ -625,7 +643,9 @@ export default function DocsClient() {
                                                         folder. These may be named <code>d3d11.dll</code>,{' '}
                                                         <code>d3d12.dll</code>, <code>dxgi.dll</code>,{' '}
                                                         <code>dxgi.asi</code>, or <code>ReShade.asi</code>. CoreFX
-                                                        ships its own ReShade build.
+                                                        ships its own ReShade build, in the <code>plugins</code>{' '}
+                                                        folder only. The <code>d3d12.dll</code> of CoreFX
+                                                        Singleplayer can stay if you play that on the same game.
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
@@ -653,15 +673,16 @@ export default function DocsClient() {
                                                             <li>
                                                                 <code>plugins\</code> — <code>dxgi.dll</code>,{' '}
                                                                 <code>CoreFX.addon64</code>,{' '}
-                                                                <code>CustomShaders\</code>,{' '}
+                                                                <code>CoreFX\</code>,{' '}
                                                                 <code>reshade-shaders\</code> and{' '}
                                                                 <code>ReShade.ini</code>.
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <code>GTA 5 Root Folder\</code> — the same shader payload
-                                                        again, for your actual GTA V install folder.
+                                                        <code>GTA 5 Root Folder\</code> — the same files without
+                                                        ReShade&apos;s <code>dxgi.dll</code>, for your actual GTA V
+                                                        install folder.
                                                     </li>
                                                 </ul>
                                             </InstallationStep>
@@ -687,14 +708,10 @@ export default function DocsClient() {
                                                     <li>
                                                         <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
                                                             <p className="text-red-300 text-sm">
-                                                                <strong>Both copies are required.</strong> ReShade
-                                                                and <code>CoreFX.addon64</code> must be installed in
-                                                                both places — the FiveM <code>plugins</code> folder{' '}
-                                                                <em>and</em> the GTA V root folder — each with its
-                                                                own <code>CustomShaders</code> folder beside it.
-                                                                Installing to only one location is enough for the
-                                                                addon to load, but not for it to find its settings,
-                                                                and you will end up with an empty shader menu.
+                                                                <strong>Both copies are required.</strong> The
+                                                                FiveM <code>plugins</code> folder gets everything,
+                                                                ReShade&apos;s <code>dxgi.dll</code> included. The
+                                                                GTA V root folder gets everything except that DLL.
                                                             </p>
                                                         </div>
                                                     </li>
@@ -737,11 +754,14 @@ export default function DocsClient() {
                                                         Delete the files you copied into the FiveM{' '}
                                                         <code>plugins</code> folder — <code>dxgi.dll</code>,{' '}
                                                         <code>CoreFX.addon64</code>, <code>ReShade.ini</code>, and
-                                                        the <code>CustomShaders</code> and{' '}
+                                                        the <code>CoreFX</code> and{' '}
                                                         <code>reshade-shaders</code> folders.
                                                     </li>
                                                     <li>
-                                                        Delete the same set of files from your GTA V root folder.
+                                                        Delete <code>CoreFX.addon64</code>, <code>ReShade.ini</code>,
+                                                        and the <code>CoreFX</code> and{' '}
+                                                        <code>reshade-shaders</code> folders from your GTA V root
+                                                        folder too, unless you also use CoreFX Singleplayer there.
                                                     </li>
                                                     <li>Restart FiveM.</li>
                                                 </ol>
@@ -749,18 +769,6 @@ export default function DocsClient() {
 
                                             <InstallationStep title="Troubleshooting">
                                                 <ul className="list-disc pl-5 space-y-3">
-                                                    <li>
-                                                        <strong>
-                                                            The shader menu is empty, or CoreFX says it could not
-                                                            read settings.json
-                                                        </strong>
-                                                        <br />
-                                                        You installed to only one of the two locations. Copy the
-                                                        shader payload into both the FiveM <code>plugins</code>{' '}
-                                                        folder and the GTA V root folder, each with its own{' '}
-                                                        <code>CustomShaders</code> folder beside{' '}
-                                                        <code>CoreFX.addon64</code>.
-                                                    </li>
                                                     <li>
                                                         <strong>&quot;ReShade Blocked&quot; error</strong>
                                                         <ul className="list-disc pl-5 mt-1 space-y-1">
@@ -863,8 +871,9 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     <p className="text-gray-300 text-base md:text-sm mb-4">
                                         Every CoreFX effect is toggled and tuned from one place:
                                         the <strong>CoreFX Addon</strong> window inside
-                                        the ReShade overlay. Settings are saved automatically and
-                                        apply live, except where noted.
+                                        the ReShade overlay. Settings are saved automatically to{' '}
+                                        <code>CoreFX\Presets\CoreFX.ini</code> and apply live,
+                                        except where noted.
                                     </p>
                                     <ul className="list-disc pl-5 space-y-2 text-gray-300 text-base md:text-sm">
                                         <li>
@@ -881,77 +890,78 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             counter. <strong>Numpad -</strong> — take a screenshot
                                             (saved next to the game executable).
                                         </li>
+                                        <li>
+                                            The tabs run down the side of the window, with a search
+                                            box above them and <strong>Reset all</strong> and the
+                                            links to the Discord and these docs below. A dot on a tab
+                                            means something in it differs from its default. The menu
+                                            takes its colours from your ReShade theme.
+                                        </li>
                                     </ul>
                                 </div>
 
                                 <InstallationStep title="Legacy — what's in the menu" defaultOpen={false}>
                                     <p className="mb-3">
-                                        Applies to Legacy Singleplayer and Legacy FiveM. The menu is
-                                        split into six tabs.
+                                        Applies to Legacy Singleplayer and Legacy FiveM. The menu has
+                                        seven tabs.
                                     </p>
                                     <ul className="list-disc pl-5 space-y-3">
                                         <li>
+                                            <strong>Ray Tracing</strong> — Ray Tracing:{' '}
+                                            <strong>Vanilla</strong> or <strong>FXRT</strong>. See{' '}
+                                            <strong>FXRT</strong> below.
+                                        </li>
+                                        <li>
                                             <strong>World</strong> — Volumetric Clouds, Godrays,
                                             Lightning &amp; Bolts, Cloud Performance Mode (cheaper
-                                            cloud rendering); Screen Raindrops and a defocused
-                                            style for them; Texture Detail with parallax depth,
-                                            self-shadowing and ambient occlusion.
+                                            cloud rendering), Cloud Pack and Cloud Variation; Screen
+                                            Raindrops and a defocused style for them; Texture Detail;
+                                            and Volumetric Smoke with its shape and light settings.
                                         </li>
                                         <li>
                                             <strong>Vehicles &amp; Peds</strong> — Vehicle Paint
                                             RGB Fixes (paint comes out as the colour you picked
                                             in the RGB picker, instead of the game&apos;s far
                                             brighter version), vehicle raindrops, metallic flakes,
-                                            orange peel, and Vehicle Emissives: an overall emissive
-                                            brightness slider plus per-type sliders for headlights,
-                                            taillights, indicators, brake lights, reverse lights,
-                                            full beam, signs and sirens. Also ped and weapon
-                                            raindrops.
+                                            orange peel, Wheel Motion Blur, and Vehicle Emissives: an
+                                            overall emissive brightness slider plus per-type sliders
+                                            for headlights, taillights, indicators, brake lights,
+                                            reverse lights, full beam, signs and sirens. Also ped and
+                                            weapon raindrops.
                                         </li>
                                         <li>
                                             <strong>Lighting</strong> — coronas; streetlight
                                             recolouring with lamp and shaft/fog strength and
-                                            colour; and three configurable streetlight colour
-                                            bands (white, blue, orange).
+                                            colour, three configurable colour bands, and Streetlight
+                                            Specular (the streak a lamp leaves on the road, sharper
+                                            and brighter when it is wet); Detail Shadows and Sun
+                                            Contact Shadows; lens ghosts and lens halo.
                                         </li>
                                         <li>
-                                            <strong>Image</strong> — puddle reflections, vehicle
-                                            reflections, wet surfaces; motion blur with an
-                                            intensity slider.
+                                            <strong>Image</strong> — Anti-Aliasing (see{' '}
+                                            <strong>Anti-aliasing and upscaling</strong> below);
+                                            Screen-Space Reflections and wet surfaces; motion blur
+                                            with an intensity slider.
                                         </li>
                                         <li>
                                             <strong>HDR</strong> — see below.
                                         </li>
                                         <li>
-                                            <strong>Options</strong> — hide the on-screen warnings,
-                                            and reload shaders and settings without restarting.
+                                            <strong>Options</strong> — hide the on-screen warnings.
                                         </li>
                                     </ul>
-                                    <p className="mt-3">
-                                        Above the tabs sit <strong>Reset All</strong> and the links
-                                        to the Discord and these docs, so they are reachable from
-                                        every tab.
-                                    </p>
                                 </InstallationStep>
 
                                 <InstallationStep title="Enhanced — what's in the menu" defaultOpen={false}>
                                     <p className="mb-3">
-                                        Enhanced has everything Legacy has apart from the Image tab
-                                        (motion blur is a game setting there, and reflections are
-                                        ray traced), plus a Ray Tracing tab.
+                                        The same seven tabs. These are the differences from Legacy.
                                     </p>
                                     <ul className="list-disc pl-5 space-y-3">
                                         <li>
-                                            <strong>Ray Tracing</strong> — a master{' '}
-                                            <strong>Definitive Ray Tracing</strong> toggle, then
-                                            RTGI intensity, ray length and contact detail; RT
-                                            reflection distance and intensity; and RTAO intensity
-                                            and ray length.
-                                        </li>
-                                        <li>
-                                            <strong>Ray Tracing &gt; Ambient Occlusion</strong> —
-                                            SSAO, Detail Shadows, Micro Shadow and Sun Contact
-                                            Shadows, each with its own intensity slider.
+                                            <strong>Ray Tracing</strong> — Ray Tracing:{' '}
+                                            <strong>Vanilla</strong> or <strong>FXPT</strong>, the
+                                            Denoiser for each, Performance Mode and the Ray
+                                            Reconstruction Model. See <strong>FXPT</strong> below.
                                         </li>
                                         <li>
                                             <strong>World</strong> — as Legacy, plus{' '}
@@ -959,13 +969,197 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             (off by default).
                                         </li>
                                         <li>
-                                            <strong>Lighting</strong> — as Legacy, plus lens ghosts
-                                            and lens halo.
+                                            <strong>Lighting</strong> — as Legacy. Streetlight
+                                            Specular needs FXPT here.
+                                        </li>
+                                        <li>
+                                            <strong>Image</strong> — Motion Blur Strength, which
+                                            multiplies the game&apos;s own motion blur (0 turns it
+                                            off), and Screen-Space Reflections, which run while the
+                                            game&apos;s ray-traced reflections are off. Anti-aliasing
+                                            and upscaling stay in the game&apos;s graphics settings.
                                         </li>
                                         <li>
                                             <strong>Vehicles &amp; Peds</strong>,{' '}
                                             <strong>HDR</strong> and <strong>Options</strong> — same
                                             as Legacy.
+                                        </li>
+                                    </ul>
+                                </InstallationStep>
+
+                                <InstallationStep title="FXPT (Enhanced)" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        FXPT is CoreFX&apos;s own path tracing. Set{' '}
+                                        <strong>Ray Tracing</strong> to <strong>FXPT</strong> in the
+                                        Ray Tracing tab, with ray tracing on in the game&apos;s
+                                        graphics settings. <strong>Vanilla</strong>, the default,
+                                        keeps the game&apos;s own ray tracing. FXPT is for an NVIDIA
+                                        GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            Reflections are path traced with two bounces.
+                                        </li>
+                                        <li>
+                                            Global illumination replaces the game&apos;s baked
+                                            ambient, with light that keeps bouncing.
+                                        </li>
+                                        <li>
+                                            Lamps near the camera cast soft ray-traced shadows, and
+                                            neon signs, lit windows and vehicle lamps light what is
+                                            around them.
+                                        </li>
+                                        <li>
+                                            <strong>Performance Mode</strong> makes it cheaper at a
+                                            small cost in detail. Nothing is switched off.
+                                        </li>
+                                    </ul>
+                                    <p className="mt-3 mb-2">
+                                        <strong>Denoiser</strong> picks what cleans up the traced
+                                        light, in FXPT and in Vanilla. In Vanilla the rays stay the
+                                        game&apos;s own, and <strong>Game&apos;s own</strong> keeps
+                                        its denoisers too.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            <strong>NRD</strong> — any card.
+                                        </li>
+                                        <li>
+                                            <strong>Ray Reconstruction</strong> — RTX cards. Needs
+                                            DLSS selected in the game&apos;s graphics settings.
+                                        </li>
+                                        <li>
+                                            <strong>FSR Ray Regeneration</strong> — Radeon RX 9000
+                                            cards under Windows 11.
+                                        </li>
+                                    </ul>
+                                    <p className="text-gray-400 text-sm mt-3">
+                                        If Ray Reconstruction or Ray Regeneration cannot start, NRD
+                                        denoises instead until the game restarts.
+                                    </p>
+                                </InstallationStep>
+
+                                <InstallationStep title="FXRT (Legacy)" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        FXRT is real ray tracing for Legacy, against the actual
+                                        scene geometry rather than what is on screen. Set{' '}
+                                        <strong>Ray Tracing</strong> to <strong>FXRT</strong> in the
+                                        Ray Tracing tab. <strong>Vanilla</strong>, the default, keeps
+                                        the game&apos;s own shadows and lighting.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            Sun shadows, ambient occlusion, global illumination and
+                                            lamp shadows are ray traced, all from that one switch.
+                                        </li>
+                                        <li>NRD does the denoising.</li>
+                                        <li>
+                                            It needs hardware ray tracing: NVIDIA RTX or Radeon RX
+                                            6000 and newer, with an up-to-date driver.
+                                        </li>
+                                        <li>It does not cover reflections or interiors.</li>
+                                    </ul>
+                                </InstallationStep>
+
+                                <InstallationStep title="Anti-aliasing and upscaling (Legacy)" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        <strong>Anti-Aliasing</strong> in the Image tab picks one of
+                                        four:
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            <strong>Off</strong>.
+                                        </li>
+                                        <li>
+                                            <strong>TAA</strong> — CoreFX&apos;s own, on any card,
+                                            with Strength and Sharpness sliders.
+                                        </li>
+                                        <li>
+                                            <strong>DLSS</strong> — NVIDIA RTX cards and a recent
+                                            driver. <strong>DLAA Preset</strong> picks the network.
+                                        </li>
+                                        <li>
+                                            <strong>FSR</strong> — AMD FSR 3.1, on any card that runs
+                                            Direct3D 12, under Windows 11.
+                                        </li>
+                                    </ul>
+                                    <p className="mt-3">
+                                        At the game&apos;s <strong>Frame Scaling</strong> 1.000 (in
+                                        Advanced Graphics), DLSS and FSR anti-alias at full size:
+                                        DLAA and FSR Native AA. Below it the game renders smaller
+                                        and they upscale to your screen. Texture sharpness for a new
+                                        Frame Scaling applies after a restart.
+                                    </p>
+                                    <p className="mt-3">
+                                        Turn off the game&apos;s TXAA and FXAA. Upscaling also needs
+                                        MSAA off.
+                                    </p>
+                                    <p className="mt-3">
+                                        The <strong>Running now</strong> line under Anti-Aliasing
+                                        shows what actually drew the last frame: the mode, such as
+                                        DLSS Quality or FSR Native AA, and its sizes. If DLSS or FSR
+                                        cannot run, it says so and names TAA.
+                                    </p>
+                                </InstallationStep>
+
+                                <InstallationStep title="Clouds and CloudBuilder" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        <strong>World &gt; Sky</strong> holds the clouds&apos;
+                                        settings. <strong>Cloud Pack</strong> picks a set of clouds:{' '}
+                                        <strong>CoreFX</strong> is the one that ships, and packs you
+                                        install show up there. <strong>Cloud Variation</strong> leaves
+                                        each weather to its own clouds (<strong>By weather</strong>),
+                                        or forces one setup in every weather.
+                                    </p>
+                                    <p className="mb-3">
+                                        <strong>CloudBuilder</strong> is our app for making clouds,
+                                        and it comes with CoreFX. Start{' '}
+                                        <code>CloudBuilder.exe</code> from the{' '}
+                                        <code>CoreFX\CloudBuilder</code> folder beside the game, or{' '}
+                                        <code>plugins\CoreFX\CloudBuilder</code> on FiveM. It needs
+                                        Windows 10 or 11 and a DirectX 12 graphics card.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            A <strong>design</strong> is a kind of cloud. It is baked
+                                            for the game, so changing one takes a bake.
+                                        </li>
+                                        <li>
+                                            A <strong>setup</strong> is one look made from a design:
+                                            how much of the sky it covers, how high it sits, its
+                                            shape and its light.
+                                        </li>
+                                        <li>
+                                            Every weather has a <strong>mix</strong> of setups and
+                                            picks one by chance when it begins.
+                                        </li>
+                                        <li>
+                                            All of that together is a <strong>pack</strong>. Press{' '}
+                                            <strong>Install pack in game</strong>, then pick it under
+                                            Cloud Pack. A running game shows changed setups at once.
+                                        </li>
+                                    </ul>
+                                </InstallationStep>
+
+                                <InstallationStep title="Volumetric Smoke" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        Volumetric Smoke turns the game&apos;s flat smoke sprites near
+                                        the camera into a real volume: it billows, rises, drifts with
+                                        the wind, goes round the car and is lit through its own depth.
+                                        It is in the World tab, and it is <strong>off by default</strong>.
+                                        It only costs GPU time while there is smoke.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            <strong>Smoke Source</strong> — <strong>Burnouts Only</strong>{' '}
+                                            takes the tyre smoke of burnouts, wheelspins and skids.{' '}
+                                            <strong>All Smoke</strong> also takes exhaust, flares,
+                                            smoke grenades, explosions, fires, dust and splashes.
+                                        </li>
+                                        <li>
+                                            <strong>Volumetric Smoke</strong> and{' '}
+                                            <strong>Volumetric Smoke Light</strong> cards — how long
+                                            it lasts, how it moves, and how it takes the light.
                                         </li>
                                     </ul>
                                 </InstallationStep>
@@ -1024,21 +1218,34 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     <ul className="list-disc pl-5 space-y-3">
                                         <li>
                                             <strong>
-                                                &quot;CoreFX: postfx composite not loaded&quot;
+                                                &quot;CoreFX: shaders not running&quot;
                                             </strong>{' '}
-                                            — CoreFX is running, but its main shaders are not
-                                            rendering. Set Shader Quality and Post FX to maximum in
-                                            the game&apos;s graphics settings and restart. You will
-                                            also see this in the main menu, which is normal.
+                                            — CoreFX is loaded, but the game is not drawing with its
+                                            shaders, so most of its effects are off. In the main menu
+                                            or on a loading screen this is normal. If it stays while
+                                            you play on Legacy, check that Shader Quality is High or
+                                            Very High and Stereo 3D is off, then restart the game.
+                                            If those are right, or you are on Enhanced, a game update
+                                            has most likely changed the game&apos;s shaders: update
+                                            CoreFX to the version made for your game.
                                         </li>
                                         <li>
                                             <strong>
-                                                &quot;CoreFX: settings.json not loaded&quot;
+                                                &quot;CoreFX: settings not loaded - no UI settings&quot;
                                             </strong>{' '}
-                                            — the addon cannot find its settings file, so every
-                                            shader is running on built-in defaults and the menu is
-                                            empty. On FiveM this almost always means the payload was
-                                            installed to only one of the two required locations.
+                                            — the add-on could not read the settings it carries, so
+                                            every shader is on its built-in defaults and the menu is
+                                            empty. The add-on&apos;s file is damaged: reinstall CoreFX.
+                                        </li>
+                                        <li>
+                                            <strong>
+                                                &quot;CoreFX: FXRT could not start&quot;
+                                            </strong>{' '}
+                                            (Legacy only) — Ray Tracing is set to FXRT, but it could
+                                            not run on this PC, so the game&apos;s own lighting is in
+                                            use. The notice says why. FXRT needs hardware ray tracing
+                                            and an up-to-date driver. Set Ray Tracing to Vanilla to
+                                            remove it.
                                         </li>
                                         <li>
                                             <strong>
@@ -1052,14 +1259,24 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             Frame Generation in the game&apos;s graphics settings, or
                                             HDR Mode in the CoreFX Addon (then restart).
                                         </li>
+                                        <li>
+                                            <strong>
+                                                &quot;CoreFX: ray tracing is partly running on the game&apos;s own shaders&quot;
+                                            </strong>{' '}
+                                            (Enhanced only) — FXPT is on, but CoreFX has no version of
+                                            some shaders the game is using, on a graphics card or
+                                            in-game ray tracing setting it does not support yet. Those
+                                            parts run as the game&apos;s own. Set Ray Tracing to Vanilla
+                                            to remove it.
+                                        </li>
                                     </ul>
                                     <p className="mt-3">
                                         <strong>Hide on-screen warnings</strong> in the{' '}
-                                        <strong>Options</strong> tab silences the postfx composite
-                                        and Frame Generation warnings permanently — though it is
-                                        worth fixing the cause first. The settings.json warning
-                                        cannot be hidden, because that toggle is itself stored in
-                                        the file that failed to load.
+                                        <strong>Options</strong> tab silences them permanently,
+                                        though it is worth fixing the cause first. It changes nothing
+                                        about how CoreFX renders. The settings warning cannot be
+                                        hidden, because that toggle lives in the settings that failed
+                                        to load.
                                     </p>
                                 </InstallationStep>
                             </div>
@@ -1071,7 +1288,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                 <div className="w-full lg:w-96 flex flex-col gap-6">
                     <div className="bg-black/20 backdrop-blur-md rounded-lg p-6 max-h-[calc(100vh-10rem)] overflow-y-auto">
                         <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
-                            <span className="text-blue-400">?</span> Frequency Asked Questions
+                            <span className="text-blue-400">?</span> Frequently Asked Questions
                         </h2>
                         <div className="space-y-4">
                             {faqs.map((faq, idx) => (
