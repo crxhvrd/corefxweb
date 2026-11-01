@@ -59,8 +59,7 @@ const prerequisitesSections = [
                 items: [
                     'Minimum: NVIDIA GeForce RTX 2060 Super or AMD Radeon RX 5700',
                     'Recommended: NVIDIA GeForce RTX 3070 or AMD Radeon RX 6700 XT',
-                    'FXRT (ray tracing): a graphics card with hardware ray tracing, NVIDIA RTX or AMD Radeon RX 6000 and newer, and an up-to-date driver.',
-                    'DLSS: an NVIDIA RTX card and a recent driver. FSR: any card that runs Direct3D 12, under Windows 11.'
+                    'FXRT (ray tracing): a graphics card with hardware ray tracing, NVIDIA RTX or AMD Radeon RX 6000 and newer, and an up-to-date driver.'
                 ]
             },
             {
@@ -68,9 +67,7 @@ const prerequisitesSections = [
                 items: [
                     'Ray Tracing Minimum: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT',
                     'Ray Tracing Recommended: NVIDIA GeForce RTX 4060 Ti or AMD Radeon RX 7700 XT',
-                    'FXPT (path tracing): NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.',
-                    'FXPT (path tracing) builds on the game\'s ray tracing, so keep ray tracing on in the game\'s graphics settings. It is heavier on the GPU than the game\'s own.',
-                    'Denoisers: NRD runs on any card, DLSS Ray Reconstruction on RTX cards, and FSR Ray Regeneration on Radeon RX 9000 cards under Windows 11.'
+                    'FXPT (path tracing): NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.'
                 ]
             },
             {
