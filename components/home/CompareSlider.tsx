@@ -10,9 +10,10 @@ type Props = {
     afterLabel: string;
     alt: string;
     start?: number;
+    dragLabel?: string;
 };
 
-export default function CompareSlider({ before, after, beforeLabel, afterLabel, alt, start = 50 }: Props) {
+export default function CompareSlider({ before, after, beforeLabel, afterLabel, alt, start = 50, dragLabel = 'Drag to compare' }: Props) {
     const [pos, setPos] = useState(start);
     const boxRef = useRef<HTMLDivElement>(null);
     const dragging = useRef(false);
@@ -60,7 +61,7 @@ export default function CompareSlider({ before, after, beforeLabel, afterLabel, 
                 <div
                     role="slider"
                     tabIndex={0}
-                    aria-label="Drag to compare"
+                    aria-label={dragLabel}
                     aria-valuemin={0}
                     aria-valuemax={100}
                     aria-valuenow={Math.round(pos)}

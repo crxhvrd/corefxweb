@@ -2,6 +2,12 @@
 
 import { formatDistanceToNow, format } from 'date-fns';
 import { useEffect, useState, type ReactNode } from 'react';
+import { enGB, ru, uk } from 'date-fns/locale';
+import type { Ui } from '@/lib/content';
+import type { Locale } from '@/lib/i18n';
+import { rich } from '@/lib/rich';
+
+const DATE_LOCALES = { en: enGB, uk, ru };
 
 // Live source of truth for devblog posts. The GitHub Action commits the synced
 // JSON to the repo every few minutes; we read it straight from GitHub raw at
@@ -90,7 +96,8 @@ function renderContent(content: string): ReactNode[] {
   return out;
 }
 
-export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogPost[] }) {
+export default function DevBlogClient({ initialPosts, t, locale }: { initialPosts: DevblogPost[]; t: Ui['devblog']; locale: Locale }) {
+  const dateLocale = DATE_LOCALES[locale];
   const [posts, setPosts] = useState<DevblogPost[]>(() => sortPosts(initialPosts));
 
   // Refresh from the live JSON after mount so new posts appear without a rebuild.
@@ -114,37 +121,16 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
   return (
     <main className="relative min-h-screen px-4 sm:px-6 pt-28 sm:pt-32 pb-24 sm:pb-32 max-w-3xl mx-auto">
       <header className="mb-12">
-        <p className="font-mono text-xs text-white/40 mb-3">dev log</p>
-        <h1 className="text-2xl sm:text-3xl font-medium tracking-tight text-white">Dev Blog</h1>
-        <p className="mt-3 text-white/60">
-          Everything we post in our Discord&apos;s announcements channel, as it happens.{' '}
-          <a
-            href="https://discord.gg/jK4SRmBqYt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white"
-          >
-            Join us there
-          </a>{' '}
-          to talk about it.
-        </p>
+        <p className="font-mono text-xs text-white/40 mb-3">{t.label}</p>
+        <h1 className="text-2xl sm:text-3xl font-medium tracking-tight text-white">{t.title}</h1>
+        <p className="mt-3 text-white/60">{rich(t.intro, { locale })}</p>
+        {locale !== 'en' && <p className="mt-2 text-sm text-white/40">{t.note}</p>}
       </header>
 
       {posts.length === 0 ? (
         <div className="border-y border-white/10 py-10 text-center space-y-3">
-          <p className="text-white/80">No posts yet.</p>
-          <p className="text-white/50 text-sm">
-            Check back after our next Discord announcement, or{' '}
-            <a
-              href="https://discord.gg/jK4SRmBqYt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white underline underline-offset-4 decoration-white/30"
-            >
-              join the Discord
-            </a>{' '}
-            to catch them live.
-          </p>
+          <p className="text-white/80">{t.empty}</p>
+          <p className="text-white/50 text-sm">{rich(t.emptyMore, { locale })}</p>
         </div>
       ) : (
         <ol className="divide-y divide-white/10 border-y border-white/10">
@@ -171,12 +157,12 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                   <span className="text-white font-medium leading-none">{post.authorName}</span>
                   <time
                     dateTime={post.timestamp}
-                    title={format(new Date(post.timestamp), 'PPpp')}
+                    title={format(new Date(post.timestamp), 'PPpp', { locale: dateLocale })}
                     className="font-mono text-xs text-white/40 mt-1"
                     suppressHydrationWarning
                   >
-                    {format(new Date(post.timestamp), 'yyyy-MM-dd')} · {formatDistanceToNow(new Date(post.timestamp), { addSuffix: true })}
-                    {post.editedAt && <span className="ml-1 text-white/30">(edited)</span>}
+                    {format(new Date(post.timestamp), 'yyyy-MM-dd')} · {formatDistanceToNow(new Date(post.timestamp), { addSuffix: true, locale: dateLocale })}
+                    {post.editedAt && <span className="ml-1 text-white/30">{t.edited}</span>}
                   </time>
                 </div>
               </div>
@@ -274,7 +260,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                         rel="noopener noreferrer"
                         className="text-white underline underline-offset-4 decoration-white/30 text-sm"
                       >
-                        Attachment
+                        {t.attachment}
                       </a>
                     );
                   })}

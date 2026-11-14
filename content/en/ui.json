@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "CoreFX for Grand Theft Auto V",
+    "description": "A visual overhaul for Grand Theft Auto V by βeta: new weather, volumetric clouds and smoke, FXPT path tracing for Enhanced and FXRT ray tracing for Legacy."
+  },
+  "hero": {
+    "credit": "a βeta project · gta v legacy + enhanced",
+    "name": "CoreFX",
+    "line": "is a visual overhaul for Grand Theft Auto V",
+    "parts": [
+      "It’s built by *βeta*, a Discord community that formed in 2021 around the GTA V moviemaking scene, and has been in development since *February 2023*.",
+      "It overhauls the *weather system*, brings *volumetric clouds and smoke*, reworks *graphics textures*, and adds new features to *the game’s own shaders*.",
+      "Enhanced gets *FXPT*, our own path tracing. Legacy gets *FXRT*, real ray tracing for a game that never had it, along with *DLSS and FSR*.",
+      "Two builds: *Legacy* for the original game, *Enhanced* for the ray-traced one. Legacy also runs on FiveM; a server-side build and Enhanced FiveM are in the works.",
+      "Both singleplayer builds *cost nothing*: join the Patreon on its free tier, open the latest update post, and the links are there. The FiveM build is on the $5 tier. Start from *Download*, up top.",
+      "*Documentation* covers install for every platform, *Dev Blog* tracks what changed, and the *Discord* is where support and updates live."
+    ],
+    "scroll": "Scroll down"
+  },
+  "log": {
+    "label": "dev log",
+    "title": "What we’re working on",
+    "all": "Full log, straight from our Discord",
+    "video": "New video on YouTube",
+    "update": "Update"
+  },
+  "work": {
+    "label": "work",
+    "title": "What we’ve built",
+    "drag": "Drag to compare",
+    "features": {
+      "fxrt": {
+        "eyebrow": "legacy",
+        "title": "FXRT",
+        "lead": "Real ray tracing for GTA V Legacy, a game that never had it. The rays run against the actual scene, not just what is on screen, so sun and lamp shadows, ambient occlusion, bounce light and reflections hold up for everything the camera can’t see. Each part has its own switch.",
+        "note": "Off by default. It needs a card with hardware ray tracing: RTX, or RX 6000 and newer."
+      },
+      "fxpt": {
+        "eyebrow": "enhanced",
+        "title": "FXPT",
+        "lead": "Our own path tracer for GTA V Enhanced. Light from the sun, the sky, lamps, signs and windows is traced and keeps bouncing, so the city is lit by what is actually in it. Reflections are path traced too.",
+        "note": "Off by default. It is heavy: we made it for an RTX 5070 Ti or RX 9070 XT and up."
+      },
+      "clouds": {
+        "eyebrow": "legacy + enhanced",
+        "title": "Clouds",
+        "lead": "Real 3D clouds, raymarched through the sky instead of painted onto it. They cast shadows, let godrays through and light up in storms. Each weather has its own, designed in CloudBuilder, a small app we wrote that ships with CoreFX so you can make your own.",
+        "note": "The \"off\" side here is clouds switched off, not the game’s own sky.",
+        "before": "Clouds off",
+        "after": "Clouds",
+        "shots": {
+          "clouds_from_above": {
+            "title": "Real 3D clouds",
+            "text": "Shapes you can fly over and look down into."
+          },
+          "clouds_cockpit": {
+            "title": "Real depth",
+            "text": "Real volumes at real altitude, so the view from the cockpit has depth and scale."
+          },
+          "clouds_sunlight": {
+            "title": "Lit by the sun",
+            "text": "Edges glow and the shaded sides fall away."
+          },
+          "clouds_reflections": {
+            "title": "In reflections",
+            "text": "The same clouds show up in the sea, coloured by the time of day."
+          }
+        }
+      },
+      "smoke": {
+        "eyebrow": "legacy + enhanced",
+        "title": "Smoke",
+        "lead": "Burnout smoke, and if you like exhaust, flares and fires too, as a live simulation instead of flat sprites. It drifts with the wind, wraps round the car and is lit through its own depth.",
+        "note": "Off by default, and it only costs anything while there is smoke.",
+        "before": "Game sprites",
+        "after": "Smoke",
+        "shots": {
+          "smoke_volume": {
+            "title": "Smoke as a real volume",
+            "text": "It billows, drifts with the wind and is lit through its own depth."
+          }
+        }
+      }
+    },
+    "play": "Play"
+  },
+  "gallery": {
+    "label": "gallery",
+    "title": "Shots from the game",
+    "all": "All",
+    "more": "Show more ({n} left)",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "about": {
+    "label": "about",
+    "title": "Who makes CoreFX",
+    "paragraphs": [
+      "CoreFX is made by **βeta**, a Discord community that came together in 2021 around the GTA V moviemaking scene. We have been building it since February 2023: our main developer works from Ukraine, supported by people all around the world. The weather, the shader work, the clouds, FXPT and FXRT are our own, built on open tools like ReShade and RenoDX, and we post what we’re working on as we go.",
+      "**Getting it.** Both singleplayer builds, Legacy and Enhanced, are free: join our Patreon on its free tier and open the latest update post. The Legacy FiveM build is on the $5 tier, and the $9 tier gets each update ten days early. No effect is locked behind a tier. [How to download](#download).",
+      "**Installing and help.** The [docs](/docs/prerequisites) cover every build, every setting and the [usual problems](/docs/troubleshooting). For anything else, come and ask on our [Discord](https://discord.gg/jK4SRmBqYt): that’s where support and updates live."
+    ]
+  },
+  "other": {
+    "label": "beyond corefx",
+    "title": "Other things we make",
+    "side": "side projects",
+    "mods": "Smaller GTA V mods, on GTA5-Mods",
+    "github": "Our code, on GitHub",
+    "games": "other games",
+    "soon": "coming soon"
+  },
+  "docs": {
+    "label": "docs",
+    "sections": {
+      "features": "Features",
+      "prerequisites": "Prerequisites",
+      "installation": "Installation",
+      "settings": "Shader Settings",
+      "troubleshooting": "Troubleshooting",
+      "faq": "FAQ"
+    },
+    "install": {
+      "singleplayer": "Legacy Singleplayer",
+      "enhanced": "Enhanced Singleplayer",
+      "fivem": "Legacy FiveM",
+      "fivem-server": "Legacy FiveM ServerSide",
+      "enhanced-fivem": "Enhanced FiveM"
+    },
+    "installTitle": "Installation",
+    "ask": "Ask on Discord ↗",
+    "devblog": "Dev Blog",
+    "where": "Where",
+    "meta": {
+      "features": "What CoreFX does in GTA V Legacy and Enhanced, and where each feature lives in the menu.",
+      "prerequisites": "Hardware, software and in-game settings CoreFX needs, for Legacy and Enhanced.",
+      "settings": "Every tab and setting in the CoreFX Addon menu: FXRT, FXPT, anti-aliasing, frame generation, clouds, smoke and HDR.",
+      "troubleshooting": "Fixes sorted by what you see, and every on-screen CoreFX notice explained.",
+      "faq": "The questions people ask most about CoreFX.",
+      "install": "How to install, update and remove CoreFX for {name}.",
+      "installPrefix": "Install: {name}"
+    },
+    "metaSuffix": "Docs"
+  },
+  "devblog": {
+    "label": "dev log",
+    "title": "Dev Blog",
+    "intro": "Everything we post in our Discord’s announcements channel, as it happens. [Join us there](https://discord.gg/jK4SRmBqYt) to talk about it.",
+    "empty": "No posts yet.",
+    "emptyMore": "Check back after our next Discord announcement, or [join the Discord](https://discord.gg/jK4SRmBqYt) to catch them live.",
+    "note": "Posts appear as we wrote them in Discord, in English.",
+    "edited": "(edited)",
+    "attachment": "Attachment",
+    "description": "Everything the CoreFX team posts in its Discord announcements channel."
+  }
+}

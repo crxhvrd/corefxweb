@@ -1,75 +1,21 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 type Segment = { text: string; className?: string };
 
 const EM = 'text-white';
 
-// Typed once on load, then left alone. The name sits on its own line, title-card style.
-const HEADLINE: Segment[] = [
-    { text: 'CoreFX', className: 'block font-semibold text-white text-[2.1em] leading-[0.9] tracking-[-0.03em] mb-3' },
-    { text: 'is a visual overhaul for ', className: 'text-white/75' },
-    // non-breaking spaces keep the game title on one line at every width
-    { text: 'Grand\u00a0Theft\u00a0Auto\u00a0V', className: 'text-white/75' },
-];
+const NAME_CLASS = 'block font-semibold text-white text-[2.1em] leading-[0.9] tracking-[-0.03em] mb-3';
+const LINE_CLASS = 'text-white/75';
 
-// Typed, held, erased, replaced by the next one — forever.
-const PARTS: Segment[][] = [
-    [
-        { text: 'It’s built by ' },
-        { text: 'βeta', className: `${EM} font-medium` },
-        {
-            text:
-                ', a Discord community that formed in 2021 around the GTA\u00a0V moviemaking scene, ' +
-                'and has been in development since ',
-        },
-        { text: 'February\u00a02023', className: EM },
-        { text: '.' },
-    ],
-    [
-        { text: 'It overhauls the ' },
-        { text: 'weather system', className: EM },
-        { text: ', brings ' },
-        { text: 'volumetric clouds and smoke', className: EM },
-        { text: ', reworks ' },
-        { text: 'graphics textures', className: EM },
-        { text: ', and adds new features to ' },
-        { text: 'the\u00a0game’s own shaders', className: EM },
-        { text: '.' },
-    ],
-    [
-        { text: 'Enhanced gets ' },
-        { text: 'FXPT', className: EM },
-        { text: ', our own path tracing. Legacy gets ' },
-        { text: 'FXRT', className: EM },
-        { text: ', real ray tracing for a game that never had it, along with ' },
-        { text: 'DLSS and FSR', className: EM },
-        { text: '.' },
-    ],
-    [
-        { text: 'Two builds: ' },
-        { text: 'Legacy', className: EM },
-        { text: ' for the original game, ' },
-        { text: 'Enhanced', className: EM },
-        { text: ' for the ray-traced one. Legacy also runs on FiveM; a server-side build and Enhanced FiveM are in the works.' },
-    ],
-    [
-        { text: 'Both singleplayer builds ' },
-        { text: 'cost nothing', className: EM },
-        { text: ': join the Patreon on its free tier, open the latest update post, and the links are there. The FiveM build is on the $5 tier. Start from ' },
-        { text: 'Download', className: EM },
-        { text: ', up\u00a0top.' },
-    ],
-    [
-        { text: 'Documentation', className: EM },
-        { text: ' covers install for every platform, ' },
-        { text: 'Dev\u00a0Blog', className: EM },
-        { text: ' tracks what changed, and the ' },
-        { text: 'Discord', className: EM },
-        { text: ' is where support and updates live.' },
-    ],
-];
+/** "*word*" marks the words drawn brighter; everything else is plain. */
+function toSegments(text: string): Segment[] {
+    return text
+        .split(/(\*[^*]+\*)/)
+        .filter(Boolean)
+        .map((s) => (s.startsWith('*') && s.endsWith('*') ? { text: s.slice(1, -1), className: EM } : { text: s }));
+}
 
 const HEADLINE_CLASS = 'hero-headline font-normal leading-snug tracking-tight text-white';
 const BODY_CLASS = 'hero-sub leading-relaxed text-white/60';
@@ -96,9 +42,6 @@ const TIMING = {
 };
 
 const flatten = (segments: Segment[]) => Array.from(segments.map((s) => s.text).join(''));
-
-const HEADLINE_TEXT = flatten(HEADLINE);
-const PART_TEXTS = PARTS.map(flatten);
 
 /** Delay after `typed`, so the rhythm lands somewhere near a person at a keyboard. */
 function typeDelay(typed: string, before: string | undefined, base: number) {
@@ -151,7 +94,14 @@ function Caret({ size, blinking }: { size: string; blinking: boolean }) {
     );
 }
 
-export default function HeroIntro() {
+export default function HeroIntro({ credit, name, line, parts }: { credit: string; name: string; line: string; parts: string[] }) {
+    // Typed once on load, then left alone. The name sits on its own line, title-card style.
+    const HEADLINE = useMemo<Segment[]>(() => [{ text: name, className: NAME_CLASS }, { text: line, className: LINE_CLASS }], [name, line]);
+    // Typed, held, erased, replaced by the next one — forever.
+    const PARTS = useMemo(() => parts.map(toSegments), [parts]);
+    const HEADLINE_TEXT = useMemo(() => flatten(HEADLINE), [HEADLINE]);
+    const PART_TEXTS = useMemo(() => PARTS.map(flatten), [PARTS]);
+
     const [headTyped, setHeadTyped] = useState(0);
     const [bodyTyped, setBodyTyped] = useState(0);
     const [part, setPart] = useState(0);
@@ -234,7 +184,7 @@ export default function HeroIntro() {
             cancelled = true;
             clearTimeout(timer);
         };
-    }, []);
+    }, [HEADLINE_TEXT, PART_TEXTS, PARTS.length]);
 
     const onHeadline = headTyped < HEADLINE_TEXT.length;
     // once the banner is wiped the hero shows nothing at all: no caret, and no scrim
@@ -252,7 +202,7 @@ export default function HeroIntro() {
             <div className="animate-fadeUp relative mx-auto w-full max-w-7xl px-5 sm:px-8 pb-24 sm:pb-28">
                 <p className="hero-text-shadow mb-6 flex items-center gap-3 font-mono text-[11px] sm:text-xs text-white/70">
                     <span className="h-px w-8 bg-white/40" />
-                    a βeta project · gta v legacy + enhanced
+                    {credit}
                 </p>
 
                 <div className="relative max-w-3xl">

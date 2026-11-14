@@ -4,6 +4,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { images } from '@/data/gallery';
+import type { Ui } from '@/lib/content';
+import { fill } from '@/lib/merge';
 
 type Filter = 'All' | 'Enhanced' | 'Legacy';
 const FILTERS: Filter[] = ['All', 'Enhanced', 'Legacy'];
@@ -11,7 +13,7 @@ const STEP = 12;
 
 const gameOf = (version: string) => (version.includes('Legacy') ? 'Legacy' : 'Enhanced');
 
-export default function Gallery() {
+export default function Gallery({ t }: { t: Ui['gallery'] }) {
     const [filter, setFilter] = useState<Filter>('All');
     const [shown, setShown] = useState(STEP);
     const [open, setOpen] = useState<number | null>(null);
@@ -49,8 +51,8 @@ export default function Gallery() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
                     <div>
-                        <p className="font-mono text-xs text-white/40 mb-3">gallery</p>
-                        <h2 className="text-2xl sm:text-3xl font-medium tracking-tight">Shots from the game</h2>
+                        <p className="font-mono text-xs text-white/40 mb-3">{t.label}</p>
+                        <h2 className="text-2xl sm:text-3xl font-medium tracking-tight">{t.title}</h2>
                     </div>
                     <div className="flex gap-2 self-start sm:self-auto">
                         {FILTERS.map((f) => (
@@ -65,7 +67,7 @@ export default function Gallery() {
                                 className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${filter === f ? 'border-white/40 text-white' : 'border-white/10 text-white/60 hover:text-white'
                                     }`}
                             >
-                                {f}
+                                {f === 'All' ? t.all : f}
                             </button>
                         ))}
                     </div>
@@ -100,7 +102,7 @@ export default function Gallery() {
                             onClick={() => setShown((s) => s + STEP)}
                             className="rounded-md border border-white/15 hover:border-white/40 px-4 py-2 text-sm text-white/80 hover:text-white transition-colors"
                         >
-                            Show more ({list.length - shown} left)
+                            {fill(t.more, { n: list.length - shown })}
                         </button>
                     </div>
                 )}
@@ -135,12 +137,12 @@ export default function Gallery() {
                         <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-sm text-white/60">
                             {current.version} · {(open ?? 0) + 1} / {list.length}
                         </p>
-                        <button type="button" aria-label="Close" className="absolute top-4 right-4 p-2 text-white/70 hover:text-white" onClick={() => setOpen(null)}>
+                        <button type="button" aria-label={t.close} className="absolute top-4 right-4 p-2 text-white/70 hover:text-white" onClick={() => setOpen(null)}>
                             <X className="w-6 h-6" />
                         </button>
                         <button
                             type="button"
-                            aria-label="Previous"
+                            aria-label={t.previous}
                             className="absolute left-2 sm:left-6 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white hidden sm:block"
                             onClick={(e) => {
                                 e.stopPropagation();
@@ -151,7 +153,7 @@ export default function Gallery() {
                         </button>
                         <button
                             type="button"
-                            aria-label="Next"
+                            aria-label={t.next}
                             className="absolute right-2 sm:right-6 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white hidden sm:block"
                             onClick={(e) => {
                                 e.stopPropagation();

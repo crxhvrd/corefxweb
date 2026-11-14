@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Play } from 'lucide-react';
 
 // Shows the video's thumbnail and loads YouTube (privacy-enhanced domain) only on play.
-export default function YouTubeEmbed({ id, title }: { id: string; title: string }) {
+export default function YouTubeEmbed({ id, title, playLabel = 'Play' }: { id: string; title: string; playLabel?: string }) {
     const [playing, setPlaying] = useState(false);
 
     return (
@@ -21,7 +21,7 @@ export default function YouTubeEmbed({ id, title }: { id: string; title: string 
                 <button
                     type="button"
                     onClick={() => setPlaying(true)}
-                    aria-label={`Play: ${title}`}
+                    aria-label={`${playLabel}: ${title}`}
                     className="group absolute inset-0 h-full w-full"
                 >
                     {/* eslint-disable-next-line @next/next/no-img-element */}

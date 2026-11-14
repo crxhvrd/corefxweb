@@ -3,19 +3,13 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { FaDiscord, FaGithub, FaPatreon, FaYoutube } from 'react-icons/fa';
 import { Menu, X } from 'lucide-react';
 import { triggerDownloadModal } from '@/lib/downloadModalEvents';
-
-const links = [
-    { name: 'Work', href: '/#work' },
-    { name: 'Gallery', href: '/#gallery' },
-    { name: 'Dev Blog', href: '/devblog', match: '/devblog' },
-    { name: 'Docs', href: '/docs/prerequisites', match: '/docs' },
-    { name: 'About', href: '/#about' }
-];
+import { useChrome } from '@/lib/chrome';
+import { localePath } from '@/lib/i18n';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 const socials = [
     { href: 'https://discord.gg/jK4SRmBqYt', icon: FaDiscord, label: 'Discord' },
@@ -25,9 +19,17 @@ const socials = [
 ];
 
 export default function SiteHeader() {
-    const pathname = usePathname();
+    const { locale, path, t } = useChrome();
     const [scrolled, setScrolled] = useState(false);
     const [open, setOpen] = useState(false);
+
+    const links = [
+        { name: t.nav.work, href: '/#work' },
+        { name: t.nav.gallery, href: '/#gallery' },
+        { name: t.nav.devblog, href: '/devblog', match: '/devblog' },
+        { name: t.nav.docs, href: '/docs/prerequisites', match: '/docs' },
+        { name: t.nav.about, href: '/#about' }
+    ];
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 24);
@@ -36,9 +38,9 @@ export default function SiteHeader() {
         return () => window.removeEventListener('scroll', onScroll);
     }, []);
 
-    useEffect(() => setOpen(false), [pathname]);
+    useEffect(() => setOpen(false), [path, locale]);
 
-    const solid = scrolled || pathname !== '/';
+    const solid = scrolled || path !== '/';
 
     return (
         <header
@@ -46,33 +48,20 @@ export default function SiteHeader() {
                 }`}
         >
             <div className="mx-auto max-w-7xl h-16 px-4 sm:px-6 flex items-center gap-6">
-                <Link href="/" className="flex items-center gap-3 shrink-0" aria-label="CoreFX home">
-                    <Image
-                        src="/images/Beta.png"
-                        alt="βeta"
-                        width={28}
-                        height={28}
-                        className="rounded-full"
-                    />
+                <Link href={localePath(locale, '/')} className="flex items-center gap-3 shrink-0" aria-label={t.nav.home}>
+                    <Image src="/images/Beta.png" alt="βeta" width={28} height={28} className="rounded-full" />
                     <span className="text-white/30">/</span>
-                    <Image
-                        src="https://i.imgur.com/Awl16fH.png"
-                        alt="CoreFX"
-                        width={40}
-                        height={40}
-                        className="rounded"
-                        unoptimized
-                    />
+                    <Image src="https://i.imgur.com/Awl16fH.png" alt="CoreFX" width={40} height={40} className="rounded" unoptimized />
                 </Link>
 
                 <nav className="hidden md:flex items-center gap-1 text-sm">
                     {links.map((l) => {
-                        const active = l.match ? pathname?.startsWith(l.match) : false;
+                        const active = l.match ? path.startsWith(l.match) : false;
                         return (
                             <Link
-                                key={l.name}
-                                href={l.href}
-                                className={`px-3 py-2 rounded-md transition-colors ${active ? 'text-white' : 'text-white/65 hover:text-white'
+                                key={l.href}
+                                href={localePath(locale, l.href)}
+                                className={`px-3 py-2 rounded-md whitespace-nowrap transition-colors ${active ? 'text-white' : 'text-white/65 hover:text-white'
                                     }`}
                             >
                                 {l.name}
@@ -81,8 +70,8 @@ export default function SiteHeader() {
                     })}
                 </nav>
 
-                <div className="ml-auto flex items-center gap-2">
-                    <div className="hidden md:flex items-center gap-1 mr-2">
+                <div className="ml-auto flex items-center gap-1 sm:gap-2">
+                    <div className="hidden lg:flex items-center gap-1 mr-1">
                         {socials.map(({ href, icon: Icon, label }) => (
                             <a
                                 key={label}
@@ -96,18 +85,21 @@ export default function SiteHeader() {
                             </a>
                         ))}
                     </div>
+                    <div className="hidden md:block">
+                        <LanguageSwitcher />
+                    </div>
                     <button
                         type="button"
                         onClick={() => triggerDownloadModal()}
-                        className="px-3 py-2 text-sm text-white/85 hover:text-white underline underline-offset-4 decoration-white/30 hover:decoration-white/70 transition-colors"
+                        className="px-3 py-2 text-sm whitespace-nowrap text-white/85 hover:text-white underline underline-offset-4 decoration-white/30 hover:decoration-white/70 transition-colors"
                     >
-                        Download
+                        {t.nav.download}
                     </button>
                     <button
                         type="button"
                         onClick={() => setOpen((v) => !v)}
                         className="md:hidden p-2 text-white/80 hover:text-white"
-                        aria-label={open ? 'Close menu' : 'Open menu'}
+                        aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
                         aria-expanded={open}
                     >
                         {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -123,18 +115,18 @@ export default function SiteHeader() {
                         exit={{ height: 0, opacity: 0 }}
                         className="md:hidden overflow-hidden bg-[#08090b]/95 border-b border-white/10"
                     >
-                        <div className="px-4 py-3 flex flex-col">
+                        <div className="px-4 py-3 flex flex-col max-h-[calc(100svh-4rem)] overflow-y-auto">
                             {links.map((l) => (
                                 <Link
-                                    key={l.name}
-                                    href={l.href}
+                                    key={l.href}
+                                    href={localePath(locale, l.href)}
                                     onClick={() => setOpen(false)}
-                                    className="py-3 text-base text-white/80 hover:text-white border-b border-white/5 last:border-0"
+                                    className="py-3 text-base text-white/80 hover:text-white border-b border-white/5"
                                 >
                                     {l.name}
                                 </Link>
                             ))}
-                            <div className="flex gap-2 pt-3">
+                            <div className="flex gap-2 py-4">
                                 {socials.map(({ href, icon: Icon, label }) => (
                                     <a
                                         key={label}
@@ -147,6 +139,9 @@ export default function SiteHeader() {
                                         <Icon className="w-5 h-5" />
                                     </a>
                                 ))}
+                            </div>
+                            <div className="border-t border-white/5 pt-4 pb-2">
+                                <LanguageSwitcher inline />
                             </div>
                         </div>
                     </motion.nav>

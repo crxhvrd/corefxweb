@@ -1,0 +1,53 @@
+{
+  "skip": "Skip to content",
+  "nav": {
+    "work": "Work",
+    "gallery": "Gallery",
+    "devblog": "Dev Blog",
+    "docs": "Docs",
+    "about": "About",
+    "download": "Download",
+    "home": "CoreFX home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "footer": {
+    "tagline": "CoreFX, by βeta",
+    "business": "Business proposals:",
+    "copyright": "Copyright © CRXHVRD 2026. All rights reserved.",
+    "madeBy": "Website made by [Hrishikesh](https://hrishiportv2.vercel.app) with love",
+    "groups": { "corefx": "corefx", "help": "help", "elsewhere": "elsewhere", "legal": "legal" },
+    "links": {
+      "work": "Work",
+      "gallery": "Gallery",
+      "devblog": "Dev Blog",
+      "about": "About",
+      "docs": "Documentation",
+      "troubleshooting": "Troubleshooting",
+      "faq": "FAQ",
+      "licence": "Licence",
+      "notices": "Third-party notices",
+      "partners": "Partners"
+    },
+    "legalNote": ""
+  },
+  "download": {
+    "label": "download",
+    "title": "Getting CoreFX",
+    "steps": [
+      "1. Make a free account on our Patreon. Both **Singleplayer** builds — Legacy and Enhanced — are available at no cost once you join with a free membership. The **Legacy FiveM** build is on the $5 tier.",
+      "2. Subscribe to the CoreFX page and open any post announcing a CoreFX update to reveal the latest download links. The $9 tier gets new updates 10 days before everyone else.",
+      "3. Download the archive and follow the CoreFX setup instructions for your platform in the [CoreFX documentation](/docs/prerequisites)."
+    ],
+    "support": "**Supporting us:** a paid [Patreon](https://www.patreon.com/crxhvrd/membership) tier adds the FiveM build and early access to updates. No visual effect is locked behind it; it helps us keep working on CoreFX.",
+    "licence": "Every archive ships with the CoreFX [end user licence](/license). Installing CoreFX means accepting it.",
+    "button": "Open our Patreon ↗",
+    "close": "Close dialog"
+  },
+  "banner": {
+    "text": "This site is also available in English.",
+    "switch": "Switch",
+    "dismiss": "Dismiss"
+  }
+}

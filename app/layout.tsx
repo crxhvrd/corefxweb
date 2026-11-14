@@ -6,6 +6,7 @@ import SiteFooter from '@/components/home/SiteFooter';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
 import MotionProvider from '@/components/MotionProvider';
+import { HtmlLang, LanguageBanner, SkipLink } from '@/components/SiteChrome';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -46,12 +47,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} bg-[#0a0a0a] text-white overflow-x-hidden antialiased`}>
-        <a
-          href="#content"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[1000] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-black"
-        >
-          Skip to content
-        </a>
+        <SkipLink />
+        <HtmlLang />
         <ScrollToTopOnMount />
 
         <MotionProvider>
@@ -62,6 +59,7 @@ export default function RootLayout({
           <SiteFooter />
 
           <DownloadModalRoot />
+          <LanguageBanner />
         </MotionProvider>
       </body>
     </html>

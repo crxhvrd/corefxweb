@@ -1,14 +1,16 @@
-import postsData from '@/data/devblog-posts.json';
-import DevBlogClient, { type DevblogPost } from './DevBlogClient';
+import type { Metadata } from 'next';
+import DevBlogPage from '@/components/DevBlogPage';
+import { getUi } from '@/lib/content';
+import { alternatesFor } from '@/lib/i18n';
 
-export const metadata = {
-  title: 'Dev Blog',
-  description: 'Latest development updates from the CoreFX team, streamed live from our Discord announcements channel.',
+const t = getUi('en').devblog;
+
+export const metadata: Metadata = {
+  title: t.title,
+  description: t.description,
+  alternates: alternatesFor('/devblog', 'en')
 };
 
-// The bundled JSON is only a fallback / first-paint snapshot. DevBlogClient
-// re-fetches the live file from GitHub raw after mount, so new Discord posts
-// show up without triggering a Vercel rebuild. See scripts/vercel-ignore-build.sh.
-export default function DevBlogPage() {
-  return <DevBlogClient initialPosts={postsData as DevblogPost[]} />;
+export default function Page() {
+  return <DevBlogPage locale="en" />;
 }
