@@ -1,50 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import {
-    Collapsible,
-    CollapsibleContent,
-    CollapsibleTrigger
-} from '@/components/ui/collapsible';
-import { ChevronDown } from 'lucide-react';
 import AnimatedBackground from '@/components/AnimatedBackground';
 import { useInView } from 'react-intersection-observer';
 import { useParams, useRouter } from 'next/navigation';
-
-/* ───────────────────────── COMPONENTS ───────────────────────── */
-
-const InstallationStep = ({
-    title,
-    children,
-    defaultOpen = false
-}: {
-    title: string;
-    children: React.ReactNode;
-    defaultOpen?: boolean;
-}) => {
-    const [isOpen, setIsOpen] = useState(defaultOpen);
-    return (
-        <Collapsible
-            open={isOpen}
-            onOpenChange={setIsOpen}
-            className="mb-4 border border-white/10 rounded-lg bg-black/40 overflow-hidden"
-        >
-            <CollapsibleTrigger className="flex items-center justify-between w-full p-4 hover:bg-white/5 transition-colors text-left font-semibold text-lg">
-                {title}
-                <ChevronDown
-                    className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''
-                        }`}
-                />
-            </CollapsibleTrigger>
-            <CollapsibleContent>
-                <div className="p-4 pt-0 border-t border-white/10 text-gray-300 space-y-2 mt-4">
-                    {children}
-                </div>
-            </CollapsibleContent>
-        </Collapsible>
-    );
-};
+import InstallationStep from './InstallationStep';
+import FeaturesSection from './FeaturesSection';
+import TroubleshootingSection from './TroubleshootingSection';
 
 /* ───────────────────────── DATA ───────────────────────── */
 
@@ -59,7 +21,8 @@ const prerequisitesSections = [
                 items: [
                     'Minimum: NVIDIA GeForce RTX 2060 Super or AMD Radeon RX 5700',
                     'Recommended: NVIDIA GeForce RTX 3070 or AMD Radeon RX 6700 XT',
-                    'FXRT (ray tracing): a graphics card with hardware ray tracing, NVIDIA RTX or AMD Radeon RX 6000 and newer, and an up-to-date driver.'
+                    'FXRT (ray tracing): a graphics card with hardware ray tracing, NVIDIA RTX or AMD Radeon RX 6000 and newer, and an up-to-date driver.',
+                    'DLSS: an NVIDIA RTX card. FSR and XeSS: Windows 11 and a Direct3D 12 card. DLSS Frame Generation: RTX 40 series or newer.'
                 ]
             },
             {
@@ -102,6 +65,7 @@ const prerequisitesSections = [
                 title: 'Optional',
                 items: [
                     'FiveM (Multiplayer): CoreFX supports multiplayer platforms.',
+                    <>Microsoft Visual C++ Redistributable 14.40 or newer (x64): needed for Intel XeSS on Legacy. Most PCs have it already. (Download from <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Microsoft</a>)</>,
                     'Graphics Driver Updates: Keep your GPU drivers up to date.'
                 ]
             },
@@ -173,12 +137,22 @@ const faqs = [
     {
         question: 'What are FXPT and FXRT?',
         answer:
-            'FXPT is CoreFX\'s own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX\'s ray tracing for GTA V Legacy: ray-traced sun shadows, ambient occlusion, global illumination and lamp shadows. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.'
+            'FXPT is CoreFX\'s own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX\'s ray tracing for GTA V Legacy: ray-traced sun shadows, ambient occlusion, global illumination, lamp shadows and reflections, each with its own switch. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.'
     },
     {
-        question: 'How do I use DLSS or FSR on Legacy?',
+        question: 'How do I use DLSS, FSR or XeSS on Legacy?',
         answer:
-            'Open the Image tab of the CoreFX Addon window and set Anti-Aliasing to DLSS or FSR. At the game\'s Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game\'s TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.'
+            'Open the Image tab of the CoreFX Addon window and set Anti-Aliasing to DLSS, FSR or XeSS. At the game\'s Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game\'s TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.'
+    },
+    {
+        question: 'Does Legacy have frame generation?',
+        answer:
+            'Yes: AMD FSR, Intel XeSS or NVIDIA DLSS (RTX 40 series and newer), under Image > Frame Generation in the CoreFX Addon window. Set the game\'s Screen Type to Windowed Borderless. Low Latency next to it turns on NVIDIA Reflex or AMD Anti-Lag 2. On Enhanced, frame generation is in the game\'s own graphics settings.'
+    },
+    {
+        question: 'Something is wrong. Where do I start?',
+        answer:
+            'The Troubleshooting section of these docs is sorted by what you see, and it explains every on-screen CoreFX notice. If that does not fix it, ask on our Discord with your ReShade.log.'
     },
     {
         question: 'Can I change the clouds?',
@@ -199,6 +173,21 @@ const installTabs = [
 ] as const;
 type InstallTab = typeof installTabs[number];
 
+type Section =
+    | 'features'
+    | 'prerequisites'
+    | 'installation'
+    | 'settings'
+    | 'troubleshooting';
+
+const sections: { id: Section; label: string; path: string }[] = [
+    { id: 'features', label: 'Features', path: 'features' },
+    { id: 'prerequisites', label: 'Prerequisites', path: 'prerequisites' },
+    { id: 'installation', label: 'Installation', path: 'install' },
+    { id: 'settings', label: 'Shader Settings', path: 'settings' },
+    { id: 'troubleshooting', label: 'Troubleshooting', path: 'troubleshooting' }
+];
+
 const installLabels: Record<InstallTab, string> = {
     singleplayer: 'Legacy Singleplayer',
     enhanced: 'Enhanced Singleplayer',
@@ -206,6 +195,68 @@ const installLabels: Record<InstallTab, string> = {
     'fivem-server': 'Legacy FiveM ServerSide',
     'enhanced-fivem': 'Enhanced FiveM'
 };
+
+/* ──────────────── shared install steps ──────────────── */
+
+const SpUpdateSteps = ({ game }: { game: 'Legacy' | 'Enhanced' }) => (
+    <InstallationStep title="Updating from an older CoreFX">
+        <ol className="list-decimal pl-5 space-y-2">
+            <li>
+                To keep your menu settings, copy <code>CoreFX\Presets\CoreFX.ini</code>{' '}
+                from your GTA V {game} folder somewhere safe first.
+            </li>
+            <li>
+                Remove the old version: run <code>Uninstall.bat</code> and choose{' '}
+                <strong>Revert to Backup</strong> for CoreFX, as in{' '}
+                <strong>Uninstalling CoreFX</strong> below.
+            </li>
+            <li>
+                Install the new package as in <strong>Installing CoreFX</strong>.
+            </li>
+            <li>
+                Put <code>CoreFX.ini</code> back in <code>CoreFX\Presets</code>. Settings the
+                new version adds start at their defaults.
+            </li>
+            <li>
+                Check the in-game graphics settings again afterwards: a game update can
+                reset them.
+            </li>
+        </ol>
+    </InstallationStep>
+);
+
+const CheckItWorks = ({ legacy = false, fivem = false }: { legacy?: boolean; fivem?: boolean }) => (
+    <InstallationStep title="Check that it works">
+        <ol className="list-decimal pl-5 space-y-2">
+            <li>
+                When the game starts, ReShade shows a short banner at the top of the screen.
+            </li>
+            <li>
+                <strong>Page Up</strong> opens the ReShade overlay with the{' '}
+                <strong>CoreFX Addon</strong> window in it.
+            </li>
+            <li>
+                Once you are in the game world, no orange <em>CoreFX:</em> notice stays on
+                screen. If one does, the <strong>Troubleshooting</strong> section explains it.
+            </li>
+            {legacy && (
+                <li>
+                    Image &gt; Anti-Aliasing: the <strong>Running now</strong> line says what
+                    draws the frame. With FXRT on, the Ray Tracing tab shows no FXRT notice.
+                </li>
+            )}
+            <li>
+                With HDR on, the HDR tab says <strong>HDR is ACTIVE</strong>.
+            </li>
+            {fivem && (
+                <li>
+                    In FiveM, check on a server you know runs without its own weather
+                    resource: a server&apos;s weather files can replace CoreFX&apos;s.
+                </li>
+            )}
+        </ol>
+    </InstallationStep>
+);
 
 /* ───────────────────────── COMPONENT ───────────────────────── */
 
@@ -215,9 +266,7 @@ export default function DocsClient() {
     const slug = params?.slug as string[] | undefined;
 
     // Initialize state based on URL, or default if no URL param
-    const [activeSection, setActiveSection] = useState<
-        'prerequisites' | 'installation' | 'settings'
-    >('prerequisites');
+    const [activeSection, setActiveSection] = useState<Section>('prerequisites');
 
     const [activeInstallTab, setActiveInstallTab] =
         useState<InstallTab>('singleplayer');
@@ -231,10 +280,9 @@ export default function DocsClient() {
                 if (slug[1] && installTabs.includes(slug[1] as InstallTab)) {
                     setActiveInstallTab(slug[1] as InstallTab);
                 }
-            } else if (mainTab === 'prerequisites') {
-                setActiveSection('prerequisites');
-            } else if (mainTab === 'settings') {
-                setActiveSection('settings');
+            } else {
+                const match = sections.find((s) => s.path === mainTab);
+                if (match) setActiveSection(match.id);
             }
         } else {
             // Redirect /docs -> /docs/prerequisites
@@ -243,16 +291,13 @@ export default function DocsClient() {
     }, [slug, router]);
 
     // Update URL when changing sections
-    const handleSectionChange = (
-        section: 'prerequisites' | 'installation' | 'settings'
-    ) => {
+    const handleSectionChange = (section: Section) => {
         setActiveSection(section);
         if (section === 'installation') {
             router.push(`/docs/install/${activeInstallTab}`, { scroll: false });
-        } else if (section === 'settings') {
-            router.push('/docs/settings', { scroll: false });
         } else {
-            router.push('/docs/prerequisites', { scroll: false });
+            const path = sections.find((s) => s.id === section)?.path;
+            router.push(`/docs/${path}`, { scroll: false });
         }
     };
 
@@ -275,35 +320,26 @@ export default function DocsClient() {
                         {/* section switcher with expanding menu */}
                         <div className="flex items-center gap-2 mb-8 relative">
                             <div className="flex flex-wrap gap-2">
-                                <button
-                                    onClick={() => handleSectionChange('prerequisites')}
-                                    className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'prerequisites'
-                                        ? 'bg-white/20 text-white'
-                                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                                        }`}
-                                >
-                                    Prerequisites
-                                </button>
-                                <button
-                                    onClick={() => handleSectionChange('installation')}
-                                    className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'installation'
-                                        ? 'bg-white/20 text-white'
-                                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                                        }`}
-                                >
-                                    Installation
-                                </button>
-                                <button
-                                    onClick={() => handleSectionChange('settings')}
-                                    className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === 'settings'
-                                        ? 'bg-white/20 text-white'
-                                        : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
-                                        }`}
-                                >
-                                    Shader Settings
-                                </button>
+                                {sections.map((s) => (
+                                    <button
+                                        key={s.id}
+                                        onClick={() => handleSectionChange(s.id)}
+                                        className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === s.id
+                                            ? 'bg-white/20 text-white'
+                                            : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                                            }`}
+                                    >
+                                        {s.label}
+                                    </button>
+                                ))}
                             </div>
                         </div>
+
+                        {/* ───────── FEATURES ───────── */}
+                        {activeSection === 'features' && <FeaturesSection />}
+
+                        {/* ───────── TROUBLESHOOTING ───────── */}
+                        {activeSection === 'troubleshooting' && <TroubleshootingSection />}
 
                         {/* ───────── PREREQUISITES ───────── */}
                         {activeSection === 'prerequisites' && (
@@ -480,6 +516,9 @@ export default function DocsClient() {
                                                 </ol>
                                             </InstallationStep>
 
+                                            <SpUpdateSteps game="Legacy" />
+                                            <CheckItWorks legacy />
+
                                             <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-1">
                                                     <li>
@@ -601,6 +640,9 @@ export default function DocsClient() {
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
+
+                                            <SpUpdateSteps game="Enhanced" />
+                                            <CheckItWorks />
 
                                             <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-1">
@@ -738,6 +780,33 @@ export default function DocsClient() {
                                                     </li>
                                                 </ol>
                                             </InstallationStep>
+
+                                            <InstallationStep title="Updating from an older CoreFX">
+                                                <ol className="list-decimal pl-5 space-y-2">
+                                                    <li>
+                                                        To keep your menu settings, copy{' '}
+                                                        <code>plugins\CoreFX\Presets\CoreFX.ini</code> somewhere
+                                                        safe first.
+                                                    </li>
+                                                    <li>
+                                                        Remove the old version as in{' '}
+                                                        <strong>Uninstalling CoreFX</strong> below, from both the
+                                                        FiveM folders and the GTA V root folder.
+                                                    </li>
+                                                    <li>
+                                                        Copy the new package into place as in{' '}
+                                                        <strong>Installing CoreFX</strong>. Copying over the old
+                                                        files can leave ones the new version no longer uses.
+                                                    </li>
+                                                    <li>
+                                                        Put <code>CoreFX.ini</code> back in{' '}
+                                                        <code>plugins\CoreFX\Presets</code>. Settings the new
+                                                        version adds start at their defaults.
+                                                    </li>
+                                                </ol>
+                                            </InstallationStep>
+
+                                            <CheckItWorks legacy fivem />
 
                                             <InstallationStep title="Uninstalling CoreFX">
                                                 <ol className="list-decimal pl-5 space-y-2">
@@ -905,8 +974,9 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     <ul className="list-disc pl-5 space-y-3">
                                         <li>
                                             <strong>Ray Tracing</strong> — Ray Tracing:{' '}
-                                            <strong>Vanilla</strong> or <strong>FXRT</strong>. See{' '}
-                                            <strong>FXRT</strong> below.
+                                            <strong>Vanilla</strong> or <strong>FXRT</strong>, a
+                                            switch for each part of FXRT, and Performance Mode.
+                                            See <strong>FXRT</strong> below.
                                         </li>
                                         <li>
                                             <strong>World</strong> — Volumetric Clouds, Godrays,
@@ -935,8 +1005,10 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             Contact Shadows; lens ghosts and lens halo.
                                         </li>
                                         <li>
-                                            <strong>Image</strong> — Anti-Aliasing (see{' '}
-                                            <strong>Anti-aliasing and upscaling</strong> below);
+                                            <strong>Image</strong> — Anti-Aliasing, Frame
+                                            Generation and Low Latency (see{' '}
+                                            <strong>Anti-aliasing and upscaling</strong> and{' '}
+                                            <strong>Frame generation</strong> below);
                                             Screen-Space Reflections and wet surfaces; motion blur
                                             with an intensity slider.
                                         </li>
@@ -944,7 +1016,10 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             <strong>HDR</strong> — see below.
                                         </li>
                                         <li>
-                                            <strong>Options</strong> — hide the on-screen warnings.
+                                            <strong>Options</strong> — hide the on-screen
+                                            warnings; Video Memory, with Fit Texture Budget to
+                                            VRAM (see <strong>Performance and video memory</strong>{' '}
+                                            below).
                                         </li>
                                     </ul>
                                 </InstallationStep>
@@ -961,9 +1036,7 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             Reconstruction Model. See <strong>FXPT</strong> below.
                                         </li>
                                         <li>
-                                            <strong>World</strong> — as Legacy, plus{' '}
-                                            <strong>Enhanced Wind Animation</strong> for vegetation
-                                            (off by default).
+                                            <strong>World</strong> — as Legacy.
                                         </li>
                                         <li>
                                             <strong>Lighting</strong> — as Legacy. Streetlight
@@ -977,9 +1050,14 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             and upscaling stay in the game&apos;s graphics settings.
                                         </li>
                                         <li>
-                                            <strong>Vehicles &amp; Peds</strong>,{' '}
-                                            <strong>HDR</strong> and <strong>Options</strong> — same
-                                            as Legacy.
+                                            <strong>Vehicles &amp; Peds</strong> and{' '}
+                                            <strong>HDR</strong> — same as Legacy.
+                                        </li>
+                                        <li>
+                                            <strong>Options</strong> — hide the on-screen
+                                            warnings, and the Video Memory meter. Enhanced has no
+                                            texture budget setting: the game sizes it from your card
+                                            by itself.
                                         </li>
                                     </ul>
                                 </InstallationStep>
@@ -1046,22 +1124,43 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     </p>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>
-                                            Sun shadows, ambient occlusion, global illumination and
-                                            lamp shadows are ray traced, all from that one switch.
+                                            Each part has its own switch below it, all on by
+                                            default: <strong>Sun Shadows</strong> (the sun&apos;s and
+                                            the moon&apos;s, in place of the game&apos;s shadow maps),{' '}
+                                            <strong>Ambient Occlusion</strong>,{' '}
+                                            <strong>Global Illumination</strong> (bounce light from
+                                            lit walls and ground),{' '}
+                                            <strong>Lamp Shadows</strong> (street lamps and the other
+                                            shadow-casting lights) and <strong>RT Reflections</strong>{' '}
+                                            on glossy surfaces such as cars, wet roads and polished
+                                            floors. Switching a part off gives you the game&apos;s
+                                            own version of it.
+                                        </li>
+                                        <li>
+                                            RT Reflections need Global Illumination on. Indoors the
+                                            game&apos;s own ambient occlusion and ambient light stay.
+                                        </li>
+                                        <li>
+                                            <strong>Performance Mode</strong> makes FXRT cheaper at
+                                            a small cost in detail: the global illumination is traced
+                                            on half the pixels each frame, rays are shorter, and only
+                                            the lamps the game made shadow-casting cast ray-traced
+                                            shadows, which saves the most at night. It applies at
+                                            once.
                                         </li>
                                         <li>NRD does the denoising.</li>
                                         <li>
                                             It needs hardware ray tracing: NVIDIA RTX or Radeon RX
                                             6000 and newer, with an up-to-date driver.
                                         </li>
-                                        <li>It does not cover reflections or interiors.</li>
                                     </ul>
                                 </InstallationStep>
 
                                 <InstallationStep title="Anti-aliasing and upscaling (Legacy)" defaultOpen={false}>
                                     <p className="mb-3">
                                         <strong>Anti-Aliasing</strong> in the Image tab picks one of
-                                        four:
+                                        five. Each keeps its own settings, which show only while it
+                                        is picked.
                                     </p>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li>
@@ -1073,19 +1172,28 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                         </li>
                                         <li>
                                             <strong>DLSS</strong> — NVIDIA RTX cards and a recent
-                                            driver. <strong>DLAA Preset</strong> picks the network.
+                                            driver. <strong>Preset</strong> picks the network: K is
+                                            the default and the cheapest of the modern ones, L and M
+                                            are newer and sharper and use more video memory.
                                         </li>
                                         <li>
                                             <strong>FSR</strong> — AMD FSR 3.1, on any card that runs
                                             Direct3D 12, under Windows 11.
                                         </li>
+                                        <li>
+                                            <strong>XeSS</strong> — Intel XeSS Super Resolution.
+                                            Needs the same as FSR plus the Microsoft Visual C++
+                                            Redistributable 14.40 or newer, and runs best on Intel
+                                            Arc cards.
+                                        </li>
                                     </ul>
                                     <p className="mt-3">
                                         At the game&apos;s <strong>Frame Scaling</strong> 1.000 (in
-                                        Advanced Graphics), DLSS and FSR anti-alias at full size:
-                                        DLAA and FSR Native AA. Below it the game renders smaller
-                                        and they upscale to your screen. Texture sharpness for a new
-                                        Frame Scaling applies after a restart.
+                                        Advanced Graphics), DLSS, FSR and XeSS anti-alias at full
+                                        size: DLAA, FSR Native AA and XeSS Native AA. Below it the
+                                        game renders smaller and they upscale to your screen.
+                                        Texture sharpness for a new Frame Scaling applies after a
+                                        restart.
                                     </p>
                                     <p className="mt-3">
                                         Turn off the game&apos;s TXAA and FXAA. Upscaling also needs
@@ -1094,9 +1202,79 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                     <p className="mt-3">
                                         The <strong>Running now</strong> line under Anti-Aliasing
                                         shows what actually drew the last frame: the mode, such as
-                                        DLSS Quality or FSR Native AA, and its sizes. If DLSS or FSR
-                                        cannot run, it says so and names TAA.
+                                        DLSS Quality or FSR Native AA, and its sizes. If DLSS, FSR
+                                        or XeSS cannot run, it says so and names TAA.
                                     </p>
+                                </InstallationStep>
+
+                                <InstallationStep title="Frame generation and low latency (Legacy)" defaultOpen={false}>
+                                    <p className="mb-3">
+                                        <strong>Frame Generation</strong> in the Image tab makes a
+                                        frame between each two the game renders, so about twice as
+                                        many reach the screen. It works with every anti-aliasing
+                                        choice.
+                                    </p>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            <strong>AMD FSR</strong> — any recent card. Keeps the HUD
+                                            out of the made frames (not in HDR).
+                                        </li>
+                                        <li>
+                                            <strong>Intel XeSS</strong> — any recent card, with
+                                            Intel&apos;s XeLL latency reduction, which comes on with
+                                            it. It does not run while RivaTuner Statistics Server
+                                            (RTSS) is running.
+                                        </li>
+                                        <li>
+                                            <strong>NVIDIA DLSS</strong> — RTX 40 series and newer.
+                                            On an RTX 50, <strong>Frames Shown</strong> goes up to 4x.
+                                        </li>
+                                    </ul>
+                                    <p className="mt-3">
+                                        Frame generation needs the game&apos;s{' '}
+                                        <strong>Screen Type</strong> set to{' '}
+                                        <strong>Windowed Borderless</strong>, adds some input lag,
+                                        and pauses while the menu is open. It is at its best from
+                                        about 60 fps up.
+                                    </p>
+                                    <p className="mt-3">
+                                        <strong>Low Latency</strong> (Off, On, On + Boost) turns on
+                                        NVIDIA Reflex or AMD Anti-Lag 2, so frames do not queue up.
+                                        It costs frames in this game: in our tests about a third
+                                        less lag for about a sixth fewer frames. On + Boost keeps an
+                                        NVIDIA card at full clocks. While frame generation runs, it
+                                        keeps the latency down itself.
+                                    </p>
+                                </InstallationStep>
+
+                                <InstallationStep title="Performance and video memory" defaultOpen={false}>
+                                    <ul className="list-disc pl-5 space-y-2">
+                                        <li>
+                                            Every feature carries a <strong>performance cost</strong>{' '}
+                                            badge: <strong>Free</strong>, <strong>Low</strong>,{' '}
+                                            <strong>Medium</strong>, <strong>High</strong> or{' '}
+                                            <strong>Extreme</strong>, and <strong>Saves</strong> for
+                                            settings that make the game faster, such as the
+                                            performance modes. Hover a setting to see its cost in the
+                                            tooltip.
+                                        </li>
+                                        <li>
+                                            <strong>Options &gt; Video Memory</strong> shows the video
+                                            memory the game uses right now, out of what Windows gives
+                                            it, refreshed every second. If it goes over, Windows moves
+                                            memory out and the frame rate suffers.
+                                        </li>
+                                        <li>
+                                            <strong>Fit Texture Budget to VRAM</strong> (Legacy, on by
+                                            default) keeps the game&apos;s texture budget within what
+                                            your card can hold together with CoreFX. Without it, a
+                                            card with little video memory can overflow and the frame
+                                            rate can drop and stay down. On a 4 GB card it means
+                                            FiveM&apos;s Extended Texture Budget has no effect, and
+                                            textures may load later or look softer. Cards with plenty
+                                            of video memory are not affected either way.
+                                        </li>
+                                    </ul>
                                 </InstallationStep>
 
                                 <InstallationStep title="Clouds and CloudBuilder" defaultOpen={false}>
@@ -1267,6 +1445,13 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                             to remove it.
                                         </li>
                                     </ul>
+                                    <p className="mt-3">
+                                        CoreFX has a few more notices: another ReShade, weather
+                                        files that are not CoreFX&apos;s, a camera it cannot read,
+                                        the game&apos;s MSAA together with its anti-aliasing, and the
+                                        Singleplayer add-on in FiveM.{' '}
+                                        <strong>Troubleshooting</strong> goes through each of them.
+                                    </p>
                                     <p className="mt-3">
                                         <strong>Hide on-screen warnings</strong> in the{' '}
                                         <strong>Options</strong> tab silences them permanently,

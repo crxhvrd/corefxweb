@@ -16,7 +16,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'CoreFX for Grand Theft Auto V',
-  description: 'Visual Overhaul',
+  description:
+    'A visual overhaul for Grand Theft Auto V: new weather, volumetric clouds and smoke, FXPT path tracing for Enhanced and FXRT ray tracing for Legacy.',
   verification: {
     google: 'q1VFd5CuMhlxm-SiA9CXNLjEtkZVHH76FABplREUTY4',
   },

@@ -30,6 +30,8 @@ const PARTS: Segment[][] = [
     [
         { text: 'It overhauls the ' },
         { text: 'weather system', className: EM },
+        { text: ', brings ' },
+        { text: 'volumetric clouds and smoke', className: EM },
         { text: ', reworks ' },
         { text: 'graphics textures', className: EM },
         { text: ', and adds new features to ' },
@@ -41,7 +43,9 @@ const PARTS: Segment[][] = [
         { text: 'FXPT', className: EM },
         { text: ', our own path tracing. Legacy gets ' },
         { text: 'FXRT', className: EM },
-        { text: ', real ray tracing for a game that never had it.' },
+        { text: ', real ray tracing for a game that never had it, along with ' },
+        { text: 'DLSS and FSR', className: EM },
+        { text: '.' },
     ],
     [
         { text: 'Two builds: ' },

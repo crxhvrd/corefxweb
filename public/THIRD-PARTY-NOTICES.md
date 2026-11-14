@@ -151,8 +151,8 @@ https://github.com/NVIDIA-RTX/Streamline — Licence: MIT
 
 The Denoiser setting's Ray Reconstruction choice runs NVIDIA DLSS Ray Reconstruction, through the NGX interface of
 the DLSS SDK (310.9.1), in place of the game's own DLSS call (which reaches DLSS through Streamline). Parts of the DLSS
-SDK and of Streamline's headers are built into `CoreFX.addon64` in object code form. CoreFX for GTA V Enhanced ships no NVIDIA runtime
-files: `nvngx_dlssd.dll` and the game's DLSS files come from NVIDIA and from the game.
+SDK and of Streamline's headers are built into `CoreFX.addon64` in object code form. The Enhanced package ships NVIDIA's
+`nvngx_dlssd.dll` unmodified, in `CoreFX\Libraries\DLSS`. The game's DLSS files come from the game.
 
 In GTA V Legacy, CoreFX's DLSS upscaling and anti-aliasing runs through the same interface, and the Legacy package ships
 NVIDIA's `nvngx_dlss.dll` unmodified, in `CoreFX\Libraries\DLSS`.
