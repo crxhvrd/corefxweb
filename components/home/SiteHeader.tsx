@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
-import { FaDiscord, FaPatreon, FaYoutube } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaPatreon, FaYoutube } from 'react-icons/fa';
 import { Menu, X } from 'lucide-react';
 import { triggerDownloadModal } from '@/lib/downloadModalEvents';
 
@@ -20,7 +20,8 @@ const links = [
 const socials = [
     { href: 'https://discord.gg/jK4SRmBqYt', icon: FaDiscord, label: 'Discord' },
     { href: 'https://www.patreon.com/c/crxhvrd', icon: FaPatreon, label: 'Patreon' },
-    { href: 'https://www.youtube.com/@CRXHVRD', icon: FaYoutube, label: 'YouTube' }
+    { href: 'https://www.youtube.com/@CRXHVRD', icon: FaYoutube, label: 'YouTube' },
+    { href: 'https://github.com/crxhvrd', icon: FaGithub, label: 'GitHub' }
 ];
 
 export default function SiteHeader() {
@@ -41,9 +42,7 @@ export default function SiteHeader() {
 
     return (
         <header
-            className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${solid
-                ? 'bg-[#08090b]/85 backdrop-blur-md border-b border-white/10'
-                : 'bg-gradient-to-b from-black/60 to-transparent border-b border-transparent'
+            className={`fixed top-0 inset-x-0 z-50 backdrop-blur-md border-b border-white/10 transition-colors duration-300 ${solid ? 'bg-[#08090b]/85' : 'bg-black/25'
                 }`}
         >
             <div className="mx-auto max-w-7xl h-16 px-4 sm:px-6 flex items-center gap-6">

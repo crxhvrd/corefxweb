@@ -2,7 +2,7 @@ import PackageDocument from '@/components/PackageDocument';
 import { loadPackageDoc } from '@/lib/packageDoc';
 
 export const metadata = {
-  title: 'Third-Party Notices · CoreFX',
+  title: 'Third-Party Notices',
   description:
     'Licences and copyright notices for the third-party software CoreFX ships alongside — the same THIRD-PARTY-NOTICES.md that is in every CoreFX package.',
   alternates: { canonical: 'https://corefx.me/third-party-notices' },

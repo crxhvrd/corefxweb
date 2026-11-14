@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import bundled from '@/data/devblog-posts.json';
+import AmbientGlow from './AmbientGlow';
 
 type Attachment = { url: string; contentType: string };
-type Post = { id: string; timestamp: string; content: string; attachments: Attachment[] };
+export type Post = { id: string; timestamp: string; content: string; attachments: Attachment[] };
 
 const LIVE_URL = 'https://raw.githubusercontent.com/crxhvrd/corefxweb/main/data/devblog-posts.json';
 const COUNT = 5;
@@ -39,15 +39,21 @@ const day = (iso: string) => {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
-export default function LatestPosts() {
-    const [posts, setPosts] = useState<Post[]>((bundled as Post[]).slice(0, COUNT));
+export default function LatestPosts({ initial }: { initial: Post[] }) {
+    const [posts, setPosts] = useState<Post[]>(initial);
 
     useEffect(() => {
         let alive = true;
         fetch(`${LIVE_URL}?t=${Date.now()}`, { cache: 'no-store' })
             .then((r) => (r.ok ? r.json() : null))
             .then((d: Post[] | null) => {
-                if (alive && Array.isArray(d) && d.length) setPosts(d.slice(0, COUNT));
+                if (alive && Array.isArray(d) && d.length)
+                    setPosts(
+                        d
+                            .slice()
+                            .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())
+                            .slice(0, COUNT)
+                    );
             })
             .catch(() => undefined);
         return () => {
@@ -55,18 +61,23 @@ export default function LatestPosts() {
         };
     }, []);
 
+    const glow = posts
+        .flatMap((p) => p.attachments)
+        .find((a) => a.contentType?.startsWith('image/'))?.url;
+
     return (
-        <section id="log" className="scroll-mt-20 py-24 sm:py-28">
-            <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <section id="log" className="relative scroll-mt-20 py-24 sm:py-28">
+            <div className="relative isolate mx-auto max-w-7xl px-4 sm:px-6">
+                <AmbientGlow src={glow} strength={0.2} />
                 <p className="font-mono text-xs text-white/40 mb-3">dev log</p>
-                <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-10">
+                <div className="max-w-5xl flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-10">
                     <h2 className="text-2xl sm:text-3xl font-medium tracking-tight">What we&apos;re working on</h2>
                     <Link href="/devblog" className="text-sm text-white/60 hover:text-white underline underline-offset-4 decoration-white/20">
                         Full log, straight from our Discord
                     </Link>
                 </div>
 
-                <ol className="divide-y divide-white/10 border-y border-white/10">
+                <ol className="max-w-5xl divide-y divide-white/10 border-y border-white/10">
                     {posts.map((p) => {
                         const { title, body } = split(p.content);
                         const image = p.attachments.find((a) => a.contentType?.startsWith('image/'));

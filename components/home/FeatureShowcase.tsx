@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import CompareSlider from './CompareSlider';
 import YouTubeEmbed from './YouTubeEmbed';
+import AmbientGlow from './AmbientGlow';
 
 type Shot = { slug: string; title: string; text: string; start?: number };
 
@@ -68,8 +69,7 @@ const features: Feature[] = [
     }
 ];
 
-function Comparison({ f }: { f: Extract<Feature, { shots: Shot[] }> }) {
-    const [i, setI] = useState(0);
+function Comparison({ f, i, setI }: { f: Extract<Feature, { shots: Shot[] }>; i: number; setI: (n: number) => void }) {
     const shot = f.shots[i];
 
     return (
@@ -112,7 +112,15 @@ function Comparison({ f }: { f: Extract<Feature, { shots: Shot[] }> }) {
 }
 
 function FeatureBlock({ f, flip }: { f: Feature; flip: boolean }) {
+    const [i, setI] = useState(0);
+    const glow =
+        'video' in f
+            ? `https://i.ytimg.com/vi/${f.video.id}/hqdefault.jpg`
+            : `/images/compare/${f.shots[i].slug}-after.webp`;
+
     return (
+        <div className="relative">
+        <AmbientGlow src={glow} />
         <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -128,25 +136,20 @@ function FeatureBlock({ f, flip }: { f: Feature; flip: boolean }) {
             </div>
 
             <div className={`min-w-0 lg:col-span-8 ${flip ? 'lg:order-1' : ''}`}>
-                {'video' in f ? <YouTubeEmbed id={f.video.id} title={f.video.title} /> : <Comparison f={f} />}
+                {'video' in f ? <YouTubeEmbed id={f.video.id} title={f.video.title} /> : <Comparison f={f} i={i} setI={setI} />}
             </div>
         </motion.div>
+        </div>
     );
 }
 
 export default function FeatureShowcase() {
     return (
-        <section id="work" className="scroll-mt-20 py-24 sm:py-28 border-t border-white/5">
+        <section id="work" className="relative isolate scroll-mt-20 py-24 sm:py-28 border-t border-white/5">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
-                <div className="max-w-2xl mb-14">
+                <div className="max-w-2xl mb-12">
                     <p className="font-mono text-xs text-white/40 mb-3">work</p>
                     <h2 className="text-2xl sm:text-3xl font-medium tracking-tight">What we&apos;ve built</h2>
-                    <p className="mt-4 text-white/60">
-                        FXRT and FXPT are best seen moving, so those are our videos. For the clouds and
-                        smoke, drag across each shot: same spot, seconds apart, nothing graded. The rest
-                        is in the{' '}
-                        <a href="/docs/features" className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white">docs</a>.
-                    </p>
                 </div>
                 <div className="space-y-24 sm:space-y-28">
                     {features.map((f, n) => (

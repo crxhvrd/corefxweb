@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { partners } from '@/data/partners';
 
 export const metadata = {
-  title: 'Authorised partners · CoreFX',
+  title: 'Authorised partners',
   description:
     'The partners licensed to publish CoreFX technology under their own name, as required by section 3.2 of the CoreFX licence.',
   alternates: { canonical: 'https://corefx.me/partners' },

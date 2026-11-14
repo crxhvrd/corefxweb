@@ -5,7 +5,7 @@ import { loadPackageDoc } from '@/lib/packageDoc';
 // people copy out of it. `output: 'export'` has no redirects, so this serves the
 // same page and points search engines at /license.
 export const metadata = {
-  title: 'Licence · CoreFX',
+  title: 'Licence',
   description:
     'The CoreFX end user licence agreement — the same LICENSE.md that ships inside every CoreFX package.',
   alternates: { canonical: 'https://corefx.me/license' },

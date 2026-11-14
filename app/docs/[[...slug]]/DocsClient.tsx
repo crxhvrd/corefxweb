@@ -44,9 +44,9 @@ const prerequisitesSections = [
                 title: 'Software',
                 items: [
                     'Base Game: A legitimate copy of Grand Theft Auto V.',
-                    <><strong>RageOpenV.asi (Recommended, Legacy & Enhanced Singleplayer):</strong> A modern replacement for both OpenIV.asi and OpenRPF.asi. Required to load mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
-                    <>OpenIV.asi (Legacy Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager. Superseded by RageOpenV.asi.</>,
-                    <>OpenRPF.asi (Enhanced Singleplayer, Legacy Alternative): Loads mods from the "mods" folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>). Superseded by RageOpenV.asi.</>,
+                    <><strong>RageOpenV.asi (Recommended, Legacy & Enhanced Singleplayer):</strong> A modern replacement for both OpenIV.asi and OpenRPF.asi. Required to load mods from the <code>mods</code> folder. (Download from <a href="https://www.gta5-mods.com/scripts/rageopenv" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
+                    <>OpenIV.asi (Legacy Singleplayer, Legacy Alternative): Loads mods from the <code>mods</code> folder. Comes with the <a href="https://openiv.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">OpenIV app</a>, can be installed inside OpenIV &gt; ASI Manager. Superseded by RageOpenV.asi.</>,
+                    <>OpenRPF.asi (Enhanced Singleplayer, Legacy Alternative): Loads mods from the <code>mods</code> folder. (Download from <a href="https://www.gta5-mods.com/tools/openrpf-openiv-asi-for-gta-v-enhanced" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>). Superseded by RageOpenV.asi.</>,
                     <>ScriptHookV & Asi Loader (Legacy & Enhanced Singleplayer): Necessary for proper script loading. (Download from <a href="https://www.dev-c.com/gtav/scripthookv/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">dev-c.com</a>). Legacy ASI Loader is <code>dinput8.dll</code>, Enhanced ASI Loader is <code>xinput1_4.dll</code>.</>,
                     <><strong>CoreFX Package Installer:</strong> Bundled with both Singleplayer archives and launched for you by <code>Install.bat</code> — you do not download or run it separately. It installs the <code>.oivs</code> package directly, with no OpenIV app required. (Project page: <a href="https://www.gta5-mods.com/tools/oiv-package-installer" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">GTA5-Mods</a>)</>,
                     <><strong>Note for Legacy FiveM:</strong> that package has no installer. It is copied into place by hand — see the Legacy FiveM installation guide.</>
@@ -310,6 +310,12 @@ export default function DocsClient() {
 
     useEffect(() => {
         window.scrollTo({ top: 0 });
+        // phones: bring the current section into view in the sideways nav row
+        const nav = document.getElementById('docs-nav');
+        const active = nav?.querySelector<HTMLElement>('[data-active="true"]');
+        if (nav && active && nav.scrollWidth > nav.clientWidth) {
+            nav.scrollTo({ left: active.offsetLeft - 16, behavior: 'smooth' });
+        }
     }, [activeSection]);
 
     return (
@@ -319,12 +325,14 @@ export default function DocsClient() {
                 <aside className="mb-8 lg:mb-0">
                     <div className="lg:sticky lg:top-24">
                         <p className="font-mono text-xs text-white/40 mb-3">docs</p>
-                        <nav className="flex lg:flex-col gap-1 overflow-x-auto -mx-4 px-4 lg:mx-0 lg:px-0 pb-2 lg:pb-0">
+                        <nav id="docs-nav" aria-label="Docs sections" className="relative flex lg:flex-col gap-1 overflow-x-auto -mx-4 px-4 lg:mx-0 lg:px-0 pb-2 lg:pb-0">
                             {sections.map((s) => (
                                 <div key={s.id} className="shrink-0">
                                     <button
                                         type="button"
                                         onClick={() => handleSectionChange(s.id)}
+                                        data-active={activeSection === s.id}
+                                        aria-current={activeSection === s.id ? 'page' : undefined}
                                         className={`w-full text-left whitespace-nowrap rounded-md px-3 py-2 text-sm transition-colors ${activeSection === s.id
                                             ? 'bg-white/10 text-white'
                                             : 'text-white/60 hover:text-white'

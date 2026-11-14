@@ -2,7 +2,7 @@ import postsData from '@/data/devblog-posts.json';
 import DevBlogClient, { type DevblogPost } from './DevBlogClient';
 
 export const metadata = {
-  title: 'Dev Blog · CoreFX',
+  title: 'Dev Blog',
   description: 'Latest development updates from the CoreFX team, streamed live from our Discord announcements channel.',
 };
 

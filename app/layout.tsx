@@ -5,13 +5,34 @@ import SiteHeader from '@/components/home/SiteHeader';
 import SiteFooter from '@/components/home/SiteFooter';
 import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
+import MotionProvider from '@/components/MotionProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const DESCRIPTION =
+  'A visual overhaul for Grand Theft Auto V by βeta: new weather, volumetric clouds and smoke, FXPT path tracing for Enhanced and FXRT ray tracing for Legacy.';
+
 export const metadata: Metadata = {
-  title: 'CoreFX for Grand Theft Auto V',
-  description:
-    'A visual overhaul for Grand Theft Auto V: new weather, volumetric clouds and smoke, FXPT path tracing for Enhanced and FXRT ray tracing for Legacy.',
+  metadataBase: new URL('https://corefx.me'),
+  title: {
+    default: 'CoreFX for Grand Theft Auto V',
+    template: '%s · CoreFX',
+  },
+  description: DESCRIPTION,
+  openGraph: {
+    type: 'website',
+    siteName: 'CoreFX',
+    title: 'CoreFX for Grand Theft Auto V',
+    description: DESCRIPTION,
+    url: 'https://corefx.me',
+    images: [{ url: '/videos/corefx-poster.jpg', alt: 'CoreFX in GTA V' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CoreFX for Grand Theft Auto V',
+    description: DESCRIPTION,
+    images: ['/videos/corefx-poster.jpg'],
+  },
   verification: {
     google: 'q1VFd5CuMhlxm-SiA9CXNLjEtkZVHH76FABplREUTY4',
   },
@@ -24,17 +45,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-[#0a0a0a] text-white overflow-x-hidden`}>
+      <body className={`${inter.className} bg-[#0a0a0a] text-white overflow-x-hidden antialiased`}>
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[1000] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-black"
+        >
+          Skip to content
+        </a>
         <ScrollToTopOnMount />
 
-        <SiteHeader />
+        <MotionProvider>
+          <SiteHeader />
 
-        {/* Main Page Content */}
-        {children}
+          <div id="content">{children}</div>
 
-        <SiteFooter />
+          <SiteFooter />
 
-        <DownloadModalRoot />
+          <DownloadModalRoot />
+        </MotionProvider>
       </body>
     </html>
   );

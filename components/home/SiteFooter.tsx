@@ -15,7 +15,17 @@ const groups = [
         links: [
             { name: 'Documentation', href: '/docs/prerequisites' },
             { name: 'Troubleshooting', href: '/docs/troubleshooting' },
-            { name: 'Discord', href: 'https://discord.gg/jK4SRmBqYt', external: true }
+            { name: 'FAQ', href: '/docs/faq' }
+        ]
+    },
+    {
+        title: 'Elsewhere',
+        links: [
+            { name: 'Discord', href: 'https://discord.gg/jK4SRmBqYt', external: true },
+            { name: 'YouTube', href: 'https://www.youtube.com/@CRXHVRD', external: true },
+            { name: 'Patreon', href: 'https://www.patreon.com/c/crxhvrd', external: true },
+            { name: 'GitHub', href: 'https://github.com/crxhvrd', external: true },
+            { name: 'GTA5-Mods', href: 'https://www.gta5-mods.com/users/safari4831', external: true }
         ]
     },
     {
@@ -31,8 +41,8 @@ const groups = [
 export default function SiteFooter() {
     return (
         <footer className="relative border-t border-white/10 bg-[#060708]">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
-                <div className="lg:col-span-2 space-y-3 text-sm text-white/50">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-14 grid gap-10 grid-cols-2 lg:grid-cols-6">
+                <div className="col-span-2 space-y-3 text-sm text-white/50">
                     <p className="text-white">CoreFX, by βeta</p>
                     <p>
                         Business proposals:{' '}

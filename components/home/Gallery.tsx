@@ -45,23 +45,24 @@ export default function Gallery() {
     const current = open === null ? null : list[open];
 
     return (
-        <section id="gallery" className="scroll-mt-20 py-24 sm:py-32 border-t border-white/5">
+        <section id="gallery" className="relative scroll-mt-20 py-24 sm:py-28 border-t border-white/5">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
                     <div>
                         <p className="font-mono text-xs text-white/40 mb-3">gallery</p>
                         <h2 className="text-2xl sm:text-3xl font-medium tracking-tight">Shots from the game</h2>
                     </div>
-                    <div className="flex gap-1 rounded-full bg-white/5 p-1 self-start sm:self-auto">
+                    <div className="flex gap-2 self-start sm:self-auto">
                         {FILTERS.map((f) => (
                             <button
                                 key={f}
                                 type="button"
+                                aria-pressed={filter === f}
                                 onClick={() => {
                                     setFilter(f);
                                     setShown(STEP);
                                 }}
-                                className={`rounded-full px-4 py-1.5 text-sm transition-colors ${filter === f ? 'bg-white text-black' : 'text-white/70 hover:text-white'
+                                className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${filter === f ? 'border-white/40 text-white' : 'border-white/10 text-white/60 hover:text-white'
                                     }`}
                             >
                                 {f}
@@ -85,7 +86,7 @@ export default function Gallery() {
                                 loading="lazy"
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                             />
-                            <span className="absolute left-2 bottom-2 rounded-full bg-black/60 px-2 py-0.5 text-[11px] text-white/80 backdrop-blur-sm">
+                            <span className="absolute left-2 bottom-2 rounded bg-black/60 px-1.5 py-0.5 font-mono text-[10px] text-white/75 backdrop-blur-sm">
                                 {img.version}
                             </span>
                         </button>
@@ -93,11 +94,11 @@ export default function Gallery() {
                 </div>
 
                 {shown < list.length && (
-                    <div className="mt-8 text-center">
+                    <div className="mt-8">
                         <button
                             type="button"
                             onClick={() => setShown((s) => s + STEP)}
-                            className="rounded-full border border-white/15 hover:border-white/40 px-6 py-2.5 text-sm transition-colors"
+                            className="rounded-md border border-white/15 hover:border-white/40 px-4 py-2 text-sm text-white/80 hover:text-white transition-colors"
                         >
                             Show more ({list.length - shown} left)
                         </button>

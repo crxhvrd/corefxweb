@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 
 type Segment = { text: string; className?: string };
 
-const EM = 'text-white/85';
+const EM = 'text-white';
 
-// Typed once on load, then left alone.
+// Typed once on load, then left alone. The name sits on its own line, title-card style.
 const HEADLINE: Segment[] = [
-    { text: 'CoreFX', className: 'font-semibold' },
-    { text: ' is a visual overhaul for ' },
+    { text: 'CoreFX', className: 'block font-semibold text-white text-[2.1em] leading-[0.9] tracking-[-0.03em] mb-3' },
+    { text: 'is a visual overhaul for ', className: 'text-white/75' },
     // non-breaking spaces keep the game title on one line at every width
-    { text: 'Grand\u00a0Theft\u00a0Auto\u00a0V' },
+    { text: 'Grand\u00a0Theft\u00a0Auto\u00a0V', className: 'text-white/75' },
 ];
 
 // Typed, held, erased, replaced by the next one — forever.
@@ -71,7 +71,7 @@ const PARTS: Segment[][] = [
     ],
 ];
 
-const HEADLINE_CLASS = 'hero-headline font-medium leading-snug tracking-tight text-white';
+const HEADLINE_CLASS = 'hero-headline font-normal leading-snug tracking-tight text-white';
 const BODY_CLASS = 'hero-sub leading-relaxed text-white/60';
 
 const TIMING = {
@@ -242,48 +242,64 @@ export default function HeroIntro() {
     const empty = headTyped === 0 && bodyTyped === 0;
 
     return (
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex h-screen items-center justify-center overflow-hidden px-6 pb-24 sm:pb-16">
-            <div className="animate-fadeUp relative w-full max-w-3xl text-center">
-                {/* soft scrim — the footage behind this is bright */}
-                <div
-                    aria-hidden
-                    className={`absolute left-1/2 top-1/2 h-[280%] w-[125%] -translate-x-1/2 -translate-y-1/2 rounded-[50%] bg-black/40 blur-3xl transition-opacity duration-700 ${empty ? 'opacity-0' : 'opacity-100'}`}
-                />
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex h-screen items-end overflow-hidden">
+            {/* scrim: darkens the footage where the text sits (bottom left), leaves the rest alone */}
+            <div
+                aria-hidden
+                className={`absolute inset-0 bg-[radial-gradient(ellipse_85%_85%_at_0%_100%,rgba(0,0,0,0.75),rgba(0,0,0,0.4)_45%,transparent_78%)] transition-opacity duration-700 ${empty ? 'opacity-40' : 'opacity-100'}`}
+            />
 
-                {/* Invisible copy of everything: reserves the height of the longest part so the block
-                    never resizes mid-cycle, and carries the real text for readers and crawlers. */}
-                <div className="relative select-none opacity-0">
-                    <p className={HEADLINE_CLASS}>
-                        {HEADLINE.map((segment, i) => (
-                            <span key={i} className={segment.className}>
-                                {segment.text}
-                            </span>
-                        ))}
-                    </p>
-                    <div className="mt-4 grid sm:mt-5">
-                        {PARTS.map((segments, i) => (
-                            <p key={i} className={`${BODY_CLASS} [grid-area:1/1]`}>
-                                {segments.map((segment, j) => (
-                                    <span key={j} className={segment.className}>
-                                        {segment.text}
-                                    </span>
-                                ))}
+            <div className="animate-fadeUp relative mx-auto w-full max-w-7xl px-5 sm:px-8 pb-24 sm:pb-28">
+                <p className="hero-text-shadow mb-6 flex items-center gap-3 font-mono text-[11px] sm:text-xs text-white/70">
+                    <span className="h-px w-8 bg-white/40" />
+                    a βeta project · gta v legacy + enhanced
+                </p>
+
+                <div className="relative max-w-3xl">
+                    {/* Invisible copy of everything: reserves the height of the longest part so the block
+                        never resizes mid-cycle, and carries the real text for readers and crawlers. */}
+                    <div className="relative select-none opacity-0">
+                        <p className={HEADLINE_CLASS}>
+                            {HEADLINE.map((segment, i) => (
+                                <span key={i} className={segment.className}>
+                                    {segment.text}
+                                </span>
+                            ))}
+                        </p>
+                        <div className="mt-6 grid max-w-xl border-l border-transparent pl-4 sm:mt-8">
+                            {PARTS.map((segments, i) => (
+                                <p key={i} className={`${BODY_CLASS} [grid-area:1/1]`}>
+                                    {segments.map((segment, j) => (
+                                        <span key={j} className={segment.className}>
+                                            {segment.text}
+                                        </span>
+                                    ))}
+                                </p>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* the animated copy, laid over the sizer */}
+                    <div aria-hidden className="hero-text-shadow absolute inset-0">
+                        <p className={HEADLINE_CLASS}>
+                            {slice(HEADLINE, headTyped)}
+                            {onHeadline && !empty && <Caret size="w-[3px] -mr-[3px] h-[0.95em]" blinking={resting} />}
+                        </p>
+                        <div className={`mt-6 max-w-xl border-l pl-4 sm:mt-8 transition-colors duration-500 ${onHeadline ? 'border-transparent' : 'border-white/30'}`}>
+                            <p className={BODY_CLASS}>
+                                {slice(PARTS[part], bodyTyped)}
+                                {!onHeadline && <Caret size="w-[2px] -mr-[2px] h-[0.9em]" blinking={resting} />}
                             </p>
-                        ))}
+                        </div>
                     </div>
                 </div>
 
-                {/* the animated copy, laid over the sizer */}
-                <div aria-hidden className="hero-text-shadow absolute inset-0">
-                    <p className={HEADLINE_CLASS}>
-                        {slice(HEADLINE, headTyped)}
-                        {onHeadline && !empty && <Caret size="w-[3px] -mr-[3px] h-[0.95em]" blinking={resting} />}
-                    </p>
-                    <p className={`${BODY_CLASS} mt-4 sm:mt-5`}>
-                        {slice(PARTS[part], bodyTyped)}
-                        {!onHeadline && <Caret size="w-[2px] -mr-[2px] h-[0.9em]" blinking={resting} />}
-                    </p>
-                </div>
+                <p
+                    aria-hidden
+                    className={`mt-6 font-mono text-[11px] text-white/35 transition-opacity duration-500 ${onHeadline ? 'opacity-0' : 'opacity-100'}`}
+                >
+                    {String(part + 1).padStart(2, '0')} / {String(PARTS.length).padStart(2, '0')}
+                </p>
             </div>
         </div>
     );

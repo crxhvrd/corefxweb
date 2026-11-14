@@ -155,6 +155,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
             >
               <div className="flex items-center gap-3">
                 {post.authorAvatarUrl ? (
+                  // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={post.authorAvatarUrl}
                     alt=""
@@ -203,6 +204,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                       <p className="text-gray-300 text-sm whitespace-pre-line">{embed.description}</p>
                     )}
                     {embed.imageUrl && (
+                      // eslint-disable-next-line @next/next/no-img-element
                       <img
                         src={embed.imageUrl}
                         alt=""
@@ -241,6 +243,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                   {post.attachments.map((att) => {
                     if (att.contentType.startsWith('image/')) {
                       return (
+                        // eslint-disable-next-line @next/next/no-img-element
                         <img
                           key={att.url}
                           src={att.url}

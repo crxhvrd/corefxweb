@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: '404 · CoreFX',
+  title: '404',
   description: 'This page got lost in the fog volumetrics.',
 };
 

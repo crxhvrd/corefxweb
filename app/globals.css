@@ -169,3 +169,31 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+/* Home background: ambient glow fade-in and moving film grain */
+@keyframes ambient-in {
+  from { opacity: 0; }
+}
+.ambient-in {
+  animation: ambient-in 0.9s ease-out;
+}
+@keyframes grain-shift {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-40px, 25px); }
+  40% { transform: translate(30px, -45px); }
+  60% { transform: translate(-25px, -15px); }
+  80% { transform: translate(45px, 35px); }
+  100% { transform: translate(0, 0); }
+}
+.film-grain {
+  animation: grain-shift 0.9s steps(5) infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .film-grain, .ambient-in { animation: none; }
+}
+
+/* Keyboard focus: one clear, quiet ring everywhere */
+:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

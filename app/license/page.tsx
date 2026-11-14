@@ -2,7 +2,7 @@ import PackageDocument from '@/components/PackageDocument';
 import { loadPackageDoc } from '@/lib/packageDoc';
 
 export const metadata = {
-  title: 'Licence · CoreFX',
+  title: 'Licence',
   description:
     'The CoreFX end user licence agreement — the same LICENSE.md that ships inside every CoreFX package.',
   alternates: { canonical: 'https://corefx.me/license' },

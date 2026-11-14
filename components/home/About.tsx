@@ -8,8 +8,9 @@ const linkClass = 'text-white underline underline-offset-4 decoration-white/30 h
 
 export default function About() {
     return (
-        <section id="about" className="scroll-mt-20 py-24 sm:py-28 border-t border-white/5">
-            <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <section id="about" className="relative scroll-mt-20 py-24 sm:py-28 border-t border-white/5">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6">
+                <div className="max-w-3xl">
                 <p className="font-mono text-xs text-white/40 mb-6">about</p>
 
                 <div className="flex items-center gap-4 mb-8">
@@ -50,6 +51,7 @@ export default function About() {
                         </a>
                         : that&apos;s where support and updates live.
                     </p>
+                </div>
                 </div>
             </div>
         </section>
