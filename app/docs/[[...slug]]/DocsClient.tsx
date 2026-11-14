@@ -1,8 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import AnimatedBackground from '@/components/AnimatedBackground';
-import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 import InstallationStep from './InstallationStep';
 import FeaturesSection from './FeaturesSection';
@@ -105,7 +104,7 @@ const faqs = [
     {
         question: 'Where can I find updates and support?',
         answer:
-            'You can join our discord through corefx.me, click on discord logo at bottom-left side of the website'
+            'On our Discord: the link is at the top of every page. Updates are posted there first, and in the Dev Blog here.'
     },
     {
         question:
@@ -178,14 +177,16 @@ type Section =
     | 'prerequisites'
     | 'installation'
     | 'settings'
-    | 'troubleshooting';
+    | 'troubleshooting'
+    | 'faq';
 
 const sections: { id: Section; label: string; path: string }[] = [
     { id: 'features', label: 'Features', path: 'features' },
     { id: 'prerequisites', label: 'Prerequisites', path: 'prerequisites' },
     { id: 'installation', label: 'Installation', path: 'install' },
     { id: 'settings', label: 'Shader Settings', path: 'settings' },
-    { id: 'troubleshooting', label: 'Troubleshooting', path: 'troubleshooting' }
+    { id: 'troubleshooting', label: 'Troubleshooting', path: 'troubleshooting' },
+    { id: 'faq', label: 'FAQ', path: 'faq' }
 ];
 
 const installLabels: Record<InstallTab, string> = {
@@ -307,33 +308,64 @@ export default function DocsClient() {
         router.push(`/docs/install/${tab}`, { scroll: false });
     };
 
-    const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
+    useEffect(() => {
+        window.scrollTo({ top: 0 });
+    }, [activeSection]);
 
     return (
-        <main className="min-h-screen pt-6 sm:pt-8">
-            <AnimatedBackground />
-
-            <div className="container mx-auto px-3 sm:px-4 md:px-8 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
-                {/* ───────── LEFT PANE ───────── */}
-                <div className="w-full lg:flex-1 max-h-[calc(100vh-10rem)] bg-black/20 backdrop-blur-md rounded-lg overflow-y-auto">
-                    <div className="p-4 md:p-8">
-                        {/* section switcher with expanding menu */}
-                        <div className="flex items-center gap-2 mb-8 relative">
-                            <div className="flex flex-wrap gap-2">
-                                {sections.map((s) => (
+        <main className="min-h-screen pt-16">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 sm:py-14 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-14">
+                {/* ───────── SIDEBAR ───────── */}
+                <aside className="mb-8 lg:mb-0">
+                    <div className="lg:sticky lg:top-24">
+                        <p className="font-mono text-xs text-white/40 mb-3">docs</p>
+                        <nav className="flex lg:flex-col gap-1 overflow-x-auto -mx-4 px-4 lg:mx-0 lg:px-0 pb-2 lg:pb-0">
+                            {sections.map((s) => (
+                                <div key={s.id} className="shrink-0">
                                     <button
-                                        key={s.id}
+                                        type="button"
                                         onClick={() => handleSectionChange(s.id)}
-                                        className={`px-4 py-3 rounded-full text-base sm:text-sm md:text-base transition-all h-12 sm:h-10 flex items-center justify-center ${activeSection === s.id
-                                            ? 'bg-white/20 text-white'
-                                            : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                                        className={`w-full text-left whitespace-nowrap rounded-md px-3 py-2 text-sm transition-colors ${activeSection === s.id
+                                            ? 'bg-white/10 text-white'
+                                            : 'text-white/60 hover:text-white'
                                             }`}
                                     >
                                         {s.label}
                                     </button>
-                                ))}
-                            </div>
+                                    {s.id === 'installation' && activeSection === 'installation' && (
+                                        <div className="hidden lg:flex flex-col mt-1 mb-2 ml-3 border-l border-white/10">
+                                            {installTabs.map((tab) => (
+                                                <button
+                                                    key={tab}
+                                                    type="button"
+                                                    onClick={() => handleInstallTabChange(tab)}
+                                                    aria-current={activeInstallTab === tab ? 'page' : undefined}
+                                                    className={`-ml-px text-left pl-3 pr-2 py-1.5 text-[13px] border-l rounded-r-md transition-colors ${activeInstallTab === tab
+                                                        ? 'border-white bg-white/[0.07] text-white'
+                                                        : 'border-transparent text-white/45 hover:text-white hover:bg-white/[0.03]'
+                                                        }`}
+                                                >
+                                                    {installLabels[tab]}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </nav>
+                        <div className="hidden lg:block mt-8 pt-6 border-t border-white/10 space-y-2 text-sm">
+                            <a href="https://discord.gg/jK4SRmBqYt" target="_blank" rel="noopener noreferrer" className="block text-white/50 hover:text-white">
+                                Ask on Discord ↗
+                            </a>
+                            <Link href="/devblog" className="block text-white/50 hover:text-white">
+                                Dev Blog
+                            </Link>
                         </div>
+                    </div>
+                </aside>
+
+                {/* ───────── CONTENT ───────── */}
+                <div className="min-w-0 max-w-3xl">
 
                         {/* ───────── FEATURES ───────── */}
                         {activeSection === 'features' && <FeaturesSection />}
@@ -343,41 +375,34 @@ export default function DocsClient() {
 
                         {/* ───────── PREREQUISITES ───────── */}
                         {activeSection === 'prerequisites' && (
-                            <div className="space-y-6" ref={ref}>
+                            <div className="space-y-6">
                                 {prerequisitesSections.map((section, idx) => (
-                                    <div
-                                        key={idx}
-                                        className={`bg-black/30 rounded-lg overflow-hidden transition-all duration-700 delay-${idx * 100
-                                            } ${inView
-                                                ? 'opacity-100 translate-y-0'
-                                                : 'opacity-0 translate-y-10'
-                                            }`}
-                                    >
-                                        <div className="p-5 md:p-6">
-                                            <h2 className="text-2xl md:text-xl font-semibold mb-3">
+                                    <div key={idx}>
+                                        <div>
+                                            <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-3">
                                                 {section.title}
-                                            </h2>
-                                            <p className="text-gray-300 text-base md:text-sm mb-4">{section.content}</p>
+                                            </h1>
+                                            <p className="text-white/60 mb-6">{section.content}</p>
 
                                             {section.warning && (
-                                                <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                    <p className="text-red-300 text-sm">
+                                                <div className="border-l-2 border-red-400/60 bg-red-500/5 px-4 py-3 mb-8">
+                                                    <p className="text-red-200/90 text-sm">
                                                         {section.warning}
                                                     </p>
                                                 </div>
                                             )}
 
-                                            <div className="space-y-4">
+                                            <div className="divide-y divide-white/10 border-y border-white/10">
                                                 {section.requirements.map((req, rIdx) => (
-                                                    <div key={rIdx}>
-                                                        <h3 className="font-medium text-white/80 text-base md:text-base">
+                                                    <div key={rIdx} className="py-5">
+                                                        <h3 className="font-medium text-white">
                                                             {req.title}
                                                         </h3>
-                                                        <ul className="list-disc pl-5 mt-2 space-y-2">
+                                                        <ul className="list-disc pl-5 mt-3 space-y-2 marker:text-white/30">
                                                             {req.items.map((item, iIdx) => (
                                                                 <li
                                                                     key={iIdx}
-                                                                    className="text-gray-300 text-base md:text-sm"
+                                                                    className="text-white/70 text-sm leading-relaxed"
                                                                 >
                                                                     {item}
                                                                 </li>
@@ -395,19 +420,19 @@ export default function DocsClient() {
                         {/* ───────── INSTALLATION ───────── */}
                         {activeSection === 'installation' && (
                             <div className="space-y-6">
-                                <h1 className="text-2xl md:text-3xl font-bold mb-4">
+                                <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-4">
                                     Installation
                                 </h1>
 
-                                {/* install-tab switcher */}
-                                <div className="flex flex-wrap gap-2 mb-6">
+                                {/* install-tab switcher (the sidebar lists them on large screens) */}
+                                <div className="flex flex-wrap gap-2 mb-6 lg:hidden">
                                     {installTabs.map((tab) => (
                                         <button
                                             key={tab}
                                             onClick={() => handleInstallTabChange(tab)}
-                                            className={`px-4 py-3 sm:py-2 rounded-full text-sm sm:text-xs md:text-sm transition-all ${activeInstallTab === tab
-                                                ? 'bg-white/20 text-white'
-                                                : 'bg-black/30 text-gray-300 hover:bg-white hover:text-black'
+                                            className={`px-3 py-1.5 rounded-md text-sm border transition-colors ${activeInstallTab === tab
+                                                ? 'border-white/40 text-white'
+                                                : 'border-white/10 text-white/60 hover:text-white'
                                                 }`}
                                         >
                                             {installLabels[tab]}
@@ -416,7 +441,7 @@ export default function DocsClient() {
                                 </div>
 
                                 {/* install content */}
-                                <div className="bg-black/30 p-6 rounded-lg space-y-4">
+                                <div className="space-y-4">
                                     {/* ───────── Legacy Singleplayer ───────── */}
                                     {activeInstallTab === 'singleplayer' && (
                                         <div className="install-block">
@@ -442,7 +467,7 @@ export default function DocsClient() {
                                                 </ol>
                                             </InstallationStep>
 
-                                            <InstallationStep title="Installing CoreFX" defaultOpen={false}>
+                                            <InstallationStep title="Installing CoreFX" defaultOpen>
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
@@ -485,8 +510,8 @@ export default function DocsClient() {
                                                         <code>CoreFX</code> folder go beside the game executable.
                                                     </li>
                                                     <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
+                                                        <div className="border-l-2 border-red-400/60 bg-red-500/5 px-4 py-3 mb-2">
+                                                            <p className="text-red-200/90 text-sm">
                                                                 It is really important to have DirectX 11 enabled
                                                                 and PostFX and Shader quality set to Ultra in ingame
                                                                 settings to prevent visual bugs and to enable new
@@ -552,7 +577,7 @@ export default function DocsClient() {
                                                 </ol>
                                             </InstallationStep>
 
-                                            <InstallationStep title="Installing CoreFX" defaultOpen={false}>
+                                            <InstallationStep title="Installing CoreFX" defaultOpen>
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
@@ -603,8 +628,8 @@ export default function DocsClient() {
                                                         <code>CoreFX</code> folder go beside the game executable.
                                                     </li>
                                                     <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
+                                                        <div className="border-l-2 border-red-400/60 bg-red-500/5 px-4 py-3 mb-2">
+                                                            <p className="text-red-200/90 text-sm">
                                                                 <strong>Critically Important:</strong> You <strong>MUST</strong> set{' '}
                                                                 <strong>Shader Quality</strong> and <strong>Post FX</strong>{' '}
                                                                 to <strong>Ultra</strong> in your in-game graphics settings.
@@ -663,8 +688,8 @@ export default function DocsClient() {
                                     {activeInstallTab === 'fivem' && (
                                         <div className="install-block">
 
-                                            <div className="bg-blue-900/30 border border-blue-700/50 p-4 rounded-lg mb-4">
-                                                <p className="text-blue-200 text-sm">
+                                            <div className="border-l-2 border-white/40 bg-white/[0.03] px-4 py-3 mb-6">
+                                                <p className="text-white/80 text-sm">
                                                     <strong>This build requires the $5 Patreon tier.</strong>{' '}
                                                     There is no installer — the package is copied into place by
                                                     hand, and it has to go to <strong>two</strong> locations.
@@ -726,7 +751,7 @@ export default function DocsClient() {
                                                 </ul>
                                             </InstallationStep>
 
-                                            <InstallationStep title="Installing CoreFX" defaultOpen={false}>
+                                            <InstallationStep title="Installing CoreFX" defaultOpen>
                                                 <ol className="list-decimal pl-5 space-y-2">
                                                     <li>Extract the downloaded package.</li>
                                                     <li>
@@ -745,8 +770,8 @@ export default function DocsClient() {
                                                         <code>GTA5.exe</code>.
                                                     </li>
                                                     <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
+                                                        <div className="border-l-2 border-red-400/60 bg-red-500/5 px-4 py-3 mb-2">
+                                                            <p className="text-red-200/90 text-sm">
                                                                 <strong>Both copies are required.</strong> The
                                                                 FiveM <code>plugins</code> folder gets everything,
                                                                 ReShade&apos;s <code>dxgi.dll</code> included. The
@@ -759,8 +784,8 @@ export default function DocsClient() {
                                                         40-50 %.
                                                     </li>
                                                     <li>
-                                                        <div className="bg-red-900/30 border border-red-700/50 p-4 rounded-lg mb-4">
-                                                            <p className="text-red-300 text-sm">
+                                                        <div className="border-l-2 border-red-400/60 bg-red-500/5 px-4 py-3 mb-2">
+                                                            <p className="text-red-200/90 text-sm">
                                                                 It is really important to have DirectX 11 enabled
                                                                 and PostFX and Shader quality set to Ultra in ingame
                                                                 settings to prevent visual bugs and to enable new
@@ -861,7 +886,7 @@ export default function DocsClient() {
                                                                 from your log:
                                                             </li>
                                                         </ul>
-                                                        <pre className="bg-black/50 p-2 rounded mt-1 text-xs select-all">
+                                                        <pre className="bg-white/5 border border-white/10 p-3 rounded mt-1 text-xs select-all">
                                                             {`[Addons]
 ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to game crashes`}
                                                         </pre>
@@ -930,18 +955,18 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                         {/* ───────── SHADER SETTINGS ───────── */}
                         {activeSection === 'settings' && (
                             <div className="space-y-6">
-                                <div className="bg-black/30 rounded-lg p-5 md:p-6">
-                                    <h2 className="text-2xl md:text-xl font-semibold mb-3">
+                                <div className="pb-2">
+                                    <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-3">
                                         The CoreFX Addon menu
-                                    </h2>
-                                    <p className="text-gray-300 text-base md:text-sm mb-4">
+                                    </h1>
+                                    <p className="text-white/60 mb-4">
                                         Every CoreFX effect is toggled and tuned from one place:
                                         the <strong>CoreFX Addon</strong> window inside
                                         the ReShade overlay. Settings are saved automatically to{' '}
                                         <code>CoreFX\Presets\CoreFX.ini</code> and apply live,
                                         except where noted.
                                     </p>
-                                    <ul className="list-disc pl-5 space-y-2 text-gray-300 text-base md:text-sm">
+                                    <ul className="list-disc pl-5 space-y-2 text-white/70 text-sm marker:text-white/30">
                                         <li>
                                             <strong>Page Up</strong> — open or close the ReShade
                                             overlay. The CoreFX Addon is one of the windows
@@ -1463,31 +1488,28 @@ ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to gam
                                 </InstallationStep>
                             </div>
                         )}
-                    </div>
-                </div>
 
-                {/* ───────── RIGHT PANE (FAQ) ───────── */}
-                <div className="w-full lg:w-96 flex flex-col gap-6">
-                    <div className="bg-black/20 backdrop-blur-md rounded-lg p-6 max-h-[calc(100vh-10rem)] overflow-y-auto">
-                        <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
-                            <span className="text-blue-400">?</span> Frequently Asked Questions
-                        </h2>
-                        <div className="space-y-4">
-                            {faqs.map((faq, idx) => (
-                                <div
-                                    key={idx}
-                                    className="bg-black/30 rounded-lg overflow-hidden border border-white/5"
-                                >
-                                    <div className="w-full p-4 text-left flex justify-between items-start gap-3 bg-white/5">
-                                        <span className="font-semibold text-sm">{faq.question}</span>
-                                    </div>
-                                    <div className="p-4 pt-4 text-gray-400 text-sm border-t border-white/5">
-                                        {faq.answer}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
+                        {/* ───────── FAQ ───────── */}
+                        {activeSection === 'faq' && (
+                            <div>
+                                <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-3">Questions people ask</h1>
+                                <p className="text-white/60 mb-8">
+                                    The ones that come up most on our Discord. Something broken? Try{' '}
+                                    <button type="button" onClick={() => handleSectionChange('troubleshooting')} className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white">
+                                        Troubleshooting
+                                    </button>{' '}
+                                    first.
+                                </p>
+                                <dl className="divide-y divide-white/10 border-y border-white/10">
+                                    {faqs.map((faq, idx) => (
+                                        <div key={idx} className="py-5">
+                                            <dt className="text-white font-medium">{faq.question}</dt>
+                                            <dd className="mt-2 text-white/60 text-sm leading-relaxed">{faq.answer}</dd>
+                                        </div>
+                                    ))}
+                                </dl>
+                            </div>
+                        )}
                 </div>
             </div>
         </main>

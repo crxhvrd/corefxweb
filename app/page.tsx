@@ -1,15 +1,22 @@
-import HeroIntro from '@/components/HeroIntro';
-import ImageGrid from '@/components/ImageGrid';
+import Hero from '@/components/home/Hero';
+import LatestPosts from '@/components/home/LatestPosts';
+import FeatureShowcase from '@/components/home/FeatureShowcase';
+import Gallery from '@/components/home/Gallery';
+import About from '@/components/home/About';
+import VideoBackground from '@/components/VideoBackground';
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen scrollbar-hide">
-      {/* Hero copy, centered in the first viewport */}
-      <HeroIntro />
-
-      {/* Scrollable Content */}
-      <div className="relative pt-screen">
-        <ImageGrid />
+    <main className="relative">
+      <div className="fixed inset-0 z-0">
+        <VideoBackground />
+      </div>
+      <Hero />
+      <div className="relative bg-[#0a0a0a]">
+        <LatestPosts />
+        <FeatureShowcase />
+        <Gallery />
+        <About />
       </div>
     </main>
   );

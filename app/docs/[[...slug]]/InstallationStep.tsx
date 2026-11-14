@@ -22,17 +22,17 @@ export default function InstallationStep({
         <Collapsible
             open={isOpen}
             onOpenChange={setIsOpen}
-            className="mb-4 border border-white/10 rounded-lg bg-black/40 overflow-hidden"
+            className="border-b border-white/10"
         >
-            <CollapsibleTrigger className="flex items-center justify-between w-full p-4 hover:bg-white/5 transition-colors text-left font-semibold text-lg">
+            <CollapsibleTrigger className="flex items-center justify-between w-full py-4 text-left font-medium text-white/90 hover:text-white transition-colors">
                 {title}
                 <ChevronDown
-                    className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''
+                    className={`w-4 h-4 text-white/40 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''
                         }`}
                 />
             </CollapsibleTrigger>
             <CollapsibleContent>
-                <div className="p-4 pt-0 border-t border-white/10 text-gray-300 space-y-2 mt-4">
+                <div className="pb-6 text-white/70 text-sm leading-relaxed space-y-2">
                     {children}
                 </div>
             </CollapsibleContent>

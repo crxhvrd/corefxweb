@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import { FileText } from 'lucide-react';
 import type { Block, Inline, PackageDoc, TocEntry } from '@/lib/packageDoc';
 
 /* ───────────────────────── inline ───────────────────────── */
 
 const linkClass =
-  'text-orange-400 underline decoration-orange-400/50 underline-offset-2 hover:text-orange-300 break-words';
+  'text-white underline decoration-white/30 underline-offset-4 hover:decoration-white break-words';
 
 const codeClass = 'rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-white/90';
 
@@ -149,23 +148,19 @@ export default function PackageDocument({
   related?: { href: string; label: string }[];
 }) {
   return (
-    <main className="relative mx-auto min-h-screen max-w-5xl px-4 pb-24 pt-12 sm:px-6 sm:pb-32 sm:pt-24">
-      <header className="rounded-lg border border-white/10 bg-black/40 px-5 py-5 shadow-lg backdrop-blur-md sm:px-6 sm:py-6">
-        <div className="mb-3 flex items-center gap-3">
-          <FileText className="h-6 w-6 shrink-0 text-orange-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
-          <h1 className="text-2xl font-semibold text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.85)] sm:text-4xl">
-            {doc.title}
-          </h1>
-        </div>
+    <main className="relative mx-auto min-h-screen max-w-5xl px-4 pb-24 pt-28 sm:px-6 sm:pb-32 sm:pt-32">
+      <header className="border-b border-white/10 pb-8">
+        <p className="mb-3 font-mono text-xs text-white/40">legal</p>
+        <h1 className="mb-4 text-2xl font-medium tracking-tight text-white sm:text-3xl">{doc.title}</h1>
 
         {doc.version && (
-          <p className="mb-4 inline-block rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-medium text-white/80">
+          <p className="mb-4 inline-block rounded border border-white/15 px-2 py-0.5 font-mono text-xs text-white/60">
             {doc.version}
           </p>
         )}
 
         <div className="space-y-3 text-sm sm:text-base">
-          <Blocks blocks={doc.preamble} prose="text-gray-200" />
+          <Blocks blocks={doc.preamble} prose="text-white/70" />
         </div>
 
         <p className="mt-5 border-t border-white/10 pt-4 text-xs text-white/50">
@@ -195,7 +190,7 @@ export default function PackageDocument({
 
       {/* Contents: collapsed on small screens, pinned beside the text on large ones */}
       {doc.toc.length > 0 && (
-        <details className="group mt-6 rounded-lg border border-white/10 bg-black/30 backdrop-blur-md lg:hidden">
+        <details className="group mt-6 rounded-md border border-white/10 lg:hidden">
           <summary className="flex cursor-pointer list-none items-center justify-between px-5 py-3 text-sm font-medium text-white/80 [&::-webkit-details-marker]:hidden">
             Contents
             <span className="text-white/40 transition-transform group-open:rotate-180">▾</span>
@@ -210,17 +205,15 @@ export default function PackageDocument({
         {doc.toc.length > 0 && (
           <nav
             aria-label="Contents"
-            className="hidden w-64 shrink-0 rounded-lg border border-white/10 bg-black/30 p-3 backdrop-blur-md lg:sticky lg:top-8 lg:block"
+            className="hidden w-60 shrink-0 lg:sticky lg:top-24 lg:block"
           >
-            <p className="px-2 pb-2 text-xs font-semibold uppercase tracking-wide text-white/40">
-              Contents
-            </p>
+            <p className="px-2 pb-2 font-mono text-xs text-white/40">contents</p>
             <TocLinks toc={doc.toc} />
           </nav>
         )}
 
-        <article className="min-w-0 flex-1 space-y-4 rounded-lg border border-white/10 bg-black/30 p-5 backdrop-blur-md sm:p-8">
-          <Blocks blocks={doc.body} />
+        <article className="min-w-0 flex-1 space-y-4">
+          <Blocks blocks={doc.body} prose="text-white/70" />
 
           {doc.footer.length > 0 && (
             <div className="space-y-2 border-t border-white/10 pt-6 text-sm">
@@ -230,11 +223,6 @@ export default function PackageDocument({
         </article>
       </div>
 
-      <div className="mt-12 text-center text-xs text-white/40">
-        <Link href="/" className="underline hover:text-white/70">
-          ← Back to home
-        </Link>
-      </div>
     </main>
   );
 }

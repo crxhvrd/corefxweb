@@ -59,7 +59,7 @@ const PARTS: Segment[][] = [
         { text: 'cost nothing', className: EM },
         { text: ': join the Patreon on its free tier, open the latest update post, and the links are there. The FiveM build is on the $5 tier. Start from ' },
         { text: 'Download', className: EM },
-        { text: ', bottom\u00a0right.' },
+        { text: ', up\u00a0top.' },
     ],
     [
         { text: 'Documentation', className: EM },
@@ -67,7 +67,7 @@ const PARTS: Segment[][] = [
         { text: 'Dev\u00a0Blog', className: EM },
         { text: ' tracks what changed, and the ' },
         { text: 'Discord', className: EM },
-        { text: ' icon at bottom\u00a0left is where support and updates live.' },
+        { text: ' is where support and updates live.' },
     ],
 ];
 

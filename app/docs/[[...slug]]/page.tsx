@@ -16,6 +16,7 @@ export async function generateStaticParams() {
     { slug: ['prerequisites'] }, // /docs/prerequisites
     { slug: ['settings'] }, // /docs/settings
     { slug: ['troubleshooting'] }, // /docs/troubleshooting
+    { slug: ['faq'] }, // /docs/faq
     ...installTabs.map((tab) => ({ slug: ['install', tab] })) // /docs/install/[tab]
   ];
 

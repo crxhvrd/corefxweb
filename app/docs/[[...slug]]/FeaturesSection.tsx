@@ -324,13 +324,8 @@ const groups: Group[] = [
 
 function GameBadge({ game }: { game: Game }) {
     return (
-        <span
-            className={`text-xs px-2 py-0.5 rounded-full border ${game === 'Legacy'
-                ? 'border-amber-400/40 text-amber-200 bg-amber-900/20'
-                : 'border-sky-400/40 text-sky-200 bg-sky-900/20'
-                }`}
-        >
-            {game}
+        <span className="font-mono text-[11px] px-1.5 py-0.5 rounded border border-white/15 text-white/60">
+            {game.toLowerCase()}
         </span>
     );
 }
@@ -338,9 +333,9 @@ function GameBadge({ game }: { game: Game }) {
 export default function FeaturesSection() {
     return (
         <div className="space-y-6">
-            <div className="bg-black/30 rounded-lg p-5 md:p-6">
-                <h1 className="text-2xl md:text-3xl font-bold mb-3">Features</h1>
-                <p className="text-gray-300 text-base md:text-sm">
+            <div>
+                <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-3">Features</h1>
+                <p className="text-white/60">
                     What CoreFX does in each game. Most of it is switched and tuned in the{' '}
                     <strong>CoreFX Addon</strong> menu (Page Up in game); each card says
                     where. The <strong>Shader Settings</strong> section goes through the menu
@@ -351,12 +346,12 @@ export default function FeaturesSection() {
 
             {groups.map((group) => (
                 <div key={group.title} className="space-y-3">
-                    <h2 className="text-xl font-semibold px-1">{group.title}</h2>
+                    <h2 className="font-mono text-xs text-white/40 pt-4">{group.title.toLowerCase()}</h2>
                     <div className="grid gap-3 md:grid-cols-2">
                         {group.features.map((f) => (
                             <div
                                 key={f.title}
-                                className="bg-black/30 border border-white/10 rounded-lg p-4 flex flex-col"
+                                className="border border-white/10 bg-white/[0.02] rounded-lg p-5 flex flex-col"
                             >
                                 <h3 className="font-semibold text-base mb-2">{f.title}</h3>
                                 <div className="flex flex-wrap gap-2 mb-3">

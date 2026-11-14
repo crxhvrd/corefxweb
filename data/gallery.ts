@@ -1,12 +1,5 @@
-'use client';
-
-import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
-import ImageModal from './ImageModal';
-
-// Component to display screenshots in a responsive grid
-
-const images = [
+// Gallery screenshots (public/images/screenshots), shown on the home page.
+export const images = [
   { id: 1, src: '/images/screenshots/3240220_20260904051235_1.webp', alt: 'CoreFX Screenshot', version: 'CoreFX 1.3.1 Enhanced' },
   { id: 2, src: '/images/screenshots/271590_20260904144956_1.webp', alt: 'CoreFX Screenshot', version: 'CoreFX 1.3.1 Legacy' },
   { id: 3, src: '/images/screenshots/3240220_20260904043259_1.webp', alt: 'CoreFX Screenshot', version: 'CoreFX 1.3.1 Enhanced' },
@@ -50,67 +43,3 @@ const images = [
   { id: 41, src: '/images/screenshots/271590_20260904144149_1.webp', alt: 'CoreFX Screenshot', version: 'CoreFX 1.3.1 Legacy' },
   { id: 42, src: '/images/screenshots/3240220_20260904135102_1.webp', alt: 'CoreFX Screenshot', version: 'CoreFX 1.3.1 Enhanced' },
 ];
-
-export default function ImageGrid() {
-  const [selectedImage, setSelectedImage] = useState<null | typeof images[0]>(null);
-  const gridRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const items = gridRef.current?.querySelectorAll('.fade-item');
-    if (!items) return;
-
-    const observer = new IntersectionObserver(
-      (entries, obs) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            el.classList.add('opacity-100', 'translate-y-0');
-            el.classList.remove('opacity-0', 'translate-y-10');
-            obs.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: '0px 0px 200px 0px' }
-    );
-
-    items.forEach((item) => observer.observe(item));
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <>
-      <div
-        ref={gridRef}
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 p-3 sm:p-4"
-      >
-        {images.map((img, i) => (
-          <div
-            key={img.id}
-            className="fade-item relative opacity-0 translate-y-10 transition-all duration-700 ease-out cursor-pointer hover:scale-[1.02] transform"
-            onClick={() => setSelectedImage(img)}
-          >
-            <Image
-              src={img.src}
-              alt={img.alt}
-              width={1920}
-              height={1080}
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="w-full h-auto rounded-lg shadow-md"
-              loading={i < 3 ? 'eager' : 'lazy'}
-              priority={i < 3}
-            />
-            {img.version && (
-              <span className="absolute bottom-2 left-2 px-2 py-0.5 text-[10px] sm:text-xs font-medium text-white/90 bg-black/50 backdrop-blur-sm rounded-md select-none pointer-events-none">
-                {img.version}
-              </span>
-            )}
-          </div>
-        ))}
-      </div>
-
-      {selectedImage && (
-        <ImageModal image={selectedImage} onClose={() => setSelectedImage(null)} />
-      )}
-    </>
-  );
-}

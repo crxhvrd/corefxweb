@@ -6,21 +6,21 @@ const DISCORD = 'https://discord.gg/jK4SRmBqYt';
 
 function Notice({ children }: { children: React.ReactNode }) {
     return (
-        <strong className="text-orange-200">&quot;{children}&quot;</strong>
+        <strong className="text-white">&quot;{children}&quot;</strong>
     );
 }
 
 export default function TroubleshootingSection() {
     return (
         <div className="space-y-6">
-            <div className="bg-black/30 rounded-lg p-5 md:p-6">
-                <h1 className="text-2xl md:text-3xl font-bold mb-3">Troubleshooting</h1>
-                <p className="text-gray-300 text-base md:text-sm mb-3">
+            <div>
+                <h1 className="text-2xl sm:text-3xl font-medium tracking-tight mb-3">Troubleshooting</h1>
+                <p className="text-white/60 mb-3">
                     Find what you see below. When something goes wrong, CoreFX usually says so
                     itself: an orange notice on screen, or a line in its menu. The quotes on
                     this page are those messages word for word, so you can match them.
                 </p>
-                <p className="text-gray-300 text-base md:text-sm">
+                <p className="text-white/60">
                     Still stuck? Ask on our{' '}
                     <a href={DISCORD} target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Discord</a>{' '}
                     and bring what <strong>Getting help</strong> at the bottom lists.
@@ -289,7 +289,7 @@ export default function TroubleshootingSection() {
                             with an ID after it. Open <code>CitizenFX.ini</code> in your FiveM
                             Application Data folder and add, with your ID in place of{' '}
                             <code>ID:XXXXXX</code>:
-                            <pre className="bg-black/50 p-2 rounded mt-2 text-xs select-all whitespace-pre-wrap">
+                            <pre className="bg-white/5 border border-white/10 p-3 rounded mt-2 text-xs select-all whitespace-pre-wrap">
                                 {`[Addons]
 ReShade5=ID:XXXXXX acknowledged that ReShade 5.x has a bug that will lead to game crashes`}
                             </pre>

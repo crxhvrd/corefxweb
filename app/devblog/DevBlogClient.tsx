@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-import { Megaphone } from 'lucide-react';
 import { formatDistanceToNow, format } from 'date-fns';
 import { useEffect, useState, type ReactNode } from 'react';
 
@@ -78,7 +76,7 @@ function renderContent(content: string): ReactNode[] {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-orange-400 underline decoration-orange-400/50 hover:text-orange-300 break-words"
+          className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white break-words"
         >
           {label}
         </a>
@@ -114,23 +112,26 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
   }, []);
 
   return (
-    <main className="relative min-h-screen px-4 sm:px-6 pt-12 sm:pt-24 pb-24 sm:pb-32 max-w-3xl mx-auto">
-      <header className="mb-8 sm:mb-10 bg-black/40 backdrop-blur-md border border-white/10 rounded-lg px-5 py-4 sm:px-6 sm:py-5 shadow-lg">
-        <div className="flex items-center gap-3 mb-2">
-          <Megaphone
-            className="h-6 w-6 text-orange-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] shrink-0"
-          />
-          <h1 className="text-2xl sm:text-4xl font-semibold text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.85)]">
-            Dev Blog
-          </h1>
-        </div>
-        <p className="text-gray-200 text-sm sm:text-base [text-shadow:0_1px_4px_rgba(0,0,0,0.85)]">
-          Streamed live from the CoreFX Discord announcements channel.
+    <main className="relative min-h-screen px-4 sm:px-6 pt-28 sm:pt-32 pb-24 sm:pb-32 max-w-3xl mx-auto">
+      <header className="mb-12">
+        <p className="font-mono text-xs text-white/40 mb-3">dev log</p>
+        <h1 className="text-2xl sm:text-3xl font-medium tracking-tight text-white">Dev Blog</h1>
+        <p className="mt-3 text-white/60">
+          Everything we post in our Discord&apos;s announcements channel, as it happens.{' '}
+          <a
+            href="https://discord.gg/jK4SRmBqYt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline underline-offset-4 decoration-white/30 hover:decoration-white"
+          >
+            Join us there
+          </a>{' '}
+          to talk about it.
         </p>
       </header>
 
       {posts.length === 0 ? (
-        <div className="bg-black/30 border border-white/10 backdrop-blur-md p-6 sm:p-8 rounded-lg text-center space-y-3">
+        <div className="border-y border-white/10 py-10 text-center space-y-3">
           <p className="text-white/80">No posts yet.</p>
           <p className="text-white/50 text-sm">
             Check back after our next Discord announcement, or{' '}
@@ -138,7 +139,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
               href="https://discord.gg/jK4SRmBqYt"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-orange-400 underline hover:text-orange-300"
+              className="text-white underline underline-offset-4 decoration-white/30"
             >
               join the Discord
             </a>{' '}
@@ -146,11 +147,11 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
           </p>
         </div>
       ) : (
-        <ol className="space-y-6">
+        <ol className="divide-y divide-white/10 border-y border-white/10">
           {posts.map((post, i) => (
             <li
               key={post.id}
-              className="bg-black/30 border border-white/10 backdrop-blur-md p-5 sm:p-6 rounded-lg space-y-4"
+              className="py-8 space-y-4"
             >
               <div className="flex items-center gap-3">
                 {post.authorAvatarUrl ? (
@@ -159,28 +160,28 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                     alt=""
                     width={40}
                     height={40}
-                    className="w-10 h-10 rounded-full"
+                    className="w-8 h-8 rounded-full"
                     loading="lazy"
                   />
                 ) : (
-                  <div className="w-10 h-10 rounded-full bg-white/10" />
+                  <div className="w-8 h-8 rounded-full bg-white/10" />
                 )}
                 <div className="flex flex-col">
                   <span className="text-white font-medium leading-none">{post.authorName}</span>
                   <time
                     dateTime={post.timestamp}
                     title={format(new Date(post.timestamp), 'PPpp')}
-                    className="text-xs text-white/50 mt-1"
+                    className="font-mono text-xs text-white/40 mt-1"
                     suppressHydrationWarning
                   >
-                    {formatDistanceToNow(new Date(post.timestamp), { addSuffix: true })}
+                    {format(new Date(post.timestamp), 'yyyy-MM-dd')} · {formatDistanceToNow(new Date(post.timestamp), { addSuffix: true })}
                     {post.editedAt && <span className="ml-1 text-white/30">(edited)</span>}
                   </time>
                 </div>
               </div>
 
               {post.content && (
-                <p className="text-gray-200 whitespace-pre-line leading-relaxed break-words">
+                <p className="text-white/75 whitespace-pre-line leading-relaxed break-words">
                   {renderContent(post.content)}
                 </p>
               )}
@@ -246,7 +247,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                           alt=""
                           width={att.width || 1200}
                           height={att.height || 800}
-                          className="rounded-lg w-full h-auto"
+                          className="rounded-md border border-white/10 w-full h-auto"
                           loading={i === 0 ? 'eager' : 'lazy'}
                         />
                       );
@@ -258,7 +259,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                           src={att.url}
                           controls
                           preload="metadata"
-                          className="rounded-lg w-full h-auto"
+                          className="rounded-md border border-white/10 w-full h-auto"
                         />
                       );
                     }
@@ -268,7 +269,7 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
                         href={att.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-orange-400 underline hover:text-orange-300 text-sm"
+                        className="text-white underline underline-offset-4 decoration-white/30 text-sm"
                       >
                         Attachment
                       </a>
@@ -281,11 +282,6 @@ export default function DevBlogClient({ initialPosts }: { initialPosts: DevblogP
         </ol>
       )}
 
-      <div className="mt-12 text-center text-xs text-white/40">
-        <Link href="/" className="underline hover:text-white/70">
-          ← Back to home
-        </Link>
-      </div>
     </main>
   );
 }

@@ -33,7 +33,7 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-xl rounded-2xl bg-[#101010]/95 border border-white/10 p-8 shadow-2xl text-white"
+        className="relative w-full max-w-xl rounded-lg bg-[#0d0d0d] border border-white/15 p-6 sm:p-8 shadow-2xl text-white"
         onClick={(event) => event.stopPropagation()}
       >
         <button
@@ -46,14 +46,14 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
         </button>
 
         <div className="space-y-6">
-          <div className="text-center space-y-2">
-            <h2 className="text-2xl font-semibold">How to Download and Install CoreFX</h2>
-            <p className="text-sm text-white/70">Follow these steps to grab the mod package for your platform</p>
+          <div className="space-y-2">
+            <p className="font-mono text-xs text-white/40">download</p>
+            <h2 className="text-xl font-medium">Getting CoreFX</h2>
           </div>
 
           <div className="space-y-4 text-sm leading-relaxed text-white/85">
             <p>
-              1. Head over to our Patreon and create a free account. CoreFX uses a Freemium model: both{' '}
+              1. Make a free account on our Patreon. Both{' '}
               <span className="font-medium text-white/95">Singleplayer</span> builds — Legacy and Enhanced — are
               available at no cost once you join with a free membership. The{' '}
               <span className="font-medium text-white/95">Legacy FiveM</span> build is on the $5 tier.
@@ -75,7 +75,7 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               .
             </p>
             <p className="border-t border-white/10 pt-4 text-white/70">
-              <span className="font-medium text-white/90">Want more?</span> A paid{' '}
+              <span className="font-medium text-white/90">Supporting us:</span> a paid{' '}
               <a
                 href="https://www.patreon.com/crxhvrd/membership"
                 target="_blank"
@@ -84,12 +84,12 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               >
                 Patreon
               </a>
-              {' '}tier adds the FiveM build and early access to updates — no visual effect is
-              locked behind it — and it supports the creator directly.
+              {' '}tier adds the FiveM build and early access to updates. No visual effect is
+              locked behind it; it helps us keep working on CoreFX.
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-3 text-xs text-white/60">
+          <div className="flex flex-col items-start gap-3 text-xs text-white/60 border-t border-white/10 pt-5">
             <p>
               Every archive ships with the CoreFX{' '}
               <a
@@ -100,14 +100,13 @@ export default function DownloadModal({ open, onClose }: DownloadModalProps) {
               </a>
               . Installing CoreFX means accepting it.
             </p>
-            <p>Ready to continue? Click below to open Patreon and unlock the files.</p>
             <a
               href="https://www.patreon.com/c/crxhvrd"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-white/90 px-6 py-2 text-sm font-semibold text-black transition hover:bg-white"
+              className="inline-flex items-center justify-center rounded-md border border-white/30 px-4 py-2 text-sm text-white transition hover:border-white/70"
             >
-              Download
+              Open our Patreon ↗
             </a>
           </div>
         </div>
