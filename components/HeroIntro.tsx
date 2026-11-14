@@ -9,9 +9,14 @@ const EM = 'text-white';
 const NAME_CLASS = 'block font-semibold text-white text-[2.1em] leading-[0.9] tracking-[-0.03em] mb-3';
 const LINE_CLASS = 'text-white/75';
 
+/** Names that must never break across lines, in any language. */
+function keepTogether(text: string) {
+    return text.replace(/Grand Theft Auto V|GTA V/g, (m) => m.replace(/ /g, '\u00a0'));
+}
+
 /** "*word*" marks the words drawn brighter; everything else is plain. */
 function toSegments(text: string): Segment[] {
-    return text
+    return keepTogether(text)
         .split(/(\*[^*]+\*)/)
         .filter(Boolean)
         .map((s) => (s.startsWith('*') && s.endsWith('*') ? { text: s.slice(1, -1), className: EM } : { text: s }));
@@ -96,7 +101,7 @@ function Caret({ size, blinking }: { size: string; blinking: boolean }) {
 
 export default function HeroIntro({ credit, name, line, parts }: { credit: string; name: string; line: string; parts: string[] }) {
     // Typed once on load, then left alone. The name sits on its own line, title-card style.
-    const HEADLINE = useMemo<Segment[]>(() => [{ text: name, className: NAME_CLASS }, { text: line, className: LINE_CLASS }], [name, line]);
+    const HEADLINE = useMemo<Segment[]>(() => [{ text: name, className: NAME_CLASS }, { text: keepTogether(line), className: LINE_CLASS }], [name, line]);
     // Typed, held, erased, replaced by the next one — forever.
     const PARTS = useMemo(() => parts.map(toSegments), [parts]);
     const HEADLINE_TEXT = useMemo(() => flatten(HEADLINE), [HEADLINE]);
