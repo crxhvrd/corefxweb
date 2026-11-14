@@ -3,6 +3,16 @@ import type { Ui } from '@/lib/content';
 import type { Locale } from '@/lib/i18n';
 import { rich } from '@/lib/rich';
 import { TEAM } from '@/data/team';
+import Flag from '@/components/Flag';
+
+// Country names in the reader's language, from the browser/Node's own data.
+function countryName(code: string, locale: Locale): string {
+    try {
+        return new Intl.DisplayNames([locale], { type: 'region' }).of(code) ?? code;
+    } catch {
+        return code;
+    }
+}
 
 export default function About({ t, locale }: { t: Ui['about']; locale: Locale }) {
     return (
@@ -27,12 +37,13 @@ export default function About({ t, locale }: { t: Ui['about']; locale: Locale })
                         {TEAM.map((m) => (
                             <li
                                 key={m.name}
-                                className="grid gap-1 border-b border-white/10 py-4 sm:grid-cols-[11rem_1fr_auto] sm:items-baseline sm:gap-6"
+                                className="grid gap-1 border-b border-white/10 py-4 sm:grid-cols-[14rem_1fr_auto] sm:items-baseline sm:gap-6"
                             >
-                                <span className="font-medium text-white">
+                                <span className="flex items-center gap-2.5 font-medium text-white">
+                                    <Flag code={m.country} label={countryName(m.country, locale)} />
                                     {m.name}
                                     {m.aka && (
-                                        <span className="ml-2 text-sm font-normal text-white/40">
+                                        <span className="text-sm font-normal text-white/40">
                                             {t.team.aka} {m.aka}
                                         </span>
                                     )}
