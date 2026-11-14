@@ -49,7 +49,7 @@ If Ray Reconstruction or Ray Regeneration cannot start, NRD denoises instead unt
 
 ## FXRT (Legacy)
 
-FXRT is real ray tracing for Legacy, against the actual scene geometry rather than what is on screen. Set **Ray Tracing** to **FXRT** in the Ray Tracing tab. **Vanilla**, the default, keeps the game's own shadows and lighting.
+FXRT is real hardware ray tracing (DXR) for Legacy, against the actual scene geometry rather than what is on screen. It runs on a Direct3D 12 device beside the game's DirectX 11 renderer. Set **Ray Tracing** to **FXRT** in the Ray Tracing tab. **Vanilla**, the default, keeps the game's own shadows and lighting.
 - Each part has its own switch below it, all on by default: **Sun Shadows** (the sun's and the moon's, in place of the game's shadow maps), **Ambient Occlusion**, **Global Illumination** (bounce light from lit walls and ground), **Lamp Shadows** (street lamps and the other shadow-casting lights) and **RT Reflections** on glossy surfaces such as cars, wet roads and polished floors. Switching a part off gives you the game's own version of it.
 - RT Reflections need Global Illumination on. Indoors the game's own ambient occlusion and ambient light stay.
 - **Performance Mode** makes FXRT cheaper at a small cost in detail: the global illumination is traced on half the pixels each frame, rays are shorter, and only the lamps the game made shadow-casting cast ray-traced shadows, which saves the most at night. It applies at once.

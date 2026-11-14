@@ -45,7 +45,7 @@ You don't need FXPT for cleaner ray tracing. With Ray Tracing on Vanilla the ray
 
 ### FXRT ray tracing {legacy}
 
-Real ray tracing for a game that never had it, run against the actual scene geometry rather than what is on screen. Sun shadows, ambient occlusion, global illumination, lamp shadows and reflections on glossy surfaces are each traced and each has its own switch. NRD does the denoising, and **Performance Mode** makes it cheaper at a small cost in detail. FXRT needs a card with hardware ray tracing: NVIDIA RTX, or Radeon RX 6000 and newer.
+Real hardware ray tracing for a game that never had it, run against the actual scene geometry rather than what is on screen. It uses DXR (DirectX Raytracing), the same API as ray-traced PC games, on a Direct3D 12 device CoreFX runs beside the game’s DirectX 11 renderer. Sun shadows, ambient occlusion, global illumination, lamp shadows and reflections on glossy surfaces are each traced and each has its own switch. NRD does the denoising, and **Performance Mode** makes it cheaper at a small cost in detail. FXRT needs a card with hardware ray tracing: NVIDIA RTX, or Radeon RX 6000 and newer.
 
 @where Ray Tracing > Ray Tracing: FXRT
 

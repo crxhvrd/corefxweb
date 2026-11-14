@@ -37,7 +37,7 @@
       "fxrt": {
         "eyebrow": "legacy",
         "title": "FXRT",
-        "lead": "Real ray tracing for GTA V Legacy, a game that never had it. The rays run against the actual scene, not just what is on screen, so sun and lamp shadows, ambient occlusion, bounce light and reflections hold up for everything the camera can’t see. Each part has its own switch.",
+        "lead": "Real hardware ray tracing (DXR) for GTA V Legacy, a game that never had it, running on its own Direct3D 12 device beside the game’s DirectX 11 renderer. The rays run against the actual scene, not just what is on screen, so sun and lamp shadows, ambient occlusion, bounce light and reflections hold up for everything the camera can’t see. Each part has its own switch.",
         "note": "Off by default. It needs a card with hardware ray tracing: RTX, or RX 6000 and newer."
       },
       "fxpt": {

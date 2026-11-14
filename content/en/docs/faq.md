@@ -43,7 +43,7 @@ CoreFX is loaded, but the game is not drawing with its shaders. In the main menu
 
 ## What are FXPT and FXRT?
 
-FXPT is CoreFX's own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX's ray tracing for GTA V Legacy: ray-traced sun shadows, ambient occlusion, global illumination, lamp shadows and reflections, each with its own switch. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.
+FXPT is CoreFX's own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX's hardware ray tracing for GTA V Legacy, DXR on a Direct3D 12 device running beside the game's DirectX 11 renderer: ray-traced sun shadows, ambient occlusion, global illumination, lamp shadows and reflections, each with its own switch. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.
 
 FXPT follows the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing, built on NVIDIA’s research and tech, as our own implementation inside GTA V’s renderer. It is not affiliated with CD Projekt Red or NVIDIA.
 
