@@ -106,7 +106,16 @@
       "CoreFX is made by **βeta**, a Discord community that came together in 2021 around the GTA V moviemaking scene. We have been building it since February 2023: our main developer works from Ukraine, supported by people all around the world. The weather, the shader work, the clouds, FXPT and FXRT are our own, built on open tools like ReShade and RenoDX, and we post what we’re working on as we go.",
       "**Getting it.** Both singleplayer builds, Legacy and Enhanced, are free: join our Patreon on its free tier and open the latest update post. The Legacy FiveM build is on the $5 tier, and the $9 tier gets each update ten days early. No effect is locked behind a tier. [How to download](#download).",
       "**Installing and help.** The [docs](/docs/prerequisites) cover every build, every setting and the [usual problems](/docs/troubleshooting). For anything else, come and ask on our [Discord](https://discord.gg/jK4SRmBqYt): that’s where support and updates live."
-    ]
+    ],
+    "team": {
+      "label": "the team",
+      "aka": "aka",
+      "roles": {
+        "graphics": "graphics development",
+        "research": "research",
+        "movies": "moviemaking"
+      }
+    }
   },
   "other": {
     "label": "beyond corefx",
