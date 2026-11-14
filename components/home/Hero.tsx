@@ -6,7 +6,7 @@ export default function Hero({ t }: { t: Ui['hero'] }) {
     return (
         <section className="relative h-screen">
             <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#0a0a0a] to-transparent pointer-events-none" />
-            <HeroIntro credit={t.credit} name={t.name} line={t.line} parts={t.parts} />
+            <HeroIntro credit={t.credit} name={t.name} line={t.line} parts={t.parts} download={t.download} />
             <a
                 href="#log"
                 aria-label={t.scroll}

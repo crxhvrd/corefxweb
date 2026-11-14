@@ -1,6 +1,10 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import { motion } from 'framer-motion';
+import { ArrowDown } from 'lucide-react';
+import { triggerDownloadModal } from '@/lib/downloadModalEvents';
+import { whenIntroDone } from '@/lib/intro';
 
 type Segment = { text: string; className?: string };
 
@@ -99,7 +103,59 @@ function Caret({ size, blinking }: { size: string; blinking: boolean }) {
     );
 }
 
-export default function HeroIntro({ credit, name, line, parts }: { credit: string; name: string; line: string; parts: string[] }) {
+export type HeroDownload = { label: string; title: string; note: string };
+
+const MORPH = { type: 'spring' as const, stiffness: 220, damping: 28, mass: 0.9 };
+
+/**
+ * One download button with two shapes. While the intro types it is a small button under
+ * the counter; once the intro has erased itself and rests empty it grows into a large
+ * panel where the headline was, and shrinks back when the headline types in again.
+ * The shared layoutId makes it one element morphing, not two swapping.
+ */
+function DownloadMorph({ big, t }: { big: boolean; t: HeroDownload }) {
+    if (big) {
+        return (
+            <motion.button
+                layoutId="hero-download"
+                type="button"
+                onClick={() => triggerDownloadModal()}
+                transition={MORPH}
+                style={{ borderRadius: 14 }}
+                className="pointer-events-auto group text-left border border-white/25 bg-black/40 backdrop-blur-md px-6 py-5 sm:px-8 sm:py-7 hover:border-white/55 hover:bg-black/50 transition-colors"
+            >
+                <motion.span
+                    layout="position"
+                    initial={{ opacity: 0, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.25, duration: 0.4 }}
+                    className="block font-mono text-[11px] sm:text-xs text-white/50 mb-3"
+                >
+                    {t.note}
+                </motion.span>
+                <motion.span layout="position" className="flex items-center gap-4 text-3xl sm:text-5xl font-semibold tracking-tight text-white">
+                    {t.title}
+                    <ArrowDown className="h-7 w-7 sm:h-9 sm:w-9 text-white/70 transition-transform group-hover:translate-y-1" />
+                </motion.span>
+            </motion.button>
+        );
+    }
+    return (
+        <motion.button
+            layoutId="hero-download"
+            type="button"
+            onClick={() => triggerDownloadModal()}
+            transition={MORPH}
+            style={{ borderRadius: 8 }}
+            className="pointer-events-auto group inline-flex items-center gap-2 border border-white/25 bg-black/30 backdrop-blur-sm px-4 py-2 text-sm text-white/90 hover:border-white/60 hover:text-white transition-colors"
+        >
+            <motion.span layout="position">{t.label}</motion.span>
+            <ArrowDown className="h-4 w-4 text-white/70 transition-transform group-hover:translate-y-0.5" />
+        </motion.button>
+    );
+}
+
+export default function HeroIntro({ credit, name, line, parts, download }: { credit: string; name: string; line: string; parts: string[]; download: HeroDownload }) {
     // Typed once on load, then left alone. The name sits on its own line, title-card style.
     const HEADLINE = useMemo<Segment[]>(() => [{ text: name, className: NAME_CLASS }, { text: keepTogether(line), className: LINE_CLASS }], [name, line]);
     // Typed, held, erased, replaced by the next one — forever.
@@ -111,6 +167,8 @@ export default function HeroIntro({ credit, name, line, parts }: { credit: strin
     const [bodyTyped, setBodyTyped] = useState(0);
     const [part, setPart] = useState(0);
     const [resting, setResting] = useState(false);
+    // the whole intro has been erased and the hero rests empty until the next cycle
+    const [idle, setIdle] = useState(false);
 
     useEffect(() => {
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -150,10 +208,13 @@ export default function HeroIntro({ credit, name, line, parts }: { credit: strin
         };
 
         (async () => {
+            await whenIntroDone(); // the opening loader is still covering the page
+            if (cancelled) return;
             await wait(TIMING.start);
             if (cancelled) return;
 
             for (;;) {
+                setIdle(false);
                 if (!(await typeOut(HEADLINE_TEXT, TIMING.headlineSpeed, setHeadTyped))) return;
 
                 for (let index = 0; index < PARTS.length; index++) {
@@ -179,6 +240,7 @@ export default function HeroIntro({ credit, name, line, parts }: { credit: strin
 
                 setPart(0);
                 setResting(true);
+                setIdle(true);
                 await wait(TIMING.gap);
                 if (cancelled) return;
                 setResting(false);
@@ -201,7 +263,7 @@ export default function HeroIntro({ credit, name, line, parts }: { credit: strin
             {/* scrim: darkens the footage where the text sits (bottom left), leaves the rest alone */}
             <div
                 aria-hidden
-                className={`absolute inset-0 bg-[radial-gradient(ellipse_85%_85%_at_0%_100%,rgba(0,0,0,0.75),rgba(0,0,0,0.4)_45%,transparent_78%)] transition-opacity duration-700 ${empty ? 'opacity-40' : 'opacity-100'}`}
+                className={`absolute inset-0 bg-[radial-gradient(ellipse_85%_85%_at_0%_100%,rgba(0,0,0,0.75),rgba(0,0,0,0.4)_45%,transparent_78%)] transition-opacity duration-700 ${empty && !idle ? 'opacity-40' : 'opacity-100'}`}
             />
 
             <div className="animate-fadeUp relative mx-auto w-full max-w-7xl px-5 sm:px-8 pb-24 sm:pb-28">
@@ -247,14 +309,20 @@ export default function HeroIntro({ credit, name, line, parts }: { credit: strin
                             </p>
                         </div>
                     </div>
+
+                    {/* where the headline was: the download panel, while the intro rests empty */}
+                    <div className="absolute inset-0 flex items-start">{idle && <DownloadMorph big t={download} />}</div>
                 </div>
 
-                <p
-                    aria-hidden
-                    className={`mt-6 font-mono text-[11px] text-white/35 transition-opacity duration-500 ${onHeadline ? 'opacity-0' : 'opacity-100'}`}
-                >
-                    {String(part + 1).padStart(2, '0')} / {String(PARTS.length).padStart(2, '0')}
-                </p>
+                <div className="mt-6 flex items-center gap-5 min-h-[2.375rem]">
+                    {!idle && <DownloadMorph big={false} t={download} />}
+                    <p
+                        aria-hidden
+                        className={`font-mono text-[11px] text-white/35 transition-opacity duration-500 ${onHeadline ? 'opacity-0' : 'opacity-100'}`}
+                    >
+                        {String(part + 1).padStart(2, '0')} / {String(PARTS.length).padStart(2, '0')}
+                    </p>
+                </div>
             </div>
         </div>
     );

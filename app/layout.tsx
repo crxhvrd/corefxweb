@@ -7,6 +7,8 @@ import ScrollToTopOnMount from '@/components/ScrollToTopOnMount';
 import DownloadModalRoot from '@/components/DownloadModalRoot';
 import MotionProvider from '@/components/MotionProvider';
 import { HtmlLang, LanguageBanner, SkipLink } from '@/components/SiteChrome';
+import IntroLoader from '@/components/IntroLoader';
+import { INTRO_SKIP_SCRIPT } from '@/lib/intro';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -45,8 +47,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${inter.className} bg-[#0a0a0a] text-white overflow-x-hidden antialiased`}>
+        <script dangerouslySetInnerHTML={{ __html: INTRO_SKIP_SCRIPT }} />
+        <IntroLoader />
         <SkipLink />
         <HtmlLang />
         <ScrollToTopOnMount />

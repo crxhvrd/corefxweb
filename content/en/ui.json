@@ -15,6 +15,11 @@
       "Both singleplayer builds *cost nothing*: join the Patreon on its free tier, open the latest update post, and the links are there. The FiveM build is on the $5 tier. Start from *Download*, up top.",
       "*Documentation* covers install for every platform, *Dev Blog* tracks what changed, and the *Discord* is where support and updates live."
     ],
+    "download": {
+      "label": "Download",
+      "title": "Download CoreFX",
+      "note": "free for singleplayer · legacy + enhanced"
+    },
     "scroll": "Scroll down"
   },
   "log": {

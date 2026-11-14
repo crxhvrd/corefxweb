@@ -191,6 +191,92 @@ body {
   .film-grain, .ambient-in { animation: none; }
 }
 
+/* Opening loader (components/IntroLoader.tsx): the in-game loading screen.
+   Timeline: in 0-0.7s, bar fills by 2.1s, fade out 2.2-2.8s. The orbiting dots are canvas. */
+.intro-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #050608;
+  animation: intro-out 0.6s cubic-bezier(0.4, 0, 0.2, 1) 2.2s forwards;
+}
+html[data-intro='skip'] .intro-loader {
+  display: none;
+}
+.intro-loader__stage {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  display: grid;
+  place-items: center;
+  animation:
+    intro-stage-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both,
+    intro-stage-out 0.6s cubic-bezier(0.4, 0, 0.2, 1) 2.2s forwards;
+}
+.intro-loader__halo {
+  position: absolute;
+  inset: -60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(40, 130, 255, 0.2), rgba(40, 130, 255, 0.05) 40%, transparent 68%);
+  animation: intro-breathe 2.4s ease-in-out infinite;
+}
+.intro-loader__orbits {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 280px;
+  height: 280px;
+  margin: -140px 0 0 -140px;
+  pointer-events: none;
+}
+.intro-loader__beta {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 18px rgba(80, 160, 255, 0.35));
+}
+.intro-loader__bar {
+  margin-top: 36px;
+  width: 120px;
+  height: 1px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  animation: intro-fade 0.5s ease-out 0.3s both;
+}
+.intro-loader__bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(143, 208, 255, 0), #8fd0ff);
+  transform-origin: left;
+  animation: intro-bar 1.8s cubic-bezier(0.6, 0, 0.25, 1) 0.3s both;
+}
+@keyframes intro-out {
+  to { opacity: 0; visibility: hidden; }
+}
+@keyframes intro-stage-in {
+  from { opacity: 0; transform: scale(0.9); filter: blur(4px); }
+}
+@keyframes intro-stage-out {
+  to { transform: scale(1.12); filter: blur(6px); }
+}
+@keyframes intro-fade {
+  from { opacity: 0; }
+}
+@keyframes intro-breathe {
+  0%, 100% { opacity: 0.7; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+@keyframes intro-bar {
+  from { transform: scaleX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-loader { display: none; }
+}
+
 /* Keyboard focus: one clear, quiet ring everywhere */
 :focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.7);
