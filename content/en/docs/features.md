@@ -33,6 +33,8 @@ Our own app for designing clouds, included with CoreFX. Build cloud designs and 
 
 CoreFX's own path tracing. Global illumination replaces the game's baked ambient with traced light that keeps bouncing, so buildings pick up the glow of the streets around them. Lamps near the camera cast their own soft ray-traced shadows, and neon signs, lit windows and car lamps light the walls and roads around them. Reflections are path traced with two bounces. Denoising is NRD on any card, DLSS Ray Reconstruction on RTX cards or FSR Ray Regeneration on Radeon RX 9000 cards. **Performance Mode** makes it cheaper. FXPT is for an RTX 5070 Ti or RX 9070 XT, or better.
 
+It follows the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing (ReSTIR, a radiance cache, path-traced reflections, on NVIDIA’s research and tech), as our own implementation inside GTA V’s renderer. Not affiliated with CD Projekt Red or NVIDIA.
+
 @where Ray Tracing > Ray Tracing: FXPT
 
 ### Denoisers for the game’s own ray tracing {enhanced}

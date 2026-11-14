@@ -45,6 +45,8 @@ CoreFX is loaded, but the game is not drawing with its shaders. In the main menu
 
 FXPT is CoreFX's own path tracing for GTA V Enhanced: path-traced reflections, global illumination, and lamps and glowing surfaces that light the scene. FXRT is CoreFX's ray tracing for GTA V Legacy: ray-traced sun shadows, ambient occlusion, global illumination, lamp shadows and reflections, each with its own switch. Both are picked in the Ray Tracing tab of the CoreFX Addon window, and both are off by default. See Shader Settings for what each needs.
 
+FXPT follows the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing, built on NVIDIA’s research and tech, as our own implementation inside GTA V’s renderer. It is not affiliated with CD Projekt Red or NVIDIA.
+
 ## How do I use DLSS, FSR or XeSS on Legacy?
 
 Open the Image tab of the CoreFX Addon window and set Anti-Aliasing to DLSS, FSR or XeSS. At the game's Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game's TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.

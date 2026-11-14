@@ -39,6 +39,7 @@
         "eyebrow": "enhanced",
         "title": "FXPT",
         "lead": "Our own path tracer for GTA V Enhanced. Light from the sun, the sky, lamps, signs and windows is traced and keeps bouncing, so the city is lit by what is actually in it. Reflections are path traced too.",
+        "basis": "Built on the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing: ReSTIR for direct light and GI, a radiance cache and path-traced reflections, on NVIDIA’s research and tech (ReSTIR, NRD, DLSS Ray Reconstruction; FSR Ray Regeneration on AMD). It’s our own implementation inside GTA V’s renderer.",
         "note": "Off by default. It is heavy: we made it for an RTX 5070 Ti or RX 9070 XT and up."
       },
       "clouds": {

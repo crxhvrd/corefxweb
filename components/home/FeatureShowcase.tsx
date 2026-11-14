@@ -89,6 +89,7 @@ function FeatureBlock({ b, t, flip }: { b: Block; t: WorkText; flip: boolean }) 
                     <p className="font-mono text-xs text-white/40 mb-3">{words.eyebrow}</p>
                     <h3 className="text-2xl sm:text-3xl font-medium tracking-tight mb-4">{words.title}</h3>
                     <p className="text-white/70 leading-relaxed mb-4">{words.lead}</p>
+                    {'basis' in words && <p className="text-sm text-white/55 leading-relaxed mb-4">{words.basis}</p>}
                     <p className="text-sm text-white/45">{words.note}</p>
                 </div>
 
