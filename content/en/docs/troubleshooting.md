@@ -56,6 +56,7 @@ The **Running now** line under Anti-Aliasing says what actually drew the last fr
 ## Frame generation doesn't start (Legacy)
 
 - Set the game's **Screen Type** to **Windowed Borderless**. Exclusive fullscreen does not work with it.
+- If the menu says the swap chain **could not be made**, turn off Windows 11's **Optimizations for windowed games** (Windows Settings > System > Display > Graphics > Advanced graphics settings, or just for GTA5.exe in the app list there) and restart the game.
 - **NVIDIA DLSS** frame generation needs an RTX 40 series card or newer and a recent driver. AMD FSR and Intel XeSS run on any recent card.
 - **Intel XeSS** frame generation does not run while RivaTuner Statistics Server (RTSS, also part of MSI Afterburner) is running: its overlay crashes the game over it. Close RTSS, or use AMD FSR frame generation, which works with it.
 - It pauses while the menu is open, and it needs the ReShade that comes with CoreFX (see the next item).
