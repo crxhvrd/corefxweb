@@ -17,21 +17,21 @@ The sky is worked out from how sunlight scatters through the air, with a soft gl
 
 ### Volumetric clouds {legacy, enhanced}
 
-Real 3D clouds, raymarched as volumes instead of painted on a flat sky. Sunlight is marched through each cloud, so edges glow and the shaded sides fall away. They cast shadows on the ground, send godrays through the gaps, light up with lightning and show in reflections. Each weather has its own designs, and **Cloud Performance Mode** makes them cheaper.
+Real 3D clouds, raymarched as volumes instead of painted on a flat sky. Sunlight is marched through each cloud, so edges glow and the shaded sides fall away. They cast shadows on the ground, send godrays through the gaps, light up with lightning and show in reflections. Each weather has its own designs, and **Performance Mode** makes them cheaper.
 
-@where World > Sky
+@where Sky > Volumetric Clouds
 
 ### CloudBuilder {legacy, enhanced}
 
 Our own app for designing clouds, included with CoreFX. Build cloud designs and setups, choose which weather uses what, preview them at any time of day, and install a pack into the game with one click. A running game shows changed setups at once.
 
-@where CoreFX\CloudBuilder\CloudBuilder.exe, then World > Sky > Cloud Pack
+@where CoreFX\CloudBuilder\CloudBuilder.exe, then Sky > Volumetric Clouds > Cloud Pack
 
 ## Ray tracing
 
 ### FXPT path tracing {enhanced}
 
-CoreFX's own path tracing. Global illumination replaces the game's baked ambient with traced light that keeps bouncing, so buildings pick up the glow of the streets around them. Lamps near the camera cast their own soft ray-traced shadows, and neon signs, lit windows and car lamps light the walls and roads around them. Reflections are path traced with two bounces. Denoising is NRD on any card, DLSS Ray Reconstruction on RTX cards or FSR Ray Regeneration on Radeon RX 9000 cards. **Performance Mode** makes it cheaper. FXPT is for an RTX 5070 Ti or RX 9070 XT, or better.
+CoreFX's own path tracing. Global illumination replaces the game's baked ambient with traced light that keeps bouncing, so buildings pick up the glow of the streets around them. Lamps near the camera cast their own soft ray-traced shadows, and neon signs, lit windows and car lamps light the walls and roads around them. Reflections are path traced with two bounces. Denoising is NRD on any card, DLSS Ray Reconstruction on RTX cards or FSR Ray Regeneration on Radeon RX 9000 cards. **Performance Mode** makes it cheaper. FXPT is for an RTX 5070 Ti or RX 9070 XT, or better, with every in-game ray tracing option at its highest.
 
 It follows the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing (ReSTIR, a radiance cache, path-traced reflections, on NVIDIA’s research and tech), as our own implementation inside GTA V’s renderer. Not affiliated with CD Projekt Red or NVIDIA.
 
@@ -55,13 +55,13 @@ Real hardware ray tracing for a game that never had it, run against the actual s
 
 Modern anti-aliasing for Legacy: our own TAA on any card, NVIDIA DLSS, AMD FSR 3.1 and Intel XeSS. At full resolution DLSS, FSR and XeSS anti-alias the image (DLAA, FSR Native AA, XeSS Native AA); with the game's Frame Scaling below 1.000 they upscale. Foliage and other fine detail stop breaking up into jagged pixels. On Enhanced, anti-aliasing and upscaling stay in the game's own settings.
 
-@where Image > Anti-Aliasing
+@where Upscaling > Anti-Aliasing
 
 ### Frame generation and low latency {legacy}
 
 A generated frame between each two the game renders: AMD FSR, Intel XeSS with XeLL, or NVIDIA DLSS on RTX 40 series and newer (up to four frames shown per rendered one on RTX 50). **Low Latency** turns on NVIDIA Reflex or AMD Anti-Lag 2 for less input lag. On Enhanced, frame generation is the game's own setting.
 
-@where Image > Frame Generation, Low Latency
+@where Upscaling > Frame Generation
 
 ## Effects
 
@@ -75,13 +75,13 @@ A real-time simulation replaces the game's flat smoke sprites near the camera. S
 
 Water, puddles, vehicles and every other reflective surface reflect what is actually on screen, not just the game's blurry reflection map: sharp on glossy surfaces, softer on rough ones. On Enhanced they run while the game's ray-traced reflections are off. Legacy adds **Wet Surfaces**: darker, glossier roads in the rain.
 
-@where Image > Reflections
+@where Reflections
 
 ### Motion blur {legacy, enhanced}
 
 A dedicated wheel blur follows each wheel's rotation, so at speed it reads as a spinning disc instead of a frozen rim. On Legacy, cars and people blur with their own movement, not just the camera's. On Enhanced the blur runs at full resolution.
 
-@where Image > Motion Blur, Vehicles & Peds > Wheel Motion Blur
+@where Camera > Motion Blur, Vehicles & Peds > Wheel Motion Blur
 
 ### Contact shadows {legacy, enhanced}
 
@@ -93,7 +93,7 @@ A dedicated wheel blur follows each wheel's rotation, so at speed it reads as a 
 
 Raindrops on the lens, as realistic droplets or big out-of-focus discs; lens ghosts and a halo ring around bright lights in the bloom; procedural coronas around lamps.
 
-@where World > Screen Raindrops, Lighting > Bloom, Corona
+@where Camera > Screen Raindrops, Camera > Lens Flares, Lighting > Corona
 
 ### Road detail {legacy, enhanced}
 
@@ -113,7 +113,7 @@ Roads get extra fine detail, parallax relief, gloss variation and cleaner colour
 
 One brightness for every glowing part of a car, plus its own slider for headlights, taillights, indicators, brake lights, reverse lights, full beam, signs and sirens.
 
-@where Vehicles & Peds > Vehicle Emissives
+@where Vehicles & Peds > Vehicle Lights
 
 ### Streetlights {legacy, enhanced}
 

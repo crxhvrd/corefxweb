@@ -18,7 +18,7 @@ layout: sections
 
 - Мінімум для трасування променів: NVIDIA GeForce RTX 3060 або AMD Radeon RX 6600 XT
 - Рекомендовано для трасування променів: NVIDIA GeForce RTX 4060 Ti або AMD Radeon RX 7700 XT
-- FXPT (трасування шляхів): NVIDIA GeForce RTX 5070 Ti або AMD Radeon RX 9070 XT чи потужніша.
+- FXPT (трасування шляхів): NVIDIA GeForce RTX 5070 Ti або AMD Radeon RX 9070 XT чи потужніша, з усіма налаштуваннями трасування променів у графіці гри на максимумі.
 
 ## HDR (необов’язково, Legacy та Enhanced)
 

@@ -7,7 +7,7 @@ The ones that come up most on our Discord. Something broken? Try [Troubleshootin
 
 ## I don't like blur when moving camera (motion blur). How can I disable it?
 
-For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Image > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, turn Motion Blur Strength down in your GTA 5 graphics settings, or set Image > Motion Blur Strength to 0 in the CoreFX Addon window.
+For Legacy builds, open the ReShade menu with Page Up, go to the CoreFX Addon window, and turn off Camera > Motion Blur (there is also a Blur Intensity slider next to it). For Enhanced builds, turn Motion Blur Strength down in your GTA 5 graphics settings, or set Camera > Motion Blur Strength to 0 in the CoreFX Addon window.
 
 ## Can I use other mods with CoreFX?
 
@@ -23,7 +23,7 @@ On our Discord: the link is at the top of every page. Updates are posted there f
 
 ## In Rockstar Editor, my recorded clips show a blurred screen when moving. What causes this?
 
-This is caused by in-game motion blur. For Legacy builds, disable it in the CoreFX Addon menu under Image > Motion Blur. For Enhanced builds, turn off motion blur in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred. If you spend a lot of time in the editor, Rockstar Editor+ (linked as an optional in the installer) adds a spline camera, camera shake, and removes several of the editor’s built-in limits.
+This is caused by in-game motion blur. For Legacy builds, disable it in the CoreFX Addon menu under Camera > Motion Blur. For Enhanced builds, turn off motion blur in GTA 5 graphics settings. Important: You must record new clips after disabling it; previously recorded clips will remain blurred. If you spend a lot of time in the editor, Rockstar Editor+ (linked as an optional in the installer) adds a spline camera, camera shake, and removes several of the editor’s built-in limits.
 
 ## Does CoreFX run on FiveM servers with Pure Mode enabled?
 
@@ -49,11 +49,11 @@ FXPT follows the same recipe as Cyberpunk 2077’s RT: Overdrive path tracing, b
 
 ## How do I use DLSS, FSR or XeSS on Legacy?
 
-Open the Image tab of the CoreFX Addon window and set Anti-Aliasing to DLSS, FSR or XeSS. At the game's Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game's TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.
+Open the Upscaling tab of the CoreFX Addon window and set Anti-Aliasing to DLSS, FSR or XeSS. At the game's Frame Scaling 1.000 they anti-alias at full size; below it they upscale. Turn off the game's TXAA and FXAA, and turn MSAA off to upscale. The Running now line in that card shows what is actually drawing the frame.
 
 ## Does Legacy have frame generation?
 
-Yes: AMD FSR, Intel XeSS or NVIDIA DLSS (RTX 40 series and newer), under Image > Frame Generation in the CoreFX Addon window. Set the game's Screen Type to Windowed Borderless. Low Latency next to it turns on NVIDIA Reflex or AMD Anti-Lag 2. On Enhanced, frame generation is in the game's own graphics settings.
+Yes: AMD FSR, Intel XeSS or NVIDIA DLSS (RTX 40 series and newer), under Upscaling > Frame Generation in the CoreFX Addon window. Set the game's Screen Type to Windowed Borderless. Low Latency next to it turns on NVIDIA Reflex or AMD Anti-Lag 2. On Enhanced, frame generation is in the game's own graphics settings.
 
 ## Something is wrong. Where do I start?
 
@@ -61,4 +61,4 @@ The Troubleshooting section of these docs is sorted by what you see, and it expl
 
 ## Can I change the clouds?
 
-Yes. CloudBuilder comes with CoreFX, in the CoreFX\CloudBuilder folder. Make your own clouds there, install them into the game with one click, and pick them under World > Sky > Cloud Pack in the CoreFX Addon window.
+Yes. CloudBuilder comes with CoreFX, in the CoreFX\CloudBuilder folder. Make your own clouds there, install them into the game with one click, and pick them under Sky > Volumetric Clouds > Cloud Pack in the CoreFX Addon window.

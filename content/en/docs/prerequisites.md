@@ -18,7 +18,7 @@ Before installing and using CoreFX, please ensure your system meets these requir
 
 - Ray Tracing Minimum: NVIDIA GeForce RTX 3060 or AMD Radeon RX 6600 XT
 - Ray Tracing Recommended: NVIDIA GeForce RTX 4060 Ti or AMD Radeon RX 7700 XT
-- FXPT (path tracing): NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.
+- FXPT (path tracing): NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better, with every ray tracing option in the game's graphics settings at its highest.
 
 ## HDR (Optional, Legacy & Enhanced)
 

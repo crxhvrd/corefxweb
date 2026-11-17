@@ -18,7 +18,7 @@ layout: sections
 
 - Минимум для трассировки лучей: NVIDIA GeForce RTX 3060 или AMD Radeon RX 6600 XT
 - Рекомендуется для трассировки лучей: NVIDIA GeForce RTX 4060 Ti или AMD Radeon RX 7700 XT
-- FXPT (трассировка путей): NVIDIA GeForce RTX 5070 Ti или AMD Radeon RX 9070 XT либо мощнее.
+- FXPT (трассировка путей): NVIDIA GeForce RTX 5070 Ti или AMD Radeon RX 9070 XT либо мощнее, со всеми настройками трассировки лучей в графике игры на максимуме.
 
 ## HDR (необязательно, Legacy и Enhanced)
 

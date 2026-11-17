@@ -13,28 +13,31 @@ Every CoreFX effect is toggled and tuned from one place: the **CoreFX Addon** wi
 
 ## Legacy — what's in the menu
 
-Applies to Legacy Singleplayer and Legacy FiveM. The menu has seven tabs.
+Applies to Legacy Singleplayer and Legacy FiveM. The menu has ten tabs.
 - **Ray Tracing** — Ray Tracing: **Vanilla** or **FXRT**, a switch for each part of FXRT, and Performance Mode. See **FXRT** below.
-- **World** — Volumetric Clouds, Godrays, Lightning & Bolts, Cloud Performance Mode (cheaper cloud rendering), Cloud Pack and Cloud Variation; Screen Raindrops and a defocused style for them; Texture Detail; and Volumetric Smoke with its shape and light settings.
-- **Vehicles & Peds** — Vehicle Paint RGB Fixes (paint comes out as the colour you picked in the RGB picker, instead of the game's far brighter version), vehicle raindrops, metallic flakes, orange peel, Wheel Motion Blur, and Vehicle Emissives: an overall emissive brightness slider plus per-type sliders for headlights, taillights, indicators, brake lights, reverse lights, full beam, signs and sirens. Also ped and weapon raindrops.
-- **Lighting** — coronas; streetlight recolouring with lamp and shaft/fog strength and colour, three configurable colour bands, and Streetlight Specular (the streak a lamp leaves on the road, sharper and brighter when it is wet); Detail Shadows and Sun Contact Shadows; lens ghosts and lens halo.
-- **Image** — Anti-Aliasing, Frame Generation and Low Latency (see **Anti-aliasing and upscaling** and **Frame generation** below); Screen-Space Reflections and wet surfaces; motion blur with an intensity slider.
+- **Upscaling** — Anti-Aliasing, and Frame Generation with Low Latency (see **Anti-aliasing and upscaling** and **Frame generation** below).
+- **Reflections** — Screen-Space Reflections and Wet Surfaces.
+- **Vehicles & Peds** — Vehicle Paint RGB Fixes (paint comes out as the colour you picked in the RGB picker, instead of the game's far brighter version), vehicle raindrops, metallic flakes, orange peel, Wheel Motion Blur, and Vehicle Lights: an overall emissive brightness slider plus per-type sliders for headlights, taillights, indicators, brake lights, reverse lights, full beam, signs and sirens. Also ped and weapon raindrops.
+- **Lighting** — coronas; streetlight recolouring with lamp and shaft/fog strength and colour, three configurable colour bands, and Streetlight Specular (the streak a lamp leaves on the road, sharper and brighter when it is wet); Detail Shadows and Sun Contact Shadows.
+- **Sky** — Volumetric Clouds with their Performance Mode (cheaper cloud rendering), Cloud Pack and Cloud Variation; Godrays and Lightning & Bolts.
+- **World** — Texture Detail, and Volumetric Smoke with its shape and light settings.
+- **Camera** — Motion Blur with an intensity slider; Lens Flares (lens ghosts and a halo); Screen Raindrops and a defocused style for them.
 - **HDR** — see below.
 - **Options** — hide the on-screen warnings; Video Memory, with Fit Texture Budget to VRAM (see **Performance and video memory** below).
 
 ## Enhanced — what's in the menu
 
-The same seven tabs. These are the differences from Legacy.
+The same tabs except Upscaling: nine. These are the differences from Legacy.
 - **Ray Tracing** — Ray Tracing: **Vanilla** or **FXPT**, the Denoiser for each, Performance Mode and the Ray Reconstruction Model. See **FXPT** below.
-- **World** — as Legacy.
+- **Reflections** — Screen-Space Reflections, which run while the game's ray-traced reflections are off. There are no Wet Surfaces here.
 - **Lighting** — as Legacy. Streetlight Specular needs FXPT here.
-- **Image** — Motion Blur Strength, which multiplies the game's own motion blur (0 turns it off), and Screen-Space Reflections, which run while the game's ray-traced reflections are off. Anti-aliasing and upscaling stay in the game's graphics settings.
-- **Vehicles & Peds** and **HDR** — same as Legacy.
+- **Camera** — Motion Blur Strength, which multiplies the game's own motion blur (0 turns it off), and the lens flares and screen raindrops as on Legacy. Anti-aliasing and upscaling stay in the game's graphics settings.
+- **Sky**, **World**, **Vehicles & Peds** and **HDR** — as Legacy.
 - **Options** — hide the on-screen warnings, and the Video Memory meter. Enhanced has no texture budget setting: the game sizes it from your card by itself.
 
 ## FXPT (Enhanced)
 
-FXPT is CoreFX's own path tracing. Set **Ray Tracing** to **FXPT** in the Ray Tracing tab, with ray tracing on in the game's graphics settings. **Vanilla**, the default, keeps the game's own ray tracing. FXPT is for an NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.
+FXPT is CoreFX's own path tracing. Set **Ray Tracing** to **FXPT** in the Ray Tracing tab. FXPT needs every ray tracing option in the game's graphics settings at its highest: ray tracing on, ray-traced shadows, reflections, ambient occlusion and global illumination at their top quality, and full-resolution reflections, the second bounce and character shadows on. That is what it is built and tested with; at lower settings parts of it run as the game's own ray tracing. **Vanilla**, the default, keeps the game's own ray tracing. FXPT is for an NVIDIA GeForce RTX 5070 Ti or AMD Radeon RX 9070 XT, or better.
 - Reflections are path traced with two bounces.
 - Global illumination replaces the game's baked ambient, with light that keeps bouncing.
 - Lamps near the camera cast soft ray-traced shadows, and neon signs, lit windows and vehicle lamps light what is around them.
@@ -50,15 +53,16 @@ If Ray Reconstruction or Ray Regeneration cannot start, NRD denoises instead unt
 ## FXRT (Legacy)
 
 FXRT is real hardware ray tracing (DXR) for Legacy, against the actual scene geometry rather than what is on screen. It runs on a Direct3D 12 device beside the game's DirectX 11 renderer. Set **Ray Tracing** to **FXRT** in the Ray Tracing tab. **Vanilla**, the default, keeps the game's own shadows and lighting.
-- Each part has its own switch below it, all on by default: **Sun Shadows** (the sun's and the moon's, in place of the game's shadow maps), **Ambient Occlusion**, **Global Illumination** (bounce light from lit walls and ground), **Lamp Shadows** (street lamps and the other shadow-casting lights) and **RT Reflections** on glossy surfaces such as cars, wet roads and polished floors. Switching a part off gives you the game's own version of it.
-- RT Reflections need Global Illumination on. Indoors the game's own ambient occlusion and ambient light stay.
+- Each part has its own switch below it, all on by default: **Sun Shadows** (the sun's and the moon's, in place of the game's shadow maps), **Ambient Occlusion**, **Global Illumination** (bounce light from lit walls and ground), **Lamp Shadows** (street lamps and the other shadow-casting lights) and **Reflections** on glossy surfaces such as cars, wet roads and polished floors. Switching a part off gives you the game's own version of it.
+- Cars, people, trees and objects whose textures the reflections don't have yet show black in them, not as ghostly shapes from the game's reflection map.
+- Reflections need Global Illumination on, and the game's Reflection MSAA off. Indoors the game's own ambient occlusion and ambient light stay.
 - **Performance Mode** makes FXRT cheaper at a small cost in detail: the global illumination is traced on half the pixels each frame, rays are shorter, and only the lamps the game made shadow-casting cast ray-traced shadows, which saves the most at night. It applies at once.
 - NRD does the denoising.
 - It needs hardware ray tracing: NVIDIA RTX or Radeon RX 6000 and newer, with an up-to-date driver.
 
 ## Anti-aliasing and upscaling (Legacy)
 
-**Anti-Aliasing** in the Image tab picks one of five. Each keeps its own settings, which show only while it is picked.
+**Anti-Aliasing** in the Upscaling tab picks one of five. Each keeps its own settings, which show only while it is picked.
 - **Off**.
 - **TAA** — CoreFX's own, on any card, with Strength and Sharpness sliders.
 - **DLSS** — NVIDIA RTX cards and a recent driver. **Preset** picks the network: K is the default and the cheapest of the modern ones, L and M are newer and sharper and use more video memory.
@@ -73,7 +77,7 @@ The **Running now** line under Anti-Aliasing shows what actually drew the last f
 
 ## Frame generation and low latency (Legacy)
 
-**Frame Generation** in the Image tab makes a frame between each two the game renders, so about twice as many reach the screen. It works with every anti-aliasing choice.
+**Frame Generation** in the Upscaling tab makes a frame between each two the game renders, so about twice as many reach the screen. It works with every anti-aliasing choice.
 - **AMD FSR** — any recent card. Keeps the HUD out of the made frames (not in HDR).
 - **Intel XeSS** — any recent card, with Intel's XeLL latency reduction, which comes on with it. It does not run while RivaTuner Statistics Server (RTSS) is running.
 - **NVIDIA DLSS** — RTX 40 series and newer. On an RTX 50, **Frames Shown** goes up to 4x.
@@ -90,7 +94,7 @@ Frame generation needs the game's **Screen Type** set to **Windowed Borderless**
 
 ## Clouds and CloudBuilder
 
-**World > Sky** holds the clouds' settings. **Cloud Pack** picks a set of clouds: **CoreFX** is the one that ships, and packs you install show up there. **Cloud Variation** leaves each weather to its own clouds (**By weather**), or forces one setup in every weather.
+**Sky > Volumetric Clouds** holds the clouds' settings. **Cloud Pack** picks a set of clouds: **CoreFX** is the one that ships, and packs you install show up there. **Cloud Variation** leaves each weather to its own clouds (**By weather**), or forces one setup in every weather.
 
 **CloudBuilder** is our app for making clouds, and it comes with CoreFX. Start `CloudBuilder.exe` from the `CoreFX\CloudBuilder` folder beside the game, or `plugins\CoreFX\CloudBuilder` on FiveM. It needs Windows 10 or 11 and a DirectX 12 graphics card.
 - A **design** is a kind of cloud. It is baked for the game, so changing one takes a bake.
@@ -125,6 +129,6 @@ While HDR is inactive these settings have no effect, and CoreFX runs as the stan
 - **"CoreFX: DLSS Frame Generation conflicts with HDR"** (Enhanced only) — CoreFX HDR and DLSS Frame Generation are both on, so the picture stops updating. Install RenoDX's [DLSS fix addon](https://github.com/clshortfuse/renodx/releases/download/snapshot/renodx-dlssfix.addon64) beside the game executable, or turn one of the two off: Frame Generation in the game's graphics settings, or HDR Mode in the CoreFX Addon (then restart).
 - **"CoreFX: ray tracing is partly running on the game's own shaders"** (Enhanced only) — FXPT is on, but CoreFX has no version of some shaders the game is using, on a graphics card or in-game ray tracing setting it does not support yet. Those parts run as the game's own. Set Ray Tracing to Vanilla to remove it.
 
-CoreFX has a few more notices: another ReShade, weather files that are not CoreFX's, a camera it cannot read, the game's MSAA together with its anti-aliasing, and the Singleplayer add-on in FiveM. **Troubleshooting** goes through each of them.
+CoreFX has a few more notices: another ReShade, weather files that are not CoreFX's, a camera it cannot read, the game's MSAA together with its anti-aliasing, the game's Reflection MSAA with FXRT's Reflections, and the Singleplayer add-on in FiveM. **Troubleshooting** goes through each of them.
 
 **Hide on-screen warnings** in the **Options** tab silences them permanently, though it is worth fixing the cause first. It changes nothing about how CoreFX renders. The settings warning cannot be hidden, because that toggle lives in the settings that failed to load.

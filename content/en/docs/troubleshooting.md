@@ -34,12 +34,12 @@ Still stuck? Ask on our [Discord](https://discord.gg/jK4SRmBqYt) and bring what 
 - **Legacy:** turn off the game's MSAA, TXAA and FXAA and let CoreFX's Anti-Aliasing do the job. MSAA on top of TAA, DLSS, FSR or XeSS makes the whole picture blurry on some PCs; CoreFX shows a short notice when it sees the two together.
 - Raise the **Sharpness** under Anti-Aliasing, or try another DLSS **Preset**.
 - If the game's Frame Scaling is below 1.000, the image is upscaled. Texture sharpness for a new Frame Scaling only applies after a restart.
-- Don't like motion blur? Image > Motion Blur in the menu (on Enhanced, Motion Blur Strength to 0 or the game's own setting).
+- Don't like motion blur? Camera > Motion Blur in the menu (on Enhanced, Motion Blur Strength to 0 or the game's own setting).
 
 ## Low frame rate, or it drops and stays down
 
 - Every setting in the menu shows its cost: Free, Low, Medium, High, Extreme, or Saves for the ones that make the game faster. Start with the High and Extreme ones: Ray Tracing (FXRT, FXPT), Volumetric Clouds and Volumetric Smoke.
-- Turn on **Performance Mode** in the Ray Tracing tab and **Cloud Performance Mode** in World > Sky.
+- Turn on **Performance Mode** in the Ray Tracing tab and **Performance Mode** in Sky > Volumetric Clouds.
 - **Options > Video Memory** shows how much video memory the game is using. If it says the game is over its budget, the frame rate suffers until memory is freed: lower texture settings or turn features off.
 - **Legacy:** keep **Fit Texture Budget to VRAM** on (the default). It stops the game's textures and CoreFX together from overflowing the card, which is what makes the frame rate fall and never recover. On a 4 GB card it means FiveM's Extended Texture Budget slider has no effect.
 - **Low Latency** costs frames in this game: about a sixth fewer for about a third less lag. Leave it off if frame rate matters more.
@@ -67,7 +67,8 @@ CoreFX is running inside a ReShade it does not come with, usually one installed 
 ## FXRT, FXPT or a denoiser doesn't start
 
 - **"CoreFX: FXRT could not start"** (Legacy) — the notice says why. FXRT needs hardware ray tracing (NVIDIA RTX, or Radeon RX 6000 and newer) and an up-to-date driver. Until then the game's own lighting is used; set Ray Tracing to Vanilla to remove the notice.
-- **FXPT** (Enhanced) needs ray tracing turned on in the game's graphics settings.
+- **"CoreFX: turn off Reflection MSAA for ray-traced Reflections"** (Legacy) — FXRT's Reflections are on, and so is the game's Reflection MSAA. With it on they can't use the game's reflection map, so much of what they show turns grey, almost black and white. Turn Reflection MSAA off in the game's Settings > Graphics: it only smooths the game's own reflection map, which FXRT replaces.
+- **FXPT** (Enhanced) needs ray tracing on and every ray tracing option in the game's graphics settings at its highest. At lower settings parts of it run as the game's own.
 - **Ray Reconstruction** needs an RTX card and DLSS selected in the game's graphics settings. **FSR Ray Regeneration** needs a Radeon RX 9000 card on Windows 11. If either cannot start, NRD denoises instead until the game restarts, and the menu says so.
 - **"CoreFX: ray tracing is partly running on the game's own shaders"** (Enhanced) — FXPT is on, but your graphics card or in-game ray tracing setting uses some shaders CoreFX has no version of yet. Those parts run as the game's own. Set Ray Tracing to Vanilla to remove it.
 

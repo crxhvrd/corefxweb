@@ -46,7 +46,7 @@ Once extracted, the `CoreFX` folder contains two folders named after where their
 1. When the game starts, ReShade shows a short banner at the top of the screen.
 2. **Page Up** opens the ReShade overlay with the **CoreFX Addon** window in it.
 3. Once you are in the game world, no orange *CoreFX:* notice stays on screen. If one does, the **Troubleshooting** section explains it.
-4. Image > Anti-Aliasing: the **Running now** line says what draws the frame. With FXRT on, the Ray Tracing tab shows no FXRT notice.
+4. Upscaling > Anti-Aliasing: the **Running now** line says what draws the frame. With FXRT on, the Ray Tracing tab shows no FXRT notice.
 5. With HDR on, the HDR tab says **HDR is ACTIVE**.
 6. In FiveM, check on a server you know runs without its own weather resource: a server's weather files can replace CoreFX's.
 

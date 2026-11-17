@@ -7,7 +7,7 @@ layout: faq
 
 ## Мені не подобається розмиття під час руху камери (motion blur). Як його вимкнути?
 
-У збірках Legacy відкрийте меню ReShade клавішею Page Up, перейдіть у вікно CoreFX Addon і вимкніть Image > Motion Blur (поруч є й повзунок Blur Intensity). У збірках Enhanced зменште Motion Blur Strength у графічних налаштуваннях GTA 5 або виставте Image > Motion Blur Strength на 0 у вікні CoreFX Addon.
+У збірках Legacy відкрийте меню ReShade клавішею Page Up, перейдіть у вікно CoreFX Addon і вимкніть Camera > Motion Blur (поруч є й повзунок Blur Intensity). У збірках Enhanced зменште Motion Blur Strength у графічних налаштуваннях GTA 5 або виставте Camera > Motion Blur Strength на 0 у вікні CoreFX Addon.
 
 ## Чи можна використовувати інші моди разом із CoreFX?
 
@@ -23,7 +23,7 @@ layout: faq
 
 ## У Rockstar Editor мої записані кліпи розмиті під час руху. Чому?
 
-Це розмиття в русі в грі. У збірках Legacy вимкніть його в меню CoreFX Addon у Image > Motion Blur. У збірках Enhanced вимкніть розмиття в русі в графічних налаштуваннях GTA 5. Важливо: після вимкнення потрібно записати нові кліпи — раніше записані залишаться розмитими. Якщо ви багато часу проводите в редакторі, Rockstar Editor+ (посилання на нього є серед додаткових компонентів встановлювача) додає камеру по сплайну, тряску камери й прибирає кілька вбудованих обмежень редактора.
+Це розмиття в русі в грі. У збірках Legacy вимкніть його в меню CoreFX Addon у Camera > Motion Blur. У збірках Enhanced вимкніть розмиття в русі в графічних налаштуваннях GTA 5. Важливо: після вимкнення потрібно записати нові кліпи — раніше записані залишаться розмитими. Якщо ви багато часу проводите в редакторі, Rockstar Editor+ (посилання на нього є серед додаткових компонентів встановлювача) додає камеру по сплайну, тряску камери й прибирає кілька вбудованих обмежень редактора.
 
 ## Чи працює CoreFX на серверах FiveM з увімкненим Pure Mode?
 
@@ -49,11 +49,11 @@ FXPT побудований за тим самим рецептом, що й т�
 
 ## Як використовувати DLSS, FSR чи XeSS у Legacy?
 
-Відкрийте вкладку Image у вікні CoreFX Addon і виставте Anti-Aliasing на DLSS, FSR або XeSS. Коли Frame Scaling у грі 1.000, вони згладжують у повній роздільності; нижче — масштабують. Вимкніть TXAA і FXAA в грі, а для апскейлінгу — й MSAA. Рядок Running now у цій картці показує, що насправді малює кадр.
+Відкрийте вкладку Upscaling у вікні CoreFX Addon і виставте Anti-Aliasing на DLSS, FSR або XeSS. Коли Frame Scaling у грі 1.000, вони згладжують у повній роздільності; нижче — масштабують. Вимкніть TXAA і FXAA в грі, а для апскейлінгу — й MSAA. Рядок Running now у цій картці показує, що насправді малює кадр.
 
 ## Чи є в Legacy генерація кадрів?
 
-Так: AMD FSR, Intel XeSS або NVIDIA DLSS (RTX 40-ї серії й новіші), в Image > Frame Generation у вікні CoreFX Addon. Виставте Screen Type у грі на Windowed Borderless. Low Latency поруч вмикає NVIDIA Reflex або AMD Anti-Lag 2. В Enhanced генерація кадрів — у власних графічних налаштуваннях гри.
+Так: AMD FSR, Intel XeSS або NVIDIA DLSS (RTX 40-ї серії й новіші), в Upscaling > Frame Generation у вікні CoreFX Addon. Виставте Screen Type у грі на Windowed Borderless. Low Latency поруч вмикає NVIDIA Reflex або AMD Anti-Lag 2. В Enhanced генерація кадрів — у власних графічних налаштуваннях гри.
 
 ## Щось не так. З чого почати?
 
@@ -61,4 +61,4 @@ FXPT побудований за тим самим рецептом, що й т�
 
 ## Чи можна змінити хмари?
 
-Так. CloudBuilder іде з CoreFX, у папці CoreFX\CloudBuilder. Створюйте там власні хмари, встановлюйте їх у гру одним кліком і обирайте в World > Sky > Cloud Pack у вікні CoreFX Addon.
+Так. CloudBuilder іде з CoreFX, у папці CoreFX\CloudBuilder. Створюйте там власні хмари, встановлюйте їх у гру одним кліком і обирайте в Sky > Volumetric Clouds > Cloud Pack у вікні CoreFX Addon.
