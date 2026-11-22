@@ -1,12 +1,21 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 export default function VideoBackground() {
   const [blur, setBlur] = useState(0);
+  // The loop opens on a fade from black, so a poster would flash before it: shown only where autoplay is refused.
+  const [showPoster, setShowPoster] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const pathname = usePathname();
   const enableScrollBlur = pathname === '/';
+
+  useEffect(() => {
+    videoRef.current?.play()?.catch((error: DOMException) => {
+      if (error.name === 'NotAllowedError') setShowPoster(true);
+    });
+  }, []);
 
   useEffect(() => {
     if (!enableScrollBlur) {
@@ -46,7 +55,7 @@ export default function VideoBackground() {
   }, [enableScrollBlur]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden bg-black">
       <div
         className="absolute inset-0 bg-black/10 z-10"
         style={{
@@ -56,16 +65,18 @@ export default function VideoBackground() {
       ></div>
 
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
         preload="metadata"
-        poster="/videos/corefx-poster.jpg"
+        poster={showPoster ? '/videos/corefx-poster.jpg' : undefined}
         className="absolute w-full h-full object-cover z-0"
-        style={{ filter: 'brightness(1.15)' }}
       >
-        <source src="/videos/corefx.mp4" type="video/mp4" />
+        <source src="/videos/corefx-loop-720.mp4" type='video/mp4; codecs="avc1.64001f"' media="(max-width: 767px)" />
+        <source src="/videos/corefx-loop-1080.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"' />
+        <source src="/videos/corefx-loop-1080.mp4" type='video/mp4; codecs="avc1.640028"' />
       </video>
     </div>
   );
