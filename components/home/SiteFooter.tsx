@@ -63,6 +63,7 @@ export default function SiteFooter() {
                     </p>
                     <p>{f.copyright}</p>
                     <p>{rich(f.madeBy, { locale, linkClass: FOOTER_LINK })}</p>
+                    <p>{rich(f.videoBy, { locale, linkClass: FOOTER_LINK })}</p>
                 </div>
                 {groups.map((g) => (
                     <div key={g.title}>
